@@ -1,0 +1,35 @@
+{
+  "grade": "小学英语",
+  "lessons": [
+    {
+      "id": "english-my-family",
+      "title": "My Family",
+      "category": "日常",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Hello, my name is Tom. I am a student. I have a happy family.\n\nThere are four people in my family. My father is a doctor. He is tall and strong. My mother is a teacher. She is very kind. I have a little sister. Her name is Lily. She is cute and lovely.\n\nI love my family very much. We are happy every day.",
+      "characterCount": 261,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-my-day",
+      "title": "My Day",
+      "category": "日常",
+      "difficulty": 1,
+      "order": 2,
+      "content": "I get up at six thirty in the morning. I wash my face and brush my teeth.\n\nI have breakfast at seven o'clock. I go to school at seven thirty.\n\nI have lunch at school at twelve o'clock. I go home at five in the afternoon.\n\nI do my homework at six. I have dinner at seven. I go to bed at nine.\n\nThis is my day. I am very busy but happy.",
+      "characterCount": 312,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-seasons",
+      "title": "Four Seasons",
+      "category": "写景",
+      "difficulty": 1,
+      "order": 3,
+      "content": "There are four seasons in a year. They are spring, summer, autumn and winter.\n\nIn spring, it is warm. The trees are green. The flowers are beautiful. I like to fly kites in spring.\n\nIn summer, it is hot. I can swim in the water. I like to eat ice cream in summer.\n\nIn autumn, it is cool. The leaves are yellow and red. They fall from the trees.\n\nIn winter, it is cold. It snows. I can make a snowman. It is great fun.\n\nI love all the seasons.",
+      "characterCount": 414,
+      "chineseCharCount": 0
+    }
+  ]
+}

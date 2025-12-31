@@ -1,0 +1,35 @@
+{
+  "grade": "小学一年级",
+  "lessons": [
+    {
+      "id": "grade1-autumn",
+      "title": "秋天",
+      "category": "写景",
+      "difficulty": 1,
+      "order": 1,
+      "content": "天高了，云淡了，\n秋姑娘蹦蹦跳跳地来了。\n\n她把黄色给了银杏树，\n黄黄的叶子像一把小扇子，\n扇哪扇哪，扇走了夏天的炎热。\n\n她把红色给了枫树，\n红红的枫叶像一枚枚邮票，\n飘哇飘哇，邮来了秋天的凉爽。",
+      "characterCount": 99,
+      "chineseCharCount": 79
+    },
+    {
+      "id": "grade1-spring",
+      "title": "春风吹",
+      "category": "写景",
+      "difficulty": 1,
+      "order": 2,
+      "content": "春风吹，春风吹，\n吹绿了柳树，\n吹红了桃花，\n吹来了燕子，\n吹醒了青蛙。\n\n春风吹，春风吹，\n吹得小雨轻轻地下，\n大家快来种葵花。",
+      "characterCount": 65,
+      "chineseCharCount": 47
+    },
+    {
+      "id": "grade1-boat",
+      "title": "小小的船",
+      "category": "诗歌",
+      "difficulty": 1,
+      "order": 3,
+      "content": "弯弯的月儿小小的船，\n小小的船儿两头尖。\n我在小小的船里坐，\n只看见闪闪的星星蓝蓝的天。",
+      "characterCount": 44,
+      "chineseCharCount": 37
+    }
+  ]
+}

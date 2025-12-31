@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  /* 字符状态颜色 */
+  --color-pending: #9ca3af;
+  --color-current: #0ea5e9;
+  --color-current-bg: #e0f2fe;
+  --color-correct: #22c55e;
+  --color-incorrect: #ef4444;
+  --color-incorrect-bg: #fee2e2;
+  --color-composition: #f59e0b;
+  --color-composition-bg: #fef3c7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* 光标闪烁动画 */
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.cursor-active::after {
+  content: '|';
+  animation: blink 1s infinite;
+  color: var(--color-current);
+}
