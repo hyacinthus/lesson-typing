@@ -27,18 +27,18 @@ export async function loadLessonIndex(): Promise<LessonIndex> {
 /**
  * 加载指定年级的课文列表
  */
-export async function loadGradeLessons(grade: string): Promise<GradeLessons> {
-  if (lessonCache.has(grade)) {
-    return lessonCache.get(grade)!;
+export async function loadGradeLessons(path: string): Promise<GradeLessons> {
+  if (lessonCache.has(path)) {
+    return lessonCache.get(path)!;
   }
 
-  const response = await fetch(`/lessons/${encodeURIComponent(grade)}.json`);
+  const response = await fetch(`/lessons/${path}`);
   if (!response.ok) {
-    throw new Error(`Failed to load lessons for grade: ${grade}`);
+    throw new Error(`Failed to load lessons for path: ${path}`);
   }
 
   const data = await response.json();
-  lessonCache.set(grade, data);
+  lessonCache.set(path, data);
   return data;
 }
 
@@ -48,15 +48,31 @@ export async function loadGradeLessons(grade: string): Promise<GradeLessons> {
 export async function loadAllLessons(): Promise<Lesson[]> {
   const index = await loadLessonIndex();
   const allLessons: Lesson[] = [];
+  const promises: Promise<{ data: GradeLessons; language: string }>[] = [];
 
-  const promises = index.grades.map(grade => loadGradeLessons(grade));
-  const gradesData = await Promise.all(promises);
-
-  for (const gradeData of gradesData) {
-    allLessons.push(...gradeData.lessons);
+  for (const lang of index.languages) {
+    for (const grade of lang.grades) {
+      promises.push(
+        loadGradeLessons(grade.path).then((data) => ({
+          data,
+          language: lang.id,
+        }))
+      );
+    }
   }
 
-  return allLessons.sort((a, b) => a.order - b.order);
+  const results = await Promise.all(promises);
+
+  for (const { data: gradeData, language } of results) {
+    const lessonsWithGrade = gradeData.lessons.map((lesson) => ({
+      ...lesson,
+      grade: gradeData.grade,
+      language: language,
+    }));
+    allLessons.push(...lessonsWithGrade);
+  }
+
+  return allLessons;
 }
 
 /**

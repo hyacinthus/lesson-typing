@@ -19,6 +19,7 @@ export interface Lesson {
   id: string;
   title: string;
   grade: string;
+  language?: string;
   category?: string;
   difficulty: number;
   order: number;
@@ -39,5 +40,17 @@ export interface GradeLessons {
  * 课文索引
  */
 export interface LessonIndex {
-  grades: string[];
+  languages: LanguageConfig[];
+}
+
+export interface LanguageConfig {
+  id: string;
+  name: string;
+  grades: GradeConfig[];
+}
+
+export interface GradeConfig {
+  id: string;
+  name: string;
+  path: string;
 }

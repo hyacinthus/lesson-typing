@@ -16,21 +16,40 @@ export function HomePage() {
     loadLessons();
   }, [loadLessons]);
 
-  // Extract unique grades
+  // Filter lessons based on current language
+  const filteredLessons = useMemo(() => {
+    return lessons.filter((lesson) => {
+      if (i18n.language.startsWith('zh')) {
+        return lesson.language === 'chinese';
+      } else if (i18n.language.startsWith('en')) {
+        return lesson.language === 'english';
+      }
+      return true;
+    });
+  }, [lessons, i18n.language]);
+
+  // Extract unique grades from filtered lessons
   const grades = useMemo(() => {
-    const uniqueGrades = Array.from(new Set(lessons.map((l) => l.grade)));
+    const uniqueGrades = Array.from(new Set(filteredLessons.map((l) => l.grade)));
     return uniqueGrades;
-  }, [lessons]);
+  }, [filteredLessons]);
+
+  // Reset selected grade when language changes or lessons change
+  useEffect(() => {
+    if (selectedGrade && !grades.includes(selectedGrade)) {
+      setSelectedGrade(null);
+    }
+  }, [grades, selectedGrade]);
 
   // Use the user's selection, or default to the first available grade
   const currentGrade = selectedGrade || grades[0];
 
   const handleStart = () => {
-    if (isLoading || lessons.length === 0) return;
+    if (isLoading || filteredLessons.length === 0) return;
 
-    let pool = lessons;
+    let pool = filteredLessons;
     if (currentGrade) {
-      pool = lessons.filter(l => l.grade === currentGrade);
+      pool = filteredLessons.filter(l => l.grade === currentGrade);
     }
 
     if (pool.length === 0) return;
@@ -40,11 +59,11 @@ export function HomePage() {
   };
 
   const handleNextLesson = useCallback(() => {
-    if (!activeLesson || lessons.length === 0) return;
+    if (!activeLesson || filteredLessons.length === 0) return;
 
     // Filter by same grade as current active lesson
-    const sameGradeLessons = lessons.filter(l => l.grade === activeLesson.grade);
-    const pool = sameGradeLessons.length > 0 ? sameGradeLessons : lessons;
+    const sameGradeLessons = filteredLessons.filter(l => l.grade === activeLesson.grade);
+    const pool = sameGradeLessons.length > 0 ? sameGradeLessons : filteredLessons;
 
     if (pool.length === 0) return;
 
@@ -58,7 +77,7 @@ export function HomePage() {
     }
 
     setActiveLesson(nextLesson);
-  }, [activeLesson, lessons]);
+  }, [activeLesson, filteredLessons]);
 
   const handleBackToMenu = () => {
     setActiveLesson(null);
@@ -102,8 +121,8 @@ export function HomePage() {
               key={grade}
               onClick={() => setSelectedGrade(grade)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${currentGrade === grade
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
             >
               {grade}

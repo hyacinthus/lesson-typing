@@ -1,0 +1,15 @@
+{
+    "grade": "English Grade 5",
+    "lessons": [
+        {
+            "id": "eng-grade5-weekend",
+            "title": "Planning the Weekend",
+            "category": "Dialogue",
+            "difficulty": 3,
+            "order": 1,
+            "content": "Mike: Hey, Sarah! Do you have any plans for this weekend?\nSarah: Hi, Mike. Not really. I might just stay home and read some books. What about you?\nMike: My dad and I are going fishing at the lake on Saturday. Do you want to come with us?\nSarah: Fishing? I have never been fishing before. Is it difficult?\nMike: No, it's easy! I can teach you. You just need to be patient and wait for the fish to bite.\nSarah: That sounds interesting. What do we need to bring?\nMike: Just bring a hat and some snacks. We have extra fishing rods. We will leave at 8 o'clock in the morning.\nSarah: Okay! I will ask my parents tonight. Thanks for inviting me!\nMike: You're welcome. It will be fun!",
+            "characterCount": 650,
+            "chineseCharCount": 0
+        }
+    ]
+}

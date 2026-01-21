@@ -1,0 +1,15 @@
+{
+    "grade": "English Grade 6",
+    "lessons": [
+        {
+            "id": "eng-grade6-wind-sun",
+            "title": "The Wind and the Sun",
+            "category": "Fable",
+            "difficulty": 4,
+            "order": 1,
+            "content": "Once upon a time, the Wind and the Sun had an argument. They both claimed to be stronger than the other.\n\"I am much stronger than you,\" said the Wind. \"I can blow down huge trees and make ships sink in the ocean.\"\nThe Sun smiled gently and said, \"Strength is not always about force. Let's have a contest to see who is right.\"\nThey saw a traveler walking down the road. He was wearing a heavy winter coat.\n\"Whoever can make that man take off his coat is the winner,\" said the Sun.\nThe Wind agreed and started first. He blew as hard as he could. A strong storm began. The leaves fell from the trees, and the dust swirled around. But the harder the Wind blew, the tighter the traveler held his coat. He was cold and wrapped the coat closely around his body. Finally, the Wind gave up, exhausted.\nThen it was the Sun's turn. He came out from behind the clouds and shone brightly. The air became warm and pleasant. The traveler felt the warmth and unbuttoned his coat. As the Sun shone hotter, the man began to sweat. Finally, he took off his coat and sat under a tree to rest.\nThe Sun won. He showed the Wind that gentleness and persuasion are often more effective than force.",
+            "characterCount": 1100,
+            "chineseCharCount": 0
+        }
+    ]
+}

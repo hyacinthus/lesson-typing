@@ -1,0 +1,15 @@
+{
+    "grade": "English Grade 4",
+    "lessons": [
+        {
+            "id": "eng-grade4-puppy",
+            "title": "The Lost Puppy",
+            "category": "Story",
+            "difficulty": 2,
+            "order": 1,
+            "content": "One day, Tom was walking home from school. He saw a small puppy near a bush. The puppy looked sad and hungry. It was shaking.\n\"Are you lost?\" Tom asked. The puppy said, \"Woof!\"\nTom looked around, but he didn't see anyone. He picked up the puppy gently. It was very soft.\n\"Don't worry,\" Tom said. \"I will help you.\"\nTom took the puppy to his house. His mom gave the puppy some warm milk. Then, they called the number on the puppy's collar.\nSoon, a girl named Mary came to Tom's house. \"Thank you!\" she said happily. \"This is my puppy, Max. I was looking for him everywhere.\"\nTom was happy he could help. He made a new friend that day.",
+            "characterCount": 580,
+            "chineseCharCount": 0
+        }
+    ]
+}
