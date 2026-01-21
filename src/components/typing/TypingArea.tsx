@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import type { Character, RealtimeStats } from '../../types';
 import { CharacterRenderer } from './CharacterRenderer';
 import { InputHandler } from './InputHandler';
@@ -11,6 +12,7 @@ interface TypingAreaProps {
   onCharacterInput: (char: string) => void;
   onDelete: () => void;
   onRestart: () => void;
+  onNextLesson?: () => void;
   isCompleted: boolean;
   disabled?: boolean;
 }
@@ -22,9 +24,11 @@ export function TypingArea({
   onCharacterInput,
   onDelete,
   onRestart,
+  onNextLesson,
   isCompleted,
   disabled = false,
 }: TypingAreaProps) {
+  const { t } = useTranslation();
   const inputId = 'typing-input-area';
   const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number } | null>(null);
 
@@ -100,7 +104,7 @@ export function TypingArea({
       {/* 完成提示 */}
       {isCompleted && (
         <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">练习完成！</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('results')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <div>
               <div className="text-sm text-gray-600">中文速率</div>
@@ -111,28 +115,38 @@ export function TypingArea({
             <div>
               <div className="text-sm text-gray-600">字符速率</div>
               <div className="text-2xl font-bold text-blue-600">
-                {stats.characterSpeed} 字符/分钟
+                {stats.characterSpeed} {t('wpm')}
               </div>
             </div>
             <div>
-              <div className="text-sm text-gray-600">准确率</div>
+              <div className="text-sm text-gray-600">{t('accuracy')}</div>
               <div className="text-2xl font-bold text-purple-600">
                 {stats.accuracy}%
               </div>
             </div>
             <div>
-              <div className="text-sm text-gray-600">用时</div>
+              <div className="text-sm text-gray-600">{t('time')}</div>
               <div className="text-2xl font-bold text-gray-900">
                 {Math.floor(stats.duration / 60)}:{(stats.duration % 60).toString().padStart(2, '0')}
               </div>
             </div>
           </div>
-          <button
-            onClick={onRestart}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
-          >
-            再练一次
-          </button>
+          <div className="flex gap-4 justify-center">
+            <button
+              onClick={onRestart}
+              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-3 px-8 rounded-lg transition-colors"
+            >
+              {t('restart')}
+            </button>
+            {onNextLesson && (
+              <button
+                onClick={onNextLesson}
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
+              >
+                {t('next_lesson')}
+              </button>
+            )}
+          </div>
         </div>
       )}
     </div>

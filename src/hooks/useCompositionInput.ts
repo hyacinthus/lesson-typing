@@ -86,10 +86,10 @@ export function useCompositionInput(
       }
       e.preventDefault();
     } else if (e.key === 'Enter' && !isComposing && enabled) {
-        onCharacterInput('\n');
-        e.preventDefault();
+      onCharacterInput('\n');
+      e.preventDefault();
     }
-  }, [isComposing, onDelete, enabled]);
+  }, [isComposing, onDelete, enabled, onCharacterInput]);
 
   return {
     onCompositionStart: handleCompositionStart,

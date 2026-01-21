@@ -37,30 +37,8 @@ export function useTypingEngine({
   });
 
   // 当 initialContent 改变时重置会话
-  useEffect(() => {
-    if (initialContent.length > 0) {
-      setSession({
-        lessonId,
-        content: initialContent,
-        currentIndex: 0,
-        startTime: null,
-        elapsedTime: 0,
-        isPaused: false,
-        isCompleted: false,
-        compositionText: '',
-      });
-      setStats({
-        duration: 0,
-        characterSpeed: 0,
-        chineseSpeed: 0,
-        accuracy: 100,
-        totalCharacters: 0,
-        correctChars: 0,
-        incorrectChars: 0,
-        progress: 0,
-      });
-    }
-  }, [initialContent, lessonId]);
+  // Note: We rely on the component using this hook to remount when initialContent/lessonId changes (using key).
+  // This avoids setting state in useEffect which causes double renders.
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startTimeRef = useRef<number | null>(null);
