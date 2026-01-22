@@ -17,6 +17,8 @@ const LANGUAGE_MAP: Record<string, string> = {
   'es': 'spanish',
   'es-ES': 'spanish',
   'es-MX': 'spanish',
+  'ja': 'japanese',
+  'ja-JP': 'japanese',
 };
 
 export function HomePage() {
@@ -168,6 +170,7 @@ export function HomePage() {
               <option value="zh">中文</option>
               <option value="en">English</option>
               <option value="es">Español</option>
+              <option value="ja">日本語</option>
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-[#90caf9]">
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

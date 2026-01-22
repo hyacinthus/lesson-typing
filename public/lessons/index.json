@@ -63,6 +63,27 @@
       ]
     },
     {
+      "id": "japanese",
+      "name": "日本語",
+      "grades": [
+        {
+          "id": "japanese-grade-1",
+          "name": "1年生",
+          "path": "japanese/grade-1.json"
+        },
+        {
+          "id": "japanese-grade-2",
+          "name": "2年生",
+          "path": "japanese/grade-2.json"
+        },
+        {
+          "id": "japanese-grade-3",
+          "name": "3年生",
+          "path": "japanese/grade-3.json"
+        }
+      ]
+    },
+    {
       "id": "spanish",
       "name": "Español",
       "grades": [

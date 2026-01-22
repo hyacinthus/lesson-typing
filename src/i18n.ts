@@ -59,6 +59,25 @@ const resources = {
             "back_home": "Volver al Inicio",
             "restart": "Reiniciar"
         }
+    },
+    ja: {
+        translation: {
+            "app_title": "小学校国語教科書タイピング練習",
+            "start": "タイピング練習を始める",
+            "hero_subtitle": "おなじみの教科書でタイピング練習",
+            "next_lesson": "次のレッスン",
+            "select_grade": "学年を選択",
+            "all_grades": "全学年",
+            "language": "言語",
+            "loading": "読み込み中...",
+            "error": "エラー",
+            "results": "結果",
+            "wpm": "速度 (WPM)",
+            "accuracy": "正確さ",
+            "time": "時間",
+            "back_home": "ホームに戻る",
+            "restart": "もう一度"
+        }
     }
 };
 
