@@ -66,7 +66,7 @@ export function LessonList() {
 
       {groupedLessons.map((group) => (
         <div key={group.grade} className="mb-10">
-          <h2 className="text-xl font-bold text-gray-800 mb-4 border-l-4 border-blue-500 pl-3">
+          <h2 className="text-xl font-bold text-gray-800 mb-4 border-l-4 border-[#90caf9] pl-3">
             {group.grade}
           </h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">

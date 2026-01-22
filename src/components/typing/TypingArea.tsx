@@ -141,7 +141,7 @@ export function TypingArea({
             {onNextLesson && (
               <button
                 onClick={onNextLesson}
-                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
+                className="bg-[#90caf9] hover:bg-[#64b5f6] text-white font-medium py-3 px-8 rounded-full shadow-sm hover:shadow-md transition-all"
               >
                 {t('next_lesson')}
               </button>

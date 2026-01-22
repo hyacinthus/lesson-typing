@@ -17,7 +17,7 @@ export function LessonCard({ lesson, stats, onSelect }: LessonCardProps) {
         <div>
           <h3 className="text-xl font-bold text-gray-900 mb-1">{lesson.title}</h3>
           <div className="flex gap-2 text-sm">
-            <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded">
+            <span className="bg-[#e3f2fd] text-[#1976d2] px-2 py-1 rounded">
               {lesson.grade}
             </span>
             {lesson.category && (

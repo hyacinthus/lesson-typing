@@ -6,7 +6,8 @@ const resources = {
     en: {
         translation: {
             "app_title": "Primary School Typing Practice",
-            "start": "Start",
+            "start": "Start Typing Practice",
+            "hero_subtitle": "Practice typing with familiar texts",
             "next_lesson": "Next Lesson",
             "select_grade": "Select Grade",
             "all_grades": "All Grades",
@@ -24,7 +25,8 @@ const resources = {
     zh: {
         translation: {
             "app_title": "小学语文课文打字练习",
-            "start": "开始",
+            "start": "开始打字练习",
+            "hero_subtitle": "用你熟悉的课文练习打字",
             "next_lesson": "下一篇",
             "select_grade": "选择年级",
             "all_grades": "所有年级",

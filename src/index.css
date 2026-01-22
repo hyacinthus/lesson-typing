@@ -3,8 +3,8 @@
 @theme {
   /* 字符状态颜色 */
   --color-pending: #9ca3af;
-  --color-current: #0ea5e9;
-  --color-current-bg: #e0f2fe;
+  --color-current: #90caf9;
+  --color-current-bg: #e3f2fd;
   --color-correct: #22c55e;
   --color-incorrect: #ef4444;
   --color-incorrect-bg: #fee2e2;

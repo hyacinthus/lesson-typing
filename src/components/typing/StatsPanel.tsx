@@ -21,7 +21,7 @@ export function StatsPanel({ stats }: StatsPanelProps) {
       {/* 字符速率 */}
       <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
         <div className="text-sm text-gray-500 mb-1">字符速率</div>
-        <div className="text-2xl font-bold text-blue-600">
+        <div className="text-2xl font-bold text-[#90caf9]">
           {stats.characterSpeed}
         </div>
         <div className="text-xs text-gray-400">字符/分钟</div>

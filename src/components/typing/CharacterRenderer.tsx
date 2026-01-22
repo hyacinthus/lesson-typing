@@ -43,7 +43,7 @@ function getStatusClass(status: CharacterStatus): string {
     case CharacterStatus.PENDING:
       return 'text-gray-400';
     case CharacterStatus.CURRENT:
-      return 'bg-blue-100 text-blue-600';
+      return 'bg-[#e3f2fd] text-[#1976d2]';
     case CharacterStatus.CORRECT:
       return 'text-green-600';
     case CharacterStatus.INCORRECT:
