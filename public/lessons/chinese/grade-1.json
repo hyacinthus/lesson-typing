@@ -30,6 +30,36 @@
       "content": "弯弯的月儿小小的船，\n小小的船儿两头尖。\n我在小小的船里坐，\n只看见闪闪的星星蓝蓝的天。",
       "characterCount": 44,
       "chineseCharCount": 37
+    },
+    {
+      "id": "grade1-shadow",
+      "title": "影子",
+      "category": "儿童诗",
+      "difficulty": 1,
+      "order": 4,
+      "content": "影子在前，影子在后，\n影子常常跟着我，\n就像一条小黑狗。\n\n影子在左，影子在右，\n影子常常陪着我，\n它是我的好朋友。",
+      "characterCount": 58,
+      "chineseCharCount": 44
+    },
+    {
+      "id": "grade1-bihua",
+      "title": "比尾巴",
+      "category": "儿童诗",
+      "difficulty": 1,
+      "order": 5,
+      "content": "谁的尾巴长？\n谁的尾巴短？\n谁的尾巴好像一把伞？\n\n猴子的尾巴长。\n兔子的尾巴短。\n松鼠的尾巴好像一把伞。\n\n谁的尾巴弯？\n谁的尾巴扁？\n谁的尾巴最好看？\n\n公鸡的尾巴弯。\n鸭子的尾巴扁。\n孔雀的尾巴最好看。",
+      "characterCount": 104,
+      "chineseCharCount": 78
+    },
+    {
+      "id": "grade1-yueliang",
+      "title": "月亮",
+      "category": "儿童诗",
+      "difficulty": 1,
+      "order": 6,
+      "content": "天上月亮圆又圆，\n照在海里像玉盘。\n一群鱼儿游过来，\n玉盘碎成两三片。\n\n鱼儿吓得快逃开，\n一直逃到岩石边。\n回过头来看一看，\n月亮还是圆又圆。",
+      "characterCount": 72,
+      "chineseCharCount": 56
     }
   ]
 }

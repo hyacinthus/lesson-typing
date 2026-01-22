@@ -20,6 +20,36 @@
       "content": "孩子如果已经长大，\n就得告别妈妈，四海为家。\n牛马有脚，鸟有翅膀，\n植物旅行又用什么办法？\n\n蒲公英妈妈准备了降落伞，\n把它送给自己的娃娃。\n只要有风轻轻吹过，\n孩子们就乘着风纷纷出发。\n\n苍耳妈妈有个好办法，\n她给孩子穿上带刺的铠甲。\n只要挂住动物的皮毛，\n孩子们就能去田野、山洼。",
       "characterCount": 142,
       "chineseCharCount": 114
+    },
+    {
+      "id": "grade2-baiyun",
+      "title": "白云",
+      "category": "儿童诗",
+      "difficulty": 2,
+      "order": 3,
+      "content": "云儿船，船儿船，\n装着小羊，\n装着小猫，\n装着小狗，\n装着许多小星星。\n\n云儿船，船儿船，\n从天空慢慢往下飘，\n飘到河里，\n装着小青虾，\n装着小鱼，\n装着许多小星星。",
+      "characterCount": 83,
+      "chineseCharCount": 59
+    },
+    {
+      "id": "grade2-xue",
+      "title": "雪",
+      "category": "写景",
+      "difficulty": 2,
+      "order": 4,
+      "content": "雪花，雪花，\n你有几片小花瓣？\n我用手心接住你，\n让我数数看：\n一、二、三、四、五、六。\n\n咦？\n雪花不见了，\n只留下一个\n圆圆的亮亮的小水点。",
+      "characterCount": 72,
+      "chineseCharCount": 49
+    },
+    {
+      "id": "grade2-caoyuan",
+      "title": "草原上的盛会",
+      "category": "写景",
+      "difficulty": 2,
+      "order": 5,
+      "content": "草原上的盛会开始了。\n\n赛马场上，\n一匹匹骏马像离弦的箭，\n你追我赶，\n好不热闹。\n\n摔跤场上，\n一个个大力士\n像天上的雄鹰，\n忽而俯冲，\n忽而盘旋，\n好不精彩。\n\n歌舞场上，\n一群群姑娘\n像飞舞的彩蝶，\n手拉着手，\n肩并着肩，\n好不欢快。",
+      "characterCount": 120,
+      "chineseCharCount": 86
     }
   ]
 }
