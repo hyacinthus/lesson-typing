@@ -1,5 +1,5 @@
 {
-  "grade": "English Grade 3",
+  "grade": "Grade 3",
   "lessons": [
     {
       "id": "english-my-family",
@@ -29,6 +29,26 @@
       "order": 3,
       "content": "There are four seasons in a year. They are spring, summer, autumn and winter.\n\nIn spring, it is warm. The trees are green. The flowers are beautiful. I like to fly kites in spring.\n\nIn summer, it is hot. I can swim in the water. I like to eat ice cream in summer.\n\nIn autumn, it is cool. The leaves are yellow and red. They fall from the trees.\n\nIn winter, it is cold. It snows. I can make a snowman. It is great fun.\n\nI love all the seasons.",
       "characterCount": 414,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-hare-tortoise",
+      "title": "The Hare and the Tortoise",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 4,
+      "content": "A Hare was making fun of the Tortoise one day for being so slow.\n\"Do you ever get anywhere?\" he asked with a mocking laugh.\n\"Yes,\" replied the Tortoise, \"and I get there sooner than you think. I'll run you a race and prove it.\"\nThe Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed. So the Fox, who had consented to act as judge, marked the distance and started the runners off.\nThe Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up.\nThe Tortoise meanwhile kept going slowly but steadily, and, after a time, passed the place where the Hare was sleeping. But the Hare slept on very peacefully; and when at last he did wake up, the Tortoise was near the goal. The Hare now ran his swiftest, but he could not overtake the Tortoise in time.",
+      "characterCount": 850,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-lion-mouse",
+      "title": "The Lion and the Mouse",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 5,
+      "content": "A Lion was awakened from sleep by a Mouse running over his face. Rising up angrily, he caught him and was about to kill him, when the Mouse piteously entreated, saying: \"If you would only spare my life, I would be sure to repay your kindness.\"\nThe Lion laughed and let him go. It happened shortly after this that the Lion was caught by some hunters, who bound him by strong ropes to the ground. The Mouse, recognizing his roar, came and gnawed the rope with his teeth, and set him free, exclaiming:\n\"You ridiculed the idea of my ever being able to help you, not expecting to receive from me any repayment of your favor; now you know that it is possible for even a Mouse to confer benefits on a Lion.\"",
+      "characterCount": 700,
       "chineseCharCount": 0
     }
   ]

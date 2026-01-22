@@ -1,0 +1,49 @@
+{
+    "grade": "Grade 3",
+    "lessons": [
+        {
+            "id": "spa-grade3-vacation",
+            "title": "Las Vacaciones",
+            "category": "Story",
+            "difficulty": 3,
+            "order": 1,
+            "content": "El verano pasado fui a la playa con mi familia. Hacía mucho calor y el sol brillaba fuerte. Nadamos en el mar y construimos castillos de arena. También comimos helados de chocolate y vainilla. Fue un viaje muy divertido y quiero volver pronto.",
+            "characterCount": 245,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade3-bike",
+            "title": "Mi Bicicleta Nueva",
+            "category": "Story",
+            "difficulty": 3,
+            "order": 2,
+            "content": "Ayer fue mi cumpleaños y mis padres me regalaron una bicicleta. Es de color rojo y tiene una bocina plateada. Salí al parque para probarla. Al principio fue difícil mantener el equilibrio, pero pronto aprendí. Ahora puedo ir muy rápido por el camino.",
+            "characterCount": 251,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade3-rain",
+            "title": "Un Día de Lluvia",
+            "category": "Story",
+            "difficulty": 3,
+            "order": 3,
+            "content": "Hoy está lloviendo mucho. El cielo está gris y las nubes son oscuras. Escucho las gotas de lluvia golpear la ventana. No puedo salir a jugar, así que me quedo en casa. Me gusta ver la lluvia y tomar chocolate caliente. Mañana saldrá el sol de nuevo.",
+            "characterCount": 252,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade3-caperucita",
+            "title": "Caperucita Roja",
+            "category": "Cuento Clásico",
+            "difficulty": 3,
+            "order": 4,
+            "content": "Había una vez una niña llamada Caperucita Roja. Un día, su madre le pidió que llevara una cesta con comida a su abuelita enferma. En el camino, se encontró con el Lobo Feroz. El lobo le preguntó a dónde iba y ella le dijo que a casa de su abuelita.\nEl lobo corrió y llegó primero. Se comió a la abuelita y se disfrazó de ella. Cuando Caperucita llegó, el lobo intentó comérsela también. Pero un cazador que pasaba por allí escuchó los gritos. Entró y salvó a Caperucita y a su abuelita. El lobo huyó y nunca más volvió.",
+            "characterCount": 600,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        }
+    ]
+}

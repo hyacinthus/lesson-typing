@@ -1,0 +1,38 @@
+{
+    "grade": "Grade 6",
+    "lessons": [
+        {
+            "id": "spa-grade6-tech",
+            "title": "La Tecnología",
+            "category": "Technology",
+            "difficulty": 6,
+            "order": 1,
+            "content": "La tecnología ha cambiado la forma en que vivimos y nos comunicamos. Hoy en día, podemos hablar con personas al otro lado del mundo en segundos. Las computadoras y los teléfonos inteligentes nos ayudan a aprender y a trabajar de manera más eficiente. Sin embargo, también es importante desconectarse a veces y disfrutar del mundo real. La tecnología debe ser una herramienta para ayudarnos, no para dominarnos.",
+            "characterCount": 412,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-climate",
+            "title": "El Cambio Climático",
+            "category": "Environment",
+            "difficulty": 6,
+            "order": 2,
+            "content": "El cambio climático es uno de los mayores desafíos de nuestro tiempo. La temperatura de la Tierra está aumentando debido a la contaminación y los gases de efecto invernadero. Esto provoca el derretimiento de los glaciares y cambios en los patrones climáticos. Para combatir esto, debemos usar energías renovables como la solar y la eólica. Cada pequeña acción cuenta para proteger nuestro futuro.",
+            "characterCount": 395,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-curie",
+            "title": "Marie Curie",
+            "category": "Biography",
+            "difficulty": 6,
+            "order": 3,
+            "content": "Marie Curie fue una científica extraordinaria. Nació en Polonia pero vivió gran parte de su vida en Francia. Fue la primera mujer en ganar un Premio Nobel y la única persona en ganar dos en diferentes campos científicos: Física y Química. Sus investigaciones sobre la radiactividad ayudaron a desarrollar tratamientos para el cáncer. Su dedicación y pasión por la ciencia son una inspiración para muchos estudiantes hoy en día.",
+            "characterCount": 427,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        }
+    ]
+}

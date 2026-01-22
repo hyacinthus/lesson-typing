@@ -20,6 +20,26 @@
       "content": "鲜花朵朵，争奇斗艳，芬芳迷人。\n要是我们留心观察，就会发现，\n一天之内，不同的花开放的时间是不同的。\n\n凌晨四点，牵牛花吹起了紫色的小喇叭；\n五点左右，艳丽的蔷薇绽开了笑脸；\n七点，睡莲从梦中醒来；\n中午十二点左右，午时花开花了；\n下午三点，万寿菊欣然怒放；\n傍晚六点，烟草花在暮色中苏醒；\n月光花在七点左右舒展开自己的花瓣；\n夜来香在晚上八点开花；\n昙花却在九点左右含笑一现。",
       "characterCount": 189,
       "chineseCharCount": 155
+    },
+    {
+      "id": "grade3-simaguang",
+      "title": "司马光",
+      "category": "文言文",
+      "difficulty": 3,
+      "order": 3,
+      "content": "群儿戏于庭，一儿登瓮，足跌没水中。\n众皆弃去，光持石击瓮破之，水迸，儿得活。",
+      "characterCount": 40,
+      "chineseCharCount": 35
+    },
+    {
+      "id": "grade3-shouzhu",
+      "title": "守株待兔",
+      "category": "文言文",
+      "difficulty": 3,
+      "order": 4,
+      "content": "宋人有耕者。田中有株。兔走触株，折颈而死。\n因释其耒而守株，冀复得兔。\n兔不可复得，而身为宋国笑。",
+      "characterCount": 49,
+      "chineseCharCount": 43
     }
   ]
 }

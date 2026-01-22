@@ -1,0 +1,49 @@
+{
+    "grade": "Grade 2",
+    "lessons": [
+        {
+            "id": "spa-grade2-dog",
+            "title": "El Perro Juguetón",
+            "category": "Story",
+            "difficulty": 2,
+            "order": 1,
+            "content": "Tengo un perro. Se llama Max. A Max le gusta jugar con su pelota. Corre muy rápido en el jardín. Cuando le tiro la pelota, él la trae de vuelta. Es un perro muy inteligente y cariñoso. Me gusta dormir con Max.",
+            "characterCount": 208,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade2-school",
+            "title": "Mi Escuela",
+            "category": "Story",
+            "difficulty": 2,
+            "order": 2,
+            "content": "Hoy voy a la escuela. Llevo mi mochila con libros y cuadernos. En la escuela veo a mis amigos. Aprendemos a leer y escribir. Mi maestra es muy amable. En el recreo jugamos al fútbol. Me gusta mucho ir a la escuela.",
+            "characterCount": 214,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade2-tree",
+            "title": "El Árbol Grande",
+            "category": "Story",
+            "difficulty": 2,
+            "order": 3,
+            "content": "En mi jardín hay un árbol muy grande. Tiene muchas hojas verdes. En verano, el árbol nos da sombra. A veces veo pájaros en sus ramas. Me gusta sentarme bajo el árbol y leer un libro. Es mi lugar favorito.",
+            "characterCount": 206,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade2-cerditos",
+            "title": "Los Tres Cerditos",
+            "category": "Cuento Clásico",
+            "difficulty": 2,
+            "order": 4,
+            "content": "Había una vez tres cerditos que eran hermanos, y se fueron por el mundo a buscar fortuna. El más pequeño hizo su casa de paja. El mediano hizo su casa de madera. El mayor hizo su casa de ladrillos.\nEl lobo feroz vino y sopló la casa de paja. El cerdito pequeño corrió a la casa de madera. El lobo sopló y la casa de madera se cayó. Los dos cerditos corrieron a la casa de ladrillo. El lobo sopló y sopló, pero no pudo derribar la casa de ladrillo. El lobo intentó entrar por la chimenea, pero cayó en una olla de agua caliente y huyó para siempre. Los tres cerditos vivieron felices y seguros.",
+            "characterCount": 550,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        }
+    ]
+}

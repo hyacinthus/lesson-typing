@@ -1,0 +1,38 @@
+{
+    "grade": "Grade 4",
+    "lessons": [
+        {
+            "id": "spa-grade4-solar",
+            "title": "El Sistema Solar",
+            "category": "Science",
+            "difficulty": 4,
+            "order": 1,
+            "content": "El sistema solar es fascinante. El sol está en el centro y es una estrella muy grande y caliente. Hay ocho planetas que giran alrededor del sol. La Tierra es nuestro hogar y es el tercer planeta. Júpiter es el planeta más grande de todos. Me gustaría ser astronauta para ver las estrellas de cerca.",
+            "characterCount": 299,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-butterfly",
+            "title": "La Mariposa Monarca",
+            "category": "Nature",
+            "difficulty": 4,
+            "order": 2,
+            "content": "La mariposa monarca es conocida por sus increíbles viajes. Cada año, estas mariposas vuelan miles de kilómetros desde Canadá hasta México. Tienen alas de color naranja y negro que son muy hermosas. En México, pasan el invierno en los bosques. Es un fenómeno natural impresionante que atrae a muchos turistas.",
+            "characterCount": 308,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-recycle",
+            "title": "El Reciclaje",
+            "category": "Society",
+            "difficulty": 4,
+            "order": 3,
+            "content": "Reciclar es muy importante para cuidar nuestro planeta. Podemos reciclar papel, plástico y vidrio. Cuando reciclamos, ayudamos a reducir la basura y a conservar los recursos naturales. En mi casa, separamos la basura en diferentes contenedores. Si todos ayudamos, podemos mantener la Tierra limpia y saludable.",
+            "characterCount": 309,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        }
+    ]
+}

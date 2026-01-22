@@ -1,0 +1,49 @@
+{
+    "grade": "Grade 1",
+    "lessons": [
+        {
+            "id": "spa-grade1-cat",
+            "title": "El Gato y el Pájaro",
+            "category": "Story",
+            "difficulty": 1,
+            "order": 1,
+            "content": "Un día, un gato vio un pájaro. El pájaro estaba en un árbol. El gato quería atrapar al pájaro. El pájaro voló muy alto. El gato no pudo atraparlo.",
+            "characterCount": 147,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-family",
+            "title": "Mi Familia",
+            "category": "Story",
+            "difficulty": 1,
+            "order": 2,
+            "content": "Me llamo Ana. Tengo una familia grande. Mi mamá es doctora. Mi papá es profesor. Tengo un hermano pequeño. Él se llama Luis. Nosotros jugamos juntos. Amo a mi familia.",
+            "characterCount": 169,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-colors",
+            "title": "Los Colores",
+            "category": "Story",
+            "difficulty": 1,
+            "order": 3,
+            "content": "Me gustan los colores. El cielo es azul. El sol es amarillo. La hierba es verde. Mi manzana es roja. ¿Cuál es tu color favorito?",
+            "characterCount": 128,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-patito",
+            "title": "El Patito Feo",
+            "category": "Cuento Clásico",
+            "difficulty": 1,
+            "order": 4,
+            "content": "En una hermosa mañana de verano, los huevos que habían empollado la mamá Pata empezaban a romperse. Los patitos fueron saliendo poquito a poco. Estaban tan contentos que casi no se dieron cuenta de que un huevo, el más grande de todos, aún permanecía intacto. Pronto se pudo ver el pico, luego el cuerpo, y las patas del sonriente pato. Era el más grande, y para sorpresa de todos, muy distinto de los demás. Y como era diferente todos empezaron a llamarle el Patito Feo. La mamá Pata, avergonzada por haber tenido un patito tan feo, le apartó con el ala. El patito feo empezó a darse cuenta de que allí no le querían. Triste y solo, el patito se fue de la granja. Pasó el invierno con frío y hambre. Pero llegó la primavera. Un día, al pasar por un estanque, vio las aves más hermosas que jamás había visto. ¡Eran cisnes! El patito se miró en el agua y lo que vio le dejó sin habla. ¡Había crecido y se había transformado en un precioso cisne! Y en este momento, él supo que jamás había sido feo. Él no era un pato sino un cisne. Y así, el nuevo cisne se unió a los demás y vivió feliz para siempre.",
+            "characterCount": 850,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        }
+    ]
+}

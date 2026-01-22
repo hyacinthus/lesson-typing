@@ -1,5 +1,5 @@
 {
-    "grade": "English Grade 5",
+    "grade": "Grade 5",
     "lessons": [
         {
             "id": "eng-grade5-weekend",
@@ -9,6 +9,26 @@
             "order": 1,
             "content": "Mike: Hey, Sarah! Do you have any plans for this weekend?\nSarah: Hi, Mike. Not really. I might just stay home and read some books. What about you?\nMike: My dad and I are going fishing at the lake on Saturday. Do you want to come with us?\nSarah: Fishing? I have never been fishing before. Is it difficult?\nMike: No, it's easy! I can teach you. You just need to be patient and wait for the fish to bite.\nSarah: That sounds interesting. What do we need to bring?\nMike: Just bring a hat and some snacks. We have extra fishing rods. We will leave at 8 o'clock in the morning.\nSarah: Okay! I will ask my parents tonight. Thanks for inviting me!\nMike: You're welcome. It will be fun!",
             "characterCount": 650,
+            "chineseCharCount": 0
+        },
+        {
+            "id": "eng-grade5-town-mouse",
+            "title": "The Town Mouse and the Country Mouse",
+            "category": "Fable",
+            "difficulty": 5,
+            "order": 2,
+            "content": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite.\nAfter the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.\nWhen they reached the mansion in which the Town Mouse lived, they found on the table in the dining room the leavings of a very fine banquet. There were sweetmeats and jellies, pastries, delicious cheeses, indeed, the most tempting foods that a Mouse can imagine. But just as the Country Mouse was about to nibble a dainty bit of pastry, she heard a Cat mew loudly and scratch at the door. In great fear the Mice scurried to a hiding place, where they lay quite still for a long time, hardly daring to breathe. When at last they ventured back to the feast, the door opened suddenly and in came the servants to clear the table, followed by the House Dog.\nThe Country Mouse stopped in the Town Mouse's den only long enough to pick up her carpet bag and umbrella.\n\"You may have your luxuries and dainties that I have not,\" she said as she hurried away, \"but I prefer my plain food and simple life in the country with the peace and security that go with it.\"",
+            "characterCount": 1600,
+            "chineseCharCount": 0
+        },
+        {
+            "id": "eng-grade5-wind-sun",
+            "title": "The North Wind and the Sun",
+            "category": "Fable",
+            "difficulty": 5,
+            "order": 3,
+            "content": "The North Wind and the Sun disputed as to which was the most powerful, and agreed that he should be declared the victor who could first strip a wayfaring man of his clothes.\nThe North Wind first tried his power, and blew with all his might; but the keener became his blasts, the closer the Traveler wrapped his cloak around him, till at last, resigning all hope of victory, he called upon the Sun to see what he could do.\nThe Sun suddenly shone out with all his warmth. The Traveler no sooner felt his genial rays than he took off one garment after another, and at last, fairly overcome with heat, undressed, and bathed in a stream that lay in his path.\nPersuasion is better than Force.",
+            "characterCount": 700,
             "chineseCharCount": 0
         }
     ]

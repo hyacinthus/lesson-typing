@@ -6,6 +6,19 @@ import { LessonPractice } from '../components/lesson/LessonPractice';
 import { Logo } from '../components/Logo';
 import type { Lesson } from '../types';
 
+// Map i18n language codes to lesson language IDs
+const LANGUAGE_MAP: Record<string, string> = {
+  'zh': 'chinese',
+  'zh-CN': 'chinese',
+  'zh-TW': 'chinese',
+  'en': 'english',
+  'en-US': 'english',
+  'en-GB': 'english',
+  'es': 'spanish',
+  'es-ES': 'spanish',
+  'es-MX': 'spanish',
+};
+
 export function HomePage() {
   const { t, i18n } = useTranslation();
   const { lessons, isLoading, error, loadLessons } = useLessonStore();
@@ -19,14 +32,17 @@ export function HomePage() {
 
   // Filter lessons based on current language
   const filteredLessons = useMemo(() => {
-    return lessons.filter((lesson) => {
-      if (i18n.language.startsWith('zh')) {
-        return lesson.language === 'chinese';
-      } else if (i18n.language.startsWith('en')) {
-        return lesson.language === 'english';
-      }
-      return true;
-    });
+    const currentLang = i18n.language;
+    // Try exact match first, then base language (e.g. 'zh-CN' -> 'zh')
+    const targetLessonLang = LANGUAGE_MAP[currentLang] || LANGUAGE_MAP[currentLang.split('-')[0]];
+
+    if (!targetLessonLang) {
+      // If no mapping found, return empty or fallback to default?
+      // For safety, return empty array to avoid showing wrong language content
+      return [];
+    }
+
+    return lessons.filter((lesson) => lesson.language === targetLessonLang);
   }, [lessons, i18n.language]);
 
   // Extract unique grades from filtered lessons
@@ -82,11 +98,6 @@ export function HomePage() {
 
   const handleBackToMenu = () => {
     setActiveLesson(null);
-  };
-
-  const toggleLanguage = () => {
-    const newLang = i18n.language === 'zh' ? 'en' : 'zh';
-    i18n.changeLanguage(newLang);
   };
 
   if (error) {
@@ -145,14 +156,25 @@ export function HomePage() {
 
         {/* Language Switcher */}
         <div className="flex justify-end justify-self-end">
-          <button
-            onClick={toggleLanguage}
-            className="flex items-center gap-2 px-4 py-2 rounded-full hover:bg-blue-50 text-gray-600 transition-colors font-medium"
-            title={t('language')}
-          >
-            <Globe size={20} />
-            <span className="uppercase font-medium">{i18n.language === 'zh' ? 'English' : '中文'}</span>
-          </button>
+          <div className="relative">
+            <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-400">
+              <Globe size={18} />
+            </div>
+            <select
+              value={i18n.language.split('-')[0]}
+              onChange={(e) => i18n.changeLanguage(e.target.value)}
+              className="appearance-none pl-10 pr-8 py-2 rounded-full bg-white text-gray-600 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#90caf9] shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100 min-w-[120px]"
+            >
+              <option value="zh">中文</option>
+              <option value="en">English</option>
+              <option value="es">Español</option>
+            </select>
+            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-[#90caf9]">
+              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
 

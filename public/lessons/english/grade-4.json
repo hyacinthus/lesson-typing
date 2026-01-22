@@ -1,5 +1,5 @@
 {
-    "grade": "English Grade 4",
+    "grade": "Grade 4",
     "lessons": [
         {
             "id": "eng-grade4-puppy",
@@ -9,6 +9,26 @@
             "order": 1,
             "content": "One day, Tom was walking home from school. He saw a small puppy near a bush. The puppy looked sad and hungry. It was shaking.\n\"Are you lost?\" Tom asked. The puppy said, \"Woof!\"\nTom looked around, but he didn't see anyone. He picked up the puppy gently. It was very soft.\n\"Don't worry,\" Tom said. \"I will help you.\"\nTom took the puppy to his house. His mom gave the puppy some warm milk. Then, they called the number on the puppy's collar.\nSoon, a girl named Mary came to Tom's house. \"Thank you!\" she said happily. \"This is my puppy, Max. I was looking for him everywhere.\"\nTom was happy he could help. He made a new friend that day.",
             "characterCount": 580,
+            "chineseCharCount": 0
+        },
+        {
+            "id": "eng-grade4-fox-grapes",
+            "title": "The Fox and the Grapes",
+            "category": "Fable",
+            "difficulty": 4,
+            "order": 2,
+            "content": "A famished Fox saw some clusters of ripe black grapes hanging from a trellised vine. She resorted to all her tricks to get at them, but wearied herself in vain, for she could not reach them. At last she turned away, hiding her disappointment and saying: \"The Grapes are sour, and not ripe as I thought.\"",
+            "characterCount": 300,
+            "chineseCharCount": 0
+        },
+        {
+            "id": "eng-grade4-wolf-crane",
+            "title": "The Wolf and the Crane",
+            "category": "Fable",
+            "difficulty": 4,
+            "order": 3,
+            "content": "A Wolf who had a bone stuck in his throat hired a Crane, for a large sum, to put her head into his mouth and draw out the bone. When the Crane had extracted the bone and demanded the promised payment, the Wolf, grinning and grinding his teeth, exclaimed: \"Why, you have surely already had a sufficient recompense, in having been permitted to draw out your head in safety from the mouth and jaws of a wolf.\"",
+            "characterCount": 400,
             "chineseCharCount": 0
         }
     ]

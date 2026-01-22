@@ -61,6 +61,42 @@
           "path": "english/grade-6.json"
         }
       ]
+    },
+    {
+      "id": "spanish",
+      "name": "Español",
+      "grades": [
+        {
+          "id": "spanish-grade-1",
+          "name": "Grade 1",
+          "path": "spanish/grade-1.json"
+        },
+        {
+          "id": "spanish-grade-2",
+          "name": "Grade 2",
+          "path": "spanish/grade-2.json"
+        },
+        {
+          "id": "spanish-grade-3",
+          "name": "Grade 3",
+          "path": "spanish/grade-3.json"
+        },
+        {
+          "id": "spanish-grade-4",
+          "name": "Grade 4",
+          "path": "spanish/grade-4.json"
+        },
+        {
+          "id": "spanish-grade-5",
+          "name": "Grade 5",
+          "path": "spanish/grade-5.json"
+        },
+        {
+          "id": "spanish-grade-6",
+          "name": "Grade 6",
+          "path": "spanish/grade-6.json"
+        }
+      ]
     }
   ]
 }

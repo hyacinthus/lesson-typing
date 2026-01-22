@@ -40,6 +40,25 @@ const resources = {
             "back_home": "返回首页",
             "restart": "重新开始"
         }
+    },
+    es: {
+        translation: {
+            "app_title": "Práctica de Mecanografía",
+            "start": "Empezar",
+            "hero_subtitle": "Practica mecanografía con textos familiares",
+            "next_lesson": "Siguiente Lección",
+            "select_grade": "Seleccionar Grado",
+            "all_grades": "Todos los Grados",
+            "language": "Idioma",
+            "loading": "Cargando...",
+            "error": "Error",
+            "results": "Resultados",
+            "wpm": "PPM",
+            "accuracy": "Precisión",
+            "time": "Tiempo",
+            "back_home": "Volver al Inicio",
+            "restart": "Reiniciar"
+        }
     }
 };
 

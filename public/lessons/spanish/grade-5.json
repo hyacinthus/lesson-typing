@@ -1,0 +1,38 @@
+{
+    "grade": "Grade 5",
+    "lessons": [
+        {
+            "id": "spa-grade5-chocolate",
+            "title": "La Historia del Chocolate",
+            "category": "History",
+            "difficulty": 5,
+            "order": 1,
+            "content": "El chocolate tiene una historia muy antigua. Los mayas y los aztecas en México fueron los primeros en usar el cacao. Para ellos, el cacao era muy valioso y lo usaban como moneda. Bebían una bebida amarga hecha de cacao y especias. Cuando los exploradores llevaron el cacao a Europa, le añadieron azúcar y se convirtió en el chocolate dulce que conocemos hoy.",
+            "characterCount": 359,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-water",
+            "title": "El Agua es Vida",
+            "category": "Science",
+            "difficulty": 5,
+            "order": 2,
+            "content": "El agua es esencial para todos los seres vivos. Sin agua, no habría plantas, animales ni personas. Aunque la Tierra tiene mucha agua, la mayor parte es salada y no se puede beber. Por eso es importante no desperdiciar el agua potable. Debemos cerrar el grifo cuando nos lavamos los dientes y tomar duchas cortas. Cuidar el agua es responsabilidad de todos.",
+            "characterCount": 357,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-quijote",
+            "title": "Don Quijote",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 3,
+            "content": "Don Quijote de la Mancha es un personaje famoso de la literatura española. Era un hombre que leía muchos libros de caballeros y decidió convertirse en uno. Montaba un caballo viejo llamado Rocinante y tenía un amigo llamado Sancho Panza. Don Quijote vivía muchas aventuras imaginarias, como luchar contra molinos de viento pensando que eran gigantes.",
+            "characterCount": 351,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        }
+    ]
+}
