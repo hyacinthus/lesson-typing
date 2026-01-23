@@ -1,0 +1,9 @@
+:80 {
+    root * /srv
+    encode gzip zstd
+    
+    # Handle SPA routing - fallback to index.html for non-existent files
+    try_files {path} /index.html
+    
+    file_server
+}
