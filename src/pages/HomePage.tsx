@@ -22,6 +22,10 @@ const LANGUAGE_MAP: Record<string, string> = {
   'pt': 'portuguese',
   'pt-BR': 'portuguese',
   'pt-PT': 'portuguese',
+  'fr': 'french',
+  'fr-FR': 'french',
+  'de': 'german',
+  'de-DE': 'german',
 };
 
 export function HomePage() {
@@ -30,6 +34,8 @@ export function HomePage() {
 
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
   const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
+
+  const GRADE_STORAGE_KEY = 'lesson-typing-grade';
 
   useEffect(() => {
     loadLessons();
@@ -52,26 +58,66 @@ export function HomePage() {
 
   // Extract unique grades from filtered lessons
   const grades = useMemo(() => {
-    const uniqueGrades = Array.from(new Set(filteredLessons.map((l) => l.grade)));
-    return uniqueGrades;
+    const uniqueMap = new Map();
+    filteredLessons.forEach((l) => {
+      if (!uniqueMap.has(l.gradeId)) {
+        uniqueMap.set(l.gradeId, { id: l.gradeId, name: l.grade });
+      }
+    });
+    // Sort by gradeId if possible (assuming format grade-N)
+    return Array.from(uniqueMap.values()).sort((a, b) => {
+      // Simple numeric sort if format is grade-N
+      const numA = parseInt(a.id.replace('grade-', ''));
+      const numB = parseInt(b.id.replace('grade-', ''));
+      if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+      return a.id.localeCompare(b.id);
+    });
   }, [filteredLessons]);
 
-  // Reset selected grade when language changes or lessons change
+  // Restore grade from storage or reset if invalid
   useEffect(() => {
-    if (selectedGrade && !grades.includes(selectedGrade)) {
-      setSelectedGrade(null);
+    if (grades.length === 0) return;
+
+    const storedGradeId = localStorage.getItem(GRADE_STORAGE_KEY);
+
+    // If selectedGrade is not set, try to restore from storage
+    if (!selectedGrade) {
+      if (storedGradeId && grades.some(g => g.id === storedGradeId)) {
+        setSelectedGrade(storedGradeId);
+      }
+      return;
+    }
+
+    // If selectedGrade is set but invalid (e.g. language changed), try to restore or reset
+    // With universal gradeId, it should remain valid across languages if the new language has that grade
+    if (!grades.some(g => g.id === selectedGrade)) {
+      if (storedGradeId && grades.some(g => g.id === storedGradeId)) {
+        setSelectedGrade(storedGradeId);
+      } else {
+        // Fallback: try to keep the same gradeId if possible, otherwise reset
+        // Actually, if selectedGrade (which is a gradeId) is not in the new list, it means this language doesn't support this grade.
+        // We should probably default to the first one.
+        setSelectedGrade(null);
+      }
     }
   }, [grades, selectedGrade]);
 
+  // Save grade to storage when it changes
+  useEffect(() => {
+    if (selectedGrade) {
+      localStorage.setItem(GRADE_STORAGE_KEY, selectedGrade);
+    }
+  }, [selectedGrade]);
+
   // Use the user's selection, or default to the first available grade
-  const currentGrade = selectedGrade || grades[0];
+  const currentGradeId = selectedGrade || (grades.length > 0 ? grades[0].id : null);
 
   const handleStart = () => {
     if (isLoading || filteredLessons.length === 0) return;
 
     let pool = filteredLessons;
-    if (currentGrade) {
-      pool = filteredLessons.filter(l => l.grade === currentGrade);
+    if (currentGradeId) {
+      pool = filteredLessons.filter(l => l.gradeId === currentGradeId);
     }
 
     if (pool.length === 0) return;
@@ -141,13 +187,13 @@ export function HomePage() {
         <div className="flex justify-center w-full md:w-1/3">
           <div className="relative">
             <select
-              value={currentGrade || ''}
+              value={currentGradeId || ''}
               onChange={(e) => setSelectedGrade(e.target.value)}
               className="appearance-none px-8 py-2 pr-10 rounded-full bg-white text-gray-600 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#90caf9] shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100 min-w-[140px]"
             >
               {grades.map((grade) => (
-                <option key={grade} value={grade}>
-                  {grade}
+                <option key={grade.id} value={grade.id}>
+                  {grade.name}
                 </option>
               ))}
             </select>
@@ -198,14 +244,14 @@ export function HomePage() {
         ) : (
           <button
             onClick={handleStart}
-            disabled={!currentGrade && grades.length === 0}
+            disabled={!currentGradeId && grades.length === 0}
             className="group relative px-10 py-3 bg-[#90caf9] text-white text-xl font-medium rounded-[10px] shadow-sm hover:bg-[#64b5f6] hover:shadow-md transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {t('start')}
           </button>
         )}
 
-        {!activeLesson && currentGrade && (
+        {!activeLesson && currentGradeId && (
           <p className="mt-6 text-gray-500 text-lg">
             {/* Optional: Show how many lessons in pool */}
           </p>

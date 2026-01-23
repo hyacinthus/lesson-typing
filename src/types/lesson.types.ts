@@ -19,6 +19,7 @@ export interface Lesson {
   id: string;
   title: string;
   grade: string;
+  gradeId: string;
   language?: string;
   category?: string;
   difficulty: number;
@@ -51,6 +52,7 @@ export interface LanguageConfig {
 
 export interface GradeConfig {
   id: string;
+  gradeId: string;
   name: string;
   path: string;
 }

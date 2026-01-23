@@ -48,7 +48,7 @@ export async function loadGradeLessons(path: string): Promise<GradeLessons> {
 export async function loadAllLessons(): Promise<Lesson[]> {
   const index = await loadLessonIndex();
   const allLessons: Lesson[] = [];
-  const promises: Promise<{ data: GradeLessons; language: string }>[] = [];
+  const promises: Promise<{ data: GradeLessons; language: string; gradeId: string }>[] = [];
 
   for (const lang of index.languages) {
     for (const grade of lang.grades) {
@@ -56,6 +56,7 @@ export async function loadAllLessons(): Promise<Lesson[]> {
         loadGradeLessons(grade.path).then((data) => ({
           data,
           language: lang.id,
+          gradeId: grade.gradeId || grade.id, // Fallback to id if gradeId is missing (though we added it)
         }))
       );
     }
@@ -63,10 +64,11 @@ export async function loadAllLessons(): Promise<Lesson[]> {
 
   const results = await Promise.all(promises);
 
-  for (const { data: gradeData, language } of results) {
+  for (const { data: gradeData, language, gradeId } of results) {
     const lessonsWithGrade = gradeData.lessons.map((lesson) => ({
       ...lesson,
       grade: gradeData.grade,
+      gradeId: gradeId,
       language: language,
     }));
     allLessons.push(...lessonsWithGrade);
