@@ -1,0 +1,205 @@
+{
+  "grade": "5º Ano",
+  "lessons": [
+    {
+      "id": "pt-grade5-saci",
+      "title": "A Lenda do Saci-Pererê",
+      "category": "Folclore",
+      "difficulty": 5,
+      "order": 1,
+      "content": "O Saci-Pererê é um dos personagens mais famosos do folclore brasileiro. Ele é um menino negro de uma perna só, que usa um gorro vermelho mágico e fuma cachimbo. Muito travesso, o Saci adora fazer brincadeiras, como esconder objetos, trançar a crina dos cavalos e assustar viajantes. Dizem que ele aparece dentro de redemoinhos de vento. Para capturá-lo, é preciso jogar uma peneira no redemoinho e prender o Saci em uma garrafa.",
+      "characterCount": 428,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-cigarra",
+      "title": "A Cigarra e a Formiga",
+      "category": "Fábula",
+      "difficulty": 5,
+      "order": 2,
+      "content": "Durante o verão, a cigarra cantava alegremente enquanto a formiga trabalhava duro para guardar comida. 'Por que trabalhar tanto?', perguntava a cigarra. 'O verão é para se divertir!'. A formiga continuou seu trabalho. Quando o inverno chegou, a cigarra, com frio e fome, pediu ajuda à formiga. A formiga respondeu: 'Você cantou no verão? Pois agora dance!'. A fábula ensina que devemos nos preparar para o futuro.",
+      "characterCount": 413,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-descobrimento",
+      "title": "O Descobrimento do Brasil",
+      "category": "História",
+      "difficulty": 5,
+      "order": 3,
+      "content": "Em 22 de abril de 1500, a esquadra de Pedro Álvares Cabral avistou terra firme. Eles pensaram que fosse uma ilha e chamaram de Ilha de Vera Cruz. Mais tarde, perceberam que era um grande continente e o nome mudou para Terra de Santa Cruz. Finalmente, por causa da grande quantidade de pau-brasil, uma árvore de madeira vermelha valiosa, o país passou a se chamar Brasil. Foi o encontro entre portugueses e indígenas.",
+      "characterCount": 416,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-santos-dumont",
+      "title": "Santos Dumont",
+      "category": "Biografia",
+      "difficulty": 5,
+      "order": 4,
+      "content": "Alberto Santos Dumont, nascido em Minas Gerais, é considerado o 'Pai da Aviação'. Em 1906, em Paris, ele voou com o 14-Bis, o primeiro avião a levantar voo por seus próprios meios, sem precisar de catapulta. Uma multidão assistiu admirada. Santos Dumont também inventou o relógio de pulso, para poder cronometrar seus voos sem tirar as mãos do comando. Ele foi um grande inventor brasileiro.",
+      "characterCount": 391,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-amazonia",
+      "title": "A Floresta Amazônica",
+      "category": "Geografia",
+      "difficulty": 5,
+      "order": 5,
+      "content": "A Amazônia é a maior floresta tropical do mundo e ocupa grande parte do território brasileiro. Ela abriga uma biodiversidade incrível, com milhares de espécies de plantas, animais e insetos. O Rio Amazonas, que atravessa a floresta, é o maior rio do mundo em volume de água. A Amazônia é essencial para o equilíbrio do clima no planeta, sendo muitas vezes chamada de 'o pulmão do mundo'.",
+      "characterCount": 387,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-carnaval",
+      "title": "O Carnaval",
+      "category": "Cultura",
+      "difficulty": 5,
+      "order": 6,
+      "content": "O Carnaval é a maior festa popular do Brasil, conhecida no mundo inteiro. Acontece todos os anos, antes da Quaresma. As cidades ficam cheias de cor, música e alegria. No Rio de Janeiro e em São Paulo, há desfiles de escolas de samba com carros alegóricos gigantes. Em Salvador e Recife, a festa acontece nas ruas, com trios elétricos e blocos de frevo. É um momento de diversão e celebração da cultura brasileira.",
+      "characterCount": 413,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-guarana",
+      "title": "A Lenda do Guaraná",
+      "category": "Folclore",
+      "difficulty": 5,
+      "order": 7,
+      "content": "A lenda do guaraná conta a história de um indiozinho muito querido por sua tribo. Um dia, ele foi picado por uma cobra e morreu. O deus Tupã, com pena, ordenou que enterrassem os olhos do menino. Desses olhos nasceu uma planta sagrada: o guaraná. Por isso, a semente do guaraná parece um olho humano. A fruta dá energia e força, sendo muito consumida pelos indígenas e hoje em forma de refrigerante.",
+      "characterCount": 399,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-pequeno-principe",
+      "title": "O Pequeno Príncipe (Resumo)",
+      "category": "Literatura",
+      "difficulty": 5,
+      "order": 8,
+      "content": "O Pequeno Príncipe vivia no asteroide B-612, que era pouco maior que uma casa. Ele tinha três vulcões e uma rosa muito vaidosa, que ele amava e cuidava. Sentindo-se solitário, ele decidiu viajar pelo universo. Visitou vários planetas e conheceu adultos estranhos: um rei, um vaidoso, um bêbado, um homem de negócios. Na Terra, encontrou uma raposa que lhe ensinou o segredo: 'O essencial é invisível aos olhos'.",
+      "characterCount": 411,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-festa-junina",
+      "title": "Festa Junina",
+      "category": "Cultura",
+      "difficulty": 5,
+      "order": 9,
+      "content": "As Festas Juninas acontecem em junho e celebram três santos: Santo Antônio, São João e São Pedro. São festas tradicionais, trazidas pelos portugueses, mas que ganharam características brasileiras. Tem fogueira, bandeirinhas coloridas, dança de quadrilha e roupas caipiras. As comidas típicas são deliciosas: milho verde, pipoca, canjica, pamonha, pé-de-moleque e quentão. É uma das festas mais queridas do Brasil.",
+      "characterCount": 413,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-cuca",
+      "title": "A Cuca",
+      "category": "Folclore",
+      "difficulty": 5,
+      "order": 10,
+      "content": "A Cuca é uma personagem assustadora do folclore brasileiro, popularizada pelas histórias do Sítio do Picapau Amarelo. Diz a lenda que ela é uma bruxa velha com corpo de jacaré, cabelos loiros e garras afiadas. Ela vive em uma caverna e faz poções mágicas. A Cuca costuma pegar crianças que não obedecem aos pais ou que não querem dormir. A cantiga de ninar diz: 'Dorme neném, que a Cuca vem pegar...'.",
+      "characterCount": 401,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-negrinho",
+      "title": "O Negrinho do Pastoreio",
+      "category": "Lenda",
+      "difficulty": 5,
+      "order": 11,
+      "content": "No Rio Grande do Sul, conta-se a lenda do Negrinho do Pastoreio. Era um menino escravo que perdeu os cavalos do patrão. Como castigo, foi jogado em um formigueiro. No dia seguinte, o patrão o encontrou sem nenhum ferimento, ao lado de Nossa Senhora, e os cavalos estavam lá. Desde então, ele é invocado para ajudar a encontrar coisas perdidas. Basta acender uma vela para o Negrinho.",
+      "characterCount": 383,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-lobo-cordeiro",
+      "title": "O Lobo e o Cordeiro",
+      "category": "Fábula",
+      "difficulty": 5,
+      "order": 12,
+      "content": "Um lobo estava bebendo água num riacho quando viu um cordeiro bebendo mais abaixo. Querendo uma desculpa para devorá-lo, o lobo disse: 'Você está sujando minha água!'. O cordeiro respondeu: 'Como posso sujar, se a água corre de você para mim?'. O lobo inventou outra mentira: 'Você falou mal de mim ano passado'. 'Eu nem era nascido', disse o cordeiro. Sem argumentos, o lobo atacou o cordeiro, mostrando que a força nem sempre precisa de razão.",
+      "characterCount": 445,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-galinha-ovos",
+      "title": "A Galinha dos Ovos de Ouro",
+      "category": "Fábula",
+      "difficulty": 5,
+      "order": 13,
+      "content": "Um camponês tinha uma galinha muito especial: todos os dias, ela punha um ovo de ouro maciço. O camponês ficou rico vendendo os ovos. Porém, ele era ganancioso e pensou: 'Se a galinha põe ovos de ouro, deve ter um tesouro dentro dela!'. Decidiu matar a galinha para pegar todo o ouro de uma vez. Quando a abriu, viu que ela era igual a qualquer outra galinha. Por ganância, perdeu tudo o que tinha.",
+      "characterCount": 398,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-menino-maluquinho",
+      "title": "O Menino Maluquinho",
+      "category": "Literatura",
+      "difficulty": 5,
+      "order": 14,
+      "content": "O Menino Maluquinho é um personagem criado pelo cartunista Ziraldo. Ele é um garoto alegre, criativo e muito levado, que usa uma panela na cabeça como se fosse um chapéu. Ele tem 'o olho maior que a barriga', 'fogo no rabo' e 'vento nos pés'. Maluquinho adora brincar com seus amigos Julieta e Bocão. Apesar de suas travessuras, é um menino muito amigo e feliz, representando a essência da infância.",
+      "characterCount": 399,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-capoeira",
+      "title": "A Capoeira",
+      "category": "Cultura",
+      "difficulty": 5,
+      "order": 15,
+      "content": "A capoeira é uma expressão cultural brasileira que mistura arte marcial, esporte, cultura popular, dança e música. Foi criada no Brasil por escravos africanos como forma de defesa, disfarçada de dança para não levantar suspeitas. Os capoeiristas jogam em uma roda, ao som do berimbau, atabaque e pandeiro, batendo palmas e cantando. Os movimentos são ágeis e acrobáticos, como a ginga, o aú e o rabo-de-arraia.",
+      "characterCount": 410,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-tarsila",
+      "title": "Tarsila do Amaral",
+      "category": "Biografia",
+      "difficulty": 5,
+      "order": 16,
+      "content": "Tarsila do Amaral foi uma das mais importantes pintoras do Brasil. Sua obra mais famosa é o 'Abaporu', que mostra uma figura humana com pés e mãos gigantes e uma cabeça pequena, ao lado de um cacto e um sol. Essa pintura inspirou o Movimento Antropofágico, que propunha 'devorar' a cultura estrangeira e transformá-la em algo brasileiro. Tarsila usava cores vivas e retratava paisagens e temas do Brasil.",
+      "characterCount": 404,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-sitio",
+      "title": "O Sítio do Picapau Amarelo",
+      "category": "Literatura",
+      "difficulty": 5,
+      "order": 17,
+      "content": "O Sítio do Picapau Amarelo é o cenário das histórias de Monteiro Lobato. Lá vivem Dona Benta, uma avó contadora de histórias; Tia Nastácia, cozinheira de mão cheia; Narizinho e Pedrinho, os netos aventureiros; e Emília, uma boneca de pano que fala pelos cotovelos. Tem também o Visconde de Sabugosa, um sabugo de milho sábio. Juntos, eles vivem aventuras mágicas no Reino das Águas Claras e até na Grécia Antiga.",
+      "characterCount": 412,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-pao-queijo",
+      "title": "Pão de Queijo",
+      "category": "Cultura",
+      "difficulty": 5,
+      "order": 18,
+      "content": "O pão de queijo é uma das comidas mais tradicionais de Minas Gerais e amado em todo o Brasil. Sua origem é incerta, mas acredita-se que surgiu nas fazendas no século XVIII. É feito basicamente de polvilho (doce ou azedo), ovos, leite, óleo e, claro, muito queijo (geralmente queijo minas curado). Crocante por fora e macio por dentro, o pão de queijo é perfeito para acompanhar um cafezinho quente no lanche da tarde.",
+      "characterCount": 417,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-boto",
+      "title": "O Boto Cor-de-Rosa",
+      "category": "Folclore",
+      "difficulty": 5,
+      "order": 19,
+      "content": "A lenda do Boto Cor-de-Rosa é muito famosa na Amazônia. Dizem que, nas noites de festa junina, o boto sai do rio e se transforma em um homem muito bonito, vestido de branco e com um chapéu para esconder o furo de respiração na cabeça. Ele seduz as moças da festa, dança com elas e as leva para o fundo do rio. Antes do amanhecer, ele volta a ser boto. Por isso, o boto é considerado um encantador.",
+      "characterCount": 397,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade5-hino",
+      "title": "Hino Nacional Brasileiro",
+      "category": "Cívico",
+      "difficulty": 5,
+      "order": 20,
+      "content": "O Hino Nacional Brasileiro é um dos símbolos da pátria. A música foi composta por Francisco Manuel da Silva e a letra por Joaquim Osório Duque-Estrada. Começa com 'Ouviram do Ipiranga as margens plácidas / De um povo heroico o brado retumbante'. A letra exalta a beleza natural do Brasil, a grandeza do território ('Gigante pela própria natureza') e o amor do povo pela sua terra. É cantado em cerimônias e eventos esportivos.",
+      "characterCount": 426,
+      "chineseCharCount": 0
+    }
+  ]
+}

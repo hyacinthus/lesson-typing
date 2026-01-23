@@ -1,0 +1,205 @@
+{
+  "grade": "6º Ano",
+  "lessons": [
+    {
+      "id": "pt-grade6-dom-casmurro",
+      "title": "Dom Casmurro (Olhos de Ressaca)",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 1,
+      "content": "Capitu, apesar daqueles olhos que o diabo lhe deu... Você já reparou nos olhos dela? São assim de cigana oblíqua e dissimulada. Pois, apesar deles, poderia passar, se não fosse a vaidade e a adulação. Oh! a adulação! (...) Capitu deixou-se fitar e examinar. Tinha os olhos claros, a cor das faces um pouco acesa, e a boca entreaberta, úmida, como quem espera alguma coisa.",
+      "characterCount": 372,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-alienista",
+      "title": "O Alienista (Resumo)",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 2,
+      "content": "A Casa Verde, hospício fundado pelo alienista Simão Bacamarte em Itaguaí, logo se encheu de loucos. Bacamarte via loucura em todos: no Costa, que perdeu a herança; na senhora que gesticulava muito; no mentiroso. A cidade ficou apavorada. Quem seria o próximo? Bacamarte, obcecado pela ciência, acabou internando a própria esposa e, por fim, percebendo que o único são e perfeito era ele mesmo, internou-se a si próprio.",
+      "characterCount": 419,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-vidas-secas",
+      "title": "Vidas Secas (Baleia)",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 3,
+      "content": "A cachorra Baleia estava para morrer. Tinha emagrecido, o pêlo caíra-lhe em vários pontos, as costelas avultavam num fundo róseo, onde manchas escuras supuravam e sangravam. (...) Baleia queria dormir. Acordaria feliz, num mundo cheio de preás. E lamberia as mãos de Fabiano, um Fabiano enorme. As crianças se espojariam com ela, rolariam com ela num pátio enorme, num chiqueiro enorme.",
+      "characterCount": 386,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-iracema",
+      "title": "Iracema (Abertura)",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 4,
+      "content": "Verdes mares bravios de minha terra natal, onde canta a jandaia nas frondes da carnaúba; verdes mares, que brilhais como líquida esmeralda aos raios do sol nascente, perlongando as alvas praias ensombradas de coqueiros. Serenai, verdes mares, e alisai docemente a vaga impetuosa, para que o barco aventureiro manso resvale à flor das águas. (...) Além, muito além daquela serra, que ainda azula no horizonte, nasceu Iracema.",
+      "characterCount": 424,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-ou-isto",
+      "title": "Ou Isto ou Aquilo",
+      "category": "Poesia",
+      "difficulty": 6,
+      "order": 5,
+      "content": "Ou se tem chuva e não se tem sol, / ou se tem sol e não se tem chuva! / Ou se calça a luva e não se põe o anel, / ou se põe o anel e não se calça a luva! / Quem sobe nos ares não fica no chão, / quem fica no chão não sobe nos ares. / É uma grande pena que não se possa / estar ao mesmo tempo nos dois lugares! / Ou guardo o dinheiro e não compro o doce, / ou compro o doce e gasto o dinheiro.",
+      "characterCount": 392,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-bola",
+      "title": "A Bola (Crônica)",
+      "category": "Crônica",
+      "difficulty": 6,
+      "order": 6,
+      "content": "O pai deu uma bola de presente ao filho. Lembrando o prazer que sentira ao ganhar a sua primeira bola do pai. Uma número 5, oficial, de couro. Agora não era mais de couro, era de plástico. O garoto agradeceu, desembrulhou a bola e disse 'Legal!'. Ou o que os garotos dizem hoje em dia quando gostam do presente ou não querem magoar o velho. Depois começou a girar a bola, à procura de alguma coisa. 'Como é que liga?', perguntou.",
+      "characterCount": 429,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-severina",
+      "title": "Morte e Vida Severina",
+      "category": "Poesia",
+      "difficulty": 6,
+      "order": 7,
+      "content": "— O meu nome é Severino, / não tenho outro de pia. / Como há muitos Severinos, / que é santo de romaria, / deram então de me chamar / Severino de Maria; / como há muitos Severinos / com mães chamadas Maria, / fiquei sendo o da Maria / do finado Zacarias. / Mas isso ainda diz pouco: / há muitos na freguesia, / por causa de um coronel / que se chamou Zacarias / e que foi o mais antigo / senhor desta sesmaria.",
+      "characterCount": 410,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-lusiadas",
+      "title": "Os Lusíadas (Canto I)",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 8,
+      "content": "As armas e os barões assinalados, / Que da ocidental praia Lusitana, / Por mares nunca de antes navegados, / Passaram ainda além da Taprobana, / Em perigos e guerras esforçados, / Mais do que prometia a força humana, / E entre gente remota edificaram / Novo Reino, que tanto sublimaram. (...) Cantando espalharei por toda parte, / Se a tanto me ajudar o engenho e arte.",
+      "characterCount": 369,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-cortico",
+      "title": "O Cortiço",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 9,
+      "content": "Eram cinco horas da manhã e o cortiço acordava, abrindo, não os olhos, mas a sua infinidade de portas e janelas alinhadas. Um acordar alegre e farto de quem dormiu de uma assentada sete horas de chumbo. (...) O rumor crescia, condensava-se; o zunzum de todos os dias acentuava-se; já se não destacavam vozes dispersas, mas um só ruído compacto que enchia todo o cortiço. Começavam a fazer compras na venda; ensarilhavam-se discussões.",
+      "characterCount": 434,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-compadecida",
+      "title": "Auto da Compadecida",
+      "category": "Teatro",
+      "difficulty": 6,
+      "order": 10,
+      "content": "JOÃO GRILO: Padre João! Padre João! PADRE: Que há? Que gritaria é essa? JOÃO GRILO: O cachorro do meu patrão se viu atacado de um mal súbito e vai morrer. O homem quer que o senhor benzer o bicho. PADRE: Benzer o quê? JOÃO GRILO: O cachorro. PADRE: Que maluquice! Que besteira! Eu benzer cachorro! Onde é que já se viu? JOÃO GRILO: Mas padre, o homem é rico... PADRE: Não benzo de jeito nenhum.",
+      "characterCount": 394,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-desmatamento",
+      "title": "Notícia: Desmatamento",
+      "category": "Notícia",
+      "difficulty": 6,
+      "order": 11,
+      "content": "O desmatamento na Amazônia é um problema ambiental grave. A derrubada de árvores para a criação de pastos, agricultura e extração ilegal de madeira destrói o habitat de animais e plantas, além de contribuir para o aquecimento global. Sem as árvores, o solo fica pobre e os rios podem secar. A preservação da floresta é vital para o equilíbrio do clima e para a sobrevivência das futuras gerações.",
+      "characterCount": 396,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-tecnologia",
+      "title": "Tecnologia 5G",
+      "category": "Tecnologia",
+      "difficulty": 6,
+      "order": 12,
+      "content": "A tecnologia 5G é a quinta geração de redes móveis e promete revolucionar a forma como usamos a internet. Com velocidades muito maiores que o 4G, o 5G permite baixar filmes em segundos e conectar muitos dispositivos ao mesmo tempo sem travar. Além disso, possibilita avanços como carros autônomos, cirurgias à distância e casas inteligentes. No entanto, sua implementação exige novas antenas e infraestrutura.",
+      "characterCount": 409,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-homem-trocado",
+      "title": "O Homem Trocado",
+      "category": "Crônica",
+      "difficulty": 6,
+      "order": 13,
+      "content": "O homem acorda de manhã e, ao se olhar no espelho, vê um desconhecido. Não é o seu rosto. Ele se apalpa: não é o seu corpo. Assustado, tenta falar, mas a voz também não é a sua. Ele trocou de corpo durante a noite! Sai para a rua e ninguém o reconhece. Sua mulher o expulsa de casa, seu cachorro o morde. Desesperado, ele tenta provar quem é, mas todos acham que ele é um louco ou um impostor.",
+      "characterCount": 393,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-guarani",
+      "title": "O Guarani (Peri e Ceci)",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 14,
+      "content": "Peri, o índio goitacá, filho das florestas, adorava a Ceci como a uma divindade. Ceci, a menina branca de cabelos dourados, via em Peri um amigo fiel e protetor. Quando a casa de D. Antônio de Mariz foi cercada pelos aimorés, Peri prometeu salvar Ceci. No final, com a casa em chamas e o rio Paquequer transbordando, Peri e Ceci fogem em uma canoa feita de uma palmeira, levados pela correnteza em direção ao horizonte.",
+      "characterCount": 419,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-felicidade",
+      "title": "Felicidade Clandestina",
+      "category": "Crônica",
+      "difficulty": 6,
+      "order": 15,
+      "content": "Ela era gorda, baixa, sardenta e de cabelos excessivamente crespos, meio arruivados. Tinha um busto enorme. Mas possuía o que qualquer criança devoradora de histórias gostaria de ter: um pai dono de livraria. Pouco aproveitava. E nós menos ainda: até para aniversário, em vez de pelo menos um livrinho barato, ela nos entregava em mãos um cartão-postal da loja do pai. Ainda por cima era de paisagem do Recife mesmo.",
+      "characterCount": 416,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-memorias",
+      "title": "Memórias de um Sargento",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 16,
+      "content": "Era no tempo do rei. Uma das quatro esquinas que formam as ruas do Ouvidor e da Quitanda, cortando-se mutuamente, chamava-se nesse tempo o canto dos meirinhos. (...) Leonardo (o filho), o herói da nossa história, nasceu de uma pisadela e de um beliscão. Seu pai, Leonardo-Pataca, e sua mãe, Maria-da-Hortaliça, conheceram-se numa viagem de navio vindo de Portugal. O menino cresceu vadio e travesso nas ruas do Rio de Janeiro antigo.",
+      "characterCount": 433,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-policarpo",
+      "title": "Triste Fim de Policarpo Quaresma",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 17,
+      "content": "Policarpo Quaresma era um patriota. Não tinha família, nem amigos íntimos; sua família e seus amigos eram o Brasil. Amava o país com uma fé inquebrantável. Estudava a flora, a fauna, as riquezas minerais. Aprendeu tupi-guarani e enviou um ofício ao Congresso pedindo que o tupi fosse a língua oficial do Brasil. Foi chamado de louco e internado. Seu fim foi triste, decepcionado com a realidade que não correspondia ao seu ideal.",
+      "characterCount": 429,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-tempo",
+      "title": "O Tempo (Poema)",
+      "category": "Poesia",
+      "difficulty": 6,
+      "order": 18,
+      "content": "A vida é uns deveres que nós trouxemos para fazer em casa. / Quando se vê, já são seis horas! / Quando se vê, já é sexta-feira! / Quando se vê, já é natal... / Quando se vê, já terminou o ano... / Quando se vê perdemos o amor da nossa vida. / Quando se vê passaram cinquenta anos! / Agora é tarde para ser reprovado... / Se me fosse dado um dia, outra oportunidade, eu nem olhava o relógio.",
+      "characterCount": 390,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-isaura",
+      "title": "A Escrava Isaura",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 19,
+      "content": "Isaura era uma escrava, mas de pele muito branca e educação refinada. Filha de uma mulata com um feitor branco, foi criada pela esposa do Comendador como uma filha. Sabia tocar piano, cantar e falar francês. Porém, após a morte de sua protetora, o cruel Leôncio, filho do Comendador, tornou-se seu senhor. Obcecado por ela, Leôncio a perseguiu e a fez sofrer, ameaçando mandá-la para a roça se não cedesse aos seus desejos.",
+      "characterCount": 423,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade6-macunaima",
+      "title": "Macunaíma",
+      "category": "Literatura",
+      "difficulty": 6,
+      "order": 20,
+      "content": "No fundo do mato-virgem nasceu Macunaíma, herói de nossa gente. Era preto retinto e filho do medo da noite. Houve um momento em que o silêncio foi tão grande escutando o murmurejo do Uraricoera, que a índia tapanhumas pariu uma criança feia. Essa criança é que chamaram de Macunaíma. Já na meninice fez coisas de sarapantar. De primeiro passou mais de seis anos não falando. Si o incitavam a falar exclamava: — Ai! que preguiça!...",
+      "characterCount": 431,
+      "chineseCharCount": 0
+    }
+  ]
+}

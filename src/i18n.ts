@@ -78,6 +78,25 @@ const resources = {
             "back_home": "ホームに戻る",
             "restart": "もう一度"
         }
+    },
+    pt: {
+        translation: {
+            "app_title": "Prática de Digitação do Ensino Fundamental",
+            "start": "Começar a Praticar",
+            "hero_subtitle": "Pratique digitação com textos familiares",
+            "next_lesson": "Próxima Lição",
+            "select_grade": "Selecionar Série",
+            "all_grades": "Todas as Séries",
+            "language": "Idioma",
+            "loading": "Carregando...",
+            "error": "Erro",
+            "results": "Resultados",
+            "wpm": "PPM",
+            "accuracy": "Precisão",
+            "time": "Tempo",
+            "back_home": "Voltar ao Início",
+            "restart": "Reiniciar"
+        }
     }
 };
 

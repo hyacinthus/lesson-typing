@@ -1,0 +1,205 @@
+{
+  "grade": "2º Ano",
+  "lessons": [
+    {
+      "id": "pt-grade2-cigarra",
+      "title": "A Cigarra e a Formiga",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 1,
+      "content": "A cigarra cantou todo o verão. A formiga trabalhava e guardava comida. O inverno chegou. A cigarra estava com frio e fome. Ela pediu ajuda para a formiga.",
+      "characterCount": 154,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-leao",
+      "title": "O Leão e o Ratinho",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 2,
+      "content": "Um leão dormia quando um ratinho passou por cima dele. O leão acordou e pegou o rato. O rato pediu perdão. O leão deixou o rato ir. Depois, o rato salvou o leão de uma rede.",
+      "characterCount": 173,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-lebre",
+      "title": "A Lebre e a Tartaruga",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 3,
+      "content": "A lebre apostou uma corrida com a tartaruga. A lebre correu rápido e parou para dormir. A tartaruga andou devagar e nunca parou. A tartaruga venceu a corrida.",
+      "characterCount": 158,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-cao",
+      "title": "O Cão e o Osso",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 4,
+      "content": "Um cão levava um osso na boca. Ele passou por uma ponte e viu sua sombra na água. Pensou que era outro cão com um osso maior. Ele latiu e seu osso caiu na água.",
+      "characterCount": 160,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-raposa-uvas",
+      "title": "A Raposa e as Uvas",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 5,
+      "content": "Uma raposa viu belos cachos de uvas. Ela tentou pegar as uvas, mas estavam muito altas. Ela pulou muitas vezes, mas não conseguiu. No final, disse que as uvas estavam verdes.",
+      "characterCount": 174,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-pastor",
+      "title": "O Pastor Mentiroso",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 6,
+      "content": "Um pastor gritou que o lobo estava vindo. Era mentira. As pessoas vieram ajudar e ele riu. Um dia o lobo veio de verdade. O pastor gritou, mas ninguém acreditou nele.",
+      "characterCount": 166,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-corvo",
+      "title": "O Corvo e o Jarro",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 7,
+      "content": "Um corvo estava com muita sede. Viu um jarro com água no fundo. Não conseguia alcançar a água. Ele jogou pedras dentro do jarro. A água subiu e ele bebeu.",
+      "characterCount": 154,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-vento",
+      "title": "O Vento e o Sol",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 8,
+      "content": "O vento e o sol discutiram quem era mais forte. Viram um homem com um casaco. O vento soprou forte, mas o homem segurou o casaco. O sol brilhou quente e o homem tirou o casaco.",
+      "characterCount": 176,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-galinha",
+      "title": "A Galinha dos Ovos de Ouro",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 9,
+      "content": "Um homem tinha uma galinha que punha ovos de ouro. Ele queria todo o ouro de uma vez. Ele matou a galinha e abriu a barriga dela. Não havia ouro lá dentro. Ele perdeu tudo.",
+      "characterCount": 172,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-ratos",
+      "title": "O Rato do Campo e da Cidade",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 10,
+      "content": "O rato da cidade convidou o rato do campo para comer. A comida era boa, mas havia gatos perigosos. O rato do campo preferiu sua vida simples e segura no campo.",
+      "characterCount": 159,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-cegonha",
+      "title": "A Raposa e a Cegonha",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 11,
+      "content": "A raposa convidou a cegonha para jantar. Serviu sopa em um prato raso. A cegonha não conseguiu comer. A cegonha convidou a raposa e serviu comida em um jarro alto.",
+      "characterCount": 163,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-lobo",
+      "title": "O Lobo e o Cordeiro",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Um lobo viu um cordeiro bebendo água no rio. O lobo queria comer o cordeiro. Ele inventou desculpas, dizendo que o cordeiro sujava a água. O lobo é mau e injusto.",
+      "characterCount": 162,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-mosquito",
+      "title": "O Leão e o Mosquito",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Um mosquito picou o leão no nariz. O leão ficou bravo e tentou pegar o mosquito. O leão se arranhou todo. O mosquito voou feliz, mas caiu na teia de uma aranha.",
+      "characterCount": 160,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-galo",
+      "title": "O Galo e a Pérola",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Um galo estava ciscando no terreiro. Ele encontrou uma pérola preciosa. O galo disse: Para que serve isso? Eu prefiro um grão de milho para comer.",
+      "characterCount": 146,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-assembleia",
+      "title": "A Assembleia dos Ratos",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Os ratos queriam se proteger do gato. Decidiram colocar um sino no pescoço do gato. Todos gostaram da ideia. Mas um rato velho perguntou: Quem vai colocar o sino no gato?",
+      "characterCount": 170,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-burro",
+      "title": "O Burro e a Pele de Leão",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Um burro encontrou uma pele de leão. Ele vestiu a pele e assustou os outros animais. Mas quando ele tentou rugir, saiu um zurro. Todos descobriram que era um burro.",
+      "characterCount": 164,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-mosca",
+      "title": "A Mosca e a Formiga",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 17,
+      "content": "A mosca disse que era importante e voava nos palácios. A formiga disse que trabalhava e guardava comida. No inverno, a mosca morreu de frio e a formiga estava bem.",
+      "characterCount": 163,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-pavao",
+      "title": "O Pavão e o Grou",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 18,
+      "content": "O pavão ria das penas do grou. O pavão dizia que suas penas eram coloridas como o arco-íris. O grou disse: Eu posso voar alto no céu, você só anda no chão.",
+      "characterCount": 155,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-arvore",
+      "title": "O Carvalho e o Caniço",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 19,
+      "content": "O carvalho era forte e orgulhoso. O caniço era fino e fraco. Veio uma tempestade forte. O carvalho quebrou porque era duro. O caniço se curvou e sobreviveu.",
+      "characterCount": 156,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade2-viajantes",
+      "title": "Os Viajantes e o Urso",
+      "category": "Fábula",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Dois amigos encontraram um urso. Um subiu na árvore. O outro fingiu de morto no chão. O urso cheirou e foi embora. O amigo perguntou: O que o urso disse? Disse para não andar com quem abandona os amigos.",
+      "characterCount": 203,
+      "chineseCharCount": 0
+    }
+  ]
+}

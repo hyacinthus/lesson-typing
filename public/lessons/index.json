@@ -128,6 +128,42 @@
           "path": "spanish/grade-6.json"
         }
       ]
+    },
+    {
+      "id": "portuguese",
+      "name": "Português",
+      "grades": [
+        {
+          "id": "portuguese-grade-1",
+          "name": "1º Ano",
+          "path": "portuguese/grade-1.json"
+        },
+        {
+          "id": "portuguese-grade-2",
+          "name": "2º Ano",
+          "path": "portuguese/grade-2.json"
+        },
+        {
+          "id": "portuguese-grade-3",
+          "name": "3º Ano",
+          "path": "portuguese/grade-3.json"
+        },
+        {
+          "id": "portuguese-grade-4",
+          "name": "4º Ano",
+          "path": "portuguese/grade-4.json"
+        },
+        {
+          "id": "portuguese-grade-5",
+          "name": "5º Ano",
+          "path": "portuguese/grade-5.json"
+        },
+        {
+          "id": "portuguese-grade-6",
+          "name": "6º Ano",
+          "path": "portuguese/grade-6.json"
+        }
+      ]
     }
   ]
 }

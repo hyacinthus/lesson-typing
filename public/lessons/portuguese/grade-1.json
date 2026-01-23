@@ -1,0 +1,205 @@
+{
+  "grade": "1º Ano",
+  "lessons": [
+    {
+      "id": "pt-grade1-gato",
+      "title": "O Gato Mimi",
+      "category": "Conto",
+      "difficulty": 1,
+      "order": 1,
+      "content": "O gato Mimi é muito fofo. Ele gosta de beber leite. O gato brinca com a bola de lã. Mimi dorme na cama. O gato faz miau miau.",
+      "characterCount": 125,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-pato",
+      "title": "O Pato Pateta",
+      "category": "Poema",
+      "difficulty": 1,
+      "order": 2,
+      "content": "O pato pateta pintou o caneco. Surrou a galinha, bateu no marreco. Pulou no puleiro, no pé do cavalo. Levou um coice, criou um galo.",
+      "characterCount": 132,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-casa",
+      "title": "A Casa",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Era uma casa muito engraçada. Não tinha teto, não tinha nada. Ninguém podia entrar nela não. Porque na casa não tinha chão.",
+      "characterCount": 123,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-sapo",
+      "title": "O Sapo",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 4,
+      "content": "O sapo não lava o pé. Não lava porque não quer. Ele mora lá na lagoa. Não lava o pé porque não quer. Mas que chulé!",
+      "characterCount": 115,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-bola",
+      "title": "A Bola do Beto",
+      "category": "Conto",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Beto tem uma bola. A bola de Beto é azul. Beto chuta a bola. A bola rola e rola. Beto gosta de jogar bola com seus amigos.",
+      "characterCount": 122,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-borboletinha",
+      "title": "Borboletinha",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Borboletinha está na cozinha. Fazendo chocolate para a madrinha. Poti, poti, perna de pau. Olho de vidro e nariz de pica-pau.",
+      "characterCount": 125,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-foca",
+      "title": "A Foca",
+      "category": "Poema",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Quer ver a foca ficar feliz? É pôr uma bola no seu nariz. Quer ver a foca bater palminha? É dar a ela uma sardinha.",
+      "characterCount": 115,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-indiozinhos",
+      "title": "Os Indiozinhos",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 8,
+      "content": "Um, dois, três indiozinhos. Quatro, cinco, seis indiozinhos. Sete, oito, nove indiozinhos. Dez num pequeno bote.",
+      "characterCount": 112,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-parabens",
+      "title": "Parabéns pra Você",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Parabéns pra você. Nesta data querida. Muitas felicidades. Muitos anos de vida. Hoje é dia de festa. Cantam as nossas almas.",
+      "characterCount": 124,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-cravo",
+      "title": "O Cravo e a Rosa",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 10,
+      "content": "O Cravo brigou com a rosa. Debaixo de uma sacada. O Cravo saiu ferido. E a rosa despedaçada. O cravo ficou doente. A rosa foi visitar.",
+      "characterCount": 134,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-boneca",
+      "title": "A Boneca de Pano",
+      "category": "Conto",
+      "difficulty": 1,
+      "order": 11,
+      "content": "A boneca é de pano. O nome dela é Ana. Ana é bonita e feliz. Ela usa um vestido amarelo. A menina gosta muito da sua boneca Ana.",
+      "characterCount": 128,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-pipoca",
+      "title": "A Pipoca",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 12,
+      "content": "Pula, pula, pipoquinha. Pula, pula sem parar. Pula, pula, pipoquinha. Para crescer e estourar. Pula, pula, pipoquinha.",
+      "characterCount": 118,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-sol",
+      "title": "O Sol",
+      "category": "Conto",
+      "difficulty": 1,
+      "order": 13,
+      "content": "O sol brilha no céu. O sol é amarelo e quente. O sol nos dá luz e calor. Eu gosto de brincar quando o sol aparece.",
+      "characterCount": 114,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-samba",
+      "title": "Samba Lelê",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 14,
+      "content": "Samba Lelê está doente. Está com a cabeça quebrada. Samba Lelê precisava. De umas dezoito lambadas. Samba, samba, samba o Lelê.",
+      "characterCount": 127,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-cai-balao",
+      "title": "Cai, Cai, Balão",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 15,
+      "content": "Cai, cai, balão. Cai, cai, balão. Aqui na minha mão. Não cai não, não cai não, não cai não. Cai na rua do sabão.",
+      "characterCount": 112,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-carneirinho",
+      "title": "Carneirinho, Carneirão",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 16,
+      "content": "Carneirinho, carneirão. Neirão, neirão. Olhai pro céu, olhai pro chão. Pro chão, pro chão. Manda o Rei, nosso Senhor. Senhor, Senhor.",
+      "characterCount": 133,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-limao",
+      "title": "Meu Limão",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 17,
+      "content": "Meu limão, meu limoeiro. Meu pé de jacarandá. Uma vez, tindolelê. Outra vez, tindolalá. Meu limão, meu limoeiro.",
+      "characterCount": 112,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-ciranda",
+      "title": "Ciranda Cirandinha",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 18,
+      "content": "Ciranda, cirandinha. Vamos todos cirandar. Vamos dar a meia volta. Volta e meia vamos dar. O anel que tu me deste. Era vidro e se quebrou.",
+      "characterCount": 138,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-janelinha",
+      "title": "A Janelinha",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 19,
+      "content": "A janelinha fecha. Quando está chovendo. A janelinha abre. Se o sol está aparecendo. Fechou, abriu. Fechou, abriu, fechou.",
+      "characterCount": 122,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade1-peixe",
+      "title": "Peixe Vivo",
+      "category": "Música",
+      "difficulty": 1,
+      "order": 20,
+      "content": "Como pode o peixe vivo. Viver fora da água fria? Como poderei viver. Sem a tua, sem a tua. Sem a tua companhia?",
+      "characterCount": 111,
+      "chineseCharCount": 0
+    }
+  ]
+}

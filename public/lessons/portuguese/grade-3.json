@@ -1,0 +1,205 @@
+{
+  "grade": "3º Ano",
+  "lessons": [
+    {
+      "id": "pt-grade3-1",
+      "title": "A Formiga e a Cigarra",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 1,
+      "content": "Durante o verão, a formiga trabalhava arduamente, carregando folhas e sementes para o seu formigueiro. Enquanto isso, a cigarra passava os dias cantando, sem se preocupar com o futuro. Quando o inverno chegou, a cigarra, tremendo de frio e fome, bateu à porta da formiga pedindo abrigo. A formiga perguntou: 'O que você fez durante o verão?'. 'Eu cantei', respondeu a cigarra. A formiga então disse: 'Se você cantou no verão, agora dance no inverno'. A cigarra aprendeu que é preciso trabalhar para garantir o futuro.",
+      "characterCount": 517,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-2",
+      "title": "O Leão e o Ratinho",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 2,
+      "content": "Um leão dormia sossegado quando um ratinho começou a correr sobre o seu rosto. O leão acordou furioso e prendeu o ratinho com sua pata. O ratinho implorou: 'Por favor, deixe-me ir! Um dia poderei retribuir o favor'. O leão riu, mas o soltou. Dias depois, o leão caiu em uma rede de caçadores e rugiu por ajuda. O ratinho ouviu, correu até lá e roeu as cordas da rede, libertando o leão. O pequeno rato salvou o grande rei da selva.",
+      "characterCount": 431,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-3",
+      "title": "A Lebre e a Tartaruga",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 3,
+      "content": "A lebre vivia zombando da lentidão da tartaruga. Um dia, a tartaruga desafiou a lebre para uma corrida. A lebre, muito confiante, aceitou e saiu correndo na frente. Certa de que venceria, decidiu tirar uma soneca no meio do caminho. A tartaruga, porém, continuou andando devagar e sempre, sem parar. Quando a lebre acordou, viu que a tartaruga já estava cruzando a linha de chegada. A persistência venceu a rapidez.",
+      "characterCount": 415,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-4",
+      "title": "O Pastor Mentiroso",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 4,
+      "content": "Havia um pastor que cuidava de suas ovelhas perto de um vilarejo. Várias vezes, ele gritou: 'Lobo! Lobo!', apenas para se divertir vendo os moradores correrem para ajudá-lo. Quando chegavam, ele ria e dizia que era mentira. Um dia, um lobo apareceu de verdade. O pastor gritou desesperado por socorro, mas ninguém apareceu, pois todos achavam que era outra brincadeira. O lobo comeu as ovelhas, e o pastor aprendeu que ninguém acredita em um mentiroso, mesmo quando ele diz a verdade.",
+      "characterCount": 484,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-5",
+      "title": "A Raposa e as Uvas",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 5,
+      "content": "Uma raposa faminta passeava por um pomar quando viu um belo cacho de uvas maduras pendurado em uma parreira alta. Ela tentou pular para alcançá-las, mas não conseguiu. Tentou várias vezes, de diferentes maneiras, mas as uvas estavam muito altas. Cansada e frustrada, a raposa desistiu e foi embora, dizendo: 'Essas uvas estão verdes, não servem para mim'. É fácil desprezar o que não se pode ter.",
+      "characterCount": 396,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-6",
+      "title": "O Vento e o Sol",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 6,
+      "content": "O Vento e o Sol discutiam sobre qual dos dois era o mais forte. Viram um viajante caminhando com um casaco e decidiram ver quem conseguiria fazer o homem tirar o casaco. O Vento soprou com toda a força, mas quanto mais ventava, mais o homem segurava o casaco. Depois, foi a vez do Sol. Ele brilhou intensamente e aqueceu a Terra. O homem, sentindo calor, tirou o casaco imediatamente. A gentileza é frequentemente mais eficaz que a força bruta.",
+      "characterCount": 444,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-7",
+      "title": "A Menina do Leite",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 7,
+      "content": "Uma menina levava um balde de leite na cabeça para vender no mercado. No caminho, começou a sonhar: 'Vou vender o leite e comprar ovos. Os ovos vão virar pintinhos, que crescerão e virarão galinhas. Venderei as galinhas e comprarei um vestido novo e sapatos lindos. Todos vão me admirar!'. Empolgada, ela deu um pulo e o balde caiu no chão, derramando todo o leite. Adeus ovos, pintinhos e vestido novo. Não conte com os ovos antes da galinha botar.",
+      "characterCount": 449,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-8",
+      "title": "O Cachorro e o Osso",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 8,
+      "content": "Um cachorro atravessava uma ponte carregando um osso na boca. Olhou para baixo e viu seu reflexo na água. Pensou que era outro cachorro com um osso maior. Ganancioso, ele abriu a boca para latir e pegar o outro osso. Ao fazer isso, seu próprio osso caiu no rio e foi levado pela correnteza. O cachorro ficou sem nada, perdendo o certo pelo duvidoso.",
+      "characterCount": 349,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-9",
+      "title": "A Galinha dos Ovos de Ouro",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 9,
+      "content": "Um fazendeiro tinha uma galinha especial que punha um ovo de ouro todos os dias. Ele ficou rico vendendo os ovos. No entanto, o fazendeiro ficou ganancioso e impaciente. Pensou que a galinha devia ter um tesouro dentro dela. Decidiu matá-la para pegar todo o ouro de uma vez. Quando abriu a galinha, viu que ela era igual a qualquer outra por dentro. Por querer tudo de uma vez, ele perdeu sua fonte de riqueza.",
+      "characterCount": 411,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-10",
+      "title": "O Rato do Campo e o Rato da Cidade",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 10,
+      "content": "Um rato da cidade foi visitar seu primo no campo. O rato do campo ofereceu grãos e raízes simples. O rato da cidade disse: 'Venha comigo, lá comemos manjares'. No apartamento luxuoso da cidade, comeram queijos e bolos, mas a todo momento precisavam se esconder de gatos e humanos. O rato do campo decidiu voltar para casa: 'Prefiro minha comida simples com paz, do que luxo com perigo constante'.",
+      "characterCount": 396,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-11",
+      "title": "Os Três Porquinhos",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 11,
+      "content": "Três porquinhos decidiram construir suas casas. O primeiro fez uma casa de palha, o segundo de madeira e o terceiro de tijolos. O lobo soprou e derrubou a casa de palha e a de madeira, mas os porquinhos escaparam para a casa de tijolos. O lobo soprou com força, mas a casa de tijolos não caiu. Ele tentou entrar pela chaminé, mas caiu em um caldeirão de água quente e fugiu. O esforço e o trabalho duro valem a pena.",
+      "characterCount": 416,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-12",
+      "title": "O Patinho Feio",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 12,
+      "content": "Uma pata chocou seus ovos, e um deles era diferente: grande e desajeitado. Os outros animais riam dele e o chamavam de 'Patinho Feio'. Triste e solitário, ele fugiu e passou o inverno sofrendo. Na primavera, ao olhar seu reflexo no lago, descobriu que não era um pato, mas um belo cisne. Ele não era feio, apenas diferente, e agora era admirado por sua beleza e elegância.",
+      "characterCount": 372,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-13",
+      "title": "O Saci-Pererê",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 13,
+      "content": "O Saci-Pererê é um menino negro de uma perna só que fuma cachimbo e usa um gorro vermelho mágico. Ele vive nas matas do Brasil e adora fazer travessuras. Ele esconde objetos, trança a crina dos cavalos e assusta os viajantes com seus assobios. Dizem que ele aparece dentro de redemoinhos de vento. Para capturá-lo, é preciso jogar uma peneira no redemoinho e prender o Saci em uma garrafa.",
+      "characterCount": 389,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-14",
+      "title": "O Boto Cor-de-Rosa",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 14,
+      "content": "Diz a lenda que, nas noites de festa na Amazônia, o boto cor-de-rosa sai dos rios e se transforma em um homem muito bonito, vestido de branco e com um chapéu para esconder o buraco de respiração em sua cabeça. Ele dança com as moças e as encanta. Antes do amanhecer, ele corre de volta para o rio e se transforma novamente em boto. É uma das lendas mais famosas do folclore brasileiro.",
+      "characterCount": 385,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-15",
+      "title": "Festa Junina",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 15,
+      "content": "A Festa Junina é uma celebração popular no Brasil que acontece em junho. As pessoas se vestem com roupas caipiras, dançam quadrilha e acendem fogueiras. Há muitas comidas típicas deliciosas, como milho cozido, pipoca, canjica, pé de moleque e quentão. As festas são decoradas com bandeirinhas coloridas e balões. É um momento de muita alegria, música e tradição para agradecer as colheitas.",
+      "characterCount": 390,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-16",
+      "title": "Um Dia na Praia",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 16,
+      "content": "No domingo, fui à praia com minha família. O sol estava brilhante e o céu muito azul. Brinquei na areia construindo castelos e peguei ondas no mar com meu pai. Comemos milho verde e bebemos água de coco gelada. Vi muitos peixinhos nadando perto das pedras. No final da tarde, assistimos ao pôr do sol, que pintou o céu de laranja e rosa. Foi um dia inesquecível e muito divertido.",
+      "characterCount": 380,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-17",
+      "title": "A Minha Escola",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 17,
+      "content": "Minha escola é um lugar muito especial. Tenho muitos amigos e professores gentis. Na sala de aula, aprendemos a ler, escrever e fazer contas. No recreio, jogamos bola e brincamos de pega-pega no pátio. Gosto muito da biblioteca, que tem livros cheios de histórias mágicas. A escola me ensina coisas novas todos os dias e me ajuda a crescer inteligente e feliz.",
+      "characterCount": 360,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-18",
+      "title": "As Estações do Ano",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 18,
+      "content": "O ano tem quatro estações: primavera, verão, outono e inverno. Na primavera, as flores desabrocham e tudo fica colorido. No verão, faz calor e vamos à praia. No outono, as folhas das árvores caem e o vento sopra mais forte. No inverno, faz frio e precisamos usar roupas quentes. Cada estação tem sua beleza e importância para a natureza, e eu gosto de todas elas.",
+      "characterCount": 363,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-19",
+      "title": "O Corvo e o Jarro",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 19,
+      "content": "Um corvo estava morrendo de sede e encontrou um jarro com um pouco de água no fundo. Ele tentou beber, mas seu bico não alcançava a água. Ele tentou virar o jarro, mas era muito pesado. Então, teve uma ideia brilhante. Começou a jogar pedrinhas dentro do jarro, uma por uma. A cada pedra, o nível da água subia. Finalmente, a água chegou à borda e o corvo pôde beber e salvar sua vida. A inteligência vence a força.",
+      "characterCount": 415,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "pt-grade3-20",
+      "title": "Chapeuzinho Vermelho",
+      "category": "Geral",
+      "difficulty": 3,
+      "order": 20,
+      "content": "Chapeuzinho Vermelho foi levar doces para sua avó doente. No caminho, encontrou o lobo, que a enganou e chegou primeiro à casa da avó. O lobo devorou a avó e se disfarçou. Quando a menina chegou, estranhou a aparência da 'vovó'. O lobo tentou pegá-la, mas um caçador que passava ouviu os gritos, entrou na casa, salvou a vovó e Chapeuzinho. Elas aprenderam a nunca desobedecer e não falar com estranhos.",
+      "characterCount": 403,
+      "chineseCharCount": 0
+    }
+  ]
+}
