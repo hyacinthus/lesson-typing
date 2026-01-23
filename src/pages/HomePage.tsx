@@ -127,15 +127,15 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header / Top Bar */}
-      <div className="bg-white shadow-sm px-6 py-4 grid grid-cols-1 md:grid-cols-3 items-center gap-4 z-10">
+      <div className="bg-[#ebebeb] shadow-sm px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 z-10">
         {/* Logo & Title */}
-        <div className="flex items-center gap-3 justify-self-start">
+        <div className="flex items-center gap-3 w-full md:w-1/3 justify-start">
           <Logo className="w-10 h-10 shadow-sm" />
           <span className="text-xl font-bold text-gray-800 tracking-tight">LessonTyping</span>
         </div>
 
         {/* Grade List */}
-        <div className="flex justify-center justify-self-center w-full">
+        <div className="flex justify-center w-full md:w-1/3">
           <div className="relative">
             <select
               value={currentGrade || ''}
@@ -157,7 +157,7 @@ export function HomePage() {
         </div>
 
         {/* Language Switcher */}
-        <div className="flex justify-end justify-self-end">
+        <div className="flex justify-end w-full md:w-1/3">
           <div className="relative">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-400">
               <Globe size={18} />
