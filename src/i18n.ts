@@ -19,7 +19,16 @@ const resources = {
             "accuracy": "Accuracy",
             "time": "Time",
             "back_home": "Back Home",
-            "restart": "Restart"
+            "restart": "Restart",
+            "stats": {
+                "duration": "Duration",
+                "char_speed": "Char Speed",
+                "char_unit": "Chars/min",
+                "wpm_title": "WPM",
+                "wpm_unit": "Words/min",
+                "accuracy": "Accuracy",
+                "grade": "Grade: "
+            }
         }
     },
     zh: {
@@ -38,7 +47,16 @@ const resources = {
             "accuracy": "准确率",
             "time": "时间",
             "back_home": "返回首页",
-            "restart": "重新开始"
+            "restart": "重新开始",
+            "stats": {
+                "duration": "时长",
+                "char_speed": "字符速率",
+                "char_unit": "字符/分钟",
+                "wpm_title": "速度",
+                "wpm_unit": "字/分钟",
+                "accuracy": "准确率",
+                "grade": "等级: "
+            }
         }
     },
     es: {
@@ -57,7 +75,16 @@ const resources = {
             "accuracy": "Precisión",
             "time": "Tiempo",
             "back_home": "Volver al Inicio",
-            "restart": "Reiniciar"
+            "restart": "Reiniciar",
+            "stats": {
+                "duration": "Duración",
+                "char_speed": "Vel. Caracteres",
+                "char_unit": "Car/min",
+                "wpm_title": "PPM",
+                "wpm_unit": "Palabras/min",
+                "accuracy": "Precisión",
+                "grade": "Grado: "
+            }
         }
     },
     ja: {
@@ -76,7 +103,16 @@ const resources = {
             "accuracy": "正確さ",
             "time": "時間",
             "back_home": "ホームに戻る",
-            "restart": "もう一度"
+            "restart": "もう一度",
+            "stats": {
+                "duration": "時間",
+                "char_speed": "文字速度",
+                "char_unit": "文字/分",
+                "wpm_title": "速度",
+                "wpm_unit": "語/分",
+                "accuracy": "正確さ",
+                "grade": "ランク: "
+            }
         }
     },
     pt: {
@@ -95,7 +131,16 @@ const resources = {
             "accuracy": "Precisão",
             "time": "Tempo",
             "back_home": "Voltar ao Início",
-            "restart": "Reiniciar"
+            "restart": "Reiniciar",
+            "stats": {
+                "duration": "Duração",
+                "char_speed": "Vel. Caracteres",
+                "char_unit": "Car/min",
+                "wpm_title": "PPM",
+                "wpm_unit": "Palavras/min",
+                "accuracy": "Precisão",
+                "grade": "Nota: "
+            }
         }
     },
     fr: {
@@ -114,7 +159,16 @@ const resources = {
             "accuracy": "Précision",
             "time": "Temps",
             "back_home": "Retour à l'Accueil",
-            "restart": "Recommencer"
+            "restart": "Recommencer",
+            "stats": {
+                "duration": "Durée",
+                "char_speed": "Vit. Caractères",
+                "char_unit": "Car/min",
+                "wpm_title": "MPM",
+                "wpm_unit": "Mots/min",
+                "accuracy": "Précision",
+                "grade": "Note: "
+            }
         }
     },
     de: {
@@ -133,7 +187,16 @@ const resources = {
             "accuracy": "Genauigkeit",
             "time": "Zeit",
             "back_home": "Zurück zum Start",
-            "restart": "Neustart"
+            "restart": "Neustart",
+            "stats": {
+                "duration": "Dauer",
+                "char_speed": "Zeichen Tempo",
+                "char_unit": "Zei/min",
+                "wpm_title": "WPM",
+                "wpm_unit": "Wörter/min",
+                "accuracy": "Genauigkeit",
+                "grade": "Note: "
+            }
         }
     }
 };

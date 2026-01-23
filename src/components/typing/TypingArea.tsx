@@ -148,19 +148,19 @@ export function TypingArea({
           <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('results')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <div>
-              <div className="text-sm text-gray-600">中文速率</div>
+              <div className="text-sm text-gray-600">{t('stats.wpm_title')}</div>
               <div className="text-2xl font-bold text-green-600">
-                {stats.chineseSpeed} 字/分钟
+                {stats.chineseSpeed} {t('stats.wpm_unit')}
               </div>
             </div>
             <div>
-              <div className="text-sm text-gray-600">字符速率</div>
+              <div className="text-sm text-gray-600">{t('stats.char_speed')}</div>
               <div className="text-2xl font-bold text-blue-600">
-                {stats.characterSpeed} {t('wpm')}
+                {stats.characterSpeed} {t('stats.char_unit')}
               </div>
             </div>
             <div>
-              <div className="text-sm text-gray-600">{t('accuracy')}</div>
+              <div className="text-sm text-gray-600">{t('stats.accuracy')}</div>
               <div className="text-2xl font-bold text-purple-600">
                 {stats.accuracy}%
               </div>

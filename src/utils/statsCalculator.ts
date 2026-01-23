@@ -49,13 +49,23 @@ export function calculateStats(session: TypingSession): RealtimeStats {
     ? Math.round(effectiveKeystrokes / durationMinutes)
     : 0;
 
-  // 中文速率（字/分钟）
-  const chineseChars = typedChars.filter(char =>
-    isChineseCharacter(char.char) && char.status === CharacterStatus.CORRECT
-  ).length;
-  const chineseSpeed = durationMinutes > 0
-    ? Math.round(chineseChars / durationMinutes)
-    : 0;
+  // 中文速率（字/分钟） 或 WPM
+  const isChineseContent = content.some(c => isChineseCharacter(c.char));
+  let chineseSpeed = 0;
+
+  if (isChineseContent) {
+    const chineseChars = typedChars.filter(char =>
+      isChineseCharacter(char.char) && char.status === CharacterStatus.CORRECT
+    ).length;
+    chineseSpeed = durationMinutes > 0
+      ? Math.round(chineseChars / durationMinutes)
+      : 0;
+  } else {
+    // 非中文内容，使用标准 WPM 计算 (每 5 个字符算 1 个词)
+    chineseSpeed = durationMinutes > 0
+      ? Math.round((correctChars / 5) / durationMinutes)
+      : 0;
+  }
 
   // 准确率
   const accuracy = totalCharacters > 0
