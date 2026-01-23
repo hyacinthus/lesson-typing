@@ -1,15 +1,205 @@
 {
-    "grade": "Grade 6",
-    "lessons": [
-        {
-            "id": "eng-grade6-wind-sun",
-            "title": "The Wind and the Sun",
-            "category": "Fable",
-            "difficulty": 4,
-            "order": 1,
-            "content": "Once upon a time, the Wind and the Sun had an argument. They both claimed to be stronger than the other.\n\"I am much stronger than you,\" said the Wind. \"I can blow down huge trees and make ships sink in the ocean.\"\nThe Sun smiled gently and said, \"Strength is not always about force. Let's have a contest to see who is right.\"\nThey saw a traveler walking down the road. He was wearing a heavy winter coat.\n\"Whoever can make that man take off his coat is the winner,\" said the Sun.\nThe Wind agreed and started first. He blew as hard as he could. A strong storm began. The leaves fell from the trees, and the dust swirled around. But the harder the Wind blew, the tighter the traveler held his coat. He was cold and wrapped the coat closely around his body. Finally, the Wind gave up, exhausted.\nThen it was the Sun's turn. He came out from behind the clouds and shone brightly. The air became warm and pleasant. The traveler felt the warmth and unbuttoned his coat. As the Sun shone hotter, the man began to sweat. Finally, he took off his coat and sat under a tree to rest.\nThe Sun won. He showed the Wind that gentleness and persuasion are often more effective than force.",
-            "characterCount": 1100,
-            "chineseCharCount": 0
-        }
-    ]
+  "grade": "Grade 6",
+  "lessons": [
+    {
+      "id": "eng-grade6-wind-sun",
+      "title": "The Wind and the Sun",
+      "category": "Fable",
+      "difficulty": 4,
+      "order": 1,
+      "content": "Once upon a time, the Wind and the Sun had an argument. They both claimed to be stronger than the other.\n\"I am much stronger than you,\" said the Wind. \"I can blow down huge trees and make ships sink in the ocean.\"\nThe Sun smiled gently and said, \"Strength is not always about force. Let's have a contest to see who is right.\"\nThey saw a traveler walking down the road. He was wearing a heavy winter coat.\n\"Whoever can make that man take off his coat is the winner,\" said the Sun.\nThe Wind agreed and started first. He blew as hard as he could. A strong storm began. The leaves fell from the trees, and the dust swirled around. But the harder the Wind blew, the tighter the traveler held his coat. He was cold and wrapped the coat closely around his body. Finally, the Wind gave up, exhausted.\nThen it was the Sun's turn. He came out from behind the clouds and shone brightly. The air became warm and pleasant. The traveler felt the warmth and unbuttoned his coat. As the Sun shone hotter, the man began to sweat. Finally, he took off his coat and sat under a tree to rest.\nThe Sun won. He showed the Wind that gentleness and persuasion are often more effective than force.",
+      "characterCount": 1100,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-happy-prince",
+      "title": "The Happy Prince",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 2,
+      "content": "High above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.\nHe was very much admired indeed. \"He is as beautiful as a weathercock,\" remarked one of the Town Councillors who wished to gain a reputation for having artistic tastes; \"only not quite so useful,\" he added, fearing lest people should think him unpractical, which he really was not.\n\"Why can't you be like the Happy Prince?\" asked a sensible mother of her little boy who was crying for the moon. \"The Happy Prince never dreams of crying for anything.\"\n\"I am glad there is some one in the world who is quite happy,\" muttered a disappointed man as he gazed at the wonderful statue.",
+      "characterCount": 782,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-selfish-giant",
+      "title": "The Selfish Giant",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 3,
+      "content": "Every afternoon, as they were coming from school, the children used to go and play in the Giant's garden.\nIt was a large lovely garden, with soft green grass. Here and there over the grass stood beautiful flowers like stars, and there were twelve peach-trees that in the spring-time broke out into delicate blossoms of pink and pearl, and in the autumn bore rich fruit. The birds sat on the trees and sang so sweetly that the children used to stop their games in order to listen to them. \"How happy we are here!\" they cried to each other.\nOne day the Giant came back. He had been to visit his friend the Cornish ogre, and had stayed with him for seven years. After the seven years were over he had said all that he had to say, for his conversation was limited, and he determined to return to his own castle. When he arrived he saw the children playing in the garden.\n\"What are you doing here?\" he cried in a very gruff voice, and the children ran away.\n\"My own garden is my own garden,\" said the Giant; \"any one can understand that, and I will allow nobody to play in it but myself.\" So he built a high wall all round it, and put up a notice-board.\nTRESPASSERS WILL BE PROSECUTED\nHe was a very selfish Giant.",
+      "characterCount": 1163,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-gift-magi",
+      "title": "The Gift of the Magi",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 4,
+      "content": "One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the vegetable man and the butcher until one's cheeks burned with the silent imputation of parsimony that such close dealing implied. Three times Della counted it. One dollar and eighty-seven cents. And the next day would be Christmas.\nThere was clearly nothing to do but flop down on the shabby little couch and howl. So Della did it. Which instigates the moral reflection that life is made up of sobs, sniffles, and smiles, with sniffles predominating.\nWhile the mistress of the home is gradually subsiding from the first stage to the second, take a look at the home. A furnished flat at $8 per week. It did not exactly beggar description, but it certainly had that word on the lookout for the mendicancy squad.",
+      "characterCount": 878,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-rip-van-winkle",
+      "title": "Rip Van Winkle",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 5,
+      "content": "Whoever has made a voyage up the Hudson must remember the Kaatskill mountains. They are a dismembered branch of the great Appalachian family, and are seen away to the west of the river, swelling up to a noble height, and lording it over the surrounding country. Every change of season, every change of weather, indeed, every hour of the day, produces some change in the magical hues and shapes of these mountains, and they are regarded by all the good wives, far and near, as perfect barometers. When the weather is fair and settled, they are clothed in blue and purple, and print their bold outlines on the clear evening sky; but, sometimes, when the rest of the landscape is cloudless, they will gather a hood of gray vapors about their summits, which, in the last rays of the setting sun, will glow and light up like a crown of glory.",
+      "characterCount": 841,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-sleepy-hollow",
+      "title": "The Legend of Sleepy Hollow",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 6,
+      "content": "In the bosom of one of those spacious coves which indent the eastern shore of the Hudson, at that broad expansion of the river denominated by the ancient Dutch navigators the Tappan Zee, and where they always prudently shortened sail, and implored the protection of St. Nicholas when they crossed, there lies a small market-town or rural port, which by some is called Greensburgh, but which is more generally known by the name of Tarry Town. This name was given, we are told, in former days, by the good housewives of the adjacent country, from the inveterate propensity of their husbands to linger about the village tavern on market days. Be that as it may, I do not vouch for the fact, but merely advert to it, for the sake of being precise and authentic. Not far from this village, perhaps about two miles, there is a little valley, or rather lap of land, among high hills, which is one of the quietest places in the whole world. A small brook glides through it, with just murmur enough to lull one to repose; and the occasional whistle of a quail, or tapping of a woodpecker, is almost the only sound that ever breaks in upon the uniform tranquillity.",
+      "characterCount": 1157,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-prince-pauper",
+      "title": "The Prince and the Pauper",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 7,
+      "content": "In the ancient city of London, on a certain autumn day in the second quarter of the sixteenth century, a boy was born to a poor family of the name of Canty, who did not want him. On the same day another English child was born to a rich family of the name of Tudor, who did want him. All England wanted him too. England had so longed for him, and hoped for him, and prayed God for him, that, now that he was really come, the people went nearly mad for joy. Mere acquaintances hugged and kissed each other and cried. Everybody took a holiday, and high and low, rich and poor, feasted and danced and sang, and got very mellow; and for days and nights London was a sight to see, with gay banners waving from every balcony and housetop, and splendid pageants marching along. By day, London was a sight to see, with gay banners waving from every balcony and housetop, and splendid pageants marching along. By night, it was again a sight to see, with its great bonfires at every corner, and its troops of revellers making merry around them.",
+      "characterCount": 1039,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-christmas-carol",
+      "title": "A Christmas Carol",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 8,
+      "content": "Marley was dead: to begin with. There is no doubt whatever about that. The register of his burial was signed by the clergyman, the clerk, the undertaker, and the chief mourner. Scrooge signed it: and Scrooge's name was good upon 'Change, for anything he chose to put his hand to. Old Marley was as dead as a door-nail.\nMind! I don't mean to say that I know, of my own knowledge, what there is particularly dead about a door-nail. I might have been inclined, myself, to regard a coffin-nail as the deadest piece of ironmongery in the trade. But the wisdom of our ancestors is in the simile; and my unhallowed hands shall not disturb it, or the Country's done for. You will therefore permit me to repeat, emphatically, that Marley was as dead as a door-nail.\nScrooge knew he was dead? Of course he did. How could it be otherwise? Scrooge and he were partners for I don't know how many years. Scrooge was his sole executor, his sole administrator, his sole assign, his sole residuary legatee, his sole friend, and sole mourner. And even Scrooge was not so dreadfully cut up by the sad event, but that he was an excellent man of business on the very day of the funeral, and solemnised it with an undoubted bargain.",
+      "characterCount": 1205,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-gulliver",
+      "title": "Gulliver's Travels",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 9,
+      "content": "My father had a small estate in Nottinghamshire; I was the third of five sons. He sent me to Emanuel College in Cambridge, at fourteen years old, where I resided three years, and applied myself close to my studies: but the charge of maintaining me (although I had a very scanty allowance) being too great for a narrow fortune, I was bound apprentice to Mr. James Bates, an eminent surgeon in London, with whom I continued four years; and my father now and then sending me small sums of money, I laid them out in learning navigation, and other parts of the mathematics, useful to those who intend to travel, as I always believed it would be some time or other my fortune to do. When I left Mr. Bates, I went down to my father; where, by the assistance of him and my uncle John, and some other relations, I got forty pounds, and a promise of thirty pounds a year to maintain me at Leyden: there I studied physic two years and seven months, knowing it would be useful in long voyages.",
+      "characterCount": 988,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-sherlock",
+      "title": "A Study in Scarlet",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 10,
+      "content": "In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army. Having completed my studies there, I was duly attached to the Fifth Northumberland Fusiliers as Assistant Surgeon. The regiment was stationed in India at the time, and before I could join it, the second Afghan war had broken out. On landing at Bombay, I learned that my corps had advanced through the passes, and was already deep in the enemy's country. I followed, however, with many other officers who were in the same situation as myself, and succeeded in reaching Candahar in safety, where I found my regiment, and at once entered upon my new duties.",
+      "characterCount": 725,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-jekyll-hyde",
+      "title": "Dr. Jekyll and Mr. Hyde",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 11,
+      "content": "Mr. Utterson the lawyer was a man of a rugged countenance that was never lighted by a smile; cold, scanty and embarrassed in discourse; backward in sentiment; lean, long, dusty, dreary and yet somehow lovable. At friendly meetings, and when the wine was to his taste, something eminently human beaconed from his eye; something indeed which never found its way into his talk, but which spoke not only in these silent symbols of the after-dinner face, but more often and loudly in the acts of his life. He was austere with himself; drank gin when he was alone, to mortify a taste for vintages; and though he enjoyed the theater, had not crossed the doors of one for twenty years. But he had an approved tolerance for others; sometimes wondering, almost with envy, at the high pressure of spirits involved in their misdeeds; and in any extremity inclined to help rather than to reprove.",
+      "characterCount": 885,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-frankenstein",
+      "title": "Frankenstein",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 12,
+      "content": "I am by birth a Genevese, and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics, and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; a variety of circumstances had prevented his marrying early, nor was it until the decline of life that he became a husband and the father of a family.\nAs the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness.",
+      "characterCount": 1177,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-dracula",
+      "title": "Dracula",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 13,
+      "content": "3 May. Bistritz.--Left Munich at 8:35 P. M., on 1st May, arriving at Vienna early next morning; should have arrived at 6:46, but train was an hour late. Buda-Pesth seems a wonderful place, from the glimpse which I got of it from the train and the little I could walk through the streets. I feared to go very far from the station, as we had arrived late and would start as near the correct time as possible. The impression I had was that we were leaving the West and entering the East; the most western of splendid bridges over the Danube, which is here of noble width and depth, took us among the traditions of Turkish rule.\nWe left in pretty good time, and came after nightfall to Klausenburgh. Here I stopped for the night at the Hotel Royale. I had for dinner, or rather supper, a chicken done up some way with red pepper, which was very good but thirsty. (Mem., get recipe for Mina.) I asked the waiter, and he said it was called \"paprika hendl,\" and that, as it was a national dish, I should be able to get it anywhere along the Carpathians.",
+      "characterCount": 1056,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-time-machine",
+      "title": "The Time Machine",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 14,
+      "content": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us. His grey eyes shone and twinkled, and his usually pale face was flushed and animated. The fire burned brightly, and the soft radiance of the incandescent lights in the lilies of silver caught the bubbles that flashed and passed in our glasses. Our chairs, being his patents, embraced and caressed us rather than submitted to be sat upon, and there was that luxurious after-dinner atmosphere when thought roams gracefully free of the trammels of precision. And he put it to us in this way--marking the points with a lean forefinger--as we sat and lazily admired his earnestness over this new paradox (as we thought it:) and his fecundity.\n\"You must follow me carefully. I shall have to controvert one or two ideas that are almost universally accepted. The geometry, for instance, they taught you at school is founded on a misconception.\"",
+      "characterCount": 956,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-war-worlds",
+      "title": "The War of the Worlds",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 15,
+      "content": "No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man's and yet as mortal as his own; that as men busied themselves about their various concerns they were scrutinised and studied, perhaps almost as narrowly as a man with a microscope might scrutinise the transient creatures that swarm and multiply in a drop of water. With infinite complacency men went to and fro over this globe about their little affairs, serene in their assurance of their empire over matter. It is possible that the infusoria under the microscope do the same. No one gave a thought to the older worlds of space as sources of human danger, or thought of them only to dismiss the idea of life upon them as impossible or improbable. It is curious to recall some of the mental habits of those departed days. At most terrestrial men fancied there might be other men upon Mars, perhaps inferior to themselves and ready to welcome a missionary enterprise. Yet across the gulf of space, minds that are to our minds as ours are to those of the beasts that perish, intellects vast and cool and unsympathetic, regarded this earth with envious eyes, and slowly and surely drew their plans against us.",
+      "characterCount": 1269,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-20000-leagues",
+      "title": "20,000 Leagues Under the Sea",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 16,
+      "content": "The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours which agitated the maritime population and excited the public mind, even in the interior of continents, seafaring men were particularly excited. Merchants, common sailors, captains of vessels, skippers, both of Europe and America, naval officers of all countries, and the Governments of several States on the two continents, were deeply interested in the matter.\nFor some time past vessels had been met by \"an enormous thing,\" a long object, spindle-shaped, occasionally phosphorescent, and infinitely larger and more rapid in its movements than a whale.\nThe facts relating to this apparition (entered in various log-books) agreed in most respects as to the shape of the object or creature, the untiring rapidity of its movements, its surprising power of locomotion, and the peculiar life with which it seemed endowed. If it was a whale, it surpassed in size all those hitherto classified in science.",
+      "characterCount": 1079,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-journey-center",
+      "title": "Journey to the Center of the Earth",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 17,
+      "content": "Looking back to all that has occurred to me since that eventful day, I am scarcely able to believe in the reality of my adventures. They were truly so wonderful that even now I am bewildered when I think of them.\nMy uncle was a German, having married my mother's sister, an Englishwoman. Being very much attached to his fatherless nephew, he invited me to study under him in his home in the fatherland. This home was in a large town, and my uncle a professor of philosophy, chemistry, geology, mineralogy, and many other ologies.\nOne day, after passing some hours in the laboratory--my uncle being absent at the time--I suddenly felt the necessity of renovating the tissues of my body, and was hungry. I went out and entered a small restaurant, where I had often dined before. I ordered my dinner, and while waiting for it, I took up a newspaper which was lying on the table.",
+      "characterCount": 890,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-80-days",
+      "title": "Around the World in 80 Days",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 18,
+      "content": "Mr. Phileas Fogg lived, in 1872, at No. 7, Saville Row, Burlington Gardens, the house in which Sheridan died in 1814. He was one of the most noticeable members of the Reform Club, though he seemed always to avoid attracting attention; an enigmatical personage, about whom little was known, except that he was a polished man of the world. People said that he resembled Byron--at least that his head was Byronic; but he was a bearded, tranquil Byron, who might live on a thousand years without growing old.\nCertainly an Englishman, it was more doubtful whether Phileas Fogg was a Londoner. He was never seen on 'Change, nor at the Bank, nor in the counting-rooms of the \"City\"; no ships ever came into London docks of which he was the owner; he had no public employment; he had never been entered at any of the Inns of Court, either at the Temple, or Lincoln's Inn, or Gray's Inn; he never testified in the Court of Chancery, or in the Exchequer, or the Queen's Bench, or the Ecclesiastical Courts.",
+      "characterCount": 1018,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-white-fang",
+      "title": "White Fang",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 19,
+      "content": "Dark spruce forest frowned on either side the frozen waterway. The trees had been stripped by a recent wind of their white covering of frost, and they seemed to lean towards each other, black and ominous, in the fading light. A vast silence reigned over the land. The land itself was a desolation, lifeless, without movement, so lone and cold that the spirit of it was not even that of sadness. There was a hint in it of laughter, but of a laughter more terrible than any sadness--a laughter that was mirthless as the smile of the sphinx, a laughter cold as the frost and partaking of the grimness of infallibility. It was the masterful and incommunicable wisdom of eternity laughing at the futility of life and the effort of life. It was the Wild, the savage, frozen-hearted Northland Wild.\nBut there was life, abroad in the land and defiant. Down the frozen waterway toiled a string of wolfish dogs. Their bristly fur was rimed with frost. Their breath froze in the air as it left their mouths, spouting forth in spumes of vapour that settled upon the hair of their bodies and formed into crystals of frost.",
+      "characterCount": 1012,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade6-moby-dick",
+      "title": "Moby Dick",
+      "category": "Story",
+      "difficulty": 6,
+      "order": 20,
+      "content": "Call me Ishmael. Some years ago--never mind how long precisely--having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off--then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.",
+      "characterCount": 1109,
+      "chineseCharCount": 0
+    }
+  ]
 }

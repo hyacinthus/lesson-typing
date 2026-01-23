@@ -1,35 +1,205 @@
 {
-    "grade": "Grade 5",
-    "lessons": [
-        {
-            "id": "eng-grade5-weekend",
-            "title": "Planning the Weekend",
-            "category": "Dialogue",
-            "difficulty": 3,
-            "order": 1,
-            "content": "Mike: Hey, Sarah! Do you have any plans for this weekend?\nSarah: Hi, Mike. Not really. I might just stay home and read some books. What about you?\nMike: My dad and I are going fishing at the lake on Saturday. Do you want to come with us?\nSarah: Fishing? I have never been fishing before. Is it difficult?\nMike: No, it's easy! I can teach you. You just need to be patient and wait for the fish to bite.\nSarah: That sounds interesting. What do we need to bring?\nMike: Just bring a hat and some snacks. We have extra fishing rods. We will leave at 8 o'clock in the morning.\nSarah: Okay! I will ask my parents tonight. Thanks for inviting me!\nMike: You're welcome. It will be fun!",
-            "characterCount": 650,
-            "chineseCharCount": 0
-        },
-        {
-            "id": "eng-grade5-town-mouse",
-            "title": "The Town Mouse and the Country Mouse",
-            "category": "Fable",
-            "difficulty": 5,
-            "order": 2,
-            "content": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite.\nAfter the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.\nWhen they reached the mansion in which the Town Mouse lived, they found on the table in the dining room the leavings of a very fine banquet. There were sweetmeats and jellies, pastries, delicious cheeses, indeed, the most tempting foods that a Mouse can imagine. But just as the Country Mouse was about to nibble a dainty bit of pastry, she heard a Cat mew loudly and scratch at the door. In great fear the Mice scurried to a hiding place, where they lay quite still for a long time, hardly daring to breathe. When at last they ventured back to the feast, the door opened suddenly and in came the servants to clear the table, followed by the House Dog.\nThe Country Mouse stopped in the Town Mouse's den only long enough to pick up her carpet bag and umbrella.\n\"You may have your luxuries and dainties that I have not,\" she said as she hurried away, \"but I prefer my plain food and simple life in the country with the peace and security that go with it.\"",
-            "characterCount": 1600,
-            "chineseCharCount": 0
-        },
-        {
-            "id": "eng-grade5-wind-sun",
-            "title": "The North Wind and the Sun",
-            "category": "Fable",
-            "difficulty": 5,
-            "order": 3,
-            "content": "The North Wind and the Sun disputed as to which was the most powerful, and agreed that he should be declared the victor who could first strip a wayfaring man of his clothes.\nThe North Wind first tried his power, and blew with all his might; but the keener became his blasts, the closer the Traveler wrapped his cloak around him, till at last, resigning all hope of victory, he called upon the Sun to see what he could do.\nThe Sun suddenly shone out with all his warmth. The Traveler no sooner felt his genial rays than he took off one garment after another, and at last, fairly overcome with heat, undressed, and bathed in a stream that lay in his path.\nPersuasion is better than Force.",
-            "characterCount": 700,
-            "chineseCharCount": 0
-        }
-    ]
+  "grade": "Grade 5",
+  "lessons": [
+    {
+      "id": "eng-grade5-weekend",
+      "title": "Planning the Weekend",
+      "category": "Dialogue",
+      "difficulty": 3,
+      "order": 1,
+      "content": "Mike: Hey, Sarah! Do you have any plans for this weekend?\nSarah: Hi, Mike. Not really. I might just stay home and read some books. What about you?\nMike: My dad and I are going fishing at the lake on Saturday. Do you want to come with us?\nSarah: Fishing? I have never been fishing before. Is it difficult?\nMike: No, it's easy! I can teach you. You just need to be patient and wait for the fish to bite.\nSarah: That sounds interesting. What do we need to bring?\nMike: Just bring a hat and some snacks. We have extra fishing rods. We will leave at 8 o'clock in the morning.\nSarah: Okay! I will ask my parents tonight. Thanks for inviting me!\nMike: You're welcome. It will be fun!",
+      "characterCount": 650,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-town-mouse",
+      "title": "The Town Mouse and the Country Mouse",
+      "category": "Fable",
+      "difficulty": 5,
+      "order": 2,
+      "content": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite.\nAfter the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.\nWhen they reached the mansion in which the Town Mouse lived, they found on the table in the dining room the leavings of a very fine banquet. There were sweetmeats and jellies, pastries, delicious cheeses, indeed, the most tempting foods that a Mouse can imagine. But just as the Country Mouse was about to nibble a dainty bit of pastry, she heard a Cat mew loudly and scratch at the door. In great fear the Mice scurried to a hiding place, where they lay quite still for a long time, hardly daring to breathe. When at last they ventured back to the feast, the door opened suddenly and in came the servants to clear the table, followed by the House Dog.\nThe Country Mouse stopped in the Town Mouse's den only long enough to pick up her carpet bag and umbrella.\n\"You may have your luxuries and dainties that I have not,\" she said as she hurried away, \"but I prefer my plain food and simple life in the country with the peace and security that go with it.\"",
+      "characterCount": 1600,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-wind-sun",
+      "title": "The North Wind and the Sun",
+      "category": "Fable",
+      "difficulty": 5,
+      "order": 3,
+      "content": "The North Wind and the Sun disputed as to which was the most powerful, and agreed that he should be declared the victor who could first strip a wayfaring man of his clothes.\nThe North Wind first tried his power, and blew with all his might; but the keener became his blasts, the closer the Traveler wrapped his cloak around him, till at last, resigning all hope of victory, he called upon the Sun to see what he could do.\nThe Sun suddenly shone out with all his warmth. The Traveler no sooner felt his genial rays than he took off one garment after another, and at last, fairly overcome with heat, undressed, and bathed in a stream that lay in his path.\nPersuasion is better than Force.",
+      "characterCount": 700,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-perseus",
+      "title": "Perseus and Medusa",
+      "category": "Myth",
+      "difficulty": 5,
+      "order": 4,
+      "content": "Perseus was the son of Zeus and Danae. He was sent on a dangerous mission to kill Medusa, a Gorgon with snakes for hair. Anyone who looked at Medusa would turn to stone. The gods gave Perseus gifts to help him: a polished shield, winged sandals, and a magic sword.\nPerseus flew to the Gorgons' cave. He used his shield as a mirror so he would not have to look directly at Medusa. When she was sleeping, he cut off her head. He put the head in a bag and flew away. On his way back, he saved Princess Andromeda from a sea monster. He used Medusa's head to turn the monster to stone. Perseus became a great hero.",
+      "characterCount": 732,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-daedalus",
+      "title": "Daedalus and Icarus",
+      "category": "Myth",
+      "difficulty": 5,
+      "order": 5,
+      "content": "Daedalus was a famous inventor. He built a great labyrinth for King Minos to keep the Minotaur. But the King became angry with Daedalus and locked him and his son, Icarus, in a tower.\nDaedalus wanted to escape. He made wings out of feathers and wax. He told Icarus, \"Do not fly too close to the sun, or the wax will melt. Do not fly too close to the sea, or the wings will get wet.\"\nThey flew out of the tower. Icarus was so happy to fly that he forgot his father's warning. He flew higher and higher towards the sun. The wax melted, and his wings fell off. Icarus fell into the sea and drowned. Daedalus was very sad, but he flew to safety.",
+      "characterCount": 761,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-robinson-crusoe",
+      "title": "Robinson Crusoe",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 6,
+      "content": "I was born in the year 1632, in the city of York, of a good family, though not of that country, my father being a foreigner of Bremen, who settled first at Hull. He got a good estate by merchandise, and leaving off his trade, lived afterwards at York, from whence he had married my mother, whose relations were named Robinson, a very good family in that country, and from whom I was called Robinson Kreutznaer; but, by the usual corruption of words in England, we are now called - nay we call ourselves and write our name - Crusoe; and so my companions always called me.\nI had two elder brothers, one of whom was lieutenant-colonel to an English regiment of foot in Flanders, formerly commanded by the famous Col. Lockhart, and was killed at the battle near Dunkirk against the Spaniards. What became of my second brother I never knew, any more than my father or mother knew what became of me.",
+      "characterCount": 997,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-treasure-island",
+      "title": "Treasure Island",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 7,
+      "content": "Squire Trelawney, Dr. Livesey, and the rest of these gentlemen having asked me to write down the whole particulars about Treasure Island, from the beginning to the end, keeping nothing back but the bearings of the island, and that only because there is still treasure not yet lifted, I take up my pen in the year of grace 17__, and go back to the time when my father kept the Admiral Benbow inn and the brown old seaman with the sabre cut first took up his lodging under our roof.\nI remember him as if it were yesterday, as he came plodding to the inn door, his sea-chest following behind him in a hand-barrow - a tall, strong, heavy, nut-brown man, his tarry pigtail falling over the shoulder of his soiled blue coat, his hands ragged and scarred, with black, broken nails, and the sabre cut across one cheek, a dirty, livid white. I remember him looking round the cove and whistling to himself as he did so, and then breaking out in that old sea-song that he sang so often afterwards:\n\"Fifteen men on the dead man's chest - Yo-ho-ho, and a bottle of rum!\"",
+      "characterCount": 1184,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-swiss-family",
+      "title": "The Swiss Family Robinson",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 8,
+      "content": "For many days we had been tempest-tossed. Six times had the darkness closed over a wild and terrific scene, and returning light as often brought but renewed distress, for the raging storm increased in fury until on the seventh day all hope was lost. We were driven completely out of our course; no conjecture could be formed as to our whereabouts. The crew had lost heart, and were utterly exhausted by incessant labor. The riven masts had gone by the board, leaks had been sprung in every direction, and the water, which rushed in, gained upon us rapidly.\nInstead of despairing, I endeavored to console my wife and children, who clung to me in terror. \"Courage, my darlings!\" said I. \"We are still above water, and there is land not far off. God helps those who help themselves. Let us do our best, and leave the rest to Him.\"",
+      "characterCount": 845,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-tom-sawyer",
+      "title": "The Adventures of Tom Sawyer",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 9,
+      "content": "\"TOM!\"\nNo answer.\n\"TOM!\"\nNo answer.\n\"What's gone with that boy,  I wonder? You TOM!\"\nNo answer.\nThe old lady pulled her spectacles down and looked over them about the room; then she put them up and looked out under them. She seldom or never looked through them for so small a thing as a boy; they were her state pair, the pride of her heart, and were built for \"style,\" not service - she could have seen through a pair of stove-lids just as well. She looked perplexed for a moment, and then said, not fiercely, but still loud enough for the furniture to hear:\n\"Well, I lay if I get hold of you I'll -\"\nShe did not finish, for by this time she was bending down and punching under the bed with the broom, and so she needed breath to punctuate the punches with. She resurrected nothing but the cat.\n\"I never did see the beat of that boy!\"",
+      "characterCount": 857,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-huck-finn",
+      "title": "Adventures of Huckleberry Finn",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 10,
+      "content": "You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary. Aunt Polly - Tom's Aunt Polly, she is - and Mary, and the Widow Douglas is all told about in that book, which is mostly a true book, with some stretchers, as I said before.\nNow the way that the book winds up is this: Tom and me found the money that the robbers hid in the cave, and it made us rich. We got six thousand dollars apiece - all gold. It was an awful sight of money when it was piled up. Judge Thatcher he took it and put it out at interest, and it fetched us a dollar a day apiece all the year round - more than a body could tell what to do with. The Widow Douglas she took me for her son, and allowed she would sivilize me; but it was rough living in the house all the time, considering how dismal regular and decent the widow was in all her ways; and so when I couldn't stand it no longer I lit out. I got into my old rags and my sugar-hogshead again, and was free and satisfied.",
+      "characterCount": 1397,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-little-women",
+      "title": "Little Women",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 11,
+      "content": "\"Christmas won't be Christmas without any presents,\" grumbled Jo, lying on the rug.\n\"It's so dreadful to be poor!\" sighed Meg, looking down at her old dress.\n\"I don't think it's fair for some girls to have plenty of pretty things, and other girls nothing at all,\" added little Amy, with an injured sniff.\n\"We've got Father and Mother, and each other,\" said Beth contentedly from her corner.\nThe four young faces on which the firelight shone brightened at the cheerful words, but darkened again as Jo said sadly, \"We haven't got Father, and shall not have him for a long time.\" She didn't say \"perhaps never,\" but each silently added it, thinking of Father far away, where the fighting was.\nNobody spoke for a minute; then Meg said in an altered tone,\n\"You know the reason Mother proposed not having any presents this Christmas was because it is going to be a hard winter for everyone; and she thinks we ought not to spend money for pleasure, when our men are suffering so in the army. We can't do much, but we can make our little sacrifices, and ought to do it gladly. But I am afraid I don't,\" and Meg shook her head, as she thought regretfully of all the pretty things she wanted.",
+      "characterCount": 1221,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-anne-gables",
+      "title": "Anne of Green Gables",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 12,
+      "content": "Mrs. Rachel Lynde lived just where the Avonlea main road dipped down into a little hollow, fringed with alders and ladies' eardrops and traversed by a brook that had its source away back in the woods of the old Cuthbert place; it was reputed to be an intricate, headlong brook in its earlier course through those woods, with dark secrets of pool and cascade; but by the time it reached Lynde's Hollow it was a quiet, well-conducted little stream, for not even a brook could run past Mrs. Rachel Lynde's door without due regard for decency and decorum; it probably was conscious that Mrs. Rachel was sitting at her window, keeping a sharp eye on everything that passed, from brooks and children up, and that if she noticed anything odd or out of place she would never rest until she had ferreted out the whys and wherefores thereof.",
+      "characterCount": 841,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-jungle-book",
+      "title": "The Jungle Book",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 13,
+      "content": "It was seven o'clock of a very warm evening in the Seeonee hills. Father Wolf woke up from his day's rest, scratched himself, yawned, and spread out his paws one after the other to get rid of the sleepy feeling in their tips. Mother Wolf lay with her big gray nose dropped across her four tumbling, squealing cubs, and the moon shone into the mouth of the cave where they all lived. \"Augrh!\" said Father Wolf. \"It is time to hunt again.\" He was going to spring down hill when a little shadow with a bushy tail crossed the threshold and whined: \"Good luck go with you, O Chief of the Wolves. And good luck and strong white teeth go with the noble children that they may never forget the hungry in this world.\"\nIt was the jackal - Tabaqui, the Dish-licker - and the wolves of India despise Tabaqui because he runs about making mischief, and telling tales, and eating rags and pieces of leather from the village rubbish-heaps. But they are afraid of him too, because Tabaqui, more than anyone else in the jungle, is apt to go mad, and then he forgets that he was ever afraid of anyone, and runs through the forest biting everything in his way.",
+      "characterCount": 1152,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-wind-willows",
+      "title": "The Wind in the Willows",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 14,
+      "content": "The Mole had been working very hard all the morning, spring-cleaning his little home. First with brooms, then with dusters; then on ladders and steps and chairs, with a brush and a pail of whitewash; till he had dust in his throat and eyes, and splashes of whitewash all over his black fur, and an aching back and weary arms. Spring was moving in the air above and in the earth below and around him, penetrating even his dark and lowly little house with its spirit of divine discontent and longing. It was small wonder, then, that he suddenly flung down his brush on the floor, said \"Bother!\" and \"O blow!\" and also \"Hang spring-cleaning!\" and bolted out of the house without even waiting to put on his coat. Something up above was calling him imperiously, and he made for the steep little tunnel which answered in his case to the gravelled carriage-drive owned by animals whose residences are nearer to the sun and air. So he scraped and scratched and scrabbled and scrooged and then he scrooged again and scrabbled and scratched and scraped, working busily with his little paws and muttering to himself, \"Up we go! Up we go!\" till at last, pop! his snout came out into the sunlight, and he found himself rolling in the warm grass of a great meadow.",
+      "characterCount": 1269,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-oliver-twist",
+      "title": "Oliver Twist",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 15,
+      "content": "Among other public buildings in a certain town, which for many reasons it will be prudent to refrain from mentioning, and to which I will assign no fictitious name, there is one anciently common to most towns, great or small: to wit, a workhouse; and in this workhouse was born; on a day and date which I need not trouble myself to repeat, inasmuch as it can be of no possible consequence to the reader, in this stage of the business at all events; the item of mortality whose name is prefixed to the head of this chapter.\nFor a long time after it was ushered into this world of sorrow and trouble, by the parish surgeon, it remained a matter of considerable doubt whether the child would survive to bear any name at all; in which case it is probable that these memoirs would never have appeared; or, if they had, that being comprised within a couple of pages, they would have possessed the inestimable merit of being the most concise and faithful specimen of biography, extant in the literature of any age or country.",
+      "characterCount": 1024,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-david-copperfield",
+      "title": "David Copperfield",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 16,
+      "content": "Whether I shall turn out to be the hero of my own life, or whether that station will be held by anybody else, these pages must show. To begin my life with the beginning of my life, I record that I was born (as I have been informed and believe) on a Friday, at twelve o'clock at night. It was remarked that the clock began to strike, and I began to cry, simultaneously.\nIn consideration of the day and hour of my birth, it was declared by the nurse, and by some sage women in the neighbourhood who had taken a lively interest in me several months before there was any possibility of our becoming personally acquainted, first, that I was destined to be unlucky in life; and secondly, that I was privileged to see ghosts and spirits; both these gifts inevitably attaching, as they believed, to all unlucky infants of either gender, born towards the small hours on a Friday night.",
+      "characterCount": 901,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-great-expectations",
+      "title": "Great Expectations",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 17,
+      "content": "My father's family name being Pirrip, and my Christian name Philip, my infant tongue could make of both names nothing longer or more explicit than Pip. So, I called myself Pip, and came to be called Pip.\nI give Pirrip as my father's family name, on the authority of his tombstone and my sister - Mrs. Joe Gargery, who married the blacksmith. As I never saw my father or my mother, and never saw any likeness of either of them (for their days were long before the days of photographs), my first fancies regarding what they were like, were unreasonably derived from their tombstones. The shape of the letters on my father's, gave me an odd idea that he was a square, stout, dark man, with curly black hair. From the character and turn of the inscription, \"Also Georgiana Wife of the Above,\" I drew a childish conclusion that my mother was freckled and sickly. To five little stone lozenges, each about a foot and a half long, which were arranged in a neat row beside their grave, and were sacred to the memory of five little brothers of mine - who gave up trying to get a living, exceedingly early in that universal struggle - I am indebted for a belief I religiously entertained that they had all been born on their backs with their hands in their trousers-pockets, and had never taken them out in this state of existence.",
+      "characterCount": 1334,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-little-princess",
+      "title": "A Little Princess",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 18,
+      "content": "Once on a dark winter's day, when the yellow fog hung so thick and heavy in the streets of London that the lamps were lighted and the shop windows blazed with gas as they do at night, an odd-looking little girl sat in a cab with her father and was driven rather slowly through the big thoroughfares.\nShe sat with her feet tucked under her, and leaned against her father, who held her in his arm, as she stared out of the window at the passing people with a queer old-fashioned thoughtfulness in her big eyes.\nShe was such a little girl that one did not expect to see such a look on her small face. It would have been an old look for a child of twelve, and Sara Crewe was only seven. The fact was, however, that she was always dreaming and thinking odd things and could not herself remember any time when she had not been thinking things about grown-up people and the world they belonged to. She felt as if she had lived a long, long time.",
+      "characterCount": 956,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-black-beauty-excerpt",
+      "title": "Black Beauty (The Hunt)",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 19,
+      "content": "Before I was two years old a circumstance happened which I have never forgotten. It was early in the spring; there had been a little frost in the night, and a light mist still hung over the woods and meadows. I and the other colts were feeding at the lower part of the field when we heard, quite in the distance, what sounded like the cry of dogs. The oldest of the colts raised his head, pricked his ears, and said, \"There are the hounds!\" and immediately cantered off, followed by the rest of us to the upper part of the field, where we could look over the hedge and see several fields beyond. My mother and an old riding horse of our master's were also standing near, and seemed to know all about it.\n\"They have found a hare,\" said my mother, \"and if they come this way we shall see the hunt.\"",
+      "characterCount": 813,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade5-call-wild",
+      "title": "The Call of the Wild",
+      "category": "Story",
+      "difficulty": 5,
+      "order": 20,
+      "content": "Buck did not read the newspapers, or he would have known that trouble was brewing, not alone for himself, but for every tide-water dog, strong of muscle and with warm, long hair, from Puget Sound to San Diego. Because men, groping in the Arctic darkness, had found a yellow metal, and because steamship and transportation companies were booming the find, thousands of men were rushing into the Northland. These men wanted dogs, and the dogs they wanted were heavy dogs, with strong muscles by which to toil, and furry coats to protect them from the frost.\nBuck lived at a big house in the sun-kissed Santa Clara Valley. Judge Miller's place, it was called. It stood back from the road, half hidden among the trees, through which glimpses could be caught of the wide cool veranda that ran around its four sides. The house was approached by gravelled driveways which wound about through wide-spreading lawns and under the interlacing boughs of tall poplars. At the rear things were on even a more spacious scale than at the front.",
+      "characterCount": 1130,
+      "chineseCharCount": 0
+    }
+  ]
 }

@@ -1,35 +1,205 @@
 {
-    "grade": "Grade 4",
-    "lessons": [
-        {
-            "id": "eng-grade4-puppy",
-            "title": "The Lost Puppy",
-            "category": "Story",
-            "difficulty": 2,
-            "order": 1,
-            "content": "One day, Tom was walking home from school. He saw a small puppy near a bush. The puppy looked sad and hungry. It was shaking.\n\"Are you lost?\" Tom asked. The puppy said, \"Woof!\"\nTom looked around, but he didn't see anyone. He picked up the puppy gently. It was very soft.\n\"Don't worry,\" Tom said. \"I will help you.\"\nTom took the puppy to his house. His mom gave the puppy some warm milk. Then, they called the number on the puppy's collar.\nSoon, a girl named Mary came to Tom's house. \"Thank you!\" she said happily. \"This is my puppy, Max. I was looking for him everywhere.\"\nTom was happy he could help. He made a new friend that day.",
-            "characterCount": 580,
-            "chineseCharCount": 0
-        },
-        {
-            "id": "eng-grade4-fox-grapes",
-            "title": "The Fox and the Grapes",
-            "category": "Fable",
-            "difficulty": 4,
-            "order": 2,
-            "content": "A famished Fox saw some clusters of ripe black grapes hanging from a trellised vine. She resorted to all her tricks to get at them, but wearied herself in vain, for she could not reach them. At last she turned away, hiding her disappointment and saying: \"The Grapes are sour, and not ripe as I thought.\"",
-            "characterCount": 300,
-            "chineseCharCount": 0
-        },
-        {
-            "id": "eng-grade4-wolf-crane",
-            "title": "The Wolf and the Crane",
-            "category": "Fable",
-            "difficulty": 4,
-            "order": 3,
-            "content": "A Wolf who had a bone stuck in his throat hired a Crane, for a large sum, to put her head into his mouth and draw out the bone. When the Crane had extracted the bone and demanded the promised payment, the Wolf, grinning and grinding his teeth, exclaimed: \"Why, you have surely already had a sufficient recompense, in having been permitted to draw out your head in safety from the mouth and jaws of a wolf.\"",
-            "characterCount": 400,
-            "chineseCharCount": 0
-        }
-    ]
+  "grade": "Grade 4",
+  "lessons": [
+    {
+      "id": "eng-grade4-puppy",
+      "title": "The Lost Puppy",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 1,
+      "content": "One day, Tom was walking home from school. He saw a small puppy near a bush. The puppy looked sad and hungry. It was shaking.\n\"Are you lost?\" Tom asked. The puppy said, \"Woof!\"\nTom looked around, but he didn't see anyone. He picked up the puppy gently. It was very soft.\n\"Don't worry,\" Tom said. \"I will help you.\"\nTom took the puppy to his house. His mom gave the puppy some warm milk. Then, they called the number on the puppy's collar.\nSoon, a girl named Mary came to Tom's house. \"Thank you!\" she said happily. \"This is my puppy, Max. I was looking for him everywhere.\"\nTom was happy he could help. He made a new friend that day.",
+      "characterCount": 580,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-fox-grapes",
+      "title": "The Fox and the Grapes",
+      "category": "Fable",
+      "difficulty": 4,
+      "order": 2,
+      "content": "A famished Fox saw some clusters of ripe black grapes hanging from a trellised vine. She resorted to all her tricks to get at them, but wearied herself in vain, for she could not reach them. At last she turned away, hiding her disappointment and saying: \"The Grapes are sour, and not ripe as I thought.\"",
+      "characterCount": 300,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-wolf-crane",
+      "title": "The Wolf and the Crane",
+      "category": "Fable",
+      "difficulty": 4,
+      "order": 3,
+      "content": "A Wolf who had a bone stuck in his throat hired a Crane, for a large sum, to put her head into his mouth and draw out the bone. When the Crane had extracted the bone and demanded the promised payment, the Wolf, grinning and grinding his teeth, exclaimed: \"Why, you have surely already had a sufficient recompense, in having been permitted to draw out your head in safety from the mouth and jaws of a wolf.\"",
+      "characterCount": 400,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-emperors-clothes",
+      "title": "The Emperor's New Clothes",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 4,
+      "content": "Many years ago there lived an Emperor who was so fond of new clothes that he spent all his money on them. He did not care for his soldiers, nor for the theatre, nor for driving in the woods, except for the sake of showing off his new clothes. He had a coat for every hour of the day, and just as they say of a king, \"He is in council,\" so they always said of him, \"The Emperor is in his wardrobe.\"\nOne day two swindlers came to the city; they made people believe that they were weavers, and declared they could manufacture the finest cloth to be imagined. Their colours and patterns, they said, were not only exceptionally beautiful, but the clothes made of their material possessed the wonderful quality of being invisible to any man who was unfit for his office or unpardonably stupid.",
+      "characterCount": 812,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-little-mermaid",
+      "title": "The Little Mermaid",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 5,
+      "content": "Far out in the ocean, where the water is as blue as the prettiest cornflower, and as clear as crystal, it is very, very deep; so deep, indeed, that no cable could fathom it: many church steeples, piled one upon another, would not reach from the ground beneath to the surface of the water above. There dwell the Sea King and his subjects.\nWe must not imagine that there is nothing at the bottom of the sea but bare yellow sand. No, indeed; the most singular flowers and plants grow there; the leaves and stems of which are so pliant, that the slightest agitation of the water causes them to stir as if they had life. Fishes, both large and small, glide between the branches, as birds fly among the trees here upon land. In the deepest spot of all, stands the castle of the Sea King.",
+      "characterCount": 796,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-nightingale",
+      "title": "The Nightingale",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 6,
+      "content": "The Emperor of China's palace was the most beautiful thing in the world; it was built of the finest porcelain, so costly, but so brittle and difficult to handle that one had to be very careful. In the garden were to be seen the most wonderful flowers, and to the costliest of them silver bells were tied, which rang, so that no one could pass by without noticing the flowers. Yes, everything in the Emperor's garden was most admirably arranged. And it extended so far, that the gardener himself did not know where the end was. If you went on and on, you came into a glorious forest with high trees and deep lakes. The wood extended straight down to the sea, which was blue and deep. Great ships could sail to and fro beneath the branches of the trees; and in the trees lived a Nightingale, which sang so splendidly that even the poor Fisherman, who had many other things to do, stopped still and listened, when he had gone out at night to throw out his nets, and heard the Nightingale.",
+      "characterCount": 1002,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-tin-soldier",
+      "title": "The Steadfast Tin Soldier",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 7,
+      "content": "There were once five-and-twenty tin soldiers. They were all brothers, for they had been made out of the same old tin spoon. They shouldered their muskets, and looked straight before them; their uniform was red and blue, and very splendid. The first thing they heard in the world, when the lid was taken off their box, was the words \"Tin Soldiers!\" These words were uttered by a little boy, clapping his hands. The soldiers were given to him for his birthday; and now he put them upon the table. Each soldier was exactly like the rest; but one of them had been half a soldier, for he had been cast last of all, and there was not enough tin to finish him; but he stood as firmly upon his one leg as the others on their two; and it was just this Soldier who became remarkable.",
+      "characterCount": 786,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-rumpelstiltskin",
+      "title": "Rumpelstiltskin",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 8,
+      "content": "Once there was a miller who was poor, but who had a beautiful daughter. Now it happened that he had to go and speak to the King, and in order to make himself appear important he said to him, \"I have a daughter who can spin straw into gold.\"\nThe King said to the miller, \"That is an art which pleases me well; if your daughter is as clever as you say, bring her to-morrow to my palace, and I will try what she can do.\"\nAnd when the girl was brought to him he took her into a room which was quite full of straw, gave her a spinning-wheel and a reel, and said, \"Now set to work, and if by to-morrow morning early you have not spun this straw into gold during the night, you must die.\"\nThereupon he himself locked up the room, and left her in it alone. So there sat the poor miller's daughter, and for the life of her could not tell what to do; she had no idea how straw could be spun into gold, and she grew more and more frightened, until at last she began to weep.",
+      "characterCount": 978,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-fisherman-wife",
+      "title": "The Fisherman and His Wife",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 9,
+      "content": "There was once a fisherman who lived with his wife in a pigsty, close by the seaside. The fisherman used to go out all day long a-fishing; and one day, as he sat on the shore with his rod, looking at the sparkling waves and watching his line, all on a sudden his float was dragged away deep into the water: and in drawing it up he pulled out a great fish. But the fish said, \"Pray let me live! I am not a real fish; I am an enchanted prince. Put me in the water again, and let me go!\" \"Oh, ho!\" said the man, \"you need not make so many words about the matter; I will have nothing to do with a fish that can talk: so swim away as soon as you please.\" Then he put him back into the water, and the fish darted straight down to the bottom, and left a long streak of blood behind him on the wave.\nWhen the fisherman went home to his wife in the pigsty, he told her how he had caught a great fish, and how it had told him it was an enchanted prince, and how, on hearing it speak, he had let it go again.",
+      "characterCount": 1012,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-brave-tailor",
+      "title": "The Brave Little Tailor",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 10,
+      "content": "One summer's morning a little tailor was sitting on his table by the window; he was in good spirits, and sewed with all his might. Then came a peasant woman down the street crying, \"Good jams, cheap! Good jams, cheap!\" This rang pleasantly in the tailor's ears; he stretched his delicate head out of the window, and called, \"Come up here, dear woman; here you will get rid of your goods.\" The woman came up the three steps to the tailor with her heavy basket, and he made her unpack all the pots for him. He inspected each one, lifted it up, put his nose to it, and at length said, \"The jam seems to me to be good, so weigh me out four ounces, dear woman, and if it is a quarter of a pound that is of no consequence.\"",
+      "characterCount": 718,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-golden-goose",
+      "title": "The Golden Goose",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 11,
+      "content": "There was a man who had three sons, the youngest of whom was called \"Dummling,\" and was despised, mocked, and sneered at on every occasion. It happened that the eldest wanted to go into the forest to hew wood, and before he went his mother gave him a beautiful sweet cake and a bottle of wine in order that he might not suffer from hunger or thirst.\nWhen he entered the forest he met a little grey-haired old man who bade him good-day, and said, \"Do give me a piece of your cake out of your pocket, and let me have a draught of your wine; I am so hungry and thirsty.\"\nBut the clever son answered, \"If I give you my cake and wine, I shall have none for myself; get you gone,\" and he left the little man standing and went on.",
+      "characterCount": 724,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-pandora",
+      "title": "Pandora's Box",
+      "category": "Myth",
+      "difficulty": 4,
+      "order": 12,
+      "content": "Long ago, there was a man named Epimetheus. He lived in a house with a woman named Pandora. One day, a messenger from the gods came to their house. He left a heavy box and said, \"Do not open this box.\" Then he went away.\nPandora was very curious. She wanted to know what was inside the box. \"Maybe there are jewels,\" she thought. \"Maybe there are beautiful clothes.\"\nEpimetheus told her, \"We must not open it. It is a secret.\"\nBut Pandora could not stop thinking about the box. One day, when Epimetheus was gone, she went to the box. She touched the lid. She listened. She heard tiny voices inside. \"Let us out! Let us out!\"\nShe opened the lid just a little bit. Suddenly, many ugly creatures flew out! They were troubles, like pain, sickness, and sadness. They flew around the room and stung Pandora and Epimetheus.\nThey were very sad. Then, they heard a tiny voice from the box. \"Let me out! I am Hope.\" Pandora opened the box again, and a beautiful little creature flew out. Hope touched their hurts and made them feel better. Even though there are troubles in the world, there is always Hope.",
+      "characterCount": 1058,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-king-midas",
+      "title": "King Midas and the Golden Touch",
+      "category": "Myth",
+      "difficulty": 4,
+      "order": 13,
+      "content": "Once upon a time, there was a king named Midas. He loved gold more than anything in the world. He had a lot of gold, but he always wanted more.\nOne day, a god named Dionysus granted him a wish. \"I wish that everything I touch turns to gold,\" said King Midas.\nDionysus said, \"Are you sure?\"\n\"Yes, I am sure,\" said the King.\nThe next morning, King Midas woke up. He touched his bed. It turned to gold! He was very happy. He touched a chair, a table, and a door. They all turned to gold.\nHe sat down to eat breakfast. He picked up an apple. It turned to gold! He tried to drink water. It turned to gold! He could not eat or drink.\nJust then, his little daughter ran into the room. \"Father!\" she cried. She hugged him. Suddenly, she turned into a golden statue!\nKing Midas began to cry. \"I was so foolish!\" he said. \"I don't want gold anymore. I want my daughter back.\"\nDionysus heard him and felt sorry for him. He told Midas to wash in the river. Midas did so, and the golden touch was washed away. His daughter came back to life, and he was happy again.",
+      "characterCount": 1032,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-hercules-apples",
+      "title": "Hercules and the Golden Apples",
+      "category": "Myth",
+      "difficulty": 4,
+      "order": 14,
+      "content": "Hercules was a great hero. He had to perform twelve difficult tasks. One of the tasks was to get the Golden Apples of the Hesperides. The apples were in a garden guarded by a dragon.\nHercules did not know where the garden was. He asked Atlas, the giant who held up the sky. Atlas said, \"I can get the apples for you. But you must hold up the sky for me.\"\nHercules agreed. He took the sky on his shoulders. It was very heavy. Atlas went to the garden and got the apples.\nWhen Atlas came back, he said, \"I will take the apples to the king. You keep holding the sky.\"\nHercules knew Atlas wanted to trick him. He thought quickly. \"Okay,\" he said. \"But the sky is hurting my shoulders. Can you hold it for a moment while I put a cushion on my back?\"\nAtlas agreed. He took the sky back. Hercules picked up the apples and walked away. \"Goodbye, Atlas!\" he said.",
+      "characterCount": 875,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-heidi",
+      "title": "Heidi",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 15,
+      "content": "Heidi was a little girl who lived with her grandfather in the Swiss Alps. Her grandfather was an old man with a long white beard. He lived in a small wooden hut high up on the mountain. He had two goats named Swan and Little Bear.\nHeidi loved living on the mountain. She slept in a bed of hay in the loft. She drank fresh goat's milk and ate cheese and bread. Every day, she went out with Peter the goatherd. They climbed the rocks and watched the eagles fly. Heidi loved the flowers and the fresh air.\nOne day, Heidi's aunt came to take her to the city. Heidi was very sad to leave her grandfather and the mountains. But she made new friends in the city and learned to read. In the end, she returned to her beloved mountain home.",
+      "characterCount": 738,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-secret-garden",
+      "title": "The Secret Garden",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 16,
+      "content": "Mary Lennox was a sour-faced little girl who lived in India. When her parents died, she was sent to England to live with her uncle in a big, old house called Misselthwaite Manor. The house was full of secrets.\nOne day, Mary found a key buried in the ground. It was an old, rusty key. She also found a door hidden behind some ivy on a wall. She put the key in the lock and turned it. The door opened!\nInside was a secret garden. It had been locked up for ten years. The walls were covered with rose vines, but they looked dead. The grass was brown.\nMary decided to make the garden come alive again. She worked in the garden every day. She pulled up the weeds and planted new flowers. She made friends with a robin and a boy named Dickon. As the garden grew, Mary became happier and healthier too.",
+      "characterCount": 813,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-black-beauty",
+      "title": "Black Beauty",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 17,
+      "content": "The first place that I can well remember was a large pleasant meadow with a pond of clear water in it. Some shady trees leaned over it, and rushes and water-lilies grew at the deep end. Over the hedge on one side we looked into a plowed field, and on the other we looked over a gate at our master's house, which stood by the roadside; at the top of the meadow was a grove of fir trees, and at the bottom a running brook overhung by a steep bank.\nWhile I was young I lived upon my mother's milk, as I could not eat grass. In the daytime I ran by her side, and at night I lay down close by her. When it was hot we used to stand by the shade of the trees, and when it was cold we had a nice warm shed near the grove.",
+      "characterCount": 725,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-peter-pan",
+      "title": "Peter Pan",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 18,
+      "content": "All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, \"Oh, why can't you remain like this for ever!\" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.\nOf course they lived at 14, and until Wendy came her mother was the chief one. She was a lovely lady, with a romantic mind and such a sweet mocking mouth. Her romantic mind was like the tiny boxes, one within the other, that come from the puzzling East, however many you discover there is always one more; and her sweet mocking mouth had one kiss on it that Wendy could never get, though there it was, perfectly conspicuous in the right-hand corner.",
+      "characterCount": 997,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-alice-wonderland",
+      "title": "Alice in Wonderland",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 19,
+      "content": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, \"and what is the use of a book,\" thought Alice \"without pictures or conversations?\"\nSo she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.\nThere was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, \"Oh dear! Oh dear! I shall be late!\" (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.",
+      "characterCount": 1339,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "eng-grade4-wizard-oz",
+      "title": "The Wizard of Oz",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 20,
+      "content": "Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar--except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.",
+      "characterCount": 855,
+      "chineseCharCount": 0
+    }
+  ]
 }

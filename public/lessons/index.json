@@ -41,6 +41,16 @@
       "name": "English",
       "grades": [
         {
+          "id": "english-grade-1",
+          "name": "Grade 1",
+          "path": "english/grade-1.json"
+        },
+        {
+          "id": "english-grade-2",
+          "name": "Grade 2",
+          "path": "english/grade-2.json"
+        },
+        {
           "id": "english-grade-3",
           "name": "Grade 3",
           "path": "english/grade-3.json"

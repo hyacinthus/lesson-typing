@@ -1,0 +1,205 @@
+{
+  "grade": "Grade 1",
+  "lessons": [
+    {
+      "id": "english-humpty-dumpty",
+      "title": "Humpty Dumpty",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Humpty Dumpty sat on a wall,\nHumpty Dumpty had a great fall.\nAll the king's horses and all the king's men\nCouldn't put Humpty together again.",
+      "characterCount": 133,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-jack-jill",
+      "title": "Jack and Jill",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Jack and Jill went up the hill\nTo fetch a pail of water.\nJack fell down and broke his crown,\nAnd Jill came tumbling after.",
+      "characterCount": 126,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-baa-baa-black-sheep",
+      "title": "Baa, Baa, Black Sheep",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Baa, baa, black sheep,\nHave you any wool?\nYes, sir, yes, sir,\nThree bags full;\nOne for the master,\nAnd one for the dame,\nAnd one for the little boy\nWho lives down the lane.",
+      "characterCount": 172,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-twinkle-star",
+      "title": "Twinkle, Twinkle, Little Star",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Twinkle, twinkle, little star,\nHow I wonder what you are!\nUp above the world so high,\nLike a diamond in the sky.\n\nTwinkle, twinkle, little star,\nHow I wonder what you are!",
+      "characterCount": 172,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-mary-lamb",
+      "title": "Mary Had a Little Lamb",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Mary had a little lamb,\nIts fleece was white as snow;\nAnd everywhere that Mary went\nThe lamb was sure to go.\n\nIt followed her to school one day,\nWhich was against the rule;\nIt made the children laugh and play\nTo see a lamb at school.",
+      "characterCount": 236,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-hickory-dickory",
+      "title": "Hickory, Dickory, Dock",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Hickory, dickory, dock,\nThe mouse ran up the clock.\nThe clock struck one,\nThe mouse ran down,\nHickory, dickory, dock.",
+      "characterCount": 118,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-hey-diddle",
+      "title": "Hey Diddle Diddle",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Hey diddle diddle,\nThe cat and the fiddle,\nThe cow jumped over the moon.\nThe little dog laughed\nTo see such sport,\nAnd the dish ran away with the spoon.",
+      "characterCount": 156,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-miss-muffet",
+      "title": "Little Miss Muffet",
+      "category": "Nursery Rhyme",
+      "difficulty": 1,
+      "order": 8,
+      "content": "Little Miss Muffet\nSat on a tuffet,\nEating her curds and whey;\nAlong came a spider,\nWho sat down beside her,\nAnd frightened Miss Muffet away.",
+      "characterCount": 146,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-ant-dove",
+      "title": "The Ant and the Dove",
+      "category": "Fable",
+      "difficulty": 1,
+      "order": 9,
+      "content": "One hot day, an ant was searching for some water. After walking around for some time, she came to a spring. To reach the spring, she had to climb up a blade of grass. While making her way up, she slipped and fell into the water.\n\nShe could have drowned if a dove up a nearby tree had not seen her. Seeing that the ant was in trouble, the dove quickly plucked off a leaf and dropped it into the water near the struggling ant. The ant moved towards the leaf and climbed up there. Soon it carried her safely to dry ground.",
+      "characterCount": 524,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-dog-shadow",
+      "title": "The Dog and His Shadow",
+      "category": "Fable",
+      "difficulty": 1,
+      "order": 10,
+      "content": "A Dog, crossing a bridge over a stream with a piece of meat in his mouth, saw his own shadow in the water and took it for that of another Dog, with a piece of meat double his own in size. He immediately let go of his own, and fiercely attacked the other Dog to get his larger piece from him. He thus lost both: that which he grasped at in the water, because it was a shadow; and his own, because the stream swept it away.",
+      "characterCount": 420,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-lion-mouse-simple",
+      "title": "The Lion and the Mouse",
+      "category": "Fable",
+      "difficulty": 1,
+      "order": 11,
+      "content": "A Lion was asleep in the forest. A little Mouse ran over the Lion's nose. The Lion woke up and was angry. He caught the Mouse with his paw.\n\"Please let me go,\" said the Mouse. \"Someday I will help you.\"\nThe Lion laughed. \"You are too small to help me,\" he said. But he let the Mouse go.\nLater, the Lion was caught in a net. He roared for help. The Mouse heard him. She ran to the Lion and chewed the ropes. The Lion was free. \"Thank you,\" said the Lion. \"You are little, but you are a great friend.\"",
+      "characterCount": 506,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-thirsty-crow",
+      "title": "The Thirsty Crow",
+      "category": "Fable",
+      "difficulty": 1,
+      "order": 12,
+      "content": "A Crow was very thirsty. He found a pitcher with a little water in it. But the pitcher was high and has a narrow neck, and the Crow could not reach the water. Then he saw some pebbles. He picked up the pebbles one by one and dropped them into the pitcher. The water rose up. The Crow drank the water and flew away happily.",
+      "characterCount": 322,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-three-pigs-simple",
+      "title": "The Three Little Pigs",
+      "category": "Story",
+      "difficulty": 1,
+      "order": 13,
+      "content": "Once upon a time there were three little pigs. The first pig built a house of straw. The second pig built a house of sticks. The third pig built a house of bricks.\nA big bad wolf came to the first house. He huffed and he puffed and he blew the house down. The pig ran to the second house.\nThe wolf came to the second house. He huffed and he puffed and he blew the house down. The pigs ran to the third house.\nThe wolf came to the third house. He huffed and he puffed, but he could not blow the house down. The three little pigs were safe inside.",
+      "characterCount": 549,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-goldilocks-simple",
+      "title": "Goldilocks and the Three Bears",
+      "category": "Story",
+      "difficulty": 1,
+      "order": 14,
+      "content": "Goldilocks went for a walk in the forest. She saw a house and went inside. She saw three bowls of porridge. The first one was too hot. The second one was too cold. The third one was just right. She ate it all up.\nShe saw three chairs. The first one was too big. The second one was too big. The third one was just right. She sat down and it broke.\nShe saw three beds. The first one was too hard. The second one was too soft. The third one was just right. She fell asleep.\nThe three bears came home. They saw Goldilocks. She woke up and ran away.",
+      "characterCount": 551,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-red-riding-hood-simple",
+      "title": "Little Red Riding Hood",
+      "category": "Story",
+      "difficulty": 1,
+      "order": 15,
+      "content": "Little Red Riding Hood went to visit her grandmother. She had a basket of food. She met a wolf in the forest. The wolf ran to the grandmother's house. He pretended to be the grandmother.\nWhen Little Red Riding Hood arrived, she said, \"Grandmother, what big eyes you have!\" \"All the better to see you with,\" said the wolf. \"What big ears you have!\" \"All the better to hear you with.\" \"What big teeth you have!\" \"All the better to eat you with!\"\nA woodcutter heard the noise and came to help. He chased the wolf away. Little Red Riding Hood and her grandmother were safe.",
+      "characterCount": 578,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-my-family",
+      "title": "My Family",
+      "category": "Life",
+      "difficulty": 1,
+      "order": 16,
+      "content": "I have a happy family. There are four people in my family: my father, my mother, my brother, and me. My father is tall. He likes to read books. My mother is kind. She cooks good food. My brother is funny. He likes to play ball. I love my family very much.",
+      "characterCount": 257,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-my-school",
+      "title": "My School",
+      "category": "Life",
+      "difficulty": 1,
+      "order": 17,
+      "content": "I go to a big school. My school has many classrooms. We have a library and a playground. I like to read books in the library. I like to run and play in the playground. My teachers are nice. I have many friends at school. We learn and play together every day.",
+      "characterCount": 258,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-the-park",
+      "title": "The Park",
+      "category": "Life",
+      "difficulty": 1,
+      "order": 18,
+      "content": "There is a beautiful park near my house. It has many trees and flowers. The grass is green. I like to go to the park on weekends. I fly my kite. I ride my bike. I see birds in the trees. I see ducks in the pond. It is a lovely place.",
+      "characterCount": 236,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-seasons-simple",
+      "title": "The Four Seasons",
+      "category": "Nature",
+      "difficulty": 1,
+      "order": 19,
+      "content": "There are four seasons in a year: spring, summer, autumn, and winter. In spring, it is warm. Flowers bloom. In summer, it is hot. We can swim. In autumn, it is cool. Leaves turn yellow. In winter, it is cold. It snows. I like all the seasons.",
+      "characterCount": 245,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "english-colors",
+      "title": "Colors",
+      "category": "Nature",
+      "difficulty": 1,
+      "order": 20,
+      "content": "The world is full of colors. The sky is blue. The sun is yellow. The grass is green. An apple is red. A cloud is white. The night is black. I like to draw with my crayons. I use many colors to make a beautiful picture.",
+      "characterCount": 218,
+      "chineseCharCount": 0
+    }
+  ]
+}
