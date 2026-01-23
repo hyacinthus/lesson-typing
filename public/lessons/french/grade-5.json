@@ -1,0 +1,205 @@
+{
+  "grade": "CM2",
+  "lessons": [
+    {
+      "id": "fr-cm2-tour-monde",
+      "title": "Le Tour du monde en 80 jours",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 1,
+      "content": "En l'année 1872, la maison numéro 7 de Saville-row, Burlington Gardens, était habitée par Phileas Fogg, esq., l'un des membres les plus singuliers et les plus remarqués du Reform-Club de Londres, bien qu'il semblât prendre à tâche de ne rien faire qui pût attirer l'attention. À l'un des plus grands orateurs qui honorent l'Angleterre, succédait donc ce Phileas Fogg, personnage énigmatique.",
+      "characterCount": 396,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-20000-lieues",
+      "title": "Vingt mille lieues sous les mers",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 2,
+      "content": "L'année 1866 fut marquée par un événement bizarre, un phénomène inexpliqué et inexplicable que personne n'a sans doute oublié. Sans parler des rumeurs qui agitaient les populations des ports et surexcitaient l'esprit public à l'intérieur des continents, les gens de mer furent particulièrement émus. Les négociants, armateurs, capitaines de navires, skippers et masters de l'Europe et de l'Amérique.",
+      "characterCount": 405,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-derniere-classe",
+      "title": "La Dernière Classe",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 3,
+      "content": "Ce matin-là, j'étais très en retard pour aller à l'école, et j'avais grand-peur d'être grondé, d'autant que M. Hamel nous avait dit qu'il nous interrogerait sur les participes, et je n'en savais pas le premier mot. Un moment l'idée me vint de manquer la classe et de prendre ma course à travers champs. Le temps était si chaud, si clair !",
+      "characterCount": 345,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-miserables-cosette",
+      "title": "Les Misérables - Cosette",
+      "category": "Literature",
+      "difficulty": 4,
+      "order": 4,
+      "content": "Cosette était laide. Si elle eût été heureuse, elle eût peut-être été jolie. Nous avons déjà esquissé cette petite figure sombre. Cosette était maigre et blême. Elle avait près de huit ans, on lui en eût donné à peine six. Ses grands yeux enfoncés dans une sorte d'ombre profonde étaient presque éteints à force d'avoir pleuré. Les coins de sa bouche avaient cette courbe de l'angoisse habituelle.",
+      "characterCount": 403,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-sans-famille",
+      "title": "Sans Famille",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 5,
+      "content": "Je suis un enfant trouvé. Mais, jusqu'à huit ans, j'ai cru que j'avais une mère comme tous les autres enfants, car, lorsque je pleurais, il y avait une femme qui me serrait si doucement dans ses bras en me berçant, que mes larmes s'arrêtaient de couler. Jamais je ne me couchais dans mon lit sans qu'elle vînt m'embrasser, et, quand le vent de décembre collait la neige contre les vitres blanchies, elle me prenait les pieds pour les réchauffer.",
+      "characterCount": 453,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-ile-mysterieuse",
+      "title": "L'Île mystérieuse",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 6,
+      "content": "« Remontons-nous ? — Non ! au contraire ! Nous descendons ! — Pis que cela, monsieur Cyrus ! nous tombons ! — Pour Dieu ! jetez du lest ! — Voilà le dernier sac vidé ! — Le ballon se relève-t-il ? — Non ! — J'entends comme un clapotis de vagues ! — La mer est sous la nacelle ! — Elle ne doit pas être à cinq cents pieds de nous ! »",
+      "characterCount": 341,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-michel-strogoff",
+      "title": "Michel Strogoff",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 7,
+      "content": "— Sire, une nouvelle dépêche. — D'où vient-elle ? — De Tomsk. — Le fil est coupé au-delà de cette ville ? — Il est coupé depuis hier. — D'heure en heure, général, faites passer un télégramme à Tomsk, et que l'on me tienne au courant. — Oui, sire, répondit le général Kissoff. Ces propos s'échangeaient vers deux heures du matin, au moment où la fête battait son plein au Palais-Neuf.",
+      "characterCount": 393,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-poil-carotte",
+      "title": "Poil de Carotte",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 8,
+      "content": "Madame Lepic attend son mari. Comme elle l'entend venir, elle compose sa figure et prend un livre. M. Lepic entre. Il voit Mme Lepic plongée dans sa lecture et il sort sur la pointe des pieds. Il se promène au jardin. Il rentre et voit toujours Mme Lepic plongée dans sa lecture. Il tousse, pour s'annoncer, et demande : — Tu ne sors pas ? — Si, je sors.",
+      "characterCount": 361,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-guerre-boutons",
+      "title": "La Guerre des boutons",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 9,
+      "content": "Quand, le soir, à la sortie de l'école, on vit que Lebrac n'était pas là, on fut très ennuyé. D'abord parce qu'on l'aimait bien, le grand Lebrac, et ensuite parce que, lui absent, il n'y avait plus de chef. Et une armée sans chef est un corps sans tête ; ça ne peut rien faire de bon. Or, la situation était grave.",
+      "characterCount": 319,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-vendredi-sauvage",
+      "title": "Vendredi ou la Vie sauvage",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 10,
+      "content": "À la fin de l'après-midi du 29 septembre 1759, le ciel noircit tout à coup dans la région de l'archipel Juan Fernandez, à six cents kilomètres environ au large des côtes du Chili. Le baromètre avait chuté d'une façon vertigineuse, indiquant l'imminence d'une terrible tempête. La Virginie, une galiote hollandaise, carguait ses voiles à la hâte.",
+      "characterCount": 354,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-croc-blanc",
+      "title": "Croc-Blanc",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 11,
+      "content": "La forêt de sapins, sombre et mystérieuse, s'étendait de chaque côté de la rivière gelée. Les arbres, dépouillés par le vent de leur manteau de givre, semblaient se pencher les uns vers les autres, noirs et menaçants sous la lumière blafarde du crépuscule. Un silence profond régnait sur la terre, un silence sans vie, sans mouvement, si complet qu'il en devenait oppressant.",
+      "characterCount": 381,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-appel-foret",
+      "title": "L'Appel de la forêt",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 12,
+      "content": "Buck ne lisait pas les journaux, sinon il aurait su qu'il se préparait de l'ennui, non seulement pour lui, mais pour tous les chiens de la côte, forts et à longs poils, depuis le détroit de Puget jusqu'à San Diego. Des hommes, fouillant dans l'obscurité arctique, avaient trouvé un métal jaune, et les compagnies de transport propageaient la nouvelle.",
+      "characterCount": 357,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-tom-sawyer",
+      "title": "Les Aventures de Tom Sawyer",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 13,
+      "content": "— Tom ! Pas de réponse. — Tom ! Pas de réponse. — Qu'est-ce qu'il peut bien faire, ce garnement-là ? Attends un peu, si je t'attrape, je... La vieille dame baissa ses lunettes et regarda par-dessus les verres, autour de la pièce ; puis elle les remonta et regarda par-dessous. Elle ne regardait presque jamais à travers les verres pour chercher une chose aussi petite qu'un garçon.",
+      "characterCount": 390,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-alice-merveilles",
+      "title": "Alice au pays des merveilles",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 14,
+      "content": "Alice commençait à être très-fatiguée d'être assise à côté de sa sœur, sur le gazon, et de n'avoir rien à faire ; une fois ou deux elle avait jeté un coup d'œil sur le livre que lisait sa sœur ; mais il n'y avait ni images ni dialogues : « Et, pensait Alice, à quoi peut servir un livre où il n'y a ni images ni dialogues ? »",
+      "characterCount": 331,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-peter-pan",
+      "title": "Peter Pan",
+      "category": "Story",
+      "difficulty": 4,
+      "order": 15,
+      "content": "Tous les enfants grandissent, sauf un. Ils savent très tôt qu'ils grandiront un jour, et voici comment Wendy l'apprit. Un jour, alors qu'elle avait deux ans et qu'elle jouait dans un jardin, elle cueillit une fleur et courut l'offrir à sa mère. Je suppose qu'elle devait être ravissante, car Mrs Darling mit la main sur son cœur et s'écria : « Oh, pourquoi ne peux-tu pas rester ainsi pour toujours ! »",
+      "characterCount": 409,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-livre-jungle",
+      "title": "Le Livre de la jungle",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 16,
+      "content": "Il était sept heures, par une très chaude soirée, sur les collines de Seeonee. Père Loup s'éveilla de son somme journalier, se gratta, bâilla et détendit ses pattes l'une après l'autre pour dissiper l'engourdissement qui les gagnait encore. Mère Louve était étendue, son gros nez gris tombé parmi ses quatre petits qui se culbutaient en criant, et la lune luisait par l'ouverture de la caverne.",
+      "characterCount": 399,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-ile-tresor",
+      "title": "L'Île au trésor",
+      "category": "Adventure",
+      "difficulty": 4,
+      "order": 17,
+      "content": "C'est sur les instances de M. le chevalier Trelawney, du docteur Livesey et de tous ces messieurs en général, que je me suis décidé à mettre par écrit tout ce que je sais concernant l'Île au Trésor, depuis A jusqu'à Z, sans rien excepter que la position de l'île, et cela uniquement parce qu'il s'y trouve encore une partie du trésor.",
+      "characterCount": 338,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-trois-mousquetaires",
+      "title": "Les Trois Mousquetaires",
+      "category": "Adventure",
+      "difficulty": 5,
+      "order": 18,
+      "content": "Le premier lundi du mois d'avril 1625, le bourg de Meung, où naquit l'auteur du Roman de la Rose, semblait être dans une révolution aussi entière que si les huguenots en fussent venus faire une seconde Rochelle. Plusieurs bourgeois, voyant s'enfuir les femmes le long de la Grande-Rue, entendant les enfants crier sur le seuil des portes, se hâtaient d'endosser la cuirasse.",
+      "characterCount": 381,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-comte-monte-cristo",
+      "title": "Le Comte de Monte-Cristo",
+      "category": "Adventure",
+      "difficulty": 5,
+      "order": 19,
+      "content": "Le 24 février 1815, la vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, Trieste et Naples. Comme d'habitude, un pilote côtier partit aussitôt du port, rasa le château d'If et alla aborder le navire entre le cap de Morgion et l'île de Riou. Aussitôt, comme d'habitude encore, la plate-forme du fort Saint-Jean s'était couverte de curieux.",
+      "characterCount": 381,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm2-capitaine-fracasse",
+      "title": "Le Capitaine Fracasse",
+      "category": "Adventure",
+      "difficulty": 5,
+      "order": 20,
+      "content": "Sur le revers d'une de ces collines décharnées qui bossuent les Landes, entre Dax et Mont-de-Marsan, s'élevait, sous le règne de Louis XIII, une de ces gentilhommières si communes en Gascogne, et que les villageois décorent du nom de château. Deux tours rondes, coiffées de toits en éteignoir, flanquaient les angles d'un bâtiment carré, dont la façade présentait deux rangs de fenêtres.",
+      "characterCount": 393,
+      "chineseCharCount": 0
+    }
+  ]
+}

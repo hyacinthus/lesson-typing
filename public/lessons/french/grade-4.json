@@ -1,0 +1,205 @@
+{
+  "grade": "CM1",
+  "lessons": [
+    {
+      "id": "fr-cm1-chevre-seguin",
+      "title": "La Chèvre de Monsieur Seguin",
+      "category": "Story",
+      "difficulty": 3,
+      "order": 1,
+      "content": "M. Seguin n'avait jamais eu de bonheur avec ses chèvres. Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s'en allaient dans la montagne, et là-haut le loup les mangeait. Ni les caresses de leur maître, ni la peur du loup, rien ne les retenait. C'étaient, paraît-il, des chèvres indépendantes, voulant à tout prix le grand air et la liberté.",
+      "characterCount": 368,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-malheurs-sophie",
+      "title": "Les Malheurs de Sophie - La Poupée",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 2,
+      "content": "La bonne avait mis la poupée sur un fauteuil. Sophie ne la quitta pas des yeux ; elle tourna autour, la regarda, la toucha, la prit, et finit par la bercer dans ses bras. « Je vais, dit-elle, lui faire faire un tour de jardin ; je ne la gâterai pas, je promets. » Sophie partit donc avec sa poupée. Elle la promena, elle la fit asseoir sur l'herbe.",
+      "characterCount": 352,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-corbeau-renard",
+      "title": "Le Corbeau et le Renard",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 3,
+      "content": "Maître Corbeau, sur un arbre perché, tenait en son bec un fromage. Maître Renard, par l'odeur alléché, lui tint à peu près ce langage : « Hé ! bonjour, Monsieur du Corbeau. Que vous êtes joli ! que vous me semblez beau ! Sans mentir, si votre ramage se rapporte à votre plumage, vous êtes le Phénix des hôtes de ces bois. »",
+      "characterCount": 328,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-cigale-fourmi",
+      "title": "La Cigale et la Fourmi",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 4,
+      "content": "La Cigale, ayant chanté tout l'été, se trouva fort dépourvue quand la bise fut venue. Pas un seul petit morceau de mouche ou de vermisseau. Elle alla crier famine chez la Fourmi sa voisine, la priant de lui prêter quelque grain pour subsister jusqu'à la saison nouvelle.",
+      "characterCount": 275,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-lettres-moulin",
+      "title": "L'Installation",
+      "category": "Story",
+      "difficulty": 3,
+      "order": 5,
+      "content": "Ce sont les lapins qui ont été étonnés ! Depuis si longtemps qu'ils voyaient la porte du moulin fermée, les murs et la plate-forme envahis par les herbes, ils avaient fini par croire que la race des meuniers était éteinte et, trouvant la place bonne, ils en avaient fait quelque chose comme un quartier général, un centre d'opérations stratégiques.",
+      "characterCount": 354,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-petit-chose",
+      "title": "Le Petit Chose",
+      "category": "Story",
+      "difficulty": 3,
+      "order": 6,
+      "content": "Je suis né le 13 mai 18..., dans une ville du Languedoc, où l'on trouve, comme dans toutes les villes du Midi, beaucoup de soleil, pas mal de poussière, un couvent de carmélites et deux ou trois monuments romains. Mon père, M. Eyssette, qui faisait à cette époque le commerce des foulards, avait, aux portes de la ville, une grande fabrique.",
+      "characterCount": 348,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-ane-charge",
+      "title": "L'Âne chargé d'éponges",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 7,
+      "content": "Un Ânier, son Sceptre à la main, menait, en Empereur Romain, deux coursiers à longues oreilles. L'un, d'éponges chargé, marchait comme un courrier ; et l'autre se traînait sous des sacs de sel. Nos gaillards pèlerins, par monts, par vaux et par chemins, au gué d'une rivière à la fin arrivèrent.",
+      "characterCount": 302,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-lion-rat",
+      "title": "Le Lion et le Rat",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 8,
+      "content": "Il faut, autant qu'on peut, obliger tout le monde : on a souvent besoin d'un plus petit que soi. De cette vérité deux fables feront foi, tant la chose en preuves abonde. Entre les pattes d'un Lion, un Rat sortit de terre assez à l'étourdie. Le Roi des animaux, en cette occasion, montra ce qu'il était, et lui donna la vie.",
+      "characterCount": 326,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-loup-chien",
+      "title": "Le Loup et le Chien",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 9,
+      "content": "Un Loup n'avait que les os et la peau, tant les chiens faisaient bonne garde. Ce Loup rencontre un Dogue aussi puissant que beau, gras, poli, qui s'était fourvoyé par mégarde. L'attaquer, le mettre en quartiers, Sire Loup l'eût fait volontiers ; mais il fallait livrer bataille, et le Mâtin était de taille à se défendre hardiment.",
+      "characterCount": 338,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-grenouille-boeuf",
+      "title": "La Grenouille et le Bœuf",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 10,
+      "content": "Une Grenouille vit un Bœuf qui lui sembla de belle taille. Elle, qui n'était pas grosse en tout comme un œuf, envieuse, s'étend, et s'enfle, et se travaille, pour égaler l'animal en grosseur, disant : « Regardez bien, ma sœur ; est-ce assez ? dites-moi ; n'y suis-je point encore ? — Nenni. — M'y voici donc ? — Point du tout. — M'y voilà ? — Vous n'en approchez point. »",
+      "characterCount": 378,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-lievre-tortue",
+      "title": "Le Lièvre et la Tortue",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 11,
+      "content": "Rien ne sert de courir ; il faut partir à point. Le Lièvre et la Tortue en sont un témoignage. « Gageons, dit celle-ci, que vous n'atteindrez point si tôt que moi ce but. — Si tôt ? êtes-vous sage ? repartit l'animal léger. Ma commère, il vous faut purger avec quatre grains d'ellébore. — Sage ou non, je parie encore. »",
+      "characterCount": 326,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-petit-chaperon",
+      "title": "Le Petit Chaperon rouge",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Il était une fois une petite fille de village, la plus jolie qu'on eût su voir ; sa mère en était folle, et sa mère-grand plus folle encore. Cette bonne femme lui fit faire un petit chaperon rouge, qui lui seyait si bien que partout on l'appelait le Petit Chaperon rouge. Un jour sa mère, ayant cuit et fait des galettes, lui dit : « Va voir comment se porte ta mère-grand. »",
+      "characterCount": 379,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-cendrillon",
+      "title": "Cendrillon",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Il était une fois un gentilhomme qui épousa en secondes noces une femme, la plus hautaine et la plus fière qu'on eût jamais vue. Elle avait deux filles de son humeur, et qui lui ressemblaient en toutes choses. Le mari avait de son côté une jeune fille, mais d'une douceur et d'une bonté sans exemple ; elle tenait cela de sa mère, qui était la meilleure personne du monde.",
+      "characterCount": 376,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-chat-botte",
+      "title": "Le Maître Chat",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Un meunier ne laissa pour tout bien à trois enfants qu'il avait, que son moulin, son âne et son chat. Les partages furent bientôt faits, ni le notaire, ni le procureur n'y furent appelés. Ils auraient eu bientôt mangé tout le pauvre patrimoine. L'aîné eut le moulin, le second eut l'âne, et le plus jeune n'eut que le chat.",
+      "characterCount": 328,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-belle-bois-dormant",
+      "title": "La Belle au bois dormant",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Il était une fois un roi et une reine qui étaient si fâchés de n'avoir point d'enfants, si fâchés qu'on ne saurait dire. Ils allèrent à toutes les eaux du monde ; vœux, pèlerinages, menues dévotions, tout fut mis en œuvre, et rien n'y faisait. Enfin pourtant la reine devint grosse, et accoucha d'une fille. On fit un beau baptême ; on donna pour marraines à la petite princesse toutes les fées qu'on pût trouver dans le pays.",
+      "characterCount": 435,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-pouce",
+      "title": "Le Petit Poucet",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Il était une fois un bûcheron et une bûcheronne qui avaient sept enfants, tous garçons. L'aîné n'avait que dix ans, et le plus jeune n'en avait que sept. On s'étonnera que le bûcheron ait eu tant d'enfants en si peu de temps ; mais c'est que sa femme allait vite en besogne, et n'en faisait pas moins de deux à la fois. Ils étaient fort pauvres.",
+      "characterCount": 352,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-fees",
+      "title": "Les Fées",
+      "category": "Story",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Il était une fois une veuve qui avait deux filles ; l'aînée lui ressemblait si fort d'humeur et de visage, que qui la voyait voyait la mère. Elles étaient toutes deux si désagréables et si orgueilleuses qu'on ne pouvait vivre avec elles. La cadette, qui était le vrai portrait de son père pour la douceur et l'honnêteté, était avec cela une des plus belles filles qu'on eût su voir.",
+      "characterCount": 387,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-barbe-bleue",
+      "title": "La Barbe bleue",
+      "category": "Story",
+      "difficulty": 3,
+      "order": 18,
+      "content": "Il était une fois un homme qui avait de belles maisons à la ville et à la campagne, de la vaisselle d'or et d'argent, des meubles en broderie, et des carrosses tout dorés ; mais par malheur cet homme avait la barbe bleue : cela le rendait si laid et si terrible, qu'il n'était ni femme ni fille qui ne s'enfuît de devant lui. Une de ses voisines avait deux filles parfaitement belles.",
+      "characterCount": 387,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-peau-ane",
+      "title": "Peau d'Âne",
+      "category": "Story",
+      "difficulty": 3,
+      "order": 19,
+      "content": "Il était une fois un Roi, le plus grand qui fût sur la Terre, aimable en paix, terrible en guerre ; seul enfin comparable à soi : ses voisins le craignaient, ses États l'adoraient, et l'on voyait fleurir, à l'ombre de ses charmes, les vertus, les plaisirs et les grâces, et les armes. Son épouse était belle, et de son cœur maîtresse ; leur hymen, dont les nœuds les liaient doucement, occupait l'Univers.",
+      "characterCount": 412,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fr-cm1-riquet",
+      "title": "Riquet à la houppe",
+      "category": "Story",
+      "difficulty": 3,
+      "order": 20,
+      "content": "Il était une fois une Reine qui accoucha d'un fils si laid et si mal bâti, qu'on douta longtemps s'il avait forme humaine. Une Fée qui se trouva à sa naissance assura qu'il ne laisserait pas d'être aimable, parce qu'il aurait beaucoup d'esprit ; elle ajouta même qu'il pourrait donner de l'esprit à la personne qu'il aimerait le mieux.",
+      "characterCount": 343,
+      "chineseCharCount": 0
+    }
+  ]
+}

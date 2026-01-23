@@ -1,0 +1,205 @@
+{
+  "grade": "CE1",
+  "lessons": [
+    {
+      "id": "french-corbeau-renard",
+      "title": "Le Corbeau et le Renard",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 1,
+      "content": "Maître Corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître Renard, par l'odeur alléché,\nLui tint à peu près ce langage :\n« Hé ! bonjour, Monsieur du Corbeau.\nQue vous êtes joli ! que vous me semblez beau !\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le Phénix des hôtes de ces bois. »\nÀ ces mots le Corbeau ne se sent pas de joie ;\nEt pour montrer sa belle voix,\nIl ouvre un large bec, laisse tomber sa proie.\nLe Renard s'en saisit, et dit : « Mon bon Monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l'écoute :\nCette leçon vaut bien un fromage, sans doute. »\nLe Corbeau, honteux et confus,\nJura, mais un peu tard, qu'on ne l'y prendrait plus.",
+      "characterCount": 776,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-cigale-fourmi",
+      "title": "La Cigale et la Fourmi",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 2,
+      "content": "La Cigale, ayant chanté\nTout l'été,\nSe trouva fort dépourvue\nQuand la bise fut venue :\nPas un seul petit morceau\nDe mouche ou de vermisseau.\nElle alla crier famine\nChez la Fourmi sa voisine,\nLa priant de lui prêter\nQuelque grain pour subsister\nJusqu'à la saison nouvelle.\n« Je vous paierai, lui dit-elle,\nAvant l'Oût, foi d'animal,\nIntérêt et principal. »\nLa Fourmi n'est pas prêteuse :\nC'est là son moindre défaut.\n« Que faisiez-vous au temps chaud ?\nDit-elle à cette emprunteuse.\n— Nuit et jour à tout venant\nJe chantais, ne vous déplaise.\n— Vous chantiez ? j'en suis fort aise.\nEh bien! dansez maintenant. »",
+      "characterCount": 669,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-lievre-tortue",
+      "title": "Le Lièvre et la Tortue",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 3,
+      "content": "Rien ne sert de courir ; il faut partir à point.\nLe Lièvre et la Tortue en sont un témoignage.\n« Gageons, dit celle-ci, que vous n'atteindrez point\nSi tôt que moi ce but. — Si tôt ? Êtes-vous sage ?\nRepartit l'animal léger :\nMa commère, il vous faut purger\nAvec quatre grains d'ellébore.\n— Sage ou non, je parie encore. »\nAinsi fut fait : et de tous deux\nOn mit près du but les enjeux :\nSavoir quoi, ce n'est pas l'affaire,\nNi de quel juge l'on convint.\nLe Lièvre n'avait que quatre pas à faire ;\nJ'entends de ceux qu'il fait lorsque prêt d'être atteint\nIl s'éloigne des chiens, les renvoie aux calendes,\nEt leur fait arpenter les landes.\nAyant, dis-je, du temps de reste pour brouter,\nPour dormir, et pour écouter\nD'où vient le vent, il laisse la Tortue\nAller son train de Sénateur.\nElle part, elle s'évertue ;\nElle se hâte avec lenteur.\nLui cependant méprise une telle victoire,\nTient la gageure à peu de gloire,\nCroit qu'il y va de son honneur\nDe partir tard. Il broute, il se repose,\nIl s'amuse à toute autre chose\nQu'à la gageure. À la fin quand il vit\nQue l'autre touchait presque au bout de la carrière,\nIl partit comme un trait ; mais les élans qu'il fit\nFurent vains : la Tortue arriva la première.\n« Eh bien ! lui cria-t-elle, avais-je pas raison ?\nDe quoi vous sert votre vitesse ?\nMoi, l'emporter ! et que serait-ce\nSi vous portiez une maison ? »",
+      "characterCount": 1395,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-grenouille-boeuf",
+      "title": "La Grenouille qui veut se faire aussi grosse que le Bœuf",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 4,
+      "content": "Une Grenouille vit un Bœuf\nQui lui sembla de belle taille.\nElle, qui n'était pas grosse en tout comme un œuf,\nEnvieuse, s'étend, et s'enfle, et se travaille,\nPour égaler l'animal en grosseur,\nDisant : « Regardez bien, ma sœur ;\nEst-ce assez ? dites-moi ; n'y suis-je point encore ?\n— Nenni. — M'y voici donc ? — Point du tout. — M'y voilà ?\n— Vous n'en approchez point. » La chétive pécore\nS'enfla si bien qu'elle creva.\nLe monde est plein de gens qui ne sont pas plus sages :\nTout bourgeois veut bâtir comme les grands seigneurs,\nTout petit prince a des ambassadeurs,\nTout marquis veut avoir des pages.",
+      "characterCount": 668,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-loup-agneau",
+      "title": "Le Loup et l'Agneau",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 5,
+      "content": "La raison du plus fort est toujours la meilleure :\nNous l'allons montrer tout à l'heure.\nUn Agneau se désaltérait\nDans le courant d'une onde pure.\nUn Loup survient à jeun qui cherchait aventure,\nEt que la faim en ces lieux attirait.\n« Qui te rend si hardi de troubler mon breuvage ?\nDit cet animal plein de rage :\nTu seras châtié de ta témérité.\n— Sire, répond l'Agneau, que votre Majesté\nNe se mette pas en colère ;\nMais plutôt qu'elle considère\nQue je me vas désaltérant\nDans le courant,\nPlus de vingt pas au-dessous d'elle,\nEt que par conséquent, en aucune façon,\nJe ne puis troubler sa boisson.\n— Tu la troubles, reprit cette bête cruelle,\nEt je sais que de moi tu médis l'an passé.\n— Comment l'aurais-je fait si je n'étais pas né ?\nReprit l'Agneau, je tette encore ma mère.\n— Si ce n'est toi, c'est donc ton frère.\n— Je n'en ai point. — C'est donc quelqu'un des tiens :\nCar vous ne m'épargnez guère,\nVous, vos bergers, et vos chiens.\nOn me l'a dit : il faut que je me venge. »\nLà-dessus, au fond des forêts\nLe Loup l'emporte, et puis le mange,\nSans autre forme de procès.",
+      "characterCount": 1113,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-lion-rat",
+      "title": "Le Lion et le Rat",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 6,
+      "content": "Il faut, autant qu'on peut, obliger tout le monde :\nOn a souvent besoin d'un plus petit que soi.\nDe cette vérité deux fables feront foi,\nTant la chose en preuves abonde.\nEntre les pattes d'un Lion\nUn Rat sortit de terre assez à l'étourdie.\nLe Roi des animaux, en cette occasion,\nMontra ce qu'il était, et lui donna la vie.\nCe bienfait ne fut pas perdu.\nQuelqu'un aurait-il jamais cru\nQu'un Lion d'un Rat eût affaire ?\nCependant il avint qu'au sortir des forêts\nCe Lion fut pris dans des rets,\nDont ses rugissements ne le purent défaire.\nSire Rat accourut, et fit tant par ses dents\nQu'une maille rongée emporta tout l'ouvrage.\nPatience et longueur de temps\nFont plus que force ni que rage.",
+      "characterCount": 743,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-renard-cigogne",
+      "title": "Le Renard et la Cigogne",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 7,
+      "content": "Compère le Renard se mit un jour en frais,\nEt retint à dîner commère la Cigogne.\nLe régal fut petit et sans beaucoup d'apprêts :\nLe galand pour toute besogne,\nAvait un brouet clair ; il vivait chichement.\nCe brouet fut par lui servi sur une assiette :\nLa Cigogne au long bec n'en put attraper miette ;\nEt le drôle eut lapé le tout en un moment.\nPour se venger de cette tromperie,\nÀ quelque temps de là, la Cigogne le prie.\n« Volontiers, lui dit-il ; car avec mes amis\nJe ne fais point cérémonie. »\nÀ l'heure dite, il courut\nAu logis de la Cigogne ;\nLoua très fort la politesse ;\nTrouva le dîner cuit à point :\nBon appétit surtout ; Renards n'en manquent point.\nIl se réjouissait à l'odeur de la viande\nMise en menus morceaux, et qu'il croyait friande.\nOn servit, pour l'embarrasser,\nEn un vase à long col et d'étroite embouchure.\nLe bec de la Cigogne y pouvait bien passer ;\nMais le museau du sire était d'autre mesure.\nIl lui fallut à jeun retourner au logis,\nHonteux comme un Renard qu'une Poule aurait pris,\nSerrant la queue, et portant bas l'oreille.\nTrompeurs, c'est pour vous que j'écris :\nAttendez-vous à la pareille.",
+      "characterCount": 1184,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-poule-oeufs-or",
+      "title": "La Poule aux œufs d'or",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 8,
+      "content": "L'avarice perd tout en voulant tout gagner.\nJe ne veux, pour le témoigner,\nQue celui dont la Poule, à ce que dit la Fable,\nPondait tous les jours un œuf d'or.\nIl crut que dans son corps elle avait un trésor.\nIl la tua, l'ouvrit, et la trouva semblable\nÀ celles dont les œufs ne lui rapportaient rien,\nS'étant lui-même ôté le plus beau de son bien.\nBelle leçon pour les gens chiches :\nPendant ces derniers temps, combien en a-t-on vus\nQui du soir au matin sont pauvres devenus\nPour vouloir trop tôt être riches !",
+      "characterCount": 605,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-rat-ville-champs",
+      "title": "Le Rat de ville et le Rat des champs",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 9,
+      "content": "Autrefois le Rat de ville\nInvita le Rat des champs,\nD'une façon fort civile,\nÀ des reliefs d'ortolans.\nSur un Tapis de Turquie\nLe couvert se trouva mis.\nJe laisse à penser la vie\nQue firent ces deux amis.\nLe régal fut fort honnête,\nRien ne manquait au festin ;\nMais quelqu'un troubla la fête\nPendant qu'ils étaient en train.\nÀ la porte de la salle\nIls entendirent du bruit :\nLe Rat de ville détale ;\nSon camarade le suit.\nLe bruit cesse, on se retire :\nRats en campagne aussitôt ;\nEt le citadin de dire :\n« Achevons tout notre rôt.\n— C'est assez, dit le rustique ;\nDemain vous viendrez chez moi :\nCe n'est pas que je me pique\nDe tous vos festins de Roi ;\nMais rien ne vient m'interrompre :\nJe mange tout à loisir.\nAdieu donc ; fi du plaisir\nQue la crainte peut corrompre. »",
+      "characterCount": 811,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-loup-chien",
+      "title": "Le Loup et le Chien",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 10,
+      "content": "Un Loup n'avait que les os et la peau,\nTant les chiens faisaient bonne garde.\nCe Loup rencontre un Dogue aussi puissant que beau,\nGras, poli, qui s'était fourvoyé par mégarde.\nL'attaquer, le mettre en quartiers,\nSire Loup l'eût fait volontiers ;\nMais il fallait livrer bataille,\nEt le Mâtin était de taille\nÀ se défendre hardiment.\nLe Loup donc l'aborde humblement,\nEntre en propos, et lui fait compliment\nSur son embonpoint, qu'il admire.\n« Il ne tiendra qu'à vous, beau sire,\nD'être aussi gras que moi, lui repartit le Chien.\nQuittez les bois, vous ferez bien :\nVos pareils y sont misérables,\nCancres, hères, et pauvres diables,\nDont la condition est de mourir de faim.\nCar quoi ? rien d'assuré : point de franche lippée :\nTout à la pointe de l'épée.\nSuivez-moi : vous aurez un bien meilleur destin. »\nLe Loup demanda : « Que me faudra-t-il faire ?\n— Presque rien, dit le Chien, donner la chasse aux gens\nPortants bâtons, et mendiants ;\nFlatter ceux du logis, à son Maître complaire :\nMoyennant quoi votre salaire\nSera force reliefs de toutes les façons :\nOs de poulets, os de pigeons,\nSans parler de mainte caresse. »\nLe Loup déjà se forge une félicité\nQui le fait pleurer de tendresse.\nChemin faisant, il vit le col du Chien pelé.\n« Qu'est-ce là ? lui dit-il. — Rien. — Quoi ? rien ? — Peu de chose.\n— Mais encor ? — Le collier dont je suis attaché\nDe ce que vous voyez est peut-être la cause.\n— Attaché ? dit le Loup : vous ne courez donc pas\nOù vous voulez ? — Pas toujours ; mais qu'importe ?\n— Il importe si bien, que de tous vos repas\nJe ne veux en aucune sorte,\nEt ne voudrais pas même à ce prix un trésor. »\nCela dit, maître Loup s'enfuit, et court encor.",
+      "characterCount": 1650,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-renard-raisins",
+      "title": "Le Renard et les Raisins",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 11,
+      "content": "Certain Renard Gascon, d'autres disent Normand,\nMourant presque de faim, vit au haut d'une treille\nDes Raisins mûrs apparemment,\nEt couverts d'une peau vermeille.\nLe galand en eût fait volontiers un repas ;\nMais comme il n'y pouvait atteindre :\n« Ils sont trop verts, dit-il, et bons pour des goujats. »\nFit-il pas mieux que de se plaindre ?",
+      "characterCount": 420,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-heron",
+      "title": "Le Héron",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Un jour, sur ses longs pieds, allait je ne sais où,\nLe Héron au long bec emmanché d'un long cou.\nIl côtoyait une rivière.\nL'onde était transparente ainsi qu'aux plus beaux jours ;\nMa commère la carpe y faisait mille tours\nAvec le brochet son compère.\nLe Héron en eût fait aisément son profit :\nTous approchaient du bord, l'oiseau n'avait qu'à prendre ;\nMais il crut mieux faire d'attendre\nQu'il eût un peu plus d'appétit.",
+      "characterCount": 497,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-coq-perle",
+      "title": "Le Coq et la Perle",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Un jour un Coq détourna\nUne Perle, qu'il donna\nAu beau premier Lapidaire.\n« Je la crois fine, dit-il ;\nMais le moindre grain de mil\nSerait bien mieux mon affaire. »\nUn ignorant hérita\nD'un manuscrit, qu'il porta\nChez son voisin le Libraire.\n« Je crois, dit-il, qu'il est bon ;\nMais le moindre ducaton\nSerait bien mieux mon affaire. »",
+      "characterCount": 421,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-geai-paon",
+      "title": "Le Geai paré des plumes du Paon",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Un Paon muait : un Geai prit son plumage ;\nPuis après se l'accommoda ;\nPuis parmi d'autres Paons tout fier se panada,\nCroyant être un beau personnage.\nQuelqu'un le reconnut : il se vit bafoué,\nBerné, sifflé, moqué, joué,\nEt par messieurs les Paons plumé d'étrange sorte ;\nMême vers ses pareils s'étant réfugié,\nIl fut par eux mis à la porte.\nIl est assez de geais à deux pieds comme lui,\nQui se parent souvent des dépouilles d'autrui,\nEt que l'on nomme plagiaires.\nJe m'en tais, et ne veux leur causer nul ennui :\nCe ne sont pas là mes affaires.",
+      "characterCount": 637,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-colombe-fourmi",
+      "title": "La Colombe et la Fourmi",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Le long d'un clair ruisseau buvait une Colombe,\nQuand sur l'eau se penchant une Fourmi y tombe ;\nEt dans cet océan l'on eût vu la Fourmi\nS'efforcer, mais en vain, de regagner la rive.\nLa Colombe aussitôt usa de charité :\nUne brindille d'herbe en l'eau par elle étant jetée,\nCe fut un promontoire où la Fourmi arrive.\nElle se sauve ; et là-dessus\nPasse un certain Croquant qui marchait les pieds nus.\nCe Croquant, par hasard, avait une arbalète.\nDès qu'il voit l'Oiseau de Vénus,\nIl le croit en son pot, et déjà lui fait fête.\nTandis qu'à le tuer mon villageois s'apprête,\nLa Fourmi le pique au talon.\nLe vilain retourne la tête.\nLa Colombe l'entend, part, et tire de long.\nLe soupé du Croquant avec elle s'envole :\nPoint de Pigeon pour une obole.",
+      "characterCount": 795,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-ane-lion",
+      "title": "L'Âne vêtu de la peau du Lion",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 16,
+      "content": "De la peau du Lion l'Âne s'étant vêtu\nÉtait craint partout à la ronde,\nEt bien qu'Animal sans vertu,\nIl faisait trembler tout le monde.\nUn petit bout d'oreille échappé par malheur\nDécouvrit la fourbe et l'erreur.\nMartin fit alors son office.\nCeux qui ne savaient pas la ruse et la malice\nS'étonnaient de voir que Martin\nChassât les Lions au moulin.\nForce gens font du bruit en France,\nPar qui cet apologue est rendu familier.\nUn équipage cavalier\nFait les trois quarts de leur vaillance.",
+      "characterCount": 579,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-cerf-eau",
+      "title": "Le Cerf se voyant dans l'eau",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Dans le cristal d'une fontaine\nUn Cerf se mirant autrefois\nLouait la beauté de son bois,\nEt ne pouvait qu'avecque peine\nSouffrir ses jambes de fuseaux,\nDont il voyait l'objet se perdre dans les eaux.\n« Quelle proportion de mes pieds à ma tête !\nDisait-il en voyant leur ombre avec douleur :\nDes taillis les plus hauts mon front atteint le faîte ;\nMes pieds ne me font point d'honneur. »\nTout en parlant de la sorte,\nUn Limier le fait partir.\nIl tâche à se garantir ;\nDans les forêts il s'emporte.\nSon bois, dommageable ornement,\nL'arrêtant à chaque moment,\nNuit à l'office que lui rendent\nSes pieds, de qui ses jours dépendent.\nIl se dédit alors, et maudit les présents\nQue le Ciel lui fait tous les ans.\nNous faisons cas du Beau, nous méprisons l'Utile ;\nEt le Beau souvent nous détruit.\nCe Cerf blâme ses pieds qui le rendent agile ;\nIl estime un bois qui lui nuit.",
+      "characterCount": 895,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-chene-roseau",
+      "title": "Le Chêne et le Roseau",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 18,
+      "content": "Le Chêne un jour dit au Roseau :\n« Vous avez bien sujet d'accuser la Nature ;\nUn Roitelet pour vous est un pesant fardeau.\nLe moindre vent, qui d'aventure\nFait rider la face de l'eau,\nVous oblige à baisser la tête :\nCependant que mon front, au Caucase pareil,\nNon content d'arrêter les rayons du soleil,\nBrave l'effort de la tempête.\nTout vous est Aquilon, tout me semble Zéphyr.\nEncor si vous naissiez à l'abri du feuillage\nDont je couvre le voisinage,\nVous n'auriez pas tant à souffrir :\nJe vous défendrais de l'orage ;\nMais vous naissez le plus souvent\nSur les humides bords des Royaumes du vent.\nLa nature envers vous me semble bien injuste.\n— Votre compassion, lui répondit l'Arbuste,\nPart d'un bon naturel ; mais quittez ce souci.\nLes vents me sont moins qu'à vous redoutables.\nJe plie, et ne romps pas. Vous avez jusqu'ici\nContre leurs coups épouvantables\nRésisté sans courber le dos ;\nMais attendons la fin. » Comme il disait ces mots,\nDu bout de l'horizon accourt avec furie\nLe plus terrible des enfants\nQue le Nord eût portés jusque-là dans ses flancs.\nL'Arbre tient bon ; le Roseau plie.\nLe vent redouble ses efforts,\nEt fait si bien qu'il déracine\nCelui de qui la tête au Ciel était voisine,\nEt dont les pieds touchaient à l'Empire des Morts.",
+      "characterCount": 1335,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-conseil-rats",
+      "title": "Conseil tenu par les Rats",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 19,
+      "content": "Un Chat, nommé Rodilardus,\nFaisait de Rats telle déconfiture\nQue l'on n'en voyait presque plus,\nTant il en avait mis dedans la sépulture.\nLe peu qu'il en restait, n'osant quitter son trou,\nNe trouvait à manger que le quart de son soû ;\nEt Rodilardus passait chez la gent trotte-menu\nNon pour un Chat, mais pour un Diable.\nOr un jour qu'au haut et au loin\nLe galand alla chercher femme,\nPendant tout le sabbat qu'il fit avec sa dame,\nLe demeurant des Rats tint chapitre en un coin\nSur la nécessité présente.\nLe Doyen, personne prudente,\nOpina qu'il fallait, et plus tôt que plus tard,\nAttacher un grelot au cou de Rodilard ;\nQu'ainsi, quand il irait en guerre,\nDe sa marche avertis, ils s'enfuiraient en terre ;\nQu'il ne savait que ce moyen.\nChacun fut de l'avis de Monsieur le Doyen :\nChose ne leur parut à tous plus salutaire.\nLa difficulté fut d'attacher le grelot.\nL'un dit : « Je n'y vas point, je ne suis pas si sot » ;\nL'autre : « Je ne saurais. » Si bien que sans rien faire\nOn se quitta. J'ai maints chapitres vus,\nQui pour néant se sont tenus ;\nChapitres, non de Rats, mais Chapitres de Moines,\nVoire Chapitres de Chanoines.\nNe faut-il que délibérer,\nLa cour en conseillers foisonne ;\nEst-il besoin d'exécuter,\nL'on ne rencontre plus personne.",
+      "characterCount": 1269,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-mort-bucheron",
+      "title": "La Mort et le Bûcheron",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Un pauvre Bûcheron, tout couvert de ramée,\nSous le faix du fagot aussi bien que des ans\nGémissant et courbé marchait à pas pesants,\nEt tâchait de gagner sa chaumine enfumée.\nEnfin, n'en pouvant plus d'effort et de douleur,\nIl met bas son fagot, il songe à son malheur.\nQuel plaisir a-t-il eu depuis qu'il est au monde ?\nEn est-il un plus pauvre en la machine ronde ?\nPoint de pain quelquefois, et jamais de repos.\nSa femme, ses enfants, les soldats, les impôts,\nLe créancier, et la corvée\nLui font d'un malheureux la peinture achevée.\nIl appelle la Mort. Elle vient sans tarder,\nLui demande ce qu'il faut faire\n« C'est, dit-il, afin de m'aider\nÀ recharger ce bois ; tu ne tarderas guère. »\nLe trépas vient tout guérir ;\nMais ne bougeons d'où nous sommes.\nPlutôt souffrir que mourir,\nC'est la devise des hommes.",
+      "characterCount": 894,
+      "chineseCharCount": 0
+    }
+  ]
+}

@@ -164,6 +164,42 @@
           "path": "portuguese/grade-6.json"
         }
       ]
+    },
+    {
+      "id": "french",
+      "name": "Français",
+      "grades": [
+        {
+          "id": "french-grade-1",
+          "name": "CP",
+          "path": "french/grade-1.json"
+        },
+        {
+          "id": "french-grade-2",
+          "name": "CE1",
+          "path": "french/grade-2.json"
+        },
+        {
+          "id": "french-grade-3",
+          "name": "CE2",
+          "path": "french/grade-3.json"
+        },
+        {
+          "id": "french-grade-4",
+          "name": "CM1",
+          "path": "french/grade-4.json"
+        },
+        {
+          "id": "french-grade-5",
+          "name": "CM2",
+          "path": "french/grade-5.json"
+        },
+        {
+          "id": "french-grade-6",
+          "name": "6ème",
+          "path": "french/grade-6.json"
+        }
+      ]
     }
   ]
 }

@@ -97,6 +97,25 @@ const resources = {
             "back_home": "Voltar ao Início",
             "restart": "Reiniciar"
         }
+    },
+    fr: {
+        translation: {
+            "app_title": "Entraînement à la Dactylographie Primaire",
+            "start": "Commencer",
+            "hero_subtitle": "Exercez-vous avec des textes familiers",
+            "next_lesson": "Leçon Suivante",
+            "select_grade": "Choisir le Niveau",
+            "all_grades": "Tous les Niveaux",
+            "language": "Langue",
+            "loading": "Chargement...",
+            "error": "Erreur",
+            "results": "Résultats",
+            "wpm": "MPM",
+            "accuracy": "Précision",
+            "time": "Temps",
+            "back_home": "Retour à l'Accueil",
+            "restart": "Recommencer"
+        }
     }
 };
 

@@ -1,0 +1,205 @@
+{
+  "grade": "CP",
+  "lessons": [
+    {
+      "id": "french-au-clair-de-la-lune",
+      "title": "Au clair de la lune",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Au clair de la lune,\nMon ami Pierrot,\nPrête-moi ta plume\nPour écrire un mot.\nMa chandelle est morte,\nJe n'ai plus de feu.\nOuvre-moi ta porte\nPour l'amour de Dieu.",
+      "characterCount": 148,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-frere-jacques",
+      "title": "Frère Jacques",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Frère Jacques, Frère Jacques,\nDormez-vous ? Dormez-vous ?\nSonnez les matines ! Sonnez les matines !\nDin, dan, don ! Din, dan, don !",
+      "characterCount": 133,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-souris-verte",
+      "title": "Une souris verte",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Une souris verte\nQui courait dans l'herbe\nJe l'attrape par la queue,\nJe la montre à ces messieurs.\nCes messieurs me disent :\nTrempez-la dans l'huile,\nTrempez-la dans l'eau,\nÇa fera un escargot tout chaud.",
+      "characterCount": 208,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-pomme-de-reinette",
+      "title": "Pomme de reinette",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Pomme de reinette et pomme d'api,\nD'api d'api rouge,\nPomme de reinette et pomme d'api,\nD'api d'api gris.\nCache ton poing derrière ton dos,\nOu je te donne un coup de marteau !",
+      "characterCount": 174,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-alouette",
+      "title": "Alouette",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Alouette, gentille alouette,\nAlouette, je te plumerai.\nJe te plumerai la tête,\nJe te plumerai la tête.\nEt la tête ! Et la tête !\nAlouette ! Alouette !\nAh ! ah ! ah ! ah !",
+      "characterCount": 173,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-grand-cerf",
+      "title": "Dans sa maison un grand cerf",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Dans sa maison un grand cerf\nRegardait par la fenêtre\nUn lapin venir à lui\nEt frapper ainsi :\n« Cerf, cerf, ouvre-moi !\nOu le chasseur me tuera ! »\n« Lapin, lapin, entre et viens,\nMe serrer la main. »",
+      "characterCount": 202,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-meunier-tu-dors",
+      "title": "Meunier tu dors",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Meunier tu dors\nTon moulin ton moulin va trop vite\nMeunier tu dors\nTon moulin ton moulin va trop fort\nTon moulin, ton moulin va trop vite\nTon moulin, ton moulin va trop fort\nTon moulin, ton moulin va trop vite\nTon moulin, ton moulin va trop fort",
+      "characterCount": 249,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-petit-navire",
+      "title": "Il était un petit navire",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 8,
+      "content": "Il était un petit navire\nIl était un petit navire\nQui n'avait ja-ja-jamais navigué\nQui n'avait ja-ja-jamais navigué\nOhé ! Ohé !",
+      "characterCount": 133,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-pont-avignon",
+      "title": "Sur le pont d'Avignon",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Sur le pont d'Avignon\nL'on y danse, l'on y danse\nSur le pont d'Avignon\nL'on y danse tous en rond\nLes beaux messieurs font comme ça\nEt puis encore comme ça.",
+      "characterCount": 158,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-planter-choux",
+      "title": "Savez-vous planter les choux",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 10,
+      "content": "Savez-vous planter les choux\nÀ la mode, à la mode\nSavez-vous planter les choux\nÀ la mode de chez nous ?\nOn les plante avec le doigt\nÀ la mode, à la mode\nOn les plante avec le doigt\nÀ la mode de chez nous.",
+      "characterCount": 206,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-promenons-nous",
+      "title": "Promenons-nous dans les bois",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 11,
+      "content": "Promenons-nous dans les bois\nPendant que le loup n'y est pas\nSi le loup y était\nIl nous mangerait\nMais comme il n'y est pas\nIl nous mangera pas\nLoup y es-tu ? Que fais-tu ? Entends-tu ?",
+      "characterCount": 188,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-crocodiles",
+      "title": "Ah ! les crocodiles",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 12,
+      "content": "Ah ! les crocodiles, les crocodiles, les crocodiles\nSur les bords du Nil, ils sont partis n'en parlons plus\nAh ! les crocodiles, les crocodiles, les crocodiles\nSur les bords du Nil, ils sont partis n'en parlons plus",
+      "characterCount": 216,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-elephant",
+      "title": "Un éléphant qui se balançait",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 13,
+      "content": "Un éléphant qui se balançait\nSur une toile d'araignée,\nTrouvait ce jeu tellement amusant,\nQu'il alla chercher un autre éléphant.\nDeux éléphants qui se balançaient\nSur une toile d'araignée,\nTrouvaient ce jeu tellement amusant,\nQu'ils allèrent chercher un autre éléphant.",
+      "characterCount": 272,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-petit-escargot",
+      "title": "Petit Escargot",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 14,
+      "content": "Petit escargot\nPorte sur son dos\nSa maisonnette\nAussitôt qu'il pleut\nIl est tout heureux\nIl sort sa tête.",
+      "characterCount": 107,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-maman-bateaux",
+      "title": "Maman les p'tits bateaux",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 15,
+      "content": "Maman les p'tits bateaux\nQui vont sur l'eau\nOnt-ils des jambes ?\nMais non, mon gros bêta\nS'ils en avaient, ils marcheraient !",
+      "characterCount": 125,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-araignee-gypsie",
+      "title": "L'araignée Gypsie",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 16,
+      "content": "L'araignée Gypsie\nMonte à la gouttière.\nTiens voilà la pluie !\nGypsie tombe par terre.\nMais le soleil\nA chassé la pluie,\nEt l'araignée Gypsie\nMonte à la gouttière.",
+      "characterCount": 167,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-pirouette",
+      "title": "Pirouette Cacahuète",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 17,
+      "content": "Il était un petit homme\nPirouette, cacahuète\nIl était un petit homme\nQui avait une drôle de maison\nQui avait une drôle de maison.\nSa maison est en carton\nPirouette, cacahuète\nSa maison est en carton\nLes escaliers sont en papier\nLes escaliers sont en papier.",
+      "characterCount": 261,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-roi-dagobert",
+      "title": "Le bon roi Dagobert",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 18,
+      "content": "Le bon roi Dagobert\nA mis sa culotte à l'envers\nLe grand saint Éloi\nLui dit : « O mon roi !\nVotre Majesté\nEst mal culottée. »\n« C'est vrai, lui dit le roi,\nJe vais la remettre à l'endroit. »",
+      "characterCount": 194,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-claire-fontaine",
+      "title": "À la claire fontaine",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 19,
+      "content": "À la claire fontaine\nM'en allant promener\nJ'ai trouvé l'eau si belle\nQue je m'y suis baigné\nIl y a longtemps que je t'aime\nJamais je ne t'oublierai.",
+      "characterCount": 151,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "french-fais-dodo",
+      "title": "Fais dodo",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 20,
+      "content": "Fais dodo, Colas mon p'tit frère\nFais dodo, t'auras du lolo\nMaman est en haut\nQui fait du gâteau\nPapa est en bas\nQui fait du chocolat\nFais dodo, Colas mon p'tit frère\nFais dodo, t'auras du lolo.",
+      "characterCount": 195,
+      "chineseCharCount": 0
+    }
+  ]
+}
