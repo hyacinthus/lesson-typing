@@ -175,6 +175,8 @@ export function HomePage() {
               <option value="es">Español</option>
               <option value="ja">日本語</option>
               <option value="pt">Português</option>
+              <option value="fr">Français</option>
+              <option value="de">Deutsch</option>
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-[#90caf9]">
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
