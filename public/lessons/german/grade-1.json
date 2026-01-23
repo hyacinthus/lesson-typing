@@ -1,0 +1,205 @@
+{
+  "grade": "1. Klasse",
+  "lessons": [
+    {
+      "id": "de-grade1-hoppe-reiter",
+      "title": "Hoppe, hoppe Reiter",
+      "category": "Kinderreim",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Hoppe, hoppe Reiter, wenn er fällt, dann schreit er. Fällt er in den Graben, fressen ihn die Raben. Fällt er in den Sumpf, macht der Reiter plumps!",
+      "characterCount": 136,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-alle-entchen",
+      "title": "Alle meine Entchen",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Alle meine Entchen schwimmen auf dem See, schwimmen auf dem See, Köpfchen in das Wasser, Schwänzchen in die Höh.",
+      "characterCount": 114,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-backe-kuchen",
+      "title": "Backe, backe Kuchen",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Backe, backe Kuchen, der Bäcker hat gerufen. Wer will guten Kuchen backen, der muss haben sieben Sachen: Eier und Schmalz, Zucker und Salz, Milch und Mehl, Safran macht den Kuchen gehl.",
+      "characterCount": 189,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-abc-katze",
+      "title": "ABC, die Katze lief im Schnee",
+      "category": "Reim",
+      "difficulty": 1,
+      "order": 4,
+      "content": "A, B, C, die Katze lief im Schnee. Und als sie dann nach Hause kam, da hatte sie weiße Stiefel an. O jemine, o jemine, die Katze lief im Schnee.",
+      "characterCount": 147,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-haenschen-klein",
+      "title": "Hänschen klein",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Hänschen klein ging allein in die weite Welt hinein. Stock und Hut steh'n ihm gut, ist gar wohlgemut. Doch die Mutter weinet sehr, hat ja nun kein Hänschen mehr. \"Wünsch dir Glück\", sagt ihr Blick, \"kehr' nur bald zurück!\"",
+      "characterCount": 223,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-bibabutzemann",
+      "title": "Es tanzt ein Bi-Ba-Butzemann",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Es tanzt ein Bi-Ba-Butzemann in unserm Haus herum, fidebum. Er rüttelt sich, er schüttelt sich, er wirft sein Säckchen hinter sich. Es tanzt ein Bi-Ba-Butzemann in unserm Haus herum.",
+      "characterCount": 185,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-kuckuck",
+      "title": "Kuckuck, Kuckuck",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Kuckuck, Kuckuck, ruft's aus dem Wald. Lasset uns singen, tanzen und springen! Frühling, Frühling wird es nun bald.",
+      "characterCount": 115,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-summ-summ",
+      "title": "Summ, summ, summ",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 8,
+      "content": "Summ, summ, summ! Bienchen summ herum! Ei, wir tun dir nichts zuleide, flieg nur aus in Wald und Heide! Summ, summ, summ! Bienchen summ herum!",
+      "characterCount": 145,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-schlaf-kindlein",
+      "title": "Schlaf, Kindlein, schlaf",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Schlaf, Kindlein, schlaf! Der Vater hüt' die Schaf. Die Mutter schüttelt's Bäumelein, da fällt herab ein Träumelein. Schlaf, Kindlein, schlaf!",
+      "characterCount": 144,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-bruder-jakob",
+      "title": "Bruder Jakob",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 10,
+      "content": "Bruder Jakob, Bruder Jakob, Schläfst du noch? Schläfst du noch? Hörst du nicht die Glocken? Hörst du nicht die Glocken? Ding dang dong, ding dang dong.",
+      "characterCount": 153,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-mein-ball",
+      "title": "Mein Ball",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 11,
+      "content": "Ich habe einen Ball. Der Ball ist rot und rund. Ich werfe den Ball. Mein Hund fängt den Ball. Wir spielen gern zusammen.",
+      "characterCount": 118,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-die-farben",
+      "title": "Die Farben",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 12,
+      "content": "Die Sonne ist gelb. Der Himmel ist blau. Das Gras ist grün. Die Blume ist rot. Die Welt ist bunt und schön.",
+      "characterCount": 107,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-in-der-schule",
+      "title": "In der Schule",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 13,
+      "content": "Ich gehe in die Schule. Ich lerne lesen und schreiben. Meine Lehrerin ist nett. Ich habe viele Freunde. Die Pause macht Spaß.",
+      "characterCount": 125,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-mein-haustier",
+      "title": "Mein Haustier",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 14,
+      "content": "Ich habe eine Katze. Sie heißt Mimi. Mimi ist weich und lieb. Sie trinkt gerne Milch. Sie schläft in meinem Bett.",
+      "characterCount": 113,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-das-wetter",
+      "title": "Das Wetter",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 15,
+      "content": "Heute scheint die Sonne. Es ist warm. Gestern hat es geregnet. Morgen schneit es vielleicht. Ich mag den Schnee.",
+      "characterCount": 112,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-obst",
+      "title": "Obst",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 16,
+      "content": "Ich esse gerne Obst. Äpfel sind gesund. Bananen sind süß. Birnen sind saftig. Obst schmeckt gut.",
+      "characterCount": 96,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-meine-familie",
+      "title": "Meine Familie",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 17,
+      "content": "Das ist meine Familie. Das ist mein Papa. Das ist meine Mama. Das ist mein Bruder. Wir haben uns alle lieb.",
+      "characterCount": 107,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-guten-morgen",
+      "title": "Guten Morgen",
+      "category": "Gedicht",
+      "difficulty": 1,
+      "order": 18,
+      "content": "Guten Morgen, ruft die Sonne. Guten Morgen, ruft der Wind. Guten Morgen, ruft der Vogel. Guten Morgen, liebes Kind.",
+      "characterCount": 115,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-der-regen",
+      "title": "Der Regen",
+      "category": "Geschichte",
+      "difficulty": 1,
+      "order": 19,
+      "content": "Es regnet. Tropfen fallen vom Himmel. Die Blumen trinken das Wasser. Ich brauche meinen Regenschirm. Plitsch, platsch.",
+      "characterCount": 116,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade1-maennlein-walde",
+      "title": "Ein Männlein steht im Walde",
+      "category": "Lied",
+      "difficulty": 1,
+      "order": 20,
+      "content": "Ein Männlein steht im Walde ganz still und stumm. Es hat von lauter Purpur ein Mäntlein um. Sagt, wer mag das Männlein sein, das da steht im Wald allein mit dem purpurroten Mäntelein?",
+      "characterCount": 185,
+      "chineseCharCount": 0
+    }
+  ]
+}

@@ -116,6 +116,25 @@ const resources = {
             "back_home": "Retour à l'Accueil",
             "restart": "Recommencer"
         }
+    },
+    de: {
+        translation: {
+            "app_title": "Tipptrainer für die Grundschule",
+            "start": "Übung starten",
+            "hero_subtitle": "Übe das Tippen mit bekannten Texten",
+            "next_lesson": "Nächste Lektion",
+            "select_grade": "Klasse wählen",
+            "all_grades": "Alle Klassen",
+            "language": "Sprache",
+            "loading": "Laden...",
+            "error": "Fehler",
+            "results": "Ergebnisse",
+            "wpm": "WPM",
+            "accuracy": "Genauigkeit",
+            "time": "Zeit",
+            "back_home": "Zurück zum Start",
+            "restart": "Neustart"
+        }
     }
 };
 

@@ -1,0 +1,205 @@
+{
+  "grade": "5. Klasse",
+  "lessons": [
+    {
+      "id": "de-grade5-sterntaler",
+      "title": "Die Sterntaler",
+      "category": "Märchen",
+      "difficulty": 5,
+      "order": 1,
+      "content": "Es war einmal ein kleines Mädchen, dem war Vater und Mutter gestorben, und es war so arm, dass es kein Kämmerchen mehr hatte, darin zu wohnen, und kein Bettchen mehr, darin zu schlafen, und endlich gar nichts mehr als die Kleider auf dem Leib und ein Stückchen Brot in der Hand, das ihm ein mitleidiges Herz geschenkt hatte. Es war aber gut und fromm. Und weil es so von aller Welt verlassen war, ging es im Vertrauen auf den lieben Gott hinaus ins Feld. Da begegnete ihm ein armer Mann, der sprach: \"Ach, gib mir etwas zu essen, ich bin so hungrig.\" Es reichte ihm das ganze Stückchen Brot und sagte: \"Gott segne dir's\", und ging weiter.",
+      "characterCount": 639,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-froschkoenig",
+      "title": "Der Froschkönig (Auszug)",
+      "category": "Märchen",
+      "difficulty": 5,
+      "order": 2,
+      "content": "In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön, aber die jüngste war so schön, dass die Sonne selber, die doch so vieles gesehen hat, sich verwunderte, sooft sie ihr ins Gesicht schien. Nahe bei dem Schlosse des Königs lag ein großer dunkler Wald, und in dem Walde unter einer alten Linde war ein Brunnen. Wenn nun der Tag recht heiß war, so ging das Königskind hinaus in den Wald und setzte sich an den Rand des kühlen Brunnens. Und wenn es Langeweile hatte, so nahm es eine goldene Kugel, warf sie in die Höhe und fing sie wieder; und das war sein liebstes Spielwerk.",
+      "characterCount": 625,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-hase-igel",
+      "title": "Hase und Igel",
+      "category": "Märchen",
+      "difficulty": 5,
+      "order": 3,
+      "content": "\"Ich wette, dass ich dich im Wettlauf besiege\", sagte der Igel. \"Das ist ja lächerlich\", lachte der Hase, \"du mit deinen krummen Beinen!\" Aber der Igel blieb dabei. Am Sonntagmorgen trafen sie sich auf dem Acker. Der Hase rannte los wie der Sturmwind. Doch als er am Ende des Ackers ankam, rief ihm die Frau des Igels, die ihrem Mann zum Verwechseln ähnlich sah, entgegen: \"Ich bin schon hier!\" Der Hase stutzte, rannte zurück, doch am Start rief der Igel: \"Ich bin schon hier!\" So rannte der Hase dreiundsiebzig Mal, bis er vor Erschöpfung zusammenbrach. Der Igel aber ging gemütlich mit seiner Frau nach Hause.",
+      "characterCount": 612,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-bremer-stadtmusikanten",
+      "title": "Die Bremer Stadtmusikanten",
+      "category": "Märchen",
+      "difficulty": 5,
+      "order": 4,
+      "content": "Ein Mann hatte einen Esel, der schon lange Jahre die Säcke unverdrossen zur Mühle getragen hatte, dessen Kräfte aber nun zu Ende gingen, so dass er zur Arbeit immer untauglicher ward. Da dachte der Herr daran, ihn aus dem Futter zu schaffen; aber der Esel merkte, dass kein guter Wind wehte, lief fort und machte sich auf den Weg nach Bremen. Dort, so meinte er, könnte er ja Stadtmusikant werden. Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Wege liegen, der jappte wie einer, der sich müde gelaufen hat. \"Nun, was jappst du so, Packan?\" fragte der Esel.",
+      "characterCount": 583,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-rabe-fuchs",
+      "title": "Der Rabe und der Fuchs",
+      "category": "Fabel",
+      "difficulty": 5,
+      "order": 5,
+      "content": "Ein Rabe hatte ein Stück Käse gestohlen und setzte sich damit auf einen hohen Baum. Ein Fuchs, der dies sah, wollte den Käse haben und sprach zum Raben: \"O Rabe, was bist du für ein schöner Vogel! Wenn dein Gesang so schön ist wie dein Gefieder, dann bist du der König aller Vögel.\" Dem Raben schmeichelte das sehr. Er wollte zeigen, dass er auch singen könne, und sperrte den Schnabel weit auf, um ein Krächzen auszustoßen. Dabei fiel der Käse hinunter. Der Fuchs schnappte ihn sich lachend und lief davon.",
+      "characterCount": 510,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-muenchhausen-kugel",
+      "title": "Münchhausen: Der Ritt auf der Kanonenkugel",
+      "category": "Lügengeschichte",
+      "difficulty": 5,
+      "order": 6,
+      "content": "Eines Tages, als wir eine türkische Stadt belagerten, wollte ich unbedingt wissen, was im Lager des Feindes vorging. Da ich sehr mutig war, stellte ich mich neben eine riesige Kanone. Gerade als sie abgefeuert wurde, schwang ich mich auf die Kugel und ritt auf ihr durch die Luft. Doch als ich über der Stadt war, bekam ich es mit der Angst zu tun. Glücklicherweise kam mir eine feindliche Kugel entgegen. Schnell sprang ich auf diese um und gelangte so sicher wieder zu meinen eigenen Leuten zurück. Zwar hatte ich nichts gesehen, aber die Geschichte erzählte ich trotzdem gern.",
+      "characterCount": 581,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-schildbuerger-rathaus",
+      "title": "Die Schildbürger bauen ein Rathaus",
+      "category": "Schwank",
+      "difficulty": 5,
+      "order": 7,
+      "content": "Die Schildbürger bauten ein neues Rathaus. Es war ein prächtiges Gebäude mit dicken Mauern und einem hohen Dach. Als es fertig war, gingen die Ratsherren hinein, aber es war stockfinster. Sie hatten vergessen, Fenster einzubauen! Ratlos standen sie im Dunkeln. Da hatten sie eine Idee: Sie nahmen Säcke und Kisten, hielten sie in die Sonne, um das Licht einzufangen, und trugen sie schnell ins Rathaus. Sie öffneten die Säcke, aber es blieb dunkel. Schließlich riss einer ein Loch ins Dach, und endlich wurde es hell.",
+      "characterCount": 517,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-heidi-ankunft",
+      "title": "Heidi (Die Ankunft)",
+      "category": "Roman",
+      "difficulty": 5,
+      "order": 8,
+      "content": "Vom freundlichen Dorfe Maienfeld führt ein Fußweg durch grüne, baumreiche Fluren bis zum Fuße der Höhen, die von dieser Seite groß und ernst auf das Tal herniederschauen. Wo der Weg anfängt, steil aufzusteigen, beginnt bald das Heideland mit dem kurzen Gras und den kräftigen Bergkräutern. Das Heidi stieg den Berg hinauf, an der Hand der Tante Dete. Es war ein heißer Junimorgen, und das Kind war viel zu warm angezogen. Endlich sahen sie oben die Hütte des Alm-Öhi. Der alte Mann saß auf einer Bank vor der Hütte und schaute den beiden entgegen.",
+      "characterCount": 554,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-eulenspiegel-backen",
+      "title": "Till Eulenspiegel: Wie er Eulen und Meerkatzen backte",
+      "category": "Schwank",
+      "difficulty": 5,
+      "order": 9,
+      "content": "Till Eulenspiegel kam nach Braunschweig und verdingte sich bei einem Bäcker. Der Bäcker wollte ihn ärgern und sagte: \"Backe, was du willst, nur kein Brot!\" In der Nacht formte Eulenspiegel aus dem Teig lauter Eulen und Meerkatzen. Als der Bäcker am Morgen in die Backstube kam, war er wütend: \"Was hast du getan? Das kauft doch niemand!\" Er zwang Eulenspiegel, die Ware selbst zu bezahlen. Doch Eulenspiegel stellte sich vor die Kirche und verkaufte die lustigen Figuren an die Kinder. Er verdiente viel mehr Geld, als wenn er normales Brot gebacken hätte.",
+      "characterCount": 561,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-haessliche-entlein",
+      "title": "Das hässliche Entlein",
+      "category": "Märchen",
+      "difficulty": 5,
+      "order": 10,
+      "content": "Es war so herrlich draußen auf dem Lande. Es war Sommer, das Korn stand gelb, der Hafer grün. Die Entenmutter saß auf ihrem Nest. Endlich platzte das letzte große Ei, und ein großes, graues Küken purzelte heraus. \"Das sieht aber gar nicht wie die anderen aus\", sagten die Enten. Das arme Entlein wurde von allen gestoßen und verspottet, weil es so hässlich war. Es flüchtete und verlebte einen harten Winter. Doch als der Frühling kam, sah es sein Spiegelbild im Wasser: Es war kein plumpes graues Tier mehr, sondern ein stolzer, weißer Schwan.",
+      "characterCount": 549,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-siegfried-drache",
+      "title": "Siegfried und der Drache",
+      "category": "Sage",
+      "difficulty": 5,
+      "order": 11,
+      "content": "Der junge Siegfried war stark und mutig. Eines Tages zog er aus, um Abenteuer zu bestehen. Im Wald traf er auf einen schrecklichen Drachen, der die Gegend verwüstete. Siegfried kämpfte tapfer gegen das Ungeheuer und erschlug es schließlich mit seinem Schwert. Er bemerkte, dass das Drachenblut besondere Kräfte hatte. Er badete darin, und seine Haut wurde hart wie Horn, sodass ihn keine Waffe mehr verletzen konnte. Nur eine kleine Stelle auf seinem Rücken, auf die ein Lindenblatt gefallen war, blieb verwundbar.",
+      "characterCount": 514,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-max-moritz",
+      "title": "Max und Moritz (Erster Streich)",
+      "category": "Gedicht",
+      "difficulty": 5,
+      "order": 12,
+      "content": "Mancher gibt sich viele Müh' / Mit dem lieben Federvieh; / Einesteils der Eier wegen, / Welche diese Vögel legen; / Zweitens: Weil man dann und wann / Einen Braten essen kann; / Drittens aber nimmt man auch / Ihre Federn zum Gebrauch / In die Kissen und die Pfühle, / Denn man liegt nicht gerne kühle. / Seht, da ist die Witwe Bolte, / Die das auch nicht gerne wollte.",
+      "characterCount": 365,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-fliegende-robert",
+      "title": "Der fliegende Robert",
+      "category": "Gedicht",
+      "difficulty": 5,
+      "order": 13,
+      "content": "Wenn der Regen niederbraust, / Wenn der Sturm das Feld durchsaust, / Bleiben Mädchen oder Buben / Hübsch daheim in ihren Stuben. / Robert aber dachte: Nein! / Das muss draußen herrlich sein! - / Und im Felde patschet er / Mit dem Regenschirm umher. / Hui, wie pfeift der Wind und keucht, / Dass der Baum sich niederbeugt! / Seht! den Schirm erfasst der Wind, / Und der Robert fliegt geschwind / Durch die Luft so hoch, so weit; / Niemand hört ihn, wenn er schreit.",
+      "characterCount": 462,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-emil-zugfahrt",
+      "title": "Emil und die Detektive",
+      "category": "Roman",
+      "difficulty": 5,
+      "order": 14,
+      "content": "Emil saß im Zug nach Berlin. In seiner Tasche steckte ein Umschlag mit 140 Mark für seine Großmutter. Er hatte das Geld mit einer Nadel festgesteckt, damit es nicht verloren ging. Im Abteil saß ein Mann mit einem steifen Hut, der sich Herr Grundeis nannte. Emil wurde müde und schlief ein. Als er aufwachte, war der Mann weg – und das Geld auch! Emil stieg am Bahnhof Zoo aus und sah den Mann in der Menge. Er beschloss, ihn zu verfolgen. Zum Glück traf er bald Gustav mit der Hupe und seine Freunde, die ihm halfen.",
+      "characterCount": 516,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-ameise-heuschrecke",
+      "title": "Die Ameise und die Heuschrecke",
+      "category": "Fabel",
+      "difficulty": 5,
+      "order": 15,
+      "content": "Im Sommer sammelte die Ameise fleißig Vorräte für den Winter. Die Heuschrecke aber zirpte und tanzte den ganzen Tag und lachte die Ameise aus: \"Warum arbeitest du so schwer? Komm und tanz mit mir!\" Die Ameise schüttelte den Kopf und arbeitete weiter. Als der Winter kam und der Schnee fiel, hatte die Heuschrecke nichts zu essen. Hungernd klopfte sie bei der Ameise an. Die Ameise fragte: \"Was hast du im Sommer gemacht?\" \"Ich habe gesungen\", sagte die Heuschrecke. \"Gut\", sagte die Ameise, \"dann kannst du jetzt tanzen.\"",
+      "characterCount": 521,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-rattenfaenger",
+      "title": "Der Rattenfänger von Hameln",
+      "category": "Sage",
+      "difficulty": 5,
+      "order": 16,
+      "content": "Im Jahr 1284 kam ein wunderlicher Mann nach Hameln. Er hatte einen Rock aus bunten Tuchen an und gab sich für einen Rattenfänger aus. Er versprach, die Stadt von allen Mäusen und Ratten zu befreien, wenn man ihn gut bezahle. Die Bürger sagten ihm den Lohn zu. Da zog er ein Pfeifchen heraus und pfiff eine Melodie. Sogleich kamen alle Ratten aus den Häusern und folgten ihm bis in die Weser, wo sie ertranken. Als er aber seinen Lohn forderte, verweigerten ihn die Bürger. Zornig ging er fort, kam aber bald zurück und entführte zur Strafe die Kinder der Stadt.",
+      "characterCount": 561,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-pippi-langstrumpf",
+      "title": "Pippi Langstrumpf",
+      "category": "Roman",
+      "difficulty": 5,
+      "order": 17,
+      "content": "Am Rande der kleinen, kleinen Stadt lag ein alter verwahrloster Garten. In dem Garten stand ein altes Haus, und in dem Haus wohnte Pippi Langstrumpf. Sie war neun Jahre alt, und sie wohnte ganz allein dort. Sie hatte keine Mutter und keinen Vater, und das war eigentlich sehr schön, denn so war niemand da, der ihr sagte, dass sie zu Bett gehen sollte, gerade wenn es am lustigsten war. Pippi hatte ein kleines Äffchen, das Herr Nilsson hieß, und einen Koffer voller Goldstücke. Außerdem konnte sie ein Pferd hochheben.",
+      "characterCount": 516,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-ruebe",
+      "title": "Die Rübe",
+      "category": "Märchen",
+      "difficulty": 5,
+      "order": 18,
+      "content": "Großvater hat eine Rübe gesteckt. Die Rübe wuchs und wuchs, bis sie riesengroß war. Großvater wollte sie herausziehen. Er zog und zog, aber er konnte sie nicht herausziehen. Da rief er die Großmutter. Großmutter fasste Großvater, Großvater fasste die Rübe. Sie zogen und zogen, aber sie konnten sie nicht herausziehen. Da riefen sie das Enkelkind. Enkelkind fasste Großmutter, Großmutter fasste Großvater. Sie zogen und zogen. Schließlich kam noch der Hund, die Katze und das Mäuschen dazu. Und ruck-zuck! Da hatten sie die Rübe herausgezogen.",
+      "characterCount": 546,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-dornroeschen",
+      "title": "Dornröschen",
+      "category": "Märchen",
+      "difficulty": 5,
+      "order": 19,
+      "content": "Vor Zeiten waren ein König und eine Königin, die sprachen jeden Tag: \"Ach, wenn wir doch ein Kind hätten!\" und kriegten immer keins. Als sie endlich eine Tochter bekamen, war die Freude groß. Doch eine böse Fee verfluchte das Kind: \"An seinem fünfzehnten Geburtstag soll es sich an einer Spindel stechen und tot umfallen.\" Eine gute Fee milderte den Fluch: Es sollte nicht sterben, sondern in einen hundertjährigen Schlaf fallen. Und genau so geschah es. Eine dicke Dornenhecke wuchs um das Schloss, bis eines Tages ein Prinz kam und sie wachküsste.",
+      "characterCount": 549,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade5-wind-sonne",
+      "title": "Der Wind und die Sonne",
+      "category": "Fabel",
+      "difficulty": 5,
+      "order": 20,
+      "content": "Einst stritten sich Nordwind und Sonne, wer von ihnen stärker sei. Da sahen sie einen Wanderer, der in einen warmen Mantel gehüllt war. Sie einigten sich: Wer es schafft, dem Wanderer den Mantel auszuziehen, hat gewonnen. Der Nordwind blies mit aller Kraft, doch je mehr er stürmte, desto fester wickelte der Wanderer seinen Mantel um sich. Dann war die Sonne an der Reihe. Sie strahlte sanft und warm vom Himmel. Dem Wanderer wurde warm, er öffnete den Mantel und zog ihn schließlich ganz aus, um im Schatten zu rasten. Da musste der Wind zugeben, dass Sanftmut oft stärker ist als Gewalt.",
+      "characterCount": 589,
+      "chineseCharCount": 0
+    }
+  ]
+}

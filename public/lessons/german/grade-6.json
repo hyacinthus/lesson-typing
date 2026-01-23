@@ -1,0 +1,205 @@
+{
+  "grade": "6. Klasse",
+  "lessons": [
+    {
+      "id": "de-grade6-zauberlehrling",
+      "title": "Der Zauberlehrling",
+      "category": "Ballade",
+      "difficulty": 6,
+      "order": 1,
+      "content": "Hat der alte Hexenmeister / sich doch einmal wegbegeben! / Und nun sollen seine Geister / auch nach meinem Willen leben. / Seine Wort' und Werke / merkt ich und den Brauch, / und mit Geistesstärke / tu ich Wunder auch. / Walle! walle / Manche Strecke, / dass, zum Zwecke, / Wasser fließe / und mit reichem, vollem Schwalle / zu dem Bade sich ergieße.",
+      "characterCount": 353,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-handschuh",
+      "title": "Der Handschuh",
+      "category": "Ballade",
+      "difficulty": 6,
+      "order": 2,
+      "content": "Vor seinem Löwengarten, / Das Kampfspiel zu erwarten, / Saß König Franz, / Und um ihn die Großen der Krone, / Und rings auf hohem Balkone / Die Damen in schönem Kranz. / Und wie er winkt mit dem Finger, / Auf tut sich der weite Zwinger, / Und hinein mit bedächtigem Schritt / Ein Löwe tritt / Und sieht sich stumm / Rings um. / ... Da fällt von des Altans Rand / Ein Handschuh von schöner Hand / Zwischen den Tiger und den Leun / Mitten hinein.",
+      "characterCount": 441,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-erlkoenig",
+      "title": "Erlkönig",
+      "category": "Ballade",
+      "difficulty": 6,
+      "order": 3,
+      "content": "Wer reitet so spät durch Nacht und Wind? / Es ist der Vater mit seinem Kind; / Er hat den Knaben wohl in dem Arm, / Er fasst ihn sicher, er hält ihn warm. / \"Mein Sohn, was birgst du so bang dein Gesicht?\" – / \"Siehst, Vater, du den Erlkönig nicht? / Den Erlenkönig mit Kron’ und Schweif?\" – / \"Mein Sohn, es ist ein Nebelstreif.\"",
+      "characterCount": 328,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-lorelei",
+      "title": "Die Lorelei",
+      "category": "Gedicht",
+      "difficulty": 6,
+      "order": 4,
+      "content": "Ich weiß nicht, was soll es bedeuten, / Dass ich so traurig bin; / Ein Märchen aus alten Zeiten, / Das kommt mir nicht aus dem Sinn. / Die Luft ist kühl und es dunkelt, / Und ruhig fließt der Rhein; / Der Gipfel des Berges funkelt / Im Abendsonnenschein. / Die schönste Jungfrau sitzet / Dort oben wunderbar; / Ihr goldnes Geschmeide blitzet, / Sie kämmt ihr goldenes Haar.",
+      "characterCount": 361,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-nis-randers",
+      "title": "Nis Randers",
+      "category": "Ballade",
+      "difficulty": 6,
+      "order": 5,
+      "content": "Krachen und Heulen und berstende Nacht, / Dunkel und Flammen in rasender Jagd – / Ein Schrei durch die Brandung! / Und brennt der Himmel, so sieht man’s gut: / Ein Wrack auf der Sandbank! Noch fehlt uns der Loot! / Nis Randers lugt – und ohne Hast / Spricht er: \"Da hängt noch ein Mann im Mast; / Wir müssen ihn holen.\"",
+      "characterCount": 320,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-john-maynard",
+      "title": "John Maynard",
+      "category": "Ballade",
+      "difficulty": 6,
+      "order": 6,
+      "content": "John Maynard! / \"Wer ist John Maynard?\" / \"John Maynard war unser Steuermann, / Aushielt er, bis er das Ufer gewann, / Er hat uns gerettet, er trägt die Kron’, / Er starb für uns, unsre Liebe sein Lohn. / John Maynard.\" / Die \"Schwalbe\" fliegt über den Erie-See, / Gischt schäumt um den Bug wie Flocken von Schnee; / Von Detroit fliegt sie nach Buffalo - / Die Herzen aber sind frei und froh.",
+      "characterCount": 387,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-hoelzerne-pferd",
+      "title": "Das hölzerne Pferd",
+      "category": "Sage",
+      "difficulty": 6,
+      "order": 7,
+      "content": "Zehn Jahre lang hatten die Griechen die Stadt Troja belagert, aber sie konnten die dicken Mauern nicht überwinden. Da hatte der schlaue Odysseus eine Idee. Sie bauten ein riesiges hölzernes Pferd und versteckten ihre besten Krieger darin. Die restliche Flotte tat so, als ob sie absegeln würde. Die Trojaner glaubten, das Pferd sei ein Geschenk der Götter, und zogen es in die Stadt. In der Nacht kletterten die griechischen Krieger aus dem Bauch des Pferdes, öffneten die Stadttore für ihre zurückgekehrte Armee und eroberten Troja.",
+      "characterCount": 534,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-odysseus-zyklopen",
+      "title": "Odysseus und die Zyklopen",
+      "category": "Sage",
+      "difficulty": 6,
+      "order": 8,
+      "content": "Auf seiner Irrfahrt landete Odysseus auf der Insel der Zyklopen. Er und seine Gefährten gingen in die Höhle des Riesen Polyphem. Als der Riese zurückkam, wälzte er einen riesigen Stein vor den Eingang und fraß zwei Griechen. Odysseus aber gab dem Riesen starken Wein zu trinken. Als Polyphem betrunken einschlief, blendeten die Griechen sein einziges Auge mit einem glühenden Pfahl. Am nächsten Morgen tastete der blinde Riese seine Schafe ab, die er hinausließ. Odysseus und seine Männer klammerten sich unter den Bäuchen der Tiere fest und entkamen so in die Freiheit.",
+      "characterCount": 574,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-romulus-remus",
+      "title": "Romulus und Remus",
+      "category": "Sage",
+      "difficulty": 6,
+      "order": 9,
+      "content": "Der Gott Mars hatte zwei Söhne, Romulus und Remus. Ein böser König wollte sie töten lassen und setzte sie in einem Korb auf dem Fluss Tiber aus. Doch der Korb ging nicht unter, sondern strandete am Ufer. Eine Wölfin fand die weinenden Kinder, trug sie in ihre Höhle und säugte sie. Später fand sie ein Hirte und zog sie auf. Als sie erwachsen waren, beschlossen sie, an der Stelle, wo sie gerettet wurden, eine Stadt zu gründen. Doch sie stritten sich über die Mauern. Romulus erschlug Remus und wurde der erste König von Rom.",
+      "characterCount": 526,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-weiber-weinsberg",
+      "title": "Die Weiber von Weinsberg",
+      "category": "Anekdote",
+      "difficulty": 6,
+      "order": 10,
+      "content": "Im Jahre 1140 belagerte König Konrad III. die Burg Weinsberg. Die Besatzung musste sich ergeben. Der König war zornig auf die Männer, aber den Frauen versprach er freien Abzug. Sie durften mitnehmen, was sie auf dem Rücken tragen konnten. Da staunte der König nicht schlecht, als sich das Burgtor öffnete: Die Frauen trugen keine Kleider oder Schätze, sondern ihre Ehemänner auf dem Rücken! Die Feldherren wollten einschreiten, aber der König lachte und sagte: \"Ein Königswort darf man nicht drehen noch deuteln.\"",
+      "characterCount": 511,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-krabat",
+      "title": "Krabat",
+      "category": "Roman",
+      "difficulty": 6,
+      "order": 11,
+      "content": "Es war in der Zeit zwischen Neujahr und dem Dreikönigstag. Krabat, ein wendischer Junge von vierzehn Jahren, zog mit zwei anderen Betteljungen durch die Gegend von Hoyerswerda. In der dritten Nacht rief ihn eine Stimme im Traum: \"Krabat! Komm nach Schwarzkollm in die Mühle!\" Krabat folgte dem Ruf. Er fand die Mühle im Koselbruch, die unheimlich und dunkel dalag. Der Meister, ein einäugiger Mann, nahm ihn als Lehrling auf. Doch bald merkte Krabat, dass dies keine gewöhnliche Mühle war. Hier wurde nicht nur Korn gemahlen, sondern auch die schwarze Kunst gelehrt.",
+      "characterCount": 569,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-herr-der-diebe",
+      "title": "Herr der Diebe",
+      "category": "Roman",
+      "difficulty": 6,
+      "order": 12,
+      "content": "Prosper und Bo sind aus Hamburg weggelaufen und nach Venedig geflohen. Sie verstecken sich in einem alten Kino, dem \"Stella\", zusammen mit einer Bande von Straßenkindern. Ihr Anführer ist der geheimnisvolle \"Herr der Diebe\", der eine Maske trägt und angeblich reiche Leute bestiehlt, um für die Kinder zu sorgen. Doch ein Detektiv namens Victor Getz ist ihnen auf der Spur. Venedig im Winter ist kalt und neblig, aber für die Kinder ist es ein Ort voller Magie, Masken und geflügelter Löwen.",
+      "characterCount": 492,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-momo",
+      "title": "Momo",
+      "category": "Roman",
+      "difficulty": 6,
+      "order": 13,
+      "content": "Momo lebte in den Ruinen eines alten Amphitheaters. Sie besaß nichts, außer der Gabe, den Menschen zuzuhören. Wenn Momo zuhörte, kamen den Leuten die besten Gedanken, und Streitigkeiten lösten sich in Luft auf. Doch eines Tages tauchten die grauen Herren auf. Sie rauchten aschgraue Zigarren und stahlen den Menschen ihre Zeit. \"Zeit ist Geld\", sagten sie, und brachten die Menschen dazu, immer schneller zu arbeiten und keine Zeit mehr für Freunde oder schöne Dinge zu haben. Nur Momo konnte den grauen Herren widerstehen, denn sie hatte alle Zeit der Welt.",
+      "characterCount": 561,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-fliegende-klassenzimmer",
+      "title": "Das fliegende Klassenzimmer",
+      "category": "Roman",
+      "difficulty": 6,
+      "order": 14,
+      "content": "Im Internat in Kirchberg ist kurz vor Weihnachten viel los. Die Jungen proben ein Theaterstück, das \"Das fliegende Klassenzimmer\" heißt. Martin, Johnny, Matz und Uli sind beste Freunde. Sie haben aber auch Streit mit den Realschülern aus der Stadt. Ihr Hauslehrer, Dr. Bökh, den sie alle nur \"Justus\" (der Gerechte) nennen, hilft ihnen. Eine wichtige Rolle spielt auch der \"Nichtraucher\", ein Mann, der in einem Eisenbahnwaggon lebt. Die Geschichte erzählt von Freundschaft, Mut und davon, dass man auch mal Angst haben darf, wenn man sie überwindet.",
+      "characterCount": 551,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-schimmelreiter",
+      "title": "Der Schimmelreiter",
+      "category": "Novelle",
+      "difficulty": 6,
+      "order": 15,
+      "content": "Hauke Haien war kein gewöhnlicher Junge. Er saß oft am Deich und beobachtete das Meer und die Wellen. Er rechnete und zeichnete und überlegte, wie man die Deiche sicherer machen könnte. Die anderen Dorfbewohner mochten ihn nicht besonders, er war ihnen zu still und klug. Später wurde er Deichgraf und baute einen neuen, flacheren Deich, der dem Sturm besser standhalten sollte. Man erzählte sich, er habe einen gespenstischen Schimmel, den er in stürmischen Nächten ritt. Wenn Unheil drohte, sah man den Schimmelreiter über den Deich preschen.",
+      "characterCount": 546,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-unendliche-geschichte",
+      "title": "Die unendliche Geschichte",
+      "category": "Roman",
+      "difficulty": 6,
+      "order": 16,
+      "content": "Bastian Balthasar Bux flüchtete in ein Antiquariat, um vor seinen Klassenkameraden wegzulaufen. Dort entdeckte er ein Buch mit einem kupferfarbenen Einband: \"Die unendliche Geschichte\". Fasziniert begann er zu lesen. Er las von Phantásien, einem Reich, das vom \"Nichts\" verschlungen wurde. Die Kindliche Kaiserin war krank, und nur ein Held konnte sie retten. Je mehr Bastian las, desto mehr spürte er, dass er selbst Teil der Geschichte war. Schließlich rief er den neuen Namen der Kaiserin und landete mitten in Phantásien.",
+      "characterCount": 532,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-alexander-knoten",
+      "title": "Alexander und der Gordische Knoten",
+      "category": "Anekdote",
+      "difficulty": 6,
+      "order": 17,
+      "content": "In der Stadt Gordion gab es einen Streitwagen, dessen Deichsel mit einem unglaublich komplizierten Knoten verbunden war. Ein Orakel hatte prophezeit: \"Wer diesen Knoten löst, wird der Herrscher über ganz Asien.\" Viele hatten es versucht, aber niemandem war es gelungen. Als Alexander der Große in die Stadt kam, führte man ihn zu dem Knoten. Er betrachtete das Gewirr aus Seilen eine Weile. Dann zog er entschlossen sein Schwert und hieb den Knoten mit einem einzigen Schlag durch. \"So löse ich Probleme\", sagte er. Und tatsächlich eroberte er später ganz Asien.",
+      "characterCount": 566,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-tintenherz",
+      "title": "Tintenherz",
+      "category": "Roman",
+      "difficulty": 6,
+      "order": 18,
+      "content": "Meggie liebt Bücher. Ihr Vater Mo ist Buchbinder. Was Meggie nicht weiß: Wenn Mo laut vorliest, können Figuren aus den Büchern in die Wirklichkeit kommen. Vor vielen Jahren las er aus dem Buch \"Tintenherz\" den Bösewicht Capricorn heraus. Dafür verschwand Meggies Mutter in dem Buch. Eines Nachts steht ein Fremder namens Staubfinger vor der Tür und warnt Mo. Capricorn sucht ihn. Eine gefährliche Reise beginnt, bei der Meggie lernt, dass Worte mächtiger sein können als Schwerter.",
+      "characterCount": 484,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-daedalus-ikarus",
+      "title": "Daedalus und Ikarus",
+      "category": "Sage",
+      "difficulty": 6,
+      "order": 19,
+      "content": "Daedalus war ein berühmter Erfinder, der auf der Insel Kreta gefangen gehalten wurde. Um zu fliehen, baute er für sich und seinen Sohn Ikarus Flügel aus Federn und Wachs. \"Flieg nicht zu hoch\", warnte er Ikarus, \"sonst schmilzt die Sonne das Wachs. Und flieg nicht zu tief, sonst macht das Meer die Federn schwer.\" Sie flogen los, frei wie Vögel. Doch Ikarus wurde übermütig. Er flog immer höher hinauf zur Sonne. Das Wachs schmolz, die Federn lösten sich, und Ikarus stürzte ins Meer und ertrank. Daedalus aber erreichte weinend das sichere Ufer.",
+      "characterCount": 546,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade6-siegfried-tod",
+      "title": "Siegfrieds Tod",
+      "category": "Sage",
+      "difficulty": 6,
+      "order": 20,
+      "content": "Der finstere Hagen von Tronje wollte Siegfried töten. Er entlockte Siegfrieds Frau Kriemhild das Geheimnis seiner verwundbaren Stelle am Rücken. Bei einer Jagd im Odenwald liefen sie um die Wette zu einer Quelle. Siegfried war der Schnellste. Doch als er sich bückte, um Wasser zu trinken, schlich sich Hagen von hinten an. Er stieß seinen Speer genau in die Stelle zwischen den Schulterblättern, wo das Lindenblatt gelegen hatte. Tödlich getroffen sank der Held ins Gras. So endete das Leben des Drachentöters durch Verrat.",
+      "characterCount": 521,
+      "chineseCharCount": 0
+    }
+  ]
+}

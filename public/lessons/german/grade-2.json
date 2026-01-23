@@ -1,0 +1,205 @@
+{
+  "grade": "2. Klasse",
+  "lessons": [
+    {
+      "id": "de-grade2-spatzen",
+      "title": "Die drei Spatzen",
+      "category": "Gedicht",
+      "difficulty": 2,
+      "order": 1,
+      "content": "In einem leeren Haselstrauch, da sitzen drei Spatzen, Bauch an Bauch. Der Erich rechts und der Franz links und mittendrin der freche Hans. Sie haben die Augen zu, ganz zu, und oben drüber, da schneit es, hu! Sie rücken zusammen, dicht an dicht. So warm wie der Hans hat's niemand nicht. Sie hören alle drei ihrer Herzlein Gepoch. Und wenn sie nicht weg sind, so sitzen sie noch.",
+      "characterCount": 381,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-fuchs-trauben",
+      "title": "Der Fuchs und die Trauben",
+      "category": "Fabel",
+      "difficulty": 2,
+      "order": 2,
+      "content": "Ein Fuchs biss die Zähne zusammen, rümpfte die Nase und sprang hoch hinauf. Aber er erreichte die Trauben nicht. Er versuchte es noch einmal und noch einmal. Aber es half nichts. Da drehte er sich stolz um und sagte: \"Die Trauben sind mir viel zu sauer. Ich mag sie gar nicht essen.\"",
+      "characterCount": 286,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-loewe-maus",
+      "title": "Der Löwe und die Maus",
+      "category": "Fabel",
+      "difficulty": 2,
+      "order": 3,
+      "content": "Ein Löwe schlief. Eine Maus lief über seine Pfote. Der Löwe wachte auf und fing die Maus. \"Bitte lass mich frei\", sagte die Maus. \"Ich werde dir auch einmal helfen.\" Der Löwe lachte und ließ sie laufen. Später fingen Jäger den Löwen in einem Netz. Die Maus hörte ihn brüllen. Sie kam und nagte das Netz kaputt. Der Löwe war frei. \"Danke\", sagte der Löwe. \"Auch kleine Freunde können groß helfen.\"",
+      "characterCount": 401,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-drei-schmetterlinge",
+      "title": "Die drei Schmetterlinge",
+      "category": "Geschichte",
+      "difficulty": 2,
+      "order": 4,
+      "content": "Drei Schmetterlinge spielten in der Sonne. Einer war weiß, einer war rot, einer war gelb. Plötzlich kam ein Regen. Sie flogen zu einer Tulpe. \"Dürfen wir uns unterstellen?\", fragten sie. Die Tulpe sagte: \"Nur der rote und der gelbe. Den weißen mag ich nicht.\" Da sagten die beiden: \"Dann bleiben wir lieber auch nass.\" Und sie flogen weiter.",
+      "characterCount": 344,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-wind-sonne",
+      "title": "Der Wind und die Sonne",
+      "category": "Fabel",
+      "difficulty": 2,
+      "order": 5,
+      "content": "Der Wind und die Sonne stritten sich. Wer ist stärker? Sie sahen einen Wanderer mit einem Mantel. \"Wer dem Mann den Mantel auszieht, ist der Stärkere\", sagte der Wind. Er blies so fest er konnte. Der Mann hielt den Mantel nur fester. Dann kam die Sonne. Sie schien warm und hell. Dem Mann wurde heiß. Er zog den Mantel aus. Die Sonne hatte gewonnen.",
+      "characterCount": 353,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-ameise-taube",
+      "title": "Die Ameise und die Taube",
+      "category": "Fabel",
+      "difficulty": 2,
+      "order": 6,
+      "content": "Eine Ameise fiel ins Wasser. Sie konnte nicht schwimmen. Eine Taube sah das. Sie warf ein Blatt ins Wasser. Die Ameise kletterte auf das Blatt. So kam sie sicher ans Ufer. Wenig später wollte ein Jäger die Taube fangen. Die Ameise biss den Jäger in den Fuß. Der Jäger schrie auf. Die Taube erschrak und flog davon.",
+      "characterCount": 313,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-rabe-krug",
+      "title": "Der Rabe und der Wasserkrug",
+      "category": "Fabel",
+      "difficulty": 2,
+      "order": 7,
+      "content": "Ein Rabe hatte großen Durst. Er fand einen Krug mit Wasser. Aber der Hals war zu eng. Er kam nicht an das Wasser heran. Da hatte er eine Idee. Er warf kleine Steine in den Krug. Das Wasser stieg immer höher. Endlich konnte der Rabe trinken.",
+      "characterCount": 240,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-hase-schildkroete",
+      "title": "Der Hase und die Schildkröte",
+      "category": "Fabel",
+      "difficulty": 2,
+      "order": 8,
+      "content": "Der Hase lachte über die langsame Schildkröte. \"Lass uns um die Wette laufen\", sagte die Schildkröte. Der Hase rannte schnell los. Er war sich sicher, dass er gewinnt. Er legte sich ins Gras und schlief ein. Die Schildkröte lief langsam, aber sie blieb nicht stehen. Als der Hase aufwachte, war die Schildkröte schon im Ziel.",
+      "characterCount": 323,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-dornroeschen",
+      "title": "Dornröschen",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 9,
+      "content": "Es war einmal eine Königstochter. Eine böse Fee verfluchte sie. An ihrem 15. Geburtstag stach sie sich an einer Spindel. Sie fiel in einen tiefen Schlaf. Das ganze Schloss schlief mit ihr. Eine große Hecke aus Dornen wuchs um das Schloss. Nach hundert Jahren kam ein Prinz. Er küsste Dornröschen wach. Alle wachten auf und sie feierten Hochzeit.",
+      "characterCount": 346,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-rotkaeppchen",
+      "title": "Rotkäppchen",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 10,
+      "content": "Rotkäppchen wollte zur Großmutter. Sie trug einen Korb mit Kuchen und Wein. Im Wald traf sie den Wolf. Der Wolf rannte schnell zum Haus der Großmutter und fraß sie. Er legte sich in ihr Bett. Als Rotkäppchen kam, fraß er sie auch. Ein Jäger kam vorbei. Er rettete Rotkäppchen und die Großmutter aus dem Bauch des Wolfes.",
+      "characterCount": 320,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-bremer-stadtmusikanten",
+      "title": "Die Bremer Stadtmusikanten",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 11,
+      "content": "Ein Esel, ein Hund, eine Katze und ein Hahn wollten Stadtmusikanten werden. Sie gingen nach Bremen. Im Wald sahen sie ein Räuberhaus. Sie stellten sich aufeinander: der Hund auf den Esel, die Katze auf den Hund, der Hahn auf die Katze. Sie machten laute Musik. Die Räuber bekamen Angst und liefen weg. Die Tiere blieben im Haus wohnen.",
+      "characterCount": 338,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-frau-holle",
+      "title": "Frau Holle",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Eine Witwe hatte zwei Töchter. Die eine war fleißig, die andere faul. Die Fleißige fiel in einen Brunnen. Sie kam zu Frau Holle. Sie schüttelte die Betten, dass die Federn flogen. Dann schneite es auf der Welt. Zur Belohnung wurde sie mit Gold überschüttet. Die Faule wollte das auch. Aber sie war faul. Zur Strafe wurde sie mit Pech überschüttet.",
+      "characterCount": 352,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-froschkoenig",
+      "title": "Der Froschkönig",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Einer Prinzessin fiel ihre goldene Kugel in den Brunnen. Ein Frosch holte sie heraus. Dafür musste er bei ihr essen und schlafen. Die Prinzessin wollte das nicht. Sie warf den Frosch an die Wand. Da verwandelte er sich in einen Prinzen. Sie heirateten und wurden glücklich.",
+      "characterCount": 273,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-wolf-geisslein",
+      "title": "Der Wolf und die sieben Geißlein",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Die Mutter Geiß ging in den Wald. Der Wolf kam und wollte die sieben Geißlein fressen. Er verstellte seine Stimme und machte seine Pfote weiß. Die Geißlein machten auf. Der Wolf fraß alle bis auf das kleinste. Die Mutter kam zurück. Sie schnitt dem schlafenden Wolf den Bauch auf. Die Geißlein sprangen heraus. Sie füllten Steine in den Bauch. Der Wolf fiel in den Brunnen.",
+      "characterCount": 376,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-haensel-gretel",
+      "title": "Hänsel und Gretel",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Hänsel und Gretel verirrten sich im Wald. Sie fanden ein Haus aus Lebkuchen. Eine Hexe wohnte dort. Sie sperrte Hänsel in einen Käfig. Gretel musste arbeiten. Die Hexe wollte Hänsel braten. Gretel stieß die Hexe in den Ofen. Die Kinder nahmen Schätze mit und liefen nach Hause.",
+      "characterCount": 277,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-schneewittchen",
+      "title": "Schneewittchen",
+      "category": "Märchen",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Schneewittchen war sehr schön. Die böse Königin war neidisch. Schneewittchen floh zu den sieben Zwergen. Die Königin gab ihr einen giftigen Apfel. Schneewittchen fiel um und war wie tot. Ein Prinz sah sie im Glassarg. Als der Sarg getragen wurde, fiel das Apfelstück heraus. Schneewittchen wachte auf.",
+      "characterCount": 302,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-jahreszeiten",
+      "title": "Die Jahreszeiten",
+      "category": "Sachtext",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Das Jahr hat vier Jahreszeiten. Im Frühling erwacht die Natur. Die Vögel bauen Nester. Im Sommer ist es heiß. Die Tage sind lang. Im Herbst fallen die Blätter. Die Bauern ernten Äpfel und Kartoffeln. Im Winter ist es kalt. Die Tage sind kurz. Oft liegt Schnee und Eis.",
+      "characterCount": 268,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-wald",
+      "title": "Der Wald",
+      "category": "Sachtext",
+      "difficulty": 2,
+      "order": 18,
+      "content": "Der Wald ist wichtig für uns. Die Bäume machen die Luft sauber. Im Wald leben viele Tiere: Rehe, Wildschweine, Füchse und Vögel. Wir müssen den Wald schützen. Man darf keinen Müll wegwerfen. Ein Spaziergang im Wald ist gesund und macht Spaß.",
+      "characterCount": 244,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-fahrrad",
+      "title": "Mein Fahrrad",
+      "category": "Geschichte",
+      "difficulty": 2,
+      "order": 19,
+      "content": "Ich habe ein neues Fahrrad. Es ist blau und hat eine Klingel. Ich fahre jeden Tag zur Schule. Ich muss einen Helm tragen. Das ist sicherer. Am Wochenende mache ich eine Tour mit meinen Eltern. Wir fahren zum See und essen ein Eis.",
+      "characterCount": 230,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "de-grade2-gewitter",
+      "title": "Das Gewitter",
+      "category": "Geschichte",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Am Nachmittag wurde der Himmel dunkel. Schwere Wolken zogen auf. Plötzlich zuckte ein Blitz. Dann donnerte es laut. Der Regen prasselte gegen das Fenster. Ich hatte ein bisschen Angst. Aber nach einer Stunde war das Gewitter vorbei. Die Luft war frisch und sauber.",
+      "characterCount": 264,
+      "chineseCharCount": 0
+    }
+  ]
+}
