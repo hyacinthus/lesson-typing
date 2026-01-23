@@ -56,6 +56,33 @@ export function TypingArea({
     };
   }, [currentIndex]);
 
+  // 自动滚动：当光标位于屏幕下半部分时，自动向上滚动一行
+  useEffect(() => {
+    const activeChar = document.querySelector(`span[data-index="${currentIndex}"]`);
+    if (activeChar) {
+      const rect = activeChar.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      
+      // 检查光标是否低于屏幕中间
+      if (rect.top > viewportHeight / 2) {
+        // 获取父元素的行高以进行更精确的滚动
+        let scrollAmount = rect.height;
+        const parent = activeChar.parentElement;
+        if (parent) {
+          const lineHeight = parseFloat(window.getComputedStyle(parent).lineHeight);
+          if (!isNaN(lineHeight)) {
+            scrollAmount = lineHeight;
+          }
+        }
+
+        window.scrollBy({
+          top: scrollAmount,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }, [currentIndex]);
+
   return (
     <div className="max-w-4xl mx-auto px-4">
       {/* 统计面板 */}
