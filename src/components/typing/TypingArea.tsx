@@ -30,7 +30,7 @@ export function TypingArea({
 }: TypingAreaProps) {
   const { t } = useTranslation();
   const inputId = 'typing-input-area';
-  const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number } | null>(null);
+  const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number; height: number } | null>(null);
 
   // 更新输入框位置以跟随光标
   useEffect(() => {
@@ -41,6 +41,7 @@ export function TypingArea({
         setCursorPosition({
           top: rect.top,
           left: rect.left,
+          height: rect.height,
         });
       }
     };
@@ -65,7 +66,7 @@ export function TypingArea({
         htmlFor={inputId}
         className="block bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-6 min-h-[300px] cursor-text"
       >
-        <div className="text-2xl leading-loose tracking-wide">
+        <div className="text-2xl leading-loose tracking-wide whitespace-pre-wrap break-words">
           {characters.map((char, index) => (
             <CharacterRenderer
               key={char.index}
@@ -75,6 +76,19 @@ export function TypingArea({
           ))}
         </div>
       </label>
+
+      {/* 自定义光标 */}
+      {cursorPosition && !isCompleted && !disabled && (
+        <div
+          className="fixed w-[2px] bg-blue-600 z-10 pointer-events-none animate-[blink_1s_infinite]"
+          style={{
+            top: cursorPosition.top,
+            left: cursorPosition.left,
+            height: cursorPosition.height,
+            transition: 'left 0.1s ease-out, top 0.1s ease-out'
+          }}
+        />
+      )}
 
       {/* 进度条 */}
       <div className="mb-6">

@@ -31,9 +31,3 @@ body {
     opacity: 0;
   }
 }
-
-.cursor-active::after {
-  content: '|';
-  animation: blink 1s infinite;
-  color: var(--color-current);
-}

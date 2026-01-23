@@ -16,7 +16,8 @@ export function CharacterRenderer({ character, isActive }: CharacterRendererProp
   }, [character.status, isActive]);
 
   // 处理空格显示
-  const displayChar = character.char === ' ' ? '\u00A0' : character.char;
+  // 使用普通空格代替 \u00A0 以允许自然换行
+  const displayChar = character.char;
   // 处理换行显示
   const isLineBreak = character.char === '\n';
 
