@@ -33,6 +33,193 @@
             "characterCount": 427,
             "chineseCharCount": 0,
             "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-almohadon",
+            "title": "El Almohadón de Plumas",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 4,
+            "content": "Alicia, una joven recién casada, enfermó gravemente. Los médicos no encontraban la causa de su debilidad, que aumentaba día a día hasta que murió. Su marido, Jordán, descubrió con horror que dentro del almohadón de plumas había un parásito monstruoso que había estado chupando la sangre de Alicia cada noche. \"La sangre humana parece serles particularmente favorable\", concluye el relato de Horacio Quiroga.",
+            "characterCount": 409,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-odisea",
+            "title": "La Odisea",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 5,
+            "content": "Después de la guerra de Troya, Ulises intenta regresar a su hogar en Ítaca, donde lo esperan su esposa Penélope y su hijo Telémaco. Su viaje dura diez años, llenos de peligros: el cíclope Polifemo, la hechicera Circe, las sirenas y el monstruo Escila. Con astucia y la ayuda de la diosa Atenea, Ulises supera todas las pruebas, derrota a los pretendientes que acosaban a su esposa y recupera su trono.",
+            "characterCount": 407,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-iliada",
+            "title": "La Ilíada",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 6,
+            "content": "Narra los últimos días de la guerra de Troya. Aquiles, el guerrero griego más fuerte, se retira de la batalla ofendido por el rey Agamenón. Sin él, los griegos sufren derrotas. Cuando el príncipe troyano Héctor mata a Patroclo, el mejor amigo de Aquiles, este regresa furioso al combate. Mata a Héctor y arrastra su cuerpo. Finalmente, el rey Príamo suplica por el cuerpo de su hijo, y Aquiles muestra compasión.",
+            "characterCount": 415,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-frankenstein",
+            "title": "Frankenstein",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 7,
+            "content": "El científico Víctor Frankenstein crea un ser vivo a partir de partes de cadáveres. Horrorizado por su creación, lo abandona. El monstruo, que al principio es bueno, sufre el rechazo de los humanos por su apariencia y se vuelve vengativo. Mata a los seres queridos de Víctor. El científico persigue a su creación hasta el Ártico, donde muere. El monstruo, arrepentido y solo, decide terminar con su propia existencia.",
+            "characterCount": 417,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-sherlock",
+            "title": "Sherlock Holmes: Estudio en Escarlata",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 8,
+            "content": "El Dr. Watson conoce al detective Sherlock Holmes y se convierte en su compañero de piso. Juntos investigan un misterioso asesinato en una casa abandonada, donde encuentran la palabra \"Rache\" escrita con sangre. Holmes, con su brillante deducción y observación de detalles que otros ignoran, descubre que el asesino es un hombre que busca venganza por un antiguo crimen cometido en Estados Unidos.",
+            "characterCount": 399,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-miserables",
+            "title": "Los Miserables",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 9,
+            "content": "Jean Valjean es un ex convicto que busca redimirse tras pasar 19 años en prisión por robar pan. Se convierte en un hombre honesto y alcalde de un pueblo, cuidando a la huérfana Cosette. Sin embargo, el inspector Javert lo persigue obsesivamente por su pasado. La historia, ambientada en la Francia del siglo XIX, trata sobre la justicia, el amor, la pobreza y la lucha por la libertad y la dignidad humana.",
+            "characterCount": 410,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-cien-anos",
+            "title": "Cien Años de Soledad",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 10,
+            "content": "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos.",
+            "characterCount": 390,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-pedro-paramo",
+            "title": "Pedro Páramo",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 11,
+            "content": "Vine a Comala porque me dijeron que acá vivía mi padre, un tal Pedro Páramo. Mi madre me lo dijo. Y yo le prometí que vendría a verlo en cuanto ella muriera. Le apreté sus manos en señal de que lo haría, pues ella estaba por morirse y yo en un plan de prometerlo todo. \"No dejes de ir a visitarlo\", me recomendó. \"Se llama de este modo y de este otro. Estoy segura de que le dará gusto conocerte\".",
+            "characterCount": 403,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-metamorfosis",
+            "title": "La Metamorfosis",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 12,
+            "content": "Gregorio Samsa se despierta una mañana convertido en un insecto gigante. Al principio, su preocupación es cómo ir a trabajar para mantener a su familia. Sin embargo, su transformación lo aísla. Su familia, horrorizada, lo encierra en su habitación. Gregorio sufre el rechazo y la soledad, escuchando cómo su familia discute sobre él. Finalmente, muere solo y olvidado, y su familia siente alivio y esperanza por el futuro.",
+            "characterCount": 423,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-1984",
+            "title": "1984",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 13,
+            "content": "En un futuro distópico, el Gran Hermano vigila a todos los ciudadanos a través de pantallas. Winston Smith trabaja en el Ministerio de la Verdad reescribiendo la historia. Winston empieza a rebelarse contra el control totalitario del Partido y se enamora de Julia, lo cual está prohibido. Son atrapados y torturados hasta que traicionan sus sentimientos y aceptan amar al Gran Hermano, perdiendo su humanidad.",
+            "characterCount": 412,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-mundo-feliz",
+            "title": "Un Mundo Feliz",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 14,
+            "content": "En una sociedad futurista, los humanos son creados en laboratorios y divididos en castas. No existe la guerra ni la pobreza, pero tampoco la libertad, la familia o el arte. Todos toman una droga llamada \"soma\" para ser felices. Bernard Marx, un inadaptado, visita una Reserva Salvaje y trae a John, un \"salvaje\" nacido de mujer. John se horroriza ante la falta de emociones reales de este mundo \"perfecto\".",
+            "characterCount": 408,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-viejo-mar",
+            "title": "El Viejo y el Mar",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 15,
+            "content": "Santiago es un viejo pescador que lleva 84 días sin pescar nada. Se adentra en el mar y logra enganchar un pez espada gigante. Lucha contra el pez durante tres días hasta que logra matarlo. Sin embargo, en el camino de regreso, los tiburones atacan y devoran la carne del pez, dejando solo el esqueleto. Santiago llega agotado, pero ha demostrado su valor y dignidad en la lucha, ganándose el respeto de todos.",
+            "characterCount": 412,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-cronica",
+            "title": "Crónica de una Muerte Anunciada",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 16,
+            "content": "Santiago Nasar va a morir. Los gemelos Vicario anuncian a todo el pueblo que lo matarán para restaurar el honor de su hermana, devuelta por su esposo en la noche de bodas. Aunque todos saben que lo van a matar, nadie hace nada para impedirlo, por una serie de casualidades y omisiones. Santiago es apuñalado en la puerta de su casa. La novela explora la fatalidad, el honor y la responsabilidad colectiva.",
+            "characterCount": 408,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-casa-espiritus",
+            "title": "La Casa de los Espíritus",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 17,
+            "content": "Narra la historia de la familia Trueba a lo largo de cuatro generaciones en un país latinoamericano. Esteban Trueba, un patriarca violento, se casa con Clara, una mujer con poderes clarividentes que habla con los espíritus. La novela mezcla lo real con lo mágico, contando amores, odios y revoluciones políticas. Es una saga familiar llena de pasión y tragedia, reflejo de la historia de Chile.",
+            "characterCount": 399,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-rayuela",
+            "title": "Rayuela",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 18,
+            "content": "¿Encontraría a la Maga? Tantas veces me había bastado asomarme, viniendo por la rue de Seine, al arco que da al Quai de Conti, y apenas la luz de ceniza y olivo que flota sobre el río me dejaba distinguir las formas, ya su silueta delgada se inscribía en el Pont des Arts, a veces andando de un lado a otro, a veces detenida en el pretil de hierro, inclinada sobre el agua.",
+            "characterCount": 377,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-aleph",
+            "title": "El Aleph",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 19,
+            "content": "Borges descubre en el sótano de una casa en Buenos Aires un punto en el espacio que contiene todos los puntos del universo: el Aleph. Al mirar a través de él, ve todo lo que existe en el mundo al mismo tiempo, sin superposición y con detalle infinito. Ve mares, desiertos, rostros, libros, espejos... Es una experiencia abrumadora e imposible de describir con palabras, pues el lenguaje es sucesivo y lo que vio fue simultáneo.",
+            "characterCount": 428,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade6-tunel",
+            "title": "El Túnel",
+            "category": "Literature",
+            "difficulty": 6,
+            "order": 20,
+            "content": "Bastará decir que soy Juan Pablo Castel, el pintor que mató a María Iribarne; supongo que el proceso está en el recuerdo de todos y que no se necesitan mayores explicaciones sobre mi persona. Aunque ni el diablo sabe qué es lo que ha de recordar la gente, ni por qué. En realidad, siempre he pensado que no hay memoria colectiva, lo que quizá sea una forma de defensa de la especie humana.",
+            "characterCount": 393,
+            "chineseCharCount": 0,
+            "language": "spanish"
         }
     ]
 }

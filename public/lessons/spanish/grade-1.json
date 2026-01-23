@@ -44,6 +44,182 @@
             "characterCount": 850,
             "chineseCharCount": 0,
             "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-memo",
+            "title": "La familia de Memo",
+            "category": "Lectura",
+            "difficulty": 1,
+            "order": 5,
+            "content": "Susi es mamá de Memo. Ema ama a Memo y a Mimi. Mamá mima a Mimi. Ema y Mimi son hermanas de Memo. Su papá se llama Juan y ama a Susi. Juan y Susi aman a sus hijos.",
+            "characterCount": 165,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-susu",
+            "title": "El oso de Susu",
+            "category": "Lectura",
+            "difficulty": 1,
+            "order": 6,
+            "content": "Susu tiene un oso grande llamado Marcelo. Es de color café con grandes ojos y orejas. Marcelo es bueno y tierno, le encanta su moño color rojo. Susu lo saca a pasear todos los días por las mañanas.",
+            "characterCount": 197,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-tomas",
+            "title": "Mi tío Tomas",
+            "category": "Lectura",
+            "difficulty": 1,
+            "order": 7,
+            "content": "Mi tío es Tomas y mi tía es Mimi. Mi tío toma té con su amigo Matute. Mimi usa el tomate para la comida. Mateo tiene un moto pequeña y Tita una mesita. Mateo y Tita aman a sus papás.",
+            "characterCount": 185,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-alma",
+            "title": "La comida de Alma",
+            "category": "Lectura",
+            "difficulty": 1,
+            "order": 8,
+            "content": "Alma es alta y le gusta cocinar. Luis y Lola limpian la sala. Tito corta las limas y mete la maleta. Elisa ayuda a Alma a hacer la sopa. La mamá de Alma espera la comida. Lupe limpia las limas para hacer agua y Susi pela los elotes. Lalo usa muletas y espera que la sopa este lista.",
+            "characterCount": 285,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-rita",
+            "title": "Las aventuras de Rita",
+            "category": "Lectura",
+            "difficulty": 1,
+            "order": 9,
+            "content": "Rita se ríe porque salió a Rusia. Lleva en su mochila un tarro, un remo, una rama, un radio y una torta. Sara y Teresa la acompañan. Renato y Ramiro las esperan. En su camino se enfrentan a un torero, saltan una torre, brincan los rieles, juegan la ruleta, usan el remo y siempre escuchan la radio.",
+            "characterCount": 301,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-telma",
+            "title": "La fiesta de Telma",
+            "category": "Lectura",
+            "difficulty": 1,
+            "order": 10,
+            "content": "Lupita y Pepe preparan una fiesta para su amiga Telma. Es una niña con muchos amigos. Pepe alista su ropa, Susi hará el pastel, Tomas y Rosita hacen la sopa. Mimi envuelve el regalo. Dentro de la caja tiene una paloma y un pato. Ramiro come de la pasta. Los niños se divierten con las pelotas en el tapete.",
+            "characterCount": 309,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-nino",
+            "title": "Nino y su nana",
+            "category": "Lectura",
+            "difficulty": 1,
+            "order": 11,
+            "content": "Nina es la nana de Nino. La nana pone a Nino en su cuna. Nino está a lado de la cuna. La nana toma la cuna y Nino pone su mano en la mano de su nana Nina, la cuna de Nino tiene una luna. La Nana deja solo a Nino.",
+            "characterCount": 212,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-dame",
+            "title": "Dame la mano",
+            "category": "Poema",
+            "difficulty": 1,
+            "order": 12,
+            "content": "Dame la mano mamita. Dame la mano mamá. Dame la mano y dame un beso, un solo beso y nada más. Mis dedos y tus dedos se tocan al danzar. Dame la mano mamita, dame la mano mamá.",
+            "characterCount": 178,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-sol-luna",
+            "title": "El Sol y la Luna",
+            "category": "Cuento",
+            "difficulty": 1,
+            "order": 13,
+            "content": "El Sol y la Luna son amigos. El Sol sale de día. La Luna sale de noche. El Sol nos da calor y luz. La Luna nos alumbra en la oscuridad. A veces juegan a las escondidas. Cuando el Sol se va, la Luna aparece. ¡Qué buenos amigos son!",
+            "characterCount": 231,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-hormiga",
+            "title": "La Hormiga Trabajadora",
+            "category": "Fábula",
+            "difficulty": 1,
+            "order": 14,
+            "content": "Había una vez una hormiga. Ella trabajaba mucho. Llevaba comida a su casa. La cigarra cantaba y no trabajaba. Llegó el invierno. La hormiga tenía comida y casa caliente. La cigarra tenía frío y hambre. La hormiga le dio comida a la cigarra.",
+            "characterCount": 244,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-leon-raton",
+            "title": "El León y el Ratón",
+            "category": "Fábula",
+            "difficulty": 1,
+            "order": 15,
+            "content": "Un león dormía. Un ratón lo despertó. El león quería comer al ratón. El ratón dijo: \"No me comas, soy pequeño pero puedo ayudarte\". El león se rió y lo dejó ir. Un día, el león cayó en una red. El ratón cortó la red con sus dientes. El león fue libre. \"Gracias\", dijo el león.",
+            "characterCount": 281,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-liebre-tortuga",
+            "title": "La Liebre y la Tortuga",
+            "category": "Fábula",
+            "difficulty": 1,
+            "order": 16,
+            "content": "La liebre corre muy rápido. La tortuga camina despacio. Hicieron una carrera. La liebre corrió y luego se durmió. La tortuga caminó sin parar. La tortuga llegó a la meta primero. La liebre se despertó y vio que perdió. Despacio se llega lejos.",
+            "characterCount": 247,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-perro-reflejo",
+            "title": "El Perro y su Hueso",
+            "category": "Fábula",
+            "difficulty": 1,
+            "order": 17,
+            "content": "Un perro tenía un hueso. Pasó por un río. Vio su reflejo en el agua. Pensó que era otro perro con un hueso más grande. Quiso el otro hueso. Abrió la boca para ladrar. Su hueso cayó al agua. El perro se quedó sin nada.",
+            "characterCount": 221,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-viento-sol",
+            "title": "El Viento y el Sol",
+            "category": "Fábula",
+            "difficulty": 1,
+            "order": 18,
+            "content": "El Viento y el Sol discutían. \"Soy más fuerte\", dijo el Viento. \"No, yo soy más fuerte\", dijo el Sol. Vieron a un hombre con abrigo. El Viento sopló fuerte. El hombre se abrigó más. El Sol salió y dio calor. El hombre se quitó el abrigo. El Sol ganó con suavidad.",
+            "characterCount": 268,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-gallina-oro",
+            "title": "La Gallina de los Huevos de Oro",
+            "category": "Fábula",
+            "difficulty": 1,
+            "order": 19,
+            "content": "Un granjero tenía una gallina especial. Ponía huevos de oro. El granjero quería todo el oro de una vez. Mató a la gallina. Pero adentro no había oro. Era igual a las otras gallinas. El granjero perdió su gallina y sus huevos de oro.",
+            "characterCount": 236,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade1-ratones",
+            "title": "Los Dos Ratones",
+            "category": "Fábula",
+            "difficulty": 1,
+            "order": 20,
+            "content": "Un ratón vivía en el campo. Comía semillas y era feliz. Su primo vivía en la ciudad. Comía queso y pasteles. El ratón de campo visitó al de ciudad. Había mucha comida rica. Pero un gato los asustó. \"Prefiero mi paz en el campo\", dijo el ratón.",
+            "characterCount": 249,
+            "chineseCharCount": 0,
+            "language": "spanish"
         }
     ]
 }

@@ -33,6 +33,193 @@
             "characterCount": 351,
             "chineseCharCount": 0,
             "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-icaro",
+            "title": "Dédalo e Ícaro",
+            "category": "Mito",
+            "difficulty": 5,
+            "order": 4,
+            "content": "Dédalo era un gran inventor encerrado en un laberinto con su hijo Ícaro. Para escapar, construyó alas con plumas y cera. Le advirtió a Ícaro que no volara demasiado alto, pues el sol derretiría la cera, ni demasiado bajo, pues el mar mojaría las plumas. Ícaro, emocionado por volar, subió más y más alto. El sol derritió la cera, sus alas se deshicieron y cayó al mar. La desobediencia y la imprudencia le costaron la vida.",
+            "characterCount": 428,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-molinos",
+            "title": "Los Molinos de Viento",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 5,
+            "content": "En esto, descubrieron treinta o cuarenta molinos de viento que hay en aquel campo. Y así como don Quijote los vio, dijo a su escudero: \"La ventura va guiando nuestras cosas mejor de lo que acertáramos a desear; porque ves allí, amigo Sancho Panza, donde se descubren treinta o pocos más desaforados gigantes, con quien pienso hacer batalla\". \"Mire vuestra merced\", respondió Sancho, \"que aquellos que allí se parecen no son gigantes, sino molinos de viento\".",
+            "characterCount": 465,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-tortuga-gigante",
+            "title": "La Tortuga Gigante",
+            "category": "Cuento",
+            "difficulty": 5,
+            "order": 6,
+            "content": "Un hombre enfermo se fue a vivir a la selva. Allí salvó a una tortuga de un tigre. Luego, el hombre enfermó gravemente. La tortuga, agradecida, decidió llevarlo a Buenos Aires para que lo curaran. Caminó durante días y noches con el hombre a cuestas, sin comer ni beber. Cuando ya no tenía fuerzas, descubrió que había llegado. El hombre se salvó y desde entonces la tortuga vivió feliz en el jardín del zoológico, visitada por su amigo.",
+            "characterCount": 441,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-medias",
+            "title": "Las Medias de los Flamencos",
+            "category": "Cuento",
+            "difficulty": 5,
+            "order": 7,
+            "content": "Las víboras dieron un gran baile. Los flamencos, que entonces tenían las patas blancas, querían medias de colores para estar elegantes. Un tatú les dio una broma cruel: les dio cueros de víboras de coral recién muertas. Los flamencos se pusieron los cueros en las patas y bailaron. Cuando las víboras se dieron cuenta, atacaron a los flamencos mordiéndoles las patas. Por eso los flamencos tienen ahora las patas coloradas y siempre están en el agua para calmar el dolor.",
+            "characterCount": 476,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-platero",
+            "title": "Platero y Yo",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 8,
+            "content": "Platero es pequeño, peludo, suave; tan blando por fuera, que se diría todo de algodón, que no lleva huesos. Sólo los espejos de azabache de sus ojos son duros cual dos escarabajos de cristal negro. Lo dejo suelto y se va al prado, y acaricia tibiamente con su hocico, rozándolas apenas, las florecillas rosas, celestes y gualdas... Lo llamo dulcemente: \"¿Platero?\", y viene a mí con un trotecillo alegre que parece que se ríe, en no sé qué cascabeleo ideal...",
+            "characterCount": 466,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-principito",
+            "title": "El Principito y el Zorro",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 9,
+            "content": "—No puedo jugar contigo —dijo el zorro—, no estoy domesticado. —¿Qué significa \"domesticar\"? —preguntó el principito. —Significa \"crear lazos\" —dijo el zorro—. Si me domesticas, tendremos necesidad el uno del otro. Tú serás para mí único en el mundo. Yo seré para ti único en el mundo... Pero si me domesticas, mi vida se llenará de sol. Conoceré un ruido de pasos que será diferente de todos los otros. Los otros pasos me hacen esconder bajo la tierra. El tuyo me llamará fuera de la madriguera, como una música.",
+            "characterCount": 516,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-moby-dick",
+            "title": "Moby Dick",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 10,
+            "content": "El capitán Ahab busca venganza contra Moby Dick, la gran ballena blanca que le arrancó la pierna. A bordo del Pequod, persigue obsesivamente a la ballena por todos los mares, ignorando los peligros y las advertencias de su tripulación. Su odio lo ciega y lo lleva a la locura. Al final, encuentra a Moby Dick, pero la ballena destruye el barco y arrastra a Ahab a las profundidades. Solo Ismael sobrevive para contar la historia.",
+            "characterCount": 431,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-vuelta-mundo",
+            "title": "La Vuelta al Mundo en 80 Días",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 11,
+            "content": "Phileas Fogg, un caballero inglés muy puntual, apuesta que puede dar la vuelta al mundo en 80 días. Acompañado de su criado Passepartout, viaja en tren, barco y hasta en elefante. Vive muchas aventuras y rescata a la princesa Aouda. Un detective lo persigue pensando que es un ladrón. Al llegar a Londres, cree haber perdido por cinco minutos, pero descubre que ganó un día al viajar hacia el este, ganando la apuesta justo a tiempo.",
+            "characterCount": 435,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-viaje-centro",
+            "title": "Viaje al Centro de la Tierra",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 12,
+            "content": "El profesor Lidenbrock descubre un antiguo manuscrito que indica cómo llegar al centro de la Tierra. Junto con su sobrino Axel y el guía Hans, descienden por el volcán Snaefellsjökull en Islandia. En las profundidades, encuentran un mundo subterráneo con océanos, hongos gigantes y dinosaurios vivos. Después de muchas peligrosas aventuras, son expulsados a la superficie por el volcán Stromboli en Italia.",
+            "characterCount": 412,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-isla-tesoro",
+            "title": "La Isla del Tesoro",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 13,
+            "content": "El joven Jim Hawkins encuentra el mapa del tesoro del capitán Flint. Se embarca en la Hispaniola para buscarlo. Pero la tripulación, liderada por el cocinero Long John Silver (un pirata con una pata de palo), planea un motín para robar el tesoro. Jim descubre el plan y, junto con el capitán y sus amigos, lucha contra los piratas en la isla. Encuentran el tesoro y regresan a casa ricos, mientras Silver escapa.",
+            "characterCount": 416,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-libro-selva",
+            "title": "El Libro de la Selva",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 14,
+            "content": "Mowgli es un niño criado por una manada de lobos en la selva de la India. Sus amigos son el oso Baloo y la pantera Bagheera, quienes le enseñan la Ley de la Selva. Su enemigo es el tigre Shere Khan, que odia a los hombres. Mowgli vive muchas aventuras con los monos Bandar-log y la serpiente Kaa. Finalmente, derrota a Shere Khan con la ayuda del fuego y los búfalos, y regresa a vivir con los humanos.",
+            "characterCount": 408,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-robin-hood",
+            "title": "Robin Hood",
+            "category": "Leyenda",
+            "difficulty": 5,
+            "order": 15,
+            "content": "Robin Hood era un arquero que vivía en el bosque de Sherwood. Robaba a los ricos para dar a los pobres, luchando contra la injusticia del Príncipe Juan y el Sheriff de Nottingham. Junto a sus Alegres Compadres, como el Pequeño Juan y Fray Tuck, defendía al pueblo oprimido. Era un héroe amado por todos, conocido por su destreza con el arco y su noble corazón.",
+            "characterCount": 366,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-rey-arturo",
+            "title": "El Rey Arturo y la Espada en la Piedra",
+            "category": "Leyenda",
+            "difficulty": 5,
+            "order": 16,
+            "content": "Arturo era un joven humilde que ignoraba su origen real. Un día, se celebró un torneo para decidir quién sería el rey de Inglaterra. Había una espada clavada en una piedra con una inscripción: \"Quien saque esta espada será el legítimo rey\". Muchos caballeros fuertes lo intentaron y fallaron. Arturo, buscando una espada para su hermano, sacó la espada de la piedra sin esfuerzo, revelando que él era el verdadero rey.",
+            "characterCount": 420,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-tres-mosqueteros",
+            "title": "Los Tres Mosqueteros",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 17,
+            "content": "D'Artagnan llega a París para ser mosquetero del Rey. Allí conoce a Athos, Porthos y Aramis, los tres mejores mosqueteros. Juntos se enfrentan al Cardenal Richelieu y sus guardias para proteger el honor de la Reina Ana. Su lema es \"¡Todos para uno y uno para todos!\". Viven aventuras llenas de duelos, intrigas y amistad, demostrando su lealtad y valentía.",
+            "characterCount": 365,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-guerra-mundos",
+            "title": "La Guerra de los Mundos",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 18,
+            "content": "Unos cilindros gigantes caen del cielo cerca de Londres. Son naves de marcianos que invaden la Tierra. Usan rayos de calor y humo negro para destruir todo a su paso. Los ejércitos humanos no pueden detenerlos. La humanidad parece condenada. Sin embargo, los marcianos empiezan a morir repentinamente. No los mataron las armas humanas, sino las bacterias de la Tierra, contra las que no tenían defensas.",
+            "characterCount": 408,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-hombre-invisible",
+            "title": "El Hombre Invisible",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 19,
+            "content": "Griffin, un científico, descubre cómo hacerse invisible. Al principio le parece una ventaja, pero pronto se da cuenta de los problemas: debe estar desnudo para que no lo vean y pasa frío. Se vuelve loco de poder y empieza a cometer crímenes. La gente del pueblo se une para atraparlo. Al final, Griffin muere y su cuerpo vuelve a ser visible poco a poco.",
+            "characterCount": 358,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade5-dracula",
+            "title": "Drácula",
+            "category": "Literature",
+            "difficulty": 5,
+            "order": 20,
+            "content": "Jonathan Harker viaja a Transilvania al castillo del Conde Drácula. Descubre que Drácula es un vampiro que bebe sangre humana. Drácula viaja a Londres para buscar nuevas víctimas. El profesor Van Helsing y un grupo de valientes persiguen al vampiro para destruirlo. Usan ajos, crucifijos y estacas de madera. Finalmente, logran matar a Drácula en su ataúd y liberar al mundo de su maldad.",
+            "characterCount": 393,
+            "chineseCharCount": 0,
+            "language": "spanish"
         }
     ]
 }

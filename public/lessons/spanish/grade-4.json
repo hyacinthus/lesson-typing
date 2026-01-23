@@ -33,6 +33,193 @@
             "characterCount": 309,
             "chineseCharCount": 0,
             "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-soles",
+            "title": "Los Cinco Soles",
+            "category": "Mito",
+            "difficulty": 4,
+            "order": 4,
+            "content": "Según la mitología azteca, existieron cuatro mundos o soles antes del actual. El primer sol fue destruido por jaguares; el segundo, por el viento; el tercero, por una lluvia de fuego; y el cuarto, por el agua. Para crear el quinto sol, los dioses se reunieron en Teotihuacán. Nanahuatzin, un dios humilde, se arrojó al fuego y se convirtió en el Sol. Tecuciztécatl lo siguió y se convirtió en la Luna. Como el Sol no se movía, los demás dioses se sacrificaron para darle fuerza.",
+            "characterCount": 479,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-maiz",
+            "title": "La Leyenda del Maíz",
+            "category": "Leyenda",
+            "difficulty": 4,
+            "order": 5,
+            "content": "Hace mucho tiempo, los aztecas solo comían raíces y animales que cazaban. El maíz estaba escondido detrás de unas montañas. Los dioses intentaron separarlas con su fuerza, pero no pudieron. Quetzalcóatl decidió usar la inteligencia. Se transformó en una hormiga negra y, acompañado de una hormiga roja, cruzó las montañas. Tomó un grano de maíz y lo llevó de regreso a su pueblo. Los aztecas sembraron el maíz y así obtuvieron su alimento sagrado.",
+            "characterCount": 453,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-mulata",
+            "title": "La Mulata de Córdoba",
+            "category": "Leyenda",
+            "difficulty": 4,
+            "order": 6,
+            "content": "En Córdoba vivía una mujer muy bella y misteriosa llamada la Mulata. Dicen que tenía poderes mágicos y curaba enfermedades. La gente empezó a decir que era bruja. La Inquisición la encarceló. En su celda, la Mulata dibujó un barco en la pared con un trozo de carbón. Le preguntó al carcelero: \"¿Qué le falta a este barco?\". \"Navegar\", respondió él. \"Pues mira cómo navega\", dijo ella, y saltó al dibujo. El barco se alejó por la pared y la Mulata desapareció para siempre.",
+            "characterCount": 477,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-aguila",
+            "title": "El Águila y la Serpiente",
+            "category": "Leyenda",
+            "difficulty": 4,
+            "order": 7,
+            "content": "El dios Huitzilopochtli ordenó a los aztecas salir de Aztlán y buscar un lugar para fundar su ciudad. La señal sería un águila parada sobre un nopal devorando una serpiente. Los aztecas caminaron durante muchos años. Finalmente, llegaron al lago de Texcoco y vieron la señal prometida. Allí fundaron Tenochtitlán, que hoy es la Ciudad de México. Esta imagen está en la bandera mexicana.",
+            "characterCount": 390,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-flautista",
+            "title": "El Flautista de Hamelín",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 8,
+            "content": "La ciudad de Hamelín estaba llena de ratas. Un flautista prometió librarlos de ellas a cambio de dinero. Tocó su flauta y todas las ratas lo siguieron hasta el río, donde se ahogaron. Pero el alcalde no quiso pagarle. El flautista, enojado, tocó otra melodía. Esta vez, todos los niños del pueblo lo siguieron y desaparecieron en una montaña. Solo un niño cojo que no pudo seguirlos regresó para contarlo. La promesa se debe cumplir.",
+            "characterCount": 435,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-musicos",
+            "title": "Los Músicos de Bremen",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 9,
+            "content": "Un burro, un perro, un gato y un gallo, viejos y cansados, decidieron ir a Bremen para ser músicos. En el camino, encontraron una casa de ladrones. Se subieron uno encima del otro y gritaron todos a la vez. Los ladrones, asustados por el ruido monstruoso, huyeron. Los animales entraron, comieron y se quedaron a vivir allí felices, olvidando su viaje a Bremen.",
+            "characterCount": 365,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-traje",
+            "title": "El Traje Nuevo del Emperador",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 10,
+            "content": "Un emperador vanidoso contrató a dos estafadores que prometieron hacerle un traje invisible para los tontos. El emperador y sus ministros fingían ver la tela para no parecer tontos. El día del desfile, el emperador salió en ropa interior. Nadie decía nada hasta que un niño gritó: \"¡El emperador está desnudo!\". Todos empezaron a reír, y el emperador se dio cuenta de su error, pero continuó el desfile con la cabeza alta.",
+            "characterCount": 425,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-pedro",
+            "title": "Pedro y el Lobo",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 11,
+            "content": "Pedro era un pastorcillo que se aburría cuidando ovejas. Para divertirse, gritaba: \"¡Que viene el lobo!\". Los aldeanos venían corriendo y Pedro se reía de ellos. Un día, el lobo vino de verdad. Pedro gritó y gritó, pero los aldeanos pensaron que era otra broma y no vinieron. El lobo se comió las ovejas. Pedro aprendió que no se debe mentir, porque nadie cree a un mentiroso.",
+            "characterCount": 379,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-canterville",
+            "title": "El Fantasma de Canterville",
+            "category": "Cuento",
+            "difficulty": 4,
+            "order": 12,
+            "content": "Una familia americana compró un castillo inglés habitado por un fantasma. El fantasma intentó asustarlos con cadenas y manchas de sangre, pero los americanos no se asustaban. Los gemelos le hacían bromas y el padre le ofreció aceite para sus cadenas. El fantasma se sentía humillado y triste. Finalmente, la hija mayor, Virginia, ayudó al fantasma a encontrar la paz y descansar para siempre.",
+            "characterCount": 395,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-lago",
+            "title": "El Lago de los Cisnes",
+            "category": "Cuento",
+            "difficulty": 4,
+            "order": 13,
+            "content": "El príncipe Sigfrido se enamoró de Odette, una princesa convertida en cisne por un hechicero. Solo el amor verdadero podía romper el hechizo. El hechicero engañó a Sigfrido con su hija Odile, disfrazada de cisne negro. Sigfrido le juró amor a Odile, condenando a Odette. Al darse cuenta, corrió al lago. El amor de ambos fue tan fuerte que vencieron al hechicero, aunque en algunas versiones, ambos mueren para estar juntos siempre.",
+            "characterCount": 435,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-cascanueces",
+            "title": "El Cascanueces",
+            "category": "Cuento",
+            "difficulty": 4,
+            "order": 14,
+            "content": "En Navidad, Clara recibió un Cascanueces de madera. Por la noche, el Cascanueces cobró vida y luchó contra el Rey de los Ratones. Clara le ayudó lanzando su zapato al ratón. El Cascanueces se transformó en un príncipe y llevó a Clara al Reino de los Dulces, donde el Hada de Azúcar bailó para ellos. Fue un sueño maravilloso lleno de magia y fantasía.",
+            "characterCount": 356,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-aladino",
+            "title": "Aladino y la Lámpara Maravillosa",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 15,
+            "content": "Aladino era un joven pobre que encontró una lámpara vieja. Al frotarla, salió un genio que le concedió tres deseos. Aladino pidió ser rico para casarse con la princesa. Un hechicero malvado robó la lámpara engañando a la princesa. Aladino, con ayuda de un anillo mágico, recuperó la lámpara y derrotó al hechicero. Vivió feliz con la princesa y usó sus deseos para ayudar a los demás.",
+            "characterCount": 389,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-ali-baba",
+            "title": "Alí Babá y los Cuarenta Ladrones",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 16,
+            "content": "Alí Babá descubrió una cueva llena de tesoros que se abría diciendo \"¡Ábrete, Sésamo!\". Era la guarida de cuarenta ladrones. Alí Babá tomó algo de oro. Su hermano Kasim quiso más, pero olvidó la palabra mágica y quedó atrapado. Los ladrones descubrieron a Alí Babá, pero su criada Morgiana, muy astuta, los derrotó uno por uno. Alí Babá recompensó a Morgiana y vivieron tranquilos.",
+            "characterCount": 386,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-sindbad",
+            "title": "Simbad el Marino",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 17,
+            "content": "Simbad era un marino que vivió siete viajes increíbles. Se enfrentó a aves gigantes llamadas Rocs, a cíclopes y a ballenas que parecían islas. En cada viaje perdía todo su barco pero lograba sobrevivir con ingenio y suerte, regresando a Bagdad más rico que antes. Sus historias nos enseñan que la aventura y el valor pueden superar cualquier peligro.",
+            "characterCount": 352,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-mago-oz",
+            "title": "El Mago de Oz",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 18,
+            "content": "Dorothy y su perro Totó fueron llevados por un tornado al país de Oz. Para volver a casa, debían buscar al Mago. En el camino, se unieron a un Espantapájaros que quería un cerebro, un Hombre de Hojalata que quería un corazón y un León que quería valor. Juntos enfrentaron a la Bruja del Oeste. Al final, descubrieron que el Mago era un farsante, pero que ellos ya tenían lo que buscaban dentro de sí mismos.",
+            "characterCount": 412,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-peter-pan",
+            "title": "Peter Pan",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 19,
+            "content": "Peter Pan es el niño que no quería crecer. Vive en el País de Nunca Jamás con los Niños Perdidos y el hada Campanilla. Una noche, llevó a Wendy y sus hermanos volando a su isla. Allí lucharon contra el Capitán Garfio y sus piratas. Garfio temía a un cocodrilo que se había comido su mano y un reloj. Al final, Wendy volvió a casa para crecer, pero Peter se quedó en su mundo de aventuras eternas.",
+            "characterCount": 401,
+            "chineseCharCount": 0,
+            "language": "spanish"
+        },
+        {
+            "id": "spa-grade4-pinocho",
+            "title": "Pinocho",
+            "category": "Cuento Clásico",
+            "difficulty": 4,
+            "order": 20,
+            "content": "Gepetto talló una marioneta de madera llamada Pinocho. El Hada Azul le dio vida, pero le dijo que debía ser bueno para convertirse en un niño de verdad. Pinocho era desobediente y mentiroso, y cada vez que mentía le crecía la nariz. Pasó por muchas aventuras peligrosas, incluso fue tragado por una ballena. Al final, salvó a Gepetto y demostró ser valiente y generoso, convirtiéndose en un niño real.",
+            "characterCount": 406,
+            "chineseCharCount": 0,
+            "language": "spanish"
         }
     ]
 }
