@@ -32,10 +32,9 @@ export function HomePage() {
   const { t, i18n } = useTranslation();
   const { lessons, isLoading, error, loadLessons } = useLessonStore();
 
-  const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
-  const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
-
   const GRADE_STORAGE_KEY = 'lesson-typing-grade';
+  const [selectedGrade, setSelectedGrade] = useState<string | null>(() => localStorage.getItem(GRADE_STORAGE_KEY));
+  const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
 
   useEffect(() => {
     loadLessons();
@@ -74,43 +73,18 @@ export function HomePage() {
     });
   }, [filteredLessons]);
 
-  // Restore grade from storage or reset if invalid
-  useEffect(() => {
-    if (grades.length === 0) return;
-
-    const storedGradeId = localStorage.getItem(GRADE_STORAGE_KEY);
-
-    // If selectedGrade is not set, try to restore from storage
-    if (!selectedGrade) {
-      if (storedGradeId && grades.some(g => g.id === storedGradeId)) {
-        setSelectedGrade(storedGradeId);
-      }
-      return;
+  const currentGradeId = useMemo(() => {
+    if (selectedGrade && grades.some(g => g.id === selectedGrade)) {
+      return selectedGrade;
     }
-
-    // If selectedGrade is set but invalid (e.g. language changed), try to restore or reset
-    // With universal gradeId, it should remain valid across languages if the new language has that grade
-    if (!grades.some(g => g.id === selectedGrade)) {
-      if (storedGradeId && grades.some(g => g.id === storedGradeId)) {
-        setSelectedGrade(storedGradeId);
-      } else {
-        // Fallback: try to keep the same gradeId if possible, otherwise reset
-        // Actually, if selectedGrade (which is a gradeId) is not in the new list, it means this language doesn't support this grade.
-        // We should probably default to the first one.
-        setSelectedGrade(null);
-      }
-    }
+    return grades.length > 0 ? grades[0].id : null;
   }, [grades, selectedGrade]);
 
-  // Save grade to storage when it changes
   useEffect(() => {
-    if (selectedGrade) {
-      localStorage.setItem(GRADE_STORAGE_KEY, selectedGrade);
+    if (currentGradeId) {
+      localStorage.setItem(GRADE_STORAGE_KEY, currentGradeId);
     }
-  }, [selectedGrade]);
-
-  // Use the user's selection, or default to the first available grade
-  const currentGradeId = selectedGrade || (grades.length > 0 ? grades[0].id : null);
+  }, [currentGradeId]);
 
   const handleStart = () => {
     if (isLoading || filteredLessons.length === 0) return;
