@@ -33,12 +33,30 @@ export function HomePage() {
   const { lessons, isLoading, error, loadLessons } = useLessonStore();
 
   const GRADE_STORAGE_KEY = 'lesson-typing-grade';
+  const PRACTICE_STATE = 'practice';
   const [selectedGrade, setSelectedGrade] = useState<string | null>(() => localStorage.getItem(GRADE_STORAGE_KEY));
   const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
 
   useEffect(() => {
     loadLessons();
   }, [loadLessons]);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      if (activeLesson) {
+        setActiveLesson(null);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [activeLesson]);
+
+  useEffect(() => {
+    if (!activeLesson) return;
+    if (window.history.state?.view === PRACTICE_STATE) return;
+    window.history.pushState({ view: PRACTICE_STATE }, '', window.location.href);
+  }, [activeLesson]);
 
   // Filter lessons based on current language
   const filteredLessons = useMemo(() => {
@@ -122,6 +140,10 @@ export function HomePage() {
   }, [activeLesson, filteredLessons]);
 
   const handleBackToMenu = () => {
+    if (window.history.state?.view === PRACTICE_STATE) {
+      window.history.back();
+      return;
+    }
     setActiveLesson(null);
   };
 

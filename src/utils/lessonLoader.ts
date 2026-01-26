@@ -1,6 +1,6 @@
 import type { Lesson, LessonIndex, GradeLessons } from '../types';
-import type { Character } from '../types/typing.types';
-import { CharacterStatus } from '../types/typing.types';
+import type { Character } from '../types/typing.types.ts';
+import { CharacterStatus } from '../types/typing.types.ts';
 
 // 缓存已加载的课文
 const lessonCache = new Map<string, GradeLessons>();
