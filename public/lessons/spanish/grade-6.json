@@ -1,225 +1,225 @@
 {
-    "grade": "Grade 6",
-    "lessons": [
-        {
-            "id": "spa-grade6-tech",
-            "title": "La Tecnología",
-            "category": "Technology",
-            "difficulty": 6,
-            "order": 1,
-            "content": "La tecnología ha cambiado la forma en que vivimos y nos comunicamos. Hoy en día, podemos hablar con personas al otro lado del mundo en segundos. Las computadoras y los teléfonos inteligentes nos ayudan a aprender y a trabajar de manera más eficiente. Sin embargo, también es importante desconectarse a veces y disfrutar del mundo real. La tecnología debe ser una herramienta para ayudarnos, no para dominarnos.",
-            "characterCount": 412,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-climate",
-            "title": "El Cambio Climático",
-            "category": "Environment",
-            "difficulty": 6,
-            "order": 2,
-            "content": "El cambio climático es uno de los mayores desafíos de nuestro tiempo. La temperatura de la Tierra está aumentando debido a la contaminación y los gases de efecto invernadero. Esto provoca el derretimiento de los glaciares y cambios en los patrones climáticos. Para combatir esto, debemos usar energías renovables como la solar y la eólica. Cada pequeña acción cuenta para proteger nuestro futuro.",
-            "characterCount": 395,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-curie",
-            "title": "Marie Curie",
-            "category": "Biography",
-            "difficulty": 6,
-            "order": 3,
-            "content": "Marie Curie fue una científica extraordinaria. Nació en Polonia pero vivió gran parte de su vida en Francia. Fue la primera mujer en ganar un Premio Nobel y la única persona en ganar dos en diferentes campos científicos: Física y Química. Sus investigaciones sobre la radiactividad ayudaron a desarrollar tratamientos para el cáncer. Su dedicación y pasión por la ciencia son una inspiración para muchos estudiantes hoy en día.",
-            "characterCount": 427,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-almohadon",
-            "title": "El Almohadón de Plumas",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 4,
-            "content": "Alicia, una joven recién casada, enfermó gravemente. Los médicos no encontraban la causa de su debilidad, que aumentaba día a día hasta que murió. Su marido, Jordán, descubrió con horror que dentro del almohadón de plumas había un parásito monstruoso que había estado chupando la sangre de Alicia cada noche. \"La sangre humana parece serles particularmente favorable\", concluye el relato de Horacio Quiroga.",
-            "characterCount": 409,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-odisea",
-            "title": "La Odisea",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 5,
-            "content": "Después de la guerra de Troya, Ulises intenta regresar a su hogar en Ítaca, donde lo esperan su esposa Penélope y su hijo Telémaco. Su viaje dura diez años, llenos de peligros: el cíclope Polifemo, la hechicera Circe, las sirenas y el monstruo Escila. Con astucia y la ayuda de la diosa Atenea, Ulises supera todas las pruebas, derrota a los pretendientes que acosaban a su esposa y recupera su trono.",
-            "characterCount": 407,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-iliada",
-            "title": "La Ilíada",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 6,
-            "content": "Narra los últimos días de la guerra de Troya. Aquiles, el guerrero griego más fuerte, se retira de la batalla ofendido por el rey Agamenón. Sin él, los griegos sufren derrotas. Cuando el príncipe troyano Héctor mata a Patroclo, el mejor amigo de Aquiles, este regresa furioso al combate. Mata a Héctor y arrastra su cuerpo. Finalmente, el rey Príamo suplica por el cuerpo de su hijo, y Aquiles muestra compasión.",
-            "characterCount": 415,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-frankenstein",
-            "title": "Frankenstein",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 7,
-            "content": "El científico Víctor Frankenstein crea un ser vivo a partir de partes de cadáveres. Horrorizado por su creación, lo abandona. El monstruo, que al principio es bueno, sufre el rechazo de los humanos por su apariencia y se vuelve vengativo. Mata a los seres queridos de Víctor. El científico persigue a su creación hasta el Ártico, donde muere. El monstruo, arrepentido y solo, decide terminar con su propia existencia.",
-            "characterCount": 417,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-sherlock",
-            "title": "Sherlock Holmes: Estudio en Escarlata",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 8,
-            "content": "El Dr. Watson conoce al detective Sherlock Holmes y se convierte en su compañero de piso. Juntos investigan un misterioso asesinato en una casa abandonada, donde encuentran la palabra \"Rache\" escrita con sangre. Holmes, con su brillante deducción y observación de detalles que otros ignoran, descubre que el asesino es un hombre que busca venganza por un antiguo crimen cometido en Estados Unidos.",
-            "characterCount": 399,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-miserables",
-            "title": "Los Miserables",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 9,
-            "content": "Jean Valjean es un ex convicto que busca redimirse tras pasar 19 años en prisión por robar pan. Se convierte en un hombre honesto y alcalde de un pueblo, cuidando a la huérfana Cosette. Sin embargo, el inspector Javert lo persigue obsesivamente por su pasado. La historia, ambientada en la Francia del siglo XIX, trata sobre la justicia, el amor, la pobreza y la lucha por la libertad y la dignidad humana.",
-            "characterCount": 410,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-cien-anos",
-            "title": "Cien Años de Soledad",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 10,
-            "content": "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos.",
-            "characterCount": 390,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-pedro-paramo",
-            "title": "Pedro Páramo",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 11,
-            "content": "Vine a Comala porque me dijeron que acá vivía mi padre, un tal Pedro Páramo. Mi madre me lo dijo. Y yo le prometí que vendría a verlo en cuanto ella muriera. Le apreté sus manos en señal de que lo haría, pues ella estaba por morirse y yo en un plan de prometerlo todo. \"No dejes de ir a visitarlo\", me recomendó. \"Se llama de este modo y de este otro. Estoy segura de que le dará gusto conocerte\".",
-            "characterCount": 403,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-metamorfosis",
-            "title": "La Metamorfosis",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 12,
-            "content": "Gregorio Samsa se despierta una mañana convertido en un insecto gigante. Al principio, su preocupación es cómo ir a trabajar para mantener a su familia. Sin embargo, su transformación lo aísla. Su familia, horrorizada, lo encierra en su habitación. Gregorio sufre el rechazo y la soledad, escuchando cómo su familia discute sobre él. Finalmente, muere solo y olvidado, y su familia siente alivio y esperanza por el futuro.",
-            "characterCount": 423,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-1984",
-            "title": "1984",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 13,
-            "content": "En un futuro distópico, el Gran Hermano vigila a todos los ciudadanos a través de pantallas. Winston Smith trabaja en el Ministerio de la Verdad reescribiendo la historia. Winston empieza a rebelarse contra el control totalitario del Partido y se enamora de Julia, lo cual está prohibido. Son atrapados y torturados hasta que traicionan sus sentimientos y aceptan amar al Gran Hermano, perdiendo su humanidad.",
-            "characterCount": 412,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-mundo-feliz",
-            "title": "Un Mundo Feliz",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 14,
-            "content": "En una sociedad futurista, los humanos son creados en laboratorios y divididos en castas. No existe la guerra ni la pobreza, pero tampoco la libertad, la familia o el arte. Todos toman una droga llamada \"soma\" para ser felices. Bernard Marx, un inadaptado, visita una Reserva Salvaje y trae a John, un \"salvaje\" nacido de mujer. John se horroriza ante la falta de emociones reales de este mundo \"perfecto\".",
-            "characterCount": 408,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-viejo-mar",
-            "title": "El Viejo y el Mar",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 15,
-            "content": "Santiago es un viejo pescador que lleva 84 días sin pescar nada. Se adentra en el mar y logra enganchar un pez espada gigante. Lucha contra el pez durante tres días hasta que logra matarlo. Sin embargo, en el camino de regreso, los tiburones atacan y devoran la carne del pez, dejando solo el esqueleto. Santiago llega agotado, pero ha demostrado su valor y dignidad en la lucha, ganándose el respeto de todos.",
-            "characterCount": 412,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-cronica",
-            "title": "Crónica de una Muerte Anunciada",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 16,
-            "content": "Santiago Nasar va a morir. Los gemelos Vicario anuncian a todo el pueblo que lo matarán para restaurar el honor de su hermana, devuelta por su esposo en la noche de bodas. Aunque todos saben que lo van a matar, nadie hace nada para impedirlo, por una serie de casualidades y omisiones. Santiago es apuñalado en la puerta de su casa. La novela explora la fatalidad, el honor y la responsabilidad colectiva.",
-            "characterCount": 408,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-casa-espiritus",
-            "title": "La Casa de los Espíritus",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 17,
-            "content": "Narra la historia de la familia Trueba a lo largo de cuatro generaciones en un país latinoamericano. Esteban Trueba, un patriarca violento, se casa con Clara, una mujer con poderes clarividentes que habla con los espíritus. La novela mezcla lo real con lo mágico, contando amores, odios y revoluciones políticas. Es una saga familiar llena de pasión y tragedia, reflejo de la historia de Chile.",
-            "characterCount": 399,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-rayuela",
-            "title": "Rayuela",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 18,
-            "content": "¿Encontraría a la Maga? Tantas veces me había bastado asomarme, viniendo por la rue de Seine, al arco que da al Quai de Conti, y apenas la luz de ceniza y olivo que flota sobre el río me dejaba distinguir las formas, ya su silueta delgada se inscribía en el Pont des Arts, a veces andando de un lado a otro, a veces detenida en el pretil de hierro, inclinada sobre el agua.",
-            "characterCount": 377,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-aleph",
-            "title": "El Aleph",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 19,
-            "content": "Borges descubre en el sótano de una casa en Buenos Aires un punto en el espacio que contiene todos los puntos del universo: el Aleph. Al mirar a través de él, ve todo lo que existe en el mundo al mismo tiempo, sin superposición y con detalle infinito. Ve mares, desiertos, rostros, libros, espejos... Es una experiencia abrumadora e imposible de describir con palabras, pues el lenguaje es sucesivo y lo que vio fue simultáneo.",
-            "characterCount": 428,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade6-tunel",
-            "title": "El Túnel",
-            "category": "Literature",
-            "difficulty": 6,
-            "order": 20,
-            "content": "Bastará decir que soy Juan Pablo Castel, el pintor que mató a María Iribarne; supongo que el proceso está en el recuerdo de todos y que no se necesitan mayores explicaciones sobre mi persona. Aunque ni el diablo sabe qué es lo que ha de recordar la gente, ni por qué. En realidad, siempre he pensado que no hay memoria colectiva, lo que quizá sea una forma de defensa de la especie humana.",
-            "characterCount": 393,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        }
-    ]
+  "grade": "Grade 6",
+  "lessons": [
+    {
+      "id": "spa-grade6-tech",
+      "title": "La Tecnología",
+      "category": "Technology",
+      "difficulty": 6,
+      "order": 1,
+      "content": "La tecnología ha cambiado radicalmente la forma en que vivimos, trabajamos y nos comunicamos en el siglo XXI. Hoy en día, gracias a internet y a las redes sociales, podemos hablar con personas al otro lado del mundo en cuestión de segundos, compartiendo imágenes y videos en tiempo real. Las computadoras personales, las tabletas y los teléfonos inteligentes se han convertido en herramientas indispensables que nos ayudan a aprender de manera más interactiva y a trabajar de forma mucho más eficiente desde cualquier lugar. Sin embargo, este constante estado de conexión también presenta desafíos para nuestra salud mental y nuestras relaciones personales. Es fundamental aprender a desconectarse a veces, dejando de lado las pantallas para disfrutar del mundo real y de la compañía de nuestros seres queridos cara a cara. La tecnología debe ser siempre una herramienta diseñada para potenciar nuestras capacidades y ayudarnos a resolver problemas complejos, no un medio para dominarnos o aislarnos de la sociedad. Encontrar un equilibrio saludable entre el mundo digital y la vida analógica es uno de los mayores retos para las nuevas generaciones, que deben aprender a usar estas potentes herramientas con responsabilidad, ética y conciencia crítica.",
+      "characterCount": 1254,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-climate",
+      "title": "El Cambio Climático",
+      "category": "Environment",
+      "difficulty": 6,
+      "order": 2,
+      "content": "El cambio climático representa uno de los mayores desafíos ambientales y sociales de nuestro tiempo, afectando a todos los rincones del planeta sin excepción. La temperatura media de la Tierra está aumentando de forma alarmante debido principalmente a la actividad humana, especialmente por la quema de combustibles fósiles que liberan gases de efecto invernadero a la atmósfera. Este fenómeno provoca consecuencias devastadoras, como el derretimiento acelerado de los glaciares en los polos, el aumento del nivel del mar que amenaza a las ciudades costeras y cambios drásticos en los patrones climáticos que resultan en sequías prolongadas o inundaciones catastróficas. Para combatir esta crisis global, es urgente realizar una transición hacia el uso de energías renovables y limpias, como la solar, la eólica y la hidroeléctrica, que no contaminan el aire que respiramos. Además, debemos fomentar la reforestación de nuestros bosques, que actúan como pulmones naturales absorbiendo el carbono. Cada pequeña acción individual, desde reciclar y reducir el consumo de plástico hasta usar el transporte público, cuenta para proteger nuestro futuro y el de las próximas generaciones. La protección del medio ambiente no es una opción, sino una necesidad imperativa para garantizar la supervivencia de la biodiversidad y la estabilidad de nuestra civilización.",
+      "characterCount": 1324,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-curie",
+      "title": "Marie Curie",
+      "category": "Biography",
+      "difficulty": 6,
+      "order": 3,
+      "content": "Marie Curie fue una científica extraordinaria cuya tenacidad y genio revolucionaron nuestra comprensión de la física y la química moderna. Nació en Polonia en una época en la que las mujeres tenían prohibido el acceso a la educación superior, pero su sed de conocimiento la llevó a París, donde estudió en condiciones de gran precariedad. Fue la primera mujer en ganar un Premio Nobel y, hasta el día de hoy, sigue siendo la única persona en la historia en haber ganado dos Premios Nobel en diferentes campos científicos: Física y Química. Junto a su esposo Pierre Curie, descubrió dos nuevos elementos químicos, el polonio y el radio, y acuñó el término 'radiactividad'. Sus investigaciones pioneras no solo abrieron las puertas a la era atómica, sino que también ayudaron a desarrollar los primeros tratamientos radiológicos para combatir el cáncer, salvando innumerables vidas desde entonces. Durante la Primera Guerra Mundial, Marie Curie incluso organizó unidades móviles de rayos X para ayudar a los cirujanos en el frente de batalla. Su dedicación absoluta a la investigación, a menudo a costa de su propia salud debido a la exposición a la radiación, y su pasión inquebrantable por la ciencia son una fuente de inspiración constante para estudiantes y científicos de todo el mundo. Su legado nos enseña que con esfuerzo y curiosidad, no hay fronteras imposibles de cruzar.",
+      "characterCount": 1356,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-almohadon",
+      "title": "El Almohadón de Plumas",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 4,
+      "content": "Alicia, una joven de carácter suave y profundo, acababa de casarse con Jordán, un hombre de temperamento duro y gélido. Su luna de miel fue un largo escalofrío en una casa silenciosa y hostil. Poco después, Alicia enfermó gravemente de una anemia inexplicable que la mantenía postrada en cama, sumida en alucinaciones terroríficas. Los médicos, desconcertados, no encontraban la causa de su debilidad extrema, que aumentaba día a día de forma inexorable hasta que finalmente murió en medio de un delirio agónico. Al deshacer la cama después del entierro, la sirvienta descubrió unas manchas de sangre en el almohadón. Jordán, intrigado, cortó la funda y descubrió con horror que dentro del almohadón de plumas, oculto entre el relleno, había un parásito monstruoso, una bola viviente de vellosidades que había estado chupando la sangre de Alicia cada noche a través de su sien. El animal era pesado y estaba hinchado por la sangre de la joven. Horacio Quiroga, maestro del relato breve de terror, concluye esta escalofriante historia explicando que estos parásitos de las aves, diminutos en condiciones normales, pueden crecer hasta dimensiones monstruosas en ciertos ambientes. 'La sangre humana parece serles particularmente favorable', sentencia el autor, dejando al lector con una sensación de inquietud que perdura mucho después de cerrar el libro.",
+      "characterCount": 1324,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-odisea",
+      "title": "La Odisea",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 5,
+      "content": "Después de la larga y agotadora guerra de Troya, el astuto Ulises, rey de Ítaca, emprende el viaje de regreso a su hogar, donde lo esperan con paciencia y fidelidad su esposa Penélope y su hijo Telémaco. Sin embargo, su viaje se convierte en una odisea que dura diez años, llena de peligros mortales y pruebas impuestas por los dioses. En su travesía por mares desconocidos, Ulises debe enfrentarse al cíclope Polifemo, a quien logra cegar con una estaca; resistir el canto seductor de las sirenas atándose al mástil de su barco; y sobrevivir a los encuentros con la hechicera Circe, que convierte a sus hombres en cerdos, y a los monstruos marinos Escila y Caribdis. A pesar de perder a todos sus compañeros y naufragar repetidas veces, Ulises nunca pierde la esperanza de volver a ver su tierra. Con su inteligencia prodigiosa y la ayuda constante de la diosa Atenea, supera todas las adversidades. Al llegar finalmente a Ítaca disfrazado de mendigo, descubre que su casa está llena de pretendientes que acosan a Penélope y malgastan su fortuna. Con la ayuda de su hijo, Ulises derrota a los invasores en un concurso de tiro con arco y recupera su trono y su familia. La obra de Homero es un símbolo eterno de la lucha del ser humano contra el destino y de la importancia de la perseverancia, la inteligencia y el amor al hogar.",
+      "characterCount": 1312,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-iliada",
+      "title": "La Ilíada",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 6,
+      "content": "La Ilíada de Homero narra los acontecimientos ocurridos durante unas pocas semanas en el décimo y último año de la legendaria guerra de Troya. El poema comienza con la 'cólera de Aquiles', el guerrero griego más fuerte e invencible. Aquiles se retira de la batalla ofendido y humillado por el rey Agamenón, quien le ha arrebatado su botín de guerra. Sin la presencia de su héroe principal, los griegos sufren terribles derrotas frente a las murallas de Troja y los troyanos, liderados por el valiente príncipe Héctor, están a punto de incendiar sus naves. La situación cambia drásticamente cuando Héctor mata en combate a Patroclo, el mejor amigo y compañero de armas de Aquiles. Consumido por el dolor y la sed de venganza, Aquiles regresa furioso al campo de batalla con una armadura nueva forjada por el dios Hefesto. En un duelo épico ante las puertas de la ciudad, Aquiles mata a Héctor y, en un acto de crueldad, arrastra su cuerpo atado a su carro alrededor de las murallas. Sin embargo, el poema no termina con la violencia, sino con un acto de humanidad: el anciano rey Príamo entra secretamente en el campamento griego para suplicar por el cuerpo de su hijo. Aquiles, conmovido por el llanto del padre que le recuerda al suyo propio, muestra compasión, entrega el cadáver y concede una tregua para los funerales. Es un relato sobre la gloria, la guerra y la fragilidad humana.",
+      "characterCount": 1385,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-frankenstein",
+      "title": "Frankenstein",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 7,
+      "content": "En la novela de Mary Shelley, el joven y ambicioso científico Víctor Frankenstein se obsesiona con el secreto de la vida y logra crear un ser vivo a partir de partes de cadáveres mediante experimentos galvánicos. Sin embargo, en el momento en que su creación abre los ojos, Víctor queda horrorizado por su apariencia monstruosa y huye, abandonándolo a su suerte. El monstruo, que al principio posee un corazón bondadoso y una mente curiosa, intenta acercarse a los humanos, pero solo recibe rechazo, odio y violencia debido a su aspecto deforme. Tras ser despreciado por aquellos a quienes intentó ayudar, la criatura se vuelve vengativa contra su creador por haberlo traído a un mundo donde solo encontrará soledad y sufrimiento. El monstruo mata a los seres queridos de Víctor, incluyendo a su hermano menor y a su prometida, llevando al científico al borde de la locura. Víctor persigue a su creación a través de toda Europa hasta los hielos eternos del Ártico, buscando destruir aquello que él mismo engendró. Allí, agotado por el frío y la culpa, Víctor muere en un barco explorador. El monstruo, arrepentido por el dolor causado y sintiéndose el ser más desgraciado del universo, decide terminar con su propia existencia en una pira funeraria. La obra es una reflexión profunda sobre la responsabilidad de la ciencia, la naturaleza de la maldad y la necesidad humana de pertenencia y afecto.",
+      "characterCount": 1382,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-sherlock",
+      "title": "Sherlock Holmes: Estudio en Escarlata",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 8,
+      "content": "En la primera aventura de Sherlock Holmes, el Dr. John Watson, un médico militar recién llegado de la guerra en Afganistán, conoce al excéntrico detective y se convierte en su compañero de piso en el famoso 221B de Baker Street. Juntos son llamados por Scotland Yard para investigar un misterioso asesinato en una casa abandonada en Londres, donde no hay señales de lucha pero se encuentra un cadáver con una expresión de terror y la palabra 'Rache' (venganza en alemán) escrita con sangre en la pared. Mientras los inspectores oficiales siguen pistas falsas, Holmes aplica su brillante método de deducción y observación de detalles minuciosos que otros ignoran, como las huellas de un carruaje o el tipo de ceniza de cigarro. Mediante una serie de razonamientos lógicos, Holmes descubre que el asesino es un hombre llamado Jefferson Hope, quien ha perseguido a su víctima a través de continentes para vengar un antiguo crimen cometido décadas atrás en las comunidades mormonas de Estados Unidos. La novela no solo presenta al detective más famoso de la literatura, sino que establece las bases del género policial moderno, donde la razón y la observación científica se imponen sobre el caos del crimen. Arthur Conan Doyle logra crear un personaje fascinante cuya mente funciona como una máquina de precisión, capaz de descifrar los enigmas más oscuros de la naturaleza humana a partir de las pistas más insignificantes.",
+      "characterCount": 1395,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-miserables",
+      "title": "Los Miserables",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 9,
+      "content": "La monumental obra de Victor Hugo cuenta la historia de Jean Valjean, un hombre que es condenado a años de trabajos forzados por el simple hecho de robar un trozo de pan para alimentar a sus sobrinos hambrientos. Tras salir de prisión convertido en un ser amargado y desconfiado, un acto de bondad inesperado por parte de un obispo lo impulsa a cambiar su vida radicalmente. Valjean rompe su libertad condicional, asume una nueva identidad y llega a convertirse en un próspero industrial y alcalde de un pueblo, dedicando su vida a ayudar a los necesitados. Entre ellos se encuentra Fantine, una mujer pobre a la que promete cuidar de su hija huérfana, Cosette. Sin embargo, el pasado nunca deja de acecharlo en la figura del inspector Javert, un hombre ríguido y obsesionado con la ley que persigue a Valjean incansablemente durante décadas. La historia, ambientada en la convulsa Francia de principios del siglo XIX, culmina en las barricadas de la insurrección de junio en París. A través de sus personajes, Victor Hugo explora temas universales como la redención, el amor sacrificial, la injusticia social y la lucha eterna entre la letra de la ley y el espíritu de la justicia. Es un canto a la dignidad humana y a la capacidad de los seres más humildes para alcanzar la grandeza moral a pesar de las circunstancias más adversas y miserables de la existencia.",
+      "characterCount": 1385,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-cien-anos",
+      "title": "Cien Años de Soledad",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 10,
+      "content": "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos. El mundo era tan reciente, que muchas cosas carecían de nombre, y para mencionarlas había que señalarlas con el dedo. Todos los años, por el mes de marzo, una familia de gitanos desarrapados plantaba su carpa cerca de la aldea, y con un grande alboroto de pitos y timbales daban a conocer los nuevos inventos. Primero llevaron el imán. Un gitano corpulento, de barba montaraz y manos de gorrión, que se presentó con el nombre de Melquíades, hizo una truculenta demostración pública de lo que él mismo llamaba la octava maravilla de los sabios alquimistas de Macedonia. Fue de casa en casa arrastrando dos lingotes metálicos, y todo el mundo se espantó al ver que los calderos, las pailas, las tenazas y los anafes se caían de su sitio, y las maderas crujían por la desesperación de los clavos y los tornillos tratando de desenclavarse, y aun los objetos perdidos desde hacía mucho tiempo aparecían por donde más se les había buscado, y se arrastraban en desbandada turbulenta detrás de los fierros mágicos de Melquíades.",
+      "characterCount": 1356,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-pedro-paramo",
+      "title": "Pedro Páramo",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 11,
+      "content": "Vine a Comala porque me dijeron que acá vivía mi padre, un tal Pedro Páramo. Mi madre me lo dijo. Y yo le prometí que vendría a verlo en cuanto ella muriera. Le apreté sus manos en señal de que lo haría, pues ella estaba por morirse y yo en un plan de prometerlo todo. 'No dejes de ir a visitarlo', me recomendó. 'Se llama de este modo y de este otro. Estoy segura de que le dará gusto conocerte'. Entonces no pude hacer otra cosa sino decirle que sí, y a fuerza de decírselo tantas veces se lo seguí diciendo aun después de que a mis manos les costó trabajo zafarse de sus manos muertas. Todavía antes me había dicho: 'No le vayas a pedir nada. Exígele lo nuestro. Lo que estuvo obligado a darme y nunca me dio... El olvido en que nos tuvo, mi hijo, cóbraselo caro'. 'Así lo haré, madre'. Pero no pensé cumplir mi promesa. Hasta que ahora pronto comencé a llenarme de sueños, a darle vuelo a las ilusiones. Y de este modo se me fue formando un mundo alrededor de la esperanza que era aquel señor llamado Pedro Páramo, el marido de mi madre. Por eso vine a Comala. Era ese tiempo de la canícula, cuando el aire de agosto sopla caliente, envenenado por el olor podrido de las saponarias. El camino subía y bajaba; subía o bajaba según se va o se viene. Para el que va, sube; para el que viene, baja. '¿Cómo dice usted que se llama el pueblo que se ve allá abajo?'. 'Comala, señor'. '¿Está seguro de que ya es Comala?'. 'Seguro, señor'.",
+      "characterCount": 1385,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-metamorfosis",
+      "title": "La Metamorfosis",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 12,
+      "content": "En la célebre obra de Franz Kafka, el viajante de comercio Gregorio Samsa se despierta una mañana, tras un sueño intranquilo, convertido en su cama en un monstruoso insecto. Al principio, su mayor preocupación no es su nueva y aterradora forma, sino cómo llegará a tiempo al trabajo para evitar el despido y seguir manteniendo a sus padres y a su hermana. Sin embargo, su incapacidad para moverse y comunicarse lo aísla irremediablemente del mundo exterior. Su familia, al descubrir la transformación, pasa del asombro al horror y finalmente al desprecio. Gregorio queda encerrado en su habitación, donde observa a través de las grietas de la puerta cómo la dinámica familiar cambia sin él: su padre vuelve a trabajar, su hermana se hace cargo de las tareas domésticas y la casa se llena de huéspedes. Con el tiempo, la presencia de Gregorio se convierte en una carga insoportable para sus seres queridos, quienes dejan de verlo como a un hijo o hermano para considerarlo simplemente un estorbo asqueroso. Tras sufrir una herida causada por una manzana lanzada por su propio padre, Gregorio se debilita física y espiritualmente. Finalmente, muere una noche en la más absoluta soledad y olvido. A la mañana siguiente, la sirvienta encuentra su cuerpo seco y lo desecha como basura. La familia, en lugar de llorar su pérdida, siente un inmenso alivio y sale de paseo con renovada esperanza por el futuro, evidenciando la fragilidad de los vínculos humanos ante lo diferente.",
+      "characterCount": 1425,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-1984",
+      "title": "1984",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 13,
+      "content": "En el futuro distópico imaginado por George Orwell, el mundo está dividido en tres superestados totalitarios en guerra perpetua. En Oceanía, el Partido ejerce un control absoluto sobre la vida y el pensamiento de los ciudadanos bajo la vigilancia constante del omnipresente Gran Hermano a través de las telepantallas. Winston Smith, un empleado de bajo rango en el Ministerio de la Verdad, se encarga de reescribir la historia y los periódicos para que coincidan con la versión oficial del Partido, borrando de la existencia a las personas que han caído en desgracia. Sin embargo, Winston empieza a cuestionar la realidad impuesta y comienza a escribir un diario secreto, un acto de rebelión mental castigado con la muerte. Su disidencia se profundiza cuando inicia un romance prohibido con Julia, una joven que también desprecia al régimen. Juntos buscan unirse a la Hermandad, una supuesta organización clandestina de resistencia. Pero su esperanza es una trampa: son traicionados por O'Brien, un alto cargo del Partido que fingía ser su aliado. Winston es llevado al Ministerio del Amor, donde es sometido a un proceso sistemático de tortura física y psicológica diseñado no para matarlo, sino para quebrar su voluntad y reeducar su mente. En la temida Habitación 101, enfrentado a su peor pesadilla, Winston traiciona a Julia y renuncia a su último rastro de integridad. Al final, derrotado y vacío, descubre que su rebelión ha sido inútil y que, sinceramente, ama al Gran Hermano.",
+      "characterCount": 1452,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-mundo-feliz",
+      "title": "Un Mundo Feliz",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 14,
+      "content": "En la visión futurista de Aldous Huxley, la humanidad vive en un estado de estabilidad social garantizado por la ingeniería biológica y el condicionamiento psicológico. Los seres humanos ya no nacen de forma natural, sino que son creados en frascos en centros de incubación y divididos desde antes de nacer en castas: desde los inteligentes Alfas hasta los serviles Epsilones. En esta sociedad, no existe el dolor, la vejez, la guerra ni la pobreza, pero el precio es la abolición de la libertad, la familia, el arte y la religión. Cualquier atisbo de tristeza o malestar es sofocado por el 'soma', una droga que proporciona felicidad instantánea y sin efectos secundarios. Bernard Marx, un Alfa que se siente inadaptado debido a un supuesto error en su incubación, viaja a una Reserva Salvaje en Nuevo México, donde la gente aún vive de forma natural. Allí conoce a John, el 'Salvaje', hijo de una mujer civilizada que quedó atrapada en la reserva años atrás. Bernard trae a John de vuelta a Londres como un experimento social. John, educado con las obras completas de Shakespeare, se horroriza ante la falta de emociones reales, la promiscuidad obligatoria y la superficialidad de este mundo 'perfecto'. Su choque cultural culmina en una tragedia personal, evidenciando que una vida sin sufrimiento es también una vida sin verdadera humanidad. La novela es una advertencia sobre los peligros de una sociedad que sacrifica la verdad y el alma humana en el altar del confort y la eficiencia tecnológica.",
+      "characterCount": 1456,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-viejo-mar",
+      "title": "El Viejo y el Mar",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 15,
+      "content": "Santiago es un viejo pescador cubano que atraviesa una racha de mala suerte: lleva ochenta y cuatro días sin pescar absolutamente nada. Sus vecinos lo consideran 'salao', la peor forma de mala suerte, y su joven aprendiz Manolín ha sido obligado por sus padres a buscar otro barco. Sin embargo, Santiago no se rinde y decide navegar mucho más lejos de la costa, adentrándose en las corrientes del Golfo. Allí logra enganchar un pez espada de dimensiones colosales, mucho más grande que su propio bote. Comienza entonces una lucha épica que dura tres días y dos noches, en la que el viejo pone a prueba toda su resistencia física y su sabiduría marinera. Santiago siente una extraña fraternidad por el pez, al que llama hermano, pero está decidido a matarlo para demostrar que su dignidad como pescador sigue intacta. Tras una batalla agotadora que le deja las manos llagadas y el cuerpo roto, logra arponear al gigante y atarlo al costado de su embarcación. Pero la victoria es efímera. En el largo viaje de regreso, el rastro de sangre atrae a los tiburones. Santiago lucha contra ellos con todas sus fuerzas, usando un remo y un cuchillo, pero los depredadores devoran toda la carne del pez, dejando solo el esqueleto blanco como un trofeo inútil. Santiago llega al puerto de noche, exhausto y derrotado físicamente, pero con el espíritu invicto. Al día siguiente, los demás pescadores quedan asombrados ante el tamaño del esqueleto, y Santiago recupera el respeto de todos. Ernest Hemingway nos regala una parábola sobre el valor, la perseverancia y la victoria moral del ser humano.",
+      "characterCount": 1452,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-cronica",
+      "title": "Crónica de una Muerte Anunciada",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 16,
+      "content": "La novela de Gabriel García Márquez comienza con una sentencia inevitable: 'El día en que lo iban a matar, Santiago Nasar se levantó a las 5.30 de la mañana para esperar el buque en que llegaba el obispo'. Santiago Nasar es un joven alegre y adinerado que ignora que los gemelos Pedro y Pablo Vicario han decidido asesinarlo para restaurar el honor de su familia. La noche anterior, Ángela Vicario, la hermana de los gemelos, fue devuelta a su casa por su esposo, Bayardo San Román, al descubrir que no era virgen, y ella señaló a Santiago como el responsable. Los gemelos anuncian sus intenciones a todo el pueblo, afilando sus cuchillos a la vista de todos, esperando secretamente que alguien se los impida y los libere de la obligación moral de matar. Sin embargo, a través de una red de casualidades, malentendidos, negligencias y el falso sentido del honor colectivo, nadie detiene el crimen. Unos creen que es una broma, otros que es un asunto de familia, y algunos simplemente no llegan a tiempo. Santiago Nasar es finalmente acorralado y apuñalado contra la puerta cerrada de su propia casa, mientras el pueblo observa con una mezcla de fascinación y horror. El narrador reconstruye los hechos años después, como si fuera un proceso judicial, explorando cómo la fatalidad y la responsabilidad compartida pueden llevar a una comunidad a permitir una tragedia que todos conocían de antemano. Es una reflexión magistral sobre el destino, el honor y la pasividad de la sociedad ante la injusticia.",
+      "characterCount": 1465,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-casa-espiritus",
+      "title": "La Casa de los Espíritus",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 17,
+      "content": "La primera novela de Isabel Allende narra la apasionante saga de la familia Trueba a lo largo de cuatro generaciones en un país latinoamericano innombrado, pero claramente inspirado en Chile. La historia gira en torno a Esteban Trueba, un patriarca ambicioso, violento y conservador que construye un imperio agrícola en su hacienda, Las Tres Marías, y se convierte en un influyente senador. Esteban se casa con Clara del Valle, una mujer angelical y enigmática con poderes clarividentes que habla con los espíritus, toca el piano sin abrir la tapa y predice las tragedias familiares. Clara es el centro espiritual de la casa, aportando una dimensión mágica que contrasta con la brutal realidad política y social que rodea a la familia. A través de los ojos de sus hijos y nietos, especialmente de su nieta Alba, asistimos a la transformación del país: desde la época de los grandes latifundios hasta el auge de los movimientos sociales, el triunfo de la izquierda y el posterior golpe de estado militar que sumerge a la nación en la represión y la tortura. La novela mezcla magistralmente lo real con lo fantástico, los amores prohibidos con las venganzas ancestrales, y la historia personal con el destino colectivo de un continente. Es un relato sobre la memoria, la redención y la capacidad del amor para sobrevivir a la violencia y al paso del tiempo. Las mujeres de la familia, con su fortaleza silenciosa y su conexión con lo invisible, son las verdaderas guardianas de una historia que se escribe en los márgenes de la historia oficial.",
+      "characterCount": 1456,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-rayuela",
+      "title": "Rayuela",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 18,
+      "content": "¿Encontraría a la Maga? Tantas veces me había bastado asomarme, viniendo por la rue de Seine, al arco que da al Quai de Conti, y apenas la luz de ceniza y olivo que flota sobre el río me dejaba distinguir las formas, ya su silueta delgada se inscribía en el Pont des Arts, a veces andando de un lado a otro, a veces detenida en el pretil de hierro, inclinada sobre el agua. Y era tan natural cruzar la calle, subir los peldaños del puente, entrar en su cintura delgada y acercarme a la Maga que sonreía sin sorpresa, convencida como yo de que un encuentro casual era lo menos casual en nuestras vidas, y que la gente que se da citas precisas es la misma que necesita papel rayado para escribirse o que aprieta desde abajo el tubo de dentífrico. Pero ella no estaba ahora en el puente. Su ausencia era una presencia física que me rodeaba mientras caminaba por las calles de París, buscando una señal, un rastro de su risa desordenada o de sus canciones inventadas. La Maga era el desorden, la espontaneidad pura, todo lo que mi mente analítica y europea intentaba comprender y terminaba por destruir. Recuerdo nuestras noches en el Club de la Serpiente, escuchando jazz entre el humo y las discusiones interminables sobre metafísica y literatura, mientras ella simplemente existía, ajena a nuestras complicaciones intelectuales. Ahora que la he perdido, me doy cuenta de que buscarla es como intentar jugar a la rayuela con el cielo: un salto tras otro, de casilla en casilla, esperando que al final del camino el dibujo cobre sentido y la tierra se encuentre finalmente con el cielo.",
+      "characterCount": 1482,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-aleph",
+      "title": "El Aleph",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 19,
+      "content": "En uno de los cuentos más célebres de Jorge Luis Borges, el narrador descubre en el sótano de una vieja casa en Buenos Aires, propiedad de Carlos Argentino Daneri, un punto en el espacio que contiene todos los puntos del universo: el Aleph. Al bajar a la oscuridad del sótano y fijar la vista en un escalón específico, Borges experimenta una visión totalizadora y abrumadora. El Aleph es un lugar donde se concentran, sin superponerse y con una claridad infinita, todos los lugares de la tierra, vistos desde todos los ángulos simultáneamente. En ese pequeño círculo tornasolado, el narrador ve el mar y sus desiertos, rostros humanos que ama y que ha olvidado, libros abiertos en bibliotecas lejanas, espejos que no lo reflejan, la circulación de su propia sangre y el engranaje del amor y el tiempo. Ve el universo entero en un instante, una experiencia que desafía la capacidad del lenguaje humano para ser descrita, pues la palabra es sucesiva mientras que la visión del Aleph es absoluta y simultánea. Tras la demolición de la casa, el Aleph se pierde para siempre, dejando en el narrador una sensación de melancolía y el olvido progresivo de lo que vio. La historia es una reflexión profunda sobre el infinito, la limitación de la percepción humana y la imposibilidad de atrapar la totalidad de la existencia en la red de las palabras. Borges nos invita a cuestionar la realidad y a imaginar que en cualquier rincón oscuro del mundo puede esconderse el secreto de todo lo que existe, un punto donde el tiempo y el espacio se anulan para revelar la unidad sagrada del cosmos.",
+      "characterCount": 1456,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade6-tunel",
+      "title": "El Túnel",
+      "category": "Literature",
+      "difficulty": 6,
+      "order": 20,
+      "content": "Bastará decir que soy Juan Pablo Castel, el pintor que mató a María Iribarne; supongo que el proceso está en el recuerdo de todos y que no se necesitan mayores explicaciones sobre mi persona. Aunque ni el diablo sabe qué es lo que ha de recordar la gente, ni por qué. En realidad, siempre he pensado que no hay memoria colectiva, lo que quizá sea una forma de defensa de la especie humana. La frase 'todo tiempo pasado fue mejor' no indica que antes sucedieran menos cosas malas, sino que —felizmente— la gente las echa en el olvido. Mi propia historia es la de una soledad absoluta y desesperada. Todo comenzó cuando en una exposición de mis cuadros, vi a una mujer que se detenía ante una pequeña ventana en una de mis obras, una ventana que nadie más parecía notar. En ese momento sentí que ella era la única persona en el mundo capaz de comprenderme, de ver a través del muro que me separaba de los demás. Inicié entonces una búsqueda obsesiva para encontrarla, que pronto se convirtió en una relación tormentosa marcada por mis celos enfermizos, mis razonamientos paranoicos y mi incapacidad para amar sin destruir. Me sentía atrapado en un túnel oscuro y solitario, creyendo que ella caminaba por un túnel paralelo al mío, solo para descubrir que su luz era una ilusión y que yo estaba irremediablemente solo. Mi crimen no fue un acto de odio, sino el estallido final de una mente que, en su afán de poseer la verdad absoluta sobre el otro, terminó por aniquilar la única posibilidad de salvación que tenía en este mundo absurdo y sombrío.",
+      "characterCount": 1485,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    }
+  ]
 }

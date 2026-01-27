@@ -34,7 +34,7 @@ dirs.sort((a, b) => {
 dirs.forEach(langId => {
     const langPath = path.join(lessonsDir, langId);
     const files = fs.readdirSync(langPath).filter(f => f.match(/^grade-\d+\.json$/));
-    
+
     // Sort files by grade number
     files.sort((a, b) => {
         const numA = parseInt(a.match(/grade-(\d+)/)[1]);
@@ -47,7 +47,7 @@ dirs.forEach(langId => {
         const filePath = path.join(langPath, file);
         const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         const gradeNum = file.match(/grade-(\d+)/)[1];
-        
+
         grades.push({
             id: `${langId}-grade-${gradeNum}`,
             name: content.grade, // Use the grade name from the file

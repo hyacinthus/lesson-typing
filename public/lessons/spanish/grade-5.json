@@ -1,225 +1,225 @@
 {
-    "grade": "Grade 5",
-    "lessons": [
-        {
-            "id": "spa-grade5-chocolate",
-            "title": "La Historia del Chocolate",
-            "category": "History",
-            "difficulty": 5,
-            "order": 1,
-            "content": "El chocolate tiene una historia muy antigua. Los mayas y los aztecas en México fueron los primeros en usar el cacao. Para ellos, el cacao era muy valioso y lo usaban como moneda. Bebían una bebida amarga hecha de cacao y especias. Cuando los exploradores llevaron el cacao a Europa, le añadieron azúcar y se convirtió en el chocolate dulce que conocemos hoy.",
-            "characterCount": 359,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-water",
-            "title": "El Agua es Vida",
-            "category": "Science",
-            "difficulty": 5,
-            "order": 2,
-            "content": "El agua es esencial para todos los seres vivos. Sin agua, no habría plantas, animales ni personas. Aunque la Tierra tiene mucha agua, la mayor parte es salada y no se puede beber. Por eso es importante no desperdiciar el agua potable. Debemos cerrar el grifo cuando nos lavamos los dientes y tomar duchas cortas. Cuidar el agua es responsabilidad de todos.",
-            "characterCount": 357,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-quijote",
-            "title": "Don Quijote",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 3,
-            "content": "Don Quijote de la Mancha es un personaje famoso de la literatura española. Era un hombre que leía muchos libros de caballeros y decidió convertirse en uno. Montaba un caballo viejo llamado Rocinante y tenía un amigo llamado Sancho Panza. Don Quijote vivía muchas aventuras imaginarias, como luchar contra molinos de viento pensando que eran gigantes.",
-            "characterCount": 351,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-icaro",
-            "title": "Dédalo e Ícaro",
-            "category": "Mito",
-            "difficulty": 5,
-            "order": 4,
-            "content": "Dédalo era un gran inventor encerrado en un laberinto con su hijo Ícaro. Para escapar, construyó alas con plumas y cera. Le advirtió a Ícaro que no volara demasiado alto, pues el sol derretiría la cera, ni demasiado bajo, pues el mar mojaría las plumas. Ícaro, emocionado por volar, subió más y más alto. El sol derritió la cera, sus alas se deshicieron y cayó al mar. La desobediencia y la imprudencia le costaron la vida.",
-            "characterCount": 428,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-molinos",
-            "title": "Los Molinos de Viento",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 5,
-            "content": "En esto, descubrieron treinta o cuarenta molinos de viento que hay en aquel campo. Y así como don Quijote los vio, dijo a su escudero: \"La ventura va guiando nuestras cosas mejor de lo que acertáramos a desear; porque ves allí, amigo Sancho Panza, donde se descubren treinta o pocos más desaforados gigantes, con quien pienso hacer batalla\". \"Mire vuestra merced\", respondió Sancho, \"que aquellos que allí se parecen no son gigantes, sino molinos de viento\".",
-            "characterCount": 465,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-tortuga-gigante",
-            "title": "La Tortuga Gigante",
-            "category": "Cuento",
-            "difficulty": 5,
-            "order": 6,
-            "content": "Un hombre enfermo se fue a vivir a la selva. Allí salvó a una tortuga de un tigre. Luego, el hombre enfermó gravemente. La tortuga, agradecida, decidió llevarlo a Buenos Aires para que lo curaran. Caminó durante días y noches con el hombre a cuestas, sin comer ni beber. Cuando ya no tenía fuerzas, descubrió que había llegado. El hombre se salvó y desde entonces la tortuga vivió feliz en el jardín del zoológico, visitada por su amigo.",
-            "characterCount": 441,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-medias",
-            "title": "Las Medias de los Flamencos",
-            "category": "Cuento",
-            "difficulty": 5,
-            "order": 7,
-            "content": "Las víboras dieron un gran baile. Los flamencos, que entonces tenían las patas blancas, querían medias de colores para estar elegantes. Un tatú les dio una broma cruel: les dio cueros de víboras de coral recién muertas. Los flamencos se pusieron los cueros en las patas y bailaron. Cuando las víboras se dieron cuenta, atacaron a los flamencos mordiéndoles las patas. Por eso los flamencos tienen ahora las patas coloradas y siempre están en el agua para calmar el dolor.",
-            "characterCount": 476,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-platero",
-            "title": "Platero y Yo",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 8,
-            "content": "Platero es pequeño, peludo, suave; tan blando por fuera, que se diría todo de algodón, que no lleva huesos. Sólo los espejos de azabache de sus ojos son duros cual dos escarabajos de cristal negro. Lo dejo suelto y se va al prado, y acaricia tibiamente con su hocico, rozándolas apenas, las florecillas rosas, celestes y gualdas... Lo llamo dulcemente: \"¿Platero?\", y viene a mí con un trotecillo alegre que parece que se ríe, en no sé qué cascabeleo ideal...",
-            "characterCount": 466,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-principito",
-            "title": "El Principito y el Zorro",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 9,
-            "content": "—No puedo jugar contigo —dijo el zorro—, no estoy domesticado. —¿Qué significa \"domesticar\"? —preguntó el principito. —Significa \"crear lazos\" —dijo el zorro—. Si me domesticas, tendremos necesidad el uno del otro. Tú serás para mí único en el mundo. Yo seré para ti único en el mundo... Pero si me domesticas, mi vida se llenará de sol. Conoceré un ruido de pasos que será diferente de todos los otros. Los otros pasos me hacen esconder bajo la tierra. El tuyo me llamará fuera de la madriguera, como una música.",
-            "characterCount": 516,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-moby-dick",
-            "title": "Moby Dick",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 10,
-            "content": "El capitán Ahab busca venganza contra Moby Dick, la gran ballena blanca que le arrancó la pierna. A bordo del Pequod, persigue obsesivamente a la ballena por todos los mares, ignorando los peligros y las advertencias de su tripulación. Su odio lo ciega y lo lleva a la locura. Al final, encuentra a Moby Dick, pero la ballena destruye el barco y arrastra a Ahab a las profundidades. Solo Ismael sobrevive para contar la historia.",
-            "characterCount": 431,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-vuelta-mundo",
-            "title": "La Vuelta al Mundo en 80 Días",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 11,
-            "content": "Phileas Fogg, un caballero inglés muy puntual, apuesta que puede dar la vuelta al mundo en 80 días. Acompañado de su criado Passepartout, viaja en tren, barco y hasta en elefante. Vive muchas aventuras y rescata a la princesa Aouda. Un detective lo persigue pensando que es un ladrón. Al llegar a Londres, cree haber perdido por cinco minutos, pero descubre que ganó un día al viajar hacia el este, ganando la apuesta justo a tiempo.",
-            "characterCount": 435,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-viaje-centro",
-            "title": "Viaje al Centro de la Tierra",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 12,
-            "content": "El profesor Lidenbrock descubre un antiguo manuscrito que indica cómo llegar al centro de la Tierra. Junto con su sobrino Axel y el guía Hans, descienden por el volcán Snaefellsjökull en Islandia. En las profundidades, encuentran un mundo subterráneo con océanos, hongos gigantes y dinosaurios vivos. Después de muchas peligrosas aventuras, son expulsados a la superficie por el volcán Stromboli en Italia.",
-            "characterCount": 412,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-isla-tesoro",
-            "title": "La Isla del Tesoro",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 13,
-            "content": "El joven Jim Hawkins encuentra el mapa del tesoro del capitán Flint. Se embarca en la Hispaniola para buscarlo. Pero la tripulación, liderada por el cocinero Long John Silver (un pirata con una pata de palo), planea un motín para robar el tesoro. Jim descubre el plan y, junto con el capitán y sus amigos, lucha contra los piratas en la isla. Encuentran el tesoro y regresan a casa ricos, mientras Silver escapa.",
-            "characterCount": 416,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-libro-selva",
-            "title": "El Libro de la Selva",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 14,
-            "content": "Mowgli es un niño criado por una manada de lobos en la selva de la India. Sus amigos son el oso Baloo y la pantera Bagheera, quienes le enseñan la Ley de la Selva. Su enemigo es el tigre Shere Khan, que odia a los hombres. Mowgli vive muchas aventuras con los monos Bandar-log y la serpiente Kaa. Finalmente, derrota a Shere Khan con la ayuda del fuego y los búfalos, y regresa a vivir con los humanos.",
-            "characterCount": 408,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-robin-hood",
-            "title": "Robin Hood",
-            "category": "Leyenda",
-            "difficulty": 5,
-            "order": 15,
-            "content": "Robin Hood era un arquero que vivía en el bosque de Sherwood. Robaba a los ricos para dar a los pobres, luchando contra la injusticia del Príncipe Juan y el Sheriff de Nottingham. Junto a sus Alegres Compadres, como el Pequeño Juan y Fray Tuck, defendía al pueblo oprimido. Era un héroe amado por todos, conocido por su destreza con el arco y su noble corazón.",
-            "characterCount": 366,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-rey-arturo",
-            "title": "El Rey Arturo y la Espada en la Piedra",
-            "category": "Leyenda",
-            "difficulty": 5,
-            "order": 16,
-            "content": "Arturo era un joven humilde que ignoraba su origen real. Un día, se celebró un torneo para decidir quién sería el rey de Inglaterra. Había una espada clavada en una piedra con una inscripción: \"Quien saque esta espada será el legítimo rey\". Muchos caballeros fuertes lo intentaron y fallaron. Arturo, buscando una espada para su hermano, sacó la espada de la piedra sin esfuerzo, revelando que él era el verdadero rey.",
-            "characterCount": 420,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-tres-mosqueteros",
-            "title": "Los Tres Mosqueteros",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 17,
-            "content": "D'Artagnan llega a París para ser mosquetero del Rey. Allí conoce a Athos, Porthos y Aramis, los tres mejores mosqueteros. Juntos se enfrentan al Cardenal Richelieu y sus guardias para proteger el honor de la Reina Ana. Su lema es \"¡Todos para uno y uno para todos!\". Viven aventuras llenas de duelos, intrigas y amistad, demostrando su lealtad y valentía.",
-            "characterCount": 365,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-guerra-mundos",
-            "title": "La Guerra de los Mundos",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 18,
-            "content": "Unos cilindros gigantes caen del cielo cerca de Londres. Son naves de marcianos que invaden la Tierra. Usan rayos de calor y humo negro para destruir todo a su paso. Los ejércitos humanos no pueden detenerlos. La humanidad parece condenada. Sin embargo, los marcianos empiezan a morir repentinamente. No los mataron las armas humanas, sino las bacterias de la Tierra, contra las que no tenían defensas.",
-            "characterCount": 408,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-hombre-invisible",
-            "title": "El Hombre Invisible",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 19,
-            "content": "Griffin, un científico, descubre cómo hacerse invisible. Al principio le parece una ventaja, pero pronto se da cuenta de los problemas: debe estar desnudo para que no lo vean y pasa frío. Se vuelve loco de poder y empieza a cometer crímenes. La gente del pueblo se une para atraparlo. Al final, Griffin muere y su cuerpo vuelve a ser visible poco a poco.",
-            "characterCount": 358,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        },
-        {
-            "id": "spa-grade5-dracula",
-            "title": "Drácula",
-            "category": "Literature",
-            "difficulty": 5,
-            "order": 20,
-            "content": "Jonathan Harker viaja a Transilvania al castillo del Conde Drácula. Descubre que Drácula es un vampiro que bebe sangre humana. Drácula viaja a Londres para buscar nuevas víctimas. El profesor Van Helsing y un grupo de valientes persiguen al vampiro para destruirlo. Usan ajos, crucifijos y estacas de madera. Finalmente, logran matar a Drácula en su ataúd y liberar al mundo de su maldad.",
-            "characterCount": 393,
-            "chineseCharCount": 0,
-            "language": "spanish"
-        }
-    ]
+  "grade": "Grade 5",
+  "lessons": [
+    {
+      "id": "spa-grade5-chocolate",
+      "title": "La Historia del Chocolate",
+      "category": "History",
+      "difficulty": 5,
+      "order": 1,
+      "content": "El chocolate tiene una historia fascinante que se remonta a miles de años en las civilizaciones antiguas de Mesoamérica. Los mayas y los aztecas en México fueron los primeros en descubrir las propiedades del árbol del cacao, al que consideraban un regalo de los dioses. Para ellos, las semillas de cacao eran tan valiosas que las utilizaban como moneda para el comercio. Bebían una mezcla amarga y espumosa hecha de cacao molido, agua y diversas especias como el chile. Cuando los exploradores españoles llevaron el cacao a Europa en el siglo XVI, la receta se transformó radicalmente al añadirle azúcar y leche, convirtiéndose en el chocolate dulce que tanto nos gusta hoy en día. Actualmente, el chocolate es uno de los alimentos más populares en todo el mundo, presente en una infinita variedad de postres y golosinas, y su producción es una industria global que conecta a los agricultores de las regiones tropicales con los consumidores de todos los continentes.",
+      "characterCount": 1056,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-water",
+      "title": "El Agua es Vida",
+      "category": "Science",
+      "difficulty": 5,
+      "order": 2,
+      "content": "El agua es el recurso natural más preciado y esencial para la existencia de todos los seres vivos en nuestro planeta. Sin agua, no habría plantas que produzcan oxígeno, ni animales que formen ecosistemas, ni seres humanos que construyan civilizaciones. Aunque la Tierra es conocida como el 'planeta azul' porque el setenta por ciento de su superficie está cubierta por agua, la gran mayoría es agua salada de los océanos que no podemos consumir directamente. Solo una mínima parte es agua dulce apta para el consumo humano, y se encuentra principalmente en glaciares, ríos y acuíferos subterráneos. Por esta razón, es nuestra responsabilidad colectiva proteger y no desperdiciar el agua potable. Acciones sencillas como cerrar el grifo mientras nos cepillamos los dientes, reparar las fugas en las tuberías y tomar duchas cortas pueden marcar una gran diferencia. Cuidar el agua no es solo un hábito de higiene, sino un acto de respeto hacia la naturaleza y un compromiso vital para asegurar el futuro de las próximas generaciones.",
+      "characterCount": 1085,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-quijote",
+      "title": "Don Quijote de la Mancha",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 3,
+      "content": "Don Quijote de la Mancha, escrito por Miguel de Cervantes, es la obra más famosa de la literatura española y una de las más importantes del mundo. El protagonista es Alonso Quijano, un hidalgo pobre que, de tanto leer libros de caballería, pierde el juicio y decide convertirse en un caballero andante para deshacer agravios y proteger a los desvalidos. Con una armadura vieja, un caballo flaco llamado Rocinante y su fiel pero realista escudero Sancho Panza, sale a los caminos en busca de aventuras. Don Quijote ve gigantes donde solo hay molinos de viento, castillos donde hay simples posadas y ejércitos donde solo hay rebaños de ovejas. A pesar de sus constantes fracasos y de las burlas de los demás, su idealismo y su nobleza de corazón lo convierten en un personaje inolvidable. La novela es una mezcla magistral de humor, tragedia y sabiduría, que nos invita a reflexionar sobre la frontera entre la locura y la realidad, y sobre la importancia de luchar por nuestros sueños, por muy imposibles que parezcan ante los ojos de los demás.",
+      "characterCount": 1125,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-icaro",
+      "title": "Dédalo e Ícaro",
+      "category": "Mito",
+      "difficulty": 5,
+      "order": 4,
+      "content": "En la mitología griega, Dédalo era un arquitecto e inventor brillante que fue encarcelado en el Laberinto de Creta por el rey Minos, junto a su joven hijo Ícaro. Desesperado por escapar de la isla, Dédalo observó el vuelo de las aves y diseñó un ingenioso plan: fabricó dos pares de alas utilizando plumas de pájaro unidas con cera de abejas. Antes de emprender el vuelo, Dédalo le dio a su hijo una advertencia vital: 'No vueles demasiado alto, porque el calor del sol derretirá la cera, ni demasiado bajo, porque la humedad del mar pesará en tus plumas'. Al principio, el vuelo fue un éxito y ambos se elevaron sobre las olas. Sin embargo, Ícaro, embriagado por la sensación de libertad y poder, olvidó los consejos de su padre y ascendió cada vez más hacia el cielo. El sol ardiente cumplió la profecía y derritió la cera, haciendo que las plumas se desprendieran una a una. Ícaro cayó al mar ante la mirada impotente de su padre. Este mito es una poderosa metáfora sobre los peligros de la ambición desmedida y la importancia de escuchar la experiencia de los mayores.",
+      "characterCount": 1156,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-molinos",
+      "title": "La Aventura de los Molinos",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 5,
+      "content": "En uno de los capítulos más recordados de la novela de Cervantes, Don Quijote y Sancho Panza descubren treinta o cuarenta molinos de viento en un campo. Al verlos, el caballero exclama con entusiasmo: 'La ventura va guiando nuestras cosas mejor de lo que acertáramos a desear; porque ves allí, amigo Sancho, donde se descubren treinta o pocos más desaforados gigantes, con quien pienso hacer batalla'. Sancho, con su habitual sentido común, intenta advertirle: 'Mire vuestra merced que aquellos que allí se parecen no son gigantes, sino molinos de viento, y lo que en ellos parecen brazos son las aspas que, volteadas del viento, hacen andar la piedra del molino'. Don Quijote, convencido de que un sabio encantador ha transformado a los gigantes para robarle la gloria de la victoria, arremete contra ellos a todo galope. Una ráfaga de viento mueve las aspas, rompiendo la lanza del hidalgo y lanzándolo por los aires junto a su caballo Rocinante. A pesar del golpe, Don Quijote no se rinde, demostrando que su fe en los ideales de la caballería es más fuerte que cualquier realidad física.",
+      "characterCount": 1185,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-tortuga-gigante",
+      "title": "La Tortuga Gigante",
+      "category": "Cuento",
+      "difficulty": 5,
+      "order": 6,
+      "content": "Este conmovedor relato de Horacio Quiroga cuenta la historia de un hombre que vivía en Buenos Aires y que, al enfermar gravemente, debe mudarse a la selva por consejo médico. Allí, a pesar de su debilidad, salva a una tortuga gigante que estaba siendo atacada por un tigre hambriento. El hombre cuida de la tortuga hasta que ella se recupera, pero poco después, el hombre empeora tanto que queda inconsciente en medio del bosque. La tortuga, agradecida por haber sido salvada, decide que debe llevar a su amigo de vuelta a la ciudad para que reciba atención médica profesional. Durante días y noches interminables, la tortuga camina con el hombre a cuestas sobre su caparazón, atravesando pantanos, montes y llanuras sin detenerse a comer ni a beber. Cuando sus fuerzas están a punto de agotarse y cree que va a morir en el camino, logra llegar a las luces de la ciudad justo a tiempo. El hombre se recupera gracias a los cuidados médicos y, desde entonces, la tortuga vive feliz y protegida en el jardín botánico de la ciudad, donde su amigo la visita todos los días. Es un cuento que exalta los valores de la gratitud, la amistad y el sacrificio mutuo.",
+      "characterCount": 1245,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-medias",
+      "title": "Las Medias de los Flamencos",
+      "category": "Cuento",
+      "difficulty": 5,
+      "order": 7,
+      "content": "En este ingenioso cuento de la selva, las víboras organizan un gran baile y todos los animales asisten con sus mejores galas. Los flamencos, que en aquel entonces tenían las patas blancas, se sentían tristes porque no encontraban nada elegante que ponerse. Un tatú malintencionado les sugirió que buscaran medias de colores hechas de cuero de víbora. Los flamencos, ignorantes del peligro, consiguieron unos cueros de víboras de coral recién muertas y se los pusieron como si fueran medias. Cuando llegaron al baile, las víboras sospecharon y empezaron a observar las patas de los flamencos con atención. Al descubrir que las medias eran en realidad las pieles de sus propias hermanas muertas, las víboras enfurecidas atacaron a los flamencos, mordiéndoles las patas repetidamente e inyectándoles su veneno. Los flamencos corrieron al agua para calmar el dolor y allí se quedaron para siempre. Desde aquel día, los flamencos tienen las patas coloradas y pasan la mayor parte del tiempo sumergidos en las lagunas, recordando amargamente que la vanidad y la imprudencia pueden tener consecuencias muy dolorosas. Es una fábula que explica de forma mágica las características físicas de estas hermosas aves.",
+      "characterCount": 1285,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-platero",
+      "title": "Platero y Yo",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 8,
+      "content": "Platero y Yo, del poeta Juan Ramón Jiménez, es una de las obras más bellas y líricas de la lengua española. Platero es un pequeño burrito, 'peludo, suave; tan blando por fuera, que se diría todo de algodón, que no lleva huesos'. Sus ojos son como dos escarabajos de cristal negro, brillantes y vivos. El autor nos narra sus paseos por el pueblo de Moguer, describiendo con ternura la relación de amistad y complicidad que mantiene con su animal. Platero no es solo un medio de transporte, sino un compañero que escucha los pensamientos del poeta y comparte su sensibilidad ante la belleza de la naturaleza. Juntos recorren los campos de flores, observan el atardecer y conviven con la gente sencilla del pueblo. A través de capítulos cortos y poéticos, el libro nos enseña a mirar el mundo con ojos nuevos, valorando las cosas pequeñas y cotidianas que a menudo ignoramos. Platero representa la inocencia, la lealtad y la pureza, convirtiéndose en un símbolo universal de la conexión profunda que puede existir entre un ser humano y un animal. Es una lectura que llega directamente al corazón, invitándonos a la paz y a la contemplación de la vida sencilla.",
+      "characterCount": 1256,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-principito",
+      "title": "El Principito y el Zorro",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 9,
+      "content": "En uno de los pasajes más profundos de la obra de Antoine de Saint-Exupéry, el Principito se encuentra con un zorro en la Tierra. El zorro le pide al niño que lo domestique, explicando que 'domesticar' significa crear lazos. 'Si me domesticas', dice el zorro, 'tendremos necesidad el uno del otro. Tú serás para mí único en el mundo. Yo seré para ti único en el mundo'. El Principito comprende entonces que su rosa, a la que dejó en su pequeño planeta, lo ha domesticado a él y que ella es especial por todo el tiempo que le ha dedicado. Antes de despedirse, el zorro le revela su gran secreto: 'Solo se ve bien con el corazón. Lo esencial es invisible a los ojos'. Esta lección transforma la visión del Principito, quien entiende que la verdadera riqueza no está en las cosas materiales que se pueden poseer, sino en las relaciones de afecto y responsabilidad que construimos con los demás. El encuentro con el zorro es una invitación a valorar la amistad, el compromiso y la sensibilidad, recordándonos que somos responsables para siempre de aquello que hemos domesticado. Es una de las enseñanzas más hermosas de la literatura universal, que sigue inspirando a niños y adultos de todas las culturas a buscar lo que realmente importa en la vida.",
+      "characterCount": 1324,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-moby-dick",
+      "title": "La Ballena Blanca",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 10,
+      "content": "Moby Dick, la obra maestra de Herman Melville, narra la obsesiva persecución del capitán Ahab contra una gigantesca ballena blanca que años atrás le arrancó la pierna en combate. A bordo del ballenero Pequod, Ahab arrastra a su tripulación a una travesía peligrosa por todos los océanos del mundo, ignorando los consejos de su sensato primer oficial Starbuck y las señales de mal augurio. El odio del capitán hacia el animal se convierte en una locura que consume su alma y nubla su juicio, transformando un viaje de caza comercial en una misión de venganza suicida. La historia es narrada por Ismael, un joven marinero que observa con asombro la lucha entre la voluntad indomable del hombre y la fuerza bruta de la naturaleza. Finalmente, el encuentro con Moby Dick resulta catastrófico: la ballena demuestra ser un adversario invencible, destruyendo el barco y arrastrando al capitán Ahab a las profundidades marinas. Solo Ismael sobrevive para contar la tragedia, flotando sobre un ataúd de madera en medio de la inmensidad del Pacífico. La novela es una reflexión épica sobre la ambición, el destino y el respeto que debemos tener hacia las criaturas que habitan los rincones más profundos y desconocidos de nuestro planeta azul.",
+      "characterCount": 1312,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-vuelta-mundo",
+      "title": "La Vuelta al Mundo en 80 Días",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 11,
+      "content": "Phileas Fogg, un caballero inglés extremadamente puntual y metódico, apuesta toda su fortuna a que es capaz de dar la vuelta al mundo en solo ochenta días, algo que en 1872 parecía una hazaña casi imposible. Acompañado de su nuevo y leal criado francés, Passepartout, inicia un viaje frenético que lo llevará a cruzar fronteras, océanos y continentes utilizando todos los medios de transporte disponibles en la época: trenes, barcos de vapor e incluso un elefante en la India. Durante su trayecto, vive aventuras emocionantes, rescata a la princesa Aouda de un destino cruel y es perseguido por el detective Fix, quien está convencido de que Fogg es un ladrón de bancos que huye de la justicia. A pesar de los retrasos, las tormentas y los obstáculos inesperados, Fogg mantiene siempre la calma y la determinación. Al llegar a Londres, cree haber perdido el reto por apenas cinco minutos, pero pronto descubre que, al viajar siempre hacia el este, ha ganado un día completo debido a los husos horarios, logrando así ganar la apuesta en el último segundo. La novela de Julio Verne es un canto al progreso tecnológico, a la aventura y a la idea de que, con ingenio y perseverancia, no hay distancias imposibles de recorrer en nuestro planeta.",
+      "characterCount": 1356,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-viaje-centro",
+      "title": "Viaje al Centro de la Tierra",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 12,
+      "content": "El profesor Lidenbrock, un científico alemán apasionado por la geología, descubre un antiguo pergamino escrito por un alquimista islandés que revela el camino para llegar al centro de la Tierra a través del cráter de un volcán. Junto a su sobrino Axel y el imperturbable guía Hans, se embarca en una expedición sin precedentes que los lleva a descender a las profundidades del globo terrestre. A medida que bajan, descubren un mundo subterráneo maravilloso y aterrador que desafía todas las leyes de la ciencia conocida: océanos iluminados por una luz eléctrica extraña, bosques de hongos gigantescos y criaturas prehistóricas que se creían extintas hace millones de años. La travesía está llena de peligros constantes, como la falta de agua, el riesgo de perderse en laberintos de roca y tormentas eléctricas en el mar interior. Tras semanas de aventuras increíbles y descubrimientos científicos asombrosos, una erupción volcánica los expulsa de nuevo a la superficie a través del volcán Stromboli en Italia, a miles de kilómetros de donde comenzaron su viaje. La obra de Julio Verne es un clásico de la ciencia ficción que combina de forma magistral el rigor científico de la época con una imaginación desbordante, invitándonos a explorar los misterios ocultos bajo nuestros pies.",
+      "characterCount": 1385,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-isla-tesoro",
+      "title": "La Isla del Tesoro",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 13,
+      "content": "La vida del joven Jim Hawkins cambia para siempre cuando un viejo pirata muere en la posada de sus padres, dejando en su poder un misterioso mapa que indica la ubicación del tesoro escondido del legendario capitán Flint. Jim se embarca como grumete en la Hispaniola, una expedición organizada por caballeros locales para recuperar las riquezas. Sin embargo, entre la tripulación se encuentra el carismático cocinero Long John Silver, un pirata de una sola pierna que ha planeado un motín secreto para robar el mapa y quedarse con el oro. Jim descubre el complot y debe utilizar toda su astucia y valentía para sobrevivir en una isla llena de peligros, enfrentándose a piratas traicioneros y haciendo alianzas inesperadas con Ben Gunn, un marinero abandonado que vive solo en la isla desde hace años. Entre batallas en la selva, fuertes de madera y barcos a la deriva, Jim aprende que el verdadero tesoro no es solo el oro y las joyas, sino la lealtad de los amigos y el coraje para enfrentar la adversidad. La novela de Robert Louis Stevenson es la historia definitiva de piratas, que estableció para siempre los elementos clásicos del género: el loro en el hombro, la pata de palo, la marca negra y la búsqueda incansable de aventuras en mares lejanos. Es un relato sobre el paso a la madurez y la lucha eterna entre el bien y el mal.",
+      "characterCount": 1415,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-libro-selva",
+      "title": "El Libro de la Selva",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 14,
+      "content": "Mowgli es un 'cachorro humano' que, tras perderse en la selva de la India siendo un bebé, es rescatado por una manada de lobos y criado como uno más de ellos bajo la protección de la Ley de la Selva. Sus mentores y amigos más cercanos son Baloo, un sabio oso pardo que le enseña los secretos de la naturaleza, y Bagheera, una astuta pantera negra que lo cuida con devoción. Sin embargo, su vida corre peligro debido al odio de Shere Khan, un tigre cojo y feroz que considera que los humanos no tienen lugar en la selva. Mowgli vive aventuras emocionantes, enfrentándose a los caóticos monos Bandar-log y aprendiendo las palabras maestras de todas las especies para poder comunicarse y sobrevivir. A medida que crece, Mowgli se da cuenta de que posee el 'fuego', la inteligencia humana que lo diferencia de los animales, y que tarde o temprano deberá enfrentarse a su destino. Finalmente, con la ayuda de sus amigos animales y su propio ingenio, derrota a Shere Khan y comprende que, aunque su corazón pertenece a la selva, su lugar está entre los hombres. La obra de Rudyard Kipling es una reflexión sobre la identidad, la amistad y el respeto por las leyes naturales que rigen el mundo, mostrándonos que el valor y la nobleza no dependen de la especie, sino de las acciones y el carácter de cada individuo.",
+      "characterCount": 1395,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-robin-hood",
+      "title": "Robin Hood",
+      "category": "Leyenda",
+      "difficulty": 5,
+      "order": 15,
+      "content": "La leyenda de Robin Hood nos transporta a los tiempos del rey Ricardo Corazón de León y a los espesos bosques de Sherwood, en Inglaterra. Robin era un arquero excepcional y un noble que, tras ser injustamente despojado de sus tierras por el malvado Sheriff de Nottingham, decide convertirse en un fuera de la ley para luchar contra la tiranía y la opresión. Su lema es famoso en todo el mundo: 'Robar a los ricos para dar a los pobres'. Junto a sus fieles 'Alegres Compadres', entre los que destacan el gigantesco Pequeño Juan y el bonachón Fray Tuck, Robin organiza emboscadas ingeniosas contra los poderosos que abusan del pueblo humilde. Es conocido por su destreza inigualable con el arco, siendo capaz de partir una flecha con otra en los torneos más difíciles. A pesar de vivir al margen de la ley, Robin Hood es un modelo de honor, generosidad y lealtad a su verdadero rey. Sus aventuras, llenas de humor, disfraces y duelos de esgrima, representan el deseo eterno de justicia social y la rebelión del corazón humano contra la avaricia de los poderosos. La figura de Robin Hood ha inspirado innumerables historias, poemas y películas, recordándonos que un verdadero héroe es aquel que utiliza sus talentos para proteger a los más débiles y luchar por un mundo más justo para todos.",
+      "characterCount": 1365,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-rey-arturo",
+      "title": "El Rey Arturo",
+      "category": "Leyenda",
+      "difficulty": 5,
+      "order": 16,
+      "content": "La historia del Rey Arturo comienza en una Inglaterra dividida y sumida en el caos tras la muerte del rey Uther Pendragon. Según la profecía, solo aquel capaz de extraer una espada mágica clavada en una roca y un yunque de hierro sería el legítimo heredero al trono. Muchos caballeros poderosos y nobles orgullosos lo intentaron durante años, pero ninguno logró mover la espada ni un milímetro. Arturo era un joven escudero humilde que ignoraba su origen real y servía a su hermano adoptivo en un torneo. Un día, al olvidar la espada de su hermano, vio la que estaba en la roca y, con un movimiento natural y sin esfuerzo, la extrajo para entregársela. Este acto milagroso reveló ante todo el reino que Arturo era el verdadero rey elegido por el destino. Con la ayuda del sabio mago Merlín, Arturo unificó el país y fundó la Orden de la Tabla Redonda en su castillo de Camelot, donde los caballeros más valientes se sentaban en círculo para demostrar que todos eran iguales ante la justicia y el honor. Su reinado se convirtió en una era dorada de caballería, búsqueda del Santo Grial y defensa de los ideales más nobles. La leyenda de Arturo es un símbolo de la esperanza en un líder justo y sabio capaz de traer paz y prosperidad a un mundo en conflicto, recordándonos que la verdadera grandeza a menudo reside en la humildad y el destino.",
+      "characterCount": 1425,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-tres-mosqueteros",
+      "title": "Los Tres Mosqueteros",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 17,
+      "content": "D'Artagnan, un joven gascón valiente y algo impetuoso, llega a París con el sueño de unirse al cuerpo de élite de los Mosqueteros del Rey Luis XIII. Casi por accidente, termina desafiando a duelo el mismo día a tres de los mosqueteros más famosos: Athos, Porthos y Aramis. Sin embargo, cuando los guardias del Cardenal Richelieu intentan arrestarlos por batirse en duelo, los cuatro deciden luchar juntos, naciendo así una amistad inquebrantable que cambiará sus vidas para siempre. Bajo el lema '¡Uno para todos y todos para uno!', se ven envueltos en una red de intrigas políticas, amores prohibidos y misiones secretas para proteger el honor de la Reina Ana de Austria frente a los complots del Cardenal y la peligrosa Milady de Winter. A través de persecuciones a caballo, duelos de espada en posadas oscuras y viajes arriesgados hasta las costas de Inglaterra, los mosqueteros demuestran que la lealtad y el valor son más fuertes que cualquier ejército. La novela de Alejandro Dumas es una celebración de la camaradería, el panache francés y el espíritu de aventura, mostrándonos que no hay obstáculo insuperable cuando se cuenta con la confianza ciega de los amigos. Es un relato épico que ha cautivado a lectores de todas las edades, transportándolos a una Francia de capa y espada donde el honor se defendía con la punta del acero y la palabra dada era sagrada.",
+      "characterCount": 1456,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-guerra-mundos",
+      "title": "La Guerra de los Mundos",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 18,
+      "content": "A finales del siglo XIX, la humanidad se ve sorprendida por la caída de una serie de cilindros metálicos gigantes procedentes de Marte en las cercanías de Londres. De su interior surgen los marcianos, seres con mentes frías y calculadoras que pilotan máquinas de guerra trípodes de dimensiones colosales. Armados con un rayo de calor devastador y un humo negro venenoso, los invasores comienzan a destruir sistemáticamente todo a su paso, derrotando sin esfuerzo a los ejércitos humanos más avanzados de la época. La sociedad se desmorona ante el pánico, y Londres se convierte en una ciudad fantasma mientras la población huye desesperada. El narrador observa con horror cómo la tecnología superior de los extraterrestres convierte a la humanidad en una presa fácil, y parece que el fin de nuestra civilización es inevitable. Sin embargo, cuando todo parece perdido y los marcianos están a punto de conquistar el mundo entero, ocurre algo inesperado: los invasores empiezan a morir uno tras otro de forma repentina. No han sido derrotados por las armas humanas, sino por las bacterias y microbios más insignificantes de la Tierra, contra los cuales los marcianos no tenían defensas naturales. La novela de H.G. Wells es una advertencia sobre la fragilidad humana y la soberbia tecnológica, recordándonos que incluso el invasor más poderoso puede ser vencido por los elementos más elementales de la naturaleza que hemos aprendido a ignorar.",
+      "characterCount": 1465,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-hombre-invisible",
+      "title": "El Hombre Invisible",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 19,
+      "content": "Griffin, un brillante pero desequilibrado científico, descubre una fórmula química que permite volver invisible el cuerpo humano al cambiar su índice de refracción. Al principio, Griffin ve en su descubrimiento una oportunidad para obtener poder y riqueza ilimitada, creyendo que podrá actuar sin ser visto y sin consecuencias. Sin embargo, pronto descubre que la invisibilidad es una maldición práctica: debe estar completamente desnudo para no ser detectado, lo que lo expone al frío glacial del invierno inglés, y le resulta casi imposible comer o dormir en lugares públicos. Su aislamiento y la frustración de no poder revertir el proceso lo llevan a un estado de paranoia y locura, iniciando un 'reinado de terror' en un pequeño pueblo. Se convierte en un criminal despiadado, robando y atacando a cualquiera que se cruce en su camino. Finalmente, la comunidad se une para perseguirlo, utilizando perros y trampas para detectar su presencia invisible. En un clímax trágico y violento, Griffin es acorralado y golpeado hasta la muerte por una multitud enfurecida. En el momento de expirar, su cuerpo empieza a recuperar su visibilidad lentamente, revelando ante los ojos de todos al hombre destrozado que se ocultaba tras el vacío. La obra de H.G. Wells es una profunda reflexión sobre la ética científica y cómo el poder sin responsabilidad y el aislamiento social pueden destruir la humanidad de un individuo.",
+      "characterCount": 1482,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    },
+    {
+      "id": "spa-grade5-dracula",
+      "title": "El Conde Drácula",
+      "category": "Literature",
+      "difficulty": 5,
+      "order": 20,
+      "content": "La novela de Bram Stoker comienza con el viaje del joven abogado Jonathan Harker a los remotos montes Cárpatos, en Transilvania, para ayudar al enigmático Conde Drácula con la compra de propiedades en Londres. Harker descubre con horror que su anfitrión es en realidad un vampiro milenario, un ser 'no-muerto' que se alimenta de la sangre de los vivos y posee poderes sobrenaturales como transformarse en lobo o murciélago. Drácula viaja a Inglaterra oculto en un barco, sembrando la muerte y el terror a su paso, con el objetivo de convertir a la moderna Londres en su nuevo coto de caza. El sabio profesor Abraham Van Helsing, experto en conocimientos antiguos y medicina moderna, une fuerzas con un grupo de valientes para detener la amenaza del vampiro. Utilizando herramientas tradicionales como el ajo, los crucifijos, el agua bendita y las estacas de madera, inician una persecución épica que los lleva de vuelta al corazón de Transilvania. La lucha es una batalla entre la luz de la razón y la oscuridad de las supersticiones ancestrales. Finalmente, logran acorralar a Drácula en su ataúd y destruirlo justo antes del atardecer, liberando así al mundo de su sombra maléfica. Drácula es el mito definitivo del vampiro, una historia que explora los miedos más profundos de la humanidad hacia la muerte, el deseo y lo desconocido.",
+      "characterCount": 1456,
+      "chineseCharCount": 0,
+      "language": "spanish"
+    }
+  ]
 }
