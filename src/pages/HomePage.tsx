@@ -214,8 +214,8 @@ export function HomePage() {
               onChange={(e) => i18n.changeLanguage(e.target.value)}
               className="appearance-none pl-10 pr-8 py-2 rounded-full bg-white text-gray-600 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#90caf9] shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100 min-w-[120px]"
             >
-              <option value="zh">中文</option>
               <option value="en">English</option>
+              <option value="zh">中文</option>
               <option value="es">Español</option>
               <option value="ja">日本語</option>
               <option value="pt">Português</option>

@@ -21,7 +21,7 @@ const languages = [];
 const dirs = fs.readdirSync(lessonsDir).filter(f => fs.statSync(path.join(lessonsDir, f)).isDirectory());
 
 // Sort languages to match preferred order if possible, or just alphabetical
-const order = ['chinese', 'english', 'japanese', 'spanish', 'portuguese', 'french', 'german', 'italian'];
+const order = ['english', 'chinese', 'japanese', 'spanish', 'portuguese', 'french', 'german', 'italian'];
 dirs.sort((a, b) => {
     const idxA = order.indexOf(a);
     const idxB = order.indexOf(b);
