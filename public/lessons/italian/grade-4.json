@@ -1,0 +1,205 @@
+{
+  "grade": "Classe 4",
+  "lessons": [
+    {
+      "id": "italian-grade4-lesson1",
+      "title": "La città smarrita nella neve",
+      "category": "Italo Calvino",
+      "difficulty": 4,
+      "order": 1,
+      "content": "Una mattina Marcovaldo aprì la finestra e non riconobbe più la sua città. Tutto era coperto da un soffice manto bianco che silenziava ogni rumore. Le automobili sembravano enormi bignè di panna e i lampioni portavano buffi cappelli di neve. Per un momento, la metropoli grigia e ostile era diventata un regno di fiaba, dove il tempo sembrava essersi fermato e dove anche un povero operaio poteva sentirsi il padrone di un mondo pulito e magico, lontano dalla fatica e dal rumore quotidiano.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson2",
+      "title": "Il clima in Italia",
+      "category": "Sussidiario",
+      "difficulty": 4,
+      "order": 2,
+      "content": "L'Italia è una penisola bagnata dal mare e protetta dalle montagne, per questo ha un clima molto vario. Al nord, le Alpi fanno da scudo contro i venti freddi del nord Europa. Al centro, gli Appennini dividono il versante tirrenico da quello adriatico. Al sud, il sole scalda le coste per molti mesi all'anno, permettendo la coltivazione di arance, limoni e ulivi. Questa varietà rende il nostro paesaggio unico e amato dai turisti di tutto il mondo, che vengono per godere della sua bellezza naturale.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson3",
+      "title": "Gelsomino nel paese dei bugiardi",
+      "category": "Gianni Rodari",
+      "difficulty": 4,
+      "order": 3,
+      "content": "Gelsomino aveva una voce così potente che, quando cantava, faceva crollare i muri e scoppiare le lampadine. Un giorno arrivò in un paese dove la legge obbligava tutti a dire bugie. Al mercato si vendevano 'palle' invece di pane e i gatti dovevano abbaiare. Gelsomino, con la forza della sua verità e della sua voce, decise di ribellarsi. Cantò così forte che le bugie volarono via come foglie secche, restituendo alla gente la libertà di parlare con il cuore e di riscoprire il valore delle parole vere.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson4",
+      "title": "L'impero romano",
+      "category": "Sussidiario",
+      "difficulty": 4,
+      "order": 4,
+      "content": "Roma non fu costruita in un giorno. Da piccolo villaggio di pastori sul colle Palatino, divenne la capitale di un impero immenso che abbracciava tre continenti. I Romani erano grandi ingegneri: costruirono strade diritte che collegavano terre lontane, acquedotti per portare l'acqua nelle città e anfiteatri come il Colosseo per i giochi dei gladiatori. La loro lingua, il latino, è la madre dell'italiano e di molte altre lingue che parliamo ancora oggi, segno di una civiltà che ha segnato la storia.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson5",
+      "title": "Il visconte dimezzato",
+      "category": "Italo Calvino",
+      "difficulty": 4,
+      "order": 5,
+      "content": "Il visconte Medardo di Terralba fu colpito da una palla di cannone durante la guerra contro i turchi e rimase diviso in due metà perfette. Una metà era malvagia e seminava terrore nel castello, mentre l'altra era fin troppo buona e cercava di rimediare ai danni del fratello. Questa storia ci insegna che in ogni essere umano convivono luci e ombre, e che solo l'unione di queste parti diverse può rendere una persona completa e veramente umana, capace di affrontare la vita con equilibrio e saggezza.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson6",
+      "title": "Il vulcano e la terra",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 6,
+      "content": "Sotto la crosta terrestre, il calore è così intenso che le rocce si sciolgono diventando magma. Quando il magma trova una fessura, esce in superficie sotto forma di lava incandescente, gas e ceneri: è l'eruzione vulcanica. I vulcani possono essere attivi, spenti o quiescenti, come se stessero dormendo. Anche se spaventosi, i vulcani sono fondamentali per il pianeta: hanno creato nuove terre e reso fertili i suoli grazie ai minerali contenuti nelle loro ceneri, permettendo alla vita di fiorire rigogliosa.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson7",
+      "title": "La scoperta dell'America",
+      "category": "Storia",
+      "difficulty": 4,
+      "order": 7,
+      "content": "Nel 1492, il navigatore genovese Cristoforo Colombo partì dalla Spagna con tre caravelle: la Niña, la Pinta e la Santa Maria. Il suo obiettivo era raggiungere le Indie navigando verso occidente, attraversando l'ignoto oceano Atlantico. Dopo settimane di navigazione, il 12 ottobre avvistò finalmente terra. Colombo era convinto di essere arrivato in Asia, ma in realtà aveva scoperto un nuovo continente: l'America. Questo viaggio cambiò per sempre la storia del mondo, aprendo nuove rotte e nuovi scambi.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson8",
+      "title": "L'ecosistema del bosco",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 8,
+      "content": "Un bosco non è solo un insieme di alberi, ma un ecosistema complesso dove ogni essere vivente ha un ruolo preciso. Le piante producono l'ossigeno che respiriamo e offrono cibo e rifugio agli animali. Gli erbivori, come i cervi e gli scoiattoli, si nutrono di foglie e frutti, mentre i predatori mantengono l'equilibrio della popolazione. Anche i funghi e i batteri sono importanti: decompongono le foglie secche trasformandole in sali minerali per il terreno. È una catena della vita perfetta che dobbiamo proteggere.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson9",
+      "title": "Leonardo da Vinci, genio universale",
+      "category": "Storia",
+      "difficulty": 4,
+      "order": 9,
+      "content": "Leonardo da Vinci è stato uno dei più grandi geni della storia dell'umanità. Pittore, scultore, architetto, ma anche scienziato e inventore, Leonardo osservava la natura con una curiosità infinita. Nei suoi famosi taccuini disegnò macchine volanti, sottomarini e anatomie umane perfette. La sua opera più celebre, la Gioconda, incanta ancora oggi milioni di visitatori per il suo sorriso misterioso. Leonardo ci ha insegnato che l'arte e la scienza sono due facce della stessa medaglia: la ricerca della verità.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson10",
+      "title": "Il ciclo delle rocce",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 10,
+      "content": "Le rocce che formano la crosta terrestre non sono immutabili, ma subiscono una continua trasformazione nel corso di milioni di anni. Le rocce ignee nascono dal raffreddamento del magma, mentre quelle sedimentarie si formano per l'accumulo di sabbia e detriti trasportati dall'acqua e dal vento. Sotto l'azione di forti pressioni e calore, queste rocce possono trasformarsi in rocce metamorfiche. È un ciclo lento e inarrestabile che modella il paesaggio del nostro pianeta, creando montagne, valli e abissi marini.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson11",
+      "title": "La rivoluzione industriale",
+      "category": "Storia",
+      "difficulty": 4,
+      "order": 11,
+      "content": "Verso la fine del Settecento, l'invenzione della macchina a vapore diede inizio alla rivoluzione industriale. Le fabbriche sostituirono i laboratori artigianali e la produzione divenne molto più veloce e abbondante. Le persone iniziarono a lasciare le campagne per trasferirsi nelle città in cerca di lavoro, cambiando profondamente il modo di vivere e di lavorare. Nacquero i treni e le grandi navi d'acciaio, accorciando le distanze tra i continenti e aprendo la strada all'era moderna in cui viviamo oggi.",
+      "characterCount": 498,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson12",
+      "title": "L'atmosfera terrestre",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 12,
+      "content": "L'atmosfera è l'involucro di gas che circonda la Terra e rende possibile la vita. È composta principalmente da azoto e ossigeno, ma contiene anche anidride carbonica e vapore acqueo. L'atmosfera ci protegge dai raggi solari più pericolosi e mantiene la temperatura del pianeta entro limiti accettabili grazie all'effetto serra naturale. Negli strati più alti si trova l'ozono, uno scudo prezioso contro le radiazioni ultraviolette. Dobbiamo evitare di inquinare l'aria per non alterare questo equilibrio delicato.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson13",
+      "title": "I viaggi di Marco Polo",
+      "category": "Storia",
+      "difficulty": 4,
+      "order": 13,
+      "content": "Marco Polo era un giovane mercante veneziano che nel tredicesimo secolo intraprese un viaggio straordinario lungo la Via della Seta fino alla Cina. Visse per molti anni alla corte del grande Kublai Khan, ammirando città splendide, invenzioni sconosciute come la carta moneta e costumi affascinanti. Al suo ritorno a Venezia, raccontò le sue avventure nel libro intitolato 'Il Milione'. Le sue descrizioni dell'Oriente misterioso ispirarono generazioni di esploratori e cartografi, aprendo nuovi orizzonti alla mente.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson14",
+      "title": "L'energia solare",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 14,
+      "content": "Il sole è la fonte di energia primaria per quasi tutti i processi che avvengono sulla Terra. Senza la luce solare, le piante non potrebbero compiere la fotosintesi e non ci sarebbe cibo per gli animali. Oggi impariamo a usare l'energia del sole anche per produrre elettricità grazie ai pannelli fotovoltaici, un modo pulito e rinnovabile che non inquina l'ambiente. Sfruttare le energie della natura, come il sole e il vento, è la sfida più importante per garantire un futuro sostenibile al nostro pianeta.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson15",
+      "title": "La caduta dell'impero romano",
+      "category": "Storia",
+      "difficulty": 4,
+      "order": 15,
+      "content": "Dopo secoli di gloria, l'impero romano d'occidente iniziò a indebolirsi a causa di crisi economiche, lotte interne e le invasioni dei popoli germanici. Nel 476 dopo Cristo, l'ultimo imperatore Romolo Augustolo fu deposto, segnando la fine di un'era e l'inizio del Medioevo. Anche se l'impero politico era crollato, la cultura, il diritto e la lingua latina rimasero le fondamenta su cui si costruì la nuova Europa. Le strade, gli acquedotti e le città romane continuarono a testimoniare la grandezza del passato.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson16",
+      "title": "Il sistema solare",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 16,
+      "content": "Il nostro sistema solare è composto dal Sole e da otto pianeti che gli ruotano attorno seguendo orbite precise. I pianeti più vicini al Sole, come Mercurio, Venere, Terra e Marte, sono piccoli e rocciosi. Quelli più lontani, come Giove e Saturno, sono invece giganti gassosi circondati da anelli di ghiaccio e polvere. Oltre i pianeti ci sono asteroidi, comete e pianeti nani come Plutone. L'universo è un luogo immenso e ancora in gran parte sconosciuto, che aspetta di essere esplorato dalle future generazioni.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson17",
+      "title": "L'invenzione della stampa",
+      "category": "Storia",
+      "difficulty": 4,
+      "order": 17,
+      "content": "Verso la metà del Quattrocento, il tedesco Johannes Gutenberg inventò la stampa a caratteri mobili. Prima di allora, i libri venivano copiati a mano dai monaci amanuensi ed erano rarissimi e molto costosi. Grazie alla stampa, divenne possibile produrre molte copie di un libro in poco tempo, rendendo la cultura accessibile a un numero sempre maggiore di persone. Questa invenzione favorì la diffusione delle idee e delle conoscenze scientifiche, portando a una vera rivoluzione culturale in tutta Europa.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson18",
+      "title": "L'apparato digerente",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 18,
+      "content": "L'apparato digerente è il sistema che permette al nostro corpo di trasformare il cibo in energia e sostanze nutritive. Tutto inizia nella bocca, dove il cibo viene masticato e mescolato alla saliva. Attraverso l'esofago arriva nello stomaco, dove i succhi gastrici continuano la scomposizione. Nell'intestino tenue avviene l'assorbimento dei nutrienti che passano nel sangue, mentre le sostanze di scarto vengono eliminate. Mangiare cibi sani e vari è fondamentale per mantenere questo apparato in buona salute.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson19",
+      "title": "La civiltà greca e la filosofia",
+      "category": "Storia",
+      "difficulty": 4,
+      "order": 19,
+      "content": "L'antica Grecia è stata la culla della civiltà occidentale. Oltre alla democrazia e all'arte, i Greci hanno inventato la filosofia, che significa 'amore per la sapienza'. Pensatori come Socrate, Platone e Aristotele iniziarono a porsi domande profonde sul senso della vita, sulla giustizia e sulla natura del mondo, cercando risposte basate sulla ragione invece che sui miti. I loro insegnamenti hanno influenzato il pensiero umano per oltre duemila anni e sono ancora oggi studiati in tutte le scuole del mondo.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade4-lesson20",
+      "title": "L'acqua, risorsa preziosa",
+      "category": "Scienza",
+      "difficulty": 4,
+      "order": 20,
+      "content": "L'acqua è l'elemento essenziale per la vita sulla Terra. Anche se il nostro pianeta è coperto per gran parte dagli oceani, solo una piccolissima percentuale è acqua dolce utilizzabile dall'uomo. L'acqua si muove continuamente attraverso il ciclo idrologico: evapora, forma le nuvole e torna a terra sotto forma di pioggia o neve. Oggi l'acqua è minacciata dall'inquinamento e dagli sprechi. Risparmiare acqua e proteggere le sorgenti pulite è un dovere di ogni cittadino per garantire la vita alle future generazioni.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    }
+  ]
+}

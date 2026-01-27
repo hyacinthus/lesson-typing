@@ -198,6 +198,34 @@ const resources = {
                 "grade": "Note: "
             }
         }
+    },
+    it: {
+        translation: {
+            "app_title": "Pratica di Dattilografia per la Scuola Primaria",
+            "start": "Inizia la Pratica",
+            "hero_subtitle": "Esercitati a scrivere con testi familiari",
+            "next_lesson": "Prossima Lezione",
+            "select_grade": "Seleziona Classe",
+            "all_grades": "Tutte le Classi",
+            "language": "Lingua",
+            "loading": "Caricamento...",
+            "error": "Errore",
+            "results": "Risultati",
+            "wpm": "PPM",
+            "accuracy": "Precisione",
+            "time": "Tempo",
+            "back_home": "Torna alla Home",
+            "restart": "Ricomincia",
+            "stats": {
+                "duration": "Durata",
+                "char_speed": "Velocità Caratteri",
+                "char_unit": "Car/min",
+                "wpm_title": "PPM",
+                "wpm_unit": "Parole/min",
+                "accuracy": "Precisione",
+                "grade": "Classe: "
+            }
+        }
     }
 };
 

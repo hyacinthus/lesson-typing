@@ -293,6 +293,48 @@
           "gradeId": "grade-6"
         }
       ]
+    },
+    {
+      "id": "italian",
+      "name": "Italiano",
+      "grades": [
+        {
+          "id": "italian-grade-1",
+          "name": "Classe 1",
+          "path": "italian/grade-1.json",
+          "gradeId": "grade-1"
+        },
+        {
+          "id": "italian-grade-2",
+          "name": "Classe 2",
+          "path": "italian/grade-2.json",
+          "gradeId": "grade-2"
+        },
+        {
+          "id": "italian-grade-3",
+          "name": "Classe 3",
+          "path": "italian/grade-3.json",
+          "gradeId": "grade-3"
+        },
+        {
+          "id": "italian-grade-4",
+          "name": "Classe 4",
+          "path": "italian/grade-4.json",
+          "gradeId": "grade-4"
+        },
+        {
+          "id": "italian-grade-5",
+          "name": "Classe 5",
+          "path": "italian/grade-5.json",
+          "gradeId": "grade-5"
+        },
+        {
+          "id": "italian-grade-6",
+          "name": "Classe 6",
+          "path": "italian/grade-6.json",
+          "gradeId": "grade-6"
+        }
+      ]
     }
   ]
 }

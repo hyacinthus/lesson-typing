@@ -1,0 +1,205 @@
+{
+  "grade": "Classe 3",
+  "lessons": [
+    {
+      "id": "italian-grade3-lesson1",
+      "title": "Il libro degli errori",
+      "category": "Gianni Rodari",
+      "difficulty": 3,
+      "order": 1,
+      "content": "In un paese lontano esisteva un libro magico dove tutti gli errori di ortografia diventavano realtà. Se un bambino scriveva 'cane' con due 'n', nasceva subito un cane con due code che correva per le strade abbaiando in modo strano. Se qualcuno scriveva 'cielo' senza la 'i', il cielo diventava scuro e senza stelle. Fu così che tutti impararono a scrivere correttamente, non per paura del maestro, ma per mantenere il mondo bello e ordinato, dove ogni cosa aveva il suo nome giusto.",
+      "characterCount": 497,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson2",
+      "title": "Gli uomini della preistoria",
+      "category": "Sussidiario",
+      "difficulty": 3,
+      "order": 2,
+      "content": "Migliaia di anni fa, i nostri antenati vivevano nelle caverne per proteggersi dal freddo e dagli animali feroci. Impararono a costruire strumenti usando la pietra, il legno e le ossa. La scoperta più importante fu il fuoco, che serviva per scaldarsi, illuminare la notte e cuocere il cibo. Sulle pareti delle grotte dipingevano scene di caccia, sperando che questo portasse fortuna per la prossima spedizione nella foresta selvaggia, in un mondo dove la sopravvivenza era una sfida quotidiana.",
+      "characterCount": 498,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson3",
+      "title": "I funghi in città",
+      "category": "Italo Calvino",
+      "difficulty": 3,
+      "order": 3,
+      "content": "Il vento, venendo in città da lontano, vi porta doni insoliti. Marcovaldo, un operaio con l'occhio attento alla natura, un mattino notò qualcosa di strano vicino alla fermata del tram. Tra la polvere e il cemento, erano spuntati dei piccoli funghi. Per lui, quel grigio marciapiede era diventato improvvisamente un bosco incantato. Sognava già una cena prelibata, dimenticando per un attimo la fatica del lavoro e il rumore delle macchine, felice di aver trovato un briciolo di vita nel grigiore.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson4",
+      "title": "Il fiume Po",
+      "category": "Sussidiario",
+      "difficulty": 3,
+      "order": 4,
+      "content": "Il Po è il fiume più lungo d'Italia e attraversa tutta la Pianura Padana come un grande serpente d'argento. Nasce dal Monviso, tra le alte montagne delle Alpi, e scende verso la valle bagnando campi di riso e grandi città. Lungo le sue rive crescono pioppi e canneti dove vivono molti uccelli acquatici. Alla fine del suo viaggio, il fiume incontra il mare Adriatico creando un delta meraviglioso, fatto di terra e acqua che si confondono in un paesaggio unico e pieno di vita naturale.",
+      "characterCount": 495,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson5",
+      "title": "La strada di cioccolato",
+      "category": "Gianni Rodari",
+      "difficulty": 3,
+      "order": 5,
+      "content": "Tre fratellini di Barletta trovarono una strada fatta tutta di cioccolato. Cominciarono a mangiarla un pezzetto alla volta, ed era così buona che non riuscivano a smettere. Mangiarono chilometri di strada, incontrando alberi di biscotto e fontane di gazzosa. Quando arrivarono a casa, i loro vestiti erano tutti macchiati, ma i loro cuori erano pieni di gioia. Avevano scoperto che la dolcezza può nascondersi anche nei sentieri più inaspettati, se solo si ha il coraggio di seguirli con curiosità.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson6",
+      "title": "L'invenzione della scrittura",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 6,
+      "content": "I Sumeri, un antico popolo che viveva in Mesopotamia, furono i primi a inventare la scrittura circa cinquemila anni fa. All'inizio usavano dei piccoli disegni chiamati pittogrammi per rappresentare oggetti e animali. Poi i segni divennero più semplici, a forma di cuneo, e per questo la loro scrittura fu chiamata cuneiforme. Scrivevano su tavolette di argilla fresca con un bastoncino appuntito. Grazie a questa invenzione, gli uomini poterono finalmente tramandare le loro leggi e le loro storie.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson7",
+      "title": "Le Alpi e gli Appennini",
+      "category": "Geografia",
+      "difficulty": 3,
+      "order": 7,
+      "content": "L'Italia è un paese di montagne. A nord si estendono le Alpi, le vette più alte d'Europa, con ghiacciai perenni e boschi di conifere. Lungo tutta la penisola, come una lunga colonna vertebrale, corrono invece gli Appennini. Queste montagne sono meno alte delle Alpi e hanno cime più dolci e arrotondate, coperte di boschi di faggi e querce. Tra le montagne si aprono valli fertili e pascoli dove d'estate pascolano le mucche e le pecore, in un paesaggio che cambia colore in ogni stagione dell'anno.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson8",
+      "title": "Il faraone e le piramidi",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 8,
+      "content": "Nell'antico Egitto, il faraone era considerato un dio in terra e il suo potere era immenso. Per onorare i sovrani defunti, gli Egizi costruirono le piramidi, monumenti grandiosi fatti di enormi blocchi di pietra. La più famosa è la piramide di Cheope, una delle sette meraviglie del mondo antico. Dentro queste costruzioni venivano nascosti tesori preziosi e oggetti quotidiani che servivano al faraone per la vita nell'aldilà. Ancora oggi, queste opere ci stupiscono per la loro bellezza e maestosità.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson9",
+      "title": "La macchia mediterranea",
+      "category": "Geografia",
+      "difficulty": 3,
+      "order": 9,
+      "content": "Lungo le coste del mar Mediterraneo cresce una vegetazione particolare chiamata macchia mediterranea. È formata da arbusti sempreverdi come il mirto, il lentisco e il rosmarino, che emanano un profumo intenso e piacevole. Qui crescono anche i pini marittimi dalle chiome a ombrello e i maestosi lecci. Gli animali che vivono in questo ambiente sono i cinghiali, le volpi e molti uccelli migratori. È un ecosistema prezioso che va protetto dagli incendi e dall'eccessiva costruzione di case e alberghi.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson10",
+      "title": "Le prime città della storia",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 10,
+      "content": "Con lo sviluppo dell'agricoltura, gli uomini smisero di essere nomadi e diventarono sedentari, costruendo i primi villaggi vicino ai grandi fiumi. Col tempo, alcuni villaggi si ingrandirono fino a diventare vere e proprie città, circondate da alte mura per la difesa. Al centro della città sorgeva il tempio o il palazzo del re. Gli abitanti non erano solo contadini, ma anche artigiani, mercanti e scribi. La nascita delle città segnò l'inizio di civiltà complesse e organizzate che cambiarono il mondo.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson11",
+      "title": "Il vulcano Etna",
+      "category": "Geografia",
+      "difficulty": 3,
+      "order": 11,
+      "content": "L'Etna, situato in Sicilia, è il vulcano attivo più alto d'Europa. Dalla sua cima esce spesso un pennacchio di fumo bianco, e a volte il vulcano regala spettacolari eruzioni di lava incandescente. Nonostante il pericolo, le pendici dell'Etna sono molto popolate perché la terra vulcanica è estremamente fertile e adatta alla coltivazione di viti, ulivi e agrumi. D'inverno, la cima del vulcano si copre di neve e si può persino sciare guardando il mare azzurro, in un contrasto di colori davvero unico.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson12",
+      "title": "La vita nel castello medievale",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 12,
+      "content": "Nel Medioevo, i signori vivevano in castelli fortificati costruiti su colline o luoghi difficili da raggiungere. Il castello era circondato da alte mura e da un fossato pieno d'acqua, con un ponte levatoio che veniva sollevato in caso di attacco. All'interno c'erano grandi sale riscaldate da enormi camini, stalle per i cavalli e magazzini per le provviste. La vita nel castello era animata da cavalieri, dame, scudieri e menestrelli che allietavano le serate con musiche e racconti di gesta eroiche.",
+      "characterCount": 498,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson13",
+      "title": "La Pianura Padana",
+      "category": "Geografia",
+      "difficulty": 3,
+      "order": 13,
+      "content": "La Pianura Padana è la più grande pianura d'Italia e si estende tra le Alpi e gli Appennini. Migliaia di anni fa era coperta dalle acque del mare, poi i fiumi hanno trasportato detriti creando questa vasta distesa fertile. Oggi è una delle zone più abitate e produttive d'Europa, con grandi campi coltivati a cereali, allevamenti moderni e molte industrie. Le nebbie invernali e l'afa estiva sono caratteristiche di questo clima, che ha permesso lo sviluppo di una cucina ricca e di tradizioni antiche.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson14",
+      "title": "I Greci e le Olimpiadi",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 14,
+      "content": "Gli antichi Greci amavano molto lo sport e consideravano la salute del corpo importante quanto quella della mente. Ogni quattro anni, in onore del dio Zeus, si svolgevano le Olimpiadi nella città di Olimpia. Durante le gare, tutte le guerre tra le città greche venivano sospese. Gli atleti si sfidavano nella corsa, nel lancio del disco, nel salto in lungo e nella lotta. Il vincitore riceveva in premio solo una corona di rami d'ulivo, ma tornava nella sua città come un eroe ammirato da tutti.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson15",
+      "title": "L'ambiente marino",
+      "category": "Geografia",
+      "difficulty": 3,
+      "order": 15,
+      "content": "Il mare non è solo una distesa d'acqua salata, ma un mondo pieno di vita e di risorse. Lungo le coste italiane troviamo spiagge sabbiose, scogliere a picco e lagune tranquille. Sotto la superficie, la vita si organizza in ecosistemi complessi: le praterie di posidonia proteggono le coste dall'erosione e offrono rifugio a molti piccoli pesci. Il mare influenza anche il clima, rendendo le temperature più miti. Dobbiamo rispettare questo ambiente fragile, evitando l'inquinamento e la pesca eccessiva.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson16",
+      "title": "I Fenici, navigatori del Mediterraneo",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 16,
+      "content": "I Fenici erano un popolo di abili navigatori e mercanti che vivevano lungo le coste dell'attuale Libano. Poiché la loro terra era stretta tra il mare e le montagne, impararono a costruire navi robuste usando il legno dei cedri. Esplorarono tutto il Mediterraneo, fondando colonie importanti come Cartagine. Erano famosi per la produzione della porpora, un colorante prezioso ottenuto da un mollusco marino. A loro dobbiamo anche l'invenzione dell'alfabeto fonetico, l'antenato di quello che usiamo oggi.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson17",
+      "title": "I laghi italiani",
+      "category": "Geografia",
+      "difficulty": 3,
+      "order": 17,
+      "content": "L'Italia è ricca di laghi bellissimi, nati in modi diversi nel corso dei millenni. A nord troviamo i grandi laghi alpini, come il Lago di Garda e il Lago di Como, che occupano valli scavate dagli antichi ghiacciai. Nel centro Italia ci sono invece laghi di origine vulcanica, come quello di Bolsena, che riempiono i crateri di vulcani spenti da tempo. Le rive dei laghi godono spesso di un clima mite, che permette la crescita di piante mediterranee e attira turisti da tutto il mondo per la loro bellezza.",
+      "characterCount": 500,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson18",
+      "title": "Gli Etruschi e il mistero dell'aldilà",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 18,
+      "content": "Prima della nascita di Roma, nell'Italia centrale vivevano gli Etruschi, un popolo colto e raffinato. Erano bravissimi artigiani dell'oro e della ceramica, e amavano organizzare banchetti allietati dalla musica e dalla danza. Gli Etruschi davano molta importanza al culto dei morti: costruivano necropoli monumentali con tombe dipinte che sembravano vere case. All'interno deponevano oggetti preziosi e vasi decorati, perché credevano che la vita continuasse in modo sereno anche dopo la morte fisica.",
+      "characterCount": 498,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson19",
+      "title": "Il clima della montagna",
+      "category": "Geografia",
+      "difficulty": 3,
+      "order": 19,
+      "content": "In montagna il clima cambia man mano che si sale di quota. In basso troviamo boschi di latifoglie come querce e castagni. Più su l'aria diventa più fresca e i boschi si trasformano in foreste di conifere, con pini e abeti che resistono meglio al freddo. Oltre i duemila metri, gli alberi scompaiono lasciando il posto ai pascoli d'alta quota e alle rocce nude. D'inverno la neve copre tutto, mentre d'estate la montagna offre aria pulita e un rifugio fresco per chi scappa dal caldo delle grandi città.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade3-lesson20",
+      "title": "La democrazia ad Atene",
+      "category": "Storia",
+      "difficulty": 3,
+      "order": 20,
+      "content": "Nell'antica Atene nacque la democrazia, una forma di governo dove il potere appartiene ai cittadini. Per la prima volta nella storia, gli uomini liberi potevano riunirsi nell'agorà, la grande piazza della città, per discutere e votare le leggi. Anche se non tutti erano considerati cittadini, questa idea fu rivoluzionaria: le decisioni non venivano più prese da un unico sovrano assoluto, ma dalla comunità. Questo principio di partecipazione e libertà è ancora oggi alla base delle nostre società.",
+      "characterCount": 499,
+      "chineseCharCount": 0
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "grade": "Classe 2",
+  "lessons": [
+    {
+      "id": "italian-grade2-lesson1",
+      "title": "Il principe granchio",
+      "category": "Italo Calvino",
+      "difficulty": 2,
+      "order": 1,
+      "content": "C’era una volta un Re che aveva una figlia bellissima. Un giorno, mentre la principessa passeggiava sulla spiaggia, vide un grosso granchio che usciva dall'acqua. Il granchio le parlò con voce umana e le chiese di essere portato nel suo palazzo. La ragazza, stupita ma curiosa, lo raccolse e lo mise in un secchiello d'oro. Non sapeva che quel granchio era in realtà un giovane principe colpito da un potente incantesimo che solo il vero amore avrebbe potuto spezzare.",
+      "characterCount": 468,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson2",
+      "title": "Il giovane gambero",
+      "category": "Gianni Rodari",
+      "difficulty": 2,
+      "order": 2,
+      "content": "Un giovane gambero pensò: 'Perché nella mia famiglia tutti camminano all'indietro? Voglio imparare a camminare in avanti, come le rane, e se mi casca la coda ci rimetterò la coda'. Cominciò a esercitarsi di nascosto tra i sassi del ruscello. All'inizio era faticoso e cadeva spesso, ma lui non si arrese. Voleva dimostrare che si può cambiare il proprio destino anche se tutti gli altri dicono che è impossibile, perché la volontà è più forte di qualsiasi vecchia abitudine di famiglia.",
+      "characterCount": 483,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson3",
+      "title": "Il ciclo dell'acqua",
+      "category": "Sussidiario",
+      "difficulty": 2,
+      "order": 3,
+      "content": "Una piccola goccia d'acqua di nome Gocciolina viveva nel mare azzurro. Un giorno il sole la scaldò tanto che lei si sentì leggera e volò verso l'alto, diventando vapore. Insieme a tante amiche formò una nuvola grigia e soffice. Quando sentì il freddo della montagna, Gocciolina tornò a essere acqua e cadde come pioggia, bagnando i fiori e i campi assetati, prima di ritornare nel grande abbraccio dell'oceano, pronta a ricominciare il suo meraviglioso viaggio infinito intorno al mondo.",
+      "characterCount": 487,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson4",
+      "title": "Alice Cascherina",
+      "category": "Gianni Rodari",
+      "difficulty": 2,
+      "order": 4,
+      "content": "Alice Cascherina cadeva sempre e dappertutto. Il nonno la cercava per portarla ai giardini e la chiamava: 'Alice, dove sei?'. Ma Alice era caduta nella sveglia ed era finita tra gli ingranaggi che facevano tic-tac. Un'altra volta era caduta in una bottiglia ed era rimasta a galla come un tappo di sughero. Era così piccola che poteva stare ovunque, e ogni caduta per lei era l'inizio di una nuova, incredibile avventura che la portava a scoprire mondi minuscoli e fantastici.",
+      "characterCount": 481,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson5",
+      "title": "La fattoria",
+      "category": "Sussidiario",
+      "difficulty": 2,
+      "order": 5,
+      "content": "Nella fattoria del nonno c'è sempre un gran da fare. Al mattino presto il gallo canta per svegliare tutti. Le mucche aspettano pazientemente nella stalla, mentre le galline razzolano nell'aia in cerca di chicchi di grano. Il contadino prepara il trattore per andare nei campi. È un mondo pieno di vita e di profumi naturali, dove ogni stagione porta un frutto diverso e ogni animale ha un compito importante da svolgere per la comunità, in armonia con i ritmi lenti della terra.",
+      "characterCount": 481,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson6",
+      "title": "Il pescatore e il pesciolino",
+      "category": "Fiaba",
+      "difficulty": 2,
+      "order": 6,
+      "content": "Un povero pescatore gettò la rete in mare e tirò su un pesciolino tutto d'oro. 'Ti prego, lasciami andare', disse il pesciolino con voce tremante, 'e io esaudirò ogni tuo desiderio'. Il pescatore, che era un uomo buono, lo liberò senza chiedere nulla. Ma sua moglie, quando lo seppe, divenne molto avida e volle sempre di più: una casa grande, un castello, il potere assoluto. Alla fine, per la troppa superbia, perse tutto e tornò a vivere nella sua vecchia e umile capanna di legno.",
+      "characterCount": 488,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson7",
+      "title": "Il vento e il sole",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 7,
+      "content": "Il vento di tramontana e il sole stavano litigando per stabilire chi di loro fosse il più forte. Videro un viandante che camminava avvolto in un pesante mantello. 'Scommettiamo che riuscirò a togliergli il mantello?', disse il vento. Soffiò con violenza, ma l'uomo si strinse ancora di più. Allora il sole uscì dalle nuvole e scaldò l'aria con dolcezza. L'uomo, sentendo il calore, si tolse il mantello da solo. La gentilezza e la persuasione spesso ottengono più della forza bruta.",
+      "characterCount": 485,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson8",
+      "title": "La formica e la cicala",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 8,
+      "content": "Durante l'estate, la formica lavorava duramente per accumulare provviste nella sua tana. La cicala invece passava le giornate a cantare e a godersi il sole, prendendosi gioco della formica. Quando arrivò l'inverno gelido, la cicala si trovò senza nulla da mangiare e andò a bussare alla porta della formica chiedendo aiuto. 'Se hai cantato d'estate, adesso balla d'inverno', rispose la formica. Questa storia ci insegna che è importante essere previdenti e pensare al domani.",
+      "characterCount": 484,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson9",
+      "title": "Il lupo e l'agnello",
+      "category": "Fedro",
+      "difficulty": 2,
+      "order": 9,
+      "content": "Un lupo affamato arrivò a un ruscello e vide un agnello che beveva tranquillamente più a valle. Cercando un pretesto per mangiarlo, gridò: 'Perché mi sporchi l'acqua che sto bevendo?'. L'agnello rispose con dolcezza: 'Ma signore, l'acqua scorre da voi verso di me'. Il lupo, infuriato per non aver ragione, inventò altre scuse assurde e alla fine sbranò il povero piccolo. Il prepotente non ha bisogno di motivi giusti per fare del male, ma trova sempre una scusa per giustificarsi.",
+      "characterCount": 490,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson10",
+      "title": "Il topo di città e il topo di campagna",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 10,
+      "content": "Un topo di città andò a trovare suo cugino in campagna. Mangiarono erbe e radici, e il topo di città disse: 'Vieni con me, ti farò vedere come si vive bene'. Arrivati nel palazzo, trovarono una tavola piena di prelibatezze. Ma all'improvviso arrivarono i padroni di casa con grossi cani e i topi dovettero fuggire terrorizzati. 'Preferisco la mia povera vita tranquilla', disse il topo di campagna, 'piuttosto che vivere nel lusso tra continui pericoli e grandi spaventi'.",
+      "characterCount": 486,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson11",
+      "title": "Il leone e il topo",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 11,
+      "content": "Un piccolo topo passò sopra il muso di un leone addormentato. Il leone si svegliò e lo afferrò con la zampa. 'Ti prego, lasciami andare', supplicò il topo, 'un giorno potrei ricambiarti il favore'. Il leone pianse dal ridere ma lo liberò. Poco tempo dopo, il leone finì in una rete dei cacciatori. Il topo, sentendo i suoi ruggiti, corse in aiuto e rosicchiò le corde liberando il re della foresta. Anche un piccolo amico può dimostrarsi di grande aiuto nei momenti di difficoltà.",
+      "characterCount": 487,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson12",
+      "title": "La volpe e la cicogna",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 12,
+      "content": "La volpe invitò a cena la cicogna e, per farle un dispetto, servì del brodo in un piatto piano. La cicogna non riusciva a mangiare nulla con il suo lungo becco. Qualche giorno dopo, la cicogna ricambiò l'invito e servì la carne in un vaso dal collo lungo e stretto. Questa volta fu la volpe a restare a bocca asciutta. Chi usa l'inganno contro gli altri deve aspettarsi di essere ripagato con la stessa moneta. La correttezza e il rispetto sono alla base di ogni vera amicizia.",
+      "characterCount": 486,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson13",
+      "title": "Il corvo e la volpe",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Un corvo aveva rubato un pezzo di formaggio e si era appollaiato sul ramo di un albero. Una volpe, che voleva il formaggio, cominciò a lodarlo: 'Che belle piume hai! Se la tua voce è bella come il tuo aspetto, sei certo il re degli uccelli'. Il corvo, lusingato, aprì il becco per gracchiare e il formaggio cadde dritto nella bocca della volpe. La vanità spesso ci rende ciechi e ci fa cadere nelle trappole dei furbi che sanno come usare le belle parole per ingannarci.",
+      "characterCount": 483,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson14",
+      "title": "La tartaruga e la lepre",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 14,
+      "content": "La lepre prendeva sempre in giro la tartaruga per la sua lentezza. 'Scommettiamo che arrivo prima io al traguardo?', disse la tartaruga. La gara iniziò e la lepre, sicura di vincere, si fermò a fare un pisolino sotto un albero. La tartaruga invece continuò a camminare piano ma senza mai fermarsi. Quando la lepre si svegliò e corse verso la meta, trovò la tartaruga che l'aspettava già lì sorridente. Con la costanza e l'impegno si possono raggiungere traguardi inaspettati.",
+      "characterCount": 486,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson15",
+      "title": "L'asino nella pelle del leone",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Un asino trovò la pelle di un leone e se la mise addosso per spaventare tutti gli animali del bosco. Tutti fuggivano terrorizzati e l'asino si sentiva molto importante e potente. Ma quando provò a ruggire, emise solo un sonoro raglio. Un contadino che passava di lì riconobbe subito la voce e lo bastonò per bene. Non basta indossare abiti eleganti o fingere di essere qualcuno che non siamo: la nostra vera natura prima o poi viene sempre a galla e ci tradisce davanti agli altri.",
+      "characterCount": 487,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson16",
+      "title": "La gallina dalle uova d'oro",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Un contadino possedeva una gallina che ogni giorno deponeva un uovo d'oro zecchino. Pensando che dentro la pancia della gallina ci fosse un tesoro immenso, decise di ucciderla per prenderlo tutto in una volta. Ma quando la aprì, scoprì che era fatta esattamente come tutte le altre galline e non trovò traccia d'oro. Per la troppa avidità, perse la piccola fortuna che riceveva ogni giorno. Bisogna sapersi accontentare di quello che si ha e non cercare scorciatoie pericolose.",
+      "characterCount": 486,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson17",
+      "title": "Il cervo alla fonte",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Un cervo si specchiò in una fonte e ammirò le sue corna ramose, ma si vergognò delle sue gambe sottili. All'improvviso arrivò un leone e il cervo fuggì nel bosco. Le gambe lo portarono lontano velocemente, ma le corna rimasero impigliate tra i rami e il leone lo raggiunse. Prima di morire, il cervo pensò: 'Che sciocco sono stato! Ho disprezzato ciò che mi stava salvando e ho lodato ciò che mi ha portato alla rovina'. Spesso le cose utili non sono quelle che ci appaiono più belle.",
+      "characterCount": 489,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson18",
+      "title": "Il topo e la rana",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 18,
+      "content": "Un topo di terra voleva attraversare uno stagno e chiese aiuto a una rana. La rana, che era cattiva, si legò la zampa a quella del topo e cominciò a nuotare. Quando furono in mezzo all'acqua, la rana cercò di trascinare il topo sul fondo per farlo annegare. Ma proprio in quel momento passò un nibbio che vide il topo agitarsi, lo afferrò e portò via con sé anche la rana che era legata a lui. Chi prepara una trappola per gli altri spesso finisce per caderci lui stesso per primo.",
+      "characterCount": 487,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson19",
+      "title": "Il pastore bugiardo",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 19,
+      "content": "Un giovane pastore si divertiva a gridare 'Al lupo! Al lupo!' per far accorrere i contadini in suo aiuto. Quando questi arrivavano e non vedevano nulla, lui rideva di gusto. Un giorno il lupo arrivò davvero e il pastore gridò con quanta forza aveva in gola, ma nessuno si mosse pensando che fosse il solito scherzo. Il lupo sbranò tutto il gregge senza che nessuno intervenisse. Chi dice sempre bugie non viene creduto nemmeno quella volta che, purtroppo, dice finalmente la verità.",
+      "characterCount": 488,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade2-lesson20",
+      "title": "La volpe e l'uva",
+      "category": "Esopo",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Una volpe affamata vide dei bei grappoli d'uva matura che pendevano da un'alta vite. Provò a saltare con tutte le sue forze per raggiungerli, ma ogni tentativo fu inutile perché l'uva era troppo in alto. Stanca e delusa, se ne andò dicendo: 'Tanto è ancora acerba e sicuramente non sarebbe stata buona'. Molte persone si comportano proprio così: quando non riescono a ottenere qualcosa che desiderano molto, fingono di disprezzarla per non ammettere il proprio fallimento.",
+      "characterCount": 481,
+      "chineseCharCount": 0
+    }
+  ]
+}

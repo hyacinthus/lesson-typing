@@ -1,0 +1,205 @@
+{
+  "grade": "Classe 1",
+  "lessons": [
+    {
+      "id": "italian-grade1-lesson1",
+      "title": "Il palazzo di gelato",
+      "category": "Gianni Rodari",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Una volta, a Bologna, fecero un palazzo di gelato proprio sulla Piazza Maggiore, e i bambini venivano da lontano per dargli una leccatina. Il tetto era di panna montata, le colonne di zucchero filato e le finestre di fragola. Tutto era dolce e colorato, e persino le guardie comunali chiudevano un occhio per permettere a tutti di assaggiare un pezzetto di quel castello incantato che profumava di vaniglia e di estate.",
+      "characterCount": 442,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson2",
+      "title": "L'autunno",
+      "category": "Sussidiario",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Quando arriva l'autunno, gli alberi cambiano vestito. Le foglie diventano gialle, rosse e marroni, poi cadono a terra come una pioggia colorata. Il riccio si prepara per il lungo sonno invernale sotto una coperta di foglie secche. Il sole è meno caldo e le giornate si accorciano, ma nei boschi maturan le castagne e i funghi. È un tempo di pace e di preparazione per la terra che si riposa.",
+      "characterCount": 418,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson3",
+      "title": "A sbagliare le storie",
+      "category": "Gianni Rodari",
+      "difficulty": 1,
+      "order": 3,
+      "content": "C'era una volta una bambina che si chiamava Cappuccetto Giallo. No, Rosso! Ah, sì, Cappuccetto Rosso. La sua mamma la chiamò e le disse: Vai dalla zia Diomira a portarle questa buccia di patata. No: vai dalla nonna a portarle questa focaccia. La bambina andò nel bosco e incontrò una giraffa. Ma no, era un lupo! Sbagliare le storie è un gioco divertente che fa ridere tutti i bambini del mondo.",
+      "characterCount": 425,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson4",
+      "title": "Il mio gatto",
+      "category": "Sussidiario",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Il mio gatto si chiama Baffo. Ha il pelo morbido come la seta e gli occhi che brillano al buio come due piccole lanterne verdi. Quando è felice, fa le fusa: un rumore leggero che sembra un motorino lontano. Gli piace dormire al sole e rincorrere i fili di lana colorata. È un amico fedele che sa ascoltare senza parlare, e mi aspetta sempre davanti alla porta quando torno da scuola con lo zaino pesante.",
+      "characterCount": 431,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson5",
+      "title": "Il semaforo blu",
+      "category": "Gianni Rodari",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Un giorno il semaforo che sta in Piazza del Duomo a Milano fece una stranezza. Tutte le sue luci, improvvisamente, diventarono blu. La gente non sapeva più cosa fare. Gli automobilisti si fermavano grattandosi la testa, i vigili fischiavano senza sapere perché. Quel blu era il colore del cielo e invitava tutti a volare con la fantasia, lasciando perdere la fretta e il rumore della città affollata.",
+      "characterCount": 419,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson6",
+      "title": "La primavera",
+      "category": "Sussidiario",
+      "difficulty": 1,
+      "order": 6,
+      "content": "In primavera la natura si risveglia dal lungo sonno invernale. I prati si coprono di fiori colorati: primule, viole e margherite spuntano timidamente tra l'erba verde. Gli alberi mettono le prime gemme e l'aria profuma di nuovo. Le rondini tornano dai paesi caldi e costruiscono i loro nidi sotto i tetti delle case. È una stagione piena di allegria, dove ogni creatura sembra festeggiare il ritorno del sole e della vita.",
+      "characterCount": 448,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson7",
+      "title": "Il sole e la nuvola",
+      "category": "Gianni Rodari",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Il sole viaggiava per il cielo, fiero e splendente sul suo carro di fuoco, gettando i suoi raggi in tutte le direzioni. Una nuvola di temporale, nera e gonfia d'acqua, lo guardava con invidia. 'Sei un dissipatore', brontolava la nuvola, 'sprechi la tua luce per niente'. Ma il sole sorrideva e continuava a regalare il suo calore a tutti: ai fiori, agli alberi e persino alla nuvola brontolona, perché sapeva che donare è la gioia più grande.",
+      "characterCount": 476,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson8",
+      "title": "La scuola",
+      "category": "Vita",
+      "difficulty": 1,
+      "order": 8,
+      "content": "La mia scuola è un edificio grande e luminoso con tante finestre che guardano sul giardino. Ogni mattina entro in classe con i miei compagni e saluto la maestra con un sorriso. Sul mio banco ci sono i quaderni, le matite colorate e il libro di lettura. Impariamo a scrivere le prime parole e a contare con i numeri. Durante l'intervallo giochiamo tutti insieme a rincorrerci nel cortile, felici di stare in compagnia e di scoprire cose nuove ogni giorno.",
+      "characterCount": 485,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson9",
+      "title": "Il cane e l'osso",
+      "category": "Esopo",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Un cane portava un bel pezzo di carne in bocca e attraversava un ponte sopra un ruscello. Guardando nell'acqua, vide la sua immagine riflessa e pensò che fosse un altro cane con un pezzo di carne ancora più grande del suo. Per l'avidità, aprì la bocca per rubare la carne all'altro cane, ma la sua cadde nell'acqua e sparì tra le onde. Rimase così senza nulla, capendo troppo tardi che chi troppo vuole, nulla stringe.",
+      "characterCount": 448,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson10",
+      "title": "La stella stellina",
+      "category": "Filastrocca",
+      "difficulty": 1,
+      "order": 10,
+      "content": "Stella stellina, la notte si avvicina, la fiamma traballa, la mucca è nella stalla. La pecora e l'agnello, la vacca e il suo vitello, la chioccia e il pulcino, ognuno ha il suo bambino. Ognuno ha la sua mamma e tutti fan la nanna. La luna brilla nel cielo scuro e protegge il sonno di tutti i piccoli del mondo, mentre un dolce silenzio scende sulle case e sui prati addormentati, portando sogni d'oro e di pace.",
+      "characterCount": 447,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson11",
+      "title": "Il vento dispettoso",
+      "category": "Natura",
+      "difficulty": 1,
+      "order": 11,
+      "content": "Oggi soffia un vento forte e dispettoso che fa volare i cappelli dei signori per la strada. Scuote i rami degli alberi e fa ballare le foglie secche in un girotondo colorato. La mia mantellina si gonfia come la vela di una barca e io mi diverto a correre controcorrente. Il vento sibila tra le fessure delle porte e sembra che voglia raccontarci un segreto che viene da lontano, dalle montagne coperte di neve o dal mare profondo.",
+      "characterCount": 453,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson12",
+      "title": "Il pesciolino rosso",
+      "category": "Animali",
+      "difficulty": 1,
+      "order": 12,
+      "content": "Nella boccia di vetro nuota un pesciolino rosso dalle squame brillanti. Muove la coda con eleganza e apre la bocca come se volesse parlare. Tra i sassolini colorati e le piantine verdi, sembra un piccolo re nel suo castello trasparente. Quando gli porto il cibo, sale in superficie e fa delle piccole bolle di sapone. È bello osservarlo mentre scivola silenzioso nell'acqua, portando un briciolo di magia e di colore nella mia cameretta.",
+      "characterCount": 466,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson13",
+      "title": "La pioggia",
+      "category": "Natura",
+      "difficulty": 1,
+      "order": 13,
+      "content": "Cade la pioggia leggera sulle strade e sui tetti delle case. Le goccioline picchiettano sui vetri della finestra facendo un rumore ritmico e rilassante. Indosso i miei stivaletti di gomma e apro l'ombrello colorato per andare a scuola. Le pozzanghere sembrano piccoli specchi dove si riflette il cielo grigio. La terra beve l'acqua con sete e i fiori sollevano la testa, ringraziando per questo dono prezioso che fa crescere l'erba e maturare i frutti.",
+      "characterCount": 472,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson14",
+      "title": "Il treno dei sogni",
+      "category": "Gianni Rodari",
+      "difficulty": 1,
+      "order": 14,
+      "content": "Un treno corre veloce sulla ferrovia della fantasia, portando vagoni pieni di desideri e di speranze. Non ha bisogno di carbone o di elettricità, ma si muove con la forza dei pensieri dei bambini. Attraversa foreste di caramelle e montagne di panna montata, fermandosi in ogni stazione dove c'è qualcuno che sa ancora sognare. Se chiudi gli occhi, puoi sentire il fischio della locomotiva che ti invita a salire a bordo per un viaggio indimenticabile.",
+      "characterCount": 473,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson15",
+      "title": "La luna",
+      "category": "Scienza",
+      "difficulty": 1,
+      "order": 15,
+      "content": "La luna è l'unica compagna della terra nel grande spazio vuoto. Non brilla di luce propria, ma riflette quella del sole come un enorme specchio d'argento. A volte è tonda e piena come una torta, altre volte è sottile come uno spicchio d'arancia. Gli antichi poeti le dedicavano canti e i navigatori la usavano per orientarsi nei mari bui. Resta lassù, silenziosa e misteriosa, a vegliare sulle nostre notti e a ispirare i sogni di chi guarda il cielo stellato.",
+      "characterCount": 484,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson16",
+      "title": "L'albero di mele",
+      "category": "Natura",
+      "difficulty": 1,
+      "order": 16,
+      "content": "Nel centro del frutteto cresce un vecchio albero di mele dai rami nodosi e robusti. In primavera si copre di fiori bianchi e rosa che attirano le api operose. In estate, tra le foglie verdi, spuntano i frutti piccoli e duri che piano piano diventano grandi e rossi sotto il sole. Quando arriva l'autunno, le mele sono dolci e succose, pronte per essere raccolte e mangiate. L'albero ci regala la sua ombra fresca e i suoi frutti buoni, chiedendo in cambio solo un po' d'acqua.",
+      "characterCount": 491,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson17",
+      "title": "Il bosco incantato",
+      "category": "Fiaba",
+      "difficulty": 1,
+      "order": 17,
+      "content": "Oltre il sentiero di sassi si stende il bosco incantato, dove gli alberi sembrano giganti gentili che si sussurrano segreti al vento. Sotto le grandi radici vivono i piccoli abitanti della foresta: scoiattoli, ricci e uccellini colorati. La luce del sole filtra tra i rami creando disegni d'oro sul muschio morbido. Se cammini in silenzio, puoi sentire il battito del cuore della natura e scoprire angoli nascosti dove la magia è ancora reale e il tempo sembra essersi fermato.",
+      "characterCount": 485,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson18",
+      "title": "Il mare",
+      "category": "Geografia",
+      "difficulty": 1,
+      "order": 18,
+      "content": "Il mare è una distesa azzurra e infinita che incontra il cielo all'orizzonte. Le onde si rincorrono sulla sabbia dorata, lasciando conchiglie e piccoli tesori bagnati. Mi piace camminare sul bagnasciuga e sentire l'acqua fresca sui piedi. Il profumo del sale riempie l'aria e il verso dei gabbiani accompagna il rumore della risacca. Sotto la superficie vivono pesci di mille colori e creature misteriose che nuotano tra le alghe e i coralli, in un mondo silenzioso e meraviglioso.",
+      "characterCount": 489,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson19",
+      "title": "L'arcobaleno",
+      "category": "Natura",
+      "difficulty": 1,
+      "order": 19,
+      "content": "Dopo il temporale, quando il sole torna a splendere tra le nuvole, appare in cielo l'arcobaleno. È un ponte colorato che unisce la terra al cielo con le sue sette strisce luminose: rosso, arancione, giallo, verde, blu, indaco e violetto. Sembra un nastro di seta steso sopra le colline. La leggenda dice che alla fine dell'arcobaleno ci sia una pentola piena d'oro, ma per noi è già un tesoro vederlo splendere nel cielo pulito, portando un messaggio di pace e di speranza.",
+      "characterCount": 483,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "italian-grade1-lesson20",
+      "title": "La famiglia",
+      "category": "Vita",
+      "difficulty": 1,
+      "order": 20,
+      "content": "La mia famiglia è come un grande albero con radici forti e rami che si protendono verso l'alto. Ci sono il papà, la mamma, i miei fratelli e i nonni che ci raccontano storie antiche. Insieme ridiamo, giochiamo e ci aiutiamo nei momenti difficili. Ogni sera ci riuniamo intorno al tavolo per la cena e ci raccontiamo quello che abbiamo fatto durante la giornata. L'amore che ci unisce è il regalo più prezioso, un porto sicuro dove tornare sempre e sentirsi protetti e felici.",
+      "characterCount": 478,
+      "chineseCharCount": 0
+    }
+  ]
+}
