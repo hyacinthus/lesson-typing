@@ -5,9 +5,9 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
     en: {
         translation: {
-            "app_title": "Primary School Typing Practice",
-            "start": "Start Typing Practice",
-            "hero_subtitle": "Practice typing with familiar texts",
+            "app_title": "Elementary School Typing Practice",
+            "start": "Start Practice",
+            "hero_subtitle": "Practice with familiar texts",
             "next_lesson": "Next Lesson",
             "select_grade": "Select Grade",
             "all_grades": "All Grades",
@@ -18,55 +18,55 @@ const resources = {
             "wpm": "WPM",
             "accuracy": "Accuracy",
             "time": "Time",
-            "back_home": "Back Home",
+            "back_home": "Back to Home",
             "restart": "Restart",
             "stats": {
                 "duration": "Duration",
-                "char_speed": "Char Speed",
+                "char_speed": "Character Speed",
                 "char_unit": "Chars/min",
                 "wpm_title": "WPM",
-                "wpm_unit": "Words/min",
+                "wpm_unit": "words/min",
                 "accuracy": "Accuracy",
-                "grade": "Grade: "
+                "grade": "Rank: "
             }
         }
     },
     zh: {
         translation: {
             "app_title": "小学语文课文打字练习",
-            "start": "开始打字练习",
-            "hero_subtitle": "用你熟悉的课文练习打字",
-            "next_lesson": "下一篇",
+            "start": "开始练习",
+            "hero_subtitle": "用熟悉的课文练习打字",
+            "next_lesson": "下一课",
             "select_grade": "选择年级",
-            "all_grades": "所有年级",
+            "all_grades": "全部年级",
             "language": "语言",
             "loading": "加载中...",
             "error": "错误",
-            "results": "结果",
-            "wpm": "速度 (WPM)",
+            "results": "成绩",
+            "wpm": "WPM",
             "accuracy": "准确率",
             "time": "时间",
             "back_home": "返回首页",
             "restart": "重新开始",
             "stats": {
-                "duration": "时长",
-                "char_speed": "字符速率",
+                "duration": "用时",
+                "char_speed": "字符速度",
                 "char_unit": "字符/分钟",
-                "wpm_title": "速度",
+                "wpm_title": "WPM",
                 "wpm_unit": "字/分钟",
                 "accuracy": "准确率",
-                "grade": "等级: "
+                "grade": "评级: "
             }
         }
     },
     es: {
         translation: {
-            "app_title": "Práctica de Mecanografía",
-            "start": "Empezar",
-            "hero_subtitle": "Practica mecanografía con textos familiares",
-            "next_lesson": "Siguiente Lección",
-            "select_grade": "Seleccionar Grado",
-            "all_grades": "Todos los Grados",
+            "app_title": "Práctica de mecanografía escolar",
+            "start": "Empezar a practicar",
+            "hero_subtitle": "Practica con textos conocidos",
+            "next_lesson": "Siguiente lección",
+            "select_grade": "Elegir grado",
+            "all_grades": "Todos los grados",
             "language": "Idioma",
             "loading": "Cargando...",
             "error": "Error",
@@ -74,55 +74,55 @@ const resources = {
             "wpm": "PPM",
             "accuracy": "Precisión",
             "time": "Tiempo",
-            "back_home": "Volver al Inicio",
+            "back_home": "Volver al inicio",
             "restart": "Reiniciar",
             "stats": {
                 "duration": "Duración",
-                "char_speed": "Vel. Caracteres",
-                "char_unit": "Car/min",
+                "char_speed": "Vel. de caracteres",
+                "char_unit": "car./min",
                 "wpm_title": "PPM",
-                "wpm_unit": "Palabras/min",
+                "wpm_unit": "palabras/min",
                 "accuracy": "Precisión",
-                "grade": "Grado: "
+                "grade": "Nivel: "
             }
         }
     },
     ja: {
         translation: {
-            "app_title": "小学校国語教科書タイピング練習",
+            "app_title": "小学校国語のタイピング練習",
             "start": "タイピング練習を始める",
-            "hero_subtitle": "おなじみの教科書でタイピング練習",
+            "hero_subtitle": "なじみのある教科書でタイピング練習",
             "next_lesson": "次のレッスン",
-            "select_grade": "学年を選択",
+            "select_grade": "学年を選ぶ",
             "all_grades": "全学年",
             "language": "言語",
             "loading": "読み込み中...",
             "error": "エラー",
             "results": "結果",
-            "wpm": "速度 (WPM)",
-            "accuracy": "正確さ",
+            "wpm": "WPM",
+            "accuracy": "正確率",
             "time": "時間",
             "back_home": "ホームに戻る",
-            "restart": "もう一度",
+            "restart": "やり直す",
             "stats": {
-                "duration": "時間",
-                "char_speed": "文字速度",
-                "char_unit": "文字/分",
-                "wpm_title": "速度",
+                "duration": "所要時間",
+                "char_speed": "打鍵速度",
+                "char_unit": "打/分",
+                "wpm_title": "WPM",
                 "wpm_unit": "語/分",
-                "accuracy": "正確さ",
-                "grade": "ランク: "
+                "accuracy": "正確率",
+                "grade": "評価: "
             }
         }
     },
     pt: {
         translation: {
             "app_title": "Prática de Digitação do Ensino Fundamental",
-            "start": "Começar a Praticar",
-            "hero_subtitle": "Pratique digitação com textos familiares",
-            "next_lesson": "Próxima Lição",
-            "select_grade": "Selecionar Série",
-            "all_grades": "Todas as Séries",
+            "start": "Começar a praticar",
+            "hero_subtitle": "Pratique com textos conhecidos",
+            "next_lesson": "Próxima lição",
+            "select_grade": "Selecionar série",
+            "all_grades": "Todas as séries",
             "language": "Idioma",
             "loading": "Carregando...",
             "error": "Erro",
@@ -130,27 +130,27 @@ const resources = {
             "wpm": "PPM",
             "accuracy": "Precisão",
             "time": "Tempo",
-            "back_home": "Voltar ao Início",
-            "restart": "Reiniciar",
+            "back_home": "Voltar ao início",
+            "restart": "Recomeçar",
             "stats": {
                 "duration": "Duração",
-                "char_speed": "Vel. Caracteres",
-                "char_unit": "Car/min",
+                "char_speed": "Vel. de caracteres",
+                "char_unit": "car/min",
                 "wpm_title": "PPM",
-                "wpm_unit": "Palavras/min",
+                "wpm_unit": "palavras/min",
                 "accuracy": "Precisão",
-                "grade": "Nota: "
+                "grade": "Nível: "
             }
         }
     },
     fr: {
         translation: {
-            "app_title": "Entraînement à la Dactylographie Primaire",
+            "app_title": "Entraînement de dactylographie pour le primaire",
             "start": "Commencer",
             "hero_subtitle": "Exercez-vous avec des textes familiers",
-            "next_lesson": "Leçon Suivante",
-            "select_grade": "Choisir le Niveau",
-            "all_grades": "Tous les Niveaux",
+            "next_lesson": "Leçon suivante",
+            "select_grade": "Choisir le niveau",
+            "all_grades": "Tous les niveaux",
             "language": "Langue",
             "loading": "Chargement...",
             "error": "Erreur",
@@ -162,12 +162,12 @@ const resources = {
             "restart": "Recommencer",
             "stats": {
                 "duration": "Durée",
-                "char_speed": "Vit. Caractères",
-                "char_unit": "Car/min",
+                "char_speed": "Vit. des caractères",
+                "char_unit": "car./min",
                 "wpm_title": "MPM",
-                "wpm_unit": "Mots/min",
+                "wpm_unit": "mots/min",
                 "accuracy": "Précision",
-                "grade": "Note: "
+                "grade": "Niveau: "
             }
         }
     },
@@ -175,7 +175,7 @@ const resources = {
         translation: {
             "app_title": "Tipptrainer für die Grundschule",
             "start": "Übung starten",
-            "hero_subtitle": "Übe das Tippen mit bekannten Texten",
+            "hero_subtitle": "Mit vertrauten Texten tippen üben",
             "next_lesson": "Nächste Lektion",
             "select_grade": "Klasse wählen",
             "all_grades": "Alle Klassen",
@@ -186,27 +186,27 @@ const resources = {
             "wpm": "WPM",
             "accuracy": "Genauigkeit",
             "time": "Zeit",
-            "back_home": "Zurück zum Start",
-            "restart": "Neustart",
+            "back_home": "Zur Startseite",
+            "restart": "Neu starten",
             "stats": {
                 "duration": "Dauer",
-                "char_speed": "Zeichen Tempo",
-                "char_unit": "Zei/min",
+                "char_speed": "Zeichentempo",
+                "char_unit": "Zeichen/min",
                 "wpm_title": "WPM",
                 "wpm_unit": "Wörter/min",
                 "accuracy": "Genauigkeit",
-                "grade": "Note: "
+                "grade": "Niveau: "
             }
         }
     },
     it: {
         translation: {
             "app_title": "Pratica di Dattilografia per la Scuola Primaria",
-            "start": "Inizia la Pratica",
-            "hero_subtitle": "Esercitati a scrivere con testi familiari",
-            "next_lesson": "Prossima Lezione",
-            "select_grade": "Seleziona Classe",
-            "all_grades": "Tutte le Classi",
+            "start": "Inizia l'esercizio",
+            "hero_subtitle": "Esercitati con testi familiari",
+            "next_lesson": "Lezione successiva",
+            "select_grade": "Seleziona classe",
+            "all_grades": "Tutte le classi",
             "language": "Lingua",
             "loading": "Caricamento...",
             "error": "Errore",
@@ -214,16 +214,16 @@ const resources = {
             "wpm": "PPM",
             "accuracy": "Precisione",
             "time": "Tempo",
-            "back_home": "Torna alla Home",
+            "back_home": "Torna alla home",
             "restart": "Ricomincia",
             "stats": {
                 "duration": "Durata",
-                "char_speed": "Velocità Caratteri",
-                "char_unit": "Car/min",
+                "char_speed": "Velocità dei caratteri",
+                "char_unit": "car/min",
                 "wpm_title": "PPM",
-                "wpm_unit": "Parole/min",
+                "wpm_unit": "parole/min",
                 "accuracy": "Precisione",
-                "grade": "Classe: "
+                "grade": "Valutazione: "
             }
         }
     }
