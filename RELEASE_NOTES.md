@@ -1,3 +1,8 @@
+## v0.1.1 - 2026-01-28
+- Polish translations for Portuguese, French, German, and Italian UI labels
+
+Diff: https://github.com/hyacinthus/lesson-typing/compare/v0.1.0...v0.1.1
+
 ## v0.1.0 - 2026-01-26
 - Add history-aware practice navigation on the home page
 - Use explicit typing types import extension
