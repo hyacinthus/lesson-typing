@@ -250,11 +250,6 @@ export function HomePage() {
           </button>
         )}
 
-        {!activeLesson && currentGradeId && (
-          <p className="mt-6 text-gray-500 text-lg">
-            {/* Optional: Show how many lessons in pool */}
-          </p>
-        )}
       </main>
     </div>
   );
