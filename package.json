@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "test": "node --experimental-strip-types src/utils/statsCalculator.test.ts",
     "preview": "vite preview"
   },
   "dependencies": {

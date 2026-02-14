@@ -1,5 +1,5 @@
-import type { TypingSession, RealtimeStats } from '../types/typing.types';
-import { CharacterStatus } from '../types/typing.types';
+import type { TypingSession, RealtimeStats } from '../types/typing.types.ts';
+import { CharacterStatus } from '../types/typing.types.ts';
 import { pinyin } from 'pinyin-pro';
 
 /**
