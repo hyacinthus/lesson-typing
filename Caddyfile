@@ -4,6 +4,8 @@
     
     # Handle SPA routing - fallback to index.html for non-existent files
     try_files {path} /index.html
+
+    header Referrer-Policy strict-origin-when-cross-origin
     
     file_server
 }
