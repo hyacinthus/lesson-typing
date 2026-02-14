@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, memo } from 'react';
 import type { Character } from '../../types/typing.types';
 import { CharacterStatus } from '../../types/typing.types';
 
@@ -7,7 +7,7 @@ interface CharacterRendererProps {
   isActive: boolean;
 }
 
-export function CharacterRenderer({ character, isActive }: CharacterRendererProps) {
+export const CharacterRenderer = memo(function CharacterRenderer({ character, isActive }: CharacterRendererProps) {
   const className = useMemo(() => {
     const statusClass = getStatusClass(character.status);
     const activeClass = isActive ? 'cursor-active' : '';
@@ -37,7 +37,7 @@ export function CharacterRenderer({ character, isActive }: CharacterRendererProp
       {displayChar}
     </span>
   );
-}
+});
 
 function getStatusClass(status: CharacterStatus): string {
   switch (status) {
