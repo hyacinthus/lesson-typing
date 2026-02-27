@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { useHistoryStore } from '../../stores/historyStore';
 import { useTypingEngine } from '../../hooks/useTypingEngine';
 import { TypingArea } from '../typing/TypingArea';
+import { UserMenu } from '../auth/UserMenu';
 import { lessonToCharacters } from '../../utils/lessonLoader';
 import type { Lesson, PracticeRecord, RealtimeStats } from '../../types';
 
@@ -57,15 +58,18 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     return (
         <div className="flex flex-col h-full">
             {/* Header for Practice View */}
-            <div className="bg-white shadow-sm px-6 py-4 flex items-center gap-4 z-10 mb-8">
-                <button
-                    onClick={onBack}
-                    className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
-                >
-                    <ArrowLeft size={20} />
-                    {t('back_home')}
-                </button>
-                <h2 className="text-xl font-bold text-gray-800">{lesson.title}</h2>
+            <div className="bg-white shadow-sm px-6 py-4 flex items-center justify-between z-10 mb-8">
+                <div className="flex items-center gap-4">
+                    <button
+                        onClick={onBack}
+                        className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+                    >
+                        <ArrowLeft size={20} />
+                        {t('back_home')}
+                    </button>
+                    <h2 className="text-xl font-bold text-gray-800">{lesson.title}</h2>
+                </div>
+                <UserMenu />
             </div>
 
             <div className="flex-1 w-full max-w-4xl mx-auto px-4">

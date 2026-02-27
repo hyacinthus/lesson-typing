@@ -4,6 +4,7 @@ import { Globe } from 'lucide-react';
 import { useLessonStore } from '../stores/lessonStore';
 import { LessonPractice } from '../components/lesson/LessonPractice';
 import { Logo } from '../components/Logo';
+import { UserMenu } from '../components/auth/UserMenu';
 import type { Lesson } from '../types';
 
 // Map i18n language codes to lesson language IDs
@@ -203,8 +204,8 @@ export function HomePage() {
           </div>
         </div>
 
-        {/* Language Switcher */}
-        <div className="flex justify-end w-full md:w-1/3">
+        {/* Language Switcher & Auth */}
+        <div className="flex justify-end items-center gap-4 w-full md:w-1/3">
           <div className="relative">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-400">
               <Globe size={18} />
@@ -229,6 +230,7 @@ export function HomePage() {
               </svg>
             </div>
           </div>
+          <UserMenu />
         </div>
       </div>
 
