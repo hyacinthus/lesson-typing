@@ -1,6 +1,5 @@
 import { useEffect, useState, useMemo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Globe } from 'lucide-react';
 import { useLessonStore } from '../stores/lessonStore';
 import { LessonPractice } from '../components/lesson/LessonPractice';
 import { Logo } from '../components/Logo';
@@ -209,11 +208,8 @@ export function HomePage() {
             value={i18n.language.split('-')[0]}
             onValueChange={(value) => i18n.changeLanguage(value)}
           >
-            <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white pr-4 pl-3 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
-              <div className="flex items-center gap-2">
-                <Globe size={16} className="text-gray-400" />
-                <SelectValue />
-              </div>
+            <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
+              <SelectValue />
             </SelectTrigger>
             <SelectContent className="border-gray-100 bg-white">
               <SelectItem value="en">English</SelectItem>

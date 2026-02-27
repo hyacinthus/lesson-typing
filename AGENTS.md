@@ -19,6 +19,7 @@
 - Zustand
 - react-router-dom
 - i18next
+- shadcn/ui (Button, Input, Label, Dialog, DropdownMenu, Avatar, Select)
 
 ## Data Maintenance
 - After editing `public/lessons/**/grade-*.json`, run `node rebuild_index.cjs`
@@ -27,6 +28,8 @@
 - All code must be in English
 - Conversation can use the user's language
 - Never commit secrets or sensitive data
+- Always use the app theme color (`#90caf9` / `--primary` in CSS, hover `#64b5f6`) for primary interactive elements; do not use shadcn's default black primary
+- When adding new shadcn/ui components, update the Tech Stack list in this file
 
 ## Git
 - If any git or release operation is needed, read `agent_docs/ci.md` first
