@@ -5,6 +5,7 @@ import { useLessonStore } from '../stores/lessonStore';
 import { LessonPractice } from '../components/lesson/LessonPractice';
 import { Logo } from '../components/Logo';
 import { UserMenu } from '../components/auth/UserMenu';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import type { Lesson } from '../types';
 
 // Map i18n language codes to lesson language IDs
@@ -184,52 +185,47 @@ export function HomePage() {
 
         {/* Grade List */}
         <div className="flex justify-center w-full md:w-1/3">
-          <div className="relative">
-            <select
-              value={currentGradeId || ''}
-              onChange={(e) => setSelectedGrade(e.target.value)}
-              className="appearance-none px-8 py-2 pr-10 rounded-full bg-white text-gray-600 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#90caf9] shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100 min-w-[140px]"
-            >
+          <Select
+            value={currentGradeId ?? undefined}
+            onValueChange={setSelectedGrade}
+            disabled={grades.length === 0}
+          >
+            <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
+              <SelectValue placeholder={t('loading')} />
+            </SelectTrigger>
+            <SelectContent className="border-gray-100 bg-white">
               {grades.map((grade) => (
-                <option key={grade.id} value={grade.id}>
+                <SelectItem key={grade.id} value={grade.id}>
                   {grade.name}
-                </option>
+                </SelectItem>
               ))}
-            </select>
-            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-[#90caf9]">
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-          </div>
+            </SelectContent>
+          </Select>
         </div>
 
         {/* Language Switcher & Auth */}
         <div className="flex justify-end items-center gap-4 w-full md:w-1/3">
-          <div className="relative">
-            <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-400">
-              <Globe size={18} />
-            </div>
-            <select
-              value={i18n.language.split('-')[0]}
-              onChange={(e) => i18n.changeLanguage(e.target.value)}
-              className="appearance-none pl-10 pr-8 py-2 rounded-full bg-white text-gray-600 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-[#90caf9] shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100 min-w-[120px]"
-            >
-              <option value="en">English</option>
-              <option value="zh">中文</option>
-              <option value="es">Español</option>
-              <option value="ja">日本語</option>
-              <option value="pt">Português</option>
-              <option value="fr">Français</option>
-              <option value="de">Deutsch</option>
-              <option value="it">Italiano</option>
-            </select>
-            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-[#90caf9]">
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-          </div>
+          <Select
+            value={i18n.language.split('-')[0]}
+            onValueChange={(value) => i18n.changeLanguage(value)}
+          >
+            <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white pr-4 pl-3 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
+              <div className="flex items-center gap-2">
+                <Globe size={16} className="text-gray-400" />
+                <SelectValue />
+              </div>
+            </SelectTrigger>
+            <SelectContent className="border-gray-100 bg-white">
+              <SelectItem value="en">English</SelectItem>
+              <SelectItem value="zh">中文</SelectItem>
+              <SelectItem value="es">Español</SelectItem>
+              <SelectItem value="ja">日本語</SelectItem>
+              <SelectItem value="pt">Português</SelectItem>
+              <SelectItem value="fr">Français</SelectItem>
+              <SelectItem value="de">Deutsch</SelectItem>
+              <SelectItem value="it">Italiano</SelectItem>
+            </SelectContent>
+          </Select>
           <UserMenu />
         </div>
       </div>

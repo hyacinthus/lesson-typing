@@ -1,32 +1,45 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 import { Auth } from '@supabase/auth-ui-react';
 import { ThemeSupa } from '@supabase/auth-ui-shared';
-import { LogIn, LogOut, User, Chrome, Mail, UserPlus, X } from 'lucide-react';
+import { LogIn, LogOut, User, Chrome, Mail, UserPlus } from 'lucide-react';
 import { useAuthStore } from '../../stores/authStore';
 import { supabase } from '../../lib/supabase';
+import { Button } from '@/components/ui/button';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 type AuthModalView = 'options' | 'sign_in' | 'sign_up';
 
 export function UserMenu() {
   const { user, isLoading, signInWithGoogle, signOut } = useAuthStore();
-  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState<AuthModalView>('options');
-  const menuRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-        setIsUserMenuOpen(false);
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
 
   const closeAuthModal = () => {
     setIsAuthModalOpen(false);
     setAuthModalView('options');
+  };
+
+  const handleAuthModalOpenChange = (open: boolean) => {
+    if (!open) {
+      closeAuthModal();
+      return;
+    }
+    setIsAuthModalOpen(true);
   };
 
   if (isLoading) {
@@ -35,91 +48,79 @@ export function UserMenu() {
 
   if (!user) {
     return (
-      <>
-        <button
-          onClick={() => setIsAuthModalOpen(true)}
-          className="flex items-center gap-2 px-4 py-2 rounded-full bg-white text-gray-600 text-sm font-medium hover:shadow-md transition-shadow border border-gray-100"
-        >
-          <LogIn size={18} className="text-[#90caf9]" />
-          <span>Login</span>
-        </button>
-
-        {isAuthModalOpen && (
-          <div
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/40 p-4"
-            onClick={closeAuthModal}
+      <Dialog open={isAuthModalOpen} onOpenChange={handleAuthModalOpenChange}>
+        <DialogTrigger asChild>
+          <Button
+            variant="outline"
+            className="h-10 rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm hover:bg-white hover:shadow-md"
           >
-            <div
-              className="w-full max-w-md rounded-2xl bg-white p-5 shadow-xl"
-              onClick={(event) => event.stopPropagation()}
-            >
-              <div className="mb-4 flex items-center justify-between">
-                <h3 className="text-lg font-semibold text-gray-800">Welcome</h3>
-                <button
-                  onClick={closeAuthModal}
-                  className="rounded-full p-1 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-                  aria-label="Close login dialog"
-                >
-                  <X size={18} />
-                </button>
-              </div>
+            <LogIn size={18} className="text-[#90caf9]" />
+            <span>Login</span>
+          </Button>
+        </DialogTrigger>
+        <DialogContent className="max-w-md rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-md">
+          <DialogHeader className="mb-1">
+            <DialogTitle className="text-gray-800">Welcome</DialogTitle>
+          </DialogHeader>
 
-              {authModalView === 'options' ? (
-                <div className="space-y-3">
-                  <button
-                    onClick={() => {
-                      void signInWithGoogle().catch((error) => {
-                        console.error('Google sign-in failed:', error);
-                      });
-                      closeAuthModal();
-                    }}
-                    className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors"
-                  >
-                    <Chrome size={18} className="text-red-500" />
-                    <span>Continue with Google</span>
-                  </button>
-                  <button
-                    onClick={() => setAuthModalView('sign_in')}
-                    className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors"
-                  >
-                    <Mail size={18} className="text-[#64b5f6]" />
-                    <span>Login with Email</span>
-                  </button>
-                  <button
-                    onClick={() => setAuthModalView('sign_up')}
-                    className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors"
-                  >
-                    <UserPlus size={18} className="text-[#64b5f6]" />
-                    <span>Register with Email</span>
-                  </button>
-                </div>
-              ) : (
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <button
-                      onClick={() => setAuthModalView('options')}
-                      className="text-sm font-medium text-[#64b5f6] hover:underline"
-                    >
-                      Back
-                    </button>
-                    <span className="text-sm text-gray-500">
-                      {authModalView === 'sign_in' ? 'Email Login' : 'Email Register'}
-                    </span>
-                  </div>
-                  <Auth
-                    supabaseClient={supabase}
-                    providers={[]}
-                    showLinks={false}
-                    view={authModalView}
-                    redirectTo={window.location.origin}
-                    appearance={{ theme: ThemeSupa }}
-                  />
-                </div>
-              )}
+          {authModalView === 'options' ? (
+            <div className="space-y-3">
+              <Button
+                variant="outline"
+                onClick={() => {
+                  void signInWithGoogle().catch((error) => {
+                    console.error('Google sign-in failed:', error);
+                  });
+                  closeAuthModal();
+                }}
+                className="h-auto w-full justify-start gap-3 rounded-xl border-gray-200 py-3 text-gray-700 hover:bg-gray-50"
+              >
+                <Chrome size={18} className="text-red-500" />
+                <span>Continue with Google</span>
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => setAuthModalView('sign_in')}
+                className="h-auto w-full justify-start gap-3 rounded-xl border-gray-200 py-3 text-gray-700 hover:bg-gray-50"
+              >
+                <Mail size={18} className="text-[#64b5f6]" />
+                <span>Login with Email</span>
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => setAuthModalView('sign_up')}
+                className="h-auto w-full justify-start gap-3 rounded-xl border-gray-200 py-3 text-gray-700 hover:bg-gray-50"
+              >
+                <UserPlus size={18} className="text-[#64b5f6]" />
+                <span>Register with Email</span>
+              </Button>
             </div>
-          </div>
-        )}
-      </>
+          ) : (
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <Button
+                  variant="ghost"
+                  onClick={() => setAuthModalView('options')}
+                  className="h-auto px-0 text-sm font-medium text-[#64b5f6] hover:bg-transparent hover:text-[#42a5f5]"
+                >
+                  Back
+                </Button>
+                <span className="text-sm text-gray-500">
+                  {authModalView === 'sign_in' ? 'Email Login' : 'Email Register'}
+                </span>
+              </div>
+              <Auth
+                supabaseClient={supabase}
+                providers={[]}
+                showLinks={false}
+                view={authModalView}
+                redirectTo={window.location.origin}
+                appearance={{ theme: ThemeSupa }}
+              />
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     );
   }
 
@@ -127,40 +128,37 @@ export function UserMenu() {
   const displayName = user.user_metadata.full_name || user.email;
 
   return (
-    <div className="relative" ref={menuRef}>
-      <button
-        onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-        className="flex items-center gap-2 p-1 pr-3 rounded-full bg-white text-gray-600 text-sm font-medium hover:shadow-md transition-shadow border border-gray-100"
-      >
-        {avatarUrl ? (
-          <img src={avatarUrl} alt="avatar" className="w-7 h-7 rounded-full object-cover" />
-        ) : (
-          <div className="w-7 h-7 rounded-full bg-[#90caf9] flex items-center justify-center text-white">
-            <User size={16} />
-          </div>
-        )}
-        <span className="max-w-[100px] truncate">{displayName}</span>
-      </button>
-
-      {isUserMenuOpen && (
-        <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-lg border border-gray-100 py-2 z-50">
-          <div className="px-4 py-2 border-b border-gray-50 mb-1">
-            <p className="text-xs text-gray-400 truncate">{user.email}</p>
-          </div>
-          <button
-            onClick={() => {
-              void signOut().catch((error) => {
-                console.error('Sign-out failed:', error);
-              });
-              setIsUserMenuOpen(false);
-            }}
-            className="w-full flex items-center gap-3 px-4 py-2 text-sm text-red-500 hover:bg-red-50 transition-colors"
-          >
-            <LogOut size={18} />
-            <span>Logout</span>
-          </button>
-        </div>
-      )}
-    </div>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button
+          variant="outline"
+          className="h-10 rounded-full border-gray-100 bg-white p-1 pr-3 text-sm font-medium text-gray-600 shadow-sm hover:bg-white hover:shadow-md"
+        >
+          <Avatar className="size-7">
+            <AvatarImage src={avatarUrl} alt="avatar" className="object-cover" />
+            <AvatarFallback className="bg-[#90caf9] text-white">
+              <User size={16} />
+            </AvatarFallback>
+          </Avatar>
+          <span className="max-w-[100px] truncate">{displayName}</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" className="w-52 rounded-xl border-gray-100 bg-white py-2">
+        <DropdownMenuLabel className="truncate text-xs text-gray-400">{user.email}</DropdownMenuLabel>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem
+          variant="destructive"
+          onSelect={() => {
+            void signOut().catch((error) => {
+              console.error('Sign-out failed:', error);
+            });
+          }}
+          className="gap-3"
+        >
+          <LogOut size={18} />
+          <span>Logout</span>
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
