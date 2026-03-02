@@ -33,7 +33,7 @@ interface PixelCrop {
 
 export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps) {
   const { t } = useTranslation();
-  const { user } = useAuthStore();
+  const { user, profile, refreshProfile } = useAuthStore();
   const [loading, setLoading] = useState(false);
   const [nickname, setNickname] = useState('');
   const [avatarUrl, setAvatarUrl] = useState('');
@@ -50,8 +50,8 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
 
   useEffect(() => {
     if (open && user) {
-      setNickname(user.user_metadata?.full_name || '');
-      setAvatarUrl(user.user_metadata?.avatar_url || '');
+      setNickname(profile?.nickname || user.user_metadata?.full_name || '');
+      setAvatarUrl(profile?.avatar_url || user.user_metadata?.avatar_url || '');
       // Reset crop state
       setImageSrc(null);
       setIsCropping(false);
@@ -59,7 +59,7 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
       setZoom(1);
       setCrop({ x: 0, y: 0 });
     }
-  }, [open, user]);
+  }, [open, user, profile]);
 
   const handleAvatarClick = () => {
     fileInputRef.current?.click();
@@ -107,12 +107,16 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
   };
 
   const handleSave = async () => {
+    if (!user) return;
+
+    console.log('Starting handleSave...', { nickname, avatarUrl });
     try {
       setLoading(true);
       let finalAvatarUrl = avatarUrl;
 
       // Upload blob if exists
       if (pendingUploadBlob && user) {
+        console.log('Uploading new avatar...');
         const fileExt = 'jpg'; // We output jpeg from canvas
         const fileName = `${user.id}/${Date.now()}.${fileExt}`;
 
@@ -123,29 +127,53 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
             contentType: 'image/jpeg',
           });
 
-        if (uploadError) throw uploadError;
+        if (uploadError) {
+          console.error('Upload error:', uploadError);
+          throw uploadError;
+        }
 
         const { data } = supabase.storage.from('avatars').getPublicUrl(fileName);
         finalAvatarUrl = data.publicUrl;
+        console.log('Avatar uploaded:', finalAvatarUrl);
       }
 
-      const { error } = await supabase.auth.updateUser({
+      // Update lt_profiles table
+      const updates = {
+        id: user.id,
+        nickname: nickname,
+        avatar_url: finalAvatarUrl,
+        updated_at: new Date().toISOString(),
+      };
+
+      console.log('Updating lt_profiles...', updates);
+      const { error } = await supabase
+        .from('lt_profiles')
+        .upsert(updates);
+
+      if (error) {
+        console.error('Supabase upsert error:', error);
+        throw error;
+      }
+      
+      console.log('Profile updated in DB, updating auth metadata...');
+      // Also update user metadata for consistency (optional but helpful)
+      await supabase.auth.updateUser({
         data: {
           full_name: nickname,
           avatar_url: finalAvatarUrl,
         },
       });
 
-      if (error) throw error;
-      
+      console.log('Closing dialog and refreshing profile...');
       onOpenChange(false);
-      await supabase.auth.refreshSession();
+      await refreshProfile();
       toast.success(t('auth.profile.success'));
       
     } catch (error) {
       console.error('Error updating profile:', error);
       toast.error(t('auth.profile.error'));
     } finally {
+      console.log('handleSave finished');
       setLoading(false);
     }
   };

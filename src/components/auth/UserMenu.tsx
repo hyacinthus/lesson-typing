@@ -66,7 +66,7 @@ function RegisterMaterialIcon(props: SVGProps<SVGSVGElement>) {
 
 export function UserMenu() {
   const { t } = useTranslation();
-  const { user, isLoading, signInWithGoogle, signOut } = useAuthStore();
+  const { user, profile, isLoading, signInWithGoogle, signOut } = useAuthStore();
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [isEditProfileOpen, setIsEditProfileOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState<AuthModalView>('options');
@@ -162,8 +162,8 @@ export function UserMenu() {
     );
   }
 
-  const avatarUrl = user.user_metadata.avatar_url;
-  const displayName = user.user_metadata.full_name || user.email;
+  const avatarUrl = profile?.avatar_url || user?.user_metadata?.avatar_url;
+  const displayName = profile?.nickname || user?.user_metadata?.full_name || user?.email;
 
   return (
     <>
