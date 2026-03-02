@@ -4,7 +4,6 @@ import { ArrowLeft } from 'lucide-react';
 import { useHistoryStore } from '../../stores/historyStore';
 import { useTypingEngine } from '../../hooks/useTypingEngine';
 import { TypingArea } from '../typing/TypingArea';
-import { UserMenu } from '../auth/UserMenu';
 import { lessonToCharacters } from '../../utils/lessonLoader';
 import type { Lesson, PracticeRecord, RealtimeStats } from '../../types';
 
@@ -62,6 +61,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                 <div className="flex items-center gap-4">
                     <button
                         onClick={onBack}
+                        data-typing-focus-ignore="true"
                         className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
                     >
                         <ArrowLeft size={20} />
@@ -69,7 +69,6 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                     </button>
                     <h2 className="text-xl font-bold text-gray-800">{lesson.title}</h2>
                 </div>
-                <UserMenu />
             </div>
 
             <div className="flex-1 w-full max-w-4xl mx-auto px-4">
