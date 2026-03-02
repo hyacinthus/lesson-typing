@@ -192,7 +192,7 @@ export function HomePage() {
             <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
               <SelectValue placeholder={t('loading')} />
             </SelectTrigger>
-            <SelectContent className="border-gray-100 bg-white">
+            <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
               {grades.map((grade) => (
                 <SelectItem key={grade.id} value={grade.id}>
                   {grade.name}
@@ -211,7 +211,7 @@ export function HomePage() {
             <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
               <SelectValue />
             </SelectTrigger>
-            <SelectContent className="border-gray-100 bg-white">
+            <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
               <SelectItem value="en">English</SelectItem>
               <SelectItem value="zh">中文</SelectItem>
               <SelectItem value="es">Español</SelectItem>
