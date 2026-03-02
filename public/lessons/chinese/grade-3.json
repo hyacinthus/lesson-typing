@@ -1,5 +1,6 @@
 {
-  "grade": "小学三年级",
+  "id": "grade-3",
+  "title": "小学三年级",
   "lessons": [
     {
       "id": "grade3-putao",

@@ -35,9 +35,9 @@ export function HomePage() {
   const { t, i18n } = useTranslation();
   const { lessons, isLoading, error, loadLessons } = useLessonStore();
 
-  const GRADE_STORAGE_KEY = 'lesson-typing-grade';
+  const COLLECTION_STORAGE_KEY = 'lesson-typing-collection';
   const PRACTICE_STATE = 'practice';
-  const [selectedGrade, setSelectedGrade] = useState<string | null>(() => localStorage.getItem(GRADE_STORAGE_KEY));
+  const [selectedCollection, setSelectedCollection] = useState<string | null>(() => localStorage.getItem(COLLECTION_STORAGE_KEY));
   const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
 
   useEffect(() => {
@@ -76,15 +76,15 @@ export function HomePage() {
     return lessons.filter((lesson) => lesson.language === targetLessonLang);
   }, [lessons, i18n.language]);
 
-  // Extract unique grades from filtered lessons
-  const grades = useMemo(() => {
+  // Extract unique collections from filtered lessons
+  const collections = useMemo(() => {
     const uniqueMap = new Map();
     filteredLessons.forEach((l) => {
-      if (!uniqueMap.has(l.gradeId)) {
-        uniqueMap.set(l.gradeId, { id: l.gradeId, name: l.grade });
+      if (!uniqueMap.has(l.collectionId)) {
+        uniqueMap.set(l.collectionId, { id: l.collectionId, name: l.collectionTitle });
       }
     });
-    // Sort by gradeId if possible (assuming format grade-N)
+    // Sort by collectionId if possible (assuming format grade-N)
     return Array.from(uniqueMap.values()).sort((a, b) => {
       // Simple numeric sort if format is grade-N
       const numA = parseInt(a.id.replace('grade-', ''));
@@ -94,25 +94,25 @@ export function HomePage() {
     });
   }, [filteredLessons]);
 
-  const currentGradeId = useMemo(() => {
-    if (selectedGrade && grades.some(g => g.id === selectedGrade)) {
-      return selectedGrade;
+  const currentCollectionId = useMemo(() => {
+    if (selectedCollection && collections.some(c => c.id === selectedCollection)) {
+      return selectedCollection;
     }
-    return grades.length > 0 ? grades[0].id : null;
-  }, [grades, selectedGrade]);
+    return collections.length > 0 ? collections[0].id : null;
+  }, [collections, selectedCollection]);
 
   useEffect(() => {
-    if (currentGradeId) {
-      localStorage.setItem(GRADE_STORAGE_KEY, currentGradeId);
+    if (currentCollectionId) {
+      localStorage.setItem(COLLECTION_STORAGE_KEY, currentCollectionId);
     }
-  }, [currentGradeId]);
+  }, [currentCollectionId]);
 
   const handleStart = () => {
     if (isLoading || filteredLessons.length === 0) return;
 
     let pool = filteredLessons;
-    if (currentGradeId) {
-      pool = filteredLessons.filter(l => l.gradeId === currentGradeId);
+    if (currentCollectionId) {
+      pool = filteredLessons.filter(l => l.collectionId === currentCollectionId);
     }
 
     if (pool.length === 0) return;
@@ -124,9 +124,9 @@ export function HomePage() {
   const handleNextLesson = useCallback(() => {
     if (!activeLesson || filteredLessons.length === 0) return;
 
-    // Filter by same grade as current active lesson
-    const sameGradeLessons = filteredLessons.filter(l => l.grade === activeLesson.grade);
-    const pool = sameGradeLessons.length > 0 ? sameGradeLessons : filteredLessons;
+    // Filter by same collection as current active lesson
+    const sameCollectionLessons = filteredLessons.filter(l => l.collectionTitle === activeLesson.collectionTitle);
+    const pool = sameCollectionLessons.length > 0 ? sameCollectionLessons : filteredLessons;
 
     if (pool.length === 0) return;
 
@@ -182,20 +182,20 @@ export function HomePage() {
           <span className="text-xl font-bold text-gray-800 tracking-tight">LessonTyping</span>
         </div>
 
-        {/* Grade List */}
+        {/* Collection List */}
         <div className="flex justify-center w-full md:w-1/3">
           <Select
-            value={currentGradeId ?? undefined}
-            onValueChange={setSelectedGrade}
-            disabled={grades.length === 0}
+            value={currentCollectionId ?? undefined}
+            onValueChange={setSelectedCollection}
+            disabled={collections.length === 0}
           >
             <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
               <SelectValue placeholder={t('loading')} />
             </SelectTrigger>
             <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
-              {grades.map((grade) => (
-                <SelectItem key={grade.id} value={grade.id}>
-                  {grade.name}
+              {collections.map((collection) => (
+                <SelectItem key={collection.id} value={collection.id}>
+                  {collection.name}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -237,7 +237,7 @@ export function HomePage() {
         ) : (
           <button
             onClick={handleStart}
-            disabled={!currentGradeId && grades.length === 0}
+            disabled={!currentCollectionId && collections.length === 0}
             className="group relative px-10 py-3 bg-primary text-primary-foreground text-xl font-medium rounded-[10px] shadow-sm hover:bg-primary/90 hover:shadow-md transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {t('start')}

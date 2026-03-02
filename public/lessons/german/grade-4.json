@@ -1,5 +1,6 @@
 {
-  "grade": "4. Klasse",
+  "id": "grade-4",
+  "title": "4. Klasse",
   "lessons": [
     {
       "id": "de-grade4-bremer-stadtmusikanten",

@@ -28,13 +28,13 @@ export function LessonList() {
   }, [lessons, i18n.language]);
 
   const groupedLessons = useMemo(() => {
-    const groups: { grade: string; lessons: Lesson[] }[] = [];
+    const groups: { title: string; lessons: Lesson[] }[] = [];
     filteredLessons.forEach((lesson) => {
       const lastGroup = groups[groups.length - 1];
-      if (lastGroup && lastGroup.grade === lesson.grade) {
+      if (lastGroup && lastGroup.title === lesson.collectionTitle) {
         lastGroup.lessons.push(lesson);
       } else {
-        groups.push({ grade: lesson.grade, lessons: [lesson] });
+        groups.push({ title: lesson.collectionTitle, lessons: [lesson] });
       }
     });
     return groups;
@@ -65,9 +65,9 @@ export function LessonList() {
       <h1 className="text-3xl font-bold text-gray-900 mb-8 mt-8">{t('select_grade')}</h1>
 
       {groupedLessons.map((group) => (
-        <div key={group.grade} className="mb-10">
+        <div key={group.title} className="mb-10">
           <h2 className="text-xl font-bold text-gray-800 mb-4 border-l-4 border-primary pl-3">
-            {group.grade}
+            {group.title}
           </h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {group.lessons.map((lesson) => (

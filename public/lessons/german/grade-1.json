@@ -1,5 +1,6 @@
 {
-  "grade": "1. Klasse",
+  "id": "grade-1",
+  "title": "1. Klasse",
   "lessons": [
     {
       "id": "de-grade1-hoppe-reiter",

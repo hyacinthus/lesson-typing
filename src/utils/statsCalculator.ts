@@ -108,19 +108,19 @@ export function formatSpeed(speed: number): string {
 /**
  * 计算等级评价
  */
-export function getGrade(accuracy: number, speed: number): {
-  grade: string;
+export function getScoreLevel(accuracy: number, speed: number): {
+  level: string;
   color: string;
 } {
   if (accuracy >= 95 && speed >= 200) {
-    return { grade: 'S', color: 'text-purple-600' };
+    return { level: 'S', color: 'text-purple-600' };
   } else if (accuracy >= 90 && speed >= 150) {
-    return { grade: 'A', color: 'text-green-600' };
+    return { level: 'A', color: 'text-green-600' };
   } else if (accuracy >= 80 && speed >= 100) {
-    return { grade: 'B', color: 'text-blue-600' };
+    return { level: 'B', color: 'text-blue-600' };
   } else if (accuracy >= 70) {
-    return { grade: 'C', color: 'text-yellow-600' };
+    return { level: 'C', color: 'text-yellow-600' };
   } else {
-    return { grade: 'D', color: 'text-red-600' };
+    return { level: 'D', color: 'text-red-600' };
   }
 }

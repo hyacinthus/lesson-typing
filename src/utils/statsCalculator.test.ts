@@ -1,4 +1,4 @@
-import { getGrade } from './statsCalculator.ts';
+import { getScoreLevel } from './statsCalculator.ts';
 
 function assert(condition: boolean, message: string) {
   if (!condition) {
@@ -7,7 +7,7 @@ function assert(condition: boolean, message: string) {
   }
 }
 
-console.log('Running tests for getGrade...');
+console.log('Running tests for getScoreLevel...');
 
 const testCases = [
   // Grade S: accuracy >= 95 and speed >= 200
@@ -39,9 +39,9 @@ const testCases = [
 ];
 
 testCases.forEach(({ accuracy, speed, expected }) => {
-  const result = getGrade(accuracy, speed);
-  assert(result.grade === expected, `getGrade(${accuracy}, ${speed}) should be ${expected}, but got ${result.grade}`);
-  console.log(`✓ getGrade(${accuracy}, ${speed}) === ${expected}`);
+  const result = getScoreLevel(accuracy, speed);
+  assert(result.level === expected, `getScoreLevel(${accuracy}, ${speed}) should be ${expected}, but got ${result.level}`);
+  console.log(`✓ getScoreLevel(${accuracy}, ${speed}) === ${expected}`);
 });
 
-console.log('\n✅ All getGrade tests passed!');
+console.log('\n✅ All getScoreLevel tests passed!');

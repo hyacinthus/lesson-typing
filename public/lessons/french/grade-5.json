@@ -1,5 +1,6 @@
 {
-  "grade": "CM2",
+  "id": "grade-5",
+  "title": "CM2",
   "lessons": [
     {
       "id": "fr-cm2-tour-monde",

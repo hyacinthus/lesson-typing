@@ -1,5 +1,6 @@
 {
-  "grade": "CM1",
+  "id": "grade-4",
+  "title": "CM1",
   "lessons": [
     {
       "id": "fr-cm1-chevre-seguin",

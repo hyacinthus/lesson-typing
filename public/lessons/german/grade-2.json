@@ -1,5 +1,6 @@
 {
-  "grade": "2. Klasse",
+  "id": "grade-2",
+  "title": "2. Klasse",
   "lessons": [
     {
       "id": "de-grade2-spatzen",

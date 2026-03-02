@@ -1,5 +1,6 @@
 {
-  "grade": "Classe 4",
+  "id": "grade-4",
+  "title": "Classe 4",
   "lessons": [
     {
       "id": "italian-grade4-lesson1",

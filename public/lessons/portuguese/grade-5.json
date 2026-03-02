@@ -1,5 +1,6 @@
 {
-  "grade": "5º Ano",
+  "id": "grade-5",
+  "title": "5º Ano",
   "lessons": [
     {
       "id": "pt-grade5-saci",

@@ -1,5 +1,6 @@
 {
-  "grade": "CP",
+  "id": "grade-1",
+  "title": "CP",
   "lessons": [
     {
       "id": "french-au-clair-de-la-lune",

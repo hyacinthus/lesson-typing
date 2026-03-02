@@ -1,5 +1,6 @@
 {
-  "grade": "2º Ano",
+  "id": "grade-2",
+  "title": "2º Ano",
   "lessons": [
     {
       "id": "pt-grade2-cigarra",

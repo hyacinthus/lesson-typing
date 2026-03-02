@@ -32,14 +32,14 @@ async function loadAllLessons() {
     const promises = [];
 
     for (const lang of index.languages) {
-        for (const grade of lang.grades) {
+        for (const collection of lang.collections) {
             promises.push(
-                loadGradeLessons(grade.path).then((data) => ({
+                loadGradeLessons(collection.path).then((data) => ({
                     data,
                     language: lang.id,
-                    gradeId: grade.gradeId || grade.id,
+                    collectionId: collection.collectionId || collection.id,
                 })).catch(e => {
-                    console.error(`Failed to load ${grade.path}: ${e.message}`);
+                    console.error(`Failed to load ${collection.path}: ${e.message}`);
                     return null;
                 })
             );
@@ -50,14 +50,14 @@ async function loadAllLessons() {
 
     for (const res of results) {
         if (!res) continue;
-        const { data: gradeData, language, gradeId } = res;
-        const lessonsWithGrade = gradeData.lessons.map((lesson) => ({
+        const { data: collectionData, language, collectionId } = res;
+        const lessonsWithCollection = collectionData.lessons.map((lesson) => ({
             ...lesson,
-            grade: gradeData.grade,
-            gradeId: gradeId,
+            collectionTitle: collectionData.title,
+            collectionId: collectionId,
             language: language,
         }));
-        allLessons.push(...lessonsWithGrade);
+        allLessons.push(...lessonsWithCollection);
     }
 
     return allLessons;
@@ -72,15 +72,15 @@ async function loadAllLessons() {
             const langLessons = lessons.filter(l => l.language === lang);
             console.log(`Language ${lang}: ${langLessons.length} lessons`);
             
-            const uniqueGrades = new Map();
+            const uniqueCollections = new Map();
             langLessons.forEach(l => {
-                if (!uniqueGrades.has(l.gradeId)) {
-                    uniqueGrades.set(l.gradeId, l.grade);
+                if (!uniqueCollections.has(l.collectionId)) {
+                    uniqueCollections.set(l.collectionId, l.collectionTitle);
                 }
             });
             
-            console.log(`  Unique grades: ${uniqueGrades.size}`);
-            uniqueGrades.forEach((name, id) => {
+            console.log(`  Unique collections: ${uniqueCollections.size}`);
+            uniqueCollections.forEach((name, id) => {
                 console.log(`    - ${id}: ${name}`);
             });
         });

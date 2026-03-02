@@ -33,34 +33,50 @@ dirs.sort((a, b) => {
 
 dirs.forEach(langId => {
     const langPath = path.join(lessonsDir, langId);
-    const files = fs.readdirSync(langPath).filter(f => f.match(/^grade-\d+\.json$/));
+    const files = fs.readdirSync(langPath).filter(f => f.endsWith('.json') && f !== 'index.json');
 
-    // Sort files by grade number
+    // Sort files by collection ID if possible, otherwise filename
     files.sort((a, b) => {
-        const numA = parseInt(a.match(/grade-(\d+)/)[1]);
-        const numB = parseInt(b.match(/grade-(\d+)/)[1]);
-        return numA - numB;
+        // Try to extract number for sorting if it's a grade file
+        const matchA = a.match(/grade-(\d+)/);
+        const matchB = b.match(/grade-(\d+)/);
+        
+        if (matchA && matchB) {
+            return parseInt(matchA[1]) - parseInt(matchB[1]);
+        }
+        return a.localeCompare(b);
     });
 
-    const grades = [];
+    const collections = [];
     files.forEach(file => {
         const filePath = path.join(langPath, file);
-        const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        const gradeNum = file.match(/grade-(\d+)/)[1];
+        try {
+            const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            
+            // Determine ID and Title
+            // Priority: content.id -> filename (without extension)
+            // Priority: content.title -> content.grade -> filename
+            
+            const filenameBase = file.replace(/\.json$/, '');
+            const collectionId = content.id || filenameBase;
+            const title = content.title || content.grade || filenameBase;
 
-        grades.push({
-            id: `${langId}-grade-${gradeNum}`,
-            name: content.grade, // Use the grade name from the file
-            path: `${langId}/${file}`,
-            gradeId: `grade-${gradeNum}`
-        });
+            collections.push({
+                id: `${langId}-${collectionId}`,
+                name: title,
+                path: `${langId}/${file}`,
+                collectionId: collectionId
+            });
+        } catch (e) {
+            console.error(`Error reading ${filePath}:`, e);
+        }
     });
 
-    if (grades.length > 0) {
+    if (collections.length > 0) {
         languages.push({
             id: langId,
             name: languageNames[langId] || langId,
-            grades: grades
+            collections: collections
         });
     }
 });

@@ -13,10 +13,10 @@ try {
             console.error(`Language ${langId} not found!`);
             return;
         }
-        console.log(`Language ${langId} has ${lang.grades.length} grades.`);
-        lang.grades.forEach(g => {
-            console.log(`  - ${g.id}: gradeId=${g.gradeId}, path=${g.path}`);
-            if (!g.gradeId) console.error(`    MISSING gradeId for ${g.id}`);
+        console.log(`Language ${langId} has ${lang.collections.length} collections.`);
+        lang.collections.forEach(c => {
+            console.log(`  - ${c.id}: collectionId=${c.collectionId}, path=${c.path}`);
+            if (!c.collectionId) console.error(`    MISSING collectionId for ${c.id}`);
         });
     });
 

@@ -1,5 +1,6 @@
 {
-  "grade": "Grade 6",
+  "id": "grade-6",
+  "title": "Grade 6",
   "lessons": [
     {
       "id": "eng-grade6-wind-sun",

@@ -1,5 +1,6 @@
 {
-  "grade": "小学六年级",
+  "id": "grade-6",
+  "title": "小学六年级",
   "lessons": [
     {
       "id": "grade6-caoyuan",

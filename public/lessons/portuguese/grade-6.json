@@ -1,5 +1,6 @@
 {
-  "grade": "6º Ano",
+  "id": "grade-6",
+  "title": "6º Ano",
   "lessons": [
     {
       "id": "pt-grade6-dom-casmurro",

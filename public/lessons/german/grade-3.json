@@ -1,5 +1,6 @@
 {
-  "grade": "3. Klasse",
+  "id": "grade-3",
+  "title": "3. Klasse",
   "lessons": [
     {
       "id": "de-grade3-loewe-maus",

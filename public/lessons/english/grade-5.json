@@ -1,5 +1,6 @@
 {
-  "grade": "Grade 5",
+  "id": "grade-5",
+  "title": "Grade 5",
   "lessons": [
     {
       "id": "eng-grade5-weekend",

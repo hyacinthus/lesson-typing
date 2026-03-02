@@ -1,5 +1,6 @@
 {
-  "grade": "1º Ano",
+  "id": "grade-1",
+  "title": "1º Ano",
   "lessons": [
     {
       "id": "pt-grade1-gato",

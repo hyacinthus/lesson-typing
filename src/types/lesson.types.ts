@@ -4,7 +4,7 @@
 export interface LessonMetadata {
   id: string;
   title: string;
-  grade: string;
+  collectionTitle: string; // was grade
   category?: string;
   difficulty: number;
   characterCount: number;
@@ -18,8 +18,8 @@ export interface LessonMetadata {
 export interface Lesson {
   id: string;
   title: string;
-  grade: string;
-  gradeId: string;
+  collectionTitle: string; // was grade
+  collectionId: string; // was gradeId
   language?: string;
   category?: string;
   difficulty: number;
@@ -30,10 +30,11 @@ export interface Lesson {
 }
 
 /**
- * 年级课文列表
+ * 课文集合（原年级）
  */
-export interface GradeLessons {
-  grade: string;
+export interface LessonCollection {
+  id: string;
+  title: string; // was grade
   lessons: Lesson[];
 }
 
@@ -47,12 +48,12 @@ export interface LessonIndex {
 export interface LanguageConfig {
   id: string;
   name: string;
-  grades: GradeConfig[];
+  collections: CollectionConfig[]; // was grades
 }
 
-export interface GradeConfig {
+export interface CollectionConfig {
   id: string;
-  gradeId: string;
+  collectionId: string; // was gradeId
   name: string;
   path: string;
 }

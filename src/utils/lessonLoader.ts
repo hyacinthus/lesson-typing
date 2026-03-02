@@ -1,9 +1,9 @@
-import type { Lesson, LessonIndex, GradeLessons } from '../types';
+import type { Lesson, LessonIndex, LessonCollection } from '../types';
 import type { Character } from '../types/typing.types.ts';
 import { CharacterStatus } from '../types/typing.types.ts';
 
 // 缓存已加载的课文
-const lessonCache = new Map<string, GradeLessons>();
+const lessonCache = new Map<string, LessonCollection>();
 let indexCache: LessonIndex | null = null;
 
 /**
@@ -25,9 +25,9 @@ export async function loadLessonIndex(): Promise<LessonIndex> {
 }
 
 /**
- * 加载指定年级的课文列表
+ * 加载指定集合的课文列表
  */
-export async function loadGradeLessons(path: string): Promise<GradeLessons> {
+export async function loadLessonCollection(path: string): Promise<LessonCollection> {
   if (lessonCache.has(path)) {
     return lessonCache.get(path)!;
   }
@@ -48,15 +48,15 @@ export async function loadGradeLessons(path: string): Promise<GradeLessons> {
 export async function loadAllLessons(): Promise<Lesson[]> {
   const index = await loadLessonIndex();
   const allLessons: Lesson[] = [];
-  const promises: Promise<{ data: GradeLessons; language: string; gradeId: string }>[] = [];
+  const promises: Promise<{ data: LessonCollection; language: string; collectionId: string }>[] = [];
 
   for (const lang of index.languages) {
-    for (const grade of lang.grades) {
+    for (const collection of lang.collections) {
       promises.push(
-        loadGradeLessons(grade.path).then((data) => ({
+        loadLessonCollection(collection.path).then((data) => ({
           data,
           language: lang.id,
-          gradeId: grade.gradeId || grade.id, // Fallback to id if gradeId is missing (though we added it)
+          collectionId: collection.collectionId || collection.id,
         }))
       );
     }
@@ -64,14 +64,14 @@ export async function loadAllLessons(): Promise<Lesson[]> {
 
   const results = await Promise.all(promises);
 
-  for (const { data: gradeData, language, gradeId } of results) {
-    const lessonsWithGrade = gradeData.lessons.map((lesson) => ({
+  for (const { data: collectionData, language, collectionId } of results) {
+    const lessonsWithCollection = collectionData.lessons.map((lesson) => ({
       ...lesson,
-      grade: gradeData.grade,
-      gradeId: gradeId,
+      collectionTitle: collectionData.title,
+      collectionId: collectionId,
       language: language,
     }));
-    allLessons.push(...lessonsWithGrade);
+    allLessons.push(...lessonsWithCollection);
   }
 
   return allLessons;

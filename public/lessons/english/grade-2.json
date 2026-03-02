@@ -1,5 +1,6 @@
 {
-  "grade": "Grade 2",
+  "id": "grade-2",
+  "title": "Grade 2",
   "lessons": [
     {
       "id": "english-tortoise-hare",

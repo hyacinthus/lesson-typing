@@ -1,5 +1,6 @@
 {
-  "grade": "Grade 1",
+  "id": "grade-1",
+  "title": "Grade 1",
   "lessons": [
     {
       "id": "english-humpty-dumpty",

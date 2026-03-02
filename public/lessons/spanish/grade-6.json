@@ -1,5 +1,6 @@
 {
-  "grade": "Grade 6",
+  "id": "grade-6",
+  "title": "Grade 6",
   "lessons": [
     {
       "id": "spa-grade6-tech",

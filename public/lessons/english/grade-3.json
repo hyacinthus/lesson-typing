@@ -1,5 +1,6 @@
 {
-  "grade": "Grade 3",
+  "id": "grade-3",
+  "title": "Grade 3",
   "lessons": [
     {
       "id": "english-my-family",

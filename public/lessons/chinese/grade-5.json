@@ -1,5 +1,6 @@
 {
-  "grade": "小学五年级",
+  "id": "grade-5",
+  "title": "小学五年级",
   "lessons": [
     {
       "id": "grade5-guanda",

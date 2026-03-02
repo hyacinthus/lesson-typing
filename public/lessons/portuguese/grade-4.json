@@ -1,5 +1,6 @@
 {
-  "grade": "4º Ano",
+  "id": "grade-4",
+  "title": "4º Ano",
   "lessons": [
     {
       "id": "pt-grade4-1",

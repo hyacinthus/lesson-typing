@@ -1,5 +1,6 @@
 {
-  "grade": "Grade 4",
+  "id": "grade-4",
+  "title": "Grade 4",
   "lessons": [
     {
       "id": "eng-grade4-puppy",

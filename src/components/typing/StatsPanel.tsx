@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import type { RealtimeStats } from '../../types';
-import { formatTime, getGrade } from '../../utils/statsCalculator';
+import { formatTime, getScoreLevel } from '../../utils/statsCalculator';
 
 interface StatsPanelProps {
   stats: RealtimeStats;
@@ -8,7 +8,7 @@ interface StatsPanelProps {
 
 export function StatsPanel({ stats }: StatsPanelProps) {
   const { t } = useTranslation();
-  const grade = getGrade(stats.accuracy, stats.chineseSpeed);
+  const score = getScoreLevel(stats.accuracy, stats.chineseSpeed);
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
@@ -44,8 +44,8 @@ export function StatsPanel({ stats }: StatsPanelProps) {
         <div className="text-2xl font-bold text-purple-600">
           {stats.accuracy}%
         </div>
-        <div className={`text-xs font-bold ${grade.color}`}>
-          {t('stats.grade')} {grade.grade}
+        <div className={`text-xs font-bold ${score.color}`}>
+          {t('stats.grade')} {score.level}
         </div>
       </div>
     </div>

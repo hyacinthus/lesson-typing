@@ -1,5 +1,6 @@
 {
-  "grade": "6ème",
+  "id": "grade-6",
+  "title": "6ème",
   "lessons": [
     {
       "id": "fr-6eme-fourberies-scapin",
