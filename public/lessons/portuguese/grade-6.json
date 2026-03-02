@@ -3,7 +3,7 @@
   "title": "6º Ano",
   "lessons": [
     {
-      "id": "pt-grade6-dom-casmurro",
+      "id": "b9d1a186-9231-4dad-b8e6-d6d6b14d6449",
       "title": "Dom Casmurro (Olhos de Ressaca)",
       "category": "Literatura",
       "difficulty": 6,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-alienista",
+      "id": "829d97ec-348c-4a31-bbe3-a1589c87d2ff",
       "title": "O Alienista",
       "category": "Literatura",
       "difficulty": 6,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-vidas-secas",
+      "id": "24c3be80-1cc6-4d09-8910-f5fd6c6f88fc",
       "title": "Vidas Secas (Baleia)",
       "category": "Literatura",
       "difficulty": 6,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-iracema",
+      "id": "d2c9321f-7f35-46e5-9469-ec61c6503f11",
       "title": "Iracema (Abertura)",
       "category": "Literatura",
       "difficulty": 6,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-ou-isto",
+      "id": "7842f845-2631-43d9-a4f6-c923285cdfea",
       "title": "Ou Isto ou Aquilo",
       "category": "Poesia",
       "difficulty": 6,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-bola",
+      "id": "f5d37e8a-0a66-444d-8d08-6b964a81df1b",
       "title": "A Bola (Crônica)",
       "category": "Crônica",
       "difficulty": 6,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-severina",
+      "id": "ddda30bc-8769-44f7-bed8-238c09b7c047",
       "title": "Morte e Vida Severina",
       "category": "Poesia",
       "difficulty": 6,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-lusiadas",
+      "id": "2ab179c9-159c-4989-b2b9-0cc9a6fc6cef",
       "title": "Os Lusíadas (Canto I)",
       "category": "Literatura",
       "difficulty": 6,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-cortico",
+      "id": "7a66f75a-6e57-488a-844c-3e54e0f6c533",
       "title": "O Cortiço",
       "category": "Literatura",
       "difficulty": 6,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-compadecida",
+      "id": "06eaadab-86d7-43ff-a340-a94ca25fddfa",
       "title": "Auto da Compadecida",
       "category": "Teatro",
       "difficulty": 6,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-desmatamento",
+      "id": "9b430e96-938c-4e22-822c-b576fde7484a",
       "title": "Notícia: Desmatamento",
       "category": "Notícia",
       "difficulty": 6,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-tecnologia",
+      "id": "b15f6efd-452b-457b-90a8-5e4dc62a2f74",
       "title": "Tecnologia 5G",
       "category": "Tecnologia",
       "difficulty": 6,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-homem-trocado",
+      "id": "ba1c051b-2634-4b39-ac43-d0a7657f125b",
       "title": "O Homem Trocado",
       "category": "Crônica",
       "difficulty": 6,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-guarani",
+      "id": "af60d6fc-dd68-4822-80d4-667993fb5260",
       "title": "O Guarani (Peri e Ceci)",
       "category": "Literatura",
       "difficulty": 6,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-felicidade",
+      "id": "d9936ebb-4abe-48ef-8b60-409a5117257e",
       "title": "Felicidade Clandestina",
       "category": "Crônica",
       "difficulty": 6,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-memorias",
+      "id": "24e0c1ce-d173-4fc9-b757-a0391a82a277",
       "title": "Memórias de um Sargento de Milícias",
       "category": "Literatura",
       "difficulty": 6,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-policarpo",
+      "id": "241175b4-c9bb-4ab5-8192-91449f44d03a",
       "title": "Triste Fim de Policarpo Quaresma",
       "category": "Literatura",
       "difficulty": 6,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-tempo",
+      "id": "4df6f6bf-a50f-4b39-b44e-b4445a3591c2",
       "title": "O Tempo (Poema)",
       "category": "Poesia",
       "difficulty": 6,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-isaura",
+      "id": "8fc95c51-8576-4038-996f-57e41d2ded24",
       "title": "A Escrava Isaura",
       "category": "Literatura",
       "difficulty": 6,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade6-macunaima",
+      "id": "4f429904-dd5c-4d58-b5b7-3afe907889c5",
       "title": "Macunaíma",
       "category": "Literatura",
       "difficulty": 6,

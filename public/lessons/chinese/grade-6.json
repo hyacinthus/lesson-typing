@@ -3,7 +3,7 @@
   "title": "小学六年级",
   "lessons": [
     {
-      "id": "grade6-caoyuan",
+      "id": "dbba2adc-014d-4c22-b493-8eeac42de9c5",
       "title": "草原",
       "category": "写景",
       "difficulty": 6,
@@ -13,7 +13,7 @@
       "chineseCharCount": 820
     },
     {
-      "id": "grade6-boya",
+      "id": "3fce3253-aa3e-429a-b6c0-adb85a533580",
       "title": "伯牙鼓琴",
       "category": "文言文",
       "difficulty": 6,
@@ -23,7 +23,7 @@
       "chineseCharCount": 185
     },
     {
-      "id": "grade6-shudaisong",
+      "id": "6db1827c-b999-42e0-acb3-41d988ef8f98",
       "title": "书戴嵩画牛",
       "category": "文言文",
       "difficulty": 6,
@@ -33,7 +33,7 @@
       "chineseCharCount": 205
     },
     {
-      "id": "grade6-xueyi",
+      "id": "05431ebe-7e2f-4f46-94ef-edfd4f0192d6",
       "title": "学弈",
       "category": "文言文",
       "difficulty": 6,
@@ -43,7 +43,7 @@
       "chineseCharCount": 220
     },
     {
-      "id": "grade6-liangxiaoer",
+      "id": "48bf81a2-15a7-4316-ad69-f47596a04386",
       "title": "两小儿辩日",
       "category": "文言文",
       "difficulty": 6,
@@ -53,7 +53,7 @@
       "chineseCharCount": 245
     },
     {
-      "id": "grade6-congcong",
+      "id": "d6a79a06-d4ca-4a20-9b4e-eab29fbb9e92",
       "title": "匆匆",
       "category": "散文",
       "difficulty": 6,
@@ -63,7 +63,7 @@
       "chineseCharCount": 550
     },
     {
-      "id": "grade6-yuanxingtian",
+      "id": "268eaf71-5997-4128-8607-87ea2dfd030a",
       "title": "原野的星空",
       "category": "写景",
       "difficulty": 6,
@@ -73,7 +73,7 @@
       "chineseCharCount": 350
     },
     {
-      "id": "grade6-xiaohedaan",
+      "id": "31d61a9f-1e9b-487e-8e4d-9707edf1dd7c",
       "title": "小河的答案",
       "category": "散文",
       "difficulty": 6,
@@ -83,7 +83,7 @@
       "chineseCharCount": 380
     },
     {
-      "id": "grade6-new-1769144981116-1",
+      "id": "2e508c1b-ab1f-400d-a67a-57d4f2083401",
       "title": "丁香结",
       "category": "课文",
       "difficulty": 6,
@@ -93,7 +93,7 @@
       "chineseCharCount": 415
     },
     {
-      "id": "grade6-new-1769144981116-5",
+      "id": "ba7dec39-e25d-411b-a0cc-e9f0cf6e9744",
       "title": "狼牙山五壮士",
       "category": "课文",
       "difficulty": 6,
@@ -103,7 +103,7 @@
       "chineseCharCount": 512
     },
     {
-      "id": "grade6-new-1769144981116-6",
+      "id": "5a26df09-bc3c-4729-9c57-9606e8e7716e",
       "title": "开国大典",
       "category": "课文",
       "difficulty": 6,
@@ -113,7 +113,7 @@
       "chineseCharCount": 498
     },
     {
-      "id": "grade6-new-1769144981116-7",
+      "id": "5447f351-cad7-4132-94d1-290b00c178db",
       "title": "灯光",
       "category": "课文",
       "difficulty": 6,
@@ -123,7 +123,7 @@
       "chineseCharCount": 465
     },
     {
-      "id": "grade6-new-1769144981116-8",
+      "id": "b0b0d75b-382c-4f57-aba0-d8dad8da2e44",
       "title": "宇宙生命之谜",
       "category": "课文",
       "difficulty": 6,
@@ -133,7 +133,7 @@
       "chineseCharCount": 980
     },
     {
-      "id": "grade6-new-1769144981116-9",
+      "id": "d3e12a84-0dd0-4e28-a355-322078b64825",
       "title": "桥",
       "category": "课文",
       "difficulty": 6,
@@ -143,7 +143,7 @@
       "chineseCharCount": 512
     },
     {
-      "id": "grade6-new-1769144981116-10",
+      "id": "aaee7da0-1b9f-4021-b4c4-9a29f5962b91",
       "title": "北京的春节",
       "category": "课文",
       "difficulty": 6,
@@ -153,7 +153,7 @@
       "chineseCharCount": 498
     },
     {
-      "id": "grade6-new-1769144981116-11",
+      "id": "fb02dc13-c64e-4cb9-92fe-21a5c2d10f8c",
       "title": "腊八粥",
       "category": "课文",
       "difficulty": 6,
@@ -163,7 +163,7 @@
       "chineseCharCount": 435
     },
     {
-      "id": "grade6-new-1769144981116-12",
+      "id": "f327b76e-2279-49c5-9640-469f9ea7afcd",
       "title": "真理诞生于一百个问号之后",
       "category": "课文",
       "difficulty": 6,
@@ -173,7 +173,7 @@
       "chineseCharCount": 465
     },
     {
-      "id": "grade6-new-1769144981116-13",
+      "id": "7814e186-33dc-4881-b958-0372a6c5cf6a",
       "title": "月光曲",
       "category": "课文",
       "difficulty": 6,
@@ -183,7 +183,7 @@
       "chineseCharCount": 465
     },
     {
-      "id": "grade6-new-1769144981116-14",
+      "id": "7d4a8072-e4b3-4910-bc02-fb2b638c59ad",
       "title": "卖火柴的小女孩",
       "category": "课文",
       "difficulty": 6,

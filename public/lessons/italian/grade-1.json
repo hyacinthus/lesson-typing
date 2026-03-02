@@ -3,7 +3,7 @@
   "title": "Classe 1",
   "lessons": [
     {
-      "id": "italian-grade1-lesson1",
+      "id": "2074fb55-ed87-4c88-9b60-d99323782b00",
       "title": "Il palazzo di gelato",
       "category": "Gianni Rodari",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson2",
+      "id": "c732f3ca-84c4-45c3-bfb4-27c2da9072c6",
       "title": "L'autunno",
       "category": "Sussidiario",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson3",
+      "id": "9d400960-11fb-460a-ac54-824943ae25e2",
       "title": "A sbagliare le storie",
       "category": "Gianni Rodari",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson4",
+      "id": "34fbf5fd-f1b6-4823-9bf7-5b214a631d79",
       "title": "Il mio gatto",
       "category": "Sussidiario",
       "difficulty": 1,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson5",
+      "id": "ae07289d-4a61-4854-a70d-115874d087c9",
       "title": "Il semaforo blu",
       "category": "Gianni Rodari",
       "difficulty": 1,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson6",
+      "id": "74ac3e6f-b959-4127-9597-7123c1457518",
       "title": "La primavera",
       "category": "Sussidiario",
       "difficulty": 1,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson7",
+      "id": "3386afd3-605e-4968-96cc-32e75c384fe0",
       "title": "Il sole e la nuvola",
       "category": "Gianni Rodari",
       "difficulty": 1,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson8",
+      "id": "3d27c645-f88f-486b-8fd3-ceb0faada6a1",
       "title": "La scuola",
       "category": "Vita",
       "difficulty": 1,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson9",
+      "id": "23ffc7f2-7cf0-4188-984c-cb455f24013a",
       "title": "Il cane e l'osso",
       "category": "Esopo",
       "difficulty": 1,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson10",
+      "id": "03ddbded-1705-406d-8119-68d1f7b5393f",
       "title": "La stella stellina",
       "category": "Filastrocca",
       "difficulty": 1,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson11",
+      "id": "77fcd8c0-c4fe-492c-9f25-4eef1812b205",
       "title": "Il vento dispettoso",
       "category": "Natura",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson12",
+      "id": "45ca9068-3c50-4074-a1e4-3e73e79b9eda",
       "title": "Il pesciolino rosso",
       "category": "Animali",
       "difficulty": 1,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson13",
+      "id": "77fb74e6-1b6e-4e44-b7ac-826bf31cf0c4",
       "title": "La pioggia",
       "category": "Natura",
       "difficulty": 1,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson14",
+      "id": "eeec50af-b756-4df2-9232-0384539e4c29",
       "title": "Il treno dei sogni",
       "category": "Gianni Rodari",
       "difficulty": 1,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson15",
+      "id": "8600e1d6-53fa-4521-b2d4-8ab5e4f95eba",
       "title": "La luna",
       "category": "Scienza",
       "difficulty": 1,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson16",
+      "id": "50aa3d67-6f2d-40a1-96bb-31c744d785f3",
       "title": "L'albero di mele",
       "category": "Natura",
       "difficulty": 1,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson17",
+      "id": "103c6f3c-17fd-4859-a686-30bc29bd09fe",
       "title": "Il bosco incantato",
       "category": "Fiaba",
       "difficulty": 1,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson18",
+      "id": "e6243736-47c9-4b9b-953b-a50dd5ba401d",
       "title": "Il mare",
       "category": "Geografia",
       "difficulty": 1,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson19",
+      "id": "9752366e-2dc8-4234-86bf-3d1f8074286e",
       "title": "L'arcobaleno",
       "category": "Natura",
       "difficulty": 1,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade1-lesson20",
+      "id": "f0775fc9-17da-4138-8ef0-8b01d124e404",
       "title": "La famiglia",
       "category": "Vita",
       "difficulty": 1,

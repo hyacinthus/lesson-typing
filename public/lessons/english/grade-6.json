@@ -3,7 +3,7 @@
   "title": "Grade 6",
   "lessons": [
     {
-      "id": "eng-grade6-wind-sun",
+      "id": "41c8fdb9-8b6e-47d1-8976-42becb369e77",
       "title": "The Wind and the Sun",
       "category": "Fable",
       "difficulty": 4,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-happy-prince",
+      "id": "8821b69e-b7a1-4bd2-ac62-0fb45d8ebf20",
       "title": "The Happy Prince",
       "category": "Story",
       "difficulty": 6,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-selfish-giant",
+      "id": "3367d144-fe1c-4521-b658-8cc4514037df",
       "title": "The Selfish Giant",
       "category": "Story",
       "difficulty": 6,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-gift-magi",
+      "id": "c3a51671-9834-40ca-b178-af18fde1025d",
       "title": "The Gift of the Magi",
       "category": "Story",
       "difficulty": 6,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-rip-van-winkle",
+      "id": "b22a1f9d-e84e-4f4b-bb46-550565f0e03d",
       "title": "Rip Van Winkle",
       "category": "Story",
       "difficulty": 6,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-sleepy-hollow",
+      "id": "90f45262-a590-4a78-ab16-387dd52a80eb",
       "title": "The Legend of Sleepy Hollow",
       "category": "Story",
       "difficulty": 6,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-prince-pauper",
+      "id": "45bc23fc-1a80-4e79-8daf-2509ae22eaf9",
       "title": "The Prince and the Pauper",
       "category": "Story",
       "difficulty": 6,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-christmas-carol",
+      "id": "96b743c0-7189-4a8d-8df7-2234853927b6",
       "title": "A Christmas Carol",
       "category": "Story",
       "difficulty": 6,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-gulliver",
+      "id": "69584ab8-22d5-4914-b433-abc654be6695",
       "title": "Gulliver's Travels",
       "category": "Story",
       "difficulty": 6,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-sherlock",
+      "id": "4fab7b85-b187-4ab6-b178-2818061eb73d",
       "title": "A Study in Scarlet",
       "category": "Story",
       "difficulty": 6,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-jekyll-hyde",
+      "id": "74616565-e97c-4336-9310-7a2d9402e791",
       "title": "Dr. Jekyll and Mr. Hyde",
       "category": "Story",
       "difficulty": 6,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-frankenstein",
+      "id": "b0e3b248-76cd-4776-b7fa-b20315e36829",
       "title": "Frankenstein",
       "category": "Story",
       "difficulty": 6,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-dracula",
+      "id": "61321868-e0a2-4501-bab7-2881b39eb086",
       "title": "Dracula",
       "category": "Story",
       "difficulty": 6,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-time-machine",
+      "id": "d88a270b-cc53-458b-b8d9-3153fbe680ba",
       "title": "The Time Machine",
       "category": "Story",
       "difficulty": 6,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-war-worlds",
+      "id": "13048d80-7d7f-4395-8a6f-672262e47a0d",
       "title": "The War of the Worlds",
       "category": "Story",
       "difficulty": 6,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-20000-leagues",
+      "id": "83e36730-4e0a-483f-85e7-2031cba1221e",
       "title": "20,000 Leagues Under the Sea",
       "category": "Story",
       "difficulty": 6,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-journey-center",
+      "id": "2109821c-55f4-4989-99d9-2ffa34a971b5",
       "title": "Journey to the Center of the Earth",
       "category": "Story",
       "difficulty": 6,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-80-days",
+      "id": "48365dc3-00a5-417b-a599-58a4dce24c1b",
       "title": "Around the World in 80 Days",
       "category": "Story",
       "difficulty": 6,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-white-fang",
+      "id": "e9ea5ab5-ab2e-48cf-9f3f-ba38806f8199",
       "title": "White Fang",
       "category": "Story",
       "difficulty": 6,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade6-moby-dick",
+      "id": "ffa6a5e9-7f57-438a-a1af-ea3e928d4f3d",
       "title": "Moby Dick",
       "category": "Story",
       "difficulty": 6,

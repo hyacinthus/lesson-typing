@@ -3,7 +3,7 @@
   "title": "1. Klasse",
   "lessons": [
     {
-      "id": "de-grade1-hoppe-reiter",
+      "id": "bc492bf5-5ed2-40ed-9f1c-8c3a39156b1a",
       "title": "Hoppe, hoppe Reiter",
       "category": "Kinderreim",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-alle-entchen",
+      "id": "7302beec-7883-4a02-a0c2-7d4695cbd29a",
       "title": "Alle meine Entchen",
       "category": "Lied",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-backe-kuchen",
+      "id": "1b800e2f-a3ad-490c-a1be-647327528bf8",
       "title": "Backe, backe Kuchen",
       "category": "Lied",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-abc-katze",
+      "id": "1143f61b-6ae3-4002-9d7b-cc824f29720a",
       "title": "ABC, die Katze lief im Schnee",
       "category": "Reim",
       "difficulty": 1,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-haenschen-klein",
+      "id": "9a2e40dd-da6a-401d-ad7f-0aec8c38d075",
       "title": "Hänschen klein",
       "category": "Lied",
       "difficulty": 1,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-bibabutzemann",
+      "id": "1bbd8b32-8b11-415e-acf5-2149bdcf108e",
       "title": "Es tanzt ein Bi-Ba-Butzemann",
       "category": "Lied",
       "difficulty": 1,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-kuckuck",
+      "id": "aae7d412-4868-407d-b986-fe7b6d57e41b",
       "title": "Kuckuck, Kuckuck",
       "category": "Lied",
       "difficulty": 1,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-summ-summ",
+      "id": "ab220c4e-b4fb-4a25-8fd3-6ba4b4f4821c",
       "title": "Summ, summ, summ",
       "category": "Lied",
       "difficulty": 1,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-schlaf-kindlein",
+      "id": "c40c8e98-9315-4e23-b61b-d323e89ffcdf",
       "title": "Schlaf, Kindlein, schlaf",
       "category": "Lied",
       "difficulty": 1,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-bruder-jakob",
+      "id": "a863fad7-5e6e-4fc0-86c5-9a29d0a177ed",
       "title": "Bruder Jakob",
       "category": "Lied",
       "difficulty": 1,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-mein-ball",
+      "id": "c4cb8c7d-9dca-45b7-9898-40652d1263f9",
       "title": "Mein Ball",
       "category": "Geschichte",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-die-farben",
+      "id": "e93d31ab-ecf0-4409-a8f8-809d39ac5bfc",
       "title": "Die Farben",
       "category": "Geschichte",
       "difficulty": 1,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-in-der-schule",
+      "id": "3d1b4018-9839-41fe-80ed-bb60943e5180",
       "title": "In der Schule",
       "category": "Geschichte",
       "difficulty": 1,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-mein-haustier",
+      "id": "d1b68627-ba98-4579-ad5e-0e454c03dacc",
       "title": "Mein Haustier",
       "category": "Geschichte",
       "difficulty": 1,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-das-wetter",
+      "id": "b4612bca-eb04-4341-9c2c-46ca53df7471",
       "title": "Das Wetter",
       "category": "Geschichte",
       "difficulty": 1,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-obst",
+      "id": "0084a518-80ee-428b-bc1b-2f650c9b7984",
       "title": "Obst",
       "category": "Geschichte",
       "difficulty": 1,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-meine-familie",
+      "id": "d732b087-3c2d-412d-ae9e-29300b7924f4",
       "title": "Meine Familie",
       "category": "Geschichte",
       "difficulty": 1,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-guten-morgen",
+      "id": "988bde71-1675-4dc1-af3f-0cd549b58aa1",
       "title": "Guten Morgen",
       "category": "Gedicht",
       "difficulty": 1,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-der-regen",
+      "id": "261f53a4-c012-4f36-a2eb-07d8a70c8687",
       "title": "Der Regen",
       "category": "Geschichte",
       "difficulty": 1,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade1-maennlein-walde",
+      "id": "bbf3dbfe-a39b-4726-ba1c-d26608e86963",
       "title": "Ein Männlein steht im Walde",
       "category": "Lied",
       "difficulty": 1,

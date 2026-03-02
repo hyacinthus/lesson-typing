@@ -3,7 +3,7 @@
   "title": "小学一年级",
   "lessons": [
     {
-      "id": "grade1-autumn",
+      "id": "efda54a0-bd58-4e34-8293-92b33b57e5b6",
       "title": "秋天",
       "category": "写景",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 79
     },
     {
-      "id": "grade1-spring",
+      "id": "5bc58faf-5538-494f-9a92-3b7db6c952a3",
       "title": "春风吹",
       "category": "写景",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 47
     },
     {
-      "id": "grade1-boat",
+      "id": "eb19ac5a-6625-4b70-bce8-bc375858e63e",
       "title": "小小的船",
       "category": "诗歌",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 37
     },
     {
-      "id": "grade1-shadow",
+      "id": "2ad48cab-1d2e-4a97-920d-e3139c8c0a92",
       "title": "影子",
       "category": "儿童诗",
       "difficulty": 1,
@@ -43,7 +43,7 @@
       "chineseCharCount": 44
     },
     {
-      "id": "grade1-bihua",
+      "id": "f73dd7ad-6287-4f51-91ce-4c9496413c8b",
       "title": "比尾巴",
       "category": "儿童诗",
       "difficulty": 1,
@@ -53,7 +53,7 @@
       "chineseCharCount": 78
     },
     {
-      "id": "grade1-yueliang",
+      "id": "7aba3930-4d63-46cf-a942-893ee9ff43bf",
       "title": "月亮",
       "category": "儿童诗",
       "difficulty": 1,
@@ -63,7 +63,7 @@
       "chineseCharCount": 56
     },
     {
-      "id": "grade1-new-1769144981107-1",
+      "id": "0d564b93-0403-4513-9cb0-b36bc817f584",
       "title": "江南",
       "category": "课文",
       "difficulty": 1,
@@ -73,7 +73,7 @@
       "chineseCharCount": 35
     },
     {
-      "id": "grade1-new-1769144981107-2",
+      "id": "6fb23ab8-bca6-4e2b-a3c2-6d450897cd22",
       "title": "四季",
       "category": "课文",
       "difficulty": 1,
@@ -83,7 +83,7 @@
       "chineseCharCount": 56
     },
     {
-      "id": "grade1-new-1769144981107-3",
+      "id": "1eef0ef3-30d2-49d0-9b26-7d7a47efcb00",
       "title": "雪地里的小画家",
       "category": "课文",
       "difficulty": 1,
@@ -93,7 +93,7 @@
       "chineseCharCount": 65
     },
     {
-      "id": "grade1-new-1769144981107-4",
+      "id": "d7d96c44-2fcd-414b-8e96-bb95e3a2414b",
       "title": "乌鸦喝水",
       "category": "课文",
       "difficulty": 1,
@@ -103,7 +103,7 @@
       "chineseCharCount": 97
     },
     {
-      "id": "grade1-new-1769144981107-5",
+      "id": "14c19db3-5b1b-4504-ba2b-26d37666c4e9",
       "title": "静夜思",
       "category": "课文",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "chineseCharCount": 20
     },
     {
-      "id": "grade1-new-1769144981107-6",
+      "id": "a0c88a83-adce-4225-beea-4ebcb8e780f6",
       "title": "春晓",
       "category": "课文",
       "difficulty": 1,
@@ -123,7 +123,7 @@
       "chineseCharCount": 20
     },
     {
-      "id": "grade1-new-1769144981107-7",
+      "id": "9e5e87a3-081a-44a3-a25f-865c415a7428",
       "title": "彩虹",
       "category": "课文",
       "difficulty": 1,
@@ -133,7 +133,7 @@
       "chineseCharCount": 167
     },
     {
-      "id": "grade1-new-1769144981107-8",
+      "id": "2db023b1-11a9-4bd2-a94b-5d0a7f5a879d",
       "title": "端午粽",
       "category": "课文",
       "difficulty": 1,
@@ -143,7 +143,7 @@
       "chineseCharCount": 176
     },
     {
-      "id": "grade1-new-1769144981107-9",
+      "id": "0c0946d0-b025-47a1-8f4c-d93fceda60c1",
       "title": "动物儿歌",
       "category": "课文",
       "difficulty": 1,
@@ -153,7 +153,7 @@
       "chineseCharCount": 42
     },
     {
-      "id": "grade1-new-1769144981107-10",
+      "id": "13efc703-53f3-4cf0-a19d-fd6a0d6ce37b",
       "title": "操场上",
       "category": "课文",
       "difficulty": 1,
@@ -163,7 +163,7 @@
       "chineseCharCount": 26
     },
     {
-      "id": "grade1-new-1769144981107-11",
+      "id": "5adba423-7b41-415b-8605-2aea764f8314",
       "title": "小蜗牛",
       "category": "课文",
       "difficulty": 1,
@@ -173,7 +173,7 @@
       "chineseCharCount": 209
     },
     {
-      "id": "grade1-new-1769144981107-12",
+      "id": "6da449ae-af0e-4ca4-a839-daee2140897c",
       "title": "咏鹅",
       "category": "课文",
       "difficulty": 1,
@@ -183,7 +183,7 @@
       "chineseCharCount": 18
     },
     {
-      "id": "grade1-new-1769144981107-13",
+      "id": "3b908fbe-c044-4a78-b275-b806c1d9b06b",
       "title": "画",
       "category": "课文",
       "difficulty": 1,
@@ -193,7 +193,7 @@
       "chineseCharCount": 20
     },
     {
-      "id": "grade1-new-1769144981107-14",
+      "id": "a48dc4e3-afd2-4779-9f44-f4ec09cc51fb",
       "title": "金木水火土",
       "category": "课文",
       "difficulty": 1,
@@ -203,7 +203,7 @@
       "chineseCharCount": 20
     },
     {
-      "id": "grade1-new-1769144981107-15",
+      "id": "a47b4114-74e9-4475-b229-23100a45788d",
       "title": "对韵歌",
       "category": "课文",
       "difficulty": 1,
@@ -213,7 +213,7 @@
       "chineseCharCount": 22
     },
     {
-      "id": "grade1-new-1769144981107-16",
+      "id": "0597e583-6103-4d58-bb5b-237df7cc97af",
       "title": "项链",
       "category": "课文",
       "difficulty": 1,
@@ -223,7 +223,7 @@
       "chineseCharCount": 101
     },
     {
-      "id": "grade1-new-1769144981107-17",
+      "id": "191002a6-f7ea-4542-b83b-f792ecaa8558",
       "title": "升国旗",
       "category": "课文",
       "difficulty": 1,

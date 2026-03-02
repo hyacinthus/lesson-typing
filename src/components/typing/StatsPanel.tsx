@@ -8,7 +8,8 @@ interface StatsPanelProps {
 
 export function StatsPanel({ stats }: StatsPanelProps) {
   const { t } = useTranslation();
-  const score = getScoreLevel(stats.accuracy, stats.chineseSpeed);
+  // Use CPM for score calculation as thresholds (200+) are likely CPM based
+  const score = getScoreLevel(stats.accuracy, stats.cpm);
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
@@ -20,11 +21,11 @@ export function StatsPanel({ stats }: StatsPanelProps) {
         </div>
       </div>
 
-      {/* 字符速率 */}
+      {/* 字符速率 (CPM) */}
       <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
         <div className="text-sm text-gray-500 mb-1">{t('stats.char_speed')}</div>
         <div className="text-2xl font-bold text-primary">
-          {stats.characterSpeed}
+          {stats.cpm}
         </div>
         <div className="text-xs text-gray-400">{t('stats.char_unit')}</div>
       </div>
@@ -33,7 +34,7 @@ export function StatsPanel({ stats }: StatsPanelProps) {
       <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
         <div className="text-sm text-gray-500 mb-1">{t('stats.wpm_title')}</div>
         <div className="text-2xl font-bold text-green-600">
-          {stats.chineseSpeed}
+          {stats.wpm}
         </div>
         <div className="text-xs text-gray-400">{t('stats.wpm_unit')}</div>
       </div>

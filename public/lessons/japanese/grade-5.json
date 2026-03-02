@@ -3,7 +3,7 @@
   "title": "5年生",
   "lessons": [
     {
-      "id": "jp-grade5-kumonoito",
+      "id": "f7d1761f-6121-476d-9ec4-a185b0ae9d92",
       "title": "蜘蛛の糸（芥川龍之介）",
       "category": "物語",
       "difficulty": 5,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-toshishun",
+      "id": "64da5954-1d29-45c7-8dea-9208d1c6af61",
       "title": "杜子春（芥川龍之介）",
       "category": "物語",
       "difficulty": 5,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-hana",
+      "id": "2fef6baf-60a5-416a-9794-95868dafd164",
       "title": "鼻（芥川龍之介）",
       "category": "物語",
       "difficulty": 5,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-torokko",
+      "id": "880ba4bc-f682-45a6-9fdb-a58d24953c54",
       "title": "トロッコ（芥川龍之介）",
       "category": "物語",
       "difficulty": 5,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-mikan",
+      "id": "f3039857-69c7-43ba-8d47-5a01ae9c835c",
       "title": "蜜柑（芥川龍之介）",
       "category": "物語",
       "difficulty": 5,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-taketori",
+      "id": "672eba97-b0b4-440e-b0c0-f50a9e231166",
       "title": "竹取物語（冒頭）",
       "category": "古典",
       "difficulty": 5,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-makura",
+      "id": "0093623f-c733-4efe-9c11-cb29f75fb271",
       "title": "枕草子（春はあけぼの）",
       "category": "古典",
       "difficulty": 5,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-tsurezure",
+      "id": "895ad26c-d37d-45a3-9c55-2d27fba69826",
       "title": "徒然草（序段）",
       "category": "古典",
       "difficulty": 5,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-okunohosomichi",
+      "id": "8e271402-2931-4ef5-ae82-f3b2ebbde2f6",
       "title": "奥の細道（冒頭）",
       "category": "古典",
       "difficulty": 5,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-heike",
+      "id": "c6daa53e-8ada-4974-8526-da0f382d6eb4",
       "title": "平家物語（冒頭）",
       "category": "古典",
       "difficulty": 5,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-hojoki",
+      "id": "c384d571-5446-4080-a136-a7bb85fb426b",
       "title": "方丈記（冒頭）",
       "category": "古典",
       "difficulty": 5,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-hyakunin1",
+      "id": "a351a5dc-3d8d-4039-8b96-cd0c9bd028ea",
       "title": "百人一首（1-5番）",
       "category": "古典",
       "difficulty": 5,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-yamanashi",
+      "id": "adcc0fac-dece-4e48-aca9-6097bd349002",
       "title": "やまなし（宮沢賢治）",
       "category": "物語",
       "difficulty": 5,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-sangetsuki",
+      "id": "39b86dd7-eba4-45b8-92d6-1f9e444ec305",
       "title": "山月記（中島敦）- 冒頭",
       "category": "物語",
       "difficulty": 5,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-hashiremelos",
+      "id": "df5eb92c-94a8-4d93-8352-4b3984b0feb2",
       "title": "走れメロス（太宰治）- 冒頭",
       "category": "物語",
       "difficulty": 5,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-rogo",
+      "id": "e2ffd092-0ca4-4af8-9a73-4dffdfe8bc49",
       "title": "論語（ろご）",
       "category": "古典",
       "difficulty": 5,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-toshiyorinohoshi",
+      "id": "1bf6764b-eb71-4809-ada2-d011a8e7eb63",
       "title": "年とった星（トルストイ）",
       "category": "物語",
       "difficulty": 5,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-ihatov",
+      "id": "efa0d687-1407-4a11-b94f-b10d7909b197",
       "title": "イーハトーボの氷（宮沢賢治）",
       "category": "物語",
       "difficulty": 5,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade5-gulliver",
+      "id": "cbabc193-85fe-4047-b8f7-e5c904749268",
       "title": "ガリバー旅行記（スウィフト）",
       "category": "物語",
       "difficulty": 5,

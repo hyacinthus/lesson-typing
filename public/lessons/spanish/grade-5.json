@@ -3,7 +3,7 @@
   "title": "Grade 5",
   "lessons": [
     {
-      "id": "spa-grade5-chocolate",
+      "id": "bb81513c-a4ba-43bd-8bff-0fa93e4403cc",
       "title": "La Historia del Chocolate",
       "category": "History",
       "difficulty": 5,
@@ -14,7 +14,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-water",
+      "id": "c2b9ab9d-451e-49f8-a30b-e04942cf5baa",
       "title": "El Agua es Vida",
       "category": "Science",
       "difficulty": 5,
@@ -25,7 +25,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-quijote",
+      "id": "c0a55c1f-b67a-40f2-9ccf-3d2c7b9e1de0",
       "title": "Don Quijote de la Mancha",
       "category": "Literature",
       "difficulty": 5,
@@ -36,7 +36,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-icaro",
+      "id": "640fa43f-63ab-4d2e-a7f9-736ea7d08dc4",
       "title": "Dédalo e Ícaro",
       "category": "Mito",
       "difficulty": 5,
@@ -47,7 +47,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-molinos",
+      "id": "6faf2416-5dc0-46a4-9aa6-279984cb3951",
       "title": "La Aventura de los Molinos",
       "category": "Literature",
       "difficulty": 5,
@@ -58,7 +58,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-tortuga-gigante",
+      "id": "3c22d2bf-ed46-49bb-b779-f3d56211da80",
       "title": "La Tortuga Gigante",
       "category": "Cuento",
       "difficulty": 5,
@@ -69,7 +69,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-medias",
+      "id": "ec4cd636-6956-404a-b7b3-5c3e6ab2a69f",
       "title": "Las Medias de los Flamencos",
       "category": "Cuento",
       "difficulty": 5,
@@ -80,7 +80,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-platero",
+      "id": "04a2f25b-f673-460c-841b-ea6e55d64813",
       "title": "Platero y Yo",
       "category": "Literature",
       "difficulty": 5,
@@ -91,7 +91,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-principito",
+      "id": "72003798-0463-41a3-8096-c1b22c2a9e66",
       "title": "El Principito y el Zorro",
       "category": "Literature",
       "difficulty": 5,
@@ -102,7 +102,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-moby-dick",
+      "id": "c79982e3-8cf9-4846-92a4-67411743326e",
       "title": "La Ballena Blanca",
       "category": "Literature",
       "difficulty": 5,
@@ -113,7 +113,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-vuelta-mundo",
+      "id": "c75b2aaa-a98f-4f05-b742-a60164c0489d",
       "title": "La Vuelta al Mundo en 80 Días",
       "category": "Literature",
       "difficulty": 5,
@@ -124,7 +124,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-viaje-centro",
+      "id": "e927fc29-d9c1-4e59-8266-4cb0424a9ff0",
       "title": "Viaje al Centro de la Tierra",
       "category": "Literature",
       "difficulty": 5,
@@ -135,7 +135,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-isla-tesoro",
+      "id": "dde623ff-1b3d-41b4-aa8a-dd6adb766b21",
       "title": "La Isla del Tesoro",
       "category": "Literature",
       "difficulty": 5,
@@ -146,7 +146,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-libro-selva",
+      "id": "e777f8a2-1d56-476f-95a6-d7b4221229d8",
       "title": "El Libro de la Selva",
       "category": "Literature",
       "difficulty": 5,
@@ -157,7 +157,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-robin-hood",
+      "id": "f04fe2e5-9151-4e94-8c1a-d16984f78e2a",
       "title": "Robin Hood",
       "category": "Leyenda",
       "difficulty": 5,
@@ -168,7 +168,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-rey-arturo",
+      "id": "4ce3fb89-a760-4703-a540-3e0f504e0a38",
       "title": "El Rey Arturo",
       "category": "Leyenda",
       "difficulty": 5,
@@ -179,7 +179,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-tres-mosqueteros",
+      "id": "abdb1577-6f73-4388-8402-d22a8c807cb4",
       "title": "Los Tres Mosqueteros",
       "category": "Literature",
       "difficulty": 5,
@@ -190,7 +190,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-guerra-mundos",
+      "id": "55fb6451-c944-4708-ab70-950185577aaf",
       "title": "La Guerra de los Mundos",
       "category": "Literature",
       "difficulty": 5,
@@ -201,7 +201,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-hombre-invisible",
+      "id": "6c2a0db2-b843-49df-80dd-7ffa898d0019",
       "title": "El Hombre Invisible",
       "category": "Literature",
       "difficulty": 5,
@@ -212,7 +212,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade5-dracula",
+      "id": "d10610a9-4007-44cd-924e-780f2b2dc7b3",
       "title": "El Conde Drácula",
       "category": "Literature",
       "difficulty": 5,

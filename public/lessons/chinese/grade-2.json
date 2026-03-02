@@ -3,7 +3,7 @@
   "title": "小学二年级",
   "lessons": [
     {
-      "id": "grade2-dongwu",
+      "id": "5c13b90f-519c-47e8-b1e2-57f03fbc268c",
       "title": "动物过冬",
       "category": "科普",
       "difficulty": 2,
@@ -13,7 +13,7 @@
       "chineseCharCount": 114
     },
     {
-      "id": "grade2-shuxing",
+      "id": "67400c35-28dc-4dc5-8eae-7ce1c5dd8811",
       "title": "植物妈妈有办法",
       "category": "科普",
       "difficulty": 2,
@@ -23,7 +23,7 @@
       "chineseCharCount": 114
     },
     {
-      "id": "grade2-baiyun",
+      "id": "e93e5d12-ae54-4452-953d-cdc98d7b379e",
       "title": "白云",
       "category": "儿童诗",
       "difficulty": 2,
@@ -33,7 +33,7 @@
       "chineseCharCount": 59
     },
     {
-      "id": "grade2-xue",
+      "id": "1366a493-7f50-4f40-b32a-f19d46365133",
       "title": "雪",
       "category": "写景",
       "difficulty": 2,
@@ -43,7 +43,7 @@
       "chineseCharCount": 49
     },
     {
-      "id": "grade2-caoyuan",
+      "id": "db8b9e5f-b255-43f0-96d3-03fd3ca243fc",
       "title": "草原上的盛会",
       "category": "写景",
       "difficulty": 2,
@@ -53,7 +53,7 @@
       "chineseCharCount": 86
     },
     {
-      "id": "grade2-new-1769144981114-1",
+      "id": "8b75144e-3e7f-410b-80f5-d170bc99309d",
       "title": "小蝌蚪找妈妈",
       "category": "课文",
       "difficulty": 2,
@@ -63,7 +63,7 @@
       "chineseCharCount": 334
     },
     {
-      "id": "grade2-new-1769144981114-2",
+      "id": "8c201a2f-fea4-4b80-826d-79b064aaa3fd",
       "title": "我是什么",
       "category": "课文",
       "difficulty": 2,
@@ -73,7 +73,7 @@
       "chineseCharCount": 275
     },
     {
-      "id": "grade2-new-1769144981114-3",
+      "id": "d33e708b-2a5a-47ae-85c6-632eebb83bda",
       "title": "拍手歌",
       "category": "课文",
       "difficulty": 2,
@@ -83,7 +83,7 @@
       "chineseCharCount": 130
     },
     {
-      "id": "grade2-new-1769144981114-4",
+      "id": "9e8640d8-b1bf-4712-9b30-d94e927f59cf",
       "title": "田家四季歌",
       "category": "课文",
       "difficulty": 2,
@@ -93,7 +93,7 @@
       "chineseCharCount": 92
     },
     {
-      "id": "grade2-new-1769144981114-5",
+      "id": "03b86f7f-2f57-42bf-8d03-c8aea5102d18",
       "title": "曹冲称象",
       "category": "课文",
       "difficulty": 2,
@@ -103,7 +103,7 @@
       "chineseCharCount": 293
     },
     {
-      "id": "grade2-new-1769144981114-6",
+      "id": "75beabf6-2067-4fa8-8900-f69803560590",
       "title": "登鹳雀楼",
       "category": "课文",
       "difficulty": 2,
@@ -113,7 +113,7 @@
       "chineseCharCount": 20
     },
     {
-      "id": "grade2-new-1769144981114-7",
+      "id": "0492b8db-8496-48f6-94f3-495b586ceb4e",
       "title": "望庐山瀑布",
       "category": "课文",
       "difficulty": 2,
@@ -123,7 +123,7 @@
       "chineseCharCount": 28
     },
     {
-      "id": "grade2-new-1769144981114-8",
+      "id": "2dbc13fa-206c-4c00-8c34-5c3df0660975",
       "title": "黄山奇石",
       "category": "课文",
       "difficulty": 2,
@@ -133,7 +133,7 @@
       "chineseCharCount": 260
     },
     {
-      "id": "grade2-new-1769144981114-9",
+      "id": "3c141088-b4d9-43c1-82e7-8770d4bfc558",
       "title": "日月潭",
       "category": "课文",
       "difficulty": 2,
@@ -143,7 +143,7 @@
       "chineseCharCount": 215
     },
     {
-      "id": "grade2-new-1769144981114-10",
+      "id": "b6974fca-d6f4-4ae1-bb45-c0c8f2f1e3e2",
       "title": "坐井观天",
       "category": "课文",
       "difficulty": 2,
@@ -153,7 +153,7 @@
       "chineseCharCount": 144
     },
     {
-      "id": "grade2-new-1769144981114-11",
+      "id": "410b2999-9ed5-4747-9b1c-f37ce37b54b0",
       "title": "寒号鸟",
       "category": "课文",
       "difficulty": 2,
@@ -163,7 +163,7 @@
       "chineseCharCount": 312
     },
     {
-      "id": "grade2-new-1769144981114-12",
+      "id": "fcb85341-4808-48f0-a74b-7550ae9e5682",
       "title": "我要的是葫芦",
       "category": "课文",
       "difficulty": 2,
@@ -173,7 +173,7 @@
       "chineseCharCount": 209
     },
     {
-      "id": "grade2-new-1769144981114-13",
+      "id": "69fc8468-27c6-4ce6-abca-edadfd101710",
       "title": "狐假虎威",
       "category": "课文",
       "difficulty": 2,
@@ -183,7 +183,7 @@
       "chineseCharCount": 264
     },
     {
-      "id": "grade2-new-1769144981114-14",
+      "id": "db180ccf-0dd3-49b6-b7eb-48928a9522d8",
       "title": "村居",
       "category": "课文",
       "difficulty": 2,
@@ -193,7 +193,7 @@
       "chineseCharCount": 28
     },
     {
-      "id": "grade2-new-1769144981114-15",
+      "id": "a9919187-b82d-4312-9114-a0d92af053b6",
       "title": "找春天",
       "category": "课文",
       "difficulty": 2,
@@ -203,7 +203,7 @@
       "chineseCharCount": 94
     },
     {
-      "id": "grade2-new-1769144981114-16",
+      "id": "d19ad67f-ff5e-4f83-8046-185d54900a78",
       "title": "揠苗助长",
       "category": "课文",
       "difficulty": 2,
@@ -213,7 +213,7 @@
       "chineseCharCount": 182
     },
     {
-      "id": "grade2-new-1769144981114-17",
+      "id": "96f0d719-41ff-450d-9331-faa2f5e3627a",
       "title": "小马过河",
       "category": "课文",
       "difficulty": 2,

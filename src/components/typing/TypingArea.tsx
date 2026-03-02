@@ -149,13 +149,13 @@ export function TypingArea({
             <div>
               <div className="text-sm text-gray-600">{t('stats.wpm_title')}</div>
               <div className="text-2xl font-bold text-green-600">
-                {stats.chineseSpeed} {t('stats.wpm_unit')}
+                {stats.wpm} {t('stats.wpm_unit')}
               </div>
             </div>
             <div>
               <div className="text-sm text-gray-600">{t('stats.char_speed')}</div>
               <div className="text-2xl font-bold text-primary">
-                {stats.characterSpeed} {t('stats.char_unit')}
+                {stats.cpm} {t('stats.char_unit')}
               </div>
             </div>
             <div>

@@ -3,7 +3,7 @@
   "title": "Grade 4",
   "lessons": [
     {
-      "id": "spa-grade4-solar",
+      "id": "b194bb39-de70-45db-bd5a-2180d6c487cb",
       "title": "El Sistema Solar",
       "category": "Science",
       "difficulty": 4,
@@ -14,7 +14,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-butterfly",
+      "id": "bd3b90fb-293b-4a79-b2b8-4afd8db1171f",
       "title": "La Mariposa Monarca",
       "category": "Nature",
       "difficulty": 4,
@@ -25,7 +25,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-recycle",
+      "id": "cc91c1ac-c4d2-4c46-b257-9e8b6757ec1b",
       "title": "El Reciclaje",
       "category": "Society",
       "difficulty": 4,
@@ -36,7 +36,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-soles",
+      "id": "ae67b944-dd5f-431c-8948-218c4a02f140",
       "title": "Los Cinco Soles",
       "category": "Mito",
       "difficulty": 4,
@@ -47,7 +47,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-maiz",
+      "id": "96e7a5ff-72a9-4cd8-9f8a-4a3d7b5f0da2",
       "title": "La Leyenda del Maíz",
       "category": "Leyenda",
       "difficulty": 4,
@@ -58,7 +58,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-mulata",
+      "id": "b0b83bd1-d442-4044-afae-30e69abc414b",
       "title": "La Mulata de Córdoba",
       "category": "Leyenda",
       "difficulty": 4,
@@ -69,7 +69,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-aguila",
+      "id": "ec342583-7232-4b8d-bb1f-94fe1ea4a403",
       "title": "El Águila y la Serpiente",
       "category": "Leyenda",
       "difficulty": 4,
@@ -80,7 +80,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-flautista",
+      "id": "805a982f-c654-4be4-8ecf-3326bacc0e68",
       "title": "El Flautista de Hamelín",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -91,7 +91,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-musicos",
+      "id": "40d0c478-834c-46fa-a53a-9abd45845df2",
       "title": "Los Músicos de Bremen",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -102,7 +102,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-traje",
+      "id": "7c695f56-9cb9-4ff0-b742-8912ddbd9878",
       "title": "El Traje Nuevo del Emperador",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -113,7 +113,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-pedro",
+      "id": "2f54dcd0-3abf-4258-b39b-07172cf21b4c",
       "title": "Pedro y el Lobo",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -124,7 +124,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-canterville",
+      "id": "47a692d8-dac7-4cb8-bea2-a6d02a2f7b0a",
       "title": "El Fantasma de Canterville",
       "category": "Cuento",
       "difficulty": 4,
@@ -135,7 +135,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-lago",
+      "id": "54c13016-8f50-4e03-ad28-96d213ae0176",
       "title": "El Lago de los Cisnes",
       "category": "Cuento",
       "difficulty": 4,
@@ -146,7 +146,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-cascanueces",
+      "id": "e51dc0cf-be63-4051-a647-99af90bcb5ac",
       "title": "El Cascanueces",
       "category": "Cuento",
       "difficulty": 4,
@@ -157,7 +157,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-aladino",
+      "id": "3392abf2-edde-444c-ab23-ce0a54116a7b",
       "title": "Aladino y la Lámpara Maravillosa",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -168,7 +168,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-ali-baba",
+      "id": "d58e81ad-2733-44d6-ba4e-98bd6963ebf7",
       "title": "Alí Babá y los Cuarenta Ladrones",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -179,7 +179,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-sindbad",
+      "id": "d743ec50-0d32-4c34-a9b6-71f573104ef4",
       "title": "Simbad el Marino",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -190,7 +190,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-mago-oz",
+      "id": "d3406d56-3f09-453c-b7e2-0363a4333c5a",
       "title": "El Mago de Oz",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -201,7 +201,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-peter-pan",
+      "id": "ab0fe65a-a9c3-4908-935a-5a866d17c1dc",
       "title": "Peter Pan",
       "category": "Cuento Clásico",
       "difficulty": 4,
@@ -212,7 +212,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade4-pinocho",
+      "id": "41a1a179-079d-40df-9c42-c76244d3373a",
       "title": "Pinocho",
       "category": "Cuento Clásico",
       "difficulty": 4,

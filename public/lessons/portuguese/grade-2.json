@@ -3,7 +3,7 @@
   "title": "2º Ano",
   "lessons": [
     {
-      "id": "pt-grade2-cigarra",
+      "id": "467db15d-ccc8-4062-a4f4-d29a729aa4b8",
       "title": "A Cigarra e a Formiga",
       "category": "Fábula",
       "difficulty": 2,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-leao",
+      "id": "8952f219-0eb6-47e8-b074-c6795e74a9df",
       "title": "O Leão e o Ratinho",
       "category": "Fábula",
       "difficulty": 2,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-lebre",
+      "id": "21aef03e-ef96-4362-a150-08f4a4d0735b",
       "title": "A Lebre e a Tartaruga",
       "category": "Fábula",
       "difficulty": 2,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-cao",
+      "id": "6ebdd4d2-8cd5-4c60-b9f1-110c2686649b",
       "title": "O Cão e o Osso",
       "category": "Fábula",
       "difficulty": 2,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-raposa-uvas",
+      "id": "650c380d-75d7-4061-8f7e-60c7fceaa3ac",
       "title": "A Raposa e as Uvas",
       "category": "Fábula",
       "difficulty": 2,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-pastor",
+      "id": "6597ee1f-a2d4-4ba6-bca8-df1fa82bc111",
       "title": "O Pastor Mentiroso",
       "category": "Fábula",
       "difficulty": 2,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-corvo",
+      "id": "8ff61f7d-750c-4d9f-91fb-e92c4f5f64bb",
       "title": "O Corvo e o Jarro",
       "category": "Fábula",
       "difficulty": 2,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-vento",
+      "id": "d198c573-07f3-498e-94dd-982db9ef9b4c",
       "title": "O Vento e o Sol",
       "category": "Fábula",
       "difficulty": 2,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-galinha",
+      "id": "77300bee-cb03-4943-9180-a2f79844720d",
       "title": "A Galinha dos Ovos de Ouro",
       "category": "Fábula",
       "difficulty": 2,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-ratos",
+      "id": "302267ff-62df-4195-a6c8-e51c1b1b8a60",
       "title": "O Rato do Campo e da Cidade",
       "category": "Fábula",
       "difficulty": 2,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-cegonha",
+      "id": "b8c32a59-c679-4dfb-b4d1-6236a8cf3a4c",
       "title": "A Raposa e a Cegonha",
       "category": "Fábula",
       "difficulty": 2,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-lobo",
+      "id": "30cdb197-8b21-4880-b77f-0da48b7449a9",
       "title": "O Lobo e o Cordeiro",
       "category": "Fábula",
       "difficulty": 2,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-mosquito",
+      "id": "6a0c40bd-b5e3-40eb-acdb-8903a659eb42",
       "title": "O Leão e o Mosquito",
       "category": "Fábula",
       "difficulty": 2,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-galo",
+      "id": "c2abb104-721d-4369-b4cd-940faba241a5",
       "title": "O Galo e a Pérola",
       "category": "Fábula",
       "difficulty": 2,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-assembleia",
+      "id": "c9683511-2120-4920-b311-373976a9f52d",
       "title": "A Assembleia dos Ratos",
       "category": "Fábula",
       "difficulty": 2,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-burro",
+      "id": "79f142d1-5c46-4ab4-9edd-4883d99ed15c",
       "title": "O Burro e a Pele de Leão",
       "category": "Fábula",
       "difficulty": 2,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-mosca",
+      "id": "5449f002-a813-4f7a-ac9f-e7cd2d6ada3b",
       "title": "A Mosca e a Formiga",
       "category": "Fábula",
       "difficulty": 2,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-pavao",
+      "id": "6ab37994-487a-4003-bb3a-c8c8659a367d",
       "title": "O Pavão e o Grou",
       "category": "Fábula",
       "difficulty": 2,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-arvore",
+      "id": "30d05077-8a7f-4219-a3e9-42e4c1e35180",
       "title": "O Carvalho e o Caniço",
       "category": "Fábula",
       "difficulty": 2,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade2-viajantes",
+      "id": "bee6ff17-5b39-4c31-997c-4f18834a773d",
       "title": "Os Viajantes e o Urso",
       "category": "Fábula",
       "difficulty": 2,

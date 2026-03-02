@@ -3,7 +3,7 @@
   "title": "小学三年级",
   "lessons": [
     {
-      "id": "grade3-putao",
+      "id": "445754ea-8163-404a-ae23-90806051917f",
       "title": "葡萄沟",
       "category": "写景",
       "difficulty": 3,
@@ -13,7 +13,7 @@
       "chineseCharCount": 157
     },
     {
-      "id": "grade3-hua",
+      "id": "ae496612-76c9-459d-9df5-b9bc0eb0f155",
       "title": "花钟",
       "category": "科普",
       "difficulty": 3,
@@ -23,7 +23,7 @@
       "chineseCharCount": 155
     },
     {
-      "id": "grade3-simaguang",
+      "id": "3f62a1cb-5134-40f6-9e45-c654ea5686e5",
       "title": "司马光",
       "category": "文言文",
       "difficulty": 3,
@@ -33,7 +33,7 @@
       "chineseCharCount": 35
     },
     {
-      "id": "grade3-shouzhu",
+      "id": "43350bb7-3c1c-4490-8bb7-64898f24db69",
       "title": "守株待兔",
       "category": "文言文",
       "difficulty": 3,
@@ -43,7 +43,7 @@
       "chineseCharCount": 43
     },
     {
-      "id": "grade3-zhaozhouqiao",
+      "id": "5f3f5ea1-87bf-4cf5-a3f9-aab27d93cf15",
       "title": "桥梁的秘密",
       "category": "说明文",
       "difficulty": 3,
@@ -53,7 +53,7 @@
       "chineseCharCount": 172
     },
     {
-      "id": "grade3-haitang",
+      "id": "2deb6dc4-0126-474a-ab0c-e759b43a1a87",
       "title": "海边的早晨",
       "category": "写景",
       "difficulty": 3,
@@ -63,7 +63,7 @@
       "chineseCharCount": 152
     },
     {
-      "id": "grade3-yiliao",
+      "id": "0725ead2-67d1-4d27-9376-53176f3a1d27",
       "title": "山泉",
       "category": "记叙文",
       "difficulty": 3,
@@ -73,7 +73,7 @@
       "chineseCharCount": 144
     },
     {
-      "id": "grade3-new-1769144981115-1",
+      "id": "b01bd35a-7213-4bc3-aa16-b1bd19bb029c",
       "title": "大青树下的小学",
       "category": "课文",
       "difficulty": 3,
@@ -83,7 +83,7 @@
       "chineseCharCount": 195
     },
     {
-      "id": "grade3-new-1769144981115-2",
+      "id": "d2028bd3-a33b-4745-b4bc-d804328e25f8",
       "title": "秋天的雨",
       "category": "课文",
       "difficulty": 3,
@@ -93,7 +93,7 @@
       "chineseCharCount": 157
     },
     {
-      "id": "grade3-new-1769144981115-3",
+      "id": "7b8dd5e5-e45c-4ff2-ad7a-05613f5671bd",
       "title": "金色的草地",
       "category": "课文",
       "difficulty": 3,
@@ -103,7 +103,7 @@
       "chineseCharCount": 140
     },
     {
-      "id": "grade3-new-1769144981115-4",
+      "id": "ee4c76ea-448b-46f3-bd0a-f7a1b0b0fbb7",
       "title": "铺满金色巴掌的水泥道",
       "category": "课文",
       "difficulty": 3,
@@ -113,7 +113,7 @@
       "chineseCharCount": 159
     },
     {
-      "id": "grade3-new-1769144981115-5",
+      "id": "dc1170c2-0d8c-42cd-b597-e30ebe50398b",
       "title": "总也倒不了的老屋",
       "category": "课文",
       "difficulty": 3,
@@ -123,7 +123,7 @@
       "chineseCharCount": 137
     },
     {
-      "id": "grade3-new-1769144981115-6",
+      "id": "cbd0c356-d635-4c14-bbdb-28564cfeb049",
       "title": "搭船的鸟",
       "category": "课文",
       "difficulty": 3,
@@ -133,7 +133,7 @@
       "chineseCharCount": 135
     },
     {
-      "id": "grade3-new-1769144981115-7",
+      "id": "b8c88850-0149-4444-90fb-53ba58c7f19c",
       "title": "富饶的西沙群岛",
       "category": "课文",
       "difficulty": 3,
@@ -143,7 +143,7 @@
       "chineseCharCount": 134
     },
     {
-      "id": "grade3-new-1769144981115-8",
+      "id": "5130b0b5-af63-40af-9dde-24864e2f3d55",
       "title": "美丽的小兴安岭",
       "category": "课文",
       "difficulty": 3,
@@ -153,7 +153,7 @@
       "chineseCharCount": 185
     },
     {
-      "id": "grade3-new-1769144981115-9",
+      "id": "3ae06832-cc6b-4666-b6e4-ea44471cba8b",
       "title": "绝句",
       "category": "课文",
       "difficulty": 3,
@@ -163,7 +163,7 @@
       "chineseCharCount": 28
     },
     {
-      "id": "grade3-new-1769144981115-10",
+      "id": "fcced0ab-72dd-4568-ab48-fa66b8cfe6d6",
       "title": "灰雀",
       "category": "课文",
       "difficulty": 3,
@@ -173,7 +173,7 @@
       "chineseCharCount": 92
     },
     {
-      "id": "grade3-new-1769144981115-11",
+      "id": "d64d8067-f5fb-4f7e-8674-85364845a585",
       "title": "花的学校",
       "category": "课文",
       "difficulty": 3,
@@ -183,7 +183,7 @@
       "chineseCharCount": 269
     },
     {
-      "id": "grade3-new-1769144981115-12",
+      "id": "c73eedf2-617c-4220-943f-cabe5290df67",
       "title": "荷花",
       "category": "课文",
       "difficulty": 3,
@@ -193,7 +193,7 @@
       "chineseCharCount": 309
     },
     {
-      "id": "grade3-new-1769144981115-13",
+      "id": "25561a0f-f8a2-4394-91ae-e25f79ca6da3",
       "title": "火烧云",
       "category": "课文",
       "difficulty": 3,
@@ -203,7 +203,7 @@
       "chineseCharCount": 260
     },
     {
-      "id": "grade3-new-1769144981115-14",
+      "id": "6d0ee684-1acd-4e43-a6b9-7152a1e0e78c",
       "title": "听听，秋的声音",
       "category": "课文",
       "difficulty": 3,

@@ -3,7 +3,7 @@
   "title": "CM1",
   "lessons": [
     {
-      "id": "fr-cm1-chevre-seguin",
+      "id": "46024b93-b4b3-47a0-a4b2-ed3fc356f773",
       "title": "La Chèvre de Monsieur Seguin",
       "category": "Story",
       "difficulty": 3,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-malheurs-sophie",
+      "id": "5851d8a3-01f3-4046-bf05-cd3989089735",
       "title": "Les Malheurs de Sophie - La Poupée",
       "category": "Story",
       "difficulty": 2,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-corbeau-renard",
+      "id": "7ada87a9-5a78-416b-bc40-04e640325ec3",
       "title": "Le Corbeau et le Renard",
       "category": "Fable",
       "difficulty": 3,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-cigale-fourmi",
+      "id": "d35cdc42-2cb8-4664-b18e-04262c8e1dff",
       "title": "La Cigale et la Fourmi",
       "category": "Fable",
       "difficulty": 3,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-lettres-moulin",
+      "id": "af5a8d9d-b51c-4946-b9e0-f9f4b1468b7b",
       "title": "L'Installation",
       "category": "Story",
       "difficulty": 3,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-petit-chose",
+      "id": "d68fe45b-7488-458a-abb8-d14137f1096b",
       "title": "Le Petit Chose",
       "category": "Story",
       "difficulty": 3,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-ane-charge",
+      "id": "017d7fd3-3361-4d15-94d6-9dd72075773e",
       "title": "L'Âne chargé d'éponges",
       "category": "Fable",
       "difficulty": 3,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-lion-rat",
+      "id": "f5aad4cb-0a05-488d-93fc-48485888f858",
       "title": "Le Lion et le Rat",
       "category": "Fable",
       "difficulty": 3,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-loup-chien",
+      "id": "8d61368a-ca78-4398-9139-1730f247545d",
       "title": "Le Loup et le Chien",
       "category": "Fable",
       "difficulty": 3,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-grenouille-boeuf",
+      "id": "88aa1537-4247-44de-a0df-7c73018a4f39",
       "title": "La Grenouille et le Bœuf",
       "category": "Fable",
       "difficulty": 3,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-lievre-tortue",
+      "id": "04a25772-ca60-4108-bb32-ecf9fe8c6650",
       "title": "Le Lièvre et la Tortue",
       "category": "Fable",
       "difficulty": 3,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-petit-chaperon",
+      "id": "a21669e5-500c-40a1-9bb9-ed70a7544e58",
       "title": "Le Petit Chaperon rouge",
       "category": "Story",
       "difficulty": 2,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-cendrillon",
+      "id": "77f15b58-fee1-4eef-a8c2-62650190bfb5",
       "title": "Cendrillon",
       "category": "Story",
       "difficulty": 2,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-chat-botte",
+      "id": "de88933b-eccc-43f4-b0c9-8caf8b792182",
       "title": "Le Maître Chat",
       "category": "Story",
       "difficulty": 2,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-belle-bois-dormant",
+      "id": "16c477ff-5e8f-4b09-bc48-01953b9b5f7d",
       "title": "La Belle au bois dormant",
       "category": "Story",
       "difficulty": 2,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-pouce",
+      "id": "c57404ae-29dd-438b-b5ed-093594a8c463",
       "title": "Le Petit Poucet",
       "category": "Story",
       "difficulty": 2,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-fees",
+      "id": "5f5a2ebc-3ec2-4bb4-80fc-2f9197abbff7",
       "title": "Les Fées",
       "category": "Story",
       "difficulty": 2,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-barbe-bleue",
+      "id": "2c664b9c-9b39-4aa2-961b-031885900cfd",
       "title": "La Barbe bleue",
       "category": "Story",
       "difficulty": 3,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-peau-ane",
+      "id": "d1529b9f-7b6f-4082-9e49-0aa45ec140e6",
       "title": "Peau d'Âne",
       "category": "Story",
       "difficulty": 3,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm1-riquet",
+      "id": "0f1f2268-98b3-45ac-9829-35b495949bb9",
       "title": "Riquet à la houppe",
       "category": "Story",
       "difficulty": 3,

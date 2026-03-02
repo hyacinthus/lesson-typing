@@ -3,7 +3,7 @@
   "title": "Grade 3",
   "lessons": [
     {
-      "id": "english-my-family",
+      "id": "3fc96e3a-77ed-48ac-aa16-9f971a75b047",
       "title": "My Family",
       "category": "日常",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-my-day",
+      "id": "cbe918ad-2176-4872-b47b-1f22b8cbf324",
       "title": "My Day",
       "category": "日常",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-seasons",
+      "id": "62c2ff27-e89c-4cee-a9ec-02ffb9f6ba6a",
       "title": "Four Seasons",
       "category": "写景",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-hare-tortoise",
+      "id": "7cf7c735-1621-44a0-a40c-04b985d81856",
       "title": "The Hare and the Tortoise",
       "category": "Fable",
       "difficulty": 3,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-lion-mouse",
+      "id": "7d4fe4a3-d30d-47d3-99ee-bcf232511a60",
       "title": "The Lion and the Mouse",
       "category": "Fable",
       "difficulty": 3,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-fox-stork",
+      "id": "630ac6c6-f6b6-468f-afcc-c16cdeec7bd9",
       "title": "The Fox and the Stork",
       "category": "Fable",
       "difficulty": 3,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-wolf-crane",
+      "id": "e8429312-d812-4b61-ad03-6f131d51d422",
       "title": "The Wolf and the Crane",
       "category": "Fable",
       "difficulty": 3,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-dog-manger",
+      "id": "a46bab26-1f38-4df5-8b26-88b73b47dd7d",
       "title": "The Dog in the Manger",
       "category": "Fable",
       "difficulty": 3,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-milkmaid",
+      "id": "1c11ebb8-47ce-466e-9943-3d46dd89c0cc",
       "title": "The Milkmaid and Her Pail",
       "category": "Fable",
       "difficulty": 3,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-belling-cat",
+      "id": "a8a5c54f-99c4-491c-847e-911d6500deb9",
       "title": "Belling the Cat",
       "category": "Fable",
       "difficulty": 3,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-miller-son-ass",
+      "id": "beea1386-f785-47db-91f9-b6b9edaa8cda",
       "title": "The Miller, His Son, and the Ass",
       "category": "Fable",
       "difficulty": 3,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-frog-prince",
+      "id": "8aacf738-5e99-405d-9265-c9845bdb09af",
       "title": "The Frog Prince",
       "category": "Story",
       "difficulty": 3,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-rapunzel",
+      "id": "4058abca-fb85-4d30-8035-93f4a24361bb",
       "title": "Rapunzel",
       "category": "Story",
       "difficulty": 3,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-hansel-gretel",
+      "id": "4541a316-a2e7-4672-9242-2457844ecf71",
       "title": "Hansel and Gretel",
       "category": "Story",
       "difficulty": 3,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-jack-beanstalk",
+      "id": "54859689-5f02-40f9-95ba-c89527d0fc8b",
       "title": "Jack and the Beanstalk",
       "category": "Story",
       "difficulty": 3,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-aladdin",
+      "id": "4a37c17c-019a-4b65-adfc-852e3278d14e",
       "title": "Aladdin and the Wonderful Lamp",
       "category": "Story",
       "difficulty": 3,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-cinderella",
+      "id": "d170b159-a9ec-47a4-815a-2caaf89abb99",
       "title": "Cinderella",
       "category": "Story",
       "difficulty": 3,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-snow-white",
+      "id": "b71b40dc-c543-46a4-85d7-7b371dc221cb",
       "title": "Snow White",
       "category": "Story",
       "difficulty": 3,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-sleeping-beauty",
+      "id": "2c087f8e-946b-4078-9eec-8351d91ab793",
       "title": "Sleeping Beauty",
       "category": "Story",
       "difficulty": 3,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-beauty-beast",
+      "id": "95e4f998-2bc5-4d00-8245-b45aefbec993",
       "title": "Beauty and the Beast",
       "category": "Story",
       "difficulty": 3,

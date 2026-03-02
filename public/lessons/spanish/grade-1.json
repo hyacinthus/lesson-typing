@@ -3,7 +3,7 @@
   "title": "Grade 1",
   "lessons": [
     {
-      "id": "spa-grade1-cat",
+      "id": "58c31509-b645-466c-8ab3-c998807e0680",
       "title": "El Gato y el Pájaro",
       "category": "Story",
       "difficulty": 1,
@@ -14,7 +14,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-family",
+      "id": "f7623fb9-6fa2-4eed-9f7d-2db088fbaac3",
       "title": "Mi Familia",
       "category": "Story",
       "difficulty": 1,
@@ -25,7 +25,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-colors",
+      "id": "166a8a6c-e445-446d-bfc9-ba01a41b9d37",
       "title": "Los Colores",
       "category": "Story",
       "difficulty": 1,
@@ -36,7 +36,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-patito",
+      "id": "46a4ec04-3f22-4496-9be6-fd30974874d1",
       "title": "El Patito Feo",
       "category": "Cuento Clásico",
       "difficulty": 1,
@@ -47,7 +47,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-memo",
+      "id": "8dfdf8ee-a98d-45fc-92b0-5eddf29344d0",
       "title": "La familia de Memo",
       "category": "Lectura",
       "difficulty": 1,
@@ -58,7 +58,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-susu",
+      "id": "3468a080-c6e8-4bf7-9c7b-b0a971171ea1",
       "title": "El oso de Susu",
       "category": "Lectura",
       "difficulty": 1,
@@ -69,7 +69,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-tomas",
+      "id": "1879ce56-c46a-47ea-a2a1-73c9b06e4f4b",
       "title": "Mi tío Tomas",
       "category": "Lectura",
       "difficulty": 1,
@@ -80,7 +80,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-alma",
+      "id": "9e110c75-3e37-4771-944d-168a3b57134d",
       "title": "La comida de Alma",
       "category": "Lectura",
       "difficulty": 1,
@@ -91,7 +91,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-rita",
+      "id": "17b19aad-d679-49f6-a2fc-24c5d6760d18",
       "title": "Las aventuras de Rita",
       "category": "Lectura",
       "difficulty": 1,
@@ -102,7 +102,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-telma",
+      "id": "bdcff2b7-0420-49be-bb70-74d3a21d24ec",
       "title": "La fiesta de Telma",
       "category": "Lectura",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-nino",
+      "id": "aaaa5d6b-38d0-4f96-8315-8bf69e112350",
       "title": "Nino y su nana",
       "category": "Lectura",
       "difficulty": 1,
@@ -124,7 +124,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-dame",
+      "id": "85b51a6c-f40a-414a-9639-543079b01d7d",
       "title": "Dame la mano",
       "category": "Poema",
       "difficulty": 1,
@@ -135,7 +135,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-sol-luna",
+      "id": "3ba13dc0-6584-480b-af6e-7127d6f6d927",
       "title": "El Sol y la Luna",
       "category": "Cuento",
       "difficulty": 1,
@@ -146,7 +146,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-hormiga",
+      "id": "9cf96e64-77ca-4b53-a44d-e45e240233f6",
       "title": "La Hormiga Trabajadora",
       "category": "Fábula",
       "difficulty": 1,
@@ -157,7 +157,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-leon-raton",
+      "id": "c86f892b-90c7-46b2-b46e-7164db6996bd",
       "title": "El León y el Ratón",
       "category": "Fábula",
       "difficulty": 1,
@@ -168,7 +168,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-liebre-tortuga",
+      "id": "9777c880-dfad-43dd-aa20-3d1063f7e73b",
       "title": "La Liebre y la Tortuga",
       "category": "Fábula",
       "difficulty": 1,
@@ -179,7 +179,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-perro-reflejo",
+      "id": "a20ba25a-504a-4ac0-a43e-53e4558245fa",
       "title": "El Perro y su Hueso",
       "category": "Fábula",
       "difficulty": 1,
@@ -190,7 +190,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-viento-sol",
+      "id": "dbcd43b5-4ae8-49a7-9b84-09f8a743b126",
       "title": "El Viento y el Sol",
       "category": "Fábula",
       "difficulty": 1,
@@ -201,7 +201,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-gallina-oro",
+      "id": "3d34abc5-55d9-4497-9ba7-2f8003c2ee7c",
       "title": "La Gallina de los Huevos de Oro",
       "category": "Fábula",
       "difficulty": 1,
@@ -212,7 +212,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade1-ratones",
+      "id": "88fe0cd8-367a-43e1-9b29-34e82def3671",
       "title": "Los Dos Ratones",
       "category": "Fábula",
       "difficulty": 1,

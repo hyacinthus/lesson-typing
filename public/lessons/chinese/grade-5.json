@@ -3,7 +3,7 @@
   "title": "小学五年级",
   "lessons": [
     {
-      "id": "grade5-guanda",
+      "id": "b4171bf1-8720-42cb-9c46-e645371e8e8d",
       "title": "观潮",
       "category": "写景",
       "difficulty": 5,
@@ -13,7 +13,7 @@
       "chineseCharCount": 385
     },
     {
-      "id": "grade5-niaotian",
+      "id": "243edb2f-87ac-4918-b5c0-b4791418a6e2",
       "title": "鸟的天堂",
       "category": "写景",
       "difficulty": 5,
@@ -23,7 +23,7 @@
       "chineseCharCount": 398
     },
     {
-      "id": "grade5-langhua",
+      "id": "65445746-ec71-490d-8d4f-ec16a4822fb7",
       "title": "浪花",
       "category": "写景",
       "difficulty": 5,
@@ -33,7 +33,7 @@
       "chineseCharCount": 345
     },
     {
-      "id": "grade5-guoyu",
+      "id": "a8ebb49b-2bb7-4f51-ad65-86946b7b31e3",
       "title": "落花生",
       "category": "散文",
       "difficulty": 5,
@@ -43,7 +43,7 @@
       "chineseCharCount": 385
     },
     {
-      "id": "grade5-baige",
+      "id": "68a6b0b0-dfd9-41c7-8ec9-31b347618edf",
       "title": "白鹅",
       "category": "状物",
       "difficulty": 5,
@@ -53,7 +53,7 @@
       "chineseCharCount": 325
     },
     {
-      "id": "grade5-ma",
+      "id": "6a41825e-6313-42aa-b558-eee114903955",
       "title": "猫",
       "category": "状物",
       "difficulty": 5,
@@ -63,7 +63,7 @@
       "chineseCharCount": 415
     },
     {
-      "id": "grade5-mudan",
+      "id": "e9887483-f17a-45dc-99c3-e6a3a1939731",
       "title": "牡丹",
       "category": "状物",
       "difficulty": 5,
@@ -73,7 +73,7 @@
       "chineseCharCount": 365
     },
     {
-      "id": "grade5-new-1769144883582-1",
+      "id": "6c44b260-4207-485b-9829-db88053a02b5",
       "title": "白鹭",
       "category": "课文",
       "difficulty": 5,
@@ -83,7 +83,7 @@
       "chineseCharCount": 498
     },
     {
-      "id": "grade5-new-1769144883582-5",
+      "id": "8cca8629-cc5d-4935-bd95-84f9254c1411",
       "title": "圆明园的毁灭",
       "category": "课文",
       "difficulty": 5,
@@ -93,7 +93,7 @@
       "chineseCharCount": 512
     },
     {
-      "id": "grade5-new-1769144883582-6",
+      "id": "47e8c904-9572-4034-b690-195ff7b89135",
       "title": "少年中国说（节选）",
       "category": "课文",
       "difficulty": 5,
@@ -103,7 +103,7 @@
       "chineseCharCount": 465
     },
     {
-      "id": "grade5-new-1769144883582-7",
+      "id": "e9656bd5-bbb9-48bd-aa1d-07872c8127b2",
       "title": "四季之美",
       "category": "课文",
       "difficulty": 5,
@@ -113,7 +113,7 @@
       "chineseCharCount": 456
     },
     {
-      "id": "grade5-new-1769144883582-8",
+      "id": "1154ab7d-d4e5-4a0d-886f-757d77a1c3b4",
       "title": "太阳",
       "category": "课文",
       "difficulty": 5,
@@ -123,7 +123,7 @@
       "chineseCharCount": 650
     },
     {
-      "id": "grade5-new-1769144883582-9",
+      "id": "dba91430-37d9-4968-9d7c-9c5dee92a82d",
       "title": "松鼠",
       "category": "课文",
       "difficulty": 5,
@@ -133,7 +133,7 @@
       "chineseCharCount": 680
     },
     {
-      "id": "grade5-new-1769144883582-10",
+      "id": "fb2de9f3-6a1d-444e-9ba1-26f5e28e757e",
       "title": "慈母情深",
       "category": "课文",
       "difficulty": 5,
@@ -143,7 +143,7 @@
       "chineseCharCount": 498
     },
     {
-      "id": "grade5-new-1769144883582-11",
+      "id": "45731300-0c6c-48dd-8860-a07b00fb2666",
       "title": "父爱之舟",
       "category": "课文",
       "difficulty": 5,

@@ -3,7 +3,7 @@
   "title": "Grade 3",
   "lessons": [
     {
-      "id": "spa-grade3-vacation",
+      "id": "85e12081-acf0-4146-8d88-16bd1f15ae64",
       "title": "Las Vacaciones",
       "category": "Story",
       "difficulty": 3,
@@ -14,7 +14,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-bike",
+      "id": "592311d2-1d7d-4f28-8202-7ed7ebae8f2d",
       "title": "Mi Bicicleta Nueva",
       "category": "Story",
       "difficulty": 3,
@@ -25,7 +25,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-rain",
+      "id": "326650b2-fff0-49df-abc8-aead539e8007",
       "title": "Un Día de Lluvia",
       "category": "Story",
       "difficulty": 3,
@@ -36,7 +36,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-caperucita",
+      "id": "627b480e-2e3f-4708-8543-6044f09ef3f2",
       "title": "Caperucita Roja",
       "category": "Cuento Clásico",
       "difficulty": 3,
@@ -47,7 +47,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-xkokolche",
+      "id": "e942565f-3c40-4b82-a085-2a55b8d1880a",
       "title": "La xkokolché",
       "category": "Leyenda",
       "difficulty": 3,
@@ -58,7 +58,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-creacion",
+      "id": "44f1ebd6-a5a2-44c3-b736-da8d77b91231",
       "title": "La creación del hombre",
       "category": "Mito",
       "difficulty": 3,
@@ -69,7 +69,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-tajin",
+      "id": "dd778d02-7b82-447e-b676-0ef0d67b5635",
       "title": "Tajín y los Siete Truenos",
       "category": "Leyenda",
       "difficulty": 3,
@@ -80,7 +80,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-beso",
+      "id": "cf0fda1e-254e-485f-9486-b842e66120b8",
       "title": "El Callejón del Beso",
       "category": "Leyenda",
       "difficulty": 3,
@@ -91,7 +91,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-popocatepetl",
+      "id": "4e3c2481-dc56-4d09-b968-c0c788ad3424",
       "title": "La Mujer Dormida",
       "category": "Leyenda",
       "difficulty": 3,
@@ -102,7 +102,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-conejo",
+      "id": "4480c31e-1706-4e20-8584-fe5f5ec2cd5b",
       "title": "El Conejo en la Luna",
       "category": "Leyenda",
       "difficulty": 3,
@@ -113,7 +113,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-llorona",
+      "id": "2eb088af-f140-421d-96aa-8cda9adf10df",
       "title": "La Llorona",
       "category": "Leyenda",
       "difficulty": 3,
@@ -124,7 +124,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-ruisenor",
+      "id": "32a11104-a1fe-40a5-8f1b-0ff3e4398f6e",
       "title": "El Ruiseñor y la Rosa",
       "category": "Cuento",
       "difficulty": 3,
@@ -135,7 +135,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-gigante",
+      "id": "1b2b605f-6ccf-439a-903e-11adb80550be",
       "title": "El Gigante Egoísta",
       "category": "Cuento",
       "difficulty": 3,
@@ -146,7 +146,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-principe",
+      "id": "26a24a2a-bfb4-4ce0-90c8-4e1ba3b80338",
       "title": "El Príncipe Feliz",
       "category": "Cuento",
       "difficulty": 3,
@@ -157,7 +157,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-tortuga-aguila",
+      "id": "5cf953d1-65e5-4f75-87be-7a0cb144ded3",
       "title": "La Tortuga y el Águila",
       "category": "Fábula",
       "difficulty": 3,
@@ -168,7 +168,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-caballo-asno",
+      "id": "13498dbd-6af5-4ff3-8510-5a277bee6a2d",
       "title": "El Caballo y el Asno",
       "category": "Fábula",
       "difficulty": 3,
@@ -179,7 +179,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-lobo-perro",
+      "id": "f4aebef4-5b4e-43a0-9d98-b6003460a5ef",
       "title": "El Lobo y el Perro",
       "category": "Fábula",
       "difficulty": 3,
@@ -190,7 +190,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-avaro",
+      "id": "9b6b6597-75cc-40ac-ac06-2e0687b16b23",
       "title": "El Avaro y su Oro",
       "category": "Fábula",
       "difficulty": 3,
@@ -201,7 +201,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-paloma-hormiga",
+      "id": "7c756c68-2328-4b4e-9e71-c6c8b9c6923f",
       "title": "La Paloma y la Hormiga",
       "category": "Fábula",
       "difficulty": 3,
@@ -212,7 +212,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade3-raton-leon-2",
+      "id": "182042ab-7cf8-4e04-9253-b8563640b492",
       "title": "El León y el Ratón (Versión larga)",
       "category": "Fábula",
       "difficulty": 3,

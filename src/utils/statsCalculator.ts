@@ -1,5 +1,5 @@
-import type { TypingSession, RealtimeStats } from '../types/typing.types.ts';
-import { CharacterStatus } from '../types/typing.types.ts';
+import type { TypingSession, RealtimeStats } from '../types/typing.types';
+import { CharacterStatus } from '../types/typing.types';
 import { pinyin } from 'pinyin-pro';
 
 /**
@@ -31,8 +31,9 @@ export function calculateStats(session: TypingSession): RealtimeStats {
   const durationMinutes = elapsedTime / 60000;
 
   // 计算有效按键数（Pinyin 长度）
+  // 对于中文，计算拼音长度作为按键数 (KPM/CPM)
   const effectiveKeystrokes = typedChars.reduce((acc, charObj) => {
-    // 使用用户实际输入的字符，如果为空则使用目标字符（虽然理论上不应该为空）
+    // 使用用户实际输入的字符，如果为空则使用目标字符
     const char = charObj.input || charObj.char;
     if (isChineseCharacter(char)) {
       // 获取拼音（不带声调）
@@ -44,25 +45,26 @@ export function calculateStats(session: TypingSession): RealtimeStats {
     return acc + 1;
   }, 0);
 
-  // 字符速率（字符/分钟）- 使用有效按键数计算
-  const characterSpeed = durationMinutes > 0
+  // 字符速率（字符/分钟）- 使用有效按键数计算 (CPM)
+  const cpm = durationMinutes > 0
     ? Math.round(effectiveKeystrokes / durationMinutes)
     : 0;
 
   // 中文速率（字/分钟） 或 WPM
   const isChineseContent = content.some(c => isChineseCharacter(c.char));
-  let chineseSpeed = 0;
+  let wpm = 0;
 
   if (isChineseContent) {
+    // 对于中文，WPM 通常指每分钟汉字数
     const chineseChars = typedChars.filter(char =>
       isChineseCharacter(char.char) && char.status === CharacterStatus.CORRECT
     ).length;
-    chineseSpeed = durationMinutes > 0
+    wpm = durationMinutes > 0
       ? Math.round(chineseChars / durationMinutes)
       : 0;
   } else {
     // 非中文内容，使用标准 WPM 计算 (每 5 个字符算 1 个词)
-    chineseSpeed = durationMinutes > 0
+    wpm = durationMinutes > 0
       ? Math.round((correctChars / 5) / durationMinutes)
       : 0;
   }
@@ -79,8 +81,8 @@ export function calculateStats(session: TypingSession): RealtimeStats {
 
   return {
     duration: Math.round(elapsedTime / 1000), // 转换为秒
-    characterSpeed,
-    chineseSpeed,
+    cpm,
+    wpm,
     accuracy,
     totalCharacters,
     correctChars,
@@ -112,6 +114,7 @@ export function getScoreLevel(accuracy: number, speed: number): {
   level: string;
   color: string;
 } {
+  // 这里的 speed 传入的是 CPM
   if (accuracy >= 95 && speed >= 200) {
     return { level: 'S', color: 'text-purple-600' };
   } else if (accuracy >= 90 && speed >= 150) {

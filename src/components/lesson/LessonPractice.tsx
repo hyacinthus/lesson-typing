@@ -1,4 +1,4 @@
-import { useMemo, useCallback } from 'react';
+import { useMemo, useCallback, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
 import { useHistoryStore } from '../../stores/historyStore';
@@ -23,21 +23,32 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     }, [lesson.content]);
 
     // Handle practice completion
+    // Use a ref to prevent double submission in Strict Mode
+    const processingRef = useRef(false);
+
     const handleComplete = useCallback((stats: RealtimeStats) => {
+        if (processingRef.current) return;
+        processingRef.current = true;
+
         const record: PracticeRecord = {
             id: `${lesson.id}-${Date.now()}`,
             lessonId: lesson.id,
             lessonTitle: lesson.title,
             duration: stats.duration,
-            characterSpeed: stats.characterSpeed,
-            chineseSpeed: stats.chineseSpeed,
+            cpm: stats.cpm,
+            wpm: stats.wpm,
             accuracy: stats.accuracy,
             totalCharacters: stats.totalCharacters,
             correctChars: stats.correctChars,
             incorrectChars: stats.incorrectChars,
             completedAt: new Date().toISOString(),
         };
-        addPractice(record);
+        addPractice(record, lesson.language, lesson.collectionId);
+
+        // Reset processing flag after a short delay, or when lesson changes
+        setTimeout(() => {
+            processingRef.current = false;
+        }, 1000);
     }, [lesson, addPractice]);
 
     // Typing engine hook

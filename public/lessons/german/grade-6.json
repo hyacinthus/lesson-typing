@@ -3,7 +3,7 @@
   "title": "6. Klasse",
   "lessons": [
     {
-      "id": "de-grade6-zauberlehrling",
+      "id": "93fd86c0-5bcf-4b79-ace4-e72697695b32",
       "title": "Der Zauberlehrling",
       "category": "Ballade",
       "difficulty": 6,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-handschuh",
+      "id": "c4414f3f-ecc7-41af-be80-1a4842684e53",
       "title": "Der Handschuh",
       "category": "Ballade",
       "difficulty": 6,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-erlkoenig",
+      "id": "8fef28cb-9475-4e99-8428-18164f030501",
       "title": "Erlkönig",
       "category": "Ballade",
       "difficulty": 6,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-lorelei",
+      "id": "ba6b81cf-e68a-4391-975d-8b117c7b1ac5",
       "title": "Die Lorelei",
       "category": "Gedicht",
       "difficulty": 6,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-nis-randers",
+      "id": "893ead62-e4f4-49ef-913e-b7c635c0e090",
       "title": "Nis Randers",
       "category": "Ballade",
       "difficulty": 6,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-john-maynard",
+      "id": "6194aa22-1692-4f86-acd2-7ee96f6882c6",
       "title": "John Maynard",
       "category": "Ballade",
       "difficulty": 6,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-hoelzerne-pferd",
+      "id": "9a5a784d-37c6-41cd-87f4-0438e82e0dd9",
       "title": "Das hölzerne Pferd",
       "category": "Sage",
       "difficulty": 6,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-odysseus-zyklopen",
+      "id": "ed84305e-f7c0-420a-a5d9-1c63f176b3d4",
       "title": "Odysseus und die Zyklopen",
       "category": "Sage",
       "difficulty": 6,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-romulus-remus",
+      "id": "647974f0-fd48-47c8-9572-6990dc25ba8f",
       "title": "Romulus und Remus",
       "category": "Sage",
       "difficulty": 6,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-weiber-weinsberg",
+      "id": "1ed70c97-026b-42ef-930b-a60b11fd7fa4",
       "title": "Die Weiber von Weinsberg",
       "category": "Anekdote",
       "difficulty": 6,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-krabat",
+      "id": "54f10df0-4457-46e5-bdb7-db14e6448280",
       "title": "Krabat",
       "category": "Roman",
       "difficulty": 6,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-herr-der-diebe",
+      "id": "5a5ad8e6-9076-4529-8d52-8b839b31602a",
       "title": "Herr der Diebe",
       "category": "Roman",
       "difficulty": 6,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-momo",
+      "id": "d572a905-96f8-4b3b-afc9-3cb3f336069e",
       "title": "Momo",
       "category": "Roman",
       "difficulty": 6,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-fliegende-klassenzimmer",
+      "id": "a2e339fd-df2b-4396-a410-45f7819bcdc6",
       "title": "Das fliegende Klassenzimmer",
       "category": "Roman",
       "difficulty": 6,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-schimmelreiter",
+      "id": "b7a53719-3936-4098-8568-ff38b280f989",
       "title": "Der Schimmelreiter",
       "category": "Novelle",
       "difficulty": 6,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-unendliche-geschichte",
+      "id": "1593d205-3509-4ea5-9beb-625f83d9b9a8",
       "title": "Die unendliche Geschichte",
       "category": "Roman",
       "difficulty": 6,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-alexander-knoten",
+      "id": "f55afc27-7021-4700-9f78-f8cdfe3ad9d8",
       "title": "Alexander und der Gordische Knoten",
       "category": "Anekdote",
       "difficulty": 6,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-tintenherz",
+      "id": "078294da-5235-4444-96d5-f20a08a11d3b",
       "title": "Tintenherz",
       "category": "Roman",
       "difficulty": 6,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-daedalus-ikarus",
+      "id": "feb70660-3c67-44ba-8eb3-5504bb1b05bd",
       "title": "Daedalus und Ikarus",
       "category": "Sage",
       "difficulty": 6,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade6-siegfried-tod",
+      "id": "97cd086f-a586-4aa7-85fa-90d70cfde35c",
       "title": "Siegfrieds Tod",
       "category": "Sage",
       "difficulty": 6,

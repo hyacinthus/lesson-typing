@@ -3,7 +3,7 @@
   "title": "6年生",
   "lessons": [
     {
-      "id": "jp-grade6-botchan",
+      "id": "9ad5b8fe-23ea-4937-a51d-c9e4ca30456d",
       "title": "坊っちゃん（夏目漱石）",
       "category": "物語",
       "difficulty": 6,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-wagahai",
+      "id": "b13e55ee-90fa-4649-88cd-268466d12228",
       "title": "吾輩は猫である（夏目漱石）",
       "category": "物語",
       "difficulty": 6,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-kusamakura",
+      "id": "85b029e6-4742-436c-82f4-6ec803c0ac98",
       "title": "草枕（夏目漱石）",
       "category": "物語",
       "difficulty": 6,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-kokoro",
+      "id": "294cd12e-d63a-42c7-b14f-d5c3c2f7e5bd",
       "title": "こころ（夏目漱石）",
       "category": "物語",
       "difficulty": 6,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-sanshiro",
+      "id": "c411ec35-3344-4613-a32d-ebcb896a14ec",
       "title": "三四郎（夏目漱石）",
       "category": "物語",
       "difficulty": 6,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-takasebune",
+      "id": "cbfb7ea4-3d8b-4ce8-9458-b3f1ddd49d97",
       "title": "高瀬舟（森鴎外）",
       "category": "物語",
       "difficulty": 6,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-maihime",
+      "id": "716eebc7-c4e0-47f6-bf81-9ed2158fc792",
       "title": "舞姫（森鴎外）- 冒頭",
       "category": "物語",
       "difficulty": 6,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-takekurabe",
+      "id": "800b53c1-b847-4e5c-b89f-1e45c72d6fb1",
       "title": "たけくらべ（樋口一葉）- 冒頭",
       "category": "物語",
       "difficulty": 6,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-nigorie",
+      "id": "8d79d0a3-cafc-4dd3-8e08-366b3efe2907",
       "title": "にごりえ（樋口一葉）- 冒頭",
       "category": "物語",
       "difficulty": 6,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-kiniroyasha",
+      "id": "26f59ee7-6534-446e-8419-6a53aeef989f",
       "title": "金色夜叉（尾崎紅葉）- 冒頭",
       "category": "物語",
       "difficulty": 6,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-yashagaike",
+      "id": "d4044784-c8d2-4013-87b1-dc95e70b92d3",
       "title": "夜叉ヶ池（泉鏡花）",
       "category": "物語",
       "difficulty": 6,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-gan",
+      "id": "731f2b10-cc7a-44c8-8491-edd76cb0f2c9",
       "title": "雁（森鴎外）",
       "category": "物語",
       "difficulty": 6,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-sanshodayu",
+      "id": "92fe23b2-a3a4-4967-b15b-4b8da6b47160",
       "title": "山椒大夫（森鴎外）",
       "category": "物語",
       "difficulty": 6,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-abeichizoku",
+      "id": "1254e07f-7d89-422a-8573-ecaf1797423d",
       "title": "阿部一族（森鴎外）",
       "category": "物語",
       "difficulty": 6,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-sakaijiken",
+      "id": "494e768a-007e-4e27-982b-fe0d1bd9fef1",
       "title": "堺事件（森鴎外）",
       "category": "物語",
       "difficulty": 6,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-hakai",
+      "id": "7e37a0f7-6b66-486e-946e-e6f16c1415fd",
       "title": "破戒（島崎藤村）",
       "category": "物語",
       "difficulty": 6,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-yoakemae",
+      "id": "a9ecd7a4-5556-4249-a6e5-e78f35a5cc5d",
       "title": "夜明け前（島崎藤村）- 冒頭",
       "category": "物語",
       "difficulty": 6,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-futon",
+      "id": "c5d74f0a-213e-4862-b6b2-8ff947250668",
       "title": "蒲団（田山花袋）",
       "category": "物語",
       "difficulty": 6,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-inakakyoshi",
+      "id": "21208532-b5d7-4070-a3c3-1b45913b6ba1",
       "title": "田舎教師（田山花袋）",
       "category": "物語",
       "difficulty": 6,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade6-chumonnoooiryoriten-review",
+      "id": "a197c22c-c02b-43d7-a460-db2d7db3d29d",
       "title": "注文の多い料理店（再読）",
       "category": "物語",
       "difficulty": 6,

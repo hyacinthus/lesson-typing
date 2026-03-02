@@ -3,7 +3,7 @@
   "title": "2. Klasse",
   "lessons": [
     {
-      "id": "de-grade2-spatzen",
+      "id": "34d91901-22cd-4ee9-8644-23d7341772bc",
       "title": "Die drei Spatzen",
       "category": "Gedicht",
       "difficulty": 2,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-fuchs-trauben",
+      "id": "cdb31976-e81c-4d1c-a011-96309d8abd9e",
       "title": "Der Fuchs und die Trauben",
       "category": "Fabel",
       "difficulty": 2,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-loewe-maus",
+      "id": "c8c69b90-33b2-4d10-8d21-ddd3cd9cc2ee",
       "title": "Der Löwe und die Maus",
       "category": "Fabel",
       "difficulty": 2,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-drei-schmetterlinge",
+      "id": "1021379c-286f-4f8c-86dd-3bde6b89a801",
       "title": "Die drei Schmetterlinge",
       "category": "Geschichte",
       "difficulty": 2,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-wind-sonne",
+      "id": "136c5ac4-da6a-4f5f-b432-35796410a9a8",
       "title": "Der Wind und die Sonne",
       "category": "Fabel",
       "difficulty": 2,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-ameise-taube",
+      "id": "9415e234-c50e-4c50-9320-35a1b8f2503e",
       "title": "Die Ameise und die Taube",
       "category": "Fabel",
       "difficulty": 2,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-rabe-krug",
+      "id": "0b2e42ce-1ccb-4630-a6f8-d5f25509722c",
       "title": "Der Rabe und der Wasserkrug",
       "category": "Fabel",
       "difficulty": 2,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-hase-schildkroete",
+      "id": "fe706ee1-32bf-47ba-9274-270f70f40808",
       "title": "Der Hase und die Schildkröte",
       "category": "Fabel",
       "difficulty": 2,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-dornroeschen",
+      "id": "1ab56ce4-cb6d-41ee-9655-0b351c9d2543",
       "title": "Dornröschen",
       "category": "Märchen",
       "difficulty": 2,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-rotkaeppchen",
+      "id": "23dada35-d063-4da0-b60e-d00976ffeead",
       "title": "Rotkäppchen",
       "category": "Märchen",
       "difficulty": 2,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-bremer-stadtmusikanten",
+      "id": "586f09f7-230c-4e52-bce9-064ab21db142",
       "title": "Die Bremer Stadtmusikanten",
       "category": "Märchen",
       "difficulty": 2,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-frau-holle",
+      "id": "932061e3-8714-4ec4-b58f-b5020372950e",
       "title": "Frau Holle",
       "category": "Märchen",
       "difficulty": 2,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-froschkoenig",
+      "id": "3e7d2624-6793-46a9-8b16-f3102fda0090",
       "title": "Der Froschkönig",
       "category": "Märchen",
       "difficulty": 2,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-wolf-geisslein",
+      "id": "85d31437-3438-4a28-a0c4-3427947705ba",
       "title": "Der Wolf und die sieben Geißlein",
       "category": "Märchen",
       "difficulty": 2,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-haensel-gretel",
+      "id": "ee5491de-a30e-4f5a-bb82-cd5b5e10a34a",
       "title": "Hänsel und Gretel",
       "category": "Märchen",
       "difficulty": 2,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-schneewittchen",
+      "id": "a35fd02d-74d6-4dbe-b003-f7898a457847",
       "title": "Schneewittchen",
       "category": "Märchen",
       "difficulty": 2,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-jahreszeiten",
+      "id": "9712c67a-ca1d-4e77-b0c1-79e3696c3011",
       "title": "Die Jahreszeiten",
       "category": "Sachtext",
       "difficulty": 2,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-wald",
+      "id": "cd83daf0-7500-4690-9716-309a73fc758e",
       "title": "Der Wald",
       "category": "Sachtext",
       "difficulty": 2,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-fahrrad",
+      "id": "461a9781-a333-45ea-81d8-6d9efb1e673a",
       "title": "Mein Fahrrad",
       "category": "Geschichte",
       "difficulty": 2,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "de-grade2-gewitter",
+      "id": "99bb6f04-5232-433b-902c-2077a69e61e3",
       "title": "Das Gewitter",
       "category": "Geschichte",
       "difficulty": 2,

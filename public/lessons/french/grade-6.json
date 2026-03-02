@@ -3,7 +3,7 @@
   "title": "6ème",
   "lessons": [
     {
-      "id": "fr-6eme-fourberies-scapin",
+      "id": "4524030c-30e7-4aa5-960c-6d4dda3cdf93",
       "title": "Les Fourberies de Scapin",
       "category": "Theater",
       "difficulty": 5,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-avare-cassette",
+      "id": "cccfbb61-3847-41e3-9443-920d6940b629",
       "title": "L'Avare - La Cassette",
       "category": "Theater",
       "difficulty": 5,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-bourgeois-gentilhomme",
+      "id": "d0da6c8b-a1d2-4fae-a382-22c8611c03cd",
       "title": "Le Bourgeois gentilhomme",
       "category": "Theater",
       "difficulty": 5,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-cid-stances",
+      "id": "62b2832a-d869-4531-bf8d-8e42bc613c19",
       "title": "Le Cid",
       "category": "Theater",
       "difficulty": 5,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-demain-aube",
+      "id": "7542b383-63b0-41b0-b483-d8d7ad1928a6",
       "title": "Demain, dès l'aube",
       "category": "Poetry",
       "difficulty": 4,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-dormeur-val",
+      "id": "1df42a5b-a47b-4fff-a74c-8c1a8f0da3aa",
       "title": "Le Dormeur du val",
       "category": "Poetry",
       "difficulty": 4,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-albatros",
+      "id": "606b01cc-b6fd-4305-a11e-f56ffd2cc86d",
       "title": "L'Albatros",
       "category": "Poetry",
       "difficulty": 5,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-notre-dame",
+      "id": "2e9461d2-e7a7-4aee-bb53-d7e451a1caa9",
       "title": "Notre-Dame de Paris",
       "category": "Literature",
       "difficulty": 5,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-miserables-waterloo",
+      "id": "3b9fe10d-8616-430a-8c96-a062aa534602",
       "title": "Les Misérables - Waterloo",
       "category": "Literature",
       "difficulty": 5,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-horla",
+      "id": "040002a8-b6a5-44a9-aa23-0e56dc41e0e2",
       "title": "Le Horla",
       "category": "Literature",
       "difficulty": 5,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-parure",
+      "id": "523f9a28-5925-4185-808b-509500ff939a",
       "title": "La Parure",
       "category": "Literature",
       "difficulty": 5,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-boule-suif",
+      "id": "67321d6d-0674-485c-a44a-80aa3e5e25d9",
       "title": "Boule de Suif",
       "category": "Literature",
       "difficulty": 5,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-germinal",
+      "id": "e68615dd-e723-4765-b85f-929f1ae92b67",
       "title": "Germinal",
       "category": "Literature",
       "difficulty": 5,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-bonheur-dames",
+      "id": "394efbae-c29a-4143-9261-60529709b4d9",
       "title": "Au Bonheur des Dames",
       "category": "Literature",
       "difficulty": 5,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-pere-goriot",
+      "id": "23cf1096-90cf-4fcb-8907-ef2f94202b3b",
       "title": "Le Père Goriot",
       "category": "Literature",
       "difficulty": 5,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-madame-bovary",
+      "id": "a82ec485-fe53-41d5-9fe8-93445eadde4d",
       "title": "Madame Bovary",
       "category": "Literature",
       "difficulty": 5,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-cyrano-nez",
+      "id": "444b0482-a696-47a1-a9e0-8e38f83910eb",
       "title": "Cyrano de Bergerac",
       "category": "Theater",
       "difficulty": 5,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-pont-mirabeau",
+      "id": "41a4b1da-70a6-45c0-ab91-be2d18904caf",
       "title": "Le Pont Mirabeau",
       "category": "Poetry",
       "difficulty": 5,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-chanson-automne",
+      "id": "7d716517-87a3-463d-8e7e-cd8d63cdd96b",
       "title": "Chanson d'automne",
       "category": "Poetry",
       "difficulty": 5,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-6eme-livre-ami",
+      "id": "85c43412-9594-440d-925f-5f96ae8e144f",
       "title": "Le Livre de mon ami",
       "category": "Story",
       "difficulty": 5,

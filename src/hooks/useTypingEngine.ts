@@ -27,8 +27,8 @@ export function useTypingEngine({
 
   const [stats, setStats] = useState<RealtimeStats>({
     duration: 0,
-    characterSpeed: 0,
-    chineseSpeed: 0,
+    cpm: 0,
+    wpm: 0,
     accuracy: 100,
     totalCharacters: 0,
     correctChars: 0,
@@ -121,9 +121,13 @@ export function useTypingEngine({
       // 如果完成，停止计时并触发回调
       if (isCompleted) {
         stopTimer();
-        if (onComplete) {
-          onComplete(newStats);
-        }
+        // Use setTimeout to ensure state update is processed and prevent
+        // immediate re-renders from triggering effects multiple times
+        setTimeout(() => {
+          if (onComplete) {
+            onComplete(newStats);
+          }
+        }, 0);
       }
 
       return newSession;
@@ -190,8 +194,8 @@ export function useTypingEngine({
     });
     setStats({
       duration: 0,
-      characterSpeed: 0,
-      chineseSpeed: 0,
+      cpm: 0,
+      wpm: 0,
       accuracy: 100,
       totalCharacters: 0,
       correctChars: 0,

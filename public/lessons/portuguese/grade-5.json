@@ -3,7 +3,7 @@
   "title": "5º Ano",
   "lessons": [
     {
-      "id": "pt-grade5-saci",
+      "id": "4bd3fe71-3710-406c-ac86-f9b0ccc63bf0",
       "title": "A Lenda do Saci-Pererê",
       "category": "Folclore",
       "difficulty": 5,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-cigarra",
+      "id": "e69d692f-4536-47d3-aa71-d761fc8afa0b",
       "title": "A Cigarra e a Formiga",
       "category": "Fábula",
       "difficulty": 5,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-descobrimento",
+      "id": "810809e6-d012-472c-b3e3-28a12c277fad",
       "title": "O Descobrimento do Brasil",
       "category": "História",
       "difficulty": 5,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-santos-dumont",
+      "id": "bfce8fc0-2310-4e63-89d3-71a9744ef339",
       "title": "Santos Dumont",
       "category": "Biografia",
       "difficulty": 5,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-amazonia",
+      "id": "0362717e-f3b6-44e9-a781-14b33a5902bd",
       "title": "A Floresta Amazônica",
       "category": "Geografia",
       "difficulty": 5,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-carnaval",
+      "id": "70774168-2b58-40fe-9673-84679debb6d7",
       "title": "O Carnaval",
       "category": "Cultura",
       "difficulty": 5,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-guarana",
+      "id": "57a31439-adb5-4a4a-adf3-46c4c8e95cca",
       "title": "A Lenda do Guaraná",
       "category": "Folclore",
       "difficulty": 5,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-pequeno-principe",
+      "id": "2faadffa-95dc-4b4d-ba59-ae89b86057ea",
       "title": "O Pequeno Príncipe (Resumo)",
       "category": "Literatura",
       "difficulty": 5,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-festa-junina",
+      "id": "74032bce-6478-4c5b-8a77-28bae68359f8",
       "title": "Festa Junina",
       "category": "Cultura",
       "difficulty": 5,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-cuca",
+      "id": "a2067bbc-8e65-40aa-b7d5-9d700a8765e9",
       "title": "A Cuca",
       "category": "Folclore",
       "difficulty": 5,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-negrinho",
+      "id": "e14a7753-a8c4-4983-8123-ce3ee97a1b3b",
       "title": "O Negrinho do Pastoreio",
       "category": "Lenda",
       "difficulty": 5,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-lobo-cordeiro",
+      "id": "87aadfc8-1e60-4e25-8ebb-e5ed032de019",
       "title": "O Lobo e o Cordeiro",
       "category": "Fábula",
       "difficulty": 5,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-galinha-ovos",
+      "id": "60fb2cb7-b76c-411b-bec6-59e0674c3e93",
       "title": "A Galinha dos Ovos de Ouro",
       "category": "Fábula",
       "difficulty": 5,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-menino-maluquinho",
+      "id": "9c76720d-a7e6-4f48-a0aa-c6c7dea818b3",
       "title": "O Menino Maluquinho",
       "category": "Literatura",
       "difficulty": 5,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-capoeira",
+      "id": "ca8c4f7a-b5dc-4089-9bed-20e012eaffd9",
       "title": "A Capoeira",
       "category": "Cultura",
       "difficulty": 5,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-tarsila",
+      "id": "1b0a881f-b9c3-440e-9ad2-32693ba71270",
       "title": "Tarsila do Amaral",
       "category": "Biografia",
       "difficulty": 5,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-sitio",
+      "id": "afe144f2-324e-4eb3-9055-a3d9de34b52e",
       "title": "O Sítio do Picapau Amarelo",
       "category": "Literatura",
       "difficulty": 5,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-pao-queijo",
+      "id": "835384f4-5e97-4c11-adca-823f90472e36",
       "title": "Pão de Queijo",
       "category": "Cultura",
       "difficulty": 5,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-boto",
+      "id": "cd752a1a-6107-4c9d-8921-569c765c12c6",
       "title": "O Boto Cor-de-Rosa",
       "category": "Folclore",
       "difficulty": 5,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade5-hino",
+      "id": "b897db68-9d38-45d6-bd8e-c4f28fce0c7a",
       "title": "Hino Nacional Brasileiro",
       "category": "Cívico",
       "difficulty": 5,

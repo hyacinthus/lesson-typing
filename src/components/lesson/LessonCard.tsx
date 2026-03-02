@@ -44,15 +44,15 @@ export function LessonCard({ lesson, stats, onSelect }: LessonCardProps) {
           </span>
         </div>
 
-        {stats && stats.totalPractices > 0 && (
+        {stats && stats.bestCpm > 0 && (
           <div className="flex gap-4">
             <span className="flex items-center gap-1 text-green-600">
               <Target size={16} />
-              最高 {stats.bestSpeed} 字/分
+              最高 {stats.bestCpm} CPM
             </span>
-            <span className="flex items-center gap-1">
+            <span className="flex items-center gap-1 text-blue-600">
               <Clock size={16} />
-              练习 {stats.totalPractices} 次
+              {stats.bestWpm} WPM
             </span>
           </div>
         )}

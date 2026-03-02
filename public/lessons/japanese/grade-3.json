@@ -3,7 +3,7 @@
   "title": "3年生",
   "lessons": [
     {
-      "id": "jp-grade3-kaguyahime",
+      "id": "a3dbadef-3c7a-42f7-8b44-895960d30173",
       "title": "かぐや姫（竹取物語）",
       "category": "古典・昔話",
       "difficulty": 3,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-dendenmushi",
+      "id": "d9366d03-8abe-431d-b191-794a690e8080",
       "title": "でんでんむしのかなしみ（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-ushiwotsukuna",
+      "id": "503f38fa-56cb-4fc3-817b-994a11890fdf",
       "title": "牛をつないだ椿の木（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-kitsunenogonroku",
+      "id": "b9e2e212-f2eb-43c2-9ff7-312c6790732d",
       "title": "狐の権六（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-hiroisekai",
+      "id": "f49ecd43-8f15-471f-970a-3dd09769ae2f",
       "title": "ひろい世界（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-nihikinokaeru",
+      "id": "aeb0af96-f97b-49a7-bc73-0d343740d637",
       "title": "二ひきの蛙（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-otsukisama",
+      "id": "40e2c230-eb6d-4bef-8570-fdb9726c67c5",
       "title": "お月さまの見ていらっしゃる所（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-hisenohana",
+      "id": "d77badd6-fb54-4af1-b734-01cafc933291",
       "title": "ヒシの花（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-akinoyoru",
+      "id": "6519ef03-db8a-4a04-9398-467e6fa45c80",
       "title": "秋の夜（新美南吉）",
       "category": "物語",
       "difficulty": 3,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-amenimomakezu",
+      "id": "5601513e-f8fa-4a6a-8fe9-afa8dc336c15",
       "title": "雨ニモマケズ（宮沢賢治）",
       "category": "詩",
       "difficulty": 3,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-mushinokoe",
+      "id": "982569d4-8952-4fed-91ee-4a1b1d5b0901",
       "title": "虫のこえ",
       "category": "唱歌",
       "difficulty": 3,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-chatsumi",
+      "id": "b719f071-38b5-4283-881f-1898b7b892b3",
       "title": "茶摘（ちゃつみ）",
       "category": "唱歌",
       "difficulty": 3,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-momiji",
+      "id": "4b56a8c8-ba0d-4930-a140-51af153ba231",
       "title": "紅葉（もみじ）",
       "category": "唱歌",
       "difficulty": 3,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-harunoogawa",
+      "id": "23b656cc-9647-4351-b046-18e3076a3709",
       "title": "春の小川",
       "category": "唱歌",
       "difficulty": 3,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-warewauminoko",
+      "id": "1f159b0b-00b3-4d03-8f96-6066c7edc3ee",
       "title": "われは海の子",
       "category": "唱歌",
       "difficulty": 3,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-muramatsuri",
+      "id": "07128418-fdcf-4859-9c77-85ca0cb24863",
       "title": "村祭（むらまつり）",
       "category": "唱歌",
       "difficulty": 3,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-koinobori",
+      "id": "59c1bf91-24cb-4198-b896-22d663d3b15f",
       "title": "こいのぼり",
       "category": "童謡",
       "difficulty": 3,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-tanabatasama",
+      "id": "b3a4288c-87b4-4c28-8574-60eea80b21f1",
       "title": "たなばたさま",
       "category": "童謡",
       "difficulty": 3,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-umi",
+      "id": "919c1ad6-fba3-422f-baea-2348b85a5e2e",
       "title": "海（うみ）",
       "category": "唱歌",
       "difficulty": 3,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade3-fujisan",
+      "id": "8387b3ec-c1ff-4db6-8fd2-525dec36b3a5",
       "title": "ふじの山",
       "category": "唱歌",
       "difficulty": 3,

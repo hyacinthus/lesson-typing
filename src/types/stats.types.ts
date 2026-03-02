@@ -6,8 +6,8 @@ export interface PracticeRecord {
   lessonId: string;
   lessonTitle: string;
   duration: number;
-  characterSpeed: number;
-  chineseSpeed: number;
+  cpm: number; // Characters Per Minute
+  wpm: number; // Words Per Minute (or Chinese Characters Per Minute)
   accuracy: number;
   totalCharacters: number;
   correctChars: number;
@@ -19,8 +19,7 @@ export interface PracticeRecord {
  * 课文统计
  */
 export interface LessonStats {
-  totalPractices: number;
-  bestSpeed: number;
-  averageAccuracy: number;
-  lastPracticed: string | null;
+  bestCpm: number;
+  bestWpm: number;
+  achievedAt: string | null;
 }

@@ -3,7 +3,7 @@
   "title": "Classe 3",
   "lessons": [
     {
-      "id": "italian-grade3-lesson1",
+      "id": "4c57ed65-f816-4b58-b67a-e017a8921dda",
       "title": "Il libro degli errori",
       "category": "Gianni Rodari",
       "difficulty": 3,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson2",
+      "id": "6f0a2883-ecc1-4fa7-bff3-456f7a8edac7",
       "title": "Gli uomini della preistoria",
       "category": "Sussidiario",
       "difficulty": 3,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson3",
+      "id": "adbca727-f6e0-4b9b-b558-bcf67bf95d65",
       "title": "I funghi in città",
       "category": "Italo Calvino",
       "difficulty": 3,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson4",
+      "id": "4ccc4d27-3b54-4c85-bc0b-1ee433707bd7",
       "title": "Il fiume Po",
       "category": "Sussidiario",
       "difficulty": 3,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson5",
+      "id": "fb4eb71e-7070-4bbb-8875-910bf87f41e1",
       "title": "La strada di cioccolato",
       "category": "Gianni Rodari",
       "difficulty": 3,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson6",
+      "id": "0ab28475-ada6-4b8d-96a9-2795d2a0f5af",
       "title": "L'invenzione della scrittura",
       "category": "Storia",
       "difficulty": 3,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson7",
+      "id": "214ff860-8619-4274-a5bc-69f4bf0e7165",
       "title": "Le Alpi e gli Appennini",
       "category": "Geografia",
       "difficulty": 3,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson8",
+      "id": "a9e5ddbc-3ebe-44b5-8c1e-63a653d3b482",
       "title": "Il faraone e le piramidi",
       "category": "Storia",
       "difficulty": 3,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson9",
+      "id": "8a54d9ed-e13c-420b-a06c-b57c4d873be2",
       "title": "La macchia mediterranea",
       "category": "Geografia",
       "difficulty": 3,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson10",
+      "id": "0b126b84-9262-4d40-a3db-da894d168d4f",
       "title": "Le prime città della storia",
       "category": "Storia",
       "difficulty": 3,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson11",
+      "id": "d56b6b12-2b9f-4436-9ef7-6b04d004793c",
       "title": "Il vulcano Etna",
       "category": "Geografia",
       "difficulty": 3,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson12",
+      "id": "f61dfc10-4e5c-49a7-bb6f-d7255569a8c3",
       "title": "La vita nel castello medievale",
       "category": "Storia",
       "difficulty": 3,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson13",
+      "id": "47e1e0fd-2f39-43ff-917d-4e1e2867ebc2",
       "title": "La Pianura Padana",
       "category": "Geografia",
       "difficulty": 3,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson14",
+      "id": "4e6d5bf9-3c48-4590-94fb-883309d26d2a",
       "title": "I Greci e le Olimpiadi",
       "category": "Storia",
       "difficulty": 3,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson15",
+      "id": "9aed0ebd-f967-4116-b92e-20ec7a10cdd8",
       "title": "L'ambiente marino",
       "category": "Geografia",
       "difficulty": 3,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson16",
+      "id": "cc367b8f-be4a-4497-b9d7-a18d26cae815",
       "title": "I Fenici, navigatori del Mediterraneo",
       "category": "Storia",
       "difficulty": 3,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson17",
+      "id": "7bbac24c-9498-436c-a08b-2026ff453898",
       "title": "I laghi italiani",
       "category": "Geografia",
       "difficulty": 3,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson18",
+      "id": "a3380df4-5945-40d3-8da2-8ab35ef2770b",
       "title": "Gli Etruschi e il mistero dell'aldilà",
       "category": "Storia",
       "difficulty": 3,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson19",
+      "id": "ae4d21ae-78f1-4c3e-9ac8-9be65d3ff327",
       "title": "Il clima della montagna",
       "category": "Geografia",
       "difficulty": 3,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade3-lesson20",
+      "id": "82009339-3269-4f56-a75a-ecfacc99e11a",
       "title": "La democrazia ad Atene",
       "category": "Storia",
       "difficulty": 3,

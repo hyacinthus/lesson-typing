@@ -3,7 +3,7 @@
   "title": "1年生",
   "lessons": [
     {
-      "id": "jp-grade1-momotaro",
+      "id": "e441f5ab-15ee-42d0-8e4a-f3b883b2da2d",
       "title": "桃太郎（ももたろう）",
       "category": "昔話",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-kasajizo",
+      "id": "089ecc9b-14b1-460a-ac0d-f1e96d044284",
       "title": "笠地蔵（かさじぞう）",
       "category": "昔話",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-ookinakabu",
+      "id": "a8ad0245-f99f-4172-9241-f7f745947638",
       "title": "おおきなかぶ",
       "category": "物語",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-omusubikororin",
+      "id": "d616400e-216b-4427-8b64-157479768e82",
       "title": "おむすびころりん",
       "category": "昔話",
       "difficulty": 1,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-usagitokame",
+      "id": "a53172a8-877e-4fbc-9cf3-2089cdb94b68",
       "title": "うさぎとかめ",
       "category": "イソップ童話",
       "difficulty": 1,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-aritokirigirisu",
+      "id": "cb1aff58-ce8e-488a-ad22-2a8ba7900f5f",
       "title": "ありとキリギリス",
       "category": "イソップ童話",
       "difficulty": 1,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-kitakazetotaiyo",
+      "id": "5119afbe-7e3f-4bd0-ba81-471f36ed3ef7",
       "title": "きたかぜとたいよう",
       "category": "イソップ童話",
       "difficulty": 1,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-kinnoonoginnoono",
+      "id": "40f0eb76-7756-41dd-8919-8fff01a66ecb",
       "title": "きんのおの　ぎんのおの",
       "category": "イソップ童話",
       "difficulty": 1,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-ookamishonen",
+      "id": "7f663c93-1c76-410c-8e13-3aab8b1a52ad",
       "title": "おおかみしょうねん",
       "category": "イソップ童話",
       "difficulty": 1,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-hanasakajiisan",
+      "id": "3c62a07b-86c8-41b9-931d-a9153c41680e",
       "title": "はなさかじいさん",
       "category": "昔話",
       "difficulty": 1,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-shitakirisuzume",
+      "id": "d0b103c9-aabd-4721-abe2-51282bb604a0",
       "title": "したきりすずめ",
       "category": "昔話",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-issunboshi",
+      "id": "00d16b93-fe27-4cb4-98a7-c8bc9c44d04c",
       "title": "一寸法師（いっすんぼうし）",
       "category": "昔話",
       "difficulty": 1,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-kintaro",
+      "id": "955bac1a-ef21-45ff-80fc-780cec4edbf2",
       "title": "金太郎（きんたろう）",
       "category": "昔話",
       "difficulty": 1,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-sarukanigassen",
+      "id": "bc56201d-3c5e-45f5-86aa-84bef6fe487e",
       "title": "さるかにがっせん",
       "category": "昔話",
       "difficulty": 1,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-kachikachiyama",
+      "id": "0e5c829a-a648-42b3-9204-6a152d2c0d51",
       "title": "かちかち山",
       "category": "昔話",
       "difficulty": 1,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-bunbukuchagama",
+      "id": "d5feca74-cad2-4821-a1e1-d66a93bfba2f",
       "title": "ぶんぶく茶釜",
       "category": "昔話",
       "difficulty": 1,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-tsurunoongaeshi",
+      "id": "cc1b30de-2a3d-452c-80f9-f7b00efe4f82",
       "title": "つるのおんがえし",
       "category": "昔話",
       "difficulty": 1,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-kobutorijiisan",
+      "id": "f088a172-0706-4b43-af99-b62a693d3a87",
       "title": "こぶとりじいさん",
       "category": "昔話",
       "difficulty": 1,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-nezuminoyomeiri",
+      "id": "43aa2d40-960c-4133-ae63-4236b20b8a4c",
       "title": "ねずみの嫁入り",
       "category": "昔話",
       "difficulty": 1,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-warashibechoja",
+      "id": "45590c37-7f05-4217-adbb-f8f9ce1cad53",
       "title": "わらしべ長者",
       "category": "昔話",
       "difficulty": 1,
@@ -203,7 +203,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade1-urikohime",
+      "id": "994902e4-4895-42a2-ba1b-70723a8676e3",
       "title": "うりこひめとあまのじゃく",
       "category": "昔話",
       "difficulty": 1,

@@ -3,7 +3,7 @@
   "title": "4年生",
   "lessons": [
     {
-      "id": "jp-grade4-chumon",
+      "id": "09e82737-07c6-4951-bf93-2ba6802ac0eb",
       "title": "注文の多い料理店（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-yodaka",
+      "id": "cd873e62-7b94-494a-afde-bea785fe7452",
       "title": "よだかの星（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-donguri",
+      "id": "604435d9-e044-4949-8f5e-034b4e105705",
       "title": "どんぐりと山猫（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-nametoko",
+      "id": "cd9acf3f-3071-45e1-a712-e42b1b535cc7",
       "title": "なめとこ山の熊（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-kenju",
+      "id": "e7f44803-0d26-4d45-8625-0d29a14fe119",
       "title": "虔十公園林（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-yukiwatari",
+      "id": "6d9361c1-5a47-4cf8-8344-eabdde787b57",
       "title": "雪渡り（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-serohiki",
+      "id": "a13b239a-619a-4e48-ab45-7a45c679a663",
       "title": "セロ弾きのゴーシュ（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-kazenomatasaburo",
+      "id": "fa3f9a39-9b02-41e2-a56d-9ea14fb04f9e",
       "title": "風の又三郎（宮沢賢治）",
       "category": "物語",
       "difficulty": 4,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-happyprince",
+      "id": "f585c552-6495-44f1-81ab-91a2f27b0f67",
       "title": "幸福の王子（オスカー・ワイルド）",
       "category": "物語",
       "difficulty": 4,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-matchuri",
+      "id": "3e5867e1-0f21-4b71-a729-701a26beaef7",
       "title": "マッチ売りの少女（アンデルセン）",
       "category": "物語",
       "difficulty": 4,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-lastleaf",
+      "id": "ac9eccb2-d018-4894-9d1b-5149196e6c14",
       "title": "最後の一葉（オー・ヘンリー）",
       "category": "物語",
       "difficulty": 4,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-hadakanoosama",
+      "id": "053b5d9e-1f69-453e-8a53-457102add84b",
       "title": "裸の王様（アンデルセン）",
       "category": "物語",
       "difficulty": 4,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-bremen",
+      "id": "07380d16-3d5f-4a7a-a21d-f2c4ad761118",
       "title": "ブレーメンの音楽隊（グリム童話）",
       "category": "物語",
       "difficulty": 4,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-jack",
+      "id": "bd156d78-7fc5-450b-95f7-d178d718314e",
       "title": "ジャックと豆の木（イギリス童話）",
       "category": "物語",
       "difficulty": 4,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-minikuiahiru",
+      "id": "e2c0356e-668a-49d4-9dc5-f1d94d0321c8",
       "title": "みにくいアヒルの子（アンデルセン）",
       "category": "物語",
       "difficulty": 4,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-akazukin",
+      "id": "edd9cca5-55fe-4af7-8480-317f3ca73a39",
       "title": "赤ずきん（グリム童話）",
       "category": "物語",
       "difficulty": 4,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-hansel",
+      "id": "9e5f6a17-1909-4ee0-8016-faa2670f2fa4",
       "title": "ヘンゼルとグレーテル（グリム童話）",
       "category": "物語",
       "difficulty": 4,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-ningyohime",
+      "id": "e42fdcd1-34cb-4622-a6a3-0a93b1716de7",
       "title": "人魚姫（アンデルセン）",
       "category": "物語",
       "difficulty": 4,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-gingatetsudo",
+      "id": "1dada2e5-354f-4a4e-9d9e-51e18e368249",
       "title": "銀河鉄道の夜（宮沢賢治）- 序",
       "category": "物語",
       "difficulty": 4,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade4-oz",
+      "id": "08394d43-ca80-498a-a80e-13e9e3768725",
       "title": "オズの魔法使い（バウム）",
       "category": "物語",
       "difficulty": 4,

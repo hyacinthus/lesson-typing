@@ -39,8 +39,8 @@ export interface TypingSession {
  */
 export interface RealtimeStats {
   duration: number; // 练习时长（秒）
-  characterSpeed: number; // 字符速率（字符/分钟）
-  chineseSpeed: number; // 中文速率（字/分钟）
+  cpm: number; // 字符速率（字符/分钟）
+  wpm: number; // 单词/中文速率（字/分钟）
   accuracy: number; // 准确率（0-100）
   totalCharacters: number; // 总字符数
   correctChars: number; // 正确字符数

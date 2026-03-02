@@ -3,7 +3,7 @@
   "title": "Grade 2",
   "lessons": [
     {
-      "id": "english-tortoise-hare",
+      "id": "ddb192e8-4c21-4c97-bf80-684458bc5153",
       "title": "The Tortoise and the Hare",
       "category": "Fable",
       "difficulty": 2,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-boy-wolf",
+      "id": "90b58f9f-632c-488d-b787-9837c617e1b5",
       "title": "The Boy Who Cried Wolf",
       "category": "Fable",
       "difficulty": 2,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-fox-grapes",
+      "id": "bd4b2631-1154-492c-91e0-d4b764779f4e",
       "title": "The Fox and the Grapes",
       "category": "Fable",
       "difficulty": 2,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-goose-golden-egg",
+      "id": "a89fd3a4-3f83-4621-97ef-95106debebda",
       "title": "The Goose and the Golden Egg",
       "category": "Fable",
       "difficulty": 2,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-wind-sun",
+      "id": "ed52de45-e09e-4990-9158-efa428a7b1d0",
       "title": "The Wind and the Sun",
       "category": "Fable",
       "difficulty": 2,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-town-country-mouse",
+      "id": "c82ca9a0-89a5-49c1-bf71-3da09c083b8a",
       "title": "The Town Mouse and the Country Mouse",
       "category": "Fable",
       "difficulty": 2,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-fox-crow",
+      "id": "53986a9c-2b69-4efa-a239-33a4fd34ab5f",
       "title": "The Fox and the Crow",
       "category": "Fable",
       "difficulty": 2,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-wolf-sheep-clothing",
+      "id": "03658f55-77c4-4d99-ba4b-9be8c5b43daf",
       "title": "The Wolf in Sheep's Clothing",
       "category": "Fable",
       "difficulty": 2,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-ant-grasshopper",
+      "id": "e9f87741-b2d6-4cbe-ae89-ee0a19b12009",
       "title": "The Ant and the Grasshopper",
       "category": "Fable",
       "difficulty": 2,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-lion-mouse-full",
+      "id": "876830ec-1045-402e-8ecb-657878b11532",
       "title": "The Lion and the Mouse (Full)",
       "category": "Fable",
       "difficulty": 2,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-gingerbread-man",
+      "id": "afcb9d9a-8e68-4287-91b0-18e8ca95bddf",
       "title": "The Gingerbread Man",
       "category": "Story",
       "difficulty": 2,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-chicken-little",
+      "id": "ab0e7431-c27f-43d9-915b-2772ca35ffa0",
       "title": "Chicken Little",
       "category": "Story",
       "difficulty": 2,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-little-red-hen",
+      "id": "d7b4b411-992b-4473-ba40-7c5bc8fabfa7",
       "title": "The Little Red Hen",
       "category": "Story",
       "difficulty": 2,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-ugly-duckling-short",
+      "id": "ebeda43f-4644-4c68-9279-d598a0e0e3b6",
       "title": "The Ugly Duckling",
       "category": "Story",
       "difficulty": 2,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-zoo-day",
+      "id": "ea536e0e-eb7a-4631-b5e0-11a6ff09a871",
       "title": "A Day at the Zoo",
       "category": "Life",
       "difficulty": 2,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-summer-vacation",
+      "id": "93e398b8-613d-4feb-aa37-4b4c1abaf874",
       "title": "My Summer Vacation",
       "category": "Life",
       "difficulty": 2,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-helping-home",
+      "id": "f72fbf56-9f4f-4451-97dd-895ef7efbbc6",
       "title": "Helping at Home",
       "category": "Life",
       "difficulty": 2,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-our-garden",
+      "id": "7f3c18fd-d712-4b20-890a-06b748067d8f",
       "title": "Our Garden",
       "category": "Nature",
       "difficulty": 2,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-beach-day",
+      "id": "0371fa0d-9dbc-48e7-b1dc-bc5bbf3b25e6",
       "title": "The Beach",
       "category": "Nature",
       "difficulty": 2,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-camping-trip",
+      "id": "26e020f7-9ed9-4013-82ce-e3c19eea137a",
       "title": "Camping Trip",
       "category": "Life",
       "difficulty": 2,

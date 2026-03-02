@@ -3,7 +3,7 @@
   "title": "2年生",
   "lessons": [
     {
-      "id": "jp-grade2-urashimataro",
+      "id": "ff524c65-591a-42a6-bf0b-efdecc3e56d2",
       "title": "浦島太郎（うらしまたろう）",
       "category": "昔話",
       "difficulty": 2,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-kaguyahime",
+      "id": "a44d2b8e-5a0e-47df-8e66-c511ba177312",
       "title": "かぐや姫（竹取物語）",
       "category": "昔話",
       "difficulty": 2,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-tebukurowokaini",
+      "id": "927c9bf8-d058-40ec-9d0d-52b379d02459",
       "title": "手袋を買いに（新美南吉）",
       "category": "物語",
       "difficulty": 2,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-gongitsune",
+      "id": "aa270681-f391-4102-9b4a-22c48e0e52e9",
       "title": "ごん狐（新美南吉）",
       "category": "物語",
       "difficulty": 2,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-fushigi",
+      "id": "5ad0f039-ea66-49a1-9d79-b327854dceec",
       "title": "不思議（ふしぎ）",
       "category": "詩",
       "difficulty": 2,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-tairyo",
+      "id": "94ff3304-7e14-4da6-aca0-c39c040fc920",
       "title": "大漁（たいりょう）",
       "category": "詩",
       "difficulty": 2,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-watashitokotori",
+      "id": "5eb09d0a-a207-4aa1-b6bd-65bd34011aeb",
       "title": "私と小鳥と鈴と",
       "category": "詩",
       "difficulty": 2,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-kodama",
+      "id": "06417218-f13c-49fc-8f54-e4291d5d4554",
       "title": "こだまでしょうか",
       "category": "詩",
       "difficulty": 2,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-hoshitotanpopo",
+      "id": "c804f9b0-268e-47ae-a253-d298abca0903",
       "title": "星とたんぽぽ",
       "category": "詩",
       "difficulty": 2,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-akaruihoue",
+      "id": "d5c0607d-fb71-4e58-bc02-c302775da86c",
       "title": "明るい方へ",
       "category": "詩",
       "difficulty": 2,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-furusato",
+      "id": "bd555f7c-e488-4d32-81ff-09b7d6b16b1d",
       "title": "故郷（ふるさと）",
       "category": "唱歌",
       "difficulty": 2,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-akatonbo",
+      "id": "0ea8f523-edde-46ee-a5bc-4fd3da28eb19",
       "title": "赤とんぼ",
       "category": "童謡",
       "difficulty": 2,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-oborozukiyo",
+      "id": "386b6501-01f6-40a9-9861-1ac315d49618",
       "title": "朧月夜（おぼろづきよ）",
       "category": "唱歌",
       "difficulty": 2,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-hamabenouta",
+      "id": "9fdbb211-6b6d-4c41-9d2b-b5ec27595eb1",
       "title": "浜辺の歌",
       "category": "唱歌",
       "difficulty": 2,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-yashinomi",
+      "id": "81d15fa0-06d1-4270-a3bc-e136b5272527",
       "title": "椰子の実（やしのみ）",
       "category": "唱歌",
       "difficulty": 2,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-natsunoomoide",
+      "id": "edb55650-9b1d-4c1c-b011-7187517868d8",
       "title": "夏の思い出",
       "category": "唱歌",
       "difficulty": 2,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-chiisaiakimitsuketa",
+      "id": "008576fd-0618-4ba5-a6e6-79ede17fe5b7",
       "title": "ちいさい秋みつけた",
       "category": "童謡",
       "difficulty": 2,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-yuki",
+      "id": "8d73ebb8-088d-4ff6-9214-82352ffe804d",
       "title": "雪（ゆき）",
       "category": "童謡",
       "difficulty": 2,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-harugakita",
+      "id": "ee7064c2-c905-4e85-b073-3e88a1c57062",
       "title": "春が来た",
       "category": "童謡",
       "difficulty": 2,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-sakura",
+      "id": "ae1f726a-77de-4819-8456-ab07971b0b85",
       "title": "さくらさくら",
       "category": "唱歌",
       "difficulty": 2,
@@ -203,7 +203,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "jp-grade2-amefuri",
+      "id": "9777da5d-8fe7-411a-a55a-fcc77dfc70bb",
       "title": "あめふり",
       "category": "童謡",
       "difficulty": 2,

@@ -3,7 +3,7 @@
   "title": "CP",
   "lessons": [
     {
-      "id": "french-au-clair-de-la-lune",
+      "id": "3c78308f-58d3-4c09-bbcd-426b2ac9596c",
       "title": "Au clair de la lune",
       "category": "Comptine",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-frere-jacques",
+      "id": "40cb8be1-bcdf-4db6-9bd2-00cf19d35b35",
       "title": "Frère Jacques",
       "category": "Comptine",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-souris-verte",
+      "id": "4412b6ea-fdb3-4873-9b2c-99531670d1b1",
       "title": "Une souris verte",
       "category": "Comptine",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-pomme-de-reinette",
+      "id": "26de3689-e2d2-46a5-a3d4-eb7dfa6c5be1",
       "title": "Pomme de reinette",
       "category": "Comptine",
       "difficulty": 1,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-alouette",
+      "id": "68d58b28-a18e-4bb8-b64a-0fcaf9890716",
       "title": "Alouette",
       "category": "Comptine",
       "difficulty": 1,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-grand-cerf",
+      "id": "23027685-72b9-4642-be60-b98564ddda4c",
       "title": "Dans sa maison un grand cerf",
       "category": "Comptine",
       "difficulty": 1,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-meunier-tu-dors",
+      "id": "7109f289-bc4c-42ae-a62d-a2dd7066bc67",
       "title": "Meunier tu dors",
       "category": "Comptine",
       "difficulty": 1,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-petit-navire",
+      "id": "33111e3e-fe8d-44bd-9c88-c72f0602d4bf",
       "title": "Il était un petit navire",
       "category": "Comptine",
       "difficulty": 1,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-pont-avignon",
+      "id": "27f62844-ecc9-44f1-aba5-81377959e4a1",
       "title": "Sur le pont d'Avignon",
       "category": "Comptine",
       "difficulty": 1,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-planter-choux",
+      "id": "33055a31-dab7-47cc-8111-daf874384f21",
       "title": "Savez-vous planter les choux",
       "category": "Comptine",
       "difficulty": 1,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-promenons-nous",
+      "id": "1bff2542-02db-40e3-b72d-fa034caf6dde",
       "title": "Promenons-nous dans les bois",
       "category": "Comptine",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-crocodiles",
+      "id": "20bab5c1-f5dd-4d7e-bb9c-24a4a7a164fc",
       "title": "Ah ! les crocodiles",
       "category": "Comptine",
       "difficulty": 1,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-elephant",
+      "id": "32c0dd57-2d5b-41ce-9c61-490aa5400093",
       "title": "Un éléphant qui se balançait",
       "category": "Comptine",
       "difficulty": 1,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-petit-escargot",
+      "id": "ef92dd95-ed15-4917-9856-4a68e35a22dc",
       "title": "Petit Escargot",
       "category": "Comptine",
       "difficulty": 1,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-maman-bateaux",
+      "id": "67d4a7dc-c63e-4932-8298-54383587581f",
       "title": "Maman les p'tits bateaux",
       "category": "Comptine",
       "difficulty": 1,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-araignee-gypsie",
+      "id": "4a3af00b-58a1-478f-9007-0a2f4d88701e",
       "title": "L'araignée Gypsie",
       "category": "Comptine",
       "difficulty": 1,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-pirouette",
+      "id": "bd5abfc4-4b72-4b76-b1cc-903c2ac8a32f",
       "title": "Pirouette Cacahuète",
       "category": "Comptine",
       "difficulty": 1,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-roi-dagobert",
+      "id": "ad7b5441-1ff7-4e05-962f-4f15283e6a6b",
       "title": "Le bon roi Dagobert",
       "category": "Comptine",
       "difficulty": 1,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-claire-fontaine",
+      "id": "42c659ee-b7c9-486b-9866-43249512d588",
       "title": "À la claire fontaine",
       "category": "Comptine",
       "difficulty": 1,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-fais-dodo",
+      "id": "1ba4877e-5f81-4990-9609-e585a5455191",
       "title": "Fais dodo",
       "category": "Comptine",
       "difficulty": 1,

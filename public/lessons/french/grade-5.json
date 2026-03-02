@@ -3,7 +3,7 @@
   "title": "CM2",
   "lessons": [
     {
-      "id": "fr-cm2-tour-monde",
+      "id": "131a5090-1e6b-4f48-83a5-a43be0016f9e",
       "title": "Le Tour du monde en 80 jours",
       "category": "Adventure",
       "difficulty": 4,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-20000-lieues",
+      "id": "03b236ad-f498-47b8-8794-4291aa392ed1",
       "title": "Vingt mille lieues sous les mers",
       "category": "Adventure",
       "difficulty": 4,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-derniere-classe",
+      "id": "adf6b3ba-5d4c-4fd3-babc-f26afe3595e7",
       "title": "La Dernière Classe",
       "category": "Story",
       "difficulty": 4,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-miserables-cosette",
+      "id": "c8fd3ea9-8f85-46c9-8db2-24a6922f9036",
       "title": "Les Misérables - Cosette",
       "category": "Literature",
       "difficulty": 4,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-sans-famille",
+      "id": "7a8fa7de-5faa-46d4-8ca1-2c301a1f702b",
       "title": "Sans Famille",
       "category": "Story",
       "difficulty": 4,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-ile-mysterieuse",
+      "id": "ef84c77d-9546-499e-ab25-1c1a3bf07844",
       "title": "L'Île mystérieuse",
       "category": "Adventure",
       "difficulty": 4,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-michel-strogoff",
+      "id": "ebc37bef-598b-4e98-85e8-a27b04188771",
       "title": "Michel Strogoff",
       "category": "Adventure",
       "difficulty": 4,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-poil-carotte",
+      "id": "14f6e8fc-7e8e-4a84-a155-39b455f1c9d7",
       "title": "Poil de Carotte",
       "category": "Story",
       "difficulty": 4,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-guerre-boutons",
+      "id": "786dce9e-18dd-49e4-8f51-8f6959a0e6e9",
       "title": "La Guerre des boutons",
       "category": "Story",
       "difficulty": 4,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-vendredi-sauvage",
+      "id": "f48a8c00-30ee-44fe-9ec6-755216614978",
       "title": "Vendredi ou la Vie sauvage",
       "category": "Adventure",
       "difficulty": 4,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-croc-blanc",
+      "id": "e7a5c309-2888-47d5-a1fd-11870b5fe3b0",
       "title": "Croc-Blanc",
       "category": "Adventure",
       "difficulty": 4,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-appel-foret",
+      "id": "2b41941f-5d39-43ac-9b0f-49b0caba57f6",
       "title": "L'Appel de la forêt",
       "category": "Adventure",
       "difficulty": 4,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-tom-sawyer",
+      "id": "b73e47eb-07a3-4320-bfc2-b1555ea2917e",
       "title": "Les Aventures de Tom Sawyer",
       "category": "Adventure",
       "difficulty": 4,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-alice-merveilles",
+      "id": "5bcf38a4-6404-43c3-8503-23e1bc9e1364",
       "title": "Alice au pays des merveilles",
       "category": "Story",
       "difficulty": 4,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-peter-pan",
+      "id": "1f4bc7e1-bd60-4876-8bba-b5141ce46537",
       "title": "Peter Pan",
       "category": "Story",
       "difficulty": 4,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-livre-jungle",
+      "id": "039886e8-44ba-4fae-9b20-0e6d2a999b0f",
       "title": "Le Livre de la jungle",
       "category": "Adventure",
       "difficulty": 4,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-ile-tresor",
+      "id": "01af0f14-b472-480d-bb5a-0e0d8823b784",
       "title": "L'Île au trésor",
       "category": "Adventure",
       "difficulty": 4,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-trois-mousquetaires",
+      "id": "f0676c94-b8e3-4aac-b57d-eb5e9b0ff107",
       "title": "Les Trois Mousquetaires",
       "category": "Adventure",
       "difficulty": 5,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-comte-monte-cristo",
+      "id": "22c2a59e-32bc-4339-9e1f-326b69e5726b",
       "title": "Le Comte de Monte-Cristo",
       "category": "Adventure",
       "difficulty": 5,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "fr-cm2-capitaine-fracasse",
+      "id": "e288000e-6256-40cb-b558-dab5e3e354a4",
       "title": "Le Capitaine Fracasse",
       "category": "Adventure",
       "difficulty": 5,

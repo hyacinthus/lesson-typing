@@ -3,7 +3,7 @@
   "title": "Grade 5",
   "lessons": [
     {
-      "id": "eng-grade5-weekend",
+      "id": "030d4751-3851-4fb5-9a5b-d0746cc5e7bb",
       "title": "Planning the Weekend",
       "category": "Dialogue",
       "difficulty": 3,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-town-mouse",
+      "id": "634b1fc9-3861-47dc-9c37-83e39ac5736c",
       "title": "The Town Mouse and the Country Mouse",
       "category": "Fable",
       "difficulty": 5,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-wind-sun",
+      "id": "c939508f-a173-49b5-9434-b0e7cd0f20ea",
       "title": "The North Wind and the Sun",
       "category": "Fable",
       "difficulty": 5,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-perseus",
+      "id": "5732d5f4-39ea-4962-b48e-44084e656c7c",
       "title": "Perseus and Medusa",
       "category": "Myth",
       "difficulty": 5,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-daedalus",
+      "id": "fb3bc6fb-6304-4ab6-8f92-fdc63bfe939f",
       "title": "Daedalus and Icarus",
       "category": "Myth",
       "difficulty": 5,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-robinson-crusoe",
+      "id": "5107a1ee-1df1-47b6-8dcb-0a7a516fe7fa",
       "title": "Robinson Crusoe",
       "category": "Story",
       "difficulty": 5,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-treasure-island",
+      "id": "3f6b9d19-89ab-4ca5-b3d7-115078ac5352",
       "title": "Treasure Island",
       "category": "Story",
       "difficulty": 5,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-swiss-family",
+      "id": "c2ecd9a8-a9f2-4674-b35a-a1ad67e7f167",
       "title": "The Swiss Family Robinson",
       "category": "Story",
       "difficulty": 5,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-tom-sawyer",
+      "id": "03de02e2-ffe6-4d2e-bbbc-c847981429f7",
       "title": "The Adventures of Tom Sawyer",
       "category": "Story",
       "difficulty": 5,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-huck-finn",
+      "id": "17cb4078-741a-4931-9bfa-9c7caeb9a5c2",
       "title": "Adventures of Huckleberry Finn",
       "category": "Story",
       "difficulty": 5,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-little-women",
+      "id": "72845cfc-455a-49d2-8f2d-e910bbc1e2e5",
       "title": "Little Women",
       "category": "Story",
       "difficulty": 5,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-anne-gables",
+      "id": "4588b30f-078c-4a21-b256-051954440400",
       "title": "Anne of Green Gables",
       "category": "Story",
       "difficulty": 5,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-jungle-book",
+      "id": "05c9b5c2-2574-44c6-9e15-42e4e78f49b9",
       "title": "The Jungle Book",
       "category": "Story",
       "difficulty": 5,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-wind-willows",
+      "id": "e3e7a395-1cb5-4977-be88-8fbcd063d9c5",
       "title": "The Wind in the Willows",
       "category": "Story",
       "difficulty": 5,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-oliver-twist",
+      "id": "29607422-2f73-4956-bb40-57eaa4fdce8a",
       "title": "Oliver Twist",
       "category": "Story",
       "difficulty": 5,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-david-copperfield",
+      "id": "95bd1f94-2d26-4012-87f1-550a3f751baa",
       "title": "David Copperfield",
       "category": "Story",
       "difficulty": 5,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-great-expectations",
+      "id": "cb7f2a48-ea77-466e-a005-49c4ec5f4239",
       "title": "Great Expectations",
       "category": "Story",
       "difficulty": 5,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-little-princess",
+      "id": "5ed7cc20-605f-41f4-bd33-049f70d1fcb9",
       "title": "A Little Princess",
       "category": "Story",
       "difficulty": 5,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-black-beauty-excerpt",
+      "id": "c52988f6-3218-4265-ae51-633032272678",
       "title": "Black Beauty (The Hunt)",
       "category": "Story",
       "difficulty": 5,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade5-call-wild",
+      "id": "ef8691f1-4e3e-4023-bf98-6b170e1715cf",
       "title": "The Call of the Wild",
       "category": "Story",
       "difficulty": 5,

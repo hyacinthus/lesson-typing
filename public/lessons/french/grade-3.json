@@ -3,7 +3,7 @@
   "title": "CE2",
   "lessons": [
     {
-      "id": "french-animaux-peste",
+      "id": "569cdffe-9e34-46d6-b093-2da8561de285",
       "title": "Les Animaux malades de la peste",
       "category": "Fable",
       "difficulty": 3,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-savetier-financier",
+      "id": "05a9e151-4a05-46bc-ade3-5f15c8fda496",
       "title": "Le Savetier et le Financier",
       "category": "Fable",
       "difficulty": 3,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-vieillard-enfants",
+      "id": "56d7308e-da07-4ed5-b8e5-a8d12cc0cb37",
       "title": "Le Vieillard et ses enfants",
       "category": "Fable",
       "difficulty": 3,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-deux-pigeons",
+      "id": "77ce0811-dd33-452c-b7a5-e06c90f5e136",
       "title": "Les Deux Pigeons",
       "category": "Fable",
       "difficulty": 3,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-pot-terre-fer",
+      "id": "582ff33f-dc44-4ac3-8320-88326a1218e1",
       "title": "Le Pot de terre et le Pot de fer",
       "category": "Fable",
       "difficulty": 3,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-loup-cigogne",
+      "id": "140f2af3-5862-4f66-9620-fbf85e2ef64e",
       "title": "Le Loup et la Cigogne",
       "category": "Fable",
       "difficulty": 3,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-laboureur-enfants",
+      "id": "ea91f803-a36c-4666-80f2-8fd427aeb27c",
       "title": "Le Laboureur et ses Enfants",
       "category": "Fable",
       "difficulty": 3,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-ours-jardins",
+      "id": "28330190-adcf-47b1-a828-1e6239d9b3b1",
       "title": "L'Ours et l'Amateur des jardins",
       "category": "Fable",
       "difficulty": 3,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-chat-belette",
+      "id": "d83a07d2-b686-4490-9d7c-63d896173d00",
       "title": "Le Chat, la Belette et le petit Lapin",
       "category": "Fable",
       "difficulty": 3,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-jeune-veuve",
+      "id": "037df2b1-9771-4bf4-9222-4f697c1f488d",
       "title": "La Jeune Veuve",
       "category": "Fable",
       "difficulty": 3,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-obseques-lionne",
+      "id": "5c6fdd9a-aeee-44e4-9bea-987d9be1c119",
       "title": "Les Obsèques de la Lionne",
       "category": "Fable",
       "difficulty": 3,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-cochet-chat-souriceau",
+      "id": "65b00063-1886-401b-9172-0ac128bf4fa6",
       "title": "Le Cochet, le Chat et le Souriceau",
       "category": "Fable",
       "difficulty": 3,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-loup-berger",
+      "id": "017ee7c9-6a0c-418f-b502-301268de399c",
       "title": "Le Loup devenu Berger",
       "category": "Fable",
       "difficulty": 3,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-huitre-plaideurs",
+      "id": "48b82934-2a6f-4f1f-a8ae-109f83fda2e7",
       "title": "L'Huître et les Plaideurs",
       "category": "Fable",
       "difficulty": 3,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-chatte-femme",
+      "id": "f75759f9-be85-4eaa-af29-b179f99bb773",
       "title": "La Chatte métamorphosée en Femme",
       "category": "Fable",
       "difficulty": 3,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-singe-chat",
+      "id": "64384f48-d60a-4d2e-b802-0eeb5244cafb",
       "title": "Le Singe et le Chat",
       "category": "Fable",
       "difficulty": 3,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-meunier-fils-ane",
+      "id": "72810d32-99bd-435c-beb0-71fcff9b3866",
       "title": "Le Meunier, son Fils et l'Âne",
       "category": "Fable",
       "difficulty": 3,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-membres-estomac",
+      "id": "69441dbc-e598-4d3b-afa4-f7aed9c420cb",
       "title": "Les Membres et l'Estomac",
       "category": "Fable",
       "difficulty": 3,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-renard-bouc",
+      "id": "6f47f0d7-e5e5-44c3-943a-e605419e0359",
       "title": "Le Renard et le Bouc",
       "category": "Fable",
       "difficulty": 3,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "french-aigle-hibou",
+      "id": "68190256-10da-4ff8-9d62-782ef99840e7",
       "title": "L'Aigle et le Hibou",
       "category": "Fable",
       "difficulty": 3,

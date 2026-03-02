@@ -3,7 +3,7 @@
   "title": "Grade 6",
   "lessons": [
     {
-      "id": "spa-grade6-tech",
+      "id": "5cc56586-c6a0-41cf-93ee-c6392b85618f",
       "title": "La Tecnología",
       "category": "Technology",
       "difficulty": 6,
@@ -14,7 +14,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-climate",
+      "id": "21044072-3ff4-4bef-a1fe-c00d28b4e81d",
       "title": "El Cambio Climático",
       "category": "Environment",
       "difficulty": 6,
@@ -25,7 +25,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-curie",
+      "id": "4a8af778-f8d3-4d69-add4-fad59ec6af7b",
       "title": "Marie Curie",
       "category": "Biography",
       "difficulty": 6,
@@ -36,7 +36,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-almohadon",
+      "id": "f6399bd8-8c58-4a1d-b21c-ce461b9f661c",
       "title": "El Almohadón de Plumas",
       "category": "Literature",
       "difficulty": 6,
@@ -47,7 +47,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-odisea",
+      "id": "57d77ff2-c307-4b7f-b630-a3c64dbc51ec",
       "title": "La Odisea",
       "category": "Literature",
       "difficulty": 6,
@@ -58,7 +58,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-iliada",
+      "id": "b2eaf96e-5dd6-4945-b33a-e5c5fedb4699",
       "title": "La Ilíada",
       "category": "Literature",
       "difficulty": 6,
@@ -69,7 +69,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-frankenstein",
+      "id": "596b9ec5-1093-4579-bc94-19d1c92ce4b1",
       "title": "Frankenstein",
       "category": "Literature",
       "difficulty": 6,
@@ -80,7 +80,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-sherlock",
+      "id": "395fb5e4-83df-4c4f-943b-1a8e54db958e",
       "title": "Sherlock Holmes: Estudio en Escarlata",
       "category": "Literature",
       "difficulty": 6,
@@ -91,7 +91,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-miserables",
+      "id": "b24635b7-e7f2-40d2-b517-033e3d8d1c72",
       "title": "Los Miserables",
       "category": "Literature",
       "difficulty": 6,
@@ -102,7 +102,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-cien-anos",
+      "id": "f408299c-7123-4625-a59c-9cac53f65f6a",
       "title": "Cien Años de Soledad",
       "category": "Literature",
       "difficulty": 6,
@@ -113,7 +113,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-pedro-paramo",
+      "id": "fe9c7df3-a676-4f11-ae0b-568b91c57914",
       "title": "Pedro Páramo",
       "category": "Literature",
       "difficulty": 6,
@@ -124,7 +124,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-metamorfosis",
+      "id": "d1dabe05-60f1-4a39-86c6-b6189fbb6fc6",
       "title": "La Metamorfosis",
       "category": "Literature",
       "difficulty": 6,
@@ -135,7 +135,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-1984",
+      "id": "9d2d95d4-59ac-42f3-8a98-e0789f9bade6",
       "title": "1984",
       "category": "Literature",
       "difficulty": 6,
@@ -146,7 +146,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-mundo-feliz",
+      "id": "40b9cf15-8322-4a49-b08f-062e770b586a",
       "title": "Un Mundo Feliz",
       "category": "Literature",
       "difficulty": 6,
@@ -157,7 +157,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-viejo-mar",
+      "id": "9348bf30-2a35-4b2c-91bd-141ce202ce00",
       "title": "El Viejo y el Mar",
       "category": "Literature",
       "difficulty": 6,
@@ -168,7 +168,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-cronica",
+      "id": "a678f498-ff11-4348-809c-aa3975aa13df",
       "title": "Crónica de una Muerte Anunciada",
       "category": "Literature",
       "difficulty": 6,
@@ -179,7 +179,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-casa-espiritus",
+      "id": "b4bba667-750e-4db9-beea-23bd1a042fe9",
       "title": "La Casa de los Espíritus",
       "category": "Literature",
       "difficulty": 6,
@@ -190,7 +190,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-rayuela",
+      "id": "0f39a526-77f3-41d4-8745-2e1e28e50468",
       "title": "Rayuela",
       "category": "Literature",
       "difficulty": 6,
@@ -201,7 +201,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-aleph",
+      "id": "e19dff2f-cee9-4e76-b303-e77246fb3b1e",
       "title": "El Aleph",
       "category": "Literature",
       "difficulty": 6,
@@ -212,7 +212,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade6-tunel",
+      "id": "20cf3afd-ca09-4cc2-a5a8-4722d89b72a0",
       "title": "El Túnel",
       "category": "Literature",
       "difficulty": 6,

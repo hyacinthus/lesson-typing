@@ -3,7 +3,7 @@
   "title": "1º Ano",
   "lessons": [
     {
-      "id": "pt-grade1-gato",
+      "id": "1827e8a5-60fb-4ae5-8400-312ab075756d",
       "title": "O Gato Mimi",
       "category": "Conto",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-pato",
+      "id": "d253a257-d426-4bdf-bbf9-33ab76ffcbd6",
       "title": "O Pato Pateta",
       "category": "Poema",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-casa",
+      "id": "689b95ad-1e36-46ac-addd-710583347bf2",
       "title": "A Casa",
       "category": "Música",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-sapo",
+      "id": "eea6aff6-32a6-4509-9f9e-943cbec5d1ed",
       "title": "O Sapo",
       "category": "Música",
       "difficulty": 1,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-bola",
+      "id": "4661fea5-d7a4-47e7-894f-7358fae99662",
       "title": "A Bola do Beto",
       "category": "Conto",
       "difficulty": 1,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-borboletinha",
+      "id": "b85a7d1a-8905-4177-a3dc-ca69b069cbb9",
       "title": "Borboletinha",
       "category": "Música",
       "difficulty": 1,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-foca",
+      "id": "8732b5d0-a7de-41d0-b68b-25bcc26df89f",
       "title": "A Foca",
       "category": "Poema",
       "difficulty": 1,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-indiozinhos",
+      "id": "e63fe903-b874-44d7-821c-8bb19e687705",
       "title": "Os Indiozinhos",
       "category": "Música",
       "difficulty": 1,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-parabens",
+      "id": "f0f63ff4-91d5-454d-ab80-a32e286a377e",
       "title": "Parabéns pra Você",
       "category": "Música",
       "difficulty": 1,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-cravo",
+      "id": "7ce4c5bf-e04f-4f0a-bb0e-8dc1a3ce1218",
       "title": "O Cravo e a Rosa",
       "category": "Música",
       "difficulty": 1,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-boneca",
+      "id": "22cc14a5-3e69-4811-ba51-ecfe071582bd",
       "title": "A Boneca de Pano",
       "category": "Conto",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-pipoca",
+      "id": "e2bcbb39-6544-46cd-a78b-f959c4e47bac",
       "title": "A Pipoca",
       "category": "Música",
       "difficulty": 1,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-sol",
+      "id": "32391fb4-9b57-4d4e-9230-20e645a88d9f",
       "title": "O Sol",
       "category": "Conto",
       "difficulty": 1,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-samba",
+      "id": "4726f14f-df5d-4ac6-9942-c15ca2a44cdd",
       "title": "Samba Lelê",
       "category": "Música",
       "difficulty": 1,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-cai-balao",
+      "id": "6b7cc439-038b-4618-abb8-c5f70feaca71",
       "title": "Cai, Cai, Balão",
       "category": "Música",
       "difficulty": 1,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-carneirinho",
+      "id": "63fc4732-441f-4202-9c97-3b7c55e64dfd",
       "title": "Carneirinho, Carneirão",
       "category": "Música",
       "difficulty": 1,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-limao",
+      "id": "32b65e85-74e0-4b84-ac65-79ad06e3bfbe",
       "title": "Meu Limão",
       "category": "Música",
       "difficulty": 1,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-ciranda",
+      "id": "25dd77e1-150e-40ae-bc95-361c487e8e89",
       "title": "Ciranda Cirandinha",
       "category": "Música",
       "difficulty": 1,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-janelinha",
+      "id": "00282e95-1b7d-4127-b649-a5c6bb307f53",
       "title": "A Janelinha",
       "category": "Música",
       "difficulty": 1,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "pt-grade1-peixe",
+      "id": "f631d3c8-c0a1-4d31-b7f3-8f173ef1fc77",
       "title": "Peixe Vivo",
       "category": "Música",
       "difficulty": 1,

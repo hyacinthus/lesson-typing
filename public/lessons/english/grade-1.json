@@ -3,7 +3,7 @@
   "title": "Grade 1",
   "lessons": [
     {
-      "id": "english-humpty-dumpty",
+      "id": "952bf58e-2973-43ee-ad4e-a9adbb17e8c4",
       "title": "Humpty Dumpty",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-jack-jill",
+      "id": "2398e721-9daf-4a49-abbe-a5838bf5666b",
       "title": "Jack and Jill",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-baa-baa-black-sheep",
+      "id": "c10b98b1-1f42-4f72-b869-7988f8b9189d",
       "title": "Baa, Baa, Black Sheep",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-twinkle-star",
+      "id": "8031ee4f-dccf-4369-aa96-473c1e68a93d",
       "title": "Twinkle, Twinkle, Little Star",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-mary-lamb",
+      "id": "cd7db379-eaa4-4c21-9b4b-1c76c9e24480",
       "title": "Mary Had a Little Lamb",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-hickory-dickory",
+      "id": "0f09817c-2e80-47a5-98db-fdcbe4dfc1a1",
       "title": "Hickory, Dickory, Dock",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-hey-diddle",
+      "id": "552935c7-2276-46f5-95b5-2c8ea6643c22",
       "title": "Hey Diddle Diddle",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-miss-muffet",
+      "id": "616adcd6-5163-4d90-8944-80496eef6c02",
       "title": "Little Miss Muffet",
       "category": "Nursery Rhyme",
       "difficulty": 1,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-ant-dove",
+      "id": "e1ea5cff-72b5-4e03-ad8f-ce966a09285c",
       "title": "The Ant and the Dove",
       "category": "Fable",
       "difficulty": 1,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-dog-shadow",
+      "id": "5d969814-3a3f-4afa-9c23-ca4ed73609d3",
       "title": "The Dog and His Shadow",
       "category": "Fable",
       "difficulty": 1,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-lion-mouse-simple",
+      "id": "c6a953ea-ecac-49f6-8841-6c90b0fab326",
       "title": "The Lion and the Mouse",
       "category": "Fable",
       "difficulty": 1,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-thirsty-crow",
+      "id": "fee34ae3-2917-423b-89d6-88e7d4be34c0",
       "title": "The Thirsty Crow",
       "category": "Fable",
       "difficulty": 1,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-three-pigs-simple",
+      "id": "59e03651-bb01-404d-9ca2-27474db51c7c",
       "title": "The Three Little Pigs",
       "category": "Story",
       "difficulty": 1,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-goldilocks-simple",
+      "id": "9e4072da-3907-43aa-9ad5-22dac701989a",
       "title": "Goldilocks and the Three Bears",
       "category": "Story",
       "difficulty": 1,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-red-riding-hood-simple",
+      "id": "e39133d6-f1bb-4160-8a50-c577835a5e4b",
       "title": "Little Red Riding Hood",
       "category": "Story",
       "difficulty": 1,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-my-family",
+      "id": "5e2af29a-7717-448b-97f3-ebc40563dc98",
       "title": "My Family",
       "category": "Life",
       "difficulty": 1,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-my-school",
+      "id": "db922d71-f7b9-4fae-99bf-6613ab32a5b2",
       "title": "My School",
       "category": "Life",
       "difficulty": 1,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-the-park",
+      "id": "65ee7f06-af37-431c-b467-e609711a1146",
       "title": "The Park",
       "category": "Life",
       "difficulty": 1,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-seasons-simple",
+      "id": "9d432e5d-81f9-444d-8063-ae74491ded57",
       "title": "The Four Seasons",
       "category": "Nature",
       "difficulty": 1,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "english-colors",
+      "id": "757a97f0-a176-46b4-96e6-7b97b8b52c8d",
       "title": "Colors",
       "category": "Nature",
       "difficulty": 1,

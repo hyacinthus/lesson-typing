@@ -3,7 +3,7 @@
   "title": "Grade 2",
   "lessons": [
     {
-      "id": "spa-grade2-dog",
+      "id": "85c0943a-b647-48d9-82f6-fe884aa5ca80",
       "title": "El Perro Juguetón",
       "category": "Story",
       "difficulty": 2,
@@ -14,7 +14,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-school",
+      "id": "4afb575b-f2b3-443d-9e71-3f3a826c5e46",
       "title": "Mi Escuela",
       "category": "Story",
       "difficulty": 2,
@@ -25,7 +25,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-tree",
+      "id": "0b910835-1a8a-47a6-85f5-4886d5abf98c",
       "title": "El Árbol Grande",
       "category": "Story",
       "difficulty": 2,
@@ -36,7 +36,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-cerditos",
+      "id": "27ddd28a-7090-4d21-ab61-8ec187e16467",
       "title": "Los Tres Cerditos",
       "category": "Cuento Clásico",
       "difficulty": 2,
@@ -47,7 +47,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-ocelote",
+      "id": "dd1f993e-1423-4746-a9e4-22a68f2b1d76",
       "title": "Las manchas del ocelote",
       "category": "Leyenda",
       "difficulty": 2,
@@ -58,7 +58,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-ratones-junta",
+      "id": "899a23b0-10b6-4f22-a70d-1bc35e4d080a",
       "title": "La junta de los ratones",
       "category": "Fábula",
       "difficulty": 2,
@@ -69,7 +69,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-olinos",
+      "id": "b6c30a32-bf05-4057-a5d5-2919f13712fd",
       "title": "El conde Olinos",
       "category": "Romance",
       "difficulty": 2,
@@ -80,7 +80,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-colibri",
+      "id": "3b616ac8-880c-4222-85f1-4d8849ff2c12",
       "title": "El colibrí",
       "category": "Leyenda",
       "difficulty": 2,
@@ -91,7 +91,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-lechera",
+      "id": "a0b3cb25-f745-4792-8f0d-170f134ac27e",
       "title": "La Lechera",
       "category": "Fábula",
       "difficulty": 2,
@@ -102,7 +102,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-pastor",
+      "id": "68ccf9b7-9c13-46e8-a847-ab784d62356a",
       "title": "El Pastor Mentiroso",
       "category": "Fábula",
       "difficulty": 2,
@@ -113,7 +113,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-lobo-oveja",
+      "id": "009859a0-8d43-422f-81ce-b443118504da",
       "title": "El Lobo con Piel de Oveja",
       "category": "Fábula",
       "difficulty": 2,
@@ -124,7 +124,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-viejita",
+      "id": "bc64f933-601a-4e57-850d-3b359eb67f1e",
       "title": "La Viejita y el Doctor",
       "category": "Fábula",
       "difficulty": 2,
@@ -135,7 +135,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-carmen",
+      "id": "d1c83239-cfd7-4f98-9c85-acab474d2f8d",
       "title": "Doña Carmen",
       "category": "Cuento",
       "difficulty": 2,
@@ -146,7 +146,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-lagarto",
+      "id": "11deb5d0-36b8-46de-afe7-079f0ce28701",
       "title": "El Lagarto está Llorando",
       "category": "Poema",
       "difficulty": 2,
@@ -157,7 +157,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-ricitos",
+      "id": "b735f365-3b12-474f-997e-f51cf5a8510a",
       "title": "Ricitos de Oro",
       "category": "Cuento Clásico",
       "difficulty": 2,
@@ -168,7 +168,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-zorra-cuervo",
+      "id": "4bf7652f-b4ef-4d09-b258-e8afeec3ca6f",
       "title": "La Zorra y el Cuervo",
       "category": "Fábula",
       "difficulty": 2,
@@ -179,7 +179,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-cuervo-jarra",
+      "id": "4c7ab2ee-f3b3-4bf8-8c9a-883e84a56382",
       "title": "El Cuervo y la Jarra",
       "category": "Fábula",
       "difficulty": 2,
@@ -190,7 +190,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-zorra-uvas",
+      "id": "cedc27d3-f62a-4c66-b80d-d6489f771f6a",
       "title": "La Zorra y las Uvas",
       "category": "Fábula",
       "difficulty": 2,
@@ -201,7 +201,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-leon-mosquito",
+      "id": "53dda594-2ee0-4b97-98d2-1f271ebfa57c",
       "title": "El León y el Mosquito",
       "category": "Fábula",
       "difficulty": 2,
@@ -212,7 +212,7 @@
       "language": "spanish"
     },
     {
-      "id": "spa-grade2-raton-rana",
+      "id": "a1b5e37a-ee37-4024-8eaf-034783ad0bd0",
       "title": "El Ratón y la Rana",
       "category": "Fábula",
       "difficulty": 2,

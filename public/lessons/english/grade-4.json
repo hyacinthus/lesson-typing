@@ -3,7 +3,7 @@
   "title": "Grade 4",
   "lessons": [
     {
-      "id": "eng-grade4-puppy",
+      "id": "ce39ead2-0d5a-4d01-98f1-da9c5572035d",
       "title": "The Lost Puppy",
       "category": "Story",
       "difficulty": 2,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-fox-grapes",
+      "id": "e72707ce-73c1-41e8-8fbd-bb43a761788a",
       "title": "The Fox and the Grapes",
       "category": "Fable",
       "difficulty": 4,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-wolf-crane",
+      "id": "f1d1bd0b-7b92-44f4-86ac-401931c57750",
       "title": "The Wolf and the Crane",
       "category": "Fable",
       "difficulty": 4,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-emperors-clothes",
+      "id": "c133d3d0-69ee-4192-ae35-c37686547fd3",
       "title": "The Emperor's New Clothes",
       "category": "Story",
       "difficulty": 4,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-little-mermaid",
+      "id": "e37e16ab-7929-4de0-8c62-bbbb34cbf662",
       "title": "The Little Mermaid",
       "category": "Story",
       "difficulty": 4,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-nightingale",
+      "id": "69ac1aac-895a-4bd4-b8bd-04dd86f05fcb",
       "title": "The Nightingale",
       "category": "Story",
       "difficulty": 4,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-tin-soldier",
+      "id": "e8531834-1524-4ecd-ad8d-fbd4bf54b15c",
       "title": "The Steadfast Tin Soldier",
       "category": "Story",
       "difficulty": 4,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-rumpelstiltskin",
+      "id": "49a335af-e0be-4c8a-ad1d-651db9da70ec",
       "title": "Rumpelstiltskin",
       "category": "Story",
       "difficulty": 4,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-fisherman-wife",
+      "id": "95108529-33a9-481a-a9a9-f8c12787d109",
       "title": "The Fisherman and His Wife",
       "category": "Story",
       "difficulty": 4,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-brave-tailor",
+      "id": "85c89e7a-285f-482e-928e-84284a982c2f",
       "title": "The Brave Little Tailor",
       "category": "Story",
       "difficulty": 4,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-golden-goose",
+      "id": "8fdbd75a-97ef-4c66-831b-a7690eb3af7d",
       "title": "The Golden Goose",
       "category": "Story",
       "difficulty": 4,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-pandora",
+      "id": "6acdf58a-946a-4cbe-a592-21429fa2e1b7",
       "title": "Pandora's Box",
       "category": "Myth",
       "difficulty": 4,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-king-midas",
+      "id": "e2bff10b-5451-4838-bf76-6b17df1bad25",
       "title": "King Midas and the Golden Touch",
       "category": "Myth",
       "difficulty": 4,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-hercules-apples",
+      "id": "1b340d18-d175-4645-bdb8-3fb18ca5d74d",
       "title": "Hercules and the Golden Apples",
       "category": "Myth",
       "difficulty": 4,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-heidi",
+      "id": "ce801a45-5327-4681-b945-3ec9dea3c17d",
       "title": "Heidi",
       "category": "Story",
       "difficulty": 4,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-secret-garden",
+      "id": "7810ca68-828e-4805-a6f0-610c52b11947",
       "title": "The Secret Garden",
       "category": "Story",
       "difficulty": 4,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-black-beauty",
+      "id": "399d2f55-0c2a-4950-9acc-6f2d0a765abc",
       "title": "Black Beauty",
       "category": "Story",
       "difficulty": 4,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-peter-pan",
+      "id": "f4488b49-1035-4d5f-b8ca-17da375f6044",
       "title": "Peter Pan",
       "category": "Story",
       "difficulty": 4,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-alice-wonderland",
+      "id": "d4eb5d72-f563-4939-ba84-dcf74e57a5f9",
       "title": "Alice in Wonderland",
       "category": "Story",
       "difficulty": 4,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "eng-grade4-wizard-oz",
+      "id": "5959ad4c-d72a-458d-9ee3-db9ee5827e8f",
       "title": "The Wizard of Oz",
       "category": "Story",
       "difficulty": 4,

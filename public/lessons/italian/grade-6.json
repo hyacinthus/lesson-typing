@@ -3,7 +3,7 @@
   "title": "Classe 6",
   "lessons": [
     {
-      "id": "italian-grade6-lesson1",
+      "id": "3c8a22d1-e891-4920-95b4-a565f9c03f66",
       "title": "Il cavaliere inesistente",
       "category": "Italo Calvino",
       "difficulty": 6,
@@ -13,7 +13,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson2",
+      "id": "9a6faf4e-41b4-4924-917d-bcea6b24fa73",
       "title": "L'ecologia e il futuro",
       "category": "Sussidiario",
       "difficulty": 6,
@@ -23,7 +23,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson3",
+      "id": "48d35fa6-7cae-4efe-877e-b48842d7d34f",
       "title": "Grammatica della fantasia",
       "category": "Gianni Rodari",
       "difficulty": 6,
@@ -33,7 +33,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson4",
+      "id": "e47ddf69-68f3-4669-b79c-7eaacb49b473",
       "title": "Il Risorgimento e l'Unità",
       "category": "Storia",
       "difficulty": 6,
@@ -43,7 +43,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson5",
+      "id": "3209e7c7-9b45-4aff-af60-1fd1486fbc4e",
       "title": "Lezioni Americane: Leggerezza",
       "category": "Italo Calvino",
       "difficulty": 6,
@@ -53,7 +53,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson6",
+      "id": "4560d59f-0ce7-4392-a5b9-30021d0d0174",
       "title": "Il metodo scientifico",
       "category": "Scienza",
       "difficulty": 6,
@@ -63,7 +63,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson7",
+      "id": "58b7b5ec-5770-4478-887c-1d2a6d6acb66",
       "title": "La democrazia e i diritti umani",
       "category": "Educazione Civica",
       "difficulty": 6,
@@ -73,7 +73,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson8",
+      "id": "8cf9594e-9f2a-484b-9ea1-959e894ed313",
       "title": "Il sistema nervoso centrale",
       "category": "Scienza",
       "difficulty": 6,
@@ -83,7 +83,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson9",
+      "id": "ed1f2832-4fc3-401d-9aa8-55a41fcde673",
       "title": "L'Umanesimo e il valore dell'uomo",
       "category": "Storia",
       "difficulty": 6,
@@ -93,7 +93,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson10",
+      "id": "d7dba5e9-465a-40c5-8b2a-ce2ff2808acd",
       "title": "Il cambiamento climatico",
       "category": "Geografia",
       "difficulty": 6,
@@ -103,7 +103,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson11",
+      "id": "f11be6a5-6b3a-4fb4-a681-dbde1fa4f1fb",
       "title": "La genetica e l'ereditarietà",
       "category": "Scienza",
       "difficulty": 6,
@@ -113,7 +113,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson12",
+      "id": "7ff0a9f2-7de3-4fc8-9b06-6015db2d91cd",
       "title": "La rivoluzione russa e il Novecento",
       "category": "Storia",
       "difficulty": 6,
@@ -123,7 +123,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson13",
+      "id": "a4d76e49-9634-44ec-9732-445724f5f590",
       "title": "L'atmosfera e l'effetto serra",
       "category": "Scienza",
       "difficulty": 6,
@@ -133,7 +133,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson14",
+      "id": "98511b6e-c659-43a3-8642-43bd80b1f5c7",
       "title": "Il Rinascimento e le corti italiane",
       "category": "Storia",
       "difficulty": 6,
@@ -143,7 +143,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson15",
+      "id": "3c2f8504-606a-4108-8814-32b4e00d43f9",
       "title": "L'apparato digerente e la nutrizione",
       "category": "Scienza",
       "difficulty": 6,
@@ -153,7 +153,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson16",
+      "id": "57a65309-037b-4b63-b858-6938e4492ccc",
       "title": "La prima guerra mondiale",
       "category": "Storia",
       "difficulty": 6,
@@ -163,7 +163,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson17",
+      "id": "73df145e-c04f-4a1f-b364-d4ad21673a6b",
       "title": "L'energia sostenibile",
       "category": "Scienza",
       "difficulty": 6,
@@ -173,7 +173,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson18",
+      "id": "253beb08-7a51-45c8-b0b9-6b90fdea9719",
       "title": "La rivoluzione industriale e le città",
       "category": "Storia",
       "difficulty": 6,
@@ -183,7 +183,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson19",
+      "id": "245ced4f-18bf-4398-8885-ffdd3c31d913",
       "title": "L'apparato respiratorio",
       "category": "Scienza",
       "difficulty": 6,
@@ -193,7 +193,7 @@
       "chineseCharCount": 0
     },
     {
-      "id": "italian-grade6-lesson20",
+      "id": "c69615a1-b5a3-40c0-bb18-5bb15f561404",
       "title": "La Dichiarazione Universale dei Diritti Umani",
       "category": "Educazione Civica",
       "difficulty": 6,
