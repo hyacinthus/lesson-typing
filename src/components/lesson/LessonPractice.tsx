@@ -57,16 +57,16 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     return (
         <div className="flex flex-col h-full">
             {/* Header for Practice View */}
-            <div className="bg-white shadow-sm px-6 py-4 flex items-center justify-center relative z-10 mb-8">
+            <div className="bg-header text-header-foreground shadow-sm px-6 py-4 flex items-center justify-center relative z-10 mb-8">
                 <button
                     onClick={onBack}
                     data-typing-focus-ignore="true"
-                    className="absolute left-6 flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+                    className="absolute left-6 flex items-center gap-2 text-header-foreground/80 hover:text-header-foreground transition-colors"
                 >
                     <ArrowLeft size={20} />
                     {t('back_home')}
                 </button>
-                <h2 className="text-xl font-bold text-gray-800">{lesson.title}</h2>
+                <h2 className="text-xl font-bold">{lesson.title}</h2>
             </div>
 
             <div className="flex-1 w-full max-w-4xl mx-auto px-4">

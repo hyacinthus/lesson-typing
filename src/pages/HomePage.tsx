@@ -175,11 +175,11 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header / Top Bar */}
-      <div className="bg-[#ebebeb] shadow-sm px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 z-10">
+      <div className="bg-header text-header-foreground shadow-sm px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 z-10">
         {/* Logo & Title */}
         <div className="flex items-center gap-3 w-full md:w-1/3 justify-start">
           <Logo className="w-10 h-10 shadow-sm" />
-          <span className="text-xl font-bold text-gray-800 tracking-tight">LessonTyping</span>
+          <span className="text-xl font-bold tracking-tight">LessonTyping</span>
         </div>
 
         {/* Collection List */}

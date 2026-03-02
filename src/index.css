@@ -14,6 +14,8 @@
   --color-incorrect-bg: #fee2e2;
   --color-composition: #f59e0b;
   --color-composition-bg: #fef3c7;
+  --color-header: var(--header);
+  --color-header-foreground: var(--header-foreground);
 }
 
 * {
@@ -110,6 +112,8 @@ body {
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --header: #E9F4FF;
+  --header-foreground: oklch(0.145 0 0);
 }
 
 .dark {
@@ -144,6 +148,8 @@ body {
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  --header: #0C3A66;
+  --header-foreground: oklch(0.985 0 0);
 }
 
 @layer base {
