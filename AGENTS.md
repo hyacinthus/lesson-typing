@@ -28,7 +28,7 @@
 - All code must be in English
 - Conversation can use the user's language
 - Never commit secrets or sensitive data
-- Always use the app theme color (`#90caf9` / `--primary` in CSS, hover `#64b5f6`) for primary interactive elements; do not use shadcn's default black primary
+- Always use the app theme color (`#007FFF` / `--primary` in CSS) for primary interactive elements; do not use shadcn's default black primary
 - When adding new UI, use shadcn components, and add i18n keys for the component texts
 
 ## Git

@@ -189,7 +189,7 @@ export function HomePage() {
             onValueChange={setSelectedGrade}
             disabled={grades.length === 0}
           >
-            <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
+            <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
               <SelectValue placeholder={t('loading')} />
             </SelectTrigger>
             <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
@@ -208,7 +208,7 @@ export function HomePage() {
             value={i18n.language.split('-')[0]}
             onValueChange={(value) => i18n.changeLanguage(value)}
           >
-            <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-[#90caf9]/50">
+            <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
               <SelectValue />
             </SelectTrigger>
             <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
@@ -238,7 +238,7 @@ export function HomePage() {
           <button
             onClick={handleStart}
             disabled={!currentGradeId && grades.length === 0}
-            className="group relative px-10 py-3 bg-[#90caf9] text-white text-xl font-medium rounded-[10px] shadow-sm hover:bg-[#64b5f6] hover:shadow-md transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="group relative px-10 py-3 bg-primary text-primary-foreground text-xl font-medium rounded-[10px] shadow-sm hover:bg-primary/90 hover:shadow-md transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {t('start')}
           </button>

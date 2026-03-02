@@ -142,7 +142,7 @@ export function UserMenu() {
                 <Button
                   variant="ghost"
                   onClick={() => setAuthModalView('options')}
-                  className="h-auto px-0 text-sm font-medium text-[#64b5f6] hover:bg-transparent hover:text-[#42a5f5]"
+                  className="h-auto px-0 text-sm font-medium text-primary hover:bg-transparent hover:text-primary/80"
                 >
                   {t('auth.back')}
                 </Button>
@@ -176,7 +176,7 @@ export function UserMenu() {
           >
             <Avatar className="size-7">
               <AvatarImage src={avatarUrl} alt="avatar" className="object-cover" />
-              <AvatarFallback className="bg-[#90caf9] text-white">
+              <AvatarFallback className="bg-primary text-primary-foreground">
                 <User size={16} />
               </AvatarFallback>
             </Avatar>

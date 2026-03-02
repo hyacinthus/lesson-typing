@@ -107,7 +107,7 @@ export function TypingArea({
       {/* 自定义光标 */}
       {cursorPosition && !isCompleted && !disabled && (
         <div
-          className="fixed w-[2px] bg-blue-600 z-10 pointer-events-none animate-[blink_1s_infinite]"
+          className="fixed w-[2px] bg-primary z-10 pointer-events-none animate-[blink_1s_infinite]"
           style={{
             top: cursorPosition.top,
             left: cursorPosition.left,
@@ -124,7 +124,7 @@ export function TypingArea({
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2">
           <div
-            className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+            className="bg-primary h-2 rounded-full transition-all duration-300"
             style={{ width: `${stats.progress}%` }}
           />
         </div>
@@ -154,7 +154,7 @@ export function TypingArea({
             </div>
             <div>
               <div className="text-sm text-gray-600">{t('stats.char_speed')}</div>
-              <div className="text-2xl font-bold text-blue-600">
+              <div className="text-2xl font-bold text-primary">
                 {stats.characterSpeed} {t('stats.char_unit')}
               </div>
             </div>
@@ -181,7 +181,7 @@ export function TypingArea({
             {onNextLesson && (
               <button
                 onClick={onNextLesson}
-                className="bg-[#90caf9] hover:bg-[#64b5f6] text-white font-medium py-3 px-8 rounded-full shadow-sm hover:shadow-md transition-all"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 px-8 rounded-full shadow-sm hover:shadow-md transition-all"
               >
                 {t('next_lesson')}
               </button>

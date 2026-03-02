@@ -13,7 +13,7 @@ export function LoginOverlay({ isVisible }: LoginOverlayProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
       <div className="flex flex-col items-center justify-center rounded-xl bg-white p-8 shadow-xl">
-        <Loader2 className="h-10 w-10 animate-spin text-[#90caf9]" />
+        <Loader2 className="h-10 w-10 animate-spin text-primary" />
         <p className="mt-4 text-base font-medium text-gray-700">{t('auth.signing_in')}</p>
       </div>
     </div>
