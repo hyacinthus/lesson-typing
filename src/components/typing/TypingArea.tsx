@@ -119,8 +119,7 @@ export function TypingArea({
 
       {/* 进度条 */}
       <div className="mb-6">
-        <div className="flex justify-between text-sm text-gray-600 mb-2">
-          <span>进度</span>
+        <div className="flex justify-end text-sm text-gray-600 mb-2">
           <span>{stats.progress}%</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2">
