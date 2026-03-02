@@ -57,7 +57,9 @@ const resources = {
                 "error_occurred": "An error occurred.",
                 "profile": {
                     "title": "Edit Profile",
+                    "description": "Update your profile information here.",
                     "crop_title": "Crop Image",
+                    "crop_description": "Drag to reposition and use the slider to zoom.",
                     "nickname": "Nickname",
                     "avatar": "Avatar",
                     "upload_avatar": "Upload Avatar",
@@ -126,7 +128,9 @@ const resources = {
                 "error_occurred": "发生错误。",
                 "profile": {
                     "title": "编辑个人资料",
+                    "description": "在此更新您的个人资料。",
                     "crop_title": "裁剪图片",
+                    "crop_description": "拖动以重新定位并使用滑块缩放。",
                     "nickname": "昵称",
                     "avatar": "头像",
                     "upload_avatar": "上传头像",
@@ -195,7 +199,9 @@ const resources = {
                 "error_occurred": "Se produjo un error.",
                 "profile": {
                     "title": "Editar perfil",
+                    "description": "Actualice su información de perfil aquí.",
                     "crop_title": "Recortar imagen",
+                    "crop_description": "Arrastre para reposicionar y use el control deslizante para hacer zoom.",
                     "nickname": "Apodo",
                     "avatar": "Avatar",
                     "upload_avatar": "Subir avatar",
@@ -264,7 +270,9 @@ const resources = {
                 "error_occurred": "エラーが発生しました。",
                 "profile": {
                     "title": "プロフィール編集",
+                    "description": "ここでプロフィール情報を更新します。",
                     "crop_title": "画像の切り抜き",
+                    "crop_description": "ドラッグして位置を調整し、スライダーでズームします。",
                     "nickname": "ニックネーム",
                     "avatar": "アバター",
                     "upload_avatar": "アバターをアップロード",
@@ -333,7 +341,9 @@ const resources = {
                 "error_occurred": "Ocorreu um erro.",
                 "profile": {
                     "title": "Editar Perfil",
+                    "description": "Atualize suas informações de perfil aqui.",
                     "crop_title": "Cortar Imagem",
+                    "crop_description": "Arraste para reposicionar e use o controle deslizante para ampliar.",
                     "nickname": "Apelido",
                     "avatar": "Avatar",
                     "upload_avatar": "Carregar Avatar",
@@ -402,7 +412,9 @@ const resources = {
                 "error_occurred": "Une erreur s'est produite.",
                 "profile": {
                     "title": "Modifier le profil",
+                    "description": "Mettez à jour les informations de votre profil ici.",
                     "crop_title": "Recadrer l'image",
+                    "crop_description": "Faites glisser pour repositionner et utilisez le curseur pour zoomer.",
                     "nickname": "Surnom",
                     "avatar": "Avatar",
                     "upload_avatar": "Télécharger l'avatar",
@@ -471,7 +483,9 @@ const resources = {
                 "error_occurred": "Ein Fehler ist aufgetreten.",
                 "profile": {
                     "title": "Profil bearbeiten",
+                    "description": "Aktualisieren Sie hier Ihre Profilinformationen.",
                     "crop_title": "Bild zuschneiden",
+                    "crop_description": "Ziehen Sie zum Neupositionieren und verwenden Sie den Schieberegler zum Zoomen.",
                     "nickname": "Spitzname",
                     "avatar": "Avatar",
                     "upload_avatar": "Avatar hochladen",
@@ -540,7 +554,9 @@ const resources = {
                 "error_occurred": "Si è verificato un errore.",
                 "profile": {
                     "title": "Modifica profilo",
+                    "description": "Aggiorna qui le informazioni del tuo profilo.",
                     "crop_title": "Ritaglia immagine",
+                    "crop_description": "Trascina per riposizionare e usa il cursore per ingrandire.",
                     "nickname": "Soprannome",
                     "avatar": "Avatar",
                     "upload_avatar": "Carica avatar",

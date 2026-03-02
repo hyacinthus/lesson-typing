@@ -11,6 +11,7 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
+  DialogDescription,
   DialogFooter,
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
@@ -183,6 +184,9 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
       <DialogContent className="sm:max-w-[425px] overflow-hidden">
         <DialogHeader>
           <DialogTitle>{isCropping ? t('auth.profile.crop_title', 'Crop Image') : t('auth.profile.title')}</DialogTitle>
+          <DialogDescription>
+            {isCropping ? t('auth.profile.crop_description', 'Drag to reposition and use the slider to zoom.') : t('auth.profile.description', 'Update your profile information here.')}
+          </DialogDescription>
         </DialogHeader>
 
         {isCropping ? (
