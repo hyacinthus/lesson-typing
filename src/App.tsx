@@ -1,29 +1,20 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Toaster } from '@/components/ui/sonner';
 import { HomePage } from './pages/HomePage';
 import { useAuthStore } from './stores/authStore';
 
 function App() {
-  const initializeAuth = useAuthStore((state) => state.initialize);
-  const cleanupAuth = useAuthStore((state) => state.cleanup);
+  const { initialize } = useAuthStore();
 
   useEffect(() => {
-    void initializeAuth().catch((error) => {
-      console.error('Failed to initialize auth:', error);
-    });
-
-    return () => {
-      cleanupAuth();
-    };
-  }, [cleanupAuth, initializeAuth]);
+    initialize();
+  }, [initialize]);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <HomePage />
+      <Toaster />
+    </>
   );
 }
 

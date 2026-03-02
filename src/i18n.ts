@@ -32,6 +32,7 @@ const resources = {
             "auth": {
                 "login": "Login",
                 "logout": "Logout",
+                "edit_profile": "Edit Profile",
                 "welcome": "Welcome",
                 "continue_with_google": "Continue with Google",
                 "login_with_email": "Login with Email",
@@ -53,7 +54,21 @@ const resources = {
                 "passwords_mismatch": "Passwords do not match.",
                 "email_already_exists": "An account with this email already exists. Please sign in instead.",
                 "check_email": "Check your email for the confirmation link.",
-                "error_occurred": "An error occurred."
+                "error_occurred": "An error occurred.",
+                "profile": {
+                    "title": "Edit Profile",
+                    "crop_title": "Crop Image",
+                    "nickname": "Nickname",
+                    "avatar": "Avatar",
+                    "upload_avatar": "Upload Avatar",
+                    "save": "Save",
+                    "cancel": "Cancel",
+                    "confirm": "Confirm",
+                    "uploading": "Uploading...",
+                    "success": "Profile updated successfully",
+                    "error": "Failed to update profile",
+                    "nickname_placeholder": "Enter your nickname"
+                }
             }
         }
     },
@@ -86,6 +101,7 @@ const resources = {
             "auth": {
                 "login": "登录",
                 "logout": "退出登录",
+                "edit_profile": "编辑资料",
                 "welcome": "欢迎",
                 "continue_with_google": "使用 Google 继续",
                 "login_with_email": "使用邮箱登录",
@@ -107,7 +123,21 @@ const resources = {
                 "passwords_mismatch": "两次密码不一致。",
                 "email_already_exists": "该邮箱已注册，请直接登录。",
                 "check_email": "请查收邮件中的确认链接。",
-                "error_occurred": "发生错误。"
+                "error_occurred": "发生错误。",
+                "profile": {
+                    "title": "编辑个人资料",
+                    "crop_title": "裁剪图片",
+                    "nickname": "昵称",
+                    "avatar": "头像",
+                    "upload_avatar": "上传头像",
+                    "save": "保存",
+                    "cancel": "取消",
+                    "confirm": "确定",
+                    "uploading": "上传中...",
+                    "success": "资料更新成功",
+                    "error": "更新资料失败",
+                    "nickname_placeholder": "输入您的昵称"
+                }
             }
         }
     },
@@ -140,6 +170,7 @@ const resources = {
             "auth": {
                 "login": "Iniciar sesión",
                 "logout": "Cerrar sesión",
+                "edit_profile": "Editar perfil",
                 "welcome": "Bienvenido",
                 "continue_with_google": "Continuar con Google",
                 "login_with_email": "Iniciar sesión con email",
@@ -161,7 +192,21 @@ const resources = {
                 "passwords_mismatch": "Las contraseñas no coinciden.",
                 "email_already_exists": "Ya existe una cuenta con este email. Por favor, inicia sesión.",
                 "check_email": "Revisa tu correo para el enlace de confirmación.",
-                "error_occurred": "Se produjo un error."
+                "error_occurred": "Se produjo un error.",
+                "profile": {
+                    "title": "Editar perfil",
+                    "crop_title": "Recortar imagen",
+                    "nickname": "Apodo",
+                    "avatar": "Avatar",
+                    "upload_avatar": "Subir avatar",
+                    "save": "Guardar",
+                    "cancel": "Cancelar",
+                    "confirm": "Confirmar",
+                    "uploading": "Subiendo...",
+                    "success": "Perfil actualizado con éxito",
+                    "error": "Error al actualizar perfil",
+                    "nickname_placeholder": "Ingresa tu apodo"
+                }
             }
         }
     },
@@ -194,6 +239,7 @@ const resources = {
             "auth": {
                 "login": "ログイン",
                 "logout": "ログアウト",
+                "edit_profile": "プロフィール編集",
                 "welcome": "ようこそ",
                 "continue_with_google": "Google でログイン",
                 "login_with_email": "メールでログイン",
@@ -215,7 +261,21 @@ const resources = {
                 "passwords_mismatch": "パスワードが一致しません。",
                 "email_already_exists": "このメールアドレスは既に登録されています。ログインしてください。",
                 "check_email": "確認リンクをメールで送信しました。ご確認ください。",
-                "error_occurred": "エラーが発生しました。"
+                "error_occurred": "エラーが発生しました。",
+                "profile": {
+                    "title": "プロフィール編集",
+                    "crop_title": "画像の切り抜き",
+                    "nickname": "ニックネーム",
+                    "avatar": "アバター",
+                    "upload_avatar": "アバターをアップロード",
+                    "save": "保存",
+                    "cancel": "キャンセル",
+                    "confirm": "確認",
+                    "uploading": "アップロード中...",
+                    "success": "プロフィールを更新しました",
+                    "error": "プロフィールの更新に失敗しました",
+                    "nickname_placeholder": "ニックネームを入力"
+                }
             }
         }
     },
@@ -248,6 +308,7 @@ const resources = {
             "auth": {
                 "login": "Entrar",
                 "logout": "Sair",
+                "edit_profile": "Editar Perfil",
                 "welcome": "Bem-vindo",
                 "continue_with_google": "Continuar com o Google",
                 "login_with_email": "Entrar com email",
@@ -269,7 +330,21 @@ const resources = {
                 "passwords_mismatch": "As senhas não coincidem.",
                 "email_already_exists": "Já existe uma conta com este email. Por favor, faça login.",
                 "check_email": "Verifique seu email para o link de confirmação.",
-                "error_occurred": "Ocorreu um erro."
+                "error_occurred": "Ocorreu um erro.",
+                "profile": {
+                    "title": "Editar Perfil",
+                    "crop_title": "Cortar Imagem",
+                    "nickname": "Apelido",
+                    "avatar": "Avatar",
+                    "upload_avatar": "Carregar Avatar",
+                    "save": "Salvar",
+                    "cancel": "Cancelar",
+                    "confirm": "Confirmar",
+                    "uploading": "Carregando...",
+                    "success": "Perfil atualizado com sucesso",
+                    "error": "Falha ao atualizar perfil",
+                    "nickname_placeholder": "Digite seu apelido"
+                }
             }
         }
     },
@@ -302,6 +377,7 @@ const resources = {
             "auth": {
                 "login": "Connexion",
                 "logout": "Déconnexion",
+                "edit_profile": "Modifier le profil",
                 "welcome": "Bienvenue",
                 "continue_with_google": "Continuer avec Google",
                 "login_with_email": "Se connecter avec l'email",
@@ -323,7 +399,21 @@ const resources = {
                 "passwords_mismatch": "Les mots de passe ne correspondent pas.",
                 "email_already_exists": "Un compte avec cet email existe déjà. Veuillez vous connecter.",
                 "check_email": "Vérifiez votre email pour le lien de confirmation.",
-                "error_occurred": "Une erreur s'est produite."
+                "error_occurred": "Une erreur s'est produite.",
+                "profile": {
+                    "title": "Modifier le profil",
+                    "crop_title": "Recadrer l'image",
+                    "nickname": "Surnom",
+                    "avatar": "Avatar",
+                    "upload_avatar": "Télécharger l'avatar",
+                    "save": "Enregistrer",
+                    "cancel": "Annuler",
+                    "confirm": "Confirmer",
+                    "uploading": "Téléchargement...",
+                    "success": "Profil mis à jour avec succès",
+                    "error": "Échec de la mise à jour du profil",
+                    "nickname_placeholder": "Entrez votre surnom"
+                }
             }
         }
     },
@@ -356,6 +446,7 @@ const resources = {
             "auth": {
                 "login": "Anmelden",
                 "logout": "Abmelden",
+                "edit_profile": "Profil bearbeiten",
                 "welcome": "Willkommen",
                 "continue_with_google": "Mit Google fortfahren",
                 "login_with_email": "Mit E-Mail anmelden",
@@ -377,7 +468,21 @@ const resources = {
                 "passwords_mismatch": "Die Passwörter stimmen nicht überein.",
                 "email_already_exists": "Ein Konto mit dieser E-Mail existiert bereits. Bitte melden Sie sich an.",
                 "check_email": "Bitte überprüfe deine E-Mail für den Bestätigungslink.",
-                "error_occurred": "Ein Fehler ist aufgetreten."
+                "error_occurred": "Ein Fehler ist aufgetreten.",
+                "profile": {
+                    "title": "Profil bearbeiten",
+                    "crop_title": "Bild zuschneiden",
+                    "nickname": "Spitzname",
+                    "avatar": "Avatar",
+                    "upload_avatar": "Avatar hochladen",
+                    "save": "Speichern",
+                    "cancel": "Abbrechen",
+                    "confirm": "Bestätigen",
+                    "uploading": "Wird hochgeladen...",
+                    "success": "Profil erfolgreich aktualisiert",
+                    "error": "Fehler beim Aktualisieren des Profils",
+                    "nickname_placeholder": "Gib deinen Spitznamen ein"
+                }
             }
         }
     },
@@ -410,6 +515,7 @@ const resources = {
             "auth": {
                 "login": "Accedi",
                 "logout": "Esci",
+                "edit_profile": "Modifica profilo",
                 "welcome": "Benvenuto",
                 "continue_with_google": "Continua con Google",
                 "login_with_email": "Accedi con email",
@@ -431,7 +537,21 @@ const resources = {
                 "passwords_mismatch": "Le password non corrispondono.",
                 "email_already_exists": "Un account con questa email esiste già. Effettua l'accesso.",
                 "check_email": "Controlla la tua email per il link di conferma.",
-                "error_occurred": "Si è verificato un errore."
+                "error_occurred": "Si è verificato un errore.",
+                "profile": {
+                    "title": "Modifica profilo",
+                    "crop_title": "Ritaglia immagine",
+                    "nickname": "Soprannome",
+                    "avatar": "Avatar",
+                    "upload_avatar": "Carica avatar",
+                    "save": "Salva",
+                    "cancel": "Annulla",
+                    "confirm": "Conferma",
+                    "uploading": "Caricamento...",
+                    "success": "Profilo aggiornato con successo",
+                    "error": "Impossibile aggiornare il profilo",
+                    "nickname_placeholder": "Inserisci il tuo soprannome"
+                }
             }
         }
     }

@@ -1,9 +1,10 @@
 import { useState, type SVGProps } from 'react';
 import { useTranslation } from 'react-i18next';
-import { LogOut, User } from 'lucide-react';
+import { LogOut, User, UserCog } from 'lucide-react';
 import { useAuthStore } from '../../stores/authStore';
 import { SignInForm } from './SignInForm';
 import { SignUpForm } from './SignUpForm';
+import { EditProfileDialog } from './EditProfileDialog';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -67,6 +68,7 @@ export function UserMenu() {
   const { t } = useTranslation();
   const { user, isLoading, signInWithGoogle, signOut } = useAuthStore();
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [isEditProfileOpen, setIsEditProfileOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState<AuthModalView>('options');
 
   const closeAuthModal = () => {
@@ -164,37 +166,47 @@ export function UserMenu() {
   const displayName = user.user_metadata.full_name || user.email;
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button
-          variant="outline"
-          className="h-10 rounded-full border-gray-100 bg-white p-1 pr-3 text-sm font-medium text-gray-600 shadow-sm hover:bg-white hover:shadow-md"
-        >
-          <Avatar className="size-7">
-            <AvatarImage src={avatarUrl} alt="avatar" className="object-cover" />
-            <AvatarFallback className="bg-[#90caf9] text-white">
-              <User size={16} />
-            </AvatarFallback>
-          </Avatar>
-          <span className="max-w-[100px] truncate">{displayName}</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="w-52 rounded-xl border-gray-100 bg-white py-2">
-        <DropdownMenuLabel className="truncate text-xs text-gray-400">{user.email}</DropdownMenuLabel>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem
-          variant="destructive"
-          onSelect={() => {
-            void signOut().catch((error) => {
-              console.error('Sign-out failed:', error);
-            });
-          }}
-          className="gap-3"
-        >
-          <LogOut size={18} />
-          <span>{t('auth.logout')}</span>
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <>
+      <EditProfileDialog open={isEditProfileOpen} onOpenChange={setIsEditProfileOpen} />
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button
+            variant="outline"
+            className="h-10 rounded-full border-gray-100 bg-white p-1 pr-3 text-sm font-medium text-gray-600 shadow-sm hover:bg-white hover:shadow-md"
+          >
+            <Avatar className="size-7">
+              <AvatarImage src={avatarUrl} alt="avatar" className="object-cover" />
+              <AvatarFallback className="bg-[#90caf9] text-white">
+                <User size={16} />
+              </AvatarFallback>
+            </Avatar>
+            <span className="max-w-[100px] truncate">{displayName}</span>
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end" className="w-52 rounded-xl border-gray-100 bg-white py-2">
+          <DropdownMenuLabel className="truncate text-xs text-gray-400">{user.email}</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem
+            className="gap-3"
+            onSelect={() => setIsEditProfileOpen(true)}
+          >
+            <UserCog size={18} />
+            <span>{t('auth.edit_profile')}</span>
+          </DropdownMenuItem>
+          <DropdownMenuItem
+            variant="destructive"
+            onSelect={() => {
+              void signOut().catch((error) => {
+                console.error('Sign-out failed:', error);
+              });
+            }}
+            className="gap-3"
+          >
+            <LogOut size={18} />
+            <span>{t('auth.logout')}</span>
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </>
   );
 }
