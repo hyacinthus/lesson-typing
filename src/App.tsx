@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 import { Toaster } from '@/components/ui/sonner';
+import { LoginOverlay } from '@/components/ui/login-overlay';
 import { HomePage } from './pages/HomePage';
 import { useAuthStore } from './stores/authStore';
 
 function App() {
-  const { initialize } = useAuthStore();
+  const { initialize, isLoggingIn } = useAuthStore();
 
   useEffect(() => {
     initialize();
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <HomePage />
+      <LoginOverlay isVisible={isLoggingIn} />
       <Toaster />
     </>
   );
