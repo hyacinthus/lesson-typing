@@ -6,10 +6,19 @@ import { useAuthStore } from './authStore';
 
 const STORAGE_KEY = 'typing-practices';
 
+const getActiveSession = async () => {
+  const { session } = useAuthStore.getState();
+  if (session) return session;
+
+  const { data } = await supabase.auth.getSession();
+  return data.session ?? null;
+};
+
 interface HistoryStore {
   practices: PracticeRecord[];
 
   // Actions
+  startPracticeSession: (lessonId: string) => Promise<string | null>;
   addPractice: (record: PracticeRecord, language?: string, collectionId?: string) => Promise<void>;
   getPractices: () => PracticeRecord[];
   getLessonStats: (lessonId: string) => LessonStats;
@@ -18,10 +27,50 @@ interface HistoryStore {
   clearAll: () => void;
 }
 
+const activeSessionInit = new Map<string, Promise<string | null>>();
+
 export const useHistoryStore = create<HistoryStore>()(
   persist(
     (set, get) => ({
       practices: [],
+
+
+      startPracticeSession: async (lessonId: string) => {
+        const { user } = useAuthStore.getState();
+        if (!user) return null;
+
+        if (activeSessionInit.has(lessonId)) {
+          return activeSessionInit.get(lessonId)!;
+        }
+
+        const initPromise = (async () => {
+          try {
+            const session = await getActiveSession();
+            if (!session) return null;
+
+            const { data, error } = await supabase.functions.invoke('start-practice', {
+              body: { lessonId },
+              timeout: 15000,
+            });
+
+            if (error) {
+              console.error('Failed to start practice session:', error);
+              return null;
+            }
+
+            return data.sessionId;
+          } catch (err) {
+            console.error('Error in startPracticeSession:', err);
+            return null;
+          } finally {
+            activeSessionInit.delete(lessonId);
+          }
+        })();
+
+        activeSessionInit.set(lessonId, initPromise);
+
+        return initPromise;
+      },
 
       addPractice: async (record: PracticeRecord, language = 'unknown', collectionId = 'unknown') => {
         // 1. Update local state immediately (optimistic update)
@@ -39,61 +88,35 @@ export const useHistoryStore = create<HistoryStore>()(
         if (!user) return;
 
         try {
-          // A. Insert into logs table
-          const { error: logError } = await supabase
-            .from('lt_practice_logs')
-            .insert({
-              user_id: user.id,
-              lesson_id: record.lessonId,
-              language,
-              collection_id: collectionId,
-              cpm: record.cpm,
-              wpm: record.wpm,
-              accuracy: record.accuracy,
-              duration: record.duration,
-              total_chars: record.totalCharacters,
-              correct_chars: record.correctChars,
-              error_chars: record.incorrectChars,
-              created_at: record.completedAt
+          // If we have a sessionId, this is a verified run. Submit via Edge Function.
+          if (record.sessionId) {
+            const session = await getActiveSession();
+            if (!session) return;
+
+            const { error: invokeError } = await supabase.functions.invoke('submit-practice', {
+              body: {
+                sessionId: record.sessionId,
+                lessonId: record.lessonId,
+                language,
+                collectionId,
+                cpm: record.cpm,
+                wpm: record.wpm,
+                accuracy: record.accuracy,
+                duration: record.duration,
+                totalChars: record.totalCharacters,
+                correctChars: record.correctChars,
+                errorChars: record.incorrectChars,
+                effectiveKeystrokes: record.effectiveKeystrokes || record.totalCharacters,
+                trace: record.trace || []
+              },
+              timeout: 15000,
             });
 
-          if (logError) {
-            console.error('Failed to save practice log:', logError);
-            return;
-          }
-
-          // B. Check and update stats table if accuracy is 100%
-          if (record.accuracy === 100) {
-            // Check existing best score
-            const { data: existingStats, error: statsError } = await supabase
-              .from('lt_user_lesson_stats')
-              .select('best_cpm')
-              .eq('user_id', user.id)
-              .eq('lesson_id', record.lessonId)
-              .maybeSingle();
-
-            if (statsError) {
-              console.error('Failed to fetch lesson stats:', statsError);
-              return;
+            if (invokeError) {
+              console.error('Failed to submit practice to edge function:', invokeError);
             }
-
-            // If no record or new score is better (higher CPM)
-            if (!existingStats || record.cpm > existingStats.best_cpm) {
-              const { error: upsertError } = await supabase
-                .from('lt_user_lesson_stats')
-                .upsert({
-                  user_id: user.id,
-                  lesson_id: record.lessonId,
-                  best_cpm: record.cpm,
-                  best_wpm: record.wpm,
-                  duration: record.duration,
-                  achieved_at: record.completedAt
-                });
-
-              if (upsertError) {
-                console.error('Failed to update lesson stats:', upsertError);
-              }
-            }
+          } else {
+            console.warn('No session ID found for practice record, skipping backend submission.');
           }
         } catch (err) {
           console.error('Error in addPractice:', err);

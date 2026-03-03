@@ -32,6 +32,7 @@ export interface TypingSession {
   isPaused: boolean; // 是否暂停
   isCompleted: boolean; // 是否完成
   compositionText: string; // 输入法组合文本
+  trace: number[]; // 按键时间戳轨迹
 }
 
 /**
@@ -45,5 +46,7 @@ export interface RealtimeStats {
   totalCharacters: number; // 总字符数
   correctChars: number; // 正确字符数
   incorrectChars: number; // 错误字符数
+  effectiveKeystrokes: number; // 有效击键数（中文用拼音长度，其他语言 = 字符数）
   progress: number; // 完成进度（0-100）
+  trace?: number[]; // 按键时间戳轨迹（相对于开始时间的毫秒数）
 }

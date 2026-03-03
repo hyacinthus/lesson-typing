@@ -12,7 +12,10 @@ export interface PracticeRecord {
   totalCharacters: number;
   correctChars: number;
   incorrectChars: number;
+  effectiveKeystrokes?: number; // Effective keystrokes (pinyin length for Chinese, char count for others)
   completedAt: string;
+  sessionId?: string;
+  trace?: number[]; // Array of relative keystroke timestamps in ms
 }
 
 /**

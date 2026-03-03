@@ -6,12 +6,14 @@ import { calculateStats } from '../utils/statsCalculator';
 export interface UseTypingEngineProps {
   initialContent: Character[];
   lessonId: string;
+  onStart?: () => void;
   onComplete?: (stats: RealtimeStats) => void;
 }
 
 export function useTypingEngine({
   initialContent,
   lessonId,
+  onStart,
   onComplete,
 }: UseTypingEngineProps) {
   const [session, setSession] = useState<TypingSession>(() => ({
@@ -23,6 +25,7 @@ export function useTypingEngine({
     isPaused: false,
     isCompleted: false,
     compositionText: '',
+    trace: [] as number[],
   }));
 
   const [stats, setStats] = useState<RealtimeStats>({
@@ -33,7 +36,9 @@ export function useTypingEngine({
     totalCharacters: 0,
     correctChars: 0,
     incorrectChars: 0,
+    effectiveKeystrokes: 0,
     progress: 0,
+    trace: [],
   });
 
   // 当 initialContent 改变时重置会话
@@ -47,7 +52,7 @@ export function useTypingEngine({
   const startTimer = useCallback(() => {
     if (session.startTime === null) {
       const now = Date.now();
-      setSession(prev => ({ ...prev, startTime: now }));
+      setSession(prev => ({ ...prev, startTime: now, trace: [] }));
       startTimeRef.current = now;
 
       // 启动计时器
@@ -74,6 +79,9 @@ export function useTypingEngine({
       // 第一次输入时开始计时
       if (prev.startTime === null) {
         startTimer();
+        if (onStart) {
+          setTimeout(onStart, 0);
+        }
       }
 
       const newContent = [...prev.content];
@@ -107,15 +115,22 @@ export function useTypingEngine({
         };
       }
 
+      // Record keystroke time
+      const trace = [...prev.trace];
+      if (startTimeRef.current) {
+        trace.push(Date.now() - startTimeRef.current);
+      }
+
       const newSession = {
         ...prev,
         content: newContent,
         currentIndex: nextIndex,
         isCompleted,
+        trace,
       };
 
       // 计算实时统计
-      const newStats = calculateStats(newSession);
+      const newStats = { ...calculateStats(newSession), trace };
       setStats(newStats);
 
       // 如果完成，停止计时并触发回调
@@ -132,7 +147,7 @@ export function useTypingEngine({
 
       return newSession;
     });
-  }, [startTimer, stopTimer, onComplete]);
+  }, [startTimer, stopTimer, onComplete, onStart]);
 
   // 处理删除
   const handleDelete = useCallback(() => {
@@ -167,7 +182,7 @@ export function useTypingEngine({
       };
 
       // 重新计算统计
-      const newStats = calculateStats(newSession);
+      const newStats = { ...calculateStats(newSession), trace: newSession.trace };
       setStats(newStats);
 
       return newSession;
@@ -191,6 +206,7 @@ export function useTypingEngine({
       isPaused: false,
       isCompleted: false,
       compositionText: '',
+      trace: [],
     });
     setStats({
       duration: 0,
@@ -200,7 +216,9 @@ export function useTypingEngine({
       totalCharacters: 0,
       correctChars: 0,
       incorrectChars: 0,
+      effectiveKeystrokes: 0,
       progress: 0,
+      trace: [],
     });
   }, [initialContent, lessonId, stopTimer]);
 

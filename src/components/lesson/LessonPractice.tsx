@@ -15,9 +15,11 @@ interface LessonPracticeProps {
 
 export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) {
     const { t } = useTranslation();
+    const startPracticeSession = useHistoryStore((state) => state.startPracticeSession);
     const addPractice = useHistoryStore((state) => state.addPractice);
     const getBestPracticeLog = useHistoryStore((state) => state.getBestPracticeLog);
     const [bestRecord, setBestRecord] = useState<PracticeRecord | null>(null);
+    const sessionIdRef = useRef<string | undefined>(undefined);
 
     // Initialize characters for the active lesson
     const initialCharacters = useMemo(() => {
@@ -43,7 +45,10 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
             totalCharacters: stats.totalCharacters,
             correctChars: stats.correctChars,
             incorrectChars: stats.incorrectChars,
+            effectiveKeystrokes: stats.effectiveKeystrokes,
             completedAt: new Date().toISOString(),
+            sessionId: sessionIdRef.current,
+            trace: stats.trace,
         };
         addPractice(record, lesson.language, lesson.collectionId);
 
@@ -52,6 +57,16 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
             processingRef.current = false;
         }, 1000);
     }, [lesson, addPractice]);
+
+    const handleStart = useCallback(() => {
+        // Initialize practice session upon first keystroke
+        sessionIdRef.current = undefined;
+        startPracticeSession(lesson.id).then((id) => {
+            if (id) {
+                sessionIdRef.current = id;
+            }
+        });
+    }, [lesson.id, startPracticeSession]);
 
     const {
         session,
@@ -63,6 +78,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     } = useTypingEngine({
         initialContent: initialCharacters,
         lessonId: lesson.id,
+        onStart: handleStart,
         onComplete: handleComplete,
     });
 

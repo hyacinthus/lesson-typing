@@ -1,12 +1,59 @@
 import type { TypingSession, RealtimeStats } from '../types/typing.types';
 import { CharacterStatus } from '../types/typing.types';
 import { pinyin } from 'pinyin-pro';
+import { isKana, getKanaRomajiLength, DEFAULT_KANJI_ROMAJI_LENGTH } from './japaneseRomaji';
 
 /**
- * 判断是否为中文字符
+ * Check if a character is a CJK Unified Ideograph (Chinese/Japanese kanji).
  */
 export function isChineseCharacter(char: string): boolean {
   return /[\u4e00-\u9fa5]/.test(char);
+}
+
+/**
+ * Detect content language type from the character set present.
+ * Japanese content always contains hiragana/katakana.
+ * Chinese content has CJK ideographs but no kana.
+ */
+type ContentLanguageType = 'japanese' | 'chinese' | 'other';
+
+function detectContentLanguage(content: { char: string }[]): ContentLanguageType {
+  const hasKana = content.some(c => isKana(c.char));
+  if (hasKana) return 'japanese';
+
+  const hasCJK = content.some(c => isChineseCharacter(c.char));
+  if (hasCJK) return 'chinese';
+
+  return 'other';
+}
+
+/**
+ * Calculate the effective keystroke count for a single character
+ * based on the detected content language.
+ */
+function getEffectiveKeystrokesForChar(char: string, lang: ContentLanguageType): number {
+  if (lang === 'japanese') {
+    // Kana → romaji length
+    const romajiLen = getKanaRomajiLength(char);
+    if (romajiLen != null) return romajiLen;
+
+    // Kanji in Japanese context → use average romaji length
+    if (isChineseCharacter(char)) return DEFAULT_KANJI_ROMAJI_LENGTH;
+
+    // Other characters (punctuation, latin, etc.)
+    return 1;
+  }
+
+  if (lang === 'chinese') {
+    if (isChineseCharacter(char)) {
+      const py = pinyin(char, { toneType: 'none', type: 'array' });
+      return py.length > 0 ? py.join('').length : 0;
+    }
+    return 1;
+  }
+
+  // Other languages: 1 keystroke per character
+  return 1;
 }
 
 /**
@@ -30,19 +77,13 @@ export function calculateStats(session: TypingSession): RealtimeStats {
   // 计算时长（分钟）
   const durationMinutes = elapsedTime / 60000;
 
-  // 计算有效按键数（Pinyin 长度）
-  // 对于中文，计算拼音长度作为按键数 (KPM/CPM)
+  // Detect content language for keystroke estimation
+  const contentLang = detectContentLanguage(content);
+
+  // 计算有效按键数
   const effectiveKeystrokes = typedChars.reduce((acc, charObj) => {
-    // 使用用户实际输入的字符，如果为空则使用目标字符
     const char = charObj.input || charObj.char;
-    if (isChineseCharacter(char)) {
-      // 获取拼音（不带声调）
-      const py = pinyin(char, { toneType: 'none', type: 'array' });
-      // 计算拼音字符长度
-      return acc + (py.length > 0 ? py.join('').length : 0);
-    }
-    // 非中文字符按 1 个字符计算
-    return acc + 1;
+    return acc + getEffectiveKeystrokesForChar(char, contentLang);
   }, 0);
 
   // 字符速率（字符/分钟）- 使用有效按键数计算 (CPM)
@@ -50,20 +91,28 @@ export function calculateStats(session: TypingSession): RealtimeStats {
     ? Math.round(effectiveKeystrokes / durationMinutes)
     : 0;
 
-  // 中文速率（字/分钟） 或 WPM
-  const isChineseContent = content.some(c => isChineseCharacter(c.char));
+  // WPM calculation varies by language
   let wpm = 0;
 
-  if (isChineseContent) {
-    // 对于中文，WPM 通常指每分钟汉字数
+  if (contentLang === 'chinese') {
+    // For Chinese: WPM = Chinese characters per minute
     const chineseChars = typedChars.filter(char =>
       isChineseCharacter(char.char) && char.status === CharacterStatus.CORRECT
     ).length;
     wpm = durationMinutes > 0
       ? Math.round(chineseChars / durationMinutes)
       : 0;
+  } else if (contentLang === 'japanese') {
+    // For Japanese: WPM = kana/kanji characters per minute
+    const japaneseChars = typedChars.filter(char =>
+      (isKana(char.char) || isChineseCharacter(char.char)) &&
+      char.status === CharacterStatus.CORRECT
+    ).length;
+    wpm = durationMinutes > 0
+      ? Math.round(japaneseChars / durationMinutes)
+      : 0;
   } else {
-    // 非中文内容，使用标准 WPM 计算 (每 5 个字符算 1 个词)
+    // For other languages: standard WPM (5 chars = 1 word)
     wpm = durationMinutes > 0
       ? Math.round((correctChars / 5) / durationMinutes)
       : 0;
@@ -87,6 +136,7 @@ export function calculateStats(session: TypingSession): RealtimeStats {
     totalCharacters,
     correctChars,
     incorrectChars,
+    effectiveKeystrokes,
     progress,
   };
 }
