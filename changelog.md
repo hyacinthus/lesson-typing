@@ -1,23 +1,15 @@
-# Changelog
+## v0.3.0 (2026-03-03)
 
-## v0.1.1 - 2026-01-28
-### Changed
-- Polish translations for Portuguese, French, German, and Italian UI labels
+### New Features
+- **Anti-Cheat System**: Track keystroke traces and validate session legitimacy.
+- **Supabase Edge Functions**: Implement secure session initialization (`start-practice`), validation (`submit-practice`), and auth testing (`test-auth`).
+- **Database Schema**: Add `unusual_practice` table and anti-cheat tracking columns to `practice_sessions` via SQL migrations.
 
-Diff: https://github.com/hyacinthus/lesson-typing/compare/v0.1.0...v0.1.1
+### Bug Fixes & Improvements
+- Fixed multiple session management bugs preventing proper start and submission of practice sessions.
+- Fixed a bug causing the cursor to not return to the typing area.
+- Fixed an authentication issue causing 401 Unauthorized errors during Edge Function API calls.
+- `.npmrc` file is now properly ignored via `.gitignore` to avoid exposing local configuration.
+- Add `japaneseRomaji` utility for Romaji processing.
 
-## v0.1.0 - 2026-01-26
-### Changed
-- Add history-aware practice navigation on the home page
-- Use explicit typing types import extension
-
-Diff: https://github.com/hyacinthus/lesson-typing/compare/v0.0.1...v0.1.0
-
-## v0.0.1 - 2026-01-24
-### Added
-- Initial React + Vite typing application with lesson browsing and practice flow
-- Multi-language lesson sets for English, Chinese, Japanese, Spanish, Portuguese, French, and German
-- Typing stats, auto-scrolling, and status i18n
-- CI workflow, license, and contributor guidance
-
-Diff: https://github.com/hyacinthus/lesson-typing/compare/v0.0.0...v0.0.1
+**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.2.0...v0.3.0
