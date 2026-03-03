@@ -84,6 +84,7 @@ export const useHistoryStore = create<HistoryStore>()(
                   lesson_id: record.lessonId,
                   best_cpm: record.cpm,
                   best_wpm: record.wpm,
+                  duration: record.duration,
                   achieved_at: record.completedAt
                 });
 
@@ -111,6 +112,7 @@ export const useHistoryStore = create<HistoryStore>()(
           return {
             bestCpm: 0,
             bestWpm: 0,
+            duration: 0,
             achievedAt: null,
           };
         }
@@ -123,14 +125,15 @@ export const useHistoryStore = create<HistoryStore>()(
         // However, if the user has never achieved 100%, showing 0 might be discouraging locally.
         // Let's calculate best CPM among 100% accuracy runs first.
         const perfectRuns = practices.filter(p => p.accuracy === 100);
-        
+
         if (perfectRuns.length > 0) {
-          const bestRun = perfectRuns.reduce((prev, current) => 
+          const bestRun = perfectRuns.reduce((prev, current) =>
             (prev.cpm > current.cpm) ? prev : current
           );
           return {
             bestCpm: bestRun.cpm,
             bestWpm: bestRun.wpm,
+            duration: bestRun.duration,
             achievedAt: bestRun.completedAt
           };
         }
@@ -142,6 +145,7 @@ export const useHistoryStore = create<HistoryStore>()(
         return {
           bestCpm: 0,
           bestWpm: 0,
+          duration: 0,
           achievedAt: null
         };
       },

@@ -21,5 +21,6 @@ export interface PracticeRecord {
 export interface LessonStats {
   bestCpm: number;
   bestWpm: number;
+  duration: number;
   achievedAt: string | null;
 }

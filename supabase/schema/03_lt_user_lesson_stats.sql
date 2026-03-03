@@ -6,6 +6,7 @@ create table if not exists public.lt_user_lesson_stats (
   -- Best performance (only 100% accuracy runs qualify)
   best_cpm integer default 0,                  -- Characters Per Minute
   best_wpm integer default 0,                  -- Words Per Minute (Auxiliary)
+  duration integer default 0,                  -- Duration in seconds
   
   achieved_at timestamptz default now(),       -- When this best score was achieved
   
