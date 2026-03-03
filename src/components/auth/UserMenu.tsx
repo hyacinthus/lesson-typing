@@ -99,7 +99,7 @@ export function UserMenu() {
             <span>{t('auth.login')}</span>
           </Button>
         </DialogTrigger>
-        <DialogContent className="max-w-md rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-md">
+        <DialogContent aria-describedby={undefined} className="max-w-md rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-md">
           <DialogHeader className="mb-1">
             <DialogTitle className="text-gray-800">{t('auth.welcome')}</DialogTitle>
           </DialogHeader>

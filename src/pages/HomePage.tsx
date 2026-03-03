@@ -185,7 +185,7 @@ export function HomePage() {
         {/* Collection List */}
         <div className="flex justify-center w-full md:w-1/3">
           <Select
-            value={currentCollectionId ?? undefined}
+            value={currentCollectionId || ""}
             onValueChange={setSelectedCollection}
             disabled={collections.length === 0}
           >
