@@ -14,7 +14,7 @@ export async function loadLessonIndex(): Promise<LessonIndex> {
     return indexCache;
   }
 
-  const response = await fetch('/lessons/index.json');
+  const response = await fetch(`/lessons/index.json?v=${__APP_VERSION__}`);
   if (!response.ok) {
     throw new Error('Failed to load lesson index');
   }
@@ -32,7 +32,7 @@ export async function loadLessonCollection(path: string): Promise<LessonCollecti
     return lessonCache.get(path)!;
   }
 
-  const response = await fetch(`/lessons/${path}`);
+  const response = await fetch(`/lessons/${path}?v=${__APP_VERSION__}`);
   if (!response.ok) {
     throw new Error(`Failed to load lessons for path: ${path}`);
   }
