@@ -20,18 +20,22 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
     useEffect(() => {
         getRecentPracticeLogs(lessonId, 10).then((data) => {
             // Sort chronically (oldest first) for chart
-            const sortedData = [...data].sort((a, b) => new Date(a.completedAt).getTime() - new Date(b.completedAt).getTime());
+            let sortedData = [...data].sort((a, b) => new Date(a.completedAt).getTime() - new Date(b.completedAt).getTime());
 
             // Inject currentStats if it's not present
             if (currentStats) {
                 const now = Date.now();
-                const isIncluded = sortedData.some(log =>
-                    now - new Date(log.completedAt).getTime() < 60_000
+                // Check if currentStats is already in sortedData (matching stats and within 2 minutes)
+                const isAlreadyIncluded = sortedData.some(log =>
+                    Math.abs(log.cpm - currentStats.cpm) < 0.01 &&
+                    Math.abs(log.duration - currentStats.duration) < 1 &&
+                    Math.abs(log.accuracy - currentStats.accuracy) < 0.01 &&
+                    Math.abs(now - new Date(log.completedAt).getTime()) < 120_000
                 );
 
-                if (!isIncluded) {
+                if (!isAlreadyIncluded) {
                     sortedData.push({
-                        id: 'current',
+                        id: 'current-' + now,
                         lessonId,
                         lessonTitle: '',
                         duration: currentStats.duration,
@@ -44,6 +48,11 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
                         completedAt: new Date().toISOString()
                     });
                 }
+            }
+
+            // Keep only latest 10 for display to avoid overcrowding
+            if (sortedData.length > 10) {
+                sortedData = sortedData.slice(-10);
             }
 
             setLogs(sortedData);

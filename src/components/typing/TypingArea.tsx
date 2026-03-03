@@ -151,7 +151,12 @@ export function TypingArea({
         <div
           className="rounded-lg shadow-sm border border-gray-200 p-8 text-center bg-[#E9F4FF]"
         >
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('results')}</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            {t('results')}
+            {(!bestRecord || (stats.accuracy > bestRecord.accuracy || (stats.accuracy === bestRecord.accuracy && stats.cpm > bestRecord.cpm))) && (
+              <span className="text-primary ml-2 animate-pulse">({t('new_record')})</span>
+            )}
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <div>
               <div className="text-sm text-gray-600">{t('stats.wpm_title')}</div>
@@ -181,7 +186,7 @@ export function TypingArea({
 
           {bestRecord && (
             <div className="bg-white/50 rounded-lg p-4 mb-6 border border-gray-200">
-              <h3 className="text-sm font-bold text-gray-700 mb-3">{t('best_record', 'Best Record')}</h3>
+              <h3 className="text-sm font-bold text-gray-700 mb-3">{t('personal_best')}</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div>
                   <div className="text-xs text-gray-500">{t('stats.wpm_title')}</div>

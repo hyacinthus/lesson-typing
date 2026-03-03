@@ -18,7 +18,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     const startPracticeSession = useHistoryStore((state) => state.startPracticeSession);
     const addPractice = useHistoryStore((state) => state.addPractice);
     const getBestPracticeLog = useHistoryStore((state) => state.getBestPracticeLog);
-    const [bestRecord, setBestRecord] = useState<PracticeRecord | null>(null);
+    const [historyBest, setHistoryBest] = useState<PracticeRecord | null>(null);
     const sessionIdRef = useRef<string | undefined>(undefined);
 
     // Initialize characters for the active lesson
@@ -82,11 +82,12 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
         onComplete: handleComplete,
     });
 
+    // Fetch history best when lesson changes or practice resets
     useEffect(() => {
-        if (isCompleted) {
-            getBestPracticeLog(lesson.id).then(setBestRecord);
+        if (!isCompleted) {
+            getBestPracticeLog(lesson.id).then(setHistoryBest);
         }
-    }, [isCompleted, lesson.id, getBestPracticeLog]);
+    }, [lesson.id, isCompleted, getBestPracticeLog]);
 
     return (
         <div className="flex flex-col h-full">
@@ -114,7 +115,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                     onNextLesson={onNext}
                     isCompleted={isCompleted}
                     disabled={isCompleted}
-                    bestRecord={bestRecord}
+                    bestRecord={historyBest}
                     lessonId={lesson.id}
                 />
             </div>

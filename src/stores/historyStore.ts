@@ -136,7 +136,7 @@ export const useHistoryStore = create<HistoryStore>()(
             .eq('user_id', user.id)
             .eq('lesson_id', lessonId)
             .order('accuracy', { ascending: false })
-            .order('duration', { ascending: false })
+            .order('cpm', { ascending: false })
             .limit(1)
             .maybeSingle();
 
