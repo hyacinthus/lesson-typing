@@ -99,6 +99,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                     isCompleted={isCompleted}
                     disabled={isCompleted}
                     bestRecord={bestRecord}
+                    lessonId={lesson.id}
                 />
             </div>
         </div>

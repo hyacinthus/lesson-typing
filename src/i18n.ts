@@ -21,6 +21,7 @@ const resources = {
             "time": "Time",
             "back_home": "Back to Home",
             "restart": "Restart",
+            "recent_activity": "Recent Activity",
             "stats": {
                 "duration": "Duration",
                 "char_speed": "Character Speed",
@@ -93,6 +94,7 @@ const resources = {
             "time": "时间",
             "back_home": "返回首页",
             "restart": "重新开始",
+            "recent_activity": "近期练习",
             "stats": {
                 "duration": "用时",
                 "char_speed": "字符速度",
@@ -165,6 +167,7 @@ const resources = {
             "time": "Tiempo",
             "back_home": "Volver al inicio",
             "restart": "Reiniciar",
+            "recent_activity": "Actividad Reciente",
             "stats": {
                 "duration": "Duración",
                 "char_speed": "Vel. de caracteres",
@@ -237,6 +240,7 @@ const resources = {
             "time": "時間",
             "back_home": "ホームに戻る",
             "restart": "やり直す",
+            "recent_activity": "最近のアクティビティ",
             "stats": {
                 "duration": "所要時間",
                 "char_speed": "打鍵速度",
@@ -309,6 +313,7 @@ const resources = {
             "time": "Tempo",
             "back_home": "Voltar ao início",
             "restart": "Recomeçar",
+            "recent_activity": "Atividade Recente",
             "stats": {
                 "duration": "Duração",
                 "char_speed": "Vel. de caracteres",
@@ -381,6 +386,7 @@ const resources = {
             "time": "Temps",
             "back_home": "Retour à l'Accueil",
             "restart": "Recommencer",
+            "recent_activity": "Activité Récente",
             "stats": {
                 "duration": "Durée",
                 "char_speed": "Vit. des caractères",
@@ -453,6 +459,7 @@ const resources = {
             "time": "Zeit",
             "back_home": "Zur Startseite",
             "restart": "Neu starten",
+            "recent_activity": "Letzte Aktivität",
             "stats": {
                 "duration": "Dauer",
                 "char_speed": "Zeichentempo",
@@ -525,6 +532,7 @@ const resources = {
             "time": "Tempo",
             "back_home": "Torna alla home",
             "restart": "Ricomincia",
+            "recent_activity": "Attività Recente",
             "stats": {
                 "duration": "Durata",
                 "char_speed": "Velocità dei caratteri",

@@ -4,6 +4,7 @@ import type { Character, RealtimeStats, PracticeRecord } from '../../types';
 import { CharacterRenderer } from './CharacterRenderer';
 import { InputHandler } from './InputHandler';
 import { StatsPanel } from './StatsPanel';
+import { RecentActivityChart } from './RecentActivityChart';
 
 interface TypingAreaProps {
   characters: Character[];
@@ -16,6 +17,7 @@ interface TypingAreaProps {
   isCompleted: boolean;
   disabled?: boolean;
   bestRecord?: PracticeRecord | null;
+  lessonId: string;
 }
 
 export function TypingArea({
@@ -29,6 +31,7 @@ export function TypingArea({
   isCompleted,
   disabled = false,
   bestRecord = null,
+  lessonId,
 }: TypingAreaProps) {
   const { t } = useTranslation();
   const inputId = 'typing-input-area';
@@ -145,7 +148,9 @@ export function TypingArea({
 
       {/* 完成提示 */}
       {isCompleted && (
-        <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-8 text-center">
+        <div
+          className="rounded-lg shadow-sm border border-gray-200 p-8 text-center bg-[#E9F4FF]"
+        >
           <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('results')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <div>
@@ -222,6 +227,7 @@ export function TypingArea({
               </button>
             )}
           </div>
+          <RecentActivityChart lessonId={lessonId} currentStats={stats} />
         </div>
       )}
     </div>

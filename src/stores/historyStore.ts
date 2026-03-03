@@ -14,6 +14,7 @@ interface HistoryStore {
   getPractices: () => PracticeRecord[];
   getLessonStats: (lessonId: string) => LessonStats;
   getBestPracticeLog: (lessonId: string) => Promise<PracticeRecord | null>;
+  getRecentPracticeLogs: (lessonId: string, limit?: number) => Promise<PracticeRecord[]>;
   clearAll: () => void;
 }
 
@@ -143,6 +144,47 @@ export const useHistoryStore = create<HistoryStore>()(
         } catch (err) {
           console.error('Error fetching best practice log:', err);
           return null;
+        }
+      },
+
+      getRecentPracticeLogs: async (lessonId: string, limit = 10) => {
+        const { user } = useAuthStore.getState();
+        if (!user) return [];
+
+        try {
+          const { data, error } = await supabase
+            .from('lt_practice_logs')
+            .select('*')
+            .eq('user_id', user.id)
+            .eq('lesson_id', lessonId)
+            .order('created_at', { ascending: false })
+            .limit(limit);
+
+          if (error) {
+            console.error('Failed to fetch recent practice logs:', error);
+            return [];
+          }
+
+          if (data) {
+            return data.map(log => ({
+              id: log.id,
+              lessonId: log.lesson_id,
+              lessonTitle: '',
+              duration: log.duration,
+              cpm: log.cpm,
+              wpm: log.wpm,
+              accuracy: log.accuracy,
+              totalCharacters: log.total_chars || 0,
+              correctChars: log.correct_chars || 0,
+              incorrectChars: log.error_chars || 0,
+              completedAt: log.created_at || new Date().toISOString(),
+            }));
+          }
+
+          return [];
+        } catch (err) {
+          console.error('Error fetching recent practice logs:', err);
+          return [];
         }
       },
 
