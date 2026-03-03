@@ -50,7 +50,6 @@ export const useHistoryStore = create<HistoryStore>()(
 
             const { data, error } = await supabase.functions.invoke('start-practice', {
               body: { lessonId },
-              timeout: 15000,
             });
 
             if (error) {
@@ -109,7 +108,6 @@ export const useHistoryStore = create<HistoryStore>()(
                 effectiveKeystrokes: record.effectiveKeystrokes || record.totalCharacters,
                 trace: record.trace || []
               },
-              timeout: 15000,
             });
 
             if (invokeError) {

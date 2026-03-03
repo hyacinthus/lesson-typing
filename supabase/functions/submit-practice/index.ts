@@ -1,54 +1,54 @@
-import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
-import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
+import { createClient } from '@supabase/supabase-js'
+import { corsHeaders } from '@supabase/supabase-js/cors'
 
-const corsHeaders = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
-}
-
-serve(async (req: Request) => {
+Deno.serve(async (req: Request) => {
   if (req.method === 'OPTIONS') {
     return new Response('ok', { headers: corsHeaders })
   }
 
   try {
-    const authHeader = req.headers.get('Authorization') ?? ''
-    const token = authHeader.replace('Bearer ', '')
-    if (!token) {
-      return new Response(JSON.stringify({ error: 'Missing Authorization header' }), {
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-        status: 401,
-      })
-    }
-
-    const supabaseAuthClient = createClient(
+    // Create auth-context client (uses the caller's JWT via forwarded Authorization header)
+    const supabaseAuth = createClient(
       Deno.env.get('SUPABASE_URL') ?? '',
-      Deno.env.get('SUPABASE_ANON_KEY') ?? ''
+      Deno.env.get('SUPABASE_ANON_KEY') ?? '',
+      {
+        global: {
+          headers: { Authorization: req.headers.get('Authorization')! },
+        },
+      }
     )
 
-    const { data: { user }, error: userError } = await supabaseAuthClient.auth.getUser(token)
-
+    // Verify the user
+    const { data: { user }, error: userError } = await supabaseAuth.auth.getUser()
     if (userError || !user) {
-      return new Response(JSON.stringify({ error: userError?.message || 'Unauthorized' }), { status: 401, headers: corsHeaders })
+      return new Response(
+        JSON.stringify({ error: userError?.message || 'Unauthorized' }),
+        { headers: { ...corsHeaders, 'Content-Type': 'application/json' }, status: 401 }
+      )
     }
 
-    const supabaseClient = createClient(
+    // Service-role client for privileged DB operations (bypasses RLS)
+    const supabaseAdmin = createClient(
       Deno.env.get('SUPABASE_URL') ?? '',
       Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
     )
 
     const body = await req.json()
-    const { 
-      sessionId, lessonId, language, collectionId, 
-      cpm, wpm, accuracy, duration, totalChars, 
-      correctChars, errorChars, effectiveKeystrokes, trace 
+    const {
+      sessionId, lessonId, language, collectionId,
+      cpm, wpm, accuracy, duration, totalChars,
+      correctChars, errorChars, effectiveKeystrokes, trace
     } = body
 
     if (!sessionId) {
-      return new Response(JSON.stringify({ error: 'sessionId is required' }), { status: 400, headers: corsHeaders })
+      return new Response(
+        JSON.stringify({ error: 'sessionId is required' }),
+        { headers: { ...corsHeaders, 'Content-Type': 'application/json' }, status: 400 }
+      )
     }
 
-    const { data: session, error: sessionError } = await supabaseClient
+    // Validate session exists and belongs to the user
+    const { data: session, error: sessionError } = await supabaseAdmin
       .from('lt_practice_sessions')
       .select('*')
       .eq('id', sessionId)
@@ -56,14 +56,22 @@ serve(async (req: Request) => {
       .single()
 
     if (sessionError || !session) {
-      return new Response(JSON.stringify({ error: 'Invalid or expired session' }), { status: 400, headers: corsHeaders })
+      return new Response(
+        JSON.stringify({ error: 'Invalid or expired session' }),
+        { headers: { ...corsHeaders, 'Content-Type': 'application/json' }, status: 400 }
+      )
     }
 
+    // Check if session is expired
     if (session.expires_at && new Date(session.expires_at) < new Date()) {
-      await supabaseClient.from('lt_practice_sessions').delete().eq('id', sessionId)
-      return new Response(JSON.stringify({ error: 'Session expired' }), { status: 400, headers: corsHeaders })
+      await supabaseAdmin.from('lt_practice_sessions').delete().eq('id', sessionId)
+      return new Response(
+        JSON.stringify({ error: 'Session expired' }),
+        { headers: { ...corsHeaders, 'Content-Type': 'application/json' }, status: 400 }
+      )
     }
 
+    // --- Anti-cheat validation ---
     const serverStartTime = new Date(session.created_at).getTime()
     const now = Date.now()
     const serverDurationMs = now - serverStartTime
@@ -72,16 +80,19 @@ serve(async (req: Request) => {
     let isValid = true
     let cheatReason = null
 
-    if (wpm > 300 || cpm > 1500) {
+    // Speed sanity check
+    if (wpm > 150 || cpm > 750) {
       isValid = false
       cheatReason = 'Impossible speed'
     }
 
+    // Duration upper-bound check
     if (duration > serverDurationSec + 10) {
       isValid = false
       cheatReason = 'Duration mismatch (upper)'
     }
 
+    // Trace-based duration lower-bound check
     if (isValid && trace && Array.isArray(trace) && trace.length > 0) {
       const typingStartOffsetSec = trace[0] / 1000
       const expectedServerTypingDuration = serverDurationSec - typingStartOffsetSec
@@ -91,11 +102,12 @@ serve(async (req: Request) => {
       }
     }
 
+    // Trace monotonicity and interval checks
     if (isValid && trace && Array.isArray(trace) && trace.length > 5) {
       for (let i = 1; i < trace.length; i++) {
-        if (trace[i] - trace[i - 1] <= 0) {
+        if (trace[i] - trace[i - 1] < 0) {
           isValid = false
-          cheatReason = 'Invalid trace: non-positive interval'
+          cheatReason = 'Invalid trace: negative interval'
           break
         }
       }
@@ -110,6 +122,7 @@ serve(async (req: Request) => {
         }
       }
 
+      // Robotic keystroke variance check
       if (isValid) {
         let totalInterval = 0
         const intervals = []
@@ -119,19 +132,20 @@ serve(async (req: Request) => {
           totalInterval += diff
         }
         const mean = totalInterval / intervals.length
-        
+
         let sumSquares = 0
         for (const diff of intervals) {
           sumSquares += Math.pow(diff - mean, 2)
         }
         const variance = sumSquares / intervals.length
-        
+
         if (variance < 10) {
           isValid = false
           cheatReason = 'Robotic keystroke variance'
         }
       }
-      
+
+      // Trace duration vs reported duration check
       if (isValid) {
         const traceDurationSec = trace[trace.length - 1] / 1000
         if (Math.abs(traceDurationSec - duration) > 5) {
@@ -140,12 +154,10 @@ serve(async (req: Request) => {
         }
       }
 
-      if (isValid && totalChars && trace.length !== totalChars) {
-        isValid = false
-        cheatReason = 'Trace length mismatch with totalChars'
-      }
+      // Removed trace.length === totalChars check because it fails for IME (Chinese) input and backspaces.
     }
 
+    // Server-side CPM verification
     const keystrokesForCpm = effectiveKeystrokes || totalChars
     if (isValid && trace && Array.isArray(trace) && trace.length > 1 && keystrokesForCpm > 0) {
       const traceDurationSec = trace[trace.length - 1] / 1000
@@ -158,7 +170,8 @@ serve(async (req: Request) => {
       }
     }
 
-    const { data: logData, error: logError } = await supabaseClient
+    // --- Insert practice log ---
+    const { data: logData, error: logError } = await supabaseAdmin
       .from('lt_practice_logs')
       .insert({
         user_id: user.id,
@@ -171,7 +184,7 @@ serve(async (req: Request) => {
         correct_chars: correctChars,
         error_chars: errorChars,
         trace: trace ? trace : null,
-        is_valid: isValid
+        is_valid: isValid,
       })
       .select('id')
       .single()
@@ -181,10 +194,12 @@ serve(async (req: Request) => {
       throw logError
     }
 
-    await supabaseClient.from('lt_practice_sessions').delete().eq('id', sessionId)
+    // Clean up the used session
+    await supabaseAdmin.from('lt_practice_sessions').delete().eq('id', sessionId)
 
+    // Update best stats if this is a valid 100% accuracy run
     if (isValid && accuracy === 100) {
-      const { data: existingStats } = await supabaseClient
+      const { data: existingStats } = await supabaseAdmin
         .from('lt_user_lesson_stats')
         .select('best_cpm')
         .eq('user_id', user.id)
@@ -192,7 +207,7 @@ serve(async (req: Request) => {
         .maybeSingle()
 
       if (!existingStats || cpm > existingStats.best_cpm) {
-        await supabaseClient
+        await supabaseAdmin
           .from('lt_user_lesson_stats')
           .upsert({
             user_id: user.id,
@@ -200,21 +215,20 @@ serve(async (req: Request) => {
             best_cpm: cpm,
             best_wpm: wpm,
             duration: duration,
-            achieved_at: new Date().toISOString()
+            achieved_at: new Date().toISOString(),
           })
       }
     }
 
     return new Response(
-      JSON.stringify({ success: true, logId: logData.id, cheatReason: isValid ? null : cheatReason }), 
+      JSON.stringify({ success: true, logId: logData.id, cheatReason: isValid ? null : cheatReason }),
       { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
     )
-
   } catch (error: unknown) {
     const message = error instanceof Error ? error.message : 'Unknown error'
-    return new Response(JSON.stringify({ error: message }), {
-      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-      status: 400,
-    })
+    return new Response(
+      JSON.stringify({ error: message }),
+      { headers: { ...corsHeaders, 'Content-Type': 'application/json' }, status: 400 }
+    )
   }
 })
