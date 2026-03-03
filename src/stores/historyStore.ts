@@ -13,6 +13,7 @@ interface HistoryStore {
   addPractice: (record: PracticeRecord, language?: string, collectionId?: string) => Promise<void>;
   getPractices: () => PracticeRecord[];
   getLessonStats: (lessonId: string) => LessonStats;
+  getBestPracticeLog: (lessonId: string) => Promise<PracticeRecord | null>;
   clearAll: () => void;
 }
 
@@ -100,6 +101,49 @@ export const useHistoryStore = create<HistoryStore>()(
 
       getPractices: () => {
         return get().practices;
+      },
+
+      getBestPracticeLog: async (lessonId: string) => {
+        const { user } = useAuthStore.getState();
+        if (!user) return null;
+
+        try {
+          const { data, error } = await supabase
+            .from('lt_practice_logs')
+            .select('*')
+            .eq('user_id', user.id)
+            .eq('lesson_id', lessonId)
+            .order('accuracy', { ascending: false })
+            .order('duration', { ascending: false })
+            .limit(1)
+            .maybeSingle();
+
+          if (error) {
+            console.error('Failed to fetch best practice log:', error);
+            return null;
+          }
+
+          if (data) {
+            return {
+              id: data.id,
+              lessonId: data.lesson_id,
+              lessonTitle: '',
+              duration: data.duration,
+              cpm: data.cpm,
+              wpm: data.wpm,
+              accuracy: data.accuracy,
+              totalCharacters: data.total_chars || 0,
+              correctChars: data.correct_chars || 0,
+              incorrectChars: data.error_chars || 0,
+              completedAt: data.created_at || new Date().toISOString(),
+            } as PracticeRecord;
+          }
+
+          return null;
+        } catch (err) {
+          console.error('Error fetching best practice log:', err);
+          return null;
+        }
       },
 
       getLessonStats: (lessonId: string) => {

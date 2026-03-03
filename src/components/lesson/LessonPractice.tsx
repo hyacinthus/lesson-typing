@@ -1,4 +1,4 @@
-import { useMemo, useCallback, useRef } from 'react';
+import { useMemo, useCallback, useRef, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
 import { useHistoryStore } from '../../stores/historyStore';
@@ -16,6 +16,8 @@ interface LessonPracticeProps {
 export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) {
     const { t } = useTranslation();
     const addPractice = useHistoryStore((state) => state.addPractice);
+    const getBestPracticeLog = useHistoryStore((state) => state.getBestPracticeLog);
+    const [bestRecord, setBestRecord] = useState<PracticeRecord | null>(null);
 
     // Initialize characters for the active lesson
     const initialCharacters = useMemo(() => {
@@ -51,7 +53,6 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
         }, 1000);
     }, [lesson, addPractice]);
 
-    // Typing engine hook
     const {
         session,
         stats,
@@ -64,6 +65,12 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
         lessonId: lesson.id,
         onComplete: handleComplete,
     });
+
+    useEffect(() => {
+        if (isCompleted) {
+            getBestPracticeLog(lesson.id).then(setBestRecord);
+        }
+    }, [isCompleted, lesson.id, getBestPracticeLog]);
 
     return (
         <div className="flex flex-col h-full">
@@ -91,6 +98,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                     onNextLesson={onNext}
                     isCompleted={isCompleted}
                     disabled={isCompleted}
+                    bestRecord={bestRecord}
                 />
             </div>
         </div>

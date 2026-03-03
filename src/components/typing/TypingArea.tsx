@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import type { Character, RealtimeStats } from '../../types';
+import type { Character, RealtimeStats, PracticeRecord } from '../../types';
 import { CharacterRenderer } from './CharacterRenderer';
 import { InputHandler } from './InputHandler';
 import { StatsPanel } from './StatsPanel';
@@ -15,6 +15,7 @@ interface TypingAreaProps {
   onNextLesson?: () => void;
   isCompleted: boolean;
   disabled?: boolean;
+  bestRecord?: PracticeRecord | null;
 }
 
 export function TypingArea({
@@ -27,6 +28,7 @@ export function TypingArea({
   onNextLesson,
   isCompleted,
   disabled = false,
+  bestRecord = null,
 }: TypingAreaProps) {
   const { t } = useTranslation();
   const inputId = 'typing-input-area';
@@ -62,7 +64,7 @@ export function TypingArea({
     if (activeChar) {
       const rect = activeChar.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
-      
+
       // 检查光标是否低于屏幕中间
       if (rect.top > viewportHeight / 2) {
         // 获取父元素的行高以进行更精确的滚动
@@ -171,6 +173,39 @@ export function TypingArea({
               </div>
             </div>
           </div>
+
+          {bestRecord && (
+            <div className="bg-white/50 rounded-lg p-4 mb-6 border border-gray-200">
+              <h3 className="text-sm font-bold text-gray-700 mb-3">{t('best_record', 'Best Record')}</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div>
+                  <div className="text-xs text-gray-500">{t('stats.wpm_title')}</div>
+                  <div className="text-lg font-semibold text-gray-700">
+                    {bestRecord.wpm} {t('stats.wpm_unit')}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500">{t('stats.char_speed')}</div>
+                  <div className="text-lg font-semibold text-gray-700">
+                    {bestRecord.cpm} {t('stats.char_unit')}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500">{t('stats.accuracy')}</div>
+                  <div className="text-lg font-semibold text-gray-700">
+                    {bestRecord.accuracy}%
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-gray-500">{t('time')}</div>
+                  <div className="text-lg font-semibold text-gray-700">
+                    {Math.floor(bestRecord.duration / 60)}:{(bestRecord.duration % 60).toString().padStart(2, '0')}
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
           <div className="flex gap-4 justify-center">
             <button
               onClick={onRestart}
