@@ -8,6 +8,7 @@ interface AuthState {
   session: Session | null;
   profile: Profile | null;
   isLoading: boolean;
+  isProfileLoaded: boolean;
   isLoggingIn: boolean;
   setUser: (user: User | null) => void;
   setSession: (session: Session | null) => void;
@@ -93,6 +94,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   session: null,
   profile: null,
   isLoading: true,
+  isProfileLoaded: false,
   isLoggingIn: false,
   setUser: (user) => set({ user }),
   setSession: (session) => set({ session, user: session?.user ?? null }),
@@ -128,7 +130,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     } finally {
       console.log('Clearing local state...');
       // Always clear local state regardless of server response
-      set({ user: null, session: null, profile: null });
+      set({ user: null, session: null, profile: null, isProfileLoaded: false });
       console.log('State cleared');
     }
   },
@@ -139,7 +141,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     const profile = await fetchOrCreateProfile(user);
     // Ensure user hasn't changed/logged out during fetch
     if (get().user?.id === user.id) {
-      set({ profile });
+      set({ profile, isProfileLoaded: true });
     }
   },
 
@@ -160,11 +162,11 @@ export const useAuthStore = create<AuthState>((set, get) => ({
         fetchOrCreateProfile(user).then((profile) => {
           // Ensure user hasn't changed/logged out during fetch
           if (get().user?.id === user.id) {
-            set({ profile });
+            set({ profile, isProfileLoaded: true });
           }
         });
       } else {
-        set({ profile: null });
+        set({ profile: null, isProfileLoaded: false });
       }
     });
     authSubscription = subscription;
@@ -182,9 +184,11 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     if (user) {
       fetchOrCreateProfile(user).then((profile) => {
         if (get().user?.id === user.id) {
-          set({ profile });
+          set({ profile, isProfileLoaded: true });
         }
       });
+    } else {
+      set({ profile: null, isProfileLoaded: false });
     }
   },
 

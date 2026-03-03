@@ -66,7 +66,7 @@ function RegisterMaterialIcon(props: SVGProps<SVGSVGElement>) {
 
 export function UserMenu() {
   const { t } = useTranslation();
-  const { user, profile, isLoading, signInWithGoogle, signOut } = useAuthStore();
+  const { user, profile, isLoading, isProfileLoaded, signInWithGoogle, signOut } = useAuthStore();
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [isEditProfileOpen, setIsEditProfileOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState<AuthModalView>('options');
@@ -84,7 +84,7 @@ export function UserMenu() {
     setIsAuthModalOpen(true);
   };
 
-  if (isLoading) {
+  if (isLoading || (user && !isProfileLoaded)) {
     return <div className="w-8 h-8 rounded-full bg-gray-200 animate-pulse" />;
   }
 
