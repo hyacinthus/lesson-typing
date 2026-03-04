@@ -1,15 +1,11 @@
-## v0.4.0 (2026-03-04)
-
-### New Features
-- **SEO Optimization**: Added Open Graph, Twitter Card meta tags, structured data (JSON-LD), canonical URL, and noscript fallback for search engine visibility
-- **PWA Support**: Added web app manifest with icons for installable app experience
-- **Features Section**: Added a visible features section on the homepage highlighting curriculum texts, progress tracking, and multilingual support (in all 8 languages)
-- **Sitemap & Robots**: Added sitemap.xml and robots.txt for search engine crawling
+## v0.6.0 (2026-03-04)
 
 ### Improvements
-- **Caching Headers**: Configured immutable caching for hashed assets, no-cache for HTML, and stale-while-revalidate for lesson data
-- **Security Headers**: Added X-Content-Type-Options and X-Frame-Options headers
-- **Sticky Header**: Homepage header now stays visible while scrolling
-- **Dynamic Lang Attribute**: HTML lang attribute now updates automatically on language change
+- **Mobile-Optimized Homepage Header**: Reorganized into a 2-row layout on mobile — logo + user menu on the first row, collection and language selectors on the second row
+- **Compact Stats Toolbar**: Replaced the 2x2 stats card grid with a single-row inline toolbar on mobile, freeing up screen space for the typing area
+- **Mobile-Friendly Results Section**: Compressed completion results, personal best comparison, and activity chart for mobile viewports
+- **Responsive Practice Header**: Title now truncates on narrow screens to prevent overlap with the back button; "Back to Home" text hidden on mobile
+- **Improved Hero Section**: Scaled down hero text and reduced vertical spacing on mobile for a better first impression
+- **Responsive Typography**: Reduced typing area text size and padding on mobile for better readability
 
-**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.3.2...v0.4.0
+**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.5.0...v0.6.0
