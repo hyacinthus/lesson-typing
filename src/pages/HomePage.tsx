@@ -5,6 +5,7 @@ import { LessonPractice } from '../components/lesson/LessonPractice';
 import { Logo } from '../components/Logo';
 import { UserMenu } from '../components/auth/UserMenu';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { BookOpen, ChartLine, Keyboard } from 'lucide-react';
 import type { Lesson } from '../types';
 
 // Map i18n language codes to lesson language IDs
@@ -175,7 +176,7 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header / Top Bar */}
-      <div className="bg-header text-header-foreground shadow-sm px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 z-10">
+      <div className="sticky top-0 bg-header text-header-foreground shadow-sm px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 z-10">
         {/* Logo & Title */}
         <div className="flex items-center gap-3 w-full md:w-1/3 justify-start">
           <Logo className="w-10 h-10 shadow-sm" />
@@ -227,7 +228,7 @@ export function HomePage() {
       </div>
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col items-center pt-[25vh] p-4">
+      <main className="min-h-screen flex flex-col items-center pt-[25vh] p-4">
         <div className="text-gray-400 text-[3rem] leading-none mb-24 tracking-wide text-center">
           {t('hero_subtitle')}
         </div>
@@ -245,6 +246,28 @@ export function HomePage() {
         )}
 
       </main>
+
+      {/* Features section for SEO and user value */}
+      <section className="pb-12 px-4">
+        <h1 className="sr-only">{t('seo.h1')}</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+          <div className="flex flex-col items-center text-center gap-2 p-4">
+            <BookOpen className="w-8 h-8 text-primary" />
+            <h2 className="font-semibold text-gray-700">{t('seo.feature_curriculum')}</h2>
+            <p className="text-sm text-gray-500">{t('seo.feature_curriculum_desc')}</p>
+          </div>
+          <div className="flex flex-col items-center text-center gap-2 p-4">
+            <ChartLine className="w-8 h-8 text-primary" />
+            <h2 className="font-semibold text-gray-700">{t('seo.feature_tracking')}</h2>
+            <p className="text-sm text-gray-500">{t('seo.feature_tracking_desc')}</p>
+          </div>
+          <div className="flex flex-col items-center text-center gap-2 p-4">
+            <Keyboard className="w-8 h-8 text-primary" />
+            <h2 className="font-semibold text-gray-700">{t('seo.feature_languages')}</h2>
+            <p className="text-sm text-gray-500">{t('seo.feature_languages_desc')}</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

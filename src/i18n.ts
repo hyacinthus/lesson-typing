@@ -33,6 +33,15 @@ const resources = {
                 "accuracy": "Accuracy",
                 "grade": "Rank: "
             },
+            "seo": {
+                "h1": "Elementary School Typing Practice",
+                "feature_curriculum": "Curriculum Texts",
+                "feature_curriculum_desc": "Practice with real school textbook passages from Grades 1-6",
+                "feature_tracking": "Track Progress",
+                "feature_tracking_desc": "Monitor your typing speed, accuracy, and personal records",
+                "feature_languages": "Your Language, Your Way",
+                "feature_languages_desc": "Practice in your native language with your own input method. Switch to English anytime for keystroke drills."
+            },
             "auth": {
                 "login": "Login",
                 "logout": "Logout",
@@ -107,6 +116,15 @@ const resources = {
                 "wpm_unit": "字/分钟",
                 "accuracy": "准确率",
                 "grade": "评级: "
+            },
+            "seo": {
+                "h1": "小学课文打字练习",
+                "feature_curriculum": "课文内容",
+                "feature_curriculum_desc": "使用1-6年级真实课本文章进行练习",
+                "feature_tracking": "进度追踪",
+                "feature_tracking_desc": "跟踪你的打字速度、准确率和个人记录",
+                "feature_languages": "母语练习",
+                "feature_languages_desc": "用你的母语和输入法练习打字，也可以随时切换到英语进行纯击键训练"
             },
             "auth": {
                 "login": "登录",
@@ -183,6 +201,15 @@ const resources = {
                 "accuracy": "Precisión",
                 "grade": "Nivel: "
             },
+            "seo": {
+                "h1": "Práctica de mecanografía escolar",
+                "feature_curriculum": "Textos del plan de estudios",
+                "feature_curriculum_desc": "Practica con textos reales de los libros escolares de 1.º a 6.º grado",
+                "feature_tracking": "Seguimiento del progreso",
+                "feature_tracking_desc": "Controla tu velocidad de escritura, precisión y récords personales",
+                "feature_languages": "Tu idioma, tu teclado",
+                "feature_languages_desc": "Practica en tu idioma con tu método de entrada. Cambia al inglés en cualquier momento para entrenar pulsaciones."
+            },
             "auth": {
                 "login": "Iniciar sesión",
                 "logout": "Cerrar sesión",
@@ -257,6 +284,15 @@ const resources = {
                 "wpm_unit": "語/分",
                 "accuracy": "正確率",
                 "grade": "評価: "
+            },
+            "seo": {
+                "h1": "小学校のタイピング練習",
+                "feature_curriculum": "教科書の文章",
+                "feature_curriculum_desc": "1年生から6年生までの実際の教科書の文章で練習",
+                "feature_tracking": "進捗の記録",
+                "feature_tracking_desc": "タイピング速度、正確率、自己ベストを記録",
+                "feature_languages": "母語で練習",
+                "feature_languages_desc": "自分の言語と入力方法でタイピング練習。いつでも英語に切り替えてキー打鍵の特訓も。"
             },
             "auth": {
                 "login": "ログイン",
@@ -333,6 +369,15 @@ const resources = {
                 "accuracy": "Precisão",
                 "grade": "Nível: "
             },
+            "seo": {
+                "h1": "Prática de Digitação do Ensino Fundamental",
+                "feature_curriculum": "Textos do currículo",
+                "feature_curriculum_desc": "Pratique com textos reais dos livros escolares do 1.º ao 6.º ano",
+                "feature_tracking": "Acompanhe o progresso",
+                "feature_tracking_desc": "Monitore sua velocidade de digitação, precisão e recordes pessoais",
+                "feature_languages": "Seu idioma, seu jeito",
+                "feature_languages_desc": "Pratique no seu idioma com seu próprio método de entrada. Mude para inglês a qualquer momento para treino de digitação pura."
+            },
             "auth": {
                 "login": "Entrar",
                 "logout": "Sair",
@@ -407,6 +452,15 @@ const resources = {
                 "wpm_unit": "mots/min",
                 "accuracy": "Précision",
                 "grade": "Niveau: "
+            },
+            "seo": {
+                "h1": "Entraînement de dactylographie pour le primaire",
+                "feature_curriculum": "Textes du programme",
+                "feature_curriculum_desc": "Exercez-vous avec de vrais textes scolaires du CP au CM2",
+                "feature_tracking": "Suivi des progrès",
+                "feature_tracking_desc": "Suivez votre vitesse de frappe, votre précision et vos records personnels",
+                "feature_languages": "Votre langue, votre clavier",
+                "feature_languages_desc": "Pratiquez dans votre langue avec votre méthode de saisie. Passez en anglais à tout moment pour un entraînement de frappe pure."
             },
             "auth": {
                 "login": "Connexion",
@@ -483,6 +537,15 @@ const resources = {
                 "accuracy": "Genauigkeit",
                 "grade": "Niveau: "
             },
+            "seo": {
+                "h1": "Tipptrainer für die Grundschule",
+                "feature_curriculum": "Lehrplantexte",
+                "feature_curriculum_desc": "Übe mit echten Schulbuchtexten der Klassen 1 bis 6",
+                "feature_tracking": "Fortschritt verfolgen",
+                "feature_tracking_desc": "Verfolge deine Tippgeschwindigkeit, Genauigkeit und persönliche Rekorde",
+                "feature_languages": "Deine Sprache, deine Tastatur",
+                "feature_languages_desc": "Übe in deiner Muttersprache mit deiner eigenen Eingabemethode. Wechsle jederzeit zu Englisch für reines Tipptraining."
+            },
             "auth": {
                 "login": "Anmelden",
                 "logout": "Abmelden",
@@ -558,6 +621,15 @@ const resources = {
                 "accuracy": "Precisione",
                 "grade": "Valutazione: "
             },
+            "seo": {
+                "h1": "Pratica di Dattilografia per la Scuola Primaria",
+                "feature_curriculum": "Testi scolastici",
+                "feature_curriculum_desc": "Esercitati con testi reali dei libri scolastici dalla 1ª alla 6ª classe",
+                "feature_tracking": "Monitora i progressi",
+                "feature_tracking_desc": "Controlla la velocità di battitura, la precisione e i record personali",
+                "feature_languages": "La tua lingua, il tuo metodo",
+                "feature_languages_desc": "Esercitati nella tua lingua con il tuo metodo di inserimento. Passa all'inglese in qualsiasi momento per un allenamento di battitura puro."
+            },
             "auth": {
                 "login": "Accedi",
                 "logout": "Esci",
@@ -620,5 +692,9 @@ i18n
             escapeValue: false
         }
     });
+
+i18n.on('languageChanged', (lng) => {
+    document.documentElement.lang = lng.split('-')[0];
+});
 
 export default i18n;
