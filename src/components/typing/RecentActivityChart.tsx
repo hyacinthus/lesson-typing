@@ -90,9 +90,9 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
     };
 
     return (
-        <div className="rounded-lg mt-8 border-t border-gray-200 pt-6">
+        <div className="rounded-lg mt-4 md:mt-8 border-t border-gray-200 pt-4 md:pt-6">
             <h3 className="text-lg font-bold text-gray-800 mb-6 text-left">{t('recent_activity')}</h3>
-            <div className="h-[250px] w-full">
+            <div className="h-[180px] md:h-[250px] w-full">
                 <ChartContainer config={chartConfig} className="h-full w-full">
                     <AreaChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                         <defs>

@@ -96,9 +96,9 @@ export function TypingArea({
       {/* 打字主区域 */}
       <label
         htmlFor={inputId}
-        className="block bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-6 min-h-[300px] cursor-text"
+        className="block bg-white rounded-lg shadow-sm border border-gray-200 p-4 md:p-8 mb-4 md:mb-6 min-h-[200px] md:min-h-[300px] cursor-text"
       >
-        <div className="text-2xl leading-loose tracking-wide whitespace-pre-wrap break-words">
+        <div className="text-lg md:text-2xl leading-relaxed md:leading-loose tracking-wide whitespace-pre-wrap break-words">
           {characters.map((char, index) => (
             <CharacterRenderer
               key={char.index}
@@ -149,15 +149,39 @@ export function TypingArea({
       {/* 完成提示 */}
       {isCompleted && (
         <div
-          className="rounded-lg shadow-sm border border-gray-200 p-8 text-center bg-[#E9F4FF]"
+          className="rounded-lg shadow-sm border border-gray-200 p-4 md:p-8 text-center bg-[#E9F4FF]"
         >
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-3 md:mb-4">
             {t('results')}
             {(!bestRecord || (stats.accuracy > bestRecord.accuracy || (stats.accuracy === bestRecord.accuracy && stats.cpm > bestRecord.cpm))) && (
-              <span className="text-primary ml-2 animate-pulse">({t('new_record')})</span>
+              <span className="text-primary ml-2 animate-pulse text-base md:text-3xl">({t('new_record')})</span>
             )}
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+
+          {/* Mobile: compact inline results */}
+          <div className="flex md:hidden items-center justify-between bg-white/60 rounded-lg px-3 py-2.5 mb-4 text-sm">
+            <div className="text-center">
+              <div className="text-xs text-gray-500">WPM</div>
+              <div className="font-bold text-green-600">{stats.wpm}</div>
+            </div>
+            <div className="text-center">
+              <div className="text-xs text-gray-500">CPM</div>
+              <div className="font-bold text-primary">{stats.cpm}</div>
+            </div>
+            <div className="text-center">
+              <div className="text-xs text-gray-500">{t('stats.accuracy')}</div>
+              <div className="font-bold text-purple-600">{stats.accuracy}%</div>
+            </div>
+            <div className="text-center">
+              <div className="text-xs text-gray-500">{t('time')}</div>
+              <div className="font-bold text-gray-900">
+                {Math.floor(stats.duration / 60)}:{(stats.duration % 60).toString().padStart(2, '0')}
+              </div>
+            </div>
+          </div>
+
+          {/* Desktop: original grid */}
+          <div className="hidden md:grid grid-cols-4 gap-4 mb-6">
             <div>
               <div className="text-sm text-gray-600">{t('stats.wpm_title')}</div>
               <div className="text-2xl font-bold text-green-600">
@@ -185,9 +209,33 @@ export function TypingArea({
           </div>
 
           {bestRecord && (
-            <div className="bg-white/50 rounded-lg p-4 mb-6 border border-gray-200">
-              <h3 className="text-sm font-bold text-gray-700 mb-3">{t('personal_best')}</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="bg-white/50 rounded-lg p-3 md:p-4 mb-4 md:mb-6 border border-gray-200">
+              <h3 className="text-xs md:text-sm font-bold text-gray-700 mb-2 md:mb-3">{t('personal_best')}</h3>
+
+              {/* Mobile: compact inline best record */}
+              <div className="flex md:hidden items-center justify-between text-sm">
+                <div className="text-center">
+                  <div className="text-xs text-gray-400">WPM</div>
+                  <div className="font-semibold text-gray-700">{bestRecord.wpm}</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-xs text-gray-400">CPM</div>
+                  <div className="font-semibold text-gray-700">{bestRecord.cpm}</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-xs text-gray-400">{t('stats.accuracy')}</div>
+                  <div className="font-semibold text-gray-700">{bestRecord.accuracy}%</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-xs text-gray-400">{t('time')}</div>
+                  <div className="font-semibold text-gray-700">
+                    {Math.floor(bestRecord.duration / 60)}:{(bestRecord.duration % 60).toString().padStart(2, '0')}
+                  </div>
+                </div>
+              </div>
+
+              {/* Desktop: original grid */}
+              <div className="hidden md:grid grid-cols-4 gap-4">
                 <div>
                   <div className="text-xs text-gray-500">{t('stats.wpm_title')}</div>
                   <div className="text-lg font-semibold text-gray-700">
@@ -216,17 +264,17 @@ export function TypingArea({
             </div>
           )}
 
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-3 md:gap-4 justify-center">
             <button
               onClick={onRestart}
-              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-3 px-8 rounded-lg transition-colors"
+              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-2.5 md:py-3 px-6 md:px-8 rounded-lg transition-colors text-sm md:text-base"
             >
               {t('restart')}
             </button>
             {onNextLesson && (
               <button
                 onClick={onNextLesson}
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 px-8 rounded-full shadow-sm hover:shadow-md transition-all"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-2.5 md:py-3 px-6 md:px-8 rounded-full shadow-sm hover:shadow-md transition-all text-sm md:text-base"
               >
                 {t('next_lesson')}
               </button>

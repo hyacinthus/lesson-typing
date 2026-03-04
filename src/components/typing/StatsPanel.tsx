@@ -12,43 +12,65 @@ export function StatsPanel({ stats }: StatsPanelProps) {
   const score = getScoreLevel(stats.accuracy, stats.cpm);
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-      {/* 时长 */}
-      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-        <div className="text-sm text-gray-500 mb-1">{t('stats.duration')}</div>
-        <div className="text-2xl font-bold text-gray-900">
-          {formatTime(stats.duration)}
+    <>
+      {/* Mobile: single-row compact toolbar */}
+      <div className="flex md:hidden items-center justify-between bg-white rounded-lg px-4 py-2.5 mb-4 shadow-sm border border-gray-200 text-sm">
+        <div className="flex items-center gap-1">
+          <span className="text-gray-400">{t('stats.duration')}</span>
+          <span className="font-bold text-gray-900">{formatTime(stats.duration)}</span>
+        </div>
+        <div className="flex items-center gap-1">
+          <span className="text-gray-400">CPM</span>
+          <span className="font-bold text-primary">{stats.cpm}</span>
+        </div>
+        <div className="flex items-center gap-1">
+          <span className="text-gray-400">WPM</span>
+          <span className="font-bold text-green-600">{stats.wpm}</span>
+        </div>
+        <div className="flex items-center gap-1">
+          <span className={`font-bold ${score.color}`}>{stats.accuracy}%</span>
         </div>
       </div>
 
-      {/* 字符速率 (CPM) */}
-      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-        <div className="text-sm text-gray-500 mb-1">{t('stats.char_speed')}</div>
-        <div className="text-2xl font-bold text-primary">
-          {stats.cpm}
+      {/* Desktop: original 4-column grid */}
+      <div className="hidden md:grid grid-cols-4 gap-4 mb-6">
+        {/* 时长 */}
+        <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+          <div className="text-sm text-gray-500 mb-1">{t('stats.duration')}</div>
+          <div className="text-2xl font-bold text-gray-900">
+            {formatTime(stats.duration)}
+          </div>
         </div>
-        <div className="text-xs text-gray-400">{t('stats.char_unit')}</div>
-      </div>
 
-      {/* 中文速率/WPM */}
-      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-        <div className="text-sm text-gray-500 mb-1">{t('stats.wpm_title')}</div>
-        <div className="text-2xl font-bold text-green-600">
-          {stats.wpm}
+        {/* 字符速率 (CPM) */}
+        <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+          <div className="text-sm text-gray-500 mb-1">{t('stats.char_speed')}</div>
+          <div className="text-2xl font-bold text-primary">
+            {stats.cpm}
+          </div>
+          <div className="text-xs text-gray-400">{t('stats.char_unit')}</div>
         </div>
-        <div className="text-xs text-gray-400">{t('stats.wpm_unit')}</div>
-      </div>
 
-      {/* 准确率 */}
-      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-        <div className="text-sm text-gray-500 mb-1">{t('stats.accuracy')}</div>
-        <div className="text-2xl font-bold text-purple-600">
-          {stats.accuracy}%
+        {/* 中文速率/WPM */}
+        <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+          <div className="text-sm text-gray-500 mb-1">{t('stats.wpm_title')}</div>
+          <div className="text-2xl font-bold text-green-600">
+            {stats.wpm}
+          </div>
+          <div className="text-xs text-gray-400">{t('stats.wpm_unit')}</div>
         </div>
-        <div className={`text-xs font-bold ${score.color}`}>
-          {t('stats.grade')} {score.level}
+
+        {/* 准确率 */}
+        <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+          <div className="text-sm text-gray-500 mb-1">{t('stats.accuracy')}</div>
+          <div className="text-2xl font-bold text-purple-600">
+            {stats.accuracy}%
+          </div>
+          <div className={`text-xs font-bold ${score.color}`}>
+            {t('stats.grade')} {score.level}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

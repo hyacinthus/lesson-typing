@@ -176,21 +176,72 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header / Top Bar */}
-      <div className="sticky top-0 bg-header text-header-foreground shadow-sm px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 z-10">
-        {/* Logo & Title */}
-        <div className="flex items-center gap-3 w-full md:w-1/3 justify-start">
-          <Logo className="w-10 h-10 shadow-sm" />
-          <span className="text-xl font-bold tracking-tight">LessonTyping</span>
+      <div className="sticky top-0 bg-header text-header-foreground shadow-sm px-4 py-3 md:px-6 md:py-4 z-10">
+        {/* Row 1: Logo + UserMenu (mobile) / Full row (desktop) */}
+        <div className="flex items-center justify-between md:justify-between gap-3">
+          {/* Logo & Title */}
+          <div className="flex items-center gap-2 md:gap-3 md:w-1/3 shrink-0">
+            <Logo className="w-8 h-8 md:w-10 md:h-10 shadow-sm" />
+            <span className="text-lg md:text-xl font-bold tracking-tight">LessonTyping</span>
+          </div>
+
+          {/* Collection List - hidden on mobile row 1, shown on desktop */}
+          <div className="hidden md:flex justify-center w-1/3">
+            <Select
+              value={currentCollectionId || ""}
+              onValueChange={setSelectedCollection}
+              disabled={collections.length === 0}
+            >
+              <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
+                <SelectValue placeholder={t('loading')} />
+              </SelectTrigger>
+              <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
+                {collections.map((collection) => (
+                  <SelectItem key={collection.id} value={collection.id}>
+                    {collection.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+
+          {/* Desktop: Language Switcher & Auth */}
+          <div className="hidden md:flex justify-end items-center gap-4 w-1/3">
+            <Select
+              value={i18n.language.split('-')[0]}
+              onValueChange={(value) => i18n.changeLanguage(value)}
+            >
+              <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
+                <SelectItem value="en">English</SelectItem>
+                <SelectItem value="zh">中文</SelectItem>
+                <SelectItem value="es">Español</SelectItem>
+                <SelectItem value="ja">日本語</SelectItem>
+                <SelectItem value="pt">Português</SelectItem>
+                <SelectItem value="fr">Français</SelectItem>
+                <SelectItem value="de">Deutsch</SelectItem>
+                <SelectItem value="it">Italiano</SelectItem>
+              </SelectContent>
+            </Select>
+            <UserMenu />
+          </div>
+
+          {/* Mobile: UserMenu only in row 1 */}
+          <div className="flex md:hidden items-center">
+            <UserMenu />
+          </div>
         </div>
 
-        {/* Collection List */}
-        <div className="flex justify-center w-full md:w-1/3">
+        {/* Row 2: Mobile only - Collection + Language selectors */}
+        <div className="flex md:hidden items-center gap-2 mt-2">
           <Select
             value={currentCollectionId || ""}
             onValueChange={setSelectedCollection}
             disabled={collections.length === 0}
           >
-            <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
+            <SelectTrigger className="h-9 flex-1 rounded-full border-gray-100 bg-white px-3 text-sm font-medium text-gray-600 shadow-sm">
               <SelectValue placeholder={t('loading')} />
             </SelectTrigger>
             <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
@@ -201,15 +252,11 @@ export function HomePage() {
               ))}
             </SelectContent>
           </Select>
-        </div>
-
-        {/* Language Switcher & Auth */}
-        <div className="flex justify-end items-center gap-4 w-full md:w-1/3">
           <Select
             value={i18n.language.split('-')[0]}
             onValueChange={(value) => i18n.changeLanguage(value)}
           >
-            <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
+            <SelectTrigger className="h-9 w-24 shrink-0 rounded-full border-gray-100 bg-white px-3 text-sm font-medium text-gray-600 shadow-sm">
               <SelectValue />
             </SelectTrigger>
             <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
@@ -223,13 +270,12 @@ export function HomePage() {
               <SelectItem value="it">Italiano</SelectItem>
             </SelectContent>
           </Select>
-          <UserMenu />
         </div>
       </div>
 
       {/* Main Content */}
-      <main className="min-h-screen flex flex-col items-center pt-[25vh] p-4">
-        <div className="text-gray-400 text-[3rem] leading-none mb-24 tracking-wide text-center">
+      <main className="min-h-screen flex flex-col items-center pt-[15vh] md:pt-[25vh] p-4">
+        <div className="text-gray-400 text-2xl md:text-[3rem] leading-tight md:leading-none mb-12 md:mb-24 tracking-wide text-center">
           {t('hero_subtitle')}
         </div>
 
