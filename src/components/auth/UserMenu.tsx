@@ -1,6 +1,6 @@
 import { useState, type SVGProps } from 'react';
 import { useTranslation } from 'react-i18next';
-import { LogOut, User, UserCog } from 'lucide-react';
+import { LogOut, MessageSquare, User, UserCog } from 'lucide-react';
 import { useAuthStore } from '../../stores/authStore';
 import { SignInForm } from './SignInForm';
 import { SignUpForm } from './SignUpForm';
@@ -9,6 +9,8 @@ import { Button } from '@/components/ui/button';
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
+  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -69,6 +71,7 @@ export function UserMenu() {
   const { user, profile, isLoading, isProfileLoaded, signInWithGoogle, signOut } = useAuthStore();
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [isEditProfileOpen, setIsEditProfileOpen] = useState(false);
+  const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState<AuthModalView>('options');
 
   const closeAuthModal = () => {
@@ -168,6 +171,34 @@ export function UserMenu() {
   return (
     <>
       <EditProfileDialog open={isEditProfileOpen} onOpenChange={setIsEditProfileOpen} />
+      <Dialog open={isFeedbackOpen} onOpenChange={setIsFeedbackOpen}>
+        <DialogContent className="max-w-md rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle className="text-gray-800">{t('auth.feedback_title')}</DialogTitle>
+            <DialogDescription className="text-gray-500">
+              {t('auth.feedback_description')}
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter className="flex-row justify-end gap-2 sm:justify-end">
+            <Button
+              variant="outline"
+              onClick={() => setIsFeedbackOpen(false)}
+              className="rounded-xl border-gray-200 text-gray-700 hover:bg-gray-50"
+            >
+              {t('auth.profile.cancel')}
+            </Button>
+            <Button
+              onClick={() => {
+                window.open('https://github.com/hyacinthus/lesson-typing/issues', '_blank');
+                setIsFeedbackOpen(false);
+              }}
+              className="rounded-xl bg-primary text-white hover:bg-primary/90"
+            >
+              {t('auth.feedback_go_github')}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button
@@ -192,6 +223,13 @@ export function UserMenu() {
           >
             <UserCog size={18} />
             <span>{t('auth.edit_profile')}</span>
+          </DropdownMenuItem>
+          <DropdownMenuItem
+            className="gap-3"
+            onSelect={() => setIsFeedbackOpen(true)}
+          >
+            <MessageSquare size={18} />
+            <span>{t('auth.feedback')}</span>
           </DropdownMenuItem>
           <DropdownMenuItem
             variant="destructive"
