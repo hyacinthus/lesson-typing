@@ -1,10 +1,11 @@
 import { useState, type SVGProps } from 'react';
 import { useTranslation } from 'react-i18next';
-import { LogOut, MessageSquare, User, UserCog } from 'lucide-react';
+import { BarChart3, LogOut, MessageSquare, User, UserCog } from 'lucide-react';
 import { useAuthStore } from '../../stores/authStore';
 import { SignInForm } from './SignInForm';
 import { SignUpForm } from './SignUpForm';
 import { EditProfileDialog } from './EditProfileDialog';
+import { PersonalStatsDialog } from './PersonalStatsDialog';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -70,6 +71,7 @@ export function UserMenu() {
   const { t } = useTranslation();
   const { user, profile, isLoading, isProfileLoaded, signInWithGoogle, signOut } = useAuthStore();
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [isEditProfileOpen, setIsEditProfileOpen] = useState(false);
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState<AuthModalView>('options');
@@ -170,6 +172,7 @@ export function UserMenu() {
 
   return (
     <>
+      <PersonalStatsDialog open={isStatsOpen} onOpenChange={setIsStatsOpen} />
       <EditProfileDialog open={isEditProfileOpen} onOpenChange={setIsEditProfileOpen} />
       <Dialog open={isFeedbackOpen} onOpenChange={setIsFeedbackOpen}>
         <DialogContent className="max-w-md rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-md">
@@ -217,6 +220,13 @@ export function UserMenu() {
         <DropdownMenuContent align="end" className="w-52 rounded-xl border-gray-100 bg-white py-2">
           <DropdownMenuLabel className="truncate text-xs text-gray-400">{user.email}</DropdownMenuLabel>
           <DropdownMenuSeparator />
+          <DropdownMenuItem
+            className="gap-3"
+            onSelect={() => setIsStatsOpen(true)}
+          >
+            <BarChart3 size={18} />
+            <span>{t('auth.my_stats')}</span>
+          </DropdownMenuItem>
           <DropdownMenuItem
             className="gap-3"
             onSelect={() => setIsEditProfileOpen(true)}
