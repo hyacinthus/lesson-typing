@@ -1,3 +1,15 @@
+## v0.5.0 (2026-03-04)
+
+### New Features
+- **Personal Stats Dialog**: Added a "My Stats" option in the user menu that opens a dialog showing the user's 3 most recent practice results (with lesson names, CPM, WPM, accuracy, and score grade) and a progress chart of the last 20 sessions
+- **Feedback Dialog**: Added a "Feedback" option in the user menu linking to GitHub Issues for bug reports and suggestions
+
+### Technical
+- Added `getAllRecentPracticeLogs` method to history store for cross-lesson practice log queries
+- Added i18n translations for stats dialog across all 8 supported languages
+
+**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.4.0...v0.5.0
+
 ## v0.4.0 (2026-03-04)
 
 ### New Features
