@@ -1,9 +1,15 @@
-## v0.3.2 (2026-03-04)
+## v0.4.0 (2026-03-04)
+
+### New Features
+- **SEO Optimization**: Added Open Graph, Twitter Card meta tags, structured data (JSON-LD), canonical URL, and noscript fallback for search engine visibility
+- **PWA Support**: Added web app manifest with icons for installable app experience
+- **Features Section**: Added a visible features section on the homepage highlighting curriculum texts, progress tracking, and multilingual support (in all 8 languages)
+- **Sitemap & Robots**: Added sitemap.xml and robots.txt for search engine crawling
 
 ### Improvements
-- **New Record indicator**: Results screen now displays a 🎉 New Record badge when the current session's score exceeds the historical personal best.
-- **Personal Best branding**: Results screen now clearly labels historical achievements as "Personal Best" across all languages.
-- **Reliable Stats Comparison**: Improved sorting logic and pre-fetching of historical data to ensure accurate "New Record" detection.
-- **Enhanced Activity Chart**: Improved deduplication and injection logic for the recent activity chart to ensure the latest session is always accurately reflected.
+- **Caching Headers**: Configured immutable caching for hashed assets, no-cache for HTML, and stale-while-revalidate for lesson data
+- **Security Headers**: Added X-Content-Type-Options and X-Frame-Options headers
+- **Sticky Header**: Homepage header now stays visible while scrolling
+- **Dynamic Lang Attribute**: HTML lang attribute now updates automatically on language change
 
-**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.3.1...v0.3.2
+**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.3.2...v0.4.0
