@@ -68,7 +68,17 @@ export function InputHandler({
 
       {/* 输入法组合文本预览 */}
       {isComposing && compositionText && (
-        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-lg shadow-lg text-lg font-medium">
+        <div
+          className="fixed bg-yellow-100 text-yellow-800 px-3 py-1 rounded-lg shadow-lg text-sm font-medium z-50 pointer-events-none"
+          style={cursorPosition ? {
+            left: `${cursorPosition.left}px`,
+            top: `${cursorPosition.top - 36}px`,
+          } : {
+            bottom: '2rem',
+            left: '50%',
+            transform: 'translateX(-50%)',
+          }}
+        >
           {compositionText}
         </div>
       )}
