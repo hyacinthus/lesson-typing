@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/generate-i18n-pages.cjs",
     "lint": "eslint .",
     "test": "node --experimental-strip-types src/utils/statsCalculator.test.ts",
     "preview": "vite preview"

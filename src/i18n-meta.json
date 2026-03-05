@@ -1,0 +1,45 @@
+{
+  "baseUrl": "https://lessontyping.com",
+  "languages": {
+    "en": {
+      "title": "Lesson Typing - Elementary School Typing Practice",
+      "description": "Free typing practice for elementary school students. Practice with real curriculum texts — nursery rhymes, poetry, and prose from Grades 1-6.",
+      "ogDescription": "Practice typing with familiar school texts. Track your speed and accuracy."
+    },
+    "zh": {
+      "title": "Lesson Typing - 小学语文课文打字练习",
+      "description": "免费小学语文打字练习。使用课本课文进行打字训练——涵盖1-6年级的儿歌、古诗和课文。",
+      "ogDescription": "使用学校课文练习打字，跟踪你的速度和准确率。"
+    },
+    "es": {
+      "title": "Lesson Typing - Práctica de mecanografía escolar",
+      "description": "Practica mecanografía con textos reales del currículo escolar. Mejora tu velocidad y precisión al escribir con lecciones de lengua de la escuela primaria.",
+      "ogDescription": "Practica mecanografía con textos del currículo escolar. ¡Mejora tu velocidad!"
+    },
+    "ja": {
+      "title": "Lesson Typing - 小学校国語のタイピング練習",
+      "description": "小学校の国語教科書の文章でタイピング練習。実際の教材を使って、タイピングの速度と正確さを楽しく向上させましょう。",
+      "ogDescription": "小学校の国語教科書でタイピング練習。速度と正確さを向上！"
+    },
+    "pt": {
+      "title": "Lesson Typing - Prática de Digitação do Ensino Fundamental",
+      "description": "Pratique digitação com textos reais do currículo escolar. Melhore sua velocidade e precisão ao digitar com lições de língua portuguesa do ensino fundamental.",
+      "ogDescription": "Pratique digitação com textos do currículo escolar. Melhore sua velocidade!"
+    },
+    "fr": {
+      "title": "Lesson Typing - Entraînement de dactylographie pour le primaire",
+      "description": "Entraînez-vous à la dactylographie avec des textes du programme scolaire. Améliorez votre vitesse et précision grâce aux leçons de français de l'école primaire.",
+      "ogDescription": "Entraînez-vous à la dactylographie avec des textes scolaires du primaire !"
+    },
+    "de": {
+      "title": "Lesson Typing - Tipptrainer für die Grundschule",
+      "description": "Übe das Tippen mit echten Texten aus dem Lehrplan der Grundschule. Verbessere deine Tippgeschwindigkeit und Genauigkeit mit Übungen aus dem Deutschunterricht.",
+      "ogDescription": "Übe Tippen mit Texten aus dem Grundschul-Lehrplan. Werde schneller!"
+    },
+    "it": {
+      "title": "Lesson Typing - Pratica di Dattilografia per la Scuola Primaria",
+      "description": "Pratica la dattilografia con testi reali del programma scolastico. Migliora la velocità e la precisione di battitura con le lezioni di italiano della scuola primaria.",
+      "ogDescription": "Pratica la dattilografia con testi del programma scolastico. Migliora subito!"
+    }
+  }
+}

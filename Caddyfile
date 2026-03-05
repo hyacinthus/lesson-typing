@@ -1,7 +1,8 @@
 :80 {
     root * /srv
     encode gzip zstd
-    try_files {path} /index.html
+    # SPA fallback: try exact path, then subdir index, then root
+    try_files {path} {path}/index.html /index.html
 
     # Security headers
     header Referrer-Policy strict-origin-when-cross-origin
@@ -11,8 +12,9 @@
     # Cache immutable assets (JS/CSS with hash in filename)
     header /assets/* Cache-Control "public, max-age=31536000, immutable"
 
-    # Don't cache HTML entry point
+    # Don't cache HTML entry points (root + language index files)
     header /index.html Cache-Control "no-cache, no-store, must-revalidate"
+    header /*/index.html Cache-Control "no-cache, no-store, must-revalidate"
 
     # Cache lesson data with revalidation
     header /lessons/* Cache-Control "public, max-age=3600, stale-while-revalidate=86400"

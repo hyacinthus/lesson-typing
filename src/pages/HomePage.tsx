@@ -6,6 +6,7 @@ import { Logo } from '../components/Logo';
 import { UserMenu } from '../components/auth/UserMenu';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { BookOpen, ChartLine, Keyboard } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import type { Lesson } from '../types';
 
 // Map i18n language codes to lesson language IDs
@@ -34,6 +35,7 @@ const LANGUAGE_MAP: Record<string, string> = {
 
 export function HomePage() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
   const { lessons, isLoading, error, loadLessons } = useLessonStore();
 
   const COLLECTION_STORAGE_KEY = 'lesson-typing-collection';
@@ -176,13 +178,13 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header / Top Bar */}
-      <div className="sticky top-0 bg-header text-header-foreground shadow-sm px-4 py-3 md:px-6 md:py-4 z-10">
+      <div className="sticky top-0 bg-header text-header-foreground shadow-sm px-4 py-3 md:px-6 md:py-4 z-10" data-nosnippet>
         {/* Row 1: Logo + UserMenu (mobile) / Full row (desktop) */}
         <div className="flex items-center justify-between md:justify-between gap-3">
           {/* Logo & Title */}
           <div className="flex items-center gap-2 md:gap-3 md:w-1/3 shrink-0">
             <Logo className="w-8 h-8 md:w-10 md:h-10 shadow-sm" />
-            <span className="text-lg md:text-xl font-bold tracking-tight">LessonTyping</span>
+            <span className="text-lg md:text-xl font-bold tracking-tight">Lesson Typing</span>
           </div>
 
           {/* Collection List - hidden on mobile row 1, shown on desktop */}
@@ -209,7 +211,7 @@ export function HomePage() {
           <div className="hidden md:flex justify-end items-center gap-4 w-1/3">
             <Select
               value={i18n.language.split('-')[0]}
-              onValueChange={(value) => i18n.changeLanguage(value)}
+              onValueChange={(value) => navigate(`/${value}/`)}
             >
               <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
                 <SelectValue />
@@ -254,7 +256,7 @@ export function HomePage() {
           </Select>
           <Select
             value={i18n.language.split('-')[0]}
-            onValueChange={(value) => i18n.changeLanguage(value)}
+            onValueChange={(value) => navigate(`/${value}/`)}
           >
             <SelectTrigger className="h-9 w-24 shrink-0 rounded-full border-gray-100 bg-white px-3 text-sm font-medium text-gray-600 shadow-sm">
               <SelectValue />
