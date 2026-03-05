@@ -1,12 +1,19 @@
-## v0.8.0 (2026-03-05)
+# v0.9.0
 
-### New Features
-- **Login prompt on results page** — When not logged in, the results screen now shows a message encouraging users to log in to track and analyze their results, with a login button that opens the unified login dialog
-- **Unified login dialog** — Extracted login dialog (Google, email sign-in, email sign-up) into a standalone component available from any page, ensuring consistent login experience across the app
+## What's Changed
 
-### Fixes
-- Fix OAuth redirect losing auth token hash fragment when routing through language subpaths
-- Fix "New Record" badge incorrectly showing for non-authenticated users
-- Unify action button styles on results page (consistent rounded corners and shadows)
+### Bug Fixes
+- **Comprehensive quality review and corrections for all 8 language lesson texts** — Fixed typos, spelling errors, factual inaccuracies, punctuation issues, and recalculated character counts across all 48 lesson files (Chinese, English, Japanese, French, German, Spanish, Portuguese, Italian)
+  - Chinese: Fixed quote formatting, typos (曹冲称象, 荷花, 普罗米修斯), historical error (开国大典), removed duplicate/AI-generated content
+  - English: Fixed tense errors, missing words, incorrect metadata, removed duplicate lessons
+  - Japanese: Fixed particle errors, katakana/hiragana confusion, classical text mistakes (徒然草, 論語)
+  - French: Fixed accent marks, typography, spelling corrections in La Fontaine/Molière/Flaubert texts
+  - German: Fixed grade progression inversion (swapped 8 stories between G3/G4↔G5), standardized Erlkönig spelling
+  - Spanish: Fixed accents, gender agreement, renamed misattributed lesson title
+  - Portuguese: Fixed spelling, tense, crase accent errors
+  - Italian: Fixed vocabulary and verb form errors
 
-**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.7.0...v0.8.0
+### Other
+- doc: a post
+
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.8.0...v0.9.0
