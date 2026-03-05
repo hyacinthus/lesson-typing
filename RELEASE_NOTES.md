@@ -1,3 +1,23 @@
+## v0.7.0 (2026-03-05)
+
+### What's New
+- **Multilingual SEO with i18n subpath routing** — Each language now has its own URL path (`/en/`, `/zh/`, `/es/`, `/ja/`, `/pt/`, `/fr/`, `/de/`, `/it/`), enabling Google to index each language version separately with localized titles, descriptions, and meta tags
+- Build-time template injection generates per-language `index.html` with localized Open Graph, Twitter Card, and Schema.org structured data
+- Automatic hreflang tags and multilingual sitemap for proper search engine language targeting
+- React Router integration with language-aware routing; language selector now updates URL
+- Root URL auto-detects user language from browser settings and redirects accordingly
+- Brand name updated to "Lesson Typing" (with space) for better readability in search results
+
+### Fixes
+- Fix typo in Grade 1 Chinese lesson (踢键 → 踢毽)
+
+### Chores
+- Remove supabase MCP configuration
+
+**Full diff**: https://github.com/hyacinthus/lesson-typing/compare/v0.6.0...v0.7.0
+
+---
+
 ## v0.6.0 (2026-03-04)
 
 ### Improvements
