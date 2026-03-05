@@ -1,3 +1,12 @@
+## v0.9.1 (2026-03-05)
+
+### Bug Fixes
+- Position IME composition overlay near the typing cursor instead of fixed at bottom-center of screen, improving visual association when using input methods (e.g., Chinese pinyin)
+
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.9.0...v0.9.1
+
+---
+
 ## v0.9.0 (2026-03-05)
 
 ### Bug Fixes
