@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate, useParams, Outlet } from 'react
 import { useTranslation } from 'react-i18next';
 import { Toaster } from '@/components/ui/sonner';
 import { LoginOverlay } from '@/components/ui/login-overlay';
+import { LoginDialog } from './components/auth/LoginDialog';
 import { HomePage } from './pages/HomePage';
 import { useAuthStore } from './stores/authStore';
 
@@ -18,7 +19,7 @@ function RootRedirect() {
     const browserLang = navigator.language?.split('-')[0];
     lang = SUPPORTED_LANGS.includes(browserLang) ? browserLang : 'en';
   }
-  return <Navigate to={`/${lang}/`} replace />;
+  return <Navigate to={`/${lang}/${window.location.hash}`} replace />;
 }
 
 function LangLayout() {
@@ -63,6 +64,7 @@ function App() {
           <Route index element={<HomePage />} />
         </Route>
       </Routes>
+      <LoginDialog />
       <LoginOverlay isVisible={isLoggingIn} />
       <Toaster />
     </BrowserRouter>

@@ -10,6 +10,8 @@ interface AuthState {
   isLoading: boolean;
   isProfileLoaded: boolean;
   isLoggingIn: boolean;
+  isLoginDialogOpen: boolean;
+  setLoginDialogOpen: (open: boolean) => void;
   setUser: (user: User | null) => void;
   setSession: (session: Session | null) => void;
   setProfile: (profile: Profile | null) => void;
@@ -96,6 +98,8 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   isLoading: true,
   isProfileLoaded: false,
   isLoggingIn: false,
+  isLoginDialogOpen: false,
+  setLoginDialogOpen: (open) => set({ isLoginDialogOpen: open }),
   setUser: (user) => set({ user }),
   setSession: (session) => set({ session, user: session?.user ?? null }),
   setProfile: (profile) => set({ profile }),

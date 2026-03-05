@@ -44,6 +44,7 @@ const resources = {
             },
             "auth": {
                 "login": "Login",
+                "login_prompt": "Log in to track and analyze your results.",
                 "logout": "Logout",
                 "edit_profile": "Edit Profile",
                 "welcome": "Welcome",
@@ -138,6 +139,7 @@ const resources = {
             },
             "auth": {
                 "login": "登录",
+                "login_prompt": "登录后可以记录和分析您的成绩。",
                 "logout": "退出登录",
                 "edit_profile": "编辑资料",
                 "welcome": "欢迎",
@@ -232,6 +234,7 @@ const resources = {
             },
             "auth": {
                 "login": "Iniciar sesión",
+                "login_prompt": "Inicia sesión para registrar y analizar tus resultados.",
                 "logout": "Cerrar sesión",
                 "edit_profile": "Editar perfil",
                 "welcome": "Bienvenido",
@@ -326,6 +329,7 @@ const resources = {
             },
             "auth": {
                 "login": "ログイン",
+                "login_prompt": "ログインすると成績を記録・分析できます。",
                 "logout": "ログアウト",
                 "edit_profile": "プロフィール編集",
                 "welcome": "ようこそ",
@@ -420,6 +424,7 @@ const resources = {
             },
             "auth": {
                 "login": "Entrar",
+                "login_prompt": "Faça login para registrar e analisar seus resultados.",
                 "logout": "Sair",
                 "edit_profile": "Editar Perfil",
                 "welcome": "Bem-vindo",
@@ -514,6 +519,7 @@ const resources = {
             },
             "auth": {
                 "login": "Connexion",
+                "login_prompt": "Connectez-vous pour enregistrer et analyser vos résultats.",
                 "logout": "Déconnexion",
                 "edit_profile": "Modifier le profil",
                 "welcome": "Bienvenue",
@@ -608,6 +614,7 @@ const resources = {
             },
             "auth": {
                 "login": "Anmelden",
+                "login_prompt": "Melde dich an, um deine Ergebnisse zu speichern und zu analysieren.",
                 "logout": "Abmelden",
                 "edit_profile": "Profil bearbeiten",
                 "welcome": "Willkommen",
@@ -702,6 +709,7 @@ const resources = {
             },
             "auth": {
                 "login": "Accedi",
+                "login_prompt": "Accedi per registrare e analizzare i tuoi risultati.",
                 "logout": "Esci",
                 "edit_profile": "Modifica profilo",
                 "welcome": "Benvenuto",

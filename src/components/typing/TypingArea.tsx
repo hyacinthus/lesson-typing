@@ -5,6 +5,7 @@ import { CharacterRenderer } from './CharacterRenderer';
 import { InputHandler } from './InputHandler';
 import { StatsPanel } from './StatsPanel';
 import { RecentActivityChart } from './RecentActivityChart';
+import { useAuthStore } from '../../stores/authStore';
 
 interface TypingAreaProps {
   characters: Character[];
@@ -34,6 +35,8 @@ export function TypingArea({
   lessonId,
 }: TypingAreaProps) {
   const { t } = useTranslation();
+  const user = useAuthStore((s) => s.user);
+  const setLoginDialogOpen = useAuthStore((s) => s.setLoginDialogOpen);
   const inputId = 'typing-input-area';
   const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number; height: number } | null>(null);
 
@@ -153,7 +156,7 @@ export function TypingArea({
         >
           <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-3 md:mb-4">
             {t('results')}
-            {(!bestRecord || (stats.accuracy > bestRecord.accuracy || (stats.accuracy === bestRecord.accuracy && stats.cpm > bestRecord.cpm))) && (
+            {user && (!bestRecord || (stats.accuracy > bestRecord.accuracy || (stats.accuracy === bestRecord.accuracy && stats.cpm > bestRecord.cpm))) && (
               <span className="text-primary ml-2 animate-pulse text-base md:text-3xl">({t('new_record')})</span>
             )}
           </h2>
@@ -264,17 +267,29 @@ export function TypingArea({
             </div>
           )}
 
+          {!user && (
+            <p className="text-sm text-gray-500 mb-4 md:mb-6 text-center">{t('auth.login_prompt')}</p>
+          )}
+
           <div className="flex gap-3 md:gap-4 justify-center">
+            {!user && (
+              <button
+                onClick={() => setLoginDialogOpen(true)}
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-2.5 md:py-3 px-6 md:px-8 rounded-lg shadow-sm hover:shadow-md transition-all text-sm md:text-base"
+              >
+                {t('auth.login')}
+              </button>
+            )}
             <button
               onClick={onRestart}
-              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-2.5 md:py-3 px-6 md:px-8 rounded-lg transition-colors text-sm md:text-base"
+              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-2.5 md:py-3 px-6 md:px-8 rounded-lg shadow-sm hover:shadow-md transition-all text-sm md:text-base"
             >
               {t('restart')}
             </button>
             {onNextLesson && (
               <button
                 onClick={onNextLesson}
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-2.5 md:py-3 px-6 md:px-8 rounded-full shadow-sm hover:shadow-md transition-all text-sm md:text-base"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-2.5 md:py-3 px-6 md:px-8 rounded-lg shadow-sm hover:shadow-md transition-all text-sm md:text-base"
               >
                 {t('next_lesson')}
               </button>

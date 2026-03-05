@@ -131,7 +131,7 @@ const redirectHtml = `<!doctype html>
         try { stored = localStorage.getItem('lesson-typing-language') || ''; } catch(e) {}
         var nav = (navigator.language || '').split('-')[0].toLowerCase();
         var lang = (supported.indexOf(stored) !== -1 ? stored : (supported.indexOf(nav) !== -1 ? nav : 'en'));
-        location.replace('/' + lang + '/');
+        location.replace('/' + lang + '/' + location.hash);
       })();
     </script>
   </head>
