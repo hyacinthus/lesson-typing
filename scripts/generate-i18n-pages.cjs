@@ -21,7 +21,7 @@ const hreflangTags = [
   ...languages.map(
     (lang) => `<link rel="alternate" hreflang="${lang}" href="${baseUrl}/${lang}/" />`
   ),
-  `<link rel="alternate" hreflang="x-default" href="${baseUrl}/" />`,
+  `<link rel="alternate" hreflang="x-default" href="${baseUrl}/en/" />`,
 ].join('\n    ');
 
 // ---------------------------------------------------------------------------
@@ -122,6 +122,7 @@ const redirectHtml = `<!doctype html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lesson Typing</title>
     <meta name="robots" content="noindex" />
+    <link rel="canonical" href="${baseUrl}/en/" />
     ${hreflangTags}
     <noscript><meta http-equiv="refresh" content="0;url=/en/" /></noscript>
     <script>
@@ -154,14 +155,12 @@ const allLangs = [...languages, 'x-default'];
 function buildAlternates(url) {
   return languages
     .map((l) => `      <xhtml:link rel="alternate" hreflang="${l}" href="${baseUrl}/${l}/" />`)
-    .concat([`      <xhtml:link rel="alternate" hreflang="x-default" href="${baseUrl}/" />`])
+    .concat([`      <xhtml:link rel="alternate" hreflang="x-default" href="${baseUrl}/en/" />`])
     .join('\n');
 }
 
 const urlEntries = [
-  // Root URL entry
-  `  <url>\n    <loc>${baseUrl}/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n${buildAlternates(baseUrl)}\n  </url>`,
-  // Per-language entries
+  // Per-language entries (root URL excluded — it is a noindex redirect)
   ...languages.map(
     (lang) =>
       `  <url>\n    <loc>${baseUrl}/${lang}/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n${buildAlternates(`${baseUrl}/${lang}/`)}\n  </url>`
