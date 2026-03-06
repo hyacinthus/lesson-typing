@@ -1,3 +1,13 @@
+## v0.9.2 (2026-03-07)
+
+### Bug Fixes
+- Fix Google Search Console "Duplicate without user-selected canonical" issue: added canonical tag to root redirect page, removed conflicting root URL from sitemap, updated `x-default` hreflang to point to `/en/`
+- npm audit fix
+
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.9.1...v0.9.2
+
+---
+
 ## v0.9.1 (2026-03-05)
 
 ### Bug Fixes
