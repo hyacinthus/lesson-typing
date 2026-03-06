@@ -7,7 +7,7 @@ import { LoginDialog } from './components/auth/LoginDialog';
 import { HomePage } from './pages/HomePage';
 import { useAuthStore } from './stores/authStore';
 
-const SUPPORTED_LANGS = ['en', 'zh', 'es', 'ja', 'pt', 'fr', 'de', 'it'];
+const SUPPORTED_LANGS = ['en', 'zh', 'es', 'ja', 'ko', 'pt', 'fr', 'de', 'it'];
 const LANG_STORAGE_KEY = 'lesson-typing-language';
 
 function RootRedirect() {

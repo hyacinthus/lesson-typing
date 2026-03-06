@@ -127,6 +127,48 @@
       ]
     },
     {
+      "id": "korean",
+      "name": "한국어",
+      "collections": [
+        {
+          "id": "korean-grade-1",
+          "name": "1학년",
+          "path": "korean/grade-1.json",
+          "collectionId": "grade-1"
+        },
+        {
+          "id": "korean-grade-2",
+          "name": "2학년",
+          "path": "korean/grade-2.json",
+          "collectionId": "grade-2"
+        },
+        {
+          "id": "korean-grade-3",
+          "name": "3학년",
+          "path": "korean/grade-3.json",
+          "collectionId": "grade-3"
+        },
+        {
+          "id": "korean-grade-4",
+          "name": "4학년",
+          "path": "korean/grade-4.json",
+          "collectionId": "grade-4"
+        },
+        {
+          "id": "korean-grade-5",
+          "name": "5학년",
+          "path": "korean/grade-5.json",
+          "collectionId": "grade-5"
+        },
+        {
+          "id": "korean-grade-6",
+          "name": "6학년",
+          "path": "korean/grade-6.json",
+          "collectionId": "grade-6"
+        }
+      ]
+    },
+    {
       "id": "spanish",
       "name": "Español",
       "collections": [

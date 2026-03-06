@@ -22,6 +22,8 @@ const LANGUAGE_MAP: Record<string, string> = {
   'es-MX': 'spanish',
   'ja': 'japanese',
   'ja-JP': 'japanese',
+  'ko': 'korean',
+  'ko-KR': 'korean',
   'pt': 'portuguese',
   'pt-BR': 'portuguese',
   'pt-PT': 'portuguese',
@@ -221,6 +223,7 @@ export function HomePage() {
                 <SelectItem value="zh">中文</SelectItem>
                 <SelectItem value="es">Español</SelectItem>
                 <SelectItem value="ja">日本語</SelectItem>
+                <SelectItem value="ko">한국어</SelectItem>
                 <SelectItem value="pt">Português</SelectItem>
                 <SelectItem value="fr">Français</SelectItem>
                 <SelectItem value="de">Deutsch</SelectItem>
@@ -266,6 +269,7 @@ export function HomePage() {
               <SelectItem value="zh">中文</SelectItem>
               <SelectItem value="es">Español</SelectItem>
               <SelectItem value="ja">日本語</SelectItem>
+              <SelectItem value="ko">한국어</SelectItem>
               <SelectItem value="pt">Português</SelectItem>
               <SelectItem value="fr">Français</SelectItem>
               <SelectItem value="de">Deutsch</SelectItem>
