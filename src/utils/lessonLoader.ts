@@ -1,92 +1,102 @@
-import type { Lesson, LessonIndex, LessonCollection } from '../types';
+import type { Lesson } from '../types';
 import type { Character } from '../types/typing.types.ts';
 import { CharacterStatus } from '../types/typing.types.ts';
+import { supabase } from '../lib/supabase';
 
-// 缓存已加载的课文
-const lessonCache = new Map<string, LessonCollection>();
-let indexCache: LessonIndex | null = null;
+// Cache loaded lessons by language
+const lessonsByLanguage = new Map<string, Lesson[]>();
 
-/**
- * 加载课文索引
- */
-export async function loadLessonIndex(): Promise<LessonIndex> {
-  if (indexCache) {
-    return indexCache;
-  }
-
-  const response = await fetch(`/lessons/index.json?v=${__APP_VERSION__}`);
-  if (!response.ok) {
-    throw new Error('Failed to load lesson index');
-  }
-
-  const data = await response.json() as LessonIndex;
-  indexCache = data;
-  return data;
+// Map collection_id to display title (e.g. "grade-1" -> "Grade 1")
+function collectionTitle(collectionId: string): string {
+  const num = collectionId.replace('grade-', '');
+  return `Grade ${num}`;
 }
 
 /**
- * 加载指定集合的课文列表
+ * Convert a Supabase row to a Lesson object
  */
-export async function loadLessonCollection(path: string): Promise<LessonCollection> {
-  if (lessonCache.has(path)) {
-    return lessonCache.get(path)!;
-  }
-
-  const response = await fetch(`/lessons/${path}?v=${__APP_VERSION__}`);
-  if (!response.ok) {
-    throw new Error(`Failed to load lessons for path: ${path}`);
-  }
-
-  const data = await response.json();
-  lessonCache.set(path, data);
-  return data;
+function rowToLesson(row: Record<string, unknown>): Lesson {
+  return {
+    id: row.id as string,
+    title: row.title as string,
+    collectionTitle: collectionTitle(row.collection_id as string),
+    collectionId: row.collection_id as string,
+    language: row.language as string,
+    category: (row.category as string) || undefined,
+    difficulty: row.difficulty as number,
+    order: row.sort_order as number,
+    content: row.content as string,
+    characterCount: row.character_count as number,
+    chineseCharCount: row.chinese_char_count as number,
+  };
 }
 
 /**
- * 加载所有课文
+ * Load all lessons for a specific language from Supabase
  */
-export async function loadAllLessons(): Promise<Lesson[]> {
-  const index = await loadLessonIndex();
-  const allLessons: Lesson[] = [];
-  const promises: Promise<{ data: LessonCollection; language: string; collectionId: string }>[] = [];
-
-  for (const lang of index.languages) {
-    for (const collection of lang.collections) {
-      promises.push(
-        loadLessonCollection(collection.path).then((data) => ({
-          data,
-          language: lang.id,
-          collectionId: collection.collectionId || collection.id,
-        }))
-      );
-    }
+export async function loadLessonsByLanguage(language: string): Promise<Lesson[]> {
+  if (lessonsByLanguage.has(language)) {
+    return lessonsByLanguage.get(language)!;
   }
 
-  const results = await Promise.all(promises);
+  const { data, error } = await supabase
+    .from('lt_lessons')
+    .select('*')
+    .eq('language', language)
+    .order('collection_id')
+    .order('sort_order');
 
-  for (const { data: collectionData, language, collectionId } of results) {
-    const lessonsWithCollection = collectionData.lessons.map((lesson) => ({
-      ...lesson,
-      collectionTitle: collectionData.title,
-      collectionId: collectionId,
-      language: language,
-    }));
-    allLessons.push(...lessonsWithCollection);
+  if (error) {
+    throw new Error(`Failed to load lessons for ${language}: ${error.message}`);
   }
 
-  return allLessons;
+  const lessons = (data || []).map(rowToLesson);
+  lessonsByLanguage.set(language, lessons);
+  return lessons;
 }
 
 /**
- * 根据ID查找课文
+ * Load a single lesson by ID from Supabase
  */
 export async function findLessonById(id: string): Promise<Lesson | null> {
-  const allLessons = await loadAllLessons();
-  return allLessons.find(lesson => lesson.id === id) || null;
+  // Check cache first
+  for (const lessons of lessonsByLanguage.values()) {
+    const found = lessons.find(l => l.id === id);
+    if (found) return found;
+  }
+
+  // Query DB
+  const { data, error } = await supabase
+    .from('lt_lessons')
+    .select('*')
+    .eq('id', id)
+    .single();
+
+  if (error || !data) return null;
+  return rowToLesson(data);
 }
 
 /**
- * 将课文内容转换为字符数组
+ * Get available languages from Supabase
+ */
+export async function getAvailableLanguages(): Promise<string[]> {
+  const { data, error } = await supabase
+    .from('lt_lessons')
+    .select('language')
+    .limit(1000);
+
+  if (error) {
+    throw new Error(`Failed to load available languages: ${error.message}`);
+  }
+
+  const unique = [...new Set((data || []).map(r => r.language as string))];
+  return unique;
+}
+
+// Keep utility functions unchanged
+
+/**
+ * Convert lesson content to character array
  */
 export function lessonToCharacters(content: string): Character[] {
   return Array.from(content).map((char, index) => ({
@@ -98,14 +108,14 @@ export function lessonToCharacters(content: string): Character[] {
 }
 
 /**
- * 判断是否为中文字符
+ * Check if a character is Chinese
  */
 export function isChineseCharacter(char: string): boolean {
   return /[\u4e00-\u9fa5]/.test(char);
 }
 
 /**
- * 统计课文字符数
+ * Count lesson characters
  */
 export function countLessonCharacters(content: string): {
   total: number;
@@ -114,6 +124,5 @@ export function countLessonCharacters(content: string): {
   const chars = Array.from(content);
   const total = chars.length;
   const chinese = chars.filter(isChineseCharacter).length;
-
   return { total, chinese };
 }

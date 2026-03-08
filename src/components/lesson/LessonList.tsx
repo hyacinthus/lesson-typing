@@ -1,30 +1,25 @@
 import { useEffect, useMemo } from 'react';
 import type { Lesson } from '../../types';
-import { useLessonStore } from '../../stores/lessonStore';
+import { useLessonStore, getLessonLanguage } from '../../stores/lessonStore';
 import { useHistoryStore } from '../../stores/historyStore';
 import { LessonCard } from './LessonCard';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 export function LessonList() {
-  const { lessons, isLoading, error, loadLessons } = useLessonStore();
+  const { lessons, isLoading, error, loadLessonsByLang } = useLessonStore();
   const getLessonStats = useHistoryStore((state) => state.getLessonStats);
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    loadLessons();
-  }, [loadLessons]);
+    loadLessonsByLang(i18n.language);
+  }, [loadLessonsByLang, i18n.language]);
 
   const filteredLessons = useMemo(() => {
-    return lessons.filter((lesson) => {
-      if (i18n.language.startsWith('zh')) {
-        return lesson.language === 'chinese';
-      } else if (i18n.language.startsWith('en')) {
-        return lesson.language === 'english';
-      }
-      return true;
-    });
+    const targetLessonLang = getLessonLanguage(i18n.language);
+    if (!targetLessonLang) return [];
+    return lessons.filter((lesson) => lesson.language === targetLessonLang);
   }, [lessons, i18n.language]);
 
   const groupedLessons = useMemo(() => {

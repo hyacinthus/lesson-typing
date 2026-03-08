@@ -1,10 +1,10 @@
 /**
- * 课文元数据
+ * Lesson metadata (without content)
  */
 export interface LessonMetadata {
   id: string;
   title: string;
-  collectionTitle: string; // was grade
+  collectionTitle: string;
   category?: string;
   difficulty: number;
   characterCount: number;
@@ -13,47 +13,18 @@ export interface LessonMetadata {
 }
 
 /**
- * 课文数据
+ * Full lesson data from Supabase lt_lessons table
  */
 export interface Lesson {
   id: string;
   title: string;
-  collectionTitle: string; // was grade
-  collectionId: string; // was gradeId
-  language?: string;
+  collectionTitle: string;
+  collectionId: string;
+  language: string;
   category?: string;
   difficulty: number;
   order: number;
   content: string;
   characterCount: number;
   chineseCharCount: number;
-}
-
-/**
- * 课文集合（原年级）
- */
-export interface LessonCollection {
-  id: string;
-  title: string; // was grade
-  lessons: Lesson[];
-}
-
-/**
- * 课文索引
- */
-export interface LessonIndex {
-  languages: LanguageConfig[];
-}
-
-export interface LanguageConfig {
-  id: string;
-  name: string;
-  collections: CollectionConfig[]; // was grades
-}
-
-export interface CollectionConfig {
-  id: string;
-  collectionId: string; // was gradeId
-  name: string;
-  path: string;
 }

@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useLessonStore } from '../stores/lessonStore';
+import { useLessonStore, getLessonLanguage } from '../stores/lessonStore';
 import { LessonPractice } from '../components/lesson/LessonPractice';
 import { Logo } from '../components/Logo';
 import { UserMenu } from '../components/auth/UserMenu';
@@ -9,36 +9,11 @@ import { BookOpen, ChartLine, Keyboard } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import type { Lesson } from '../types';
 
-// Map i18n language codes to lesson language IDs
-const LANGUAGE_MAP: Record<string, string> = {
-  'zh': 'chinese',
-  'zh-CN': 'chinese',
-  'zh-TW': 'chinese',
-  'en': 'english',
-  'en-US': 'english',
-  'en-GB': 'english',
-  'es': 'spanish',
-  'es-ES': 'spanish',
-  'es-MX': 'spanish',
-  'ja': 'japanese',
-  'ja-JP': 'japanese',
-  'ko': 'korean',
-  'ko-KR': 'korean',
-  'pt': 'portuguese',
-  'pt-BR': 'portuguese',
-  'pt-PT': 'portuguese',
-  'fr': 'french',
-  'fr-FR': 'french',
-  'de': 'german',
-  'de-DE': 'german',
-  'it': 'italian',
-  'it-IT': 'italian',
-};
 
 export function HomePage() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const { lessons, isLoading, error, loadLessons } = useLessonStore();
+  const { lessons, isLoading, error, loadLessonsByLang, preloadEnglish } = useLessonStore();
 
   const COLLECTION_STORAGE_KEY = 'lesson-typing-collection';
   const PRACTICE_STATE = 'practice';
@@ -46,8 +21,15 @@ export function HomePage() {
   const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
 
   useEffect(() => {
-    loadLessons();
-  }, [loadLessons]);
+    loadLessonsByLang(i18n.language);
+  }, [loadLessonsByLang, i18n.language]);
+
+  useEffect(() => {
+    const lang = getLessonLanguage(i18n.language);
+    if (lang && lang !== 'english') {
+      preloadEnglish();
+    }
+  }, [i18n.language, preloadEnglish]);
 
   useEffect(() => {
     const handlePopState = () => {
@@ -66,18 +48,9 @@ export function HomePage() {
     window.history.pushState({ view: PRACTICE_STATE }, '', window.location.href);
   }, [activeLesson]);
 
-  // Filter lessons based on current language
   const filteredLessons = useMemo(() => {
-    const currentLang = i18n.language;
-    // Try exact match first, then base language (e.g. 'zh-CN' -> 'zh')
-    const targetLessonLang = LANGUAGE_MAP[currentLang] || LANGUAGE_MAP[currentLang.split('-')[0]];
-
-    if (!targetLessonLang) {
-      // If no mapping found, return empty or fallback to default?
-      // For safety, return empty array to avoid showing wrong language content
-      return [];
-    }
-
+    const targetLessonLang = getLessonLanguage(i18n.language);
+    if (!targetLessonLang) return [];
     return lessons.filter((lesson) => lesson.language === targetLessonLang);
   }, [lessons, i18n.language]);
 
