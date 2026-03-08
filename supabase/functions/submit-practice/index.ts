@@ -71,6 +71,20 @@ Deno.serve(async (req: Request) => {
       )
     }
 
+    // Look up lesson from database to validate character count
+    const { data: lessonData, error: lessonError } = await supabaseAdmin
+      .from('lt_lessons')
+      .select('character_count')
+      .eq('id', session.lesson_id)
+      .single()
+
+    if (lessonError || !lessonData) {
+      return new Response(
+        JSON.stringify({ error: 'Lesson not found' }),
+        { headers: { ...corsHeaders, 'Content-Type': 'application/json' }, status: 400 }
+      )
+    }
+
     // --- Anti-cheat validation ---
     const serverStartTime = new Date(session.created_at).getTime()
     const now = Date.now()
@@ -84,6 +98,12 @@ Deno.serve(async (req: Request) => {
     if (wpm > 150 || cpm > 750) {
       isValid = false
       cheatReason = 'Impossible speed'
+    }
+
+    // Character count validation against server-side lesson data
+    if (isValid && totalChars !== lessonData.character_count) {
+      isValid = false
+      cheatReason = 'Character count mismatch'
     }
 
     // Duration upper-bound check

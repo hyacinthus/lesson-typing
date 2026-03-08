@@ -21,7 +21,7 @@
 - shadcn/ui
 
 ## Data Maintenance
-- After editing `lessons/**/grade-*.json`, run `node scripts/sync-lessons.cjs`
+- After editing `lessons/**/grade-*.json`, run `npm run sync`
 
 ## Rules
 - All code must be in English

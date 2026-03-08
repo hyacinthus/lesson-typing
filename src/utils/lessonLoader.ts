@@ -76,24 +76,6 @@ export async function findLessonById(id: string): Promise<Lesson | null> {
   return rowToLesson(data);
 }
 
-/**
- * Get available languages from Supabase
- */
-export async function getAvailableLanguages(): Promise<string[]> {
-  const { data, error } = await supabase
-    .from('lt_lessons')
-    .select('language')
-    .limit(1000);
-
-  if (error) {
-    throw new Error(`Failed to load available languages: ${error.message}`);
-  }
-
-  const unique = [...new Set((data || []).map(r => r.language as string))];
-  return unique;
-}
-
-// Keep utility functions unchanged
 
 /**
  * Convert lesson content to character array

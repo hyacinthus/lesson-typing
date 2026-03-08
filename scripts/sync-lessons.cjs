@@ -30,7 +30,13 @@ async function syncLessons() {
 
     for (const file of files) {
       const filePath = path.join(langDir, file);
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      let data;
+      try {
+        data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      } catch (e) {
+        console.error(`Failed to parse ${filePath}:`, e.message);
+        process.exit(1);
+      }
       const collectionId = data.id; // e.g. "grade-1"
 
       for (const lesson of data.lessons) {
