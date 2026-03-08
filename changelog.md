@@ -1,19 +1,9 @@
-# v0.9.0
+## v0.10.0 (2026-03-07)
 
-## What's Changed
+### New Features
+- **Add Korean (한국어) as the 9th supported language** — Full support including UI translations, SEO metadata, routing, and 120 lessons across 6 grades:
+  - Grade 1-2: Korean folk tales (전래동화) and children's poems (동시) — 콩쥐팥쥐, 흥부와 놀부, 토끼와 거북이, 의좋은 형제, 삼년고개, and more
+  - Grade 3-4: Legends (설화), essays, poetry, and Korean history — 단군 신화, 춘향전, 심청전, 을지문덕, 이순신, 정지용, 김영랑
+  - Grade 5-6: Classic Korean literature — 김소월 (진달래꽃, 산유화), 윤동주 (서시, 별 헤는 밤), 한용운 (님의 침묵), 김유정 (봄봄, 동백꽃), and modern Korean history
 
-### Bug Fixes
-- **Comprehensive quality review and corrections for all 8 language lesson texts** — Fixed typos, spelling errors, factual inaccuracies, punctuation issues, and recalculated character counts across all 48 lesson files (Chinese, English, Japanese, French, German, Spanish, Portuguese, Italian)
-  - Chinese: Fixed quote formatting, typos (曹冲称象, 荷花, 普罗米修斯), historical error (开国大典), removed duplicate/AI-generated content
-  - English: Fixed tense errors, missing words, incorrect metadata, removed duplicate lessons
-  - Japanese: Fixed particle errors, katakana/hiragana confusion, classical text mistakes (徒然草, 論語)
-  - French: Fixed accent marks, typography, spelling corrections in La Fontaine/Molière/Flaubert texts
-  - German: Fixed grade progression inversion (swapped 8 stories between G3/G4↔G5), standardized Erlkönig spelling
-  - Spanish: Fixed accents, gender agreement, renamed misattributed lesson title
-  - Portuguese: Fixed spelling, tense, crase accent errors
-  - Italian: Fixed vocabulary and verb form errors
-
-### Other
-- doc: a post
-
-**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.8.0...v0.9.0
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.9.2...v0.10.0
