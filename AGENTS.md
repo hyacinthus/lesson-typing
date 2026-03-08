@@ -10,8 +10,7 @@
 
 ## Project Layout
 - `src/` frontend code
-- `public/lessons/` lesson data
-- `public/lessons/index.json` lesson index
+- `lessons/` lesson data (synced to Supabase, not served to frontend)
 - `agent_docs/` project conventions
 
 ## Tech Stack
@@ -22,7 +21,7 @@
 - shadcn/ui
 
 ## Data Maintenance
-- After editing `public/lessons/**/grade-*.json`, run `node rebuild_index.cjs`
+- After editing `lessons/**/grade-*.json`, run `node scripts/sync-lessons.cjs`
 
 ## Rules
 - All code must be in English
