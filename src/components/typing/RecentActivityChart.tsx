@@ -62,14 +62,15 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
 
     const chartData = useMemo(() => {
         if (logs.length < 3) return [];
-        return logs.map((log) => {
+        return logs.map((log, index) => {
             const date = new Date(log.completedAt);
             const isToday = date.toDateString() === new Date().toDateString();
             const timeStr = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
             const dateStr = `${date.getMonth() + 1}/${date.getDate()} ${timeStr}`;
 
             return {
-                name: isToday ? timeStr : dateStr,
+                index,
+                label: isToday ? timeStr : dateStr,
                 cpm: log.cpm,
                 wpm: log.wpm,
                 accuracy: log.accuracy,
@@ -103,11 +104,12 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
                         </defs>
                         <CartesianGrid strokeDasharray="3 3" vertical={false} />
                         <XAxis
-                            dataKey="name"
+                            dataKey="index"
                             tickLine={false}
                             axisLine={false}
                             tickMargin={12}
                             minTickGap={15}
+                            tickFormatter={(index: number) => chartData[index]?.label ?? ''}
                         />
                         <YAxis
                             dataKey="cpm"
@@ -116,12 +118,12 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
                             tickMargin={8}
                         />
                         <Tooltip
-                            content={({ active, payload, label }) => {
+                            content={({ active, payload }) => {
                                 if (active && payload && payload.length) {
                                     const data = payload[0].payload;
                                     return (
                                         <div className="bg-background border border-border/50 p-3 rounded-lg shadow-xl text-sm min-w-[10rem]">
-                                            <p className="font-bold mb-3 text-foreground border-b border-border/50 pb-2">{label}</p>
+                                            <p className="font-bold mb-3 text-foreground border-b border-border/50 pb-2">{data.label}</p>
                                             <div className="grid gap-2">
                                                 <div className="flex justify-between gap-6">
                                                     <span className="text-muted-foreground">{t('stats.char_speed')}</span>
