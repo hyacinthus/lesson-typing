@@ -3,11 +3,12 @@ import { BookOpen, Clock, Target } from 'lucide-react';
 
 interface LessonCardProps {
   lesson: Lesson;
+  collectionName?: string;
   stats?: LessonStats;
   onSelect: () => void;
 }
 
-export function LessonCard({ lesson, stats, onSelect }: LessonCardProps) {
+export function LessonCard({ lesson, collectionName, stats, onSelect }: LessonCardProps) {
   return (
     <div
       className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow cursor-pointer"
@@ -18,7 +19,7 @@ export function LessonCard({ lesson, stats, onSelect }: LessonCardProps) {
           <h3 className="text-xl font-bold text-gray-900 mb-1">{lesson.title}</h3>
           <div className="flex gap-2 text-sm">
             <span className="bg-[#e3f2fd] text-[#1976d2] px-2 py-1 rounded">
-              {lesson.collectionTitle}
+              {collectionName ?? lesson.collectionId}
             </span>
             {lesson.category && (
               <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded">

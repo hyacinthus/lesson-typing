@@ -4,7 +4,6 @@
 export interface LessonMetadata {
   id: string;
   title: string;
-  collectionTitle: string;
   category?: string;
   difficulty: number;
   characterCount: number;
@@ -18,7 +17,6 @@ export interface LessonMetadata {
 export interface Lesson {
   id: string;
   title: string;
-  collectionTitle: string;
   collectionId: string;
   language: string;
   category?: string;
@@ -27,4 +25,10 @@ export interface Lesson {
   content: string;
   characterCount: number;
   chineseCharCount: number;
+}
+
+export interface Collection {
+  id: string;
+  name: string;
+  sortOrder: number;
 }

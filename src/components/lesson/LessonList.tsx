@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 export function LessonList() {
-  const { lessons, isLoading, error, loadLessonsByLang } = useLessonStore();
+  const { lessons, collections, isLoading, error, loadLessonsByLang } = useLessonStore();
   const getLessonStats = useHistoryStore((state) => state.getLessonStats);
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
@@ -22,14 +22,20 @@ export function LessonList() {
     return lessons.filter((lesson) => lesson.language === targetLessonLang);
   }, [lessons, i18n.language]);
 
+  const collectionNameMap = useMemo(() => {
+    const map = new Map<string, string>();
+    collections.forEach(c => map.set(c.id, c.name));
+    return map;
+  }, [collections]);
+
   const groupedLessons = useMemo(() => {
-    const groups: { title: string; lessons: Lesson[] }[] = [];
+    const groups: { collectionId: string; lessons: Lesson[] }[] = [];
     filteredLessons.forEach((lesson) => {
       const lastGroup = groups[groups.length - 1];
-      if (lastGroup && lastGroup.title === lesson.collectionTitle) {
+      if (lastGroup && lastGroup.collectionId === lesson.collectionId) {
         lastGroup.lessons.push(lesson);
       } else {
-        groups.push({ title: lesson.collectionTitle, lessons: [lesson] });
+        groups.push({ collectionId: lesson.collectionId, lessons: [lesson] });
       }
     });
     return groups;
@@ -60,15 +66,16 @@ export function LessonList() {
       <h1 className="text-3xl font-bold text-gray-900 mb-8 mt-8">{t('select_grade')}</h1>
 
       {groupedLessons.map((group) => (
-        <div key={group.title} className="mb-10">
+        <div key={group.collectionId} className="mb-10">
           <h2 className="text-xl font-bold text-gray-800 mb-4 border-l-4 border-primary pl-3">
-            {group.title}
+            {collectionNameMap.get(group.collectionId) ?? group.collectionId}
           </h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {group.lessons.map((lesson) => (
               <LessonCard
                 key={lesson.id}
                 lesson={lesson}
+                collectionName={collectionNameMap.get(lesson.collectionId)}
                 stats={getLessonStats(lesson.id)}
                 onSelect={() => handleLessonClick(lesson)}
               />

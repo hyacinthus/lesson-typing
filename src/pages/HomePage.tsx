@@ -13,7 +13,7 @@ import type { Lesson } from '../types';
 export function HomePage() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const { lessons, isLoading, error, loadLessonsByLang, preloadEnglish } = useLessonStore();
+  const { lessons, collections, isLoading, error, loadLessonsByLang, preloadEnglish } = useLessonStore();
 
   const COLLECTION_STORAGE_KEY = 'lesson-typing-collection';
   const PRACTICE_STATE = 'practice';
@@ -54,24 +54,6 @@ export function HomePage() {
     return lessons.filter((lesson) => lesson.language === targetLessonLang);
   }, [lessons, i18n.language]);
 
-  // Extract unique collections from filtered lessons
-  const collections = useMemo(() => {
-    const uniqueMap = new Map();
-    filteredLessons.forEach((l) => {
-      if (!uniqueMap.has(l.collectionId)) {
-        uniqueMap.set(l.collectionId, { id: l.collectionId, name: l.collectionTitle });
-      }
-    });
-    // Sort by collectionId if possible (assuming format grade-N)
-    return Array.from(uniqueMap.values()).sort((a, b) => {
-      // Simple numeric sort if format is grade-N
-      const numA = parseInt(a.id.replace('grade-', ''));
-      const numB = parseInt(b.id.replace('grade-', ''));
-      if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
-      return a.id.localeCompare(b.id);
-    });
-  }, [filteredLessons]);
-
   const currentCollectionId = useMemo(() => {
     if (selectedCollection && collections.some(c => c.id === selectedCollection)) {
       return selectedCollection;
@@ -103,7 +85,7 @@ export function HomePage() {
     if (!activeLesson || filteredLessons.length === 0) return;
 
     // Filter by same collection as current active lesson
-    const sameCollectionLessons = filteredLessons.filter(l => l.collectionTitle === activeLesson.collectionTitle);
+    const sameCollectionLessons = filteredLessons.filter(l => l.collectionId === activeLesson.collectionId);
     const pool = sameCollectionLessons.length > 0 ? sameCollectionLessons : filteredLessons;
 
     if (pool.length === 0) return;

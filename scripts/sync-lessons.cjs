@@ -23,6 +23,7 @@ async function syncLessons() {
   );
 
   const allRows = [];
+  const allCollections = [];
 
   for (const language of languages) {
     const langDir = path.join(lessonsDir, language);
@@ -38,6 +39,15 @@ async function syncLessons() {
         process.exit(1);
       }
       const collectionId = data.id; // e.g. "grade-1"
+
+      // Extract collection metadata
+      const sortMatch = collectionId.match(/(\d+)$/);
+      allCollections.push({
+        id: collectionId,
+        language,
+        name: data.title,
+        sort_order: sortMatch ? parseInt(sortMatch[1], 10) : 0,
+      });
 
       for (const lesson of data.lessons) {
         allRows.push({
@@ -58,7 +68,20 @@ async function syncLessons() {
 
   console.log(`Found ${allRows.length} lessons across ${languages.length} languages`);
 
-  // Upsert in batches of 100
+  // Upsert collections first (parent table)
+  if (allCollections.length > 0) {
+    const { error: collError } = await supabase
+      .from('lt_collections')
+      .upsert(allCollections, { onConflict: 'id,language' });
+
+    if (collError) {
+      console.error('Error upserting collections:', collError);
+      process.exit(1);
+    }
+    console.log(`Upserted ${allCollections.length} collections`);
+  }
+
+  // Upsert lessons in batches of 100
   const batchSize = 100;
   for (let i = 0; i < allRows.length; i += batchSize) {
     const batch = allRows.slice(i, i + batchSize);

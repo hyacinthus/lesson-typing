@@ -1,6 +1,6 @@
 import { create } from 'zustand';
-import type { Lesson } from '../types';
-import { loadLessonsByLanguage, findLessonById } from '../utils/lessonLoader';
+import type { Lesson, Collection } from '../types';
+import { loadLessonsByLanguage, loadCollectionsByLanguage, findLessonById } from '../utils/lessonLoader';
 
 // Map i18n language codes to lesson language IDs
 const LANGUAGE_MAP: Record<string, string> = {
@@ -34,6 +34,7 @@ export function getLessonLanguage(i18nLang: string): string | undefined {
 
 interface LessonStore {
   lessons: Lesson[];
+  collections: Collection[];
   currentLesson: Lesson | null;
   isLoading: boolean;
   error: string | null;
@@ -48,6 +49,7 @@ interface LessonStore {
 
 export const useLessonStore = create<LessonStore>((set, get) => ({
   lessons: [],
+  collections: [],
   currentLesson: null,
   isLoading: false,
   error: null,
@@ -64,11 +66,14 @@ export const useLessonStore = create<LessonStore>((set, get) => ({
 
     set({ isLoading: true, error: null });
     try {
-      const newLessons = await loadLessonsByLanguage(language);
+      const [newLessons, collections] = await Promise.all([
+        loadLessonsByLanguage(language),
+        loadCollectionsByLanguage(language),
+      ]);
       const existing = get().lessons.filter(l => l.language !== language);
       const loadedLanguages = new Set(get().loadedLanguages);
       loadedLanguages.add(language);
-      set({ lessons: [...existing, ...newLessons], isLoading: false, loadedLanguages });
+      set({ lessons: [...existing, ...newLessons], collections, isLoading: false, loadedLanguages });
     } catch (error) {
       set({
         error: error instanceof Error ? error.message : 'Failed to load lessons',
@@ -82,12 +87,11 @@ export const useLessonStore = create<LessonStore>((set, get) => ({
     if (state.loadedLanguages.has('english')) return;
 
     const load = () => {
-      loadLessonsByLanguage('english').then(newLessons => {
-        const existing = get().lessons.filter(l => l.language !== 'english');
-        const loadedLanguages = new Set(get().loadedLanguages);
-        loadedLanguages.add('english');
-        set({ lessons: [...existing, ...newLessons], loadedLanguages });
-      }).catch(() => {
+      // Warm loader caches only; loadLessonsByLang will set store state when user switches
+      Promise.all([
+        loadLessonsByLanguage('english'),
+        loadCollectionsByLanguage('english'),
+      ]).catch(() => {
         // Silent fail for background preload
       });
     };

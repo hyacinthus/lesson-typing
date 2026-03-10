@@ -1,4 +1,4 @@
-import type { Lesson } from '../types';
+import type { Lesson, Collection } from '../types';
 import type { Character } from '../types/typing.types.ts';
 import { CharacterStatus } from '../types/typing.types.ts';
 import { supabase } from '../lib/supabase';
@@ -6,11 +6,7 @@ import { supabase } from '../lib/supabase';
 // Cache loaded lessons by language
 const lessonsByLanguage = new Map<string, Lesson[]>();
 
-// Map collection_id to display title (e.g. "grade-1" -> "Grade 1")
-function collectionTitle(collectionId: string): string {
-  const num = collectionId.replace('grade-', '');
-  return `Grade ${num}`;
-}
+const collectionsByLanguage = new Map<string, Collection[]>();
 
 /**
  * Convert a Supabase row to a Lesson object
@@ -19,7 +15,6 @@ function rowToLesson(row: Record<string, unknown>): Lesson {
   return {
     id: row.id as string,
     title: row.title as string,
-    collectionTitle: collectionTitle(row.collection_id as string),
     collectionId: row.collection_id as string,
     language: row.language as string,
     category: (row.category as string) || undefined,
@@ -53,6 +48,30 @@ export async function loadLessonsByLanguage(language: string): Promise<Lesson[]>
   const lessons = (data || []).map(rowToLesson);
   lessonsByLanguage.set(language, lessons);
   return lessons;
+}
+
+export async function loadCollectionsByLanguage(language: string): Promise<Collection[]> {
+  if (collectionsByLanguage.has(language)) {
+    return collectionsByLanguage.get(language)!;
+  }
+
+  const { data, error } = await supabase
+    .from('lt_collections')
+    .select('id, name, sort_order')
+    .eq('language', language)
+    .order('sort_order');
+
+  if (error) {
+    throw new Error(`Failed to load collections for ${language}: ${error.message}`);
+  }
+
+  const collections = (data || []).map(row => ({
+    id: row.id as string,
+    name: row.name as string,
+    sortOrder: row.sort_order as number,
+  }));
+  collectionsByLanguage.set(language, collections);
+  return collections;
 }
 
 /**
