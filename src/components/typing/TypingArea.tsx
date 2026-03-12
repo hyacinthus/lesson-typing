@@ -40,6 +40,22 @@ export function TypingArea({
   const inputId = 'typing-input-area';
   const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number; height: number } | null>(null);
 
+  // Keyboard shortcuts on result screen
+  useEffect(() => {
+    if (!isCompleted) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Enter' && onNextLesson) {
+        e.preventDefault();
+        onNextLesson();
+      } else if (e.key === 'r' || e.key === 'R') {
+        e.preventDefault();
+        onRestart();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isCompleted, onNextLesson, onRestart]);
+
   // 更新输入框位置以跟随光标
   useEffect(() => {
     const updatePosition = () => {
@@ -284,14 +300,14 @@ export function TypingArea({
               onClick={onRestart}
               className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-2.5 md:py-3 px-6 md:px-8 rounded-lg shadow-sm hover:shadow-md transition-all text-sm md:text-base"
             >
-              {t('restart')}
+              {t('restart')} <kbd className="ml-1 text-xs opacity-60 font-normal">R</kbd>
             </button>
             {onNextLesson && (
               <button
                 onClick={onNextLesson}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-2.5 md:py-3 px-6 md:px-8 rounded-lg shadow-sm hover:shadow-md transition-all text-sm md:text-base"
               >
-                {t('next_lesson')}
+                {t('next_lesson')} <kbd className="ml-1 text-xs opacity-60 font-normal">↵</kbd>
               </button>
             )}
           </div>

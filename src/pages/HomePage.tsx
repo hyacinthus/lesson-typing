@@ -67,7 +67,7 @@ export function HomePage() {
     }
   }, [currentCollectionId]);
 
-  const handleStart = () => {
+  const handleStart = useCallback(() => {
     if (isLoading || filteredLessons.length === 0) return;
 
     let pool = filteredLessons;
@@ -79,7 +79,20 @@ export function HomePage() {
 
     const randomIndex = Math.floor(Math.random() * pool.length);
     setActiveLesson(pool[randomIndex]);
-  };
+  }, [isLoading, filteredLessons, currentCollectionId]);
+
+  // Enter key to start practice on home page
+  useEffect(() => {
+    if (activeLesson) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        handleStart();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [activeLesson, handleStart]);
 
   const handleNextLesson = useCallback(() => {
     if (!activeLesson || filteredLessons.length === 0) return;
