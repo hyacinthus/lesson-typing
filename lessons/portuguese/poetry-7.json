@@ -1,0 +1,506 @@
+{
+  "id": "poetry-7",
+  "title": "Poesia",
+  "lessons": [
+    {
+      "id": "08e593b5-1c7e-4918-a539-520d7868aacc",
+      "title": "Canção do Exílio (Gonçalves Dias)",
+      "category": "Pátria",
+      "difficulty": 2,
+      "order": 1,
+      "content": "Minha terra tem palmeiras,\nOnde canta o Sabiá;\nAs aves que aqui gorjeiam,\nNão gorjeiam como lá.\n\nNosso céu tem mais estrelas,\nNossas várzeas têm mais flores,\nNossos bosques têm mais vida,\nNossa vida mais amores.\n\nEm cismar, sozinho, à noite,\nMais prazer encontro eu lá;\nMinha terra tem palmeiras,\nOnde canta o Sabiá.\n\nMinha terra tem primores,\nQue tais não encontro eu cá;\nEm cismar —sozinho, à noite—\nMais prazer encontro eu lá;\nMinha terra tem palmeiras,\nOnde canta o Sabiá.\n\nNão permita Deus que eu morra,\nSem que eu volte para lá;\nSem que desfrute os primores\nQue não encontro por cá;\nSem qu'ainda aviste as palmeiras,\nOnde canta o Sabiá.",
+      "characterCount": 642,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "2f6e2c0a-17b7-4052-8921-fa653b2a83fa",
+      "title": "Ou Isto ou Aquilo (Cecília Meireles)",
+      "category": "Infância",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Ou se tem chuva e não se tem sol,\nou se tem sol e não se tem chuva!\n\nOu se calça a luva e não se põe o anel,\nou se põe o anel e não se calça a luva!\n\nQuem sobe nos ares não fica no chão,\nquem fica no chão não sobe nos ares.\n\nÉ uma grande pena que não se possa\nstar ao mesmo tempo em dois lugares!\n\nOu guardo o dinheiro e não compro o doce,\nou compro o doce e gasto o dinheiro.\n\nOu isto ou aquilo: ou isto ou aquilo...\ne vivo escolhendo o dia inteiro!\n\nNão sei se brinco, não sei se estudo,\nse saio correndo ou fico tranquilo.\n\nMas não consegui entender ainda\nqual é melhor: se é isto ou aquilo.",
+      "characterCount": 594,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "bcaed8c2-69a7-4550-9a47-e97b0f1f5177",
+      "title": "Motivo (Cecília Meireles)",
+      "category": "Filosofia",
+      "difficulty": 2,
+      "order": 3,
+      "content": "Eu canto porque o instante existe\ne a minha vida está completa.\nNão sou alegre nem sou triste:\nsou poeta.\n\nIrmão das coisas fugidias,\nnão sinto gozo nem tormento.\nPasso os dias que me são dados\nem vento.\n\nSe desmorono ou se edifico,\nse permaneço ou me desfaço,\n— não sei, não sei. Não sei se fico\nou passo.\n\nSei que canto. E a canção é tudo.\nTem sangue eterno a asa ritmada.\nE um dia sei que estarei mudo:\n— mais nada.",
+      "characterCount": 418,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "04c86d7a-053c-461c-8964-300abca15c21",
+      "title": "No Meio do Caminho (Carlos Drummond de Andrade)",
+      "category": "Filosofia",
+      "difficulty": 2,
+      "order": 4,
+      "content": "No meio do caminho tinha uma pedra\ntinha uma pedra no meio do caminho\ntinha uma pedra\nno meio do caminho tinha uma pedra.\n\nNunca me esquecerei desse acontecimento\nna vida de minhas retinas tão fatigadas.\nNunca me esquecerei que no meio do caminho\ntinha uma pedra\ntinha uma pedra no meio do caminho\nno meio do caminho tinha uma pedra.",
+      "characterCount": 333,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "817089b1-16dd-4696-ae2c-02666c4cd676",
+      "title": "Autopsicografia (Fernando Pessoa)",
+      "category": "Filosofia",
+      "difficulty": 2,
+      "order": 5,
+      "content": "O poeta é um fingidor.\nFinge tão completamente\nQue chega a fingir que é dor\nA dor que deveras sente.\n\nE os que leem o que escreve,\nNa dor lida sentem bem,\nNão as duas que ele teve,\nMas só a que eles não têm.\n\nE assim nas calhas de roda\nGira, a entreter a razão,\nEsse comboio de corda\nQue se chama o coração.",
+      "characterCount": 307,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "781bf199-ce6a-41da-8353-0ebaa67a3deb",
+      "title": "Soneto de Fidelidade (Vinícius de Moraes)",
+      "category": "Amor",
+      "difficulty": 3,
+      "order": 6,
+      "content": "De tudo ao meu amor serei atento\nAntes, e com tal zelo, e sempre, e tanto\nQue mesmo em face do maior encanto\nDele se encante mais meu pensamento.\n\nQuero vivê-lo em cada vão momento\nE em seu louvor hei de espalhar meu canto\nE rir meu riso e derramar meu pranto\nAo seu pesar ou seu contentamento.\n\nE assim, quando mais tarde me procure\nQuem sabe a morte, angústia de quem vive,\nQuem sabe a solidão, fim de quem ama,\n\nEu possa me dizer do amor (que tive):\nQue não seja imortal, posto que é chama\nMas que seja infinito enquanto dure.",
+      "characterCount": 529,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "9a490394-e48d-4d88-b5e0-3223df2475ee",
+      "title": "Retrato (Cecília Meireles)",
+      "category": "Vida",
+      "difficulty": 2,
+      "order": 7,
+      "content": "Eu não tinha este rosto de hoje,\nassim calmo, assim triste, assim magro,\nnem estes olhos tão vazios,\nnem o lábio amargo.\n\nEu não tinha estas mãos sem força,\ntão paradas e frias e mortas;\neu não tinha este coração\nque nem se mostra.\n\nEu não dei por esta mudança,\ntão simples, tão certa, tão fácil:\n— Em que espelho ficou perdida\na minha face?",
+      "characterCount": 341,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "e9a8b8fa-d959-46b3-9526-25ac7444be1f",
+      "title": "Poema de Sete Faces (Carlos Drummond de Andrade)",
+      "category": "Vida",
+      "difficulty": 3,
+      "order": 8,
+      "content": "Quando nasci, um anjo torto\ndesses que vivem na sombra\ndisse: Vai, Carlos! ser gauche na vida.\n\nAs casas espiam os homens\nque correm atrás de mulheres.\nA tarde talvez fosse azul,\nnão houvesse tantos desejos.\n\nO bonde passa cheio de pernas:\npernas brancas pretas amarelas.\nPara que tanta perna, meu Deus, pergunta meu coração.\nPortanto não é de se admirar.\n\nNo lombo do mendigo há tantos mundos perdidos\ne quantas penas de saudade.\n\nO homem atrás do bigode\né sério, simples e forte.\nQuase não conversa.\nTem poucos, raros amigos\no homem atrás dos óculos e do bigode.\n\nMeu Deus, por que me abandonaste\nse sabias que eu não era Deus\nse sabias que eu era fraco.\n\nMundo mundo vasto mundo,\nse eu me chamasse Raimundo\nseria uma rima, não seria uma solução.\nMundo mundo vasto mundo,\nmais vasto é meu coração.",
+      "characterCount": 799,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "e279b83c-807e-41d9-bec4-797ef157cb24",
+      "title": "Vou-me Embora pra Pasárgada (Manuel Bandeira)",
+      "category": "Saudade",
+      "difficulty": 3,
+      "order": 9,
+      "content": "Vou-me embora pra Pasárgada\nLá sou amigo do rei\nLá tenho a mulher que eu quero\nNa cama que escolherei\nVou-me embora pra Pasárgada\n\nVou-me embora pra Pasárgada\nAqui eu não sou feliz\nLá a existência é uma aventura\nDe tal modo inconseqüente\nQue Joana a Louca de Espanha\nRainha e falsa demente\nVem a ser contraparente\nDa nora que nunca tive\n\nE como farei ginástica\nAndrei de bicicleta\nMontarei em burro brabo\nSubirei no pau-de-sebo\nTomarei banho de mar!\nE quando estiver cansado\nDeito na beira do rio\nMando chamar a mãe-d'água\nPra me contar as histórias\nQue no tempo de eu menino\nRosa vinha me contar\nVou-me embora pra Pasárgada\n\nEm Pasárgada tem tudo\nÉ outra civilização\nTem um processo seguro\nDe impedir a concepção\nTem telefone automático\nTem alcalóide à vontade\nTem prostitutas bonitas\nPara a gente namorar\n\nE quando eu estiver mais triste\nMas triste de não ter jeito\nQuando de noite me der\nVontade de me matar\n— Lá sou amigo do rei —\nTerei a mulher que eu quero\nNa cama que escolherei\nVou-me embora pra Pasárgada",
+      "characterCount": 1013,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "221fb0ea-f2b6-4c75-a03f-0bfd3c6db6c9",
+      "title": "A Rosa de Hiroshima (Vinícius de Moraes)",
+      "category": "Vida",
+      "difficulty": 3,
+      "order": 10,
+      "content": "Pensem nas crianças\nMudas telepáticas\nPensem nas meninas\nCegas inexatas\nPensem nas mulheres\nRotas alteradas\nPensem nas feridas\nComo rosas cálidas\nMas oh não se esqueçam\nDa rosa da rosa\nDa rosa de Hiroshima\nA rosa hereditária\nA rosa radioativa\nEstúpida e inválida\nA rosa com cirrose\nA anti-rosa atômica\nSem cor sem perfume\nSem rosa sem nada.",
+      "characterCount": 340,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "adfbf513-58e3-4117-9956-0dc4aa6ddb07",
+      "title": "José (Carlos Drummond de Andrade)",
+      "category": "Vida",
+      "difficulty": 4,
+      "order": 11,
+      "content": "E agora, José?\nA festa acabou,\na luz apagou,\no povo sumiu,\na noite esfriou,\ne agora, José?\ne agora, você?\nvocê que é sem nome,\nque zomba dos outros,\nvocê que faz versos,\nque ama, protesta?\ne agora, José?\n\nEstá sem mulher,\nestá sem discurso,\nestá sem carinho,\njá não pode beber,\njá não pode fumar,\ncuspir já não pode,\na noite esfriou,\no dia não veio,\no bonde não veio,\no riso não veio,\nnão veio a utopia\ne tudo acabou\ne tudo fugiu\ne tudo mofou,\ne agora, José?\n\nE agora, José?\nSua doce palavra,\nseu instante de febre,\nsua gula e jejum,\nsua biblioteca,\nsua lavra de ouro,\nseu terno de vidro,\nsua incoerência,\nseu ódio — e agora?\n\nCom a chave na mão\nquer abrir a porta,\nnão existe porta;\nquer morrer no mar,\nmas o mar secou;\nquer ir para Minas,\nMinas não há mais.\n\nJosé, e agora?\n\nSe você gritasse,\nse você gemesse,\nse você tocasse\na valsa vienense,\nse você dormisse,\nse você cansasse,\nse você morresse...\nMas você não morre,\nvocê é duro, José!\n\nSozinho no escuro\nqual bicho-do-mato,\nsem teogonia,\nsem parede nua\npara se encostar,\nsem cavalo preto\nque fuja a galope,\nvocê marcha, José!\nJosé, para onde?",
+      "characterCount": 1098,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "47964453-fe50-4f93-b66e-82472a731b4e",
+      "title": "Mar Português (Fernando Pessoa)",
+      "category": "Pátria",
+      "difficulty": 3,
+      "order": 12,
+      "content": "Ó mar salgado, quanto do teu sal\nSão lágrimas de Portugal!\nPor te cruzarmos, quantas mães choraram,\nQuantos filhos em vão rezaram!\nQuantas noivas ficaram por casar\nPara que fosses nosso, ó mar!\n\nValeu a pena? Tudo vale a pena\nSe a alma não é pequena.\nQuem quer passar além do Bojador\nTem que passar além da dor.\nDeus ao mar o perigo e o abismo deu,\nMas nele é que espelhou o céu.",
+      "characterCount": 379,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "cc78fca8-90fe-4661-a510-9bc2e8d030f7",
+      "title": "Pneumotórax (Manuel Bandeira)",
+      "category": "Vida",
+      "difficulty": 3,
+      "order": 13,
+      "content": "Febre, hemoptise, dispnéia e suores noturnos.\nA vida inteira que podia ter sido e que não foi.\nTosse, tosse, tosse.\n\nMandou chamar o médico:\n— Diga trinta e três.\n— Trinta e três... trinta e três... trinta e três...\n— Respire.\n\n— O senhor tem uma escavação no pulmão esquerdo\ne o pulmão direito infiltrado.\n— Então, doutor, não é possível tentar o pneumotórax?\n— Não. A única coisa a fazer é tocar um tango argentino.",
+      "characterCount": 417,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "0566fb72-23a0-41ca-b9cf-cb401a6e3a51",
+      "title": "Soneto (Luís de Camões)",
+      "category": "Amor",
+      "difficulty": 3,
+      "order": 14,
+      "content": "Amor é fogo que arde sem se ver,\nÉ ferida que dói e não se sente,\nÉ um contentamento descontente,\nÉ dor que desatina sem doer.\n\nÉ um não querer mais que bem querer,\nÉ solitário andar por entre a gente,\nÉ nunca contentar-se de contente,\nÉ cuidar que se ganha em se perder.\n\nÉ querer estar preso por vontade,\nÉ servir a quem vence o vencedor,\nÉ ter com quem nos mata lealdade.\n\nMas como causar pode seu favor\nNos corações humanos amizade,\nSe tão contrário a si é o mesmo Amor?",
+      "characterCount": 474,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "c77e106d-8c42-40dd-861a-80830b9f7f1a",
+      "title": "Minha Terra (Casimiro de Abreu)",
+      "category": "Saudade",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Quando olho o largo campo verdejante\nQue aos pés se me estende, sereno e largo,\nE o rio mui manso, lento e distante,\nQue o prado ilumina com prateado cargo;\n\nSinto, ah! sinto que o ingrato e duro exílio\nMais penoso se torna a cada instante,\nE entre os frios da saudade e o brando ostílio\nMeu coração palpita palpitante.\n\nEm vão a natureza aqui sorria,\nEm vão me a longa primavera encanta,\nEm vão me busca a grata companhia:\n\nCá não é minha terra que me espanta!\nCá não é o que o coração queria!\nCá não é a terra que o meu peito canta!",
+      "characterCount": 534,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "2383de7e-c1c9-441e-b9ef-d71288f1ac03",
+      "title": "Meus Oito Anos (Casimiro de Abreu)",
+      "category": "Infância",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Oh! que saudades que tenho\nDa aurora da minha vida,\nDa minha infância querida\nQue os anos não trazem mais!\nQue amor, que sonhos, que flores,\nNaquelas tardes fagueiras\nÀ sombra das bananeiras,\nDebaixo dos laranjais!\n\nComo são belos os dias\nDo despontar da existência!\n— Respira a alma inocência\nComo perfumes a flor;\nO mar é — lago sereno,\nO céu — um manto azulado,\nO mundo — um sonho dourado,\nA vida — um hino de amor!\n\nQue saudades que tenho\nDa aurora da minha vida,\nDa minha infância querida\nQue os anos não trazem mais!",
+      "characterCount": 522,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "0ccc8da1-0fac-4efa-84f0-95c7cc1f58de",
+      "title": "O Navio Negreiro (Castro Alves) — excerto",
+      "category": "Pátria",
+      "difficulty": 4,
+      "order": 17,
+      "content": "Era um sonho dantesco... o tombadilho\nQue das luzernas avermelha o brilho.\nEm sangue a se banhar.\nTorvo crime! Meu Deus! que cenas são?\nQue pincéis de Satã, que inspiração\nPoderão as pintar?\n\nNegros! Ali de pé, ferros nos pulsos,\nSôfregos d'ar, em ânsia os olhos convulsos,\nSacudindo os grilhões;\nN'alma a chaga que queima, arde, devora,\nOlhando o céu, o mar — pensando embora\nNas terras, nos irmãos!\n\nSenhores! A manhã vai raiando;\nHai! hai! a brisa o pano vai inflando,\nO mar vai sussurrando,\nEis o sol se levanta além no horizonte\nE tudo é vida, luz... mas o horizonte\nEstá negro de pó!",
+      "characterCount": 589,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "cd54275a-2116-40bc-80d7-44cfe1f26a12",
+      "title": "Profundamente (Manuel Bandeira)",
+      "category": "Saudade",
+      "difficulty": 3,
+      "order": 18,
+      "content": "Quando ontem adormeci\nNa noite de São João\nHavia alegria e rumor\nEstrondos de bombas, cantigas,\nRodas de fogo, balões,\nO arraial na sua festa.\n\nHoje me acordei tranquilo\nE a cidade estava acordada\nE o dia claro e bonito.\n\nPensei em Joana a Gorda\nPensei em Aninha\nPensei nos que já morreram\n— Pai, mãe, avós, os velhos amigos.\n\nOntem eram tantos\nOnde estão?\n\nDormiam.\nProfundamente.",
+      "characterCount": 381,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a454d051-522d-4511-9670-c5e65f3de39b",
+      "title": "Florbela Espanca — Amar",
+      "category": "Amor",
+      "difficulty": 3,
+      "order": 19,
+      "content": "Amar! Não saber mais nada,\nnão ver, não ouvir, não sentir,\nsen'o teu coração bater,\nsen'o teu olhar queimar!\n\nNem rir, nem chorar, nem falar,\nnem pensar, nem existir\nsen'o teu coração bater,\nsen'o teu olhar queimar!\n\nAmar! não saber mais nada!",
+      "characterCount": 243,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "8f8b3fcc-1002-489f-abb4-b4d1ab937dbf",
+      "title": "Soneto da Separação (Florbela Espanca)",
+      "category": "Amor",
+      "difficulty": 3,
+      "order": 20,
+      "content": "De repente do riso fez-se o pranto\nSilencioso e branco como a bruma\nE das bocas unidas fez-se a espuma\nE das mãos espalmadas fez-se o espanto.\n\nDe repente da calma fez-se o vento\nQue dos olhos desfez a última chama\nE da paixão fez-se o pressentimento\nE do momento único fez-se o drama.\n\nDe repente, não mais que de repente\nFez-se de triste o que se fez amante\nE de sozinho o que se fez contente.\n\nFez-se do amigo próximo o distante\nFez-se da vida uma aventura errante\nDe repente, não mais que de repente.",
+      "characterCount": 504,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "180af075-8c34-4add-9be7-319ca2fafce6",
+      "title": "Profissão de Fé (Olavo Bilac)",
+      "category": "Filosofia",
+      "difficulty": 4,
+      "order": 21,
+      "content": "Não quero o Zeus Capitolino\nImóvel, mutismo, frio;\nO dum estátua, num desígnio\nSilencioso e sombrio.\n\nQuero o Apolo, sim, mas vivo,\nCom a sua lira e a sua seta,\nSempre caçando o fugitivo\nIdeal de um sábio e um poeta.\n\nQuero a fraseologia ardente\nDo artesão que lavra e lima\nE atinge, por fim, o claro cume\nDa palavra pura e prima.\n\nGarimpar, na língua, o ouro fino\nDe um pensamento verdadeiro:\nSer, no trabalho peregrino,\nUm honesto lapidário.",
+      "characterCount": 443,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "9109e475-3391-418a-94b2-2c41eca59d75",
+      "title": "No Jardim (Olavo Bilac)",
+      "category": "Natureza",
+      "difficulty": 3,
+      "order": 22,
+      "content": "Última flor do Lácio, inculta e bela,\nEs, a um tempo, esplendor e sepultura:\nOuro nativo, que, na ganga impura,\nA bruta mina entre os cascalhos vela...\n\nOra vagindo em ânsia, ora, cheia\nDe augustas vozes, eras a voz da pátria;\nEu te amo, língua minha, bela língua,\nQue és sangue e mel, e fogo e nébula!\n\nNeste país de sol, de flor e canto,\nTu és de todos os sons o mais perfeito;\nE, quando a tarde lança o seu encanto\n\nSobre o horizonte aberto e o campo vasto,\nÉ em ti que o ser humano encontra o acento\nMais fundo do seu sonho e do seu pranto.",
+      "characterCount": 544,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "be2bd267-7228-4b44-acd5-0195e0df6a68",
+      "title": "Ora (Direis) Ouvir Estrelas (Olavo Bilac)",
+      "category": "Amor",
+      "difficulty": 3,
+      "order": 23,
+      "content": "\"Ora (direis) ouvir estrelas! Certo\nPerdeste o senso!\" E eu vos direi, no entanto,\nQue, para ouvi-las, muita vez desperto\nE abro as janelas, pálido de espanto,\n\nE conversamos toda a noite, enquanto\nA Via-Láctea, como um pálio aberto,\nCintila. E, ao vir do sol, saudoso e em pranto,\nInu-las beijo e digo adeus ao pasto.\n\nQue importa a voz do mundo? Importa o vento\nQue dobra os pinheirais, quando a procela\nVai além? Importa o trovão violento,\n\nQue em pedaços o céu açoita e ela\nOlha da nuvem? — Não: o que eu sinto e sento,\nO que eu lhe ouvi dizer, só Deus revela.",
+      "characterCount": 564,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "3b3483ff-9a87-468e-99a4-195484236f74",
+      "title": "O Canto do Guerreiro (Gonçalves Dias)",
+      "category": "Pátria",
+      "difficulty": 3,
+      "order": 24,
+      "content": "Qual é o guerreiro\nQue iguala a mim?\nSou filho do Norte,\nBradem por mim!\n\nMeu arco é de ferro,\nMinha maça é d'aço,\nSou bravo e sou forte,\nSou máu de tratar.\n\nAs armas que tenho\nSão fortes e belas,\nFiz cânticos delas,\nE hei de entoar.\n\nFarei outra guerra\nPor terras e mares;\nFarei tremular\nOs céus e os ares.\n\nQual é o guerreiro\nQue iguala a mim?\nSou filho do Norte,\nBradem por mim!",
+      "characterCount": 381,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "6e032267-4373-45ff-8a6a-b93208299326",
+      "title": "Noturno (Álvares de Azevedo)",
+      "category": "Saudade",
+      "difficulty": 3,
+      "order": 25,
+      "content": "Quando o sol se deita, e a lua aparece,\nE a sombra cobre o mundo adormecido,\nE o vento nas florestas arremece\nO seu gemido triste e prolongado,\n\nEntão meu coração se entristece\nE um velho sonho volta: o que perdi!\nO amor que eu quis, o rosto que me prende,\nOs passos que segui e não segui.\n\nÓ noite! és tu que melhor me entendeste,\nNa tua escuridão encontro o que quis;\nNo teu silêncio fundo que me cedes\nO peso de ser jovem e infeliz.",
+      "characterCount": 435,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "971af3e1-3a96-474d-aa68-c5867db661f8",
+      "title": "Se Eu Morresse Amanhã (Álvares de Azevedo)",
+      "category": "Vida",
+      "difficulty": 3,
+      "order": 26,
+      "content": "Se eu morresse amanhã, viria ao menos\nFechar meus olhos minha triste mãe!\nEsses carinhos santos e serenos\nEla me daria e eu os guardaria.\n\nSe eu morresse amanhã, no desamparo\nNinguém poria flores em meu leito!\nCom o semblante frio, pálido e avaro,\nHavia em meu redor silêncio feito.\n\nMas eu me fui, e esses lábios\nMurcharam como flor num jardim!\nE esses olhos que tinham cativado\nFecharam-se pra sempre — até ao fim!\n\nSe eu morresse amanhã, viria ao menos\nFechar meus olhos minha triste mãe?",
+      "characterCount": 491,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "5e06e662-b9f3-4d27-86a6-a19d52903455",
+      "title": "Infância (Carlos Drummond de Andrade)",
+      "category": "Infância",
+      "difficulty": 2,
+      "order": 27,
+      "content": "Meu pai montava a cavalo, ia para o campo.\nMinha mãe ficava sentada cosendo.\nMeu irmão pequeno dormia.\nEu sozinho menino entre mangueiras\nlia a história de Robinson Crusoé,\ncomprida história que não acaba mais.\n\nNo meio-dia branco de luz uma voz que aprendeu\na ninar nos longes da senzala — e nunca se esqueceu\nchamava para o café.\nCafé preto que nem a preta velha\ncafé gostoso\ncafé bom.\n\nMinha mãe ficava sentada cosendo\nolhando para mim:\n— Psiu... Não acorde o menino.\nPara o berço onde pousou um mosquito.\nE dava um suspiro... que suspiro!\n\nLá longe meu pai campeava\nno mato sem fim da fazenda.",
+      "characterCount": 597,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "1adc12bd-6409-498e-9063-0c7ecb838647",
+      "title": "O Lutador (Carlos Drummond de Andrade)",
+      "category": "Filosofia",
+      "difficulty": 4,
+      "order": 28,
+      "content": "Lutar com palavras\né a luta mais vã.\nEntanto lutamos\nmal rompe a manhã.\n\nSão muitas, eu pouco.\nAlgumas, enormes.\nPequenas, a maioria.\nUmas, reticentes,\noutras, leoninas.\nMas todas, obscuras\ne todas, precisas.\n\nVou a uma janela.\nVejo o mar imenso.\nVolto e ainda luto.\nProcuro na bruma,\nnas pedras do sonho,\nalguém que me ouça.\n\nFecho os olhos. Luto.\nLutar não me envergonha.\nSe ninguém me vence\nem luta tão vã,\nvivendo dos versos,\nque dureza: ser poeta.",
+      "characterCount": 452,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "544527ba-719e-43c7-9be9-5cb8a02cdf26",
+      "title": "Quadrilha (Carlos Drummond de Andrade)",
+      "category": "Amor",
+      "difficulty": 2,
+      "order": 29,
+      "content": "João amava Teresa que amava Raimundo\nque amava Maria que amava Joaquim que amava Lili\nque não amava ninguém.\n\nJoão foi para os Estados Unidos, Teresa para o convento,\nRaimundo morreu de desastre, Maria ficou para tia,\nJoaquim suicidou-se e Lili casou com J. Pinto Fernandes\nque não tinha entrado na história.",
+      "characterCount": 308,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "c5b60780-e869-44ec-900f-028f396d4431",
+      "title": "No Meio do Caminho — Sentimento do Mundo (Carlos Drummond de Andrade)",
+      "category": "Vida",
+      "difficulty": 4,
+      "order": 30,
+      "content": "Tenho apenas duas mãos\ne o sentimento do mundo,\nmas estou cheio de escravos,\nminhas lembranças escorrem\ne o corpo transige\nna confluência do amor.\n\nQuando me levantar, o céu\nestará morto e saqueado,\neu mesmo estarei morto,\nmorto meu desejo, morto\no pântano que os sapos\ncantam.\n\nOs sapos são ladrões de ritmo,\no que roubam ao silêncio\nvoltam como dor e canto\nmisturados.",
+      "characterCount": 370,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "749a28bc-80e9-4dbb-8663-9cd0cf63ac17",
+      "title": "Bilhete (Mário Quintana)",
+      "category": "Amor",
+      "difficulty": 1,
+      "order": 31,
+      "content": "Se tu me amas, ama-me baixinho,\nNão o grites de cima dos telhados\nDeixa em paz os passarinhos!\nNão acordes os vizinhos!\nNão espalhem pelos prados!\n\nAma-me baixo, sereno,\nComo quem cuida de um sonho pequeno\nE tem medo de o perder.\nAma-me em silêncio e com paciência,\nComo quem planta uma semente\nE depois espera o amanhecer.",
+      "characterCount": 323,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "47e73fa7-0bb5-4a67-8b78-05a1d7c00e10",
+      "title": "Poeminha do Contra (Mário Quintana)",
+      "category": "Humor",
+      "difficulty": 1,
+      "order": 32,
+      "content": "Todos esses que aí estão\nAtravessando a tua rua,\nAssistindo à tua dor —\nOlha bem:\nPassarão.\n\nPode apostar que passarão\nComo tudo que passou.\nNada que existe é eterno,\nSó o amor — só o amor.",
+      "characterCount": 189,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "18ee55b5-ed25-4bfb-9a8a-7816064cd203",
+      "title": "A Pátria (Olavo Bilac)",
+      "category": "Pátria",
+      "difficulty": 3,
+      "order": 33,
+      "content": "Ama, com fé e orgulho, a terra em que nasceste!\nCriança! não verás nenhum país como este!\nOlha que céu! que mar! que rios! que floresta!\nA Natureza, aqui, perpetuamente em festa,\nÉ um seio de mãe a transbordar carinhos.\n\nVês o imponente Amazonas, que rola\nSua enchente portentosa para o mar?\nE o Paraná, que brilha e que se afola\nEntre as suas quedas de espumar?\n\nOlha, crianças, com amor, a terra e o céu que temos!\nNenhuma outra nação no mundo existe assim!\nEm vão outros países procuraremos:\n— Filho, o Brasil é o teu, é o nosso, é o meu jardim!",
+      "characterCount": 548,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b1f34e18-5b2b-4bc1-a00d-483a66fd927d",
+      "title": "Liberdade (Fernando Pessoa — Ricardo Reis)",
+      "category": "Filosofia",
+      "difficulty": 3,
+      "order": 34,
+      "content": "Para ser grande, sê inteiro: nada\nTeu exagera ou exclui.\nSê todo em cada coisa. Põe quanto és\nNo mínimo que fazes.\nAssim em cada lago a lua toda\nBrilha, porque alta vive.",
+      "characterCount": 170,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "318e1ca5-cb72-4e35-8abc-3343650a7d00",
+      "title": "Tabacaria (Fernando Pessoa — Álvaro de Campos)",
+      "category": "Filosofia",
+      "difficulty": 5,
+      "order": 35,
+      "content": "Não sou nada.\nNunca serei nada.\nNão posso querer ser nada.\nÀ parte isso, tenho em mim todos os sonhos do mundo.\n\nJanelas do meu quarto,\nDo meu quarto de um dos milhões do mundo que ninguém sabe quem é\n(E se soubessem quem é, o que saberiam?),\nDais para o mistério de uma rua cruzada constantemente por gente,\nPara uma rua inacessível a todos os pensamentos,\nReal, impossivelmente real, certa, desconhecidamente certa,\nCom o mistério das coisas por baixo das pedras e dos seres,\nCom a morte a pôr humidade nas paredes e cabelos brancos nos homens,\nCom o Destino a conduzir a carroça de tudo pela estrada de nada.\n\nEstou hoje vencido, como se soubesse a verdade.\nEstou hoje lúcido, como se estivesse para morrer,\nE não tivesse mais irmandade com as coisas\nSenão uma despedida, tornando-se esta casa e este lado da rua\nA fileira de carruagens de um comboio, e uma partida apitada\nDe dentro da minha cabeça,\nE uma sacudidela dos meus nervos e um ranger de ossos na ida.\n\nEstou hoje perplexo como quem pensou e achou e esqueceu.\nEstou hoje dividido entre a lealdade que devo\nÀ Tabacaria do outro lado da rua, como coisa real por fora,\nE à sensação de que tudo é sonho, como coisa real por dentro.",
+      "characterCount": 1191,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "dcbcaa69-d332-408c-8877-3f4218fb639b",
+      "title": "Ode Triunfal (Fernando Pessoa — Álvaro de Campos) — excerto",
+      "category": "Vida",
+      "difficulty": 5,
+      "order": 36,
+      "content": "À dolorosa luz das grandes lâmpadas eléctricas da fábrica\nTenho febre e escrevo.\nEscrevo rangendo os dentes, fera para a beleza disto,\nPara a beleza disto totalmente desconhecida dos antigos.\n\nÓ rodas, ó engrenagens, r-r-r-r-r-r-r eterno!\nForte espasmo retido dos maquinismos em fúria!\nEm fúria fora e dentro de mim,\nPor todos os meus nervos dissecados fora,\nPor todas as papilas fora do que sinto tudo!\nOs meus lábios são secos, ó grandes ruídos modernos,\nDe vos ouvir demasiadamente de perto,\nE arde-me a cabeça de vos querer cantar com um excesso\nDe expressão de todas as minhas sensações,\nCom um excesso contemporâneo de vós, ó máquinas!",
+      "characterCount": 641,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fa75faeb-8b31-4f2d-9eb1-97acb201435e",
+      "title": "Poema em Linha Reta (Fernando Pessoa — Álvaro de Campos)",
+      "category": "Filosofia",
+      "difficulty": 4,
+      "order": 37,
+      "content": "Nunca conheci quem tivesse levado porrada.\nTodos os meus conhecidos têm sido campeões em tudo.\n\nE eu, tantas vezes reles, tantas vezes porco, tantas vezes vil,\nEu tantas vezes irrespondivelmente parasita,\nIndesculpavelmente sujo,\nEu, que tantas vezes não tenho tido paciência para tomar banho,\nEu, que tantas vezes tenho sido ridículo, absurdo,\nQue me tenho enrolado em frente dos outros\nNa palhinha das minhas incompetências,\nEu tenho pedido demais do universo,\nAo universo e não a mim.\n\nE assim é que toda a gente é heróica.\nE, ao fim e ao cabo, toda a gente, como eu, é medíocre!\nSó que são heróicos sem que ninguém saiba,\nSó que são simples e sinceros,\nSó que são calados,\nSó que são puros...",
+      "characterCount": 696,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "8646cc92-3000-4a61-96c1-56e409dc6ae0",
+      "title": "Mensagem — D. Sebastião (Fernando Pessoa)",
+      "category": "Pátria",
+      "difficulty": 4,
+      "order": 38,
+      "content": "Louco, sim, louco, porque quis grandeza\nQual a Sorte a não dá.\nNão coube em mim minha certeza;\nPor isso onde o areal está\nFiquei, com a desventura\nDa Loucura.\n\nSe a alma não é pequena\nValeu a pena?\nTudo vale a pena\nSe a alma não é pequena.\n\nQuem quer passar além do Bojador\nTem que passar além da dor.\nDeus ao mar o perigo e o abismo deu\nMas nele é que espelhou o céu.",
+      "characterCount": 368,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "22fc2905-4309-46d7-8d30-4dd7df570e0f",
+      "title": "O Cristo Cigano (Sophia de Mello Breyner Andresen)",
+      "category": "Filosofia",
+      "difficulty": 3,
+      "order": 39,
+      "content": "Há um menino, um menino muito sério\nQue mora na minha rua.\nEle usa tênis num dia de sol\nE no outro usa capa de chuva.\n\nE de manhã ele passa, indiferente,\nCom os olhos azuis e frios\nE à tarde, de volta para casa,\nPensa nos seus caminhos.\n\nNão sei o que ele quer da vida\nNem para onde vai,\nMas sei que ele leva no bolso\nUma faca e um pai.",
+      "characterCount": 336,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "68077542-50f7-4508-acf9-7f78671fa089",
+      "title": "Poema (Sophia de Mello Breyner Andresen)",
+      "category": "Natureza",
+      "difficulty": 3,
+      "order": 40,
+      "content": "Quando eu morrer voltarei para buscar\nOs instantes que não vivi junto do mar.\n\nVoltarei para buscar\nAs palavras que ficaram por dizer,\nAs canções que fiquei de cantar,\nO amor que me faltou a tempo de ter.\n\nVoltarei a este branco promontório\nSobre o negro espelho do mar\nE ficarei no lusco-fusco da tarde\nA ver o sol a entrar.",
+      "characterCount": 325,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "33d29e39-74d8-400d-b148-33df576c1b08",
+      "title": "Este Amor (Sophia de Mello Breyner Andresen)",
+      "category": "Amor",
+      "difficulty": 3,
+      "order": 41,
+      "content": "Este amor é assim:\nNão tem começo nem fim.\nNão tem palavras que o digam,\nNem silêncio que o cubra.\n\nEste amor é água e fogo,\nÉ noite e é dia.\nÉ o que me faz viver\nE o que me amedronta a vida.\n\nEste amor és tu,\nEste amor sou eu,\nEste amor somos nós\nBaixo o mesmo céu.",
+      "characterCount": 266,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b9d44b20-fd9f-4918-aaaa-c57f7160d638",
+      "title": "O Rio (João Cabral de Melo Neto) — excerto",
+      "category": "Natureza",
+      "difficulty": 4,
+      "order": 42,
+      "content": "Quando saí de Passagem\nnão sabia que ia tão longe.\nVim por entre os canaviais\nsem saber que ia tão longe.\n\nDepois passei por Surubim,\nonde a terra fica salgada;\ndepois passei por Limoeiro,\nonde a terra fica rachada.\n\nDepois passei por Recife\nfui me jogando no mar;\ne eu que nasci de serrano\ntermino sendo do mar.",
+      "characterCount": 312,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "8eb28e7b-a996-4e60-a4e7-a106fd0d160d",
+      "title": "O Operário em Construção (Vinícius de Moraes) — excerto",
+      "category": "Vida",
+      "difficulty": 4,
+      "order": 43,
+      "content": "Era ele que erguia casas\nOnde antes só havia chão.\nComo um pássaro sem asas\nEle subia na construção!\n\nEle subia com as formas,\nEle subia com as pedras,\nEle subia com as normas,\nEle subia com as letras.\n\nE um dia, ao aprender\nQue havia outros mundos\nAlém do que apenas ver,\nFoi o operário que entendeu:\nA pedra que movia\nEra também ele, era ele,\nE a casa que construía\nNão cabia mais nele.",
+      "characterCount": 388,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "d837ed1b-50a8-4d08-b8ac-351861aa405d",
+      "title": "Soneto do Amor Total (Vinícius de Moraes)",
+      "category": "Amor",
+      "difficulty": 3,
+      "order": 44,
+      "content": "Amo-te tanto, meu amor... não cabe\nNo infinito este amor e esta ternura;\nÉ por isso que nunca ninguém sabe\nAmar de outra maneira que não seja pura.\n\nÉ por isso que o amor jamais se acabe\nE que a vida não tenha sepultura,\nE quem na sombra vai amando, esgabe\nA porta entre ele e a luz e a formosura.\n\nAmor total, que não cabe na vida;\nAmor que, sendo chama consumida,\nNão se perde no fim, antes recomeça.\n\nAmor de quem se amou sem nunca haver\nEsquecimento — amor que em não ter\nA própria falta, tem a sua riqueza.",
+      "characterCount": 511,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "83b12eb7-9016-4ac4-a47c-a0bae98775f7",
+      "title": "Pátria Minha (Vinícius de Moraes)",
+      "category": "Pátria",
+      "difficulty": 4,
+      "order": 45,
+      "content": "A minha pátria é como se não fosse,\nÉ íntima\nTemeria perdê-la como se\nA uma mãe.\n\nNão a amo com o meu orgulho\nMas com a minha incerteza;\nSou feito dela, e ela, formosa,\nÉ feita da minha pobreza.\n\nTem uma beleza bárbara e crua\nQue às vezes fere mais que beija;\nMas amo-a de amor profundo e seu:\nSeja lá o que Deus queira que ela seja.",
+      "characterCount": 333,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "0c767113-e1a2-47f8-ab42-4f4cea98fcd1",
+      "title": "O Último Poema (Manuel Bandeira)",
+      "category": "Vida",
+      "difficulty": 3,
+      "order": 46,
+      "content": "Quero morrer vendo o mar.\n\nQuero morrer de uma doença\nQue não doa e não dê tempo.\nQuero morrer de repente\nNum dia de sol de inverno.\n\nQuero morrer vendo o céu,\nOuvindo o vento a soprar.\nQuero morrer vendo o mar.\n\nSerei levado à praia\nPor mãos que amar me souberam;\nE no rumor das águas\nQuero que me enterrem.",
+      "characterCount": 308,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "92a148e5-b0e7-4f06-b972-3f98fdca4953",
+      "title": "Evocação do Recife (Manuel Bandeira)",
+      "category": "Saudade",
+      "difficulty": 4,
+      "order": 47,
+      "content": "Recife\nNão a cidade que se aprende em geografia\nNão a cidade vista de fora\nRecife morto e Recife dos meus amores\n— isto é, Recife que eu vivo e que me vive,\nRecife de Augusto dos Anjos,\nde Joaquim Nabuco e do sangue africano\nque lateja na minha poesia.\n\nO Capibaribe\nmais lento do que a lembrança\ncortava o brejo da Soledade\nonde eu pescava gongorós.\n\nAs lavadeiras do Capibaribe.\nOh! as lavadeiras do Capibaribe!\nLavando roupa, recitando modas —\nQue alegria que tristeza!\n\nRecife de minha infância\nonde se brinca, onde se vive,\nonde se aprende a conhecer a vida\ne a não ter medo dela.",
+      "characterCount": 585,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "1b2988ab-b38e-4460-876c-8e40b372366d",
+      "title": "Sete Anos de Pastor (Luís de Camões)",
+      "category": "Amor",
+      "difficulty": 4,
+      "order": 48,
+      "content": "Sete anos de pastor Jacob servia\nLabão, pai de Raquel, serrana bela;\nMas não servia ao pai, que a ele servia,\nE tinha a sua glória por cautela.\n\nOs dias, na esperança de vê-la,\nPassava contentando se com ela;\nAssim, em sete anos, não os sentia,\nTão alto era o amor que o prendia.\n\nMas a fortuna, que da glória humana\nOs passos vigia com inveja fria,\nAo ver de tal amor a alegria plana,\n\nDeu-lhe em Lia em lugar de quem queria.\nAssi ata o Amor quem mais o ama e vana:\nDando o que não se quer, tira o que havia.",
+      "characterCount": 509,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "248c0937-66b9-4692-a5ec-c4e13e8c8504",
+      "title": "Os Lusíadas — Inês de Castro (Luís de Camões) — excerto",
+      "category": "Amor",
+      "difficulty": 5,
+      "order": 49,
+      "content": "Tu, só tu, puro amor, com força crua,\nQue os corações humanos tanto obriga,\nDeste causa à molesta guerra sua,\nQue tanto os homens e os deuses obriga.\n\nTu com engenho e arte doce e fina\nFazes a ruda guerra cortesão;\nTu com poder divino e peregrina\nFazes fraco o mais forte coração.\n\nEm Inês venceste, amor, a própria morte:\nEla, depois de morta, foi rainha;\nE o rei, que a amou com tão suprema sorte,\nCroou-lhe a fronte que ele tanto tinha.\n\nQuem dera que a memória fosse forte\nE que o amor, que ela e Pedro uniu,\nVencesse ao tempo, ao rei, à dura morte:\nVenceu — e o povo e o mundo os recebeu.",
+      "characterCount": 593,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "c223ff96-0447-473e-8267-10453e660dc7",
+      "title": "Ulisses — Mensagem (Fernando Pessoa)",
+      "category": "Pátria",
+      "difficulty": 5,
+      "order": 50,
+      "content": "O mito é o nada que é tudo.\nO mesmo sol que abre os céus\nÉ um mito brilhante e mudo —\nO corpo morto de Deus,\nVivo e desnudo.\n\nEste, que aqui aportou,\nFoi por não ser existindo.\nSem existir nos bastou.\nPor não ter vindo foi vindo\nE nos criou.\n\nAssim a lenda se escorre\nA entrar na realidade,\nE a fecundá-la decorre.\nEm baixo, a vida, metade\nDe nada, morre.",
+      "characterCount": 355,
+      "chineseCharCount": 0
+    }
+  ]
+}

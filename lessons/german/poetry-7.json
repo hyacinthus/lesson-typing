@@ -1,0 +1,506 @@
+{
+  "id": "poetry-7",
+  "title": "Gedichte",
+  "lessons": [
+    {
+      "id": "7e8ac085-1b46-43aa-abe1-7957ae441308",
+      "title": "Wünschelrute (Joseph von Eichendorff)",
+      "category": "Natur",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Schläft ein Lied in allen Dingen,\nDie da träumen fort und fort,\nUnd die Welt hebt an zu singen,\nTreffst du nur das Zauberwort.",
+      "characterCount": 126,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "2103de76-82d2-44fb-83ce-f045303d8dce",
+      "title": "Ein Fichtenbaum steht einsam (Heinrich Heine)",
+      "category": "Natur",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Ein Fichtenbaum steht einsam\nIm Norden auf kahler Höh'.\nIhn schläfert; mit weißer Decke\nUmhüllen ihn Eis und Schnee.\n\nEr träumt von einer Palme,\nDie fern im Morgenland\nEinsam und schweigend trauert\nAuf brennender Felsenwand.",
+      "characterCount": 224,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "23d3b32e-d33c-406d-a916-386052def5c5",
+      "title": "Mondnacht (Joseph von Eichendorff)",
+      "category": "Natur",
+      "difficulty": 2,
+      "order": 3,
+      "content": "Es war, als hätt' der Himmel\nDie Erde still geküßt,\nDaß sie im Blütenschimmer\nVon ihm nun träumen müßt'.\n\nDie Luft ging durch die Felder,\nDie Ähren wogten sacht,\nEs rauschten leis die Wälder,\nSo sternklar war die Nacht.\n\nUnd meine Seele spannte\nWeit ihre Flügel aus,\nFlog durch die stillen Lande,\nAls flöge sie nach Haus.",
+      "characterCount": 321,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "84b23c14-254b-4af2-a87e-4800b27ae4a5",
+      "title": "Wandrers Nachtlied I (Johann Wolfgang von Goethe)",
+      "category": "Natur",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Der du von dem Himmel bist,\nAlles Leid und Schmerzen stillest,\nDen, der doppelt elend ist,\nDoppelt mit Erquickung füllest,\nAch, ich bin des Treibens müde!\nWas soll all der Schmerz und Lust?\nSüßer Friede,\nKomm, ach komm in meine Brust!",
+      "characterCount": 234,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "c4eae2e8-3f74-4a8e-abc5-0add1916f041",
+      "title": "Wandrers Nachtlied II (Johann Wolfgang von Goethe)",
+      "category": "Natur",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Über allen Gipfeln\nIst Ruh,\nIn allen Wipfeln\nSpürest du\nKaum einen Hauch;\nDie Vögelein schweigen im Walde.\nWarte nur, balde\nRuhest du auch.",
+      "characterCount": 139,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "fecddc85-8f33-4bce-a308-7f536d5171a9",
+      "title": "Der Mond ist aufgegangen (Matthias Claudius)",
+      "category": "Natur",
+      "difficulty": 2,
+      "order": 6,
+      "content": "Der Mond ist aufgegangen,\nDie goldnen Sternlein prangen\nAm Himmel hell und klar;\nDer Wald steht schwarz und schweiget,\nUnd aus den Wiesen steiget\nDer weiße Nebel wunderbar.\n\nWie ist die Welt so stille,\nUnd in der Dämmrung Hülle\nSo traulich und so hold!\nAls eine stille Kammer,\nWo ihr des Tages Jammer\nVerschlafen und vergessen sollt.\n\nSeht ihr den Mond dort stehen?\nEr ist nur halb zu sehen,\nUnd ist doch rund und schön!\nSo sind wohl manche Sachen,\nDie wir getrost belachen,\nWeil unsre Augen sie nicht sehn.\n\nWir stolzen Menschenkinder\nSind eitel arme Sünder\nUnd wissen gar nicht viel;\nWir spinnen Luftgespinste\nUnd suchen viele Künste\nUnd kommen weiter von dem Ziel.\n\nGott, laß uns dein Heil schauen,\nAuf nichts Vergänglichs trauen,\nNicht Eitelkeit uns freun!\nLaß uns einfältig werden\nUnd vor dir hier auf Erden\nWie Kinder fromm und fröhlich sein!\n\nWollst endlich sonder Grämen\nAus dieser Welt uns nehmen\nDurch einen sanften Tod!\nUnd wenn du uns genommen,\nLaß uns in Himmel kommen,\nDu unser Herr und unser Gott!\n\nSo legt euch denn, ihr Brüder,\nIn Gottes Namen nieder;\nKalt ist der Abendhauch.\nVerschon uns, Gott, mit Strafen\nUnd laß uns ruhig schlafen!\nUnd unsern kranken Nachbar auch!",
+      "characterCount": 1186,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "821d22b0-7018-41de-8dc1-d098ba37a870",
+      "title": "Die Lorelei (Heinrich Heine)",
+      "category": "Ballade",
+      "difficulty": 2,
+      "order": 7,
+      "content": "Ich weiß nicht, was soll es bedeuten,\nDaß ich so traurig bin;\nEin Märchen aus alten Zeiten,\nDas kommt mir nicht aus dem Sinn.\n\nDie Luft ist kühl und es dunkelt,\nUnd ruhig fließt der Rhein;\nDer Gipfel des Berges funkelt\nIm Abendsonnenschein.\n\nDie schönste Jungfrau sitzet\nDort oben wunderbar,\nIhr goldnes Geschmeide blitzet,\nSie kämmt ihr goldenes Haar.\n\nSie kämmt es mit goldenem Kamme\nUnd singt ein Lied dabei;\nDas hat eine wundersame,\nGewaltige Melodei.\n\nDen Schiffer im kleinen Schiffe\nErgreift es mit wildem Weh;\nEr schaut nicht die Felsenklippe,\nEr schaut nur hinauf in die Höh'.\n\nIch glaube, die Wellen verschlingen\nAm Ende Schiffer und Kahn;\nUnd das hat mit ihrem Singen\nDie Lorelei getan.",
+      "characterCount": 696,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "1cff26ef-9067-46b8-aaa7-188c2ac628eb",
+      "title": "Herbst (Rainer Maria Rilke)",
+      "category": "Jahreszeiten",
+      "difficulty": 2,
+      "order": 8,
+      "content": "Die Blätter fallen, fallen wie von weit,\nals welkten in den Himmeln ferne Gärten;\nsie fallen mit verneinender Gebärde.\n\nUnd in den Nächten fällt die schwere Erde\naus allen Sternen in die Einsamkeit.\n\nWir alle fallen. Diese Hand da fällt.\nUnd sieh dir andre an: es ist in allen.\n\nUnd doch ist Einer, welcher dieses Fallen\nunendlich sanft in seinen Händen hält.",
+      "characterCount": 359,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "5d4a354c-77ec-4a7f-8cf5-421030844c55",
+      "title": "Der Panther (Rainer Maria Rilke)",
+      "category": "Philosophie",
+      "difficulty": 3,
+      "order": 9,
+      "content": "Sein Blick ist vom Vorübergehn der Stäbe\nso müd geworden, daß er nichts mehr hält.\nIhm ist, als ob es tausend Stäbe gäbe\nund hinter tausend Stäben keine Welt.\n\nDer weiche Gang geschmeidig starker Schritte,\nder sich im allerkleinsten Kreise dreht,\nist wie ein Tanz von Kräften um eine Mitte,\nin der betäubt ein großer Wille steht.\n\nNur manchmal schiebt der Vorhang der Pupille\nsich lautlos auf –. Dann geht ein Bild hinein,\ngeht durch der Glieder angespannte Stille –\nund hört im Herzen auf zu sein.",
+      "characterCount": 498,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a2c19586-89c2-43f8-8167-940b63f7bd1b",
+      "title": "Herbsttag (Rainer Maria Rilke)",
+      "category": "Jahreszeiten",
+      "difficulty": 3,
+      "order": 10,
+      "content": "Herr: es ist Zeit. Der Sommer war sehr groß.\nLeg deinen Schatten auf die Sonnenuhren,\nund auf den Fluren laß die Winde los.\n\nBefiehl den letzten Früchten voll zu sein;\ngib ihnen noch zwei südlichere Tage,\ndränge sie zur Vollendung hin und jage\ndie letzte Süße in den schweren Wein.\n\nWer jetzt kein Haus hat, baut sich keines mehr.\nWer jetzt allein ist, wird es lange bleiben,\nwird wachen, lesen, lange Briefe schreiben\nund wird in den Alleen hin und her\nunruhig wandern, wenn die Blätter treiben.",
+      "characterCount": 496,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "e9b3d094-0f06-4753-81e3-5e40d8f0cc51",
+      "title": "An den Mond (Johann Wolfgang von Goethe)",
+      "category": "Natur",
+      "difficulty": 3,
+      "order": 11,
+      "content": "Füllest wieder Busch und Tal\nStill mit Nebelglanz,\nLösest endlich auch einmal\nMeine Seele ganz;\n\nBreitest über mein Gefild\nLindernd deinen Blick,\nWie des Freundes Auge mild\nÜber mein Geschick.\n\nJedem bleibt er unbekannt,\nDer nicht fühlet, was ich fühle;\nEin Herz, das sich selbst nicht kennt,\nIn der eignen Kühle.\n\nNachklang tönet, was ich einst\nGlücklich litt und tat,\nTrüb und heller wechselt jetzt\nMeine Stunde, meine Zeit.\n\nFließe, fließe, lieber Fluß!\nNimmer werd ich froh;\nSo verrauschte Scherz und Kuß\nUnd die Treue so.\n\nIch besaß es doch einmal,\nWas so köstlich ist!\nDaß man doch zu seiner Qual\nNimmer es vergißt!\n\nRausche, Fluß, das Tal entlang,\nOhne Rast und Ruh,\nRausche, flüstre meinem Sang\nMelodien zu,\n\nWenn du in der Winternacht\nWütend überschwillst\nOder um die Frühlingspracht\nJunger Knospen quillst.\n\nSelig, wer sich vor der Welt\nOhne Haß verschließt,\nEinen Freund am Busen hält\nUnd mit dem genießt,\n\nWas, von Menschen nicht gewußt\nOder nicht bedacht,\nDurch das Labyrinth der Brust\nWandelt in der Nacht.",
+      "characterCount": 1020,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "43a1dc91-e699-40c9-88fc-be19b566e1c2",
+      "title": "Sommerbild (Friedrich Hebbel)",
+      "category": "Jahreszeiten",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Ich sah des Sommers letzte Rose stehn,\nSie war, als ob sie bluten könnte, rot;\nDa sprach ich schauernd im Vorübergehn:\nSo weit im Leben, ist zu nah am Tod!\n\nEs regte sich kein Hauch am heißen Tag,\nNur leise strich ein weißer Schmetterling;\nDoch, ob auch kaum die Luft sein Flügelschlag\nBewegte, sie erschaudernd unterging.",
+      "characterCount": 322,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "ef884180-c80e-400d-8f34-f5850b6d6b22",
+      "title": "Frühling (Eduard Mörike)",
+      "category": "Jahreszeiten",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Frühling läßt sein blaues Band\nWieder flattern durch die Lüfte;\nSüße, wohlbekannte Düfte\nStreifen ahnungsvoll das Land.\nVeilchen träumen schon,\nWollen balde kommen.\n– Horch, von fern ein leiser Harfenton!\nFrühling, ja du bist's!\nDich hab ich vernommen!",
+      "characterCount": 252,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "2270f8ed-5fbc-4e5e-a455-2d6fe460dceb",
+      "title": "An die Parzen (Friedrich Hölderlin)",
+      "category": "Philosophie",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Nur einen Sommer gönnt, ihr Gewaltigen!\nUnd einen Herbst zu reifem Gesange mir,\nDaß williger mein Herz, vom süßen\nSpiele gesättiget, dann mir sterbe.\n\nDie Seele, der im Leben ihr göttlich Recht\nNicht ward, sie ruht auch drunten im Orkus nicht;\nDoch ist mir einst das Heil'ge, das am\nHerzen mir liegt, das Gedicht, gelungen,\n\nWillkommen dann, o Stille der Schattenwelt!\nZufrieden bin ich, wenn auch mein Saitenspiel\nMich nicht hinabgeleitet; einmal\nLebt ich wie Götter, und mehr bedarfs nicht.",
+      "characterCount": 492,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "1172f25f-be9a-41df-a958-159ab5c5b11f",
+      "title": "Hälfte des Lebens (Friedrich Hölderlin)",
+      "category": "Philosophie",
+      "difficulty": 3,
+      "order": 15,
+      "content": "Mit gelben Birnen hänget\nUnd voll mit wilden Rosen\nDas Land in den See,\nIhr holden Schwäne,\nUnd trunken von Küssen\nTunkt ihr das Haupt\nIns heilignüchterne Wasser.\n\nWeh mir, wo nehm ich, wenn\nEs Winter ist, die Blumen, und wo\nDen Sonnenschein,\nUnd Schatten der Erde?\nDie Mauern stehn\nSprachlos und kalt, im Winde\nKlirren die Fahnen.",
+      "characterCount": 331,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a7e3d2cd-08cf-4a9f-9c62-7bc7180d1bf3",
+      "title": "Der Rabe Ralf (Christian Morgenstern)",
+      "category": "Leben",
+      "difficulty": 2,
+      "order": 16,
+      "content": "»Rabe Ralf, wie bist du trübe!\nWas bedrückt dein schwarzes Herz?«\n»Ach, mir mangelt Weib und Liebe,\nUnd das macht mir bittern Schmerz!«\n\n»Rabe Ralf, nimm dir ein Weibchen,\nSorge dich um solches nicht!«\n»Ach, da kommt's! Mein schwarzes Leibchen\nGilt kein Pfifferling im Licht!«\n\n»Rabe Ralf, du Schwarzgefiedter,\nHast du denn gar kein Vertrau'n?\nNimm dies Lied und sing es wieder,\nDann findst du schon eine Frau'n!«",
+      "characterCount": 413,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "09571120-6997-49cc-b975-b86955a0aeb9",
+      "title": "Der Lattenzaun (Christian Morgenstern)",
+      "category": "Leben",
+      "difficulty": 1,
+      "order": 17,
+      "content": "Es war einmal ein Lattenzaun,\nmit Zwischenraum, hindurchzuschaun.\n\nEin Architekt, der dieses sah,\nstand eines Abends plötzlich da –\n\nund nahm den Zwischenraum heraus\nund baute draus ein großes Haus.\n\nDer Zaun indessen stand ganz dumm,\nmit Latten ohne was herum.\n\nEin Anblick gräßlich und gemein.\nDrauf zog ihn der Senat auch ein.\n\nDer Architekt jedoch entfloh\nnach Afri- od- Ameriko.",
+      "characterCount": 383,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "9bc0a5f9-b858-4c9c-bfea-daea3ab59e4f",
+      "title": "Das ästhetische Wiesel (Christian Morgenstern)",
+      "category": "Leben",
+      "difficulty": 1,
+      "order": 18,
+      "content": "Ein Wiesel\nsaß auf einem Kiesel\ninmitten Bachgeriesel.\n\nWeißt du,\nweshalb?\n\nDas Mondkalb\nverriet es mir\nim Stillen:\n\nDas raffinierte Tier\ntat's um des Reimes willen.",
+      "characterCount": 165,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "3e7c184c-a202-432f-8521-842c529b2de6",
+      "title": "Sehnsucht (Joseph von Eichendorff)",
+      "category": "Heimat",
+      "difficulty": 3,
+      "order": 19,
+      "content": "Es schienen so golden die Sterne,\nAm Fenster ich einsam stand\nUnd hörte aus weiter Ferne\nEin Posthorn im stillen Land.\nDas Herz mir im Leib entbrannte,\nDa hab ich mir heimlich gedacht:\nAch, wer da mitreisen könnte\nIn der prächtigen Sommernacht!\n\nZwei junge Gesellen gingen\nVorüber am Bergeshang,\nIch hörte im Wandern sie singen\nDie stille Gegend entlang:\nVon schwindelenden Felsenschlüften,\nWo die Wälder rauschen so sacht,\nVon Quellen, die von den Klüften\nSich stürzen in Waldesnacht.\n\nSie sangen von Marmorbildern,\nVon Gärten, die überm Gestein\nIn dämmernden Lauben verwildern,\nPalästchen im Mondenschein,\nWo die Mädchen am Fenster lauschen,\nWann der Lauten Klang erwacht\nUnd die Brunnen verschlafen rauschen\nIn der prächtigen Sommernacht!",
+      "characterCount": 741,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "ea0d0643-8aa1-493a-a0ac-386c88c3eeb0",
+      "title": "Im Herbst (Theodor Storm)",
+      "category": "Jahreszeiten",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Nun kommt der Herbst; nun muß ich scheiden\nVon meiner lieben Heimat weit;\nIch scheide von den stillen Heiden,\nVon meiner goldnen Kinderzeit.\n\nLeb wohl, du grüner Wald, du stilles\nMoos, du Hügel, du Bach und See!\nLebt wohl, ihr Blumen! – Über alles\nVergeh ich jetzt in Herzeleid.",
+      "characterCount": 278,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "d8579e20-21b6-44a9-a8dc-feaac1339cee",
+      "title": "Meeresstille (Johann Wolfgang von Goethe)",
+      "category": "Natur",
+      "difficulty": 1,
+      "order": 21,
+      "content": "Tiefe Stille herrscht im Wasser,\nOhne Regung ruht das Meer,\nUnd bekümmert sieht der Schiffer\nGlatte Fläche ringsumher.\nKeine Luft von keiner Seite!\nTodtenstille fürchterlich!\nIn der ungeheuern Weite\nReget keine Welle sich.",
+      "characterCount": 222,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "31cd4352-d6b8-4acc-99e8-6ac0236a028c",
+      "title": "Glückliche Fahrt (Johann Wolfgang von Goethe)",
+      "category": "Natur",
+      "difficulty": 1,
+      "order": 22,
+      "content": "Die Nebel zerreißen,\nDer Himmel ist helle,\nUnd Äolus löset\nDas ängstliche Band.\nEs säuseln die Winde,\nEs rührt sich der Schiffer.\nGeschwinde! Geschwinde!\nEs teilt sich die Welle,\nEs naht sich die Ferne;\nSchon seh ich das Land!",
+      "characterCount": 226,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "62801f66-1dc7-4003-8e27-8c23de463bc4",
+      "title": "Gefunden (Johann Wolfgang von Goethe)",
+      "category": "Natur",
+      "difficulty": 2,
+      "order": 23,
+      "content": "Ich ging im Walde\nSo für mich hin,\nUnd nichts zu suchen,\nDas war mein Sinn.\n\nIm Schatten sah ich\nEin Blümlein stehn,\nWie Sterne leuchtend,\nWie Äuglein schön.\n\nIch wollt es brechen,\nDa sagt es fein:\nSoll ich zum Welken\nGebrochen sein?\n\nIch grubs mit allen\nSein Würzlein aus,\nZum Garten trug ichs\nAm hübschen Haus.\n\nUnd pflanzt es wieder\nAm stillen Ort;\nNun zweigt es immer\nUnd blüht so fort.",
+      "characterCount": 390,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b0e47639-6c86-4c5d-a2f1-85e7f083456a",
+      "title": "Das Heidenröslein (Johann Wolfgang von Goethe)",
+      "category": "Natur",
+      "difficulty": 2,
+      "order": 24,
+      "content": "Sah ein Knab ein Röslein stehn,\nRöslein auf der Heiden,\nWar so jung und morgenschön,\nLief er schnell, es nah zu sehn,\nSah's mit vielen Freuden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.\n\nKnabe sprach: Ich breche dich,\nRöslein auf der Heiden!\nRöslein sprach: Ich steche dich,\nDaß du ewig denkst an mich,\nUnd ich will's nicht leiden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.\n\nUnd der wilde Knabe brach\n's Röslein auf der Heiden;\nRöslein wehrte sich und stach,\nHalf ihm doch kein Weh und Ach,\nMußt' es eben leiden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.",
+      "characterCount": 593,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "c7512731-8238-44a4-ae0c-8a17a673447d",
+      "title": "Anakreons Grab (Johann Wolfgang von Goethe)",
+      "category": "Leben",
+      "difficulty": 2,
+      "order": 25,
+      "content": "Wo die Rose hier blüht, wo Reben um Lorbeer sich schlingen,\nWo das Turtelchen lockt, wo sich das Grillchen ergetzt,\nWelch ein Grab ist hier, das alle Götter mit Leben\nSchön bepflanzt und geziert? Es ist Anakreons Ruh.\nFrühling, Sommer und Herbst genoß der glückliche Dichter;\nVor dem Winter hat ihn endlich der Hügel geschützt.",
+      "characterCount": 327,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "6a924002-408d-4a5c-a192-03f6df1beec1",
+      "title": "Prometheus (Johann Wolfgang von Goethe)",
+      "category": "Philosophie",
+      "difficulty": 4,
+      "order": 26,
+      "content": "Bedecke deinen Himmel, Zeus,\nMit Wolkendunst!\nUnd übe, Knaben gleich,\nDer Disteln köpft,\nAn Eichen dich und Bergeshöhn;\nMußt mir meine Erde\nDoch lassen stehn\nUnd meine Hütte, die du nicht gebaut,\nUnd meinen Herd,\nUm dessen Glut\nDu mich beneidest.\n\nIch kenne nichts Ärmeres\nUnter der Sonn als euch, Götter!\nIhr nähret kümmerlich\nVon Opfersteuern\nUnd Gebetshauch\nEure Majestät\nUnd darbtet, wären\nNicht Kinder und Bettler\nHoffnungsvolle Toren.\n\nDa ich ein Kind war,\nNicht wußte, wo aus noch ein,\nKehrt ich mein verirrtes Auge\nZur Sonne, als wenn drüber wär\nEin Ohr, zu hören meine Klage,\nEin Herz wie meins,\nSich des Bedrängten zu erbarmen.\n\nWer half mir\nWider der Titanen Übermut?\nWer rettete vom Tode mich,\nVon Sklaverei?\nHast du nicht alles selbst vollendet,\nHeilig glühend Herz?\nUnd glühtest jung und gut,\nBetrogen, Rettungsdank\nDem Schlafenden da droben?\n\nIch dich ehren? Wofür?\nHast du die Schmerzen gelindert\nJe des Beladenen?\nHast du die Tränen gestillet\nJe des Geängsteten?\nHat nicht mich zum Manne geschmiedet\nDie allmächtige Zeit\nUnd das ewige Schicksal,\nMeine Herrn und deine?\n\nWähntest du etwa,\nIch sollte das Leben hassen,\nIn Wüsten fliehn,\nWeil nicht alle\nBlütenträume reiften?\n\nHier sitz ich, forme Menschen\nNach meinem Bilde,\nEin Geschlecht, das mir gleich sei,\nZu leiden, zu weinen,\nZu genießen und zu freuen sich,\nUnd dein nicht zu achten,\nWie ich!",
+      "characterCount": 1364,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a889bbc6-a9b1-4d3f-b96d-e3764119867c",
+      "title": "Die Bürgschaft (Friedrich Schiller)",
+      "category": "Ballade",
+      "difficulty": 5,
+      "order": 27,
+      "content": "Zu Dionys, dem Tyrannen, schlich\nDamon, den Dolch im Gewande;\nIhn schlugen die Häscher in Bande.\n»Was wolltest du mit dem Dolche, sprich!«\nEntgegnet ihm finster der Wüterich.\n»Die Stadt vom Tyrannen befreien!«\n»Das sollst du am Kreuze bereuen.«\n\n»Ich bin«, spricht jener, »zu sterben bereit\nUnd bitte nicht um mein Leben;\nDoch willst du Gnade mir geben,\nIch flehe dich um drei Tage Zeit,\nBis ich die Schwester dem Gatten gefreit;\nIch lasse den Freund dir als Bürgen,\nIhn magst du, kehr ich nicht, würgen.«\n\nDer Tyrann erweicht. Zum Bürgen tritt\nPhilostet: Damon reist eilig fort.\nDie Hochzeit wird gefeiert, dann schwingt er sich mit\nHeimwärts. Aber der Weg ist lang und der Strom ist schwer,\nDer geschwollene Strom. Er ringt sich durch;\nDen Räubern entkommt er mit Müh und Not.\nSchon sinkt die Sonne. Er zittert: der Tod\nVom Kreuze winkt. Er läuft und läuft\nUnd kommt am Abend noch an.\n\n»Hier bin ich, Tyrann! Löse den Freund,\nIch habe getan, was ich versprochen;\nDer Freund ist schuldlos – mich treffe dein Streich!«\nDer Freund fällt schluchzend dem Freunde ans Herz:\n»Nicht mich – er hat sich für mich geopfert –\nMich töte, Tyrann, und sprich ihn frei!«\n\nDer Tyrann steht still; er weint bewegt:\n»Ihr habt die Treue mir gelehrt.\nEs siegte die Liebe – ich nehme euch beide\nZu Freunden an und bitte selbst\nMich aufzunehmen in euern Bund!«",
+      "characterCount": 1339,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "885bd19a-b2be-407f-bee1-279616272303",
+      "title": "Der Handschuh (Friedrich Schiller)",
+      "category": "Ballade",
+      "difficulty": 4,
+      "order": 28,
+      "content": "Vor seinem Löwengarten,\nDas Kampfspiel zu erwarten,\nSaß König Franz,\nUnd um ihn die Grandes,\nDie Ritter und Damen,\nUnd als er winkte, die Pforte that auf,\nUnd herein mit bedächtigem Schritt\nEin Löwe trat\nUnd sah sich stumm\nRings um,\nMit langem Gähnen,\nUnd schüttelt die Mähnen\nUnd streckt die Glieder\nUnd legt sich nieder.\n\nUnd der König winkt wieder,\nDa öffnet sich behend\nEin zweites Thor,\nDaraus rennt\nMit wildem Sprunge\nEin Tiger hervor.\nWie der den Löwen erschaut,\nBrüllt er laut,\nSchlägt mit dem Schweif\nEinen furchtbaren Reif\nUnd recket die Zunge,\nUnd im Kreise scheu\nUmgeht er den Leu\nGreulich schnurrend;\nDrauf streckt er sich murrend\nZur Seite nieder.\n\nUnd der König winkt wieder,\nDa speit das doppelt geöffnete Haus\nZwei Leoparden auf einmal aus.\nDie stürzen mit mutiger Kampfbegier\nAuf das Tigerthier;\nDas packt sie mit seinen grimmigen Tatzen,\nUnd der Leu mit Gebrüll\nRichtet sich auf – da wird's still;\nUnd herum im Kreis,\nVon Mordsucht heiß,\nLagern sich die greulichen Katzen.\n\nDa fällt von des Altans Rand\nEin Handschuh von schöner Hand\nZwischen den Tiger und den Leun\nMitten hinein.\n\nUnd zu Ritter Delorges, spottenderweis,\nWendet sich Fräulein Kunigund:\n»Herr Ritter, ist Eure Lieb so heiß,\nWie Ihr mir's schwört zu jeder Stund,\nEi, so hebt mir den Handschuh auf!«\n\nUnd der Ritter in schnellem Lauf\nSteigt hinab in den furchtbarn Zwinger\nMit festem Schritte,\nUnd aus der Ungeheuer Mitte\nNimmt er den Handschuh mit keckem Finger.\n\nUnd mit Erstaunen und mit Grauen\nSehen's die Ritter und Edelfrauen,\nUnd gelassen bringt er den Handschuh zurück.\nDa schallt ihm sein Lob aus jedem Munde;\nAber mit zärtlichem Liebesblick –\nEr verheißt ihm sein nahes Glück –\nEmpfängt ihn Fräulein Kunigunde.\nUnd er wirft ihr den Handschuh ins Gesicht:\n»Den Dank, Dame, begehr ich nicht!«\nUnd verläßt sie zur selben Stunde.",
+      "characterCount": 1818,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "bf21e513-f49b-45c9-b45e-cc45a60aaa05",
+      "title": "An die Freude (Friedrich Schiller)",
+      "category": "Leben",
+      "difficulty": 4,
+      "order": 29,
+      "content": "Freude, schöner Götterfunken,\nTochter aus Elisium,\nWir betreten feuertrunken,\nHimmlische, dein Heiligtum!\nDeine Zauber binden wieder\nWas die Mode streng geteilt;\nAlle Menschen werden Brüder,\nWo dein sanfter Flügel weilt.\n\nWem der große Wurf gelungen,\nEines Freundes Freund zu sein;\nWer ein holdes Weib errungen,\nMische seinen Jubel ein!\nJa, wer auch nur eine Seele\nSein nennt auf dem Erdenrund!\nUnd wer's nie gekonnt, der stehle\nWeinend sich aus diesem Bund!\n\nFreude trinken alle Wesen\nAn den Brüsten der Natur;\nAlle Guten, alle Bösen\nFolgen ihrer Rosenspur.\nKüsse gab sie uns und Reben,\nEinen Freund, geprüft im Tod;\nWollust ward dem Wurm gegeben,\nUnd der Cherub steht vor Gott.\n\nSeid umschlungen, Millionen!\nDiesen Kuß der ganzen Welt!\nBrüder! überm Sternenzelt\nMuß ein lieber Vater wohnen.",
+      "characterCount": 792,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "39ca3a62-96b8-4f70-95ae-0eb77236666e",
+      "title": "Das Lied von der Glocke (Auszug) (Friedrich Schiller)",
+      "category": "Leben",
+      "difficulty": 4,
+      "order": 30,
+      "content": "Festgemauert in der Erden\nSteht die Form, aus Lehm gebrannt.\nHeute muß die Glocke werden!\nFrisch, Gesellen, seid zur Hand!\nVon der Stirne heiß\nRinnen muß der Schweiß,\nSoll das Werk den Meister loben;\nDoch der Segen kommt von oben.\n\nZum Werke, das wir ernst bereiten,\nGeziemt sich wohl ein ernstes Wort;\nWenn gute Reden sie begleiten,\nDann fließt die Arbeit munter fort.\nSo laßt uns jetzt mit Fleiß betrachten,\nWas durch die schwache Kraft entspringt;\nDen schlechten Mann muß man verachten,\nDer nie bedacht, was er vollbringt.",
+      "characterCount": 525,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "39c03a96-957b-4ba1-87fc-c47203f963c3",
+      "title": "Der Abend (Joseph von Eichendorff)",
+      "category": "Natur",
+      "difficulty": 2,
+      "order": 31,
+      "content": "Schweigt der Menschen laute Lust:\nRauscht die Erde wie in Träumen\nWunderbar mit allen Bäumen,\nWas dem Herzen kaum bewußt,\nAlte Zeiten, linde Trauer,\nUnd es schweifen leise Schauer\nWetterleuchtend durch die Brust.",
+      "characterCount": 212,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "17b9dd10-ee9f-422a-b3b4-ddbb4bf35c29",
+      "title": "Der Erlkönig (Johann Wolfgang von Goethe)",
+      "category": "Ballade",
+      "difficulty": 5,
+      "order": 32,
+      "content": "Wer reitet so spät durch Nacht und Wind?\nEs ist der Vater mit seinem Kind;\nEr hat den Knaben wohl in dem Arm,\nEr faßt ihn sicher, er hält ihn warm.\n\nMein Sohn, was birgst du so bang dein Gesicht?\nSiehst, Vater, du den Erlkönig nicht?\nDen Erlenkönig mit Kron und Schweif?\nMein Sohn, es ist ein Nebelstreif.\n\n»Du liebes Kind, komm, geh mit mir!\nGar schöne Spiele spiel ich mit dir;\nManch bunte Blumen sind an dem Strand,\nMeine Mutter hat manch gülden Gewand.«\n\nMein Vater, mein Vater, und hörest du nicht,\nWas Erlenkönig mir leise verspricht?\nSei ruhig, bleibe ruhig, mein Kind;\nIn dürren Blättern säuselt der Wind.\n\n»Willst, feiner Knabe, du mit mir gehn?\nMeine Töchter sollen dich warten schön;\nMeine Töchter führen den nächtlichen Reihn\nUnd wiegen und tanzen und singen dich ein.«\n\nMein Vater, mein Vater, und siehst du nicht dort\nErlkönigs Töchter am düstern Ort?\nMein Sohn, mein Sohn, ich seh es genau:\nEs scheinen die alten Weiden so grau.\n\n»Ich liebe dich, mich reizt deine schöne Gestalt;\nUnd bist du nicht willig, so brauch ich Gewalt.«\nMein Vater, mein Vater, jetzt faßt er mich an!\nErlkönig hat mir ein Leids getan!\n\nDem Vater grauset's; er reitet geschwind,\nEr hält in den Armen das ächzende Kind,\nErreicht den Hof mit Müh und Not;\nIn seinen Armen das Kind war tot.",
+      "characterCount": 1275,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "405cd38c-20a1-4fe2-9de8-296202aacc5a",
+      "title": "Der Zauberlehrling (Johann Wolfgang von Goethe)",
+      "category": "Ballade",
+      "difficulty": 5,
+      "order": 33,
+      "content": "Hat der alte Hexenmeister\nSich doch einmal wegbegeben!\nUnd nun sollen seine Geister\nAuch nach meinem Willen leben!\nSeine Wort und Werke\nMerkt ich und den Brauch,\nUnd mit Geistesstärke\nTu ich Wunder auch.\n\nWalle! walle\nManche Strecke,\nDaß, zum Zwecke,\nWasser fließe\nUnd mit reichem, vollem Schwalle\nZu dem Bade sich ergieße.\n\nUnd nun komm, du alter Besen!\nNimm die schlechten Lumpenhüllen;\nBist schon lange Knecht gewesen;\nNun erfülle meinen Willen!\nAuf zwei Beinen stehe,\nOben sei ein Kopf,\nEile nun und gehe\nMit dem Wassertopf!\n\nWalle! walle\nManche Strecke,\nDaß, zum Zwecke,\nWasser fließe\nUnd mit reichem, vollem Schwalle\nZu dem Bade sich ergieße.\n\nSeht, er läuft zum Ufer nieder;\nWahrlich! ist schon an dem Flusse,\nUnd mit Blitzesschnelle wieder\nIst er hier mit raschem Gusse.\nSchon zum zweiten Male!\nWie das Becken schwillt!\nWie sich jede Schale\nVoll mit Wasser füllt!\n\nStehe! stehe!\nDenn wir haben\nDeiner Gaben\nVollgemessen! –\nAch, ich merk es! Wehe! wehe!\nHab ich doch das Wort vergessen!\n\nAch, das Wort, worauf am Ende\nEr das wird, was er gewesen.\nAch, er läuft und bringt behende!\nWärst du doch der alte Besen!\nImmer neue Güsse\nBringt er schnell herein,\nAch, und hundert Flüsse\nStürzen auf mich ein.\n\nNein, nicht länger\nKann ich's lassen;\nWill ihn fassen.\nDas ist Tücke!\nAch, nun wird mir immer bänger!\nWelche Miene! welche Blicke!\n\nO, du Ausgeburt der Hölle!\nSoll das ganze Haus ersaufen?\nSeh ich über jede Schwelle\nDoch schon Wasserströme laufen.\nEin verruchter Besen,\nDer nicht hören will!\nStock, der du gewesen,\nSteh doch wieder still!\n\nWills du endlich,\nRaser Wicht!\nHör auf! Wische –\nNein, du weichst nicht!\nGleich, o Kobold, liegst du nieder;\nKrachend trifft die glatte Schneide.\n\nWahrlich! brav getroffen!\nSeht, er ist entzwei!\nUnd nun kann ich hoffen,\nUnd ich atme frei!\nWehe! wehe!\nBeide Teile\nStehn in Eile\nSchon als Knechte\nVöllig fertig in die Höhe!\nHelft mir, ach! ihr hohen Mächte!\n\nUnd sie laufen! Naß und nässer\nWird's im Saal und auf den Stufen.\nWelch entsetzliches Gewässer!\nHerr und Meister, hör mich rufen!\nAch, da kommt der Meister!\nHerr, die Not ist groß!\nDie ich rief, die Geister,\nWerd ich nun nicht los.\n\n»In die Ecke,\nBesen, Besen!\nSeid's gewesen.\nDenn als Geister\nRuft euch nur zu seinem Zwecke\nErst hervor der alte Meister.«",
+      "characterCount": 2260,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "86b9a8b2-f351-48e2-8d38-ef5b3ed653ba",
+      "title": "Mailied (Johann Wolfgang von Goethe)",
+      "category": "Jahreszeiten",
+      "difficulty": 3,
+      "order": 34,
+      "content": "Wie herrlich leuchtet\nMir die Natur!\nWie glänzt die Sonne!\nWie lacht die Flur!\n\nEs dringen Blüten\nAus jedem Zweig\nUnd tausend Stimmen\nAus dem Gesträuch\n\nUnd Freud und Wonne\nAus jeder Brust.\nO Erd! O Sonne!\nO Glück! O Lust!\n\nO Lieb, o Liebe!\nSo golden schön\nWie Morgenwolken\nAuf jenen Höhn!\n\nDu segnest herrlich\nDas frische Feld,\nIm Blütendampfe\nDie volle Welt!\n\nO Mädchen, Mädchen,\nWie lieb ich dich!\nWie blickt dein Auge!\nWie liebst du mich!\n\nSo liebt die Lerche\nGesang und Luft,\nUnd Morgenblumen\nDen Himmelsduft,\n\nWie ich dich liebe\nMit warmem Blut,\nDie du mir Jugend\nUnd Freud und Mut\n\nZu neuen Liedern\nUnd Tänzen gibst.\nSei ewig glücklich,\nWie du mich liebst!",
+      "characterCount": 663,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "06458b48-51bf-4cd5-a668-0ad33cd9153c",
+      "title": "Nähe des Geliebten (Johann Wolfgang von Goethe)",
+      "category": "Liebe",
+      "difficulty": 2,
+      "order": 35,
+      "content": "Ich denke dein, wenn mir der Sonne Schimmer\nVom Meere strahlt;\nIch denke dein, wenn sich des Mondes Flimmer\nIn Quellen malt.\n\nIch sehe dich, wenn auf dem fernen Wege\nDer Staub sich hebt;\nIn tiefer Nacht, wenn auf dem schmalen Stege\nDer Wandrer bebt.\n\nIch höre dich, wenn dort mit dumpfem Rauschen\nDie Welle steigt.\nIm stillen Haine geh ich oft zu lauschen,\nWenn alles schweigt.\n\nIch bin bei dir; du seist auch noch so ferne,\nDu bist mir nah!\nDie Sonne sinkt, bald leuchten mir die Sterne.\nO, wärst du da!",
+      "characterCount": 504,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "cc30476a-ad54-4e97-83fc-d4a0d3c8aedc",
+      "title": "Das Veilchen (Johann Wolfgang von Goethe)",
+      "category": "Liebe",
+      "difficulty": 3,
+      "order": 36,
+      "content": "Ein Veilchen auf der Wiese stand,\nGebückt in sich und unbekannt;\nEs war ein herzigs Veilchen.\nDa kam eine junge Schäferin\nMit leichtem Schritt und munterm Sinn\nDaher, daher,\nDie Wiese her und sang.\n\nAch! denkt das Veilchen, wär ich nur\nDie schönste Blume der Natur,\nAch, nur ein kleines Weilchen,\nBis mich das Liebchen abgepflückt\nUnd an dem Busen matt gedrückt!\nAch nur, ach nur\nEin Viertelstündchen lang!\n\nAch! aber ach! das Mädchen kam\nUnd nicht in acht das Veilchen nahm,\nErtrat das arme Veilchen.\nEs sank und starb, und freut' sich noch:\nUnd sterb ich denn, so sterb ich doch\nDurch sie, durch sie,\nZu ihren Füßen doch.",
+      "characterCount": 623,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "4e492c0a-34d2-4855-b2bc-ec70927f0c6d",
+      "title": "Belsazar (Heinrich Heine)",
+      "category": "Ballade",
+      "difficulty": 4,
+      "order": 37,
+      "content": "Die Mitternacht zog näher schon;\nIn stummer Ruh lag Babylon.\n\nNur oben, in des Königs Schloß,\nDa flackert's, da lärmt des Königs Troß.\n\nDort oben in dem Königssaal\nBelsazar hielt sein Königsmahl.\n\nDie Knechte saßen in schimmernden Reihn\nUnd leerten die Becher mit funkelndem Wein.\n\nEs klirrten die Becher, es jauchzten die Knecht';\nSo klang es dem störrigen Könige recht.\n\nDes Königs Wangen leuchten Glut;\nIm Wein erwuchs ihm kecker Mut.\n\nUnd blindlings reißt der Mut ihn fort;\nUnd er lästert die Gottheit mit sündigem Wort.\n\nUnd er brüstet sich frech, und lästert wild;\nDie Knechtenschar ihm Beifall brüllt.\n\nDer König rief mit stolzem Blick;\nDer Diener eilt und kommt zurück.\n\nEr trug viel gülden Gerät auf dem Haupt;\nDas war aus dem Tempel Jehovas geraubt.\n\nUnd der König ergriff mit frevler Hand\nEinen heiligen Becher, gefüllt bis am Rand.\n\nUnd er leert ihn hastig bis auf den Grund\nUnd ruft laut mit schäumendem Mund:\n\n»Jehova! dir künd ich auf ewig Hohn –\nIch bin der König von Babylon!«\n\nDoch kaum das grause Wort verklang,\nDem König ward's heimlich im Busen bang.\n\nDas gellende Lachen verstummte zumal;\nEs wurde leichenstill im Saal.\n\nUnd sieh! und sieh! an weißer Wand\nDa kam's hervor wie Menschenhand;\n\nUnd schrieb, und schrieb an weißer Wand\nBuchstaben von Feuer, und schrieb und schwand.\n\nDer König starrenden Blickes saß,\nMit schlotternden Knien und totenblaß.\n\nDie Knechtenschar saß kalt durchgraut,\nUnd saß gar still, gab keinen Laut.\n\nDie Magier kamen, doch keiner verstand\nZu deuten die Flammenschrift an der Wand.\n\nBelsazar ward aber in selbiger Nacht\nVon seinen Knechten umgebracht.",
+      "characterCount": 1601,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "648ed998-6904-418f-ad0b-0b597b0b36fa",
+      "title": "Du bist wie eine Blume (Heinrich Heine)",
+      "category": "Liebe",
+      "difficulty": 1,
+      "order": 38,
+      "content": "Du bist wie eine Blume,\nSo hold und schön und rein;\nIch schau dich an, und Wehmut\nSchleicht mir ins Herz hinein.\n\nMir ist, als ob ich die Hände\nAufs Haupt dir legen sollt,\nBetend, daß Gott dich erhalte\nSo rein und schön und hold.",
+      "characterCount": 229,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "40294c94-7215-44b1-affe-354b015529bb",
+      "title": "Im wunderschönen Monat Mai (Heinrich Heine)",
+      "category": "Liebe",
+      "difficulty": 1,
+      "order": 39,
+      "content": "Im wunderschönen Monat Mai,\nAls alle Knospen sprangen,\nDa ist in meinem Herzen\nDie Liebe aufgegangen.\n\nIm wunderschönen Monat Mai,\nAls alle Vögel sangen,\nDa hab ich ihr gestanden\nMein Sehnen und Verlangen.",
+      "characterCount": 205,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "0a2d44c5-7275-453b-89dc-211bff28f690",
+      "title": "Mein Herz, mein Herz ist traurig (Heinrich Heine)",
+      "category": "Liebe",
+      "difficulty": 2,
+      "order": 40,
+      "content": "Mein Herz, mein Herz ist traurig,\nDoch lustig leuchtet der Mai;\nIch stehe, gelehnt an der Linde,\nHoch auf der alten Bastei.\n\nDa drunten fließt der blaue\nStadtgraben in stiller Ruh;\nEin Knabe fährt im Kahne\nUnd pfeift und singt dazu.\n\nJenseits erheben sich freundlich\nIn winziger, bunter Gestalt,\nLusthäuser und Gärten und Menschen\nUnd Ochsen und Wiesen und Wald.\n\nDie Mägde bleichen Wäsche\nUnd springen im Gras herum;\nDas Mühlrad stäubt Diamanten,\nIch höre sein fernes Gesumm.\n\nAm alten grauen Turme\nEin Schilderhäuschen steht;\nEin rotgeröckter Bursche\nDort auf und nieder geht.\n\nEr spielt mit seiner Flinte,\nDie funkelt im Sonnenrot,\nEr präsentiert und schultert –\nIch wollt, er schösse mich tot.",
+      "characterCount": 697,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "77d5f60c-fc1b-4a8a-a1a6-64fd2ee74d6c",
+      "title": "Die Heimat (Friedrich Hölderlin)",
+      "category": "Heimat",
+      "difficulty": 3,
+      "order": 41,
+      "content": "Froh kehrt der Schiffer heim an den stillen Strom,\nVon Inseln fernher, wenn er geerntet hat;\nSo käm auch ich zur Heimat, hätt ich\nGüter so viele, wie Leid, geerntet.\n\nIhr teuern Ufer, die mich erzogen einst,\nStillt ihr der Liebe Leiden, versprecht ihr mir,\nIhr Wälder meiner Jugend, wenn ich\nKomme, die Ruhe noch einmal wieder?",
+      "characterCount": 327,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b7ca7fe5-add3-4889-9119-631beb795d6f",
+      "title": "Hyperions Schicksalslied (Friedrich Hölderlin)",
+      "category": "Philosophie",
+      "difficulty": 3,
+      "order": 42,
+      "content": "Ihr wandelt droben im Licht\nAuf weichem Boden, selige Genien!\nGlänzende Götterlüfte\nRühren euch leicht,\nWie die Finger der Künstlerin\nHeilige Saiten.\n\nSchicksallos, wie der schlafende\nSäugling, atmen die Himmlischen;\nKeusch bewahrt\nIn bescheidener Knospe,\nBlühet ewig\nIhnen der Geist,\nUnd die seligen Augen\nBlicken in stiller\nEwiger Klarheit.\n\nDoch uns ist gegeben,\nAuf keiner Stätte zu ruhn,\nEs schwinden, es fallen\nDie leidenden Menschen\nBlindlings von einer\nStunde zur andern,\nWie Wasser von Klippe\nZu Klippe geworfen,\nJahriang ins Ungewisse hinab.",
+      "characterCount": 551,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "25b850ee-fc6c-4b0f-9cfe-4030bf289f24",
+      "title": "Mondesaufgang (Annette von Droste-Hülshoff)",
+      "category": "Natur",
+      "difficulty": 3,
+      "order": 43,
+      "content": "Und schaust du aus dem Dunst hervor,\nBeschneite Bergeshöhn,\nDann bricht durch dunkles Wettermoor\nDein roter Strahl ins Thal hinein.\nWie mir so wohl dann, Mond, ist mir,\nAls wärst du Mutters Blick;\nDu nickst mir zu durch Büsch und Tier,\nDu führst mich heimwärts, alter Freund, zurück.\n\nDein stilles Licht, das silberweiß,\nUm Feld und Flur sich streut,\nEs macht die Seele groß und weit,\nEin Meer voll Traumgebreit'.\nUnd sing ich dann in mondheller Nacht,\nKlingt durch die Stille weit,\nNur wer die Nacht und ihren Glanz gemacht,\nVersteht mein einsam Lied.",
+      "characterCount": 552,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b4f25641-8a8a-49e9-9dc3-41000e59e4da",
+      "title": "Am Turme (Annette von Droste-Hülshoff)",
+      "category": "Leben",
+      "difficulty": 3,
+      "order": 44,
+      "content": "Ich steh auf hohem Balkone am Turm,\nUmstrichen vom schreienden Stare,\nUnd laß gleich einer Mänade den Sturm\nMir wühlen im flatternden Haare;\nO wilder Geselle, o toller Fant,\nIch möchte dich kräftig umschlingen\nUnd, Sehne an Sehne, zwei Schritte vom Rand\nAuf Tod und Leben dann ringen!\n\nUnd drunten seh ich am Strand, so frisch,\nWie Spielzeug, die Häuser der Menschen;\nDie Wellen, sie schaukeln das bunte Gemisch\nVon Kähnen und nickenden Enten.\nUnd lachend nimmt mir der neckische Wind\nDen Schleier vom Kopfe und jaget\nIhn über das Meer, und das schäumende Kind\nAuf seine Schulter ihn traget.\n\nWär ich ein Jäger auf freier Flur,\nEin Stück nur von einem Soldaten,\nWär ich ein Mann doch mindestens nur,\nSo würde der Himmel mir raten;\nNun muß ich sitzen so fein und klar,\nGleich einem artigen Kinde,\nUnd darf nur heimlich lösen mein Haar\nUnd lassen es flattern im Winde!",
+      "characterCount": 866,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "2dbad11f-bafc-4921-bf7d-36590e898cbb",
+      "title": "Die Lerche (Theodor Fontane)",
+      "category": "Natur",
+      "difficulty": 2,
+      "order": 45,
+      "content": "Im dichten Roggen, grün und hoch,\nDa ist ihr Nest, ihr stilles;\nSie steigt und steigt und singet noch\nIn höchstem Himmelswillen.\n\nUnd singt sich satt und singt sich leer,\nUnd fällt aufs Nest hernieder;\nSo tut der Mensch: Er dichtet sehr,\nDoch kehrt er immer wieder.",
+      "characterCount": 265,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "28afa99c-831e-423e-9d47-5078959cc3dd",
+      "title": "Herr von Ribbeck auf Ribbeck im Havelland (Theodor Fontane)",
+      "category": "Ballade",
+      "difficulty": 3,
+      "order": 46,
+      "content": "Herr von Ribbeck auf Ribbeck im Havelland,\nEin Birnbaum in seinem Garten stand,\nUnd kam die goldene Herbsteszeit\nUnd die Birnen leuchteten weit und breit,\nDa stopfte, wenn's Mittag vom Turme scholl,\nDer von Ribbeck sich beide Taschen voll,\nUnd kam in Pantinen ein Mägdelein,\nRief er: »Lütt Dirn, kumm, ich hebb' 'ne Birn.«\nUnd kam ein Knabe den Weg entlang,\nRief er: »Lütt Jung, kumm, ich hebb' 'ne Birn.«\n\nSo ging es viel Jahre, bis lobesam\nDer von Ribbeck auf Ribbeck zu sterben kam.\nEr fühlte sein Ende. 's war Herbsteszeit,\nDa ließ er kommen sein Söhnelein weit\nUnd sprach: »Ich sterbe. Und sterb ich, so will\nIch eine Birne bei mir haben still.\nLegt mir eine Birne mit in das Grab,\nSo daß die Wurzeln wachsen hinab\nUnd wächst einst drüber ein Birnbaumstrauch –\nGibt er Birnen – den Kindern auch.\"\n\nDer von Ribbeck auf Ribbeck, im Havelland,\nHat eine Birn mit in's Grab gepackt;\nUnd dreißig Jahre drauf, aus dem Grab heraus,\nWächst ein Birnbaumstrauch, und im Herbste reckt\nEr über die Mauer die Zweige weit,\nUnd schenkt den Kindern mit kühler Ruh\nDie Birnen alle, die oben blühn;\nUnd die Kinder jauchzen: Es lebt noch drin\nEin Ribbeckscher Geist im Havelland!",
+      "characterCount": 1164,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b8ef3899-c6ed-4580-a877-48a4537268d4",
+      "title": "Schön Rohtraut (Eduard Mörike)",
+      "category": "Ballade",
+      "difficulty": 4,
+      "order": 47,
+      "content": "Wie heißt König Ringangs Töchterlein?\nRohtraut, Schön-Rohtraut!\nWas tut sie denn den ganzen Tag,\nDa sie wohl nicht spinnen und nähen mag?\nTut fischen und jagen.\nO daß ich doch ihr Jäger wär!\nFischen und Jagen freute mich sehr.\n– Schweig stille, mein Herze!\n\nUnd über eine kleine Weil,\nRohtraut, Schön-Rohtraut,\nSo dient der Knab auf Ringangs Schloß\nIn Jägertracht und hat ein Roß,\nMit Rohtraut zu jagen.\nO daß ich doch ein Königssohn wär!\nRohtraut, Schön-Rohtraut lieb ich so sehr.\n– Schweig stille, mein Herze!\n\nEins Tages saßen sie im Gras,\nRohtraut, Schön-Rohtraut,\nDer Knab sich an ihr Knie gelehnt;\nEr weiß nicht, wie ihm ist und brennt,\nDrückt ihr die Hände.\nUnd Rohtraut sprach: »Was brennt dein Blut?«\nUnd küßte den Knaben. Gott, war das gut!\n– Schweig stille, mein Herze!\n\nDarauf ritten sie schweigend heim,\nRohtraut, Schön-Rohtraut;\nEs jauchzt der Knab in seinem Sinn:\nUnd würdst du heute Königin,\nMich sollt's nicht kränken!\nIhr tausend Blätter im Walde wißt,\nIch hab Schön-Rohtrauts Mund geküßt!\n– Schweig stille, mein Herze!",
+      "characterCount": 1037,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "f4867173-732e-4d10-aba5-01954676d134",
+      "title": "Um Mitternacht (Eduard Mörike)",
+      "category": "Natur",
+      "difficulty": 3,
+      "order": 48,
+      "content": "Gelassen stieg die Nacht ans Land,\nLehnt träumend an der Berge Wand,\nIhr Auge sieht die goldne Waage nun\nDer Zeit in gleichen Schalen stille ruhn;\nUnd kecker rauschen die Quellen hervor,\nSie singen der Mutter, der Nacht, ins Ohr\nVom Tage,\nVom heute gewesenen Tage.\n\nDas uralt alte Schlummerlied,\nSie achtets nicht, sie ist es müd;\nIhr klingt des Himmels Bläue süßer noch,\nDer flüchtgen Stunden gleichgeschwungnes Joch.\nDoch immer behalten die Quellen das Wort,\nEs singen die Wasser im Schlafe noch fort\nVom Tage,\nVom heute gewesenen Tage.",
+      "characterCount": 538,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "340b68be-10d3-4a16-a55c-3f647afa338d",
+      "title": "Schnell und sicher (Joachim Ringelnatz)",
+      "category": "Leben",
+      "difficulty": 1,
+      "order": 49,
+      "content": "In Hamburg lebten zwei Ameisen,\nDie wollten nach Australien reisen.\nBei Altona auf der Chaussee,\nDa taten ihnen die Beine weh,\nUnd da verzichteten sie weise\nDann auf den letzten Teil der Reise.",
+      "characterCount": 193,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "5612624c-20fa-4d46-a19f-21f598a86fa2",
+      "title": "Die Kraniche des Ibykus (Friedrich Schiller)",
+      "category": "Ballade",
+      "difficulty": 6,
+      "order": 50,
+      "content": "Zum Kampf der Wagen und Gesänge,\nDer auf Korinthus' Landesenge,\nDer Griechen Stämme froh vereint,\nZog Ibykus, der Götterfreund.\nIhm schenkte des Gesanges Gabe,\nDer Lieder süßen Mund Apoll;\nSo wandert er, an leichtem Stabe,\nVon Rhegium durch das wilde Hohl.\n\nSchon winkte ihm Akrokorinthus\nDer Türme Stirn vom weiten Meer.\nDa sah er, fern im Hain des Pinthus,\nZwei Kraniche, die zogen her.\nUnd er begrüßt die alten Freunde,\nDen Wandrern so gesellig treu,\nDie oft ihn trugen von der Weide\nWeit über Länder, Meer und Haine.\n\n»Seid mir Zeugen, ihr Kraniche dort oben,\nFalls ich erschlagen werd auf dieser Flur;\nKein andrer Zeuge kann mich heben\nAls ihr im Land der weiten Spur.«\nUnd vor den Mördern fiel er nieder,\nDoch die Verräter flohen weit;\nNur jene Kraniche erschienen\nAls Rächer in der Sternbarkeit.\n\nDrauf zu dem Richter aller Welt,\nDen Griechen kam die schwere Kunde:\nEin Weiser ward im Wald gefällt;\nWer kennet Ibykus in der Runde?\nDa rief in der Versammlung Mitte\nEin jeder Grieche laut und frei:\n»Die Kraniche des Ibykus, sehet!\nDie Kraniche – dort fliegen sie!«\n\nDer Ruf erscholl, die Mörder bebten;\nSie konnten nicht entfliehen mehr;\nDas Volk, das ihre Schuld erlebten,\nVerurteilte die Frevler schwer.\nSo wirkte Götterrecht und Sühne;\nDie Tat ward offenbart und klar;\nUnd Ibykus ward auf der Bühne\nGerächt durch Kraniche sogar.",
+      "characterCount": 1337,
+      "chineseCharCount": 0
+    }
+  ]
+}

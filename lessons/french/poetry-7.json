@@ -1,0 +1,506 @@
+{
+  "id": "poetry-7",
+  "title": "Poésie",
+  "lessons": [
+    {
+      "id": "ff889d3e-7407-4352-bec5-92a8ea080ddc",
+      "title": "La Cigale et la Fourmi (Jean de La Fontaine)",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 1,
+      "content": "La Cigale, ayant chanté\nTout l'été,\nSe trouva fort dépourvue\nQuand la bise fut venue.\nPas un seul petit morceau\nDe mouche ou de vermisseau.\nElle alla crier famine\nChez la Fourmi sa voisine,\nLa priant de lui prêter\nQuelque grain pour subsister\nJusqu'à la saison nouvelle.\n« Je vous paierai, lui dit-elle,\nAvant l'oût, foi d'animal,\nIntérêt et principal. »\nLa Fourmi n'est pas prêteuse ;\nC'est là son moindre défaut.\n« Que faisiez-vous au temps chaud ?\nDit-elle à cette emprunteuse.\n— Nuit et jour à tout venant\nJe chantais, ne vous déplaise.\n— Vous chantiez ? j'en suis fort aise.\nEh bien ! dansez maintenant. »",
+      "characterCount": 610,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "f3409f57-d760-4517-9118-bb4f35c32940",
+      "title": "Le Corbeau et le Renard (Jean de La Fontaine)",
+      "category": "Fable",
+      "difficulty": 2,
+      "order": 2,
+      "content": "Maître Corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître Renard, par l'odeur alléché,\nLui tint à peu près ce langage :\n« Hé ! bonjour, Monsieur du Corbeau.\nQue vous êtes joli ! que vous me semblez beau !\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le Phénix des hôtes de ces bois. »\nÀ ces mots le Corbeau ne se sent pas de joie ;\nEt pour montrer sa belle voix,\nIl ouvre un large bec, laisse tomber sa proie.\nLe Renard s'en saisit, et dit : « Mon bon Monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l'écoute.\nCette leçon vaut bien un fromage, sans doute. »\nLe Corbeau, honteux et confus,\nJura, mais un peu tard, qu'on ne l'y prendrait plus.",
+      "characterCount": 697,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b8d84260-9a50-4895-b26c-e10e7de9f73a",
+      "title": "Le Lièvre et la Tortue (Jean de La Fontaine)",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 3,
+      "content": "Rien ne sert de courir ; il faut partir à point.\nLe Lièvre et la Tortue en sont un témoignage.\n« Gageons, dit celle-ci, que vous n'atteindrez point\nSitôt que moi ce but. — Sitôt ? Êtes-vous sage ?\nRepartit l'animal léger.\nMa commère, il vous faut purger\nAvec quatre grains d'ellébore.\n— Sage ou non, je parie encore. »\nAinsi fut fait : et de tous deux\nOn mit près du but les enjeux :\nSavoir qui des deux aurait la maîtrise.\nIl n'en fallut pas davantage.\nPartant chez lui pour se lever,\nNotre Lièvre n'était pas maître\nDe s'empêcher d'y parvenir.\nIl part, il s'égaie, il s'amuse.\nLa Tortue marche à petit pas,\nEt se hâte avec lenteur.\nLui cependant méprise un tel adversaire,\nCroit qu'il y va de son honneur\nDe partir tard. Il broute, il se repose,\nIl s'amuse à toute autre chose\nQu'à la gageure. À la fin, quand il vit\nQue l'autre était presque au bout de la carrière,\nIl partit comme un trait ; mais les élans qu'il fit\nFurent vains : la Tortue arriva la première.\n« Eh bien ! lui cria-t-on, aviez-vous eu raison ?\nNous l'avons vu, dit-elle, à nos dépens, je pense.\nIl ne sert à rien de courir ;\nIl faut partir à temps. »",
+      "characterCount": 1122,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "264e66cb-126b-4c94-b0e6-c2db999a6d4b",
+      "title": "Le Chêne et le Roseau (Jean de La Fontaine)",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 4,
+      "content": "Le Chêne un jour dit au Roseau :\n« Vous avez bien sujet d'accuser la Nature ;\nUn Roitelet pour vous est un pesant fardeau ;\nLe moindre vent qui d'aventure\nFait rider la face de l'eau\nVous oblige à baisser la tête,\nCependant que mon front, au Caucase pareil,\nNon content d'arrêter les rayons du soleil,\nBrave l'effort de la tempête.\nTout vous est aquilon, tout me semble zéphyr.\nEncor si vous naissiez à l'abri du feuillage\nDont je couvre le voisinage,\nVous n'auriez pas tant à souffrir :\nJe vous défendrais de l'orage ;\nMais vous naissez le plus souvent\nSur les humides bords des royaumes du vent.\nLa nature envers vous me semble bien injuste.\n— Votre compassion, lui répondit l'arbuste,\nPart d'un bon naturel ; mais quittez ce souci :\nLes vents me sont moins qu'à vous redoutables ;\nJe plie, et ne romps pas. Vous avez jusqu'ici\nContre leurs coups épouvantables\nRésisté sans courber le dos ;\nMais attendons la fin. »\nComme il disait ces mots,\nDu bout de l'horizon accourt avec furie\nLe plus terrible des enfants\nQue le Nord eût portés jusque-là dans ses flancs.\nL'arbre tient bon ; le Roseau plie.\nLe vent redouble ses efforts,\nEt fait si bien qu'il déracine\nCelui de qui la tête au Ciel était voisine,\nEt dont les pieds touchaient à l'Empire des Morts.",
+      "characterCount": 1254,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "7d20a69d-cfdd-450c-8fe7-9b2b098963f6",
+      "title": "Le Loup et l'Agneau (Jean de La Fontaine)",
+      "category": "Fable",
+      "difficulty": 3,
+      "order": 5,
+      "content": "La raison du plus fort est toujours la meilleure :\nNous l'allons montrer tout à l'heure.\nUn Agneau se désaltérait\nDans le courant d'une onde pure.\nUn Loup survint à jeun, qui cherchait aventure,\nEt que la faim en ces lieux attirait.\n« Qui te rend si hardi de troubler mon breuvage ?\nDit cet animal plein de rage :\nTu seras châtié de ta témérité.\n— Sire, répond l'Agneau, que Votre Majesté\nNe se mette pas en colère ;\nMais plutôt qu'elle considère\nQue je me vas désaltérant\nDans le courant,\nPlus de vingt pas au-dessous d'Elle ;\nEt que par conséquent, en aucune façon,\nJe ne puis troubler sa boisson.\n— Tu la troubles, reprit cette bête cruelle,\nEt je sais que de moi tu médis l'an passé.\n— Comment l'aurais-je fait si je n'étais pas né ?\nReprit l'Agneau ; je tette encor ma mère.\n— Si ce n'est toi, c'est donc ton frère.\n— Je n'en ai point. — C'est donc quelqu'un des tiens ;\nCar vous ne m'épargnez guère,\nVous, vos bergers et vos chiens.\nOn me l'a dit : il faut que je me venge. »\nLà-dessus, au fond des forêts\nLe Loup l'emporte, et puis le mange,\nSans autre forme de procès.",
+      "characterCount": 1076,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "c609c81c-2e1e-4c01-a76d-4e852896fd77",
+      "title": "Déjeuner du matin (Jacques Prévert)",
+      "category": "Vie",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Il a mis le café\nDans la tasse\nIl a mis le lait\nDans la tasse de café\nIl a mis le sucre\nDans le café au lait\nAvec la petite cuiller\nIl a tourné\nIl a bu le café au lait\nEt il a reposé la tasse\nSans me parler\nIl a allumé\nUne cigarette\nIl a fait des ronds\nAvec la fumée\nIl a mis les cendres\nDans le cendrier\nSans me parler\nSans me regarder\nIl s'est levé\nIl a mis\nSon chapeau sur sa tête\nIl a mis son manteau de pluie\nParce qu'il pleuvait\nEt il est parti\nSous la pluie\nSans une parole\nSans me regarder\nEt moi j'ai pris\nMa tête dans ma main\nEt j'ai pleuré.",
+      "characterCount": 551,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "9e353c95-858e-4804-8780-b37505f789e4",
+      "title": "Page d'écriture (Jacques Prévert)",
+      "category": "Enfance",
+      "difficulty": 2,
+      "order": 7,
+      "content": "Deux et deux quatre\nquatre et quatre huit\nhuit et huit font seize...\nRépétez ! dit le maître\nDeux et deux quatre\nquatre et quatre huit\nhuit et huit font seize.\nMais voilà l'oiseau-lyre\nqui passe dans le ciel\nl'enfant le voit\nl'enfant l'entend\nl'enfant l'appelle :\nSauve-moi\njoue avec moi\noiseau !\nAlors l'oiseau descend\net joue avec l'enfant\nDeux et deux quatre...\nRépétez ! dit le maître\net l'enfant joue\nl'oiseau joue avec lui...\nQuatre et quatre huit\nhuit et huit font seize\net seize et seize qu'est-ce qu'ils font ?\nIls ne font rien seize et seize\net surtout pas trente-deux\nde toute façon\net ils s'en vont.\nEt l'enfant a caché l'oiseau\ndans son pupitre\net tous les enfants\nentendent sa chanson\net tous les enfants\nentendent la musique\net huit et huit à leur tour s'en vont\net quatre et quatre et deux et deux\nà leur tour fichent le camp\net un et un ne font ni une ni deux\nun à un s'en vont également.\nEt le maître crie :\nReprenez vos esprits\nsoyez sages !\nMais tous les enfants\nécoutent la musique\net les murs de la classe\ns'écroulent tranquillement.\nEt les vitres redeviennent sable\nl'encre redevient eau\nles pupitres redeviennent arbres\nla craie redevient falaise\nle porte-plume redevient oiseau.",
+      "characterCount": 1203,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "f344e780-d3ce-4531-9ec6-b9c08c767c3c",
+      "title": "Demain dès l'aube (Victor Hugo)",
+      "category": "Mélancolie",
+      "difficulty": 2,
+      "order": 8,
+      "content": "Demain, dès l'aube, à l'heure où blanchit la campagne,\nJe partirai. Vois-tu, je sais que tu m'attends.\nJ'irai par la forêt, j'irai par la montagne.\nJe ne puis demeurer loin de toi plus longtemps.\n\nJe marcherai les yeux fixés sur mes pensées,\nSans rien voir au dehors, sans entendre aucun bruit,\nSeul, inconnu, le dos courbé, les mains croisées,\nTriste, et le jour pour moi sera comme la nuit.\n\nJe ne regarderai ni l'or du soir qui tombe,\nNi les voiles au loin descendant vers Harfleur,\nEt quand j'arriverai, je mettrai sur ta tombe\nUn bouquet de houx vert et de bruyère en fleur.",
+      "characterCount": 579,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "1286c01e-6d6c-4355-b560-5c236671b84e",
+      "title": "Chanson d'automne (Paul Verlaine)",
+      "category": "Saisons",
+      "difficulty": 2,
+      "order": 9,
+      "content": "Les sanglots longs\nDes violons\nDe l'automne\nBlessent mon cœur\nD'une langueur\nMonotone.\n\nTout suffocant\nEt blême, quand\nSonne l'heure,\nJe me souviens\nDes jours anciens\nEt je pleure ;\n\nEt je m'en vais\nAu vent mauvais\nQui m'emporte\nDeçà, delà,\nPareil à la\nFeuille morte.",
+      "characterCount": 267,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "04d8e170-ac4a-4e34-a7f3-3e856e773158",
+      "title": "Il pleure dans mon cœur (Paul Verlaine)",
+      "category": "Mélancolie",
+      "difficulty": 2,
+      "order": 10,
+      "content": "Il pleure dans mon cœur\nComme il pleut sur la ville ;\nQuelle est cette langueur\nQui pénètre mon cœur ?\n\nÔ bruit doux de la pluie\nPar terre et sur les toits !\nPour un cœur qui s'ennuie,\nÔ le chant de la pluie !\n\nIl pleure sans raison\nDans ce cœur qui s'écœure.\nQuoi ! nulle trahison ?...\nCe deuil est sans raison.\n\nC'est bien la pire peine\nDe ne savoir pourquoi\nSans amour et sans haine\nMon cœur a tant de peine !",
+      "characterCount": 412,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "f194b913-2b9c-413e-b548-a138b2833ed4",
+      "title": "Le Dormeur du val (Arthur Rimbaud)",
+      "category": "Nature",
+      "difficulty": 3,
+      "order": 11,
+      "content": "C'est un trou de verdure où chante une rivière\nAccrochant follement aux herbes des haillons\nD'argent ; où le soleil, de la montagne fière,\nLuit : c'est un petit val qui mousse de rayons.\n\nUn soldat jeune, bouche ouverte, tête nue,\nEt la nuque baignant dans le frais cresson bleu,\nDort ; il est étendu dans l'herbe, sous la nue,\nPâle dans son lit vert où la lumière pleut.\n\nLes pieds dans les glaïeuls, il dort. Souriant comme\nSourirait un enfant malade, il fait un somme :\nNature, berce-le chaudement : il a froid !\n\nLes parfums ne font pas frissonner sa narine ;\nIl dort dans le soleil, la main sur sa poitrine,\nTransquille. Il a deux trous rouges au côté droit.",
+      "characterCount": 663,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "71a8c6e7-2846-432b-a2ef-2a4180822d1e",
+      "title": "Voyelles (Arthur Rimbaud)",
+      "category": "Vie",
+      "difficulty": 3,
+      "order": 12,
+      "content": "A noir, E blanc, I rouge, U vert, O bleu : voyelles,\nJe dirai quelque jour vos naissances latentes :\nA, noir corset velu des mouches éclatantes\nQui bombinent autour des puanteurs cruelles,\n\nGolfes d'ombre ; E, candeurs des vapeurs et des tentes,\nLances des glaciers fiers, rois blancs, frissons d'ombelles ;\nI, pourpres, sang craché, rire des lèvres belles\nDans la colère ou les ivresses pénitentes ;\n\nU, cycles, vibrements divins des mers virides,\nPaix des pâtis semés d'animaux, paix des rides\nQue l'alchimie imprime aux grands fronts studieux ;\n\nO, suprême Clairon plein des strideurs étranges,\nSilences traversés des Mondes et des Anges :\n— Ô l'Oméga, rayon violet de Ses Yeux !",
+      "characterCount": 682,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "5b556d83-3143-440c-a19a-6a98d48a3a73",
+      "title": "L'Albatros (Charles Baudelaire)",
+      "category": "Vie",
+      "difficulty": 3,
+      "order": 13,
+      "content": "Souvent, pour s'amuser, les hommes d'équipage\nPrennent des albatros, vastes oiseaux des mers,\nQui suivent, indolents compagnons de voyage,\nLe navire glissant sur les gouffres amers.\n\nÀ peine les ont-ils déposés sur les planches,\nQue ces rois de l'azur, maladroits et honteux,\nLaissent piteusement leurs grandes ailes blanches\nComme des avirons traîner à côté d'eux.\n\nCe voyageur ailé, comme il est gauche et veule !\nLui, naguère si beau, qu'il est comique et laid !\nL'un agace son bec avec un brûle-gueule,\nL'autre mime, en boitant, l'infirme qui volait !\n\nLe Poète est semblable au prince des nuées\nQui hante la tempête et se rit de l'archer ;\nExilé sur le sol au milieu des huées,\nSes ailes de géant l'empêchent de marcher.",
+      "characterCount": 725,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "8b241953-ceab-487b-b21e-7b31f3ff12f2",
+      "title": "Correspondances (Charles Baudelaire)",
+      "category": "Nature",
+      "difficulty": 4,
+      "order": 14,
+      "content": "La Nature est un temple où de vivants piliers\nLaissent parfois sortir de confuses paroles ;\nL'homme y passe à travers des forêts de symboles\nQui l'observent avec des regards familiers.\n\nComme de longs échos qui de loin se confondent\nDans une ténébreuse et profonde unité,\nVaste comme la nuit et comme la clarté,\nLes parfums, les couleurs et les sons se répondent.\n\nIl est des parfums frais comme des chairs d'enfants,\nDoux comme les hautbois, verts comme les prairies,\n— Et d'autres, corrompus, riches et triomphants,\n\nAyant l'expansion des choses infinies,\nComme l'ambre, le musc, le benjoin et l'encens,\nQui chantent les transports de l'esprit et des sens.",
+      "characterCount": 658,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "ef7a572e-f3a8-4f9e-a1b0-292d64c304aa",
+      "title": "Liberté (Paul Éluard)",
+      "category": "Liberté",
+      "difficulty": 4,
+      "order": 15,
+      "content": "Sur mes cahiers d'écolier\nSur mon pupitre et les arbres\nSur le sable sur la neige\nJ'écris ton nom\n\nSur toutes les pages lues\nSur toutes les pages blanches\nPierre sang papier ou cendre\nJ'écris ton nom\n\nSur les images dorées\nSur les armes des guerriers\nSur la couronne des rois\nJ'écris ton nom\n\nSur la jungle et le désert\nSur les nids sur les genêts\nSur l'écho de mon enfance\nJ'écris ton nom\n\nSur les merveilles des nuits\nSur le pain blanc des journées\nSur les saisons fiancées\nJ'écris ton nom\n\nSur tous mes chiffons d'azur\nSur l'étang soleil moisi\nSur le lac lune vivante\nJ'écris ton nom\n\nSur les champs sur l'horizon\nSur les ailes des oiseaux\nEt sur le moulin des ombres\nJ'écris ton nom\n\nSur chaque bouffée d'aurore\nSur la mer sur les bateaux\nSur la montagne démente\nJ'écris ton nom\n\nSur la mousse des nuages\nSur les sueurs de l'orage\nSur la pluie épaisse et fade\nJ'écris ton nom\n\nSur les formes scintillantes\nSur les cloches des couleurs\nSur la vérité physique\nJ'écris ton nom\n\nSur les sentiers éveillés\nSur les routes déployées\nSur les places qui débordent\nJ'écris ton nom\n\nSur la lampe qui s'allume\nSur la lampe qui s'éteint\nSur mes maisons réunies\nJ'écris ton nom\n\nSur le fruit coupé en deux\nDu miroir et de ma chambre\nSur mon lit coquille vide\nJ'écris ton nom\n\nSur mon chien gourmand et tendre\nSur ses oreilles dressées\nSur sa patte maladroite\nJ'écris ton nom\n\nSur le tremplin de ma porte\nSur les objets familiers\nSur le flot du feu béni\nJ'écris ton nom\n\nSur toute chair accordée\nSur le front de mes amis\nSur chaque main qui se tend\nJ'écris ton nom\n\nSur la vitre des surprises\nSur les lèvres attentives\nBien au-dessus du silence\nJ'écris ton nom\n\nSur mes refuges détruits\nSur mes phares écroulés\nSur les murs de mon ennui\nJ'écris ton nom\n\nSur l'absence sans désir\nSur la solitude nue\nSur les marches de la mort\nJ'écris ton nom\n\nSur la santé revenue\nSur le risque disparu\nSur l'espoir sans souvenir\nJ'écris ton nom\n\nEt par le pouvoir d'un mot\nJe recommence ma vie\nJe suis né pour te connaître\nPour te nommer\n\nLiberté.",
+      "characterCount": 2020,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "3c93fce6-9ab3-420a-abcb-7fcf75b109b5",
+      "title": "Le Lac (Alphonse de Lamartine)",
+      "category": "Mélancolie",
+      "difficulty": 4,
+      "order": 16,
+      "content": "Ainsi, toujours poussés vers de nouveaux rivages,\nDans la nuit éternelle emportés sans retour,\nNe pourrons-nous jamais sur l'océan des âges\nJeter l'ancre un seul jour ?\n\nÔ lac ! l'année à peine a fini sa carrière,\nEt près des flots chéris qu'elle devait revoir,\nRegarde ! je viens seul m'asseoir sur cette pierre\nOù tu la vis s'asseoir !\n\nTu mugissais ainsi sous ces roches profondes,\nAinsi tu te brisais sur leurs flancs déchirés,\nAinsi le vent jetait l'écume de tes ondes\nSur ses pieds adorés.\n\nUn soir, t'en souvient-il ? nous voguions en silence ;\nOn n'entendait au loin, sur l'onde et sous les cieux,\nQue le bruit des rameurs qui frappaient en cadence\nTes flots harmonieux.\n\nTout à coup des accents inconnus à la terre\nDu rivage charmé frappèrent les échos ;\nLe flot fut attentif, et la voix qui m'est chère\nLaissa tomber ces mots :\n\n« Ô temps ! suspends ton vol, et vous, heures propices !\nSuspendez votre cours :\nLaissez-nous savourer les rapides délices\nDes plus beaux de nos jours !\n\n« Assez de malheureux ici-bas vous implorent,\nCoulez, coulez pour eux ;\nPrenez avec leurs jours les soins qui les dévorent ;\nOubliez les heureux.\n\n« Mais je demande en vain quelques moments encore,\nLe temps m'échappe et fuit ;\nJe dis à cette nuit : Sois plus lente ; et l'aurore\nVa dissiper la nuit.\n\n« Aimons donc, aimons donc ! de l'heure fugitive,\nHâtons-nous, jouissons !\nL'homme n'a point de port, le temps n'a point de rive ;\nIl coule, et nous passons ! »\n\nTemps jaloux, se peut-il que ces moments d'ivresse,\nOù l'amour à longs flots nous verse le bonheur,\nS'envolent loin de nous de la même vitesse\nQue les jours de malheur ?\n\nEh quoi ! n'en pourrons-nous fixer au moins la trace ?\nQuoi ! passés pour jamais ! quoi ! tout entiers perdus !\nCe temps qui les donna, ce temps qui les efface,\nNe nous les rendra plus !\n\nÉternité, néant, passé, sombres abîmes,\nQue faites-vous des jours que vous engloutissez ?\nParlez : nous rendrez-vous ces extases sublimes\nQue vous nous ravissez ?\n\nÔ lac ! rochers muets ! grottes ! forêt obscure !\nVous, que le temps épargne ou qu'il peut rajeunir,\nGardez de cette nuit, gardez, belle nature,\nAu moins le souvenir !\n\nQu'il soit dans ton repos, qu'il soit dans tes orages,\nBeau lac, et dans l'aspect de tes riants coteaux,\nEt dans ces noirs sapins, et dans ces rocs sauvages\nQui pendent sur tes eaux.\n\nQu'il soit dans le zéphyr qui frémit et qui passe,\nDans les bruits de tes bords par tes bords répétés,\nDans l'astre au front d'argent qui blanchit ta surface\nDe ses molles clartés.\n\nQue le vent qui gémit, le roseau qui soupire,\nQue les parfums légers de ton air embaumé,\nQue tout ce qu'on entend, l'on voit ou l'on respire,\nTout dise : Ils ont aimé !",
+      "characterCount": 2682,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "4fc259b3-4d6b-4711-8159-b527d320e41f",
+      "title": "Mignonne, allons voir si la rose (Pierre de Ronsard)",
+      "category": "Amour",
+      "difficulty": 3,
+      "order": 17,
+      "content": "Mignonne, allons voir si la rose\nQui ce matin avait déclose\nSa robe de pourpre au Soleil,\nA point perdu cette vêprée\nLes plis de sa robe pourprée,\nEt son teint au vôtre pareil.\n\nLas ! voyez comme en peu d'espace,\nMignonne, elle a dessus la place,\nLas ! las ! ses beautés laissé choir !\nÔ vraiment marâtre Nature,\nPuisqu'une telle fleur ne dure\nQue du matin jusques au soir !\n\nDonc, si vous me croyez, mignonne,\nTandis que votre âge fleuronne\nEn sa plus verte nouveauté,\nCueillez, cueillez votre jeunesse :\nComme à cette fleur la vieillesse\nFera ternir votre beauté.",
+      "characterCount": 565,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "c56b8471-1b87-4602-a495-448381403cfe",
+      "title": "Nuit de mai (Alfred de Musset)",
+      "category": "Saisons",
+      "difficulty": 4,
+      "order": 18,
+      "content": "La Muse\nPoète, prends ton luth et me donne un baiser ;\nLa fleur de l'églantier sent ses bourgeons éclore.\nLe printemps naît ce soir ; les vents vont s'embraser ;\nEt la bergeronnette, en attendant l'aurore,\nAux premiers buissons verts commence à se poser.\nPoète, prends ton luth, et me donne un baiser.\n\nLe Poète\nComme il fait noir dans la vallée !\nJ'ai cru qu'une forme voilée\nFlottait là-bas sur la forêt.\nElle sortait de la prairie ;\nSon pied rasait l'herbe fleurie ;\nC'est une étrange rêverie ;\nElle s'efface et disparaît.\n\nLa Muse\nPoète, prends ton luth ; la nuit, sur la pelouse,\nBalance le zéphyr dans son voile odorant.\nLa rose, vierge encor, se referme jalouse\nSur le frelon nacré qu'elle enivre en mourant.\nÉcoute ! tout se tait ; songe à ta bien-aimée.\nCe soir, sous les tilleuls, à la sombre ramée\nLe rayon du couchant laisse un adieu plus doux.\nCe soir, tout va fleurir : l'insecte chante et veille ;\nLes calices ouverts dispensent leurs parfums,\nEt l'oiseau, en chantant, dit aux bois et aux prés\nQue le printemps joyeux commence à refleurir.",
+      "characterCount": 1055,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "295fc1c6-a38e-4a32-84cf-bf7d9a601ea4",
+      "title": "Les Feuilles mortes (Jacques Prévert)",
+      "category": "Mélancolie",
+      "difficulty": 2,
+      "order": 19,
+      "content": "Oh ! je voudrais tant que tu te souviennes\nDes jours heureux où nous étions amis.\nEn ce temps-là la vie était plus belle,\nEt le soleil plus brûlant qu'aujourd'hui.\nLes feuilles mortes se ramassent à la pelle,\nTu vois, je n'ai pas oublié...\nLes feuilles mortes se ramassent à la pelle,\nLes souvenirs et les regrets aussi\nEt le vent du nord les emporte\nDans la nuit froide de l'oubli.\nTu vois, je n'ai pas oublié\nLa chanson que tu me chantais.\n\nC'est une chanson qui nous ressemble,\nToi tu m'aimais, et je t'aimais.\nNous vivions tous les deux ensemble,\nToi qui m'aimais, moi qui t'aimais.\nMais la vie sépare ceux qui s'aiment,\nTout doucement, sans faire de bruit.\nEt la mer efface sur le sable\nLes pas des amants désunis.",
+      "characterCount": 719,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "4812ff5f-f3ae-43cc-8d0a-87790d67d381",
+      "title": "La Fourmi (Robert Desnos)",
+      "category": "Enfance",
+      "difficulty": 1,
+      "order": 20,
+      "content": "Une fourmi de dix-huit mètres\nAvec un chapeau sur la tête,\nÇa n'existe pas, ça n'existe pas.\nUne fourmi traînant un char\nPlein de pingouins et de canards,\nÇa n'existe pas, ça n'existe pas.\nUne fourmi parlant français,\nSaucissonant, buvant du lait,\nÇa n'existe pas, ça n'existe pas.\nMais une fourmi traînant un char\nPlein de pingouins et de canards\nQui parle français et qui saucissonne\nEt boit du lait... ça m'étonne,\nOui, ça m'étonne.",
+      "characterCount": 435,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "479f4e18-823c-4dca-8dbb-941df71cdc4a",
+      "title": "Le Bonhomme de neige (Maurice Carême)",
+      "category": "Enfance",
+      "difficulty": 1,
+      "order": 21,
+      "content": "Un bonhomme de neige\nSur la place du village\nGarde les yeux ouverts\nSur le froid paysage.\n\nIl a pour tout bagage\nUn chapeau, une pipe,\nDes boutons de charbon\nEt du givre pour tripes.\n\nMais dès que le soleil\nParaît à l'horizon,\nIl pleure à chaudes larmes\nDans la froide maison.",
+      "characterCount": 276,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "f0d8781f-78ae-45b6-bf6a-cdd434832fdc",
+      "title": "L'Automne (Maurice Carême)",
+      "category": "Saisons",
+      "difficulty": 1,
+      "order": 22,
+      "content": "L'automne a peint les feuilles\nEn rouge, or et roux.\nLes écureuils s'éveillent\nDans les arbres doux.\n\nLe vent souffle et les chasse\nDans les jardins mouillés.\nSur la terre qui passe,\nElles vont tournoyer.\n\nBientôt viendra la pluie,\nLe froid et les frimas.\nMais les enfants, la nuit,\nRêveront au lilas.",
+      "characterCount": 301,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "b710a384-8988-4864-a428-9c788f881277",
+      "title": "Barbara (Jacques Prévert)",
+      "category": "Mélancolie",
+      "difficulty": 3,
+      "order": 23,
+      "content": "Rappelle-toi Barbara\nIl pleuvait sans cesse sur Brest ce jour-là\nEt tu marchais souriante\nÉpanouie ravie ruisselante\nSous la pluie\nRappelle-toi Barbara\nIl pleuvait sans cesse sur Brest\nEt je t'ai croisée rue de Siam\nTu souriais\nEt moi je souriais de même\nRappelle-toi Barbara\nToi que je ne connaissais pas\nToi qui ne me connaissais pas\nRappelle-toi\nRappelle-toi quand même ce jour-là\nN'oublie pas\nUn homme sous un porche s'abritait\nEt il a crié ton nom\nBarbara\nEt tu as couru vers lui sous la pluie\nRunisselante ravie épanouie\nEt tu t'es jetée dans ses bras\nRappelle-toi cela Barbara\nEt ne m'en veux pas si je te tutoie\nJe dis tu à tous ceux que j'aime\nMême si je ne les ai vus qu'une seule fois\nJe dis tu à tous ceux qui s'aiment\nMême si je ne les connais pas\nRappelle-toi Barbara\nN'oublie pas\nCette pluie sage et heureuse\nSur ton visage heureux\nSur cette ville heureuse\nCette pluie sur la mer\nSur l'arsenal\nSur le bateau d'Ouessant\nOh Barbara\nQuelle connerie la guerre.",
+      "characterCount": 971,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "dceb8286-85e8-4555-a516-5c4d24bb4111",
+      "title": "Ma Bohème (Arthur Rimbaud)",
+      "category": "Liberté",
+      "difficulty": 3,
+      "order": 24,
+      "content": "Je m'en allais, les poings dans mes poches crevées ;\nMon paletot aussi devenait idéal ;\nJ'allais sous le ciel, Muse ! et j'étais ton féal ;\nOh ! là ! là ! que d'amours splendides j'ai rêvées !\n\nMon unique culotte avait un large trou.\n— Petit-Poucet rêveur, j'égrenais dans ma course\nDes rimes. Mon auberge était à la Grande-Ourse.\n— Mes étoiles au ciel avaient un doux frou-frou\n\nEt je les écoutais, assis au bord des routes,\nCes bons soirs de septembre où je sentais des gouttes\nDe rosée à mon front, comme un vin de vigueur ;\n\nOù, rimant au milieu des ombres fantastiques,\nComme des lyres, je tirais les élastiques\nDe mes souliers blessés, un pied près de mon cœur !",
+      "characterCount": 668,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "8771715d-37c8-4270-b86e-490258381db7",
+      "title": "Le Spleen de Paris – L'Étranger (Charles Baudelaire)",
+      "category": "Vie",
+      "difficulty": 2,
+      "order": 25,
+      "content": "— Qui aimes-tu le mieux, homme énigmatique, dis ? ton père, ta mère, ta sœur ou ton frère ?\n— Je n'ai ni père, ni mère, ni sœur, ni frère.\n— Tes amis ?\n— Vous vous servez là d'une parole dont le sens m'est resté jusqu'à ce jour inconnu.\n— Ta patrie ?\n— J'ignore sous quelle latitude elle est située.\n— La beauté ?\n— Je l'aimerais volontiers, déesse et immortelle.\n— L'or ?\n— Je le hais comme vous haïssez Dieu.\n— Eh ! qu'aimes-tu donc, extraordinaire étranger ?\n— J'aime les nuages... les nuages qui passent... là-bas... là-bas... les merveilleux nuages !",
+      "characterCount": 555,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "71fc8f87-09ca-4c9d-be25-665df2ea59ca",
+      "title": "Chanson (Paul Verlaine)",
+      "category": "Amour",
+      "difficulty": 2,
+      "order": 26,
+      "content": "J'ai peur d'un baiser\nComme d'une abeille.\nJe souffre et je veille\nSans me reposer.\nJ'ai peur d'un baiser !\n\nPourtant j'aime Kate\nEt ses yeux jolis.\nElle est délicate\nAux longs doigts pâlis.\nPourtant j'aime Kate !\n\nElle est douce en somme,\nElle n'a pas l'air\nDe faire à tout homme\nCauser grande peur.\nElle est douce en somme.",
+      "characterCount": 325,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "09e8a5b9-9812-4940-ad13-3f61eaa66d2c",
+      "title": "Les Étoiles (Alfred de Musset)",
+      "category": "Nature",
+      "difficulty": 3,
+      "order": 27,
+      "content": "Pale étoile du soir, messagère lointaine,\nDont le front sort brilliant des voiles du couchant,\nDe ton palais d'azur, au sein de l'onde sereine,\nTu regardes la nuit qui vient sur l'horizon.\n\nLa nuit vient, et déjà sur les coteaux de France\nLes pâtres assemblés chantent un vieil air.\nLe troupeau revient seul de la plaine immense ;\nEt les enfants, de loin, suivent un vieux berger.\n\nMoi, je cherche autre chose en suivant dans la plaine,\nMoi, je cherche autre chose en marchant, tout songeur.\nÔ lumière que j'aime, ô ma sœur, mon étoile,\nÀ quoi te comparer, sinon à mon cœur ?",
+      "characterCount": 575,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "93f3a76b-3606-4b14-897d-2459a31bb4b0",
+      "title": "Le Pont Mirabeau (Guillaume Apollinaire)",
+      "category": "Amour",
+      "difficulty": 3,
+      "order": 28,
+      "content": "Sous le pont Mirabeau coule la Seine\nEt nos amours\nFaut-il qu'il m'en souvienne\nLa joie venait toujours après la peine\n\nVienne la nuit sonne l'heure\nLes jours s'en vont je demeure\n\nLes mains dans les mains restons face à face\nTandis que sous\nLe pont de nos bras passe\nDes éternels regards l'onde si lasse\n\nVienne la nuit sonne l'heure\nLes jours s'en vont je demeure\n\nL'amour s'en va comme cette eau courante\nL'amour s'en va\nComme la vie est lente\nEt comme l'Espérance est violente\n\nVienne la nuit sonne l'heure\nLes jours s'en vont je demeure\n\nPassent les jours et passent les semaines\nNi temps passé\nNi les amours reviennent\nSous le pont Mirabeau coule la Seine\n\nVienne la nuit sonne l'heure\nLes jours s'en vont je demeure",
+      "characterCount": 722,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "aae77a0e-1dad-4aec-8899-bb5a46562ba0",
+      "title": "Zone (Guillaume Apollinaire)",
+      "category": "Vie",
+      "difficulty": 5,
+      "order": 29,
+      "content": "À la fin tu es las de ce monde ancien\n\nBergère ô tour Eiffel le troupeau des ponts bêle ce matin\n\nTu en as assez de vivre dans l'antiquité grecque et romaine\n\nIci même les automobiles ont l'air d'être anciennes\nLa religion seule est restée toute neuve la religion\nEst restée simple comme les hangars de Port-Aviation\n\nSeul en Europe tu n'es pas antique ô Christianisme\nL'Européen le plus moderne c'est vous Pape Pie X\nEt toi que les fenêtres observent la honte te retient\nD'entrer dans une église et de t'y confesser ce matin\nTu lis les prospectus les catalogues les affiches qui chantent tout haut\nVoilà la poésie ce matin et pour la prose il y a les journaux\nIl y a les livraisons à 25 centimes pleines d'aventures policières\nPortraits des grands hommes et mille titres divers",
+      "characterCount": 778,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "ffee89d3-c749-4e15-85c1-14db0330682b",
+      "title": "Sensation (Arthur Rimbaud)",
+      "category": "Nature",
+      "difficulty": 2,
+      "order": 30,
+      "content": "Par les soirs bleus d'été, j'irai dans les sentiers,\nPicoté par les blés, fouler l'herbe menue :\nRêveur, j'en sentirai la fraîcheur à mes pieds.\nJe laisserai le vent baigner ma tête nue.\n\nJe ne parlerai pas, je ne penserai rien :\nMais l'amour infini me montera dans l'âme,\nEt j'irai loin, bien loin, comme un bohémien,\nPar la Nature, — heureux comme avec une femme.",
+      "characterCount": 365,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "d46b012a-6b44-4131-ab50-80d3b3023869",
+      "title": "Heureux qui, comme Ulysse (Joachim du Bellay)",
+      "category": "Vie",
+      "difficulty": 3,
+      "order": 31,
+      "content": "Heureux qui, comme Ulysse, a fait un beau voyage,\nOu comme cestuy-là qui conquit la toison,\nEt puis est retourné, plein d'usage et raison,\nVivre entre ses parents le reste de son âge !\n\nQuand reverrai-je, hélas, de mon petit village\nFumer la cheminée, et en quelle saison\nReverrai-je le clos de ma pauvre maison,\nQui m'est une province, et beaucoup davantage ?\n\nPlus me plaît le séjour qu'ont bâti mes aïeux\nQue des palais Romains le front audacieux,\nPlus que le marbre dur me plaît l'ardoise fine,\n\nPlus mon Loire gaulois que le Tibre latin,\nPlus mon petit Liré que le mont Palatin,\nEt plus que l'air marin la douceur angevine.",
+      "characterCount": 628,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "3d5f1c69-b2c6-4c19-b27f-68bb1abaa01f",
+      "title": "Quand vous serez bien vieille (Pierre de Ronsard)",
+      "category": "Amour",
+      "difficulty": 3,
+      "order": 32,
+      "content": "Quand vous serez bien vieille, au soir, à la chandelle,\nAssise auprès du feu, dévidant et filant,\nDirez, chantant mes vers, en vous émerveillant :\nRonsard me célébrait du temps que j'étais belle !\n\nLors, vous n'aurez servante oyant telle nouvelle,\nDéjà sous le labeur à demi sommeillant,\nQui au bruit de mon nom ne s'aille réveillant,\nBénissant votre nom de louange immortelle.\n\nJe serai sous la terre et, fantôme sans os,\nPar les ombres myrteux je prendrai mon repos ;\nVous serez au foyer une vieille accroupie,\n\nRegrettant mon amour et votre fier dédain.\nVivez, si m'en croyez, n'attendez à demain :\nCueillez dès aujourd'hui les roses de la vie.",
+      "characterCount": 647,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "f8d24907-7159-4ab5-8f2d-6788fa13663d",
+      "title": "Le Dormeur (Victor Hugo)",
+      "category": "Enfance",
+      "difficulty": 2,
+      "order": 33,
+      "content": "L'enfant chantait ; la mère au lit,\nExténuée et pâle, souriait.\nL'enfant chantait. La nuit berçait\nSon sommeil de bruit et de chaleur.\n\nUne ombre allait et venait\nDans la grande chambre obscure.\nUne lueur de lampe éclairait\nLe berceau d'un vague jour.\n\nL'enfant dormait. Dehors les pas\nDes passants résonnaient dans la rue.\nL'aurore venait. La mère, las,\nNe dormirait plus.",
+      "characterCount": 373,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "38f164a0-2ed4-4471-afd0-a8b1e9601015",
+      "title": "Ô saisons, ô châteaux (Arthur Rimbaud)",
+      "category": "Saisons",
+      "difficulty": 2,
+      "order": 34,
+      "content": "Ô saisons, ô châteaux,\nQuelle âme est sans défauts ?\n\nÔ saisons, ô châteaux,\n\nJ'ai fait la magique étude\nDu bonheur, que nul n'élude.\n\nÔ vive lui, chaque fois\nQue chante le coq gaulois.\n\nMais je n'aurai plus d'envie,\nIl s'est chargé de ma vie.\n\nCe charme ! il prit âme et corps,\nEt dispersa tous efforts.\n\nQue comprendre à ma parole ?\nIl fait qu'elle fuit et vole !\n\nÔ saisons, ô châteaux !",
+      "characterCount": 390,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "abcc8de0-1914-4995-b054-7e41049f32ee",
+      "title": "Les Djinns (Victor Hugo)",
+      "category": "Mélancolie",
+      "difficulty": 4,
+      "order": 35,
+      "content": "Murs, ville,\nEt port,\nAsile\nDe mort,\nMer grise\nOù brise\nLa brise,\nTout dort.\n\nDans la plaine\nNaît un bruit.\nC'est l'haleine\nDe la nuit.\nElle brame\nComme une âme\nQu'une flamme\nToujours suit !\n\nLa voix plus haute\nSemble un grelot.\nD'un nain qui saute\nC'est le galop.\nIl fuit, s'élance,\nPuis en cadence\nSur un pied danse\nAu bout d'un flot.\n\nLa rumeur approche.\nL'écho la redit.\nC'est comme la cloche\nD'un couvent maudit ;\nComme un bruit de foule,\nQui tonne et qui roule,\nEt tantôt s'écroule,\nEt tantôt grandit,\n\nDieu ! la voix sépulcrale\nDes Djinns !... Quel bruit ils font !\nFuyons sous la spirale\nDe l'escalier profond.\nDéjà s'effacent, roulent\nLes bataillons qui croulent\nEt les dalles où foulent\nLes Djinns vont résonnant.",
+      "characterCount": 723,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a1d1df71-85d5-46ac-85c9-400501ce0622",
+      "title": "Le Hibou et la Poussiquette (Edward Lear / trad. Francis Steegmuller)",
+      "category": "Enfance",
+      "difficulty": 2,
+      "order": 36,
+      "content": "Le hibou et la poussiquette\nPartaient en mer sur un bateau vert,\nEmportant du miel dans un pot\nEt beaucoup d'argent enveloppé dans une lettre.\nLe hibou regardait les étoiles là-haut\nEt chantait, avec une petite guitare,\n« Ô belle Pussie ! Ô Pussie, mon amour,\nQuelle belle Pussie tu es, tu es, tu es !\nQuelle belle Pussie tu es ! »",
+      "characterCount": 331,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "3368b931-e922-4a56-b99d-3b3c6cec0ba4",
+      "title": "Le Soir (Alphonse de Lamartine)",
+      "category": "Nature",
+      "difficulty": 3,
+      "order": 37,
+      "content": "Le soir ramène le silence.\nAssis sur ces rochers déserts,\nJe suis dans le vague des airs\nLe char de la nuit qui s'avance.\n\nVénus se lève à l'horizon ;\nA mes pieds l'étoile amoureuse\nDe sa lueur mystérieuse\nBlanchit les tapis de gazon.\n\nDe ce vallon quand je contemple\nLes bois, les monts, et les hameaux,\nNe croirait-on pas voir le temple\nD'un Dieu qui règne sur les eaux ?\n\nDu moins c'est ce que me fait croire\nCe calme majestueux des nuits,\nCe ciel étoilé plein de gloire\nEt ces torrents plein de grands bruits.",
+      "characterCount": 513,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "2d6b9a96-ab7e-4fe9-861f-bf16f8e69c00",
+      "title": "Automne malade (Guillaume Apollinaire)",
+      "category": "Saisons",
+      "difficulty": 3,
+      "order": 38,
+      "content": "Automne malade et adoré\nTu mourras quand l'ouragan soufflera dans les roseraies\nQuand il aura neigé\nDans les vergers\n\nPauvre automne\nMeurs en blancheur et en richesse\nDe neige et de fruits mûrs\nAu fond du ciel\nDes éperviers planent\nSur les nixes nicettes aux cheveux verts et naines\nQui n'ont jamais aimé\n\nAux lisières lointaines\nLes cerfs ont bramé\n\nEt que j'aime ô saison que j'aime tes rumeurs\nLes fruits tombant sans qu'on les cueille\nLe vent et la forêt qui pleurent\nToutes leurs larmes en automne feuille à feuille\nLes feuilles\nQu'on foule\nUn train\nQui roule\nLa vie\nS'écoule",
+      "characterCount": 580,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "75d9eca5-a416-4b8f-a693-e1fbfad53abb",
+      "title": "Mon Rêve familier (Paul Verlaine)",
+      "category": "Amour",
+      "difficulty": 3,
+      "order": 39,
+      "content": "Je fais souvent ce rêve étrange et pénétrant\nD'une femme inconnue, et que j'aime, et qui m'aime,\nEt qui n'est, chaque fois, ni tout à fait la même\nNi tout à fait une autre, et m'aime et me comprend.\n\nCar elle me comprend, et mon cœur, transparent\nPour elle seule, hélas ! cesse d'être un problème\nPour elle seule, et les moiteurs de mon front blême,\nElle seule les sait rafraîchir, en pleurant.\n\nEst-elle brune, blonde ou rousse ? — Je l'ignore.\nSon nom ? Je me souviens qu'il est doux et sonore\nComme ceux des aimés que la Vie exila.\n\nSon regard est pareil au regard des statues,\nEt, pour sa voix, lointaine, et calme, et grave, elle a\nL'inflexion des voix chères qui se sont tues.",
+      "characterCount": 682,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "13dd06f3-4f48-4d13-a5ce-3f5ed7a046f4",
+      "title": "Le Spleen (Charles Baudelaire)",
+      "category": "Mélancolie",
+      "difficulty": 4,
+      "order": 40,
+      "content": "Quand le ciel bas et lourd pèse comme un couvercle\nSur l'esprit gémissant en proie aux longs ennuis,\nEt que de l'horizon embrassant tout le cercle\nIl nous verse un jour noir plus triste que les nuits ;\n\nQuand la terre est changée en un cachot humide,\nOù l'Espérance, comme une chauve-souris,\nS'en va battant les murs de son aile timide\nEt se cognant la tête à des plafonds pourris ;\n\nQuand la pluie étalant ses immenses traînées\nD'une vaste prison imite les barreaux,\nEt qu'un peuple muet d'infâmes araignées\nVient tendre ses filets au fond de nos cerveaux,\n\nDes cloches tout à coup sautent avec furie\nEt lancent vers le ciel un affreux hurlement,\nAinsi que des esprits errants et sans patrie\nQui se mettent à geindre opiniâtrement.\n\n— Et de longs corbillards, sans tambours ni musique,\nDéfilent lentement dans mon âme ; l'Espoir,\nVaincu, pleure, et l'Angoisse atroce, despotique,\nSur mon crâne incliné plante son drapeau noir.",
+      "characterCount": 927,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a9c83b5e-bdd9-46fa-a9e3-2017222441d8",
+      "title": "Le Printemps (Francis Jammes)",
+      "category": "Saisons",
+      "difficulty": 2,
+      "order": 41,
+      "content": "Il va neiger dans quelques jours. Je me souviens\nDe l'an dernier. Je me souviens de mes tristesses\nAu coin du feu. Que pensais-je ? Je regardais\nLe jardin noyé sous un ciel cendré de brumes.\n\nCette année encore sur la place du village\nLes enfants jouaient. On a repeint en bleu\nLa façade de la vieille mairie.\nLes feuilles d'or tombaient des tilleuls.\n\nEt maintenant, dans la nuit douce, j'entends\nUne cloche sonner au loin dans la plaine.\nElles tintent dans la nuit. Elles sonnent la fête.\nLe printemps reviendra, porteur de ses chansons.",
+      "characterCount": 539,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "d312768a-5835-4261-b58b-e601ed5ff817",
+      "title": "Le Forgeron (Arthur Rimbaud)",
+      "category": "Vie",
+      "difficulty": 5,
+      "order": 42,
+      "content": "Ma Tristesse, autrefois, avait son dieu...\nQue ne suis-je à présent un simple forgeron,\nBattant le fer rouge sur l'enclume grise\nAu bruit sourd du marteau sur l'acier qui brise !\n\nJ'irais, bras nus, dans le feu et la sueur,\nFaire chanter l'acier sous mon bras vigoureux ;\nEt la forge rougeoyant au milieu du soir,\nM'enverrait, dans la nuit, sa lumière et son noir.\n\nJe ne penserais plus aux beaux yeux qui m'ont pris,\nNi à ces élans fous vers l'horizon suprême ;\nJe battrais simplement le fer sur l'enclume, même\nEn chantant les vieux airs de mon pays.",
+      "characterCount": 552,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a870388f-9a08-49ff-854d-7d7b312ae407",
+      "title": "Les Séparés (Marceline Desbordes-Valmore)",
+      "category": "Amour",
+      "difficulty": 3,
+      "order": 43,
+      "content": "N'écris pas. Je suis triste, et je voudrais m'éteindre.\nLes beaux étés sans toi, c'est la nuit sans flambeau.\nJ'ai refermé mes bras qui ne peuvent t'atteindre,\nEt frapper à mon cœur, c'est frapper au tombeau.\n\nN'écris pas !\n\nN'écris pas. N'apprenons qu'à mourir à nous-mêmes.\nNe demande qu'à Dieu... qu'à toi, si je t'aimais !\nAu fond de ton absence écouter que tu m'aimes,\nC'est entendre le ciel sans y monter jamais.\n\nN'écris pas !",
+      "characterCount": 433,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "a0cef8fc-1ddc-4f72-9107-8447fc85f16e",
+      "title": "Je vis, je meurs (Louise Labé)",
+      "category": "Amour",
+      "difficulty": 3,
+      "order": 44,
+      "content": "Je vis, je meurs ; je me brûle et me noie ;\nJ'ai chaud extrême en endurant froidure ;\nLa vie m'est et trop molle et trop dure.\nJ'ai grands ennuis entremêlés de joie.\n\nTout à un coup je ris et je larmoie,\nEt en plaisir maint grief tourment j'endure ;\nMon bien s'en va, et à jamais il dure ;\nTout en un coup je sèche et je verdoie.\n\nAinsi Amour inconstamment me mène ;\nEt, quand je pense avoir plus de douleur,\nSans y penser je me trouve hors de peine.\n\nPuis, quand je crois ma joie être certaine\nEt être au haut de mon désiré heur,\nIl me remet en mon premier malheur.",
+      "characterCount": 566,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "69296a0b-fc9b-435e-ac26-d4da7b821bb4",
+      "title": "Réponse à un acte d'accusation (Victor Hugo)",
+      "category": "Liberté",
+      "difficulty": 5,
+      "order": 45,
+      "content": "Donc, c'est moi qui suis l'ogre et le barbare.\nC'est moi qui sur le mot tombé comme un esclave\nFais le bourreau, c'est moi qui souffre et qui travaille.\nJe suis le démagogue horrible et glapissant\nQui mêle à la rime obscure le passant.\n\nOui, je suis ce Danton ! je suis ce Robespierre !\nJ'ai, contre le mot noble à la morgue altière,\nExcité la révolte, et, pâle, échevelé,\nJ'ai crié dans la nuit : Egalité ! allez !\nOui, c'est moi qui dit au beau langage : ouvrez !\nMot-Bastille, croulant sous mes efforts prouvés,\nLaisse passer le peuple et le grand siècle ardent.",
+      "characterCount": 565,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "d6d88d99-187d-4627-bda0-d06ecb4eb200",
+      "title": "Recueillement (Charles Baudelaire)",
+      "category": "Mélancolie",
+      "difficulty": 4,
+      "order": 46,
+      "content": "Sois sage, ô ma Douleur, et tiens-toi plus tranquille.\nTu réclamais le Soir ; il descend ; le voici :\nUne atmosphère obscure enveloppe la ville,\nAux uns portant la paix, aux autres le souci.\n\nPendant que des mortels la multitude vile,\nSous le fouet du Plaisir, ce bourreau sans merci,\nVa cueillir des remords dans la fête servile,\nMa Douleur, donne-moi la main ; viens par ici,\n\nLoin d'eux. Vois se pencher les défuntes Années,\nSur les balcons du ciel, en robes surannées ;\nSurgir du fond des eaux le Regret souriant ;\n\nLe Soleil moribond s'endormir sous une arche,\nEt, comme un long linceul traînant à l'Orient,\nEntends, ma chère, entends la douce Nuit qui marche.",
+      "characterCount": 665,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "f0a76a01-7fa3-4c11-b55f-5d4d0a5c74b3",
+      "title": "Soleils couchants (Paul Verlaine)",
+      "category": "Mélancolie",
+      "difficulty": 3,
+      "order": 47,
+      "content": "Une aube affaiblie\nVerse par les champs\nLa mélancolie\nDes soleils couchants.\nLa mélancolie\nDes soleils couchants.\n\nSur des pailles d'or\nLe vent semble bercer\nLes âmes qu'il presse\nDe sa force tendre\nSous un ciel de plomb.\n\nMon âme est flétrie,\nÔ cœurs que j'oublie !\nDe vos fins suprêmes\nL'amour se résigne.\nVoilà que la lune\nMonte sur la dune,\nEt que la fortune\nNous fuit sans retour.",
+      "characterCount": 385,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "08131fe7-7cc1-4087-9415-91d95625cbfa",
+      "title": "À une passante (Charles Baudelaire)",
+      "category": "Amour",
+      "difficulty": 4,
+      "order": 48,
+      "content": "La rue assourdissante autour de moi hurlait.\nLongue, mince, en grand deuil, douleur majestueuse,\nUne femme passa, d'une main fastueuse\nSoulevant, balançant le feston et l'ourlet ;\n\nAgile et noble, avec sa jambe de statue.\nMoi, je buvais, crispé comme un extravagant,\nDans son œil, ciel livide où germe l'ouragan,\nLa douceur qui fascine et le plaisir qui tue.\n\nUn éclair... puis la nuit ! — Fugitive beauté\nDont le regard m'a fait soudainement renaître,\nNe te verrai-je plus que dans l'éternité ?\n\nAilleurs, bien loin d'ici ! trop tard ! jamais peut-être !\nCar j'ignore où tu fuis, tu ne sais où je vais,\nÔ toi que j'eusse aimée, ô toi qui le savais !",
+      "characterCount": 650,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "367cc2a3-4d50-4d60-8248-8f6f1d21e2dc",
+      "title": "La Prière pour tous (Victor Hugo)",
+      "category": "Vie",
+      "difficulty": 4,
+      "order": 49,
+      "content": "Lorsque l'enfant paraît, le cercle de famille\nApplaudit à grands cris. Son doux regard qui brille\nFait briller tous les yeux,\nEt les plus tristes fronts, les plus souillés peut-être,\nSe dérident soudain à voir l'enfant paraître,\nInnocent et joyeux.\n\nToujours avec un cri de bonheur on le nomme ;\nSens-tu dans ton regard s'allumer quelque flamme,\nToi, vieux père tranquille ?\nEt toujours sa présence enchante les esprits,\nLui qui chasse l'ennui de la maison soumise,\nDomestique et docile.\n\nQuand il rit, son babil est plein de doux caprices.\nComme un oiseau qui joue et qui saute et qui danse,\nL'air et la liberté !\nComme un enfant divin, sa grâce nous attire,\nComme une fleur, son âme est remplie et son sourire\nEst toute la beauté.",
+      "characterCount": 732,
+      "chineseCharCount": 0
+    },
+    {
+      "id": "039f7d40-bfa2-4f32-a3e2-bb4d871b8efd",
+      "title": "Élévation (Charles Baudelaire)",
+      "category": "Liberté",
+      "difficulty": 5,
+      "order": 50,
+      "content": "Au-dessus des étangs, au-dessus des vallées,\nDes montagnes, des bois, des nuages, des mers,\nPar delà le soleil, par delà les éthers,\nPar delà les confins des sphères étoilées,\n\nMon esprit, tu te meus avec agilité,\nEt, comme un bon nageur qui se pâme dans l'onde,\nTu sillonnes gaiement l'immensité profonde\nAvec une indicible et mâle volupté.\n\nEnvole-toi bien loin de ces miasmes morbides ;\nVa te purifier dans l'air supérieur,\nEt bois, comme une pure et divine liqueur,\nLe feu clair qui remplit les espaces limpides.\n\nDerrière les ennuis et les vastes chagrins\nQui chargent de leur poids l'existence brumeuse,\nHeureux celui qui peut d'une aile vigoureuse\nS'élancer vers les champs lumineux et sereins ;\n\nCelui dont les pensers, comme des alouettes,\nVers les cieux le matin prennent un libre essor,\n— Qui plane sur la vie, et comprend sans effort\nLe langage des fleurs et des choses muettes !",
+      "characterCount": 891,
+      "chineseCharCount": 0
+    }
+  ]
+}
