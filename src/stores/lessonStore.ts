@@ -62,7 +62,12 @@ export const useLessonStore = create<LessonStore>((set, get) => ({
       return;
     }
 
-    if (get().loadedLanguages.has(language)) return;
+    if (get().loadedLanguages.has(language)) {
+      // Language data already cached, but still update collections to match current language
+      const collections = await loadCollectionsByLanguage(language);
+      set({ collections });
+      return;
+    }
 
     set({ isLoading: true, error: null });
     try {

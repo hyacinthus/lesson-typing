@@ -160,6 +160,7 @@ export function HomePage() {
           {/* Collection List - hidden on mobile row 1, shown on desktop */}
           <div className="hidden md:flex justify-center w-1/3">
             <Select
+              key={`collection-desktop-${i18n.language}`}
               value={currentCollectionId || ""}
               onValueChange={setSelectedCollection}
               disabled={collections.length === 0}
@@ -210,6 +211,7 @@ export function HomePage() {
         {/* Row 2: Mobile only - Collection + Language selectors */}
         <div className="flex md:hidden items-center gap-2 mt-2">
           <Select
+            key={`collection-mobile-${i18n.language}`}
             value={currentCollectionId || ""}
             onValueChange={setSelectedCollection}
             disabled={collections.length === 0}
