@@ -4,6 +4,7 @@ import type { Character, RealtimeStats, PracticeRecord } from '../../types';
 import { CharacterRenderer } from './CharacterRenderer';
 import { InputHandler } from './InputHandler';
 import { StatsPanel } from './StatsPanel';
+import { Leaderboard } from './Leaderboard';
 import { RecentActivityChart } from './RecentActivityChart';
 import { useAuthStore } from '../../stores/authStore';
 
@@ -312,7 +313,13 @@ export function TypingArea({
             )}
           </div>
           <RecentActivityChart lessonId={lessonId} currentStats={stats} />
+          <Leaderboard lessonId={lessonId} currentStats={stats} />
         </div>
+      )}
+
+      {/* Leaderboard before completion */}
+      {!isCompleted && (
+        <Leaderboard lessonId={lessonId} />
       )}
     </div>
   );

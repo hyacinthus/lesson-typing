@@ -24,6 +24,14 @@ const resources = {
             "back_home": "Back to Home",
             "restart": "Restart",
             "recent_activity": "Recent Activity",
+            "leaderboard": {
+                "title": "Leaderboard",
+                "rank": "Rank",
+                "player": "Player",
+                "no_data": "No rankings yet",
+                "anonymous": "Anonymous",
+                "you": "You"
+            },
             "stats": {
                 "duration": "Duration",
                 "char_speed": "Character Speed",
@@ -119,6 +127,14 @@ const resources = {
             "back_home": "返回首页",
             "restart": "重新开始",
             "recent_activity": "近期练习",
+            "leaderboard": {
+                "title": "排行榜",
+                "rank": "排名",
+                "player": "玩家",
+                "no_data": "暂无排名",
+                "anonymous": "匿名用户",
+                "you": "你"
+            },
             "stats": {
                 "duration": "用时",
                 "char_speed": "字符速度",
@@ -214,6 +230,14 @@ const resources = {
             "back_home": "Volver al inicio",
             "restart": "Reiniciar",
             "recent_activity": "Actividad Reciente",
+            "leaderboard": {
+                "title": "Clasificaci\u00f3n",
+                "rank": "Puesto",
+                "player": "Jugador",
+                "no_data": "A\u00fan no hay clasificaci\u00f3n",
+                "anonymous": "An\u00f3nimo",
+                "you": "T\u00fa"
+            },
             "stats": {
                 "duration": "Duración",
                 "char_speed": "Vel. de caracteres",
@@ -309,6 +333,14 @@ const resources = {
             "back_home": "ホームに戻る",
             "restart": "やり直す",
             "recent_activity": "最近のアクティビティ",
+            "leaderboard": {
+                "title": "ランキング",
+                "rank": "順位",
+                "player": "プレイヤー",
+                "no_data": "まだランキングがありません",
+                "anonymous": "匿名",
+                "you": "あなた"
+            },
             "stats": {
                 "duration": "所要時間",
                 "char_speed": "打鍵速度",
@@ -404,6 +436,14 @@ const resources = {
             "back_home": "Voltar ao início",
             "restart": "Recomeçar",
             "recent_activity": "Atividade Recente",
+            "leaderboard": {
+                "title": "Classifica\u00e7\u00e3o",
+                "rank": "Posi\u00e7\u00e3o",
+                "player": "Jogador",
+                "no_data": "Ainda n\u00e3o h\u00e1 classifica\u00e7\u00e3o",
+                "anonymous": "An\u00f4nimo",
+                "you": "Voc\u00ea"
+            },
             "stats": {
                 "duration": "Duração",
                 "char_speed": "Vel. de caracteres",
@@ -499,6 +539,14 @@ const resources = {
             "back_home": "Retour à l'Accueil",
             "restart": "Recommencer",
             "recent_activity": "Activité Récente",
+            "leaderboard": {
+                "title": "Classement",
+                "rank": "Rang",
+                "player": "Joueur",
+                "no_data": "Pas encore de classement",
+                "anonymous": "Anonyme",
+                "you": "Vous"
+            },
             "stats": {
                 "duration": "Durée",
                 "char_speed": "Vit. des caractères",
@@ -594,6 +642,14 @@ const resources = {
             "back_home": "Zur Startseite",
             "restart": "Neu starten",
             "recent_activity": "Letzte Aktivität",
+            "leaderboard": {
+                "title": "Rangliste",
+                "rank": "Rang",
+                "player": "Spieler",
+                "no_data": "Noch keine Rangliste",
+                "anonymous": "Anonym",
+                "you": "Du"
+            },
             "stats": {
                 "duration": "Dauer",
                 "char_speed": "Zeichentempo",
@@ -689,6 +745,14 @@ const resources = {
             "back_home": "Torna alla home",
             "restart": "Ricomincia",
             "recent_activity": "Attività Recente",
+            "leaderboard": {
+                "title": "Classifica",
+                "rank": "Posizione",
+                "player": "Giocatore",
+                "no_data": "Nessuna classifica ancora",
+                "anonymous": "Anonimo",
+                "you": "Tu"
+            },
             "stats": {
                 "duration": "Durata",
                 "char_speed": "Velocità dei caratteri",
@@ -784,6 +848,14 @@ const resources = {
             "back_home": "홈으로 돌아가기",
             "restart": "다시 시작",
             "recent_activity": "최근 활동",
+            "leaderboard": {
+                "title": "순위표",
+                "rank": "순위",
+                "player": "플레이어",
+                "no_data": "아직 순위가 없습니다",
+                "anonymous": "익명",
+                "you": "나"
+            },
             "stats": {
                 "duration": "소요 시간",
                 "char_speed": "타자 속도",
