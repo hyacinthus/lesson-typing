@@ -10,7 +10,7 @@
       "order": 1,
       "content": "Au clair de la lune,\nMon ami Pierrot,\nPrête-moi ta plume\nPour écrire un mot.\nMa chandelle est morte,\nJe n'ai plus de feu.\nOuvre-moi ta porte\nPour l'amour de Dieu.",
       "characterCount": 162,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "40cb8be1-bcdf-4db6-9bd2-00cf19d35b35",
@@ -20,7 +20,7 @@
       "order": 2,
       "content": "Frère Jacques, Frère Jacques,\nDormez-vous ? Dormez-vous ?\nSonnez les matines ! Sonnez les matines !\nDin, dan, don ! Din, dan, don !",
       "characterCount": 131,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "4412b6ea-fdb3-4873-9b2c-99531670d1b1",
@@ -30,7 +30,7 @@
       "order": 3,
       "content": "Une souris verte\nQui courait dans l'herbe\nJe l'attrape par la queue,\nJe la montre à ces messieurs.\nCes messieurs me disent :\nTrempez-la dans l'huile,\nTrempez-la dans l'eau,\nÇa fera un escargot tout chaud.",
       "characterCount": 204,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "26de3689-e2d2-46a5-a3d4-eb7dfa6c5be1",
@@ -40,7 +40,7 @@
       "order": 4,
       "content": "Pomme de reinette et pomme d'api,\nD'api d'api rouge,\nPomme de reinette et pomme d'api,\nD'api d'api gris.\nCache ton poing derrière ton dos,\nOu je te donne un coup de marteau !",
       "characterCount": 174,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "68d58b28-a18e-4bb8-b64a-0fcaf9890716",
@@ -50,7 +50,7 @@
       "order": 5,
       "content": "Alouette, gentille alouette,\nAlouette, je te plumerai.\nJe te plumerai la tête,\nJe te plumerai la tête.\nEt la tête ! Et la tête !\nAlouette ! Alouette !\nAh ! ah ! ah ! ah !",
       "characterCount": 170,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "23027685-72b9-4642-be60-b98564ddda4c",
@@ -60,7 +60,7 @@
       "order": 6,
       "content": "Dans sa maison un grand cerf\nRegardait par la fenêtre\nUn lapin venir à lui\nEt frapper ainsi :\n« Cerf, cerf, ouvre-moi !\nOu le chasseur me tuera ! »\n« Lapin, lapin, entre et viens,\nMe serrer la main. »",
       "characterCount": 200,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "7109f289-bc4c-42ae-a62d-a2dd7066bc67",
@@ -70,7 +70,7 @@
       "order": 7,
       "content": "Meunier tu dors\nTon moulin ton moulin va trop vite\nMeunier tu dors\nTon moulin ton moulin va trop fort\nTon moulin, ton moulin va trop vite\nTon moulin, ton moulin va trop fort\nTon moulin, ton moulin va trop vite\nTon moulin, ton moulin va trop fort",
       "characterCount": 245,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "33111e3e-fe8d-44bd-9c88-c72f0602d4bf",
@@ -80,7 +80,7 @@
       "order": 8,
       "content": "Il était un petit navire\nIl était un petit navire\nQui n'avait ja-ja-jamais navigué\nQui n'avait ja-ja-jamais navigué\nOhé ! Ohé !",
       "characterCount": 127,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "27f62844-ecc9-44f1-aba5-81377959e4a1",
@@ -90,7 +90,7 @@
       "order": 9,
       "content": "Sur le pont d'Avignon\nL'on y danse, l'on y danse\nSur le pont d'Avignon\nL'on y danse tous en rond\nLes beaux messieurs font comme ça\nEt puis encore comme ça.",
       "characterCount": 155,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "33055a31-dab7-47cc-8111-daf874384f21",
@@ -100,7 +100,7 @@
       "order": 10,
       "content": "Savez-vous planter les choux\nÀ la mode, à la mode\nSavez-vous planter les choux\nÀ la mode de chez nous ?\nOn les plante avec le doigt\nÀ la mode, à la mode\nOn les plante avec le doigt\nÀ la mode de chez nous.",
       "characterCount": 204,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "1bff2542-02db-40e3-b72d-fa034caf6dde",
@@ -110,7 +110,7 @@
       "order": 11,
       "content": "Promenons-nous dans les bois\nPendant que le loup n'y est pas\nSi le loup y était\nIl nous mangerait\nMais comme il n'y est pas\nIl nous mangera pas\nLoup y es-tu ? Que fais-tu ? Entends-tu ?",
       "characterCount": 185,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "20bab5c1-f5dd-4d7e-bb9c-24a4a7a164fc",
@@ -120,7 +120,7 @@
       "order": 12,
       "content": "Ah ! les crocodiles, les crocodiles, les crocodiles\nSur les bords du Nil, ils sont partis n'en parlons plus\nAh ! les crocodiles, les crocodiles, les crocodiles\nSur les bords du Nil, ils sont partis n'en parlons plus",
       "characterCount": 215,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "32c0dd57-2d5b-41ce-9c61-490aa5400093",
@@ -130,7 +130,7 @@
       "order": 13,
       "content": "Un éléphant qui se balançait\nSur une toile d'araignée,\nTrouvait ce jeu tellement amusant,\nQu'il alla chercher un autre éléphant.\nDeux éléphants qui se balançaient\nSur une toile d'araignée,\nTrouvaient ce jeu tellement amusant,\nQu'ils allèrent chercher un autre éléphant.",
       "characterCount": 269,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "ef92dd95-ed15-4917-9856-4a68e35a22dc",
@@ -140,7 +140,7 @@
       "order": 14,
       "content": "Petit escargot\nPorte sur son dos\nSa maisonnette\nAussitôt qu'il pleut\nIl est tout heureux\nIl sort sa tête.",
       "characterCount": 105,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "67d4a7dc-c63e-4932-8298-54383587581f",
@@ -150,7 +150,7 @@
       "order": 15,
       "content": "Maman les p'tits bateaux\nQui vont sur l'eau\nOnt-ils des jambes ?\nMais non, mon gros bêta\nS'ils en avaient, ils marcheraient !",
       "characterCount": 125,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "4a3af00b-58a1-478f-9007-0a2f4d88701e",
@@ -160,7 +160,7 @@
       "order": 16,
       "content": "L'araignée Gypsie\nMonte à la gouttière.\nTiens voilà la pluie !\nGypsie tombe par terre.\nMais le soleil\nA chassé la pluie,\nEt l'araignée Gypsie\nMonte à la gouttière.",
       "characterCount": 163,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "bd5abfc4-4b72-4b76-b1cc-903c2ac8a32f",
@@ -170,7 +170,7 @@
       "order": 17,
       "content": "Il était un petit homme\nPirouette, cacahuète\nIl était un petit homme\nQui avait une drôle de maison\nQui avait une drôle de maison.\nSa maison est en carton\nPirouette, cacahuète\nSa maison est en carton\nLes escaliers sont en papier\nLes escaliers sont en papier.",
       "characterCount": 257,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "ad7b5441-1ff7-4e05-962f-4f15283e6a6b",
@@ -180,7 +180,7 @@
       "order": 18,
       "content": "Le bon roi Dagobert\nA mis sa culotte à l'envers\nLe grand saint Éloi\nLui dit : « Ô mon roi !\nVotre Majesté\nEst mal culottée. »\n« C'est vrai, lui dit le roi,\nJe vais la remettre à l'endroit. »",
       "characterCount": 190,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "42c659ee-b7c9-486b-9866-43249512d588",
@@ -190,7 +190,7 @@
       "order": 19,
       "content": "À la claire fontaine\nM'en allant promener\nJ'ai trouvé l'eau si belle\nQue je m'y suis baigné\nIl y a longtemps que je t'aime\nJamais je ne t'oublierai.",
       "characterCount": 148,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "1ba4877e-5f81-4990-9609-e585a5455191",
@@ -200,7 +200,7 @@
       "order": 20,
       "content": "Fais dodo, Colas mon p'tit frère\nFais dodo, t'auras du lolo\nMaman est en haut\nQui fait du gâteau\nPapa est en bas\nQui fait du chocolat\nFais dodo, Colas mon p'tit frère\nFais dodo, t'auras du lolo.",
       "characterCount": 194,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     }
   ]
 }

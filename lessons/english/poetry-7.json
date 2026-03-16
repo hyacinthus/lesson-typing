@@ -10,7 +10,7 @@
       "order": 1,
       "content": "Twinkle, twinkle, little star,\nHow I wonder what you are!\nUp above the world so high,\nLike a diamond in the sky.\n\nWhen the blazing sun is gone,\nWhen he nothing shines upon,\nThen you show your little light,\nTwinkle, twinkle, through the night.\n\nIn the dark blue sky you keep,\nAnd often through my curtains peep,\nFor you never shut your eye\nTill the sun is in the sky.\n\nAs your bright and tiny spark\nLights the traveler in the dark,\nThough I know not what you are,\nTwinkle, twinkle, little star.",
       "characterCount": 493,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "3b40b031-1924-4672-8adc-90eb5a4f59ea",
@@ -20,7 +20,7 @@
       "order": 2,
       "content": "Humpty Dumpty sat on a wall,\nHumpty Dumpty had a great fall.\nAll the king's horses and all the king's men\nCouldn't put Humpty together again.",
       "characterCount": 141,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "1b1a0258-6cb1-4451-924e-3bfce5760400",
@@ -30,7 +30,7 @@
       "order": 3,
       "content": "Jack and Jill went up the hill\nTo fetch a pail of water.\nJack fell down and broke his crown,\nAnd Jill came tumbling after.\n\nUp Jack got and home did trot\nAs fast as he could caper,\nAnd went to bed to mend his head\nWith vinegar and brown paper.",
       "characterCount": 243,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "df9da725-c390-4d3a-9263-9599c211aa43",
@@ -40,7 +40,7 @@
       "order": 4,
       "content": "Baa, baa, black sheep,\nHave you any wool?\nYes, sir, yes, sir,\nThree bags full!\nOne for the master,\nOne for the dame,\nAnd one for the little boy\nWho lives down the lane.",
       "characterCount": 168,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "8da6774d-dc33-41a2-9bd8-b7acf80e7634",
@@ -50,7 +50,7 @@
       "order": 5,
       "content": "Hey diddle diddle,\nThe cat and the fiddle,\nThe cow jumped over the moon.\nThe little dog laughed\nTo see such sport,\nAnd the dish ran away with the spoon.",
       "characterCount": 152,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "decdfbd0-9fe0-4527-ab0a-a789859ef489",
@@ -60,7 +60,7 @@
       "order": 6,
       "content": "Little Miss Muffet\nSat on a tuffet,\nEating her curds and whey.\nAlong came a spider\nWho sat down beside her\nAnd frightened Miss Muffet away.",
       "characterCount": 139,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "b85a6aea-bc2b-4e5e-94ba-285352d799ce",
@@ -70,7 +70,7 @@
       "order": 7,
       "content": "Hickory dickory dock,\nThe mouse ran up the clock.\nThe clock struck one,\nThe mouse ran down,\nHickory dickory dock.",
       "characterCount": 113,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "f6ca4449-669c-4c23-8373-780c08faa7dd",
@@ -80,7 +80,7 @@
       "order": 8,
       "content": "Little Bo Peep has lost her sheep\nAnd doesn't know where to find them.\nLeave them alone and they'll come home,\nWagging their tails behind them.",
       "characterCount": 143,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "de310506-0372-47f3-980f-134a7d1e5212",
@@ -90,7 +90,7 @@
       "order": 9,
       "content": "Row, row, row your boat\nGently down the stream.\nMerrily, merrily, merrily, merrily,\nLife is but a dream.",
       "characterCount": 104,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "8a9665d2-9535-43a3-b09d-4671fde82b02",
@@ -100,7 +100,7 @@
       "order": 10,
       "content": "Mary had a little lamb,\nIts fleece was white as snow,\nAnd everywhere that Mary went\nThe lamb was sure to go.\n\nIt followed her to school one day,\nWhich was against the rule.\nIt made the children laugh and play\nTo see a lamb at school.\n\nAnd so the teacher turned it out,\nBut still it lingered near,\nAnd waited patiently about\nTill Mary did appear.\n\nWhy does the lamb love Mary so?\nThe eager children cry.\nWhy, Mary loves the lamb, you know,\nThe teacher did reply.",
       "characterCount": 461,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "b9e4eb92-132e-4ce1-bfe1-db051419cb23",
@@ -110,7 +110,7 @@
       "order": 11,
       "content": "The fog comes\non little cat feet.\n\nIt sits looking\nover harbor and city\non silent haunches\nand then moves on.",
       "characterCount": 109,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "dbd68a34-90d2-4b82-80f4-86705135c158",
@@ -120,7 +120,7 @@
       "order": 12,
       "content": "Nature's first green is gold,\nHer hardest hue to hold.\nHer early leaf's a flower;\nBut only so an hour.\nThen leaf subsides to leaf.\nSo Eden sank to grief,\nSo dawn goes down to day.\nNothing gold can stay.",
       "characterCount": 202,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "086b5b7c-9b3c-4681-bc94-bdb898303c86",
@@ -130,7 +130,7 @@
       "order": 13,
       "content": "Some say the world will end in fire,\nSome say in ice.\nFrom what I've tasted of desire\nI hold with those who favor fire.\nBut if it had to perish twice,\nI think I know enough of hate\nTo say that for destruction ice\nIs also great\nAnd would suffice.",
       "characterCount": 245,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "fd21273d-3061-43fd-9e8a-3b68c408b042",
@@ -140,7 +140,7 @@
       "order": 14,
       "content": "I think that I shall never see\nA poem lovely as a tree.\n\nA tree whose hungry mouth is prest\nAgainst the earth's sweet flowing breast;\n\nA tree that looks at God all day,\nAnd lifts her leafy arms to pray;\n\nA tree that may in summer wear\nA nest of robins in her hair;\n\nUpon whose bosom snow has lain;\nWho intimately lives with rain.\n\nPoems are made by fools like me,\nBut only God can make a tree.",
       "characterCount": 393,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "517354f4-b6d2-48c1-aa0f-2359cd3641e8",
@@ -150,7 +150,7 @@
       "order": 15,
       "content": "Not like the brazen giant of Greek fame,\nWith conquering limbs astride from land to land;\nHere at our sea-washed, sunset gates shall stand\nA mighty woman with a torch, whose flame\nIs the imprisoned lightning, and her name\nMother of Exiles. From her beacon-hand\nGlows world-wide welcome; her mild eyes command\nThe air-bridged harbor that twin cities frame.\n\n\"Keep, ancient lands, your storied pomp!\" cries she\nWith silent lips. \"Give me your tired, your poor,\nYour huddled masses yearning to breathe free,\nThe wretched refuse of your teeming shore.\nSend these, the homeless, tempest-tost to me,\nI lift my lamp beside the golden door!\"",
       "characterCount": 633,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "8f4610b7-f450-4003-8abf-5022078dc70e",
@@ -160,7 +160,7 @@
       "order": 16,
       "content": "Take this kiss upon the brow!\nAnd, in parting from you now,\nThus much let me avow—\nYou are not wrong, who deem\nThat my days have been a dream;\nYet if hope has flown away\nIn a night, or in a day,\nIn a vision, or in none,\nIs it therefore the less gone?\nAll that we see or seem\nIs but a dream within a dream.\n\nI stand amid the roar\nOf a surf-tormented shore,\nAnd I hold within my hand\nGrains of the golden sand—\nHow few! yet how they creep\nThrough my fingers to the deep,\nWhile I weep—while I weep!\nO God! Can I not grasp\nThem with a tighter clasp?\nO God! can I not save\nOne from the pitiless wave?\nIs all that we see or seem\nBut a dream within a dream?",
       "characterCount": 650,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "0e3cdef9-13f6-49ab-87ed-220c30b577d7",
@@ -170,7 +170,7 @@
       "order": 17,
       "content": "Whose woods these are I think I know.\nHis house is in the village though;\nHe will not see me stopping here\nTo watch his woods fill up with snow.\n\nMy little horse must think it queer\nTo stop without a farmhouse near\nBetween the woods and frozen lake\nThe darkest evening of the year.\n\nHe gives his harness bells a shake\nTo ask if there is some mistake.\nThe only other sound's the sweep\nOf easy wind and downy flake.\n\nThe woods are lovely, dark and deep,\nBut I have promises to keep,\nAnd miles to go before I sleep,\nAnd miles to go before I sleep.",
       "characterCount": 544,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "4393ef0d-b226-4731-8da5-efbd92eb7cdf",
@@ -180,7 +180,7 @@
       "order": 18,
       "content": "Hope is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\n\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nI've heard it in the chillest land,\nAnd on the strangest sea;\nYet, never, in extremity,\nIt asked a crumb of me.",
       "characterCount": 352,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "9575422a-9db7-47c5-aa74-1f49ca1c3357",
@@ -190,7 +190,7 @@
       "order": 19,
       "content": "Out of the night that covers me,\nBlack as the pit from pole to pole,\nI thank whatever gods may be\nFor my unconquerable soul.\n\nIn the fell clutch of circumstance\nI have not winced nor cried aloud.\nUnder the bludgeonings of chance\nMy head is bloody, but unbowed.\n\nBeyond this place of wrath and tears\nLooms but the Horror of the shade,\nAnd yet the menace of the years\nFinds and shall find me unafraid.\n\nIt matters not how strait the gate,\nHow charged with punishments the scroll,\nI am the master of my fate,\nI am the captain of my soul.",
       "characterCount": 534,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "32174992-56cc-4329-8325-b050939e746f",
@@ -200,7 +200,7 @@
       "order": 20,
       "content": "The Owl and the Pussy-Cat went to sea\nIn a beautiful pea-green boat,\nThey took some honey, and plenty of money,\nWrapped up in a five-pound note.\nThe Owl looked up to the stars above,\nAnd sang to a small guitar,\n\"O lovely Pussy! O Pussy, my love,\nWhat a beautiful Pussy you are,\nYou are,\nYou are!\nWhat a beautiful Pussy you are!\"\n\nPussy said to the Owl, \"You elegant fowl!\nHow charmingly sweet you sing!\nO let us be married! too long we have tarried:\nBut what shall we do for a ring?\"\nThey sailed away, for a year and a day,\nTo the land where the Bong-Tree grows,\nAnd there in a wood a Piggy-wig stood\nWith a ring at the end of his nose,\nHis nose,\nHis nose,\nWith a ring at the end of his nose.\n\n\"Dear Pig, are you willing to sell for one shilling\nYour ring?\" Said the Piggy, \"I will.\"\nSo they took it away, and were married next day\nBy the Turkey who lives on the hill.\nThey dined on mince, and slices of quince,\nWhich they ate with a runcible spoon;\nAnd hand in hand, on the edge of the sand,\nThey danced by the light of the moon,\nThe moon,\nThe moon,\nThey danced by the light of the moon.",
       "characterCount": 1088,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "da5545a6-8011-48ea-933d-06814c0b7173",
@@ -210,7 +210,7 @@
       "order": 21,
       "content": "Shall I compare thee to a summer's day?\nThou art more lovely and more temperate.\nRough winds do shake the darling buds of May,\nAnd summer's lease hath all too short a date.\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimmed;\nAnd every fair from fair sometime declines,\nBy chance, or nature's changing course, untrimmed;\nBut thy eternal summer shall not fade,\nNor lose possession of that fair thou ow'st,\nNor shall death brag thou wand'rest in his shade,\nWhen in eternal lines to Time thou grow'st.\nSo long as men can breathe, or eyes can see,\nSo long lives this, and this gives life to thee.",
       "characterCount": 623,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "56df6e2d-2e7d-4073-93e6-d0147d5292d4",
@@ -220,7 +220,7 @@
       "order": 22,
       "content": "Two roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\n\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,\n\nAnd both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\n\nI shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference.",
       "characterCount": 729,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "574fa289-bf3c-4482-8f9c-7d3e6c5e54c9",
@@ -230,7 +230,7 @@
       "order": 23,
       "content": "Because I could not stop for Death—\nHe kindly stopped for me—\nThe Carriage held but just Ourselves—\nAnd Immortality.\n\nWe slowly drove—He knew no haste\nAnd I had put away\nMy labor and my leisure too,\nFor His Civility—\n\nWe passed the School, where Children strove\nAt Recess—in the Ring—\nWe passed the Fields of Gazing Grain—\nWe passed the Setting Sun—\n\nOr rather—He passed Us—\nThe Dews drew quivering and Chill—\nFor only Gossamer, my Gown—\nMy Tippet—only Tulle—\n\nWe paused before a House that seemed\nA Swelling of the Ground—\nThe Roof was scarcely visible—\nThe Cornice—in the Ground—\n\nSince then—'tis Centuries—and yet\nFeels shorter than the Day\nI first surmised the Horses' Heads\nWere toward Eternity—",
       "characterCount": 700,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "ce15fb24-5e33-4528-aba1-5de492576261",
@@ -240,7 +240,7 @@
       "order": 24,
       "content": "O Captain! my Captain! our fearful trip is done,\nThe ship has weather'd every rack, the prize we sought is won,\nThe port is near, the bells I hear, the people all exulting,\nWhile follow eyes the steady keel, the vessel grim and daring;\nBut O heart! heart! heart!\nO the bleeding drops of red,\nWhere on the deck my Captain lies,\nFallen cold and dead.\n\nO Captain! my Captain! rise up and hear the bells;\nRise up—for you the flag is flung—for you the bugle trills,\nFor you bouquets and ribbon'd wreaths—for you the shores a-crowding,\nFor you they call, the swaying mass, their eager faces turning;\nHere Captain! dear father!\nThis arm beneath your head!\nIt is some dream that on the deck,\nYou've fallen cold and dead.\n\nMy Captain does not answer, his lips are pale and still,\nMy father does not feel my arm, he has no pulse nor will,\nThe ship is anchor'd safe and sound, its voyage closed and done,\nFrom fearful trip the victor ship comes in with object won;\nExult O shores, and ring O bells!\nBut I with mournful tread,\nWalk the deck my Captain lies,\nFallen cold and dead.",
       "characterCount": 1067,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "5ec4ba02-faaa-4435-887a-372599f773d5",
@@ -250,7 +250,7 @@
       "order": 25,
       "content": "'Twas brillig, and the slithy toves\nDid gyre and gimble in the wabe:\nAll mimsy were the borogoves,\nAnd the mome raths outgrabe.\n\n\"Beware the Jabberwock, my son!\nThe jaws that bite, the claws that catch!\nBeware the Jubjub bird, and shun\nThe frumious Bandersnatch!\"\n\nHe took his vorpal sword in hand;\nLong time the manxome foe he sought—\nSo rested he by the Tumtum tree\nAnd stood awhile in thought.\n\nAnd, as in uffish thought he stood,\nThe Jabberwock, with eyes of flame,\nCame whiffling through the tulgey wood,\nAnd burbled as it came!\n\nOne, two! One, two! And through and through\nThe vorpal blade went snicker-snack!\nHe left it dead, and with its head\nHe went galumphing back.\n\n\"And hast thou slain the Jabberwock?\nCome to my arms, my beamish boy!\nO frabjous day! Callooh! Callay!\"\nHe chortled in his joy.\n\n'Twas brillig, and the slithy toves\nDid gyre and gimble in the wabe:\nAll mimsy were the borogoves,\nAnd the mome raths outgrabe.",
       "characterCount": 933,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "6b26e0c5-e247-4b7d-9e98-cd31cadc4f9e",
@@ -260,7 +260,7 @@
       "order": 26,
       "content": "I wandered lonely as a cloud\nThat floats on high o'er vales and hills,\nWhen all at once I saw a crowd,\nA host, of golden daffodils;\nBeside the lake, beneath the trees,\nFluttering and dancing in the breeze.\n\nContinuous as the stars that shine\nAnd twinkle on the milky way,\nThey stretched in never-ending line\nAlong the margin of a bay:\nTen thousand saw I at a glance,\nTossing their heads in sprightly dance.\n\nThe waves beside them danced; but they\nOut-did the sparkling waves in glee:\nA poet could not but be gay,\nIn such a jocund company:\nI gazed—and gazed—but little thought\nWhat wealth the show to me had brought:\n\nFor oft, when on my couch I lie\nIn vacant or in pensive mood,\nThey flash upon that inward eye\nWhich is the bliss of solitude;\nAnd then my heart with pleasure fills,\nAnd dances with the daffodils.",
       "characterCount": 812,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "4a01b6bf-53d0-46c0-b2c5-5032c0e3a4c0",
@@ -270,7 +270,7 @@
       "order": 27,
       "content": "Tyger Tyger, burning bright,\nIn the forests of the night;\nWhat immortal hand or eye,\nCould frame thy fearful symmetry?\n\nIn what distant deeps or skies,\nBurnt the fire of thine eyes?\nOn what wings dare he aspire?\nWhat the hand, dare seize the fire?\n\nAnd what shoulder, and what art,\nCould twist the sinews of thy heart?\nAnd when thy heart began to beat,\nWhat dread hand? and what dread feet?\n\nWhat the hammer? what the chain?\nIn what furnace was thy brain?\nWhat the anvil? what dread grasp,\nDare its deadly terrors clasp?\n\nWhen the stars threw down their spears\nAnd water'd heaven with their tears:\nDid he smile his work to see?\nDid he who made the Lamb make thee?\n\nTyger Tyger burning bright,\nIn the forests of the night:\nWhat immortal hand or eye,\nDare frame thy fearful symmetry?",
       "characterCount": 781,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "dbcc95e8-b236-4d3d-a12e-b6b7e03688ac",
@@ -280,7 +280,7 @@
       "order": 28,
       "content": "If you can keep your head when all about you\nAre losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\nBut make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\nOr being lied about, don't deal in lies,\nOr being hated, don't give way to hating,\nAnd yet don't look too good, nor talk too wise:\n\nIf you can dream—and not make dreams your master;\nIf you can think—and not make thoughts your aim;\nIf you can meet with Triumph and Disaster\nAnd treat those two impostors just the same;\nIf you can bear to hear the truth you've spoken\nTwisted by knaves to make a trap for fools,\nOr watch the things you gave your life to, broken,\nAnd stoop and build 'em up with worn-out tools:\n\nIf you can make one heap of all your winnings\nAnd risk it on one turn of pitch-and-toss,\nAnd lose, and start again at your beginnings\nAnd never breathe a word about your loss;\nIf you can force your heart and nerve and sinew\nTo serve your turn long after they are gone,\nAnd so hold on when there is nothing in you\nExcept the Will which says to them: \"Hold on!\"\n\nIf you can talk with crowds and keep your virtue,\nOr walk with Kings—nor lose the common touch,\nIf neither foes nor loving friends can hurt you,\nIf all men count with you, but none too much;\nIf you can fill the unforgiving minute\nWith sixty seconds' worth of distance run,\nYours is the Earth and everything that's in it,\nAnd—which is more—you'll be a Man, my son!",
       "characterCount": 1458,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "a980a18b-acbc-40f2-989f-d10eb6b57da3",
@@ -290,7 +290,7 @@
       "order": 29,
       "content": "Do not go gentle into that good night,\nOld age should burn and rave at close of day;\nRage, rage against the dying of the light.\n\nThough wise men at their end know dark is right,\nBecause their words had forked no lightning they\nDo not go gentle into that good night.\n\nGood men, the last wave by, crying how bright\nTheir frail deeds might have danced in a green bay,\nRage, rage against the dying of the light.\n\nWild men who caught and sang the sun in flight,\nAnd learn, too late, they grieved it on its way,\nDo not go gentle into that good night.\n\nGrave men, near death, who see with blinding sight\nBlind eyes could blaze like meteors and be gay,\nRage, rage against the dying of the light.\n\nAnd you, my father, there on the sad height,\nCurse, bless, me now with your fierce tears, I pray.\nDo not go gentle into that good night.\nRage, rage against the dying of the light.",
       "characterCount": 868,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "05024c89-53fb-46cf-9443-cac6edd15da8",
@@ -300,7 +300,7 @@
       "order": 30,
       "content": "It was many and many a year ago,\nIn a kingdom by the sea,\nThat a maiden there lived whom you may know\nBy the name of Annabel Lee;\nAnd this maiden she lived with no other thought\nThan to love and be loved by me.\n\nI was a child and she was a child,\nIn this kingdom by the sea;\nBut we loved with a love that was more than love—\nI and my Annabel Lee—\nWith a love that the wingèd seraphs of Heaven\nCoveted her and me.\n\nAnd this was the reason that, long ago,\nIn this kingdom by the sea,\nA wind blew out of a cloud, chilling\nMy beautiful Annabel Lee;\nSo that her highborn kinsmen came\nAnd bore her away from me,\nTo shut her up in a sepulchre\nIn this kingdom by the sea.\n\nThe angels, not half so happy in Heaven,\nWent envying her and me—\nYes!—that was the reason (as all men know,\nIn this kingdom by the sea)\nThat the wind came out of the cloud by night,\nChilling and killing my Annabel Lee.\n\nBut our love it was stronger by far than the love\nOf those who were older than we—\nOf many far wiser than we—\nAnd neither the angels in Heaven above\nNor the demons down under the sea\nCan ever dissever my soul from the soul\nOf the beautiful Annabel Lee;\n\nFor the moon never beams, without bringing me dreams\nOf the beautiful Annabel Lee;\nAnd the stars never rise, but I feel the bright eyes\nOf the beautiful Annabel Lee;\nAnd so, all the night-tide, I lie down by the side\nOf my darling—my darling—my life and my bride,\nIn her sepulchre there by the sea—\nIn her tomb by the sounding sea.",
       "characterCount": 1471,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "f2100c47-ff9d-41aa-8069-0808cfb143ae",
@@ -310,7 +310,7 @@
       "order": 31,
       "content": "I met a traveller from an antique land,\nWho said—\"Two vast and trunkless legs of stone\nStand in the desert. . . . Near them, on the sand,\nHalf sunk a shattered visage lies, whose frown,\nAnd wrinkled lip, and sneer of cold command,\nTell that its sculptor well those passions read\nWhich yet survive, stamped on these lifeless things,\nThe hand that mocked them, and the heart that fed;\nAnd on the pedestal, these words appear:\nMy name is Ozymandias, King of Kings;\nLook on my Works, ye Mighty, and despair!\nNothing beside remains. Round the decay\nOf that colossal Wreck, boundless and bare\nThe lone and level sands stretch far away.\"",
       "characterCount": 630,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "e06386be-b5f7-42a8-be56-2cec54249749",
@@ -320,7 +320,7 @@
       "order": 32,
       "content": "Once upon a midnight dreary, while I pondered, weak and weary,\nOver many a quaint and curious volume of forgotten lore—\nWhile I nodded, nearly napping, suddenly there came a tapping,\nAs of some one gently rapping, rapping at my chamber door.\n\"'Tis some visitor,\" I muttered, \"tapping at my chamber door—\nOnly this and nothing more.\"\n\nAh, distinctly I remember it was in the bleak December;\nAnd each separate dying ember wrought its ghost upon the floor;\nEagerly I wished the morrow;—vainly I had sought to borrow\nFrom my books surcease of sorrow—sorrow for the lost Lenore—\nFor the rare and radiant maiden whom the angels name Lenore—\nNameless here for evermore.\n\nAnd the silken, sad, uncertain rustling of each purple curtain\nThrilled me—filled me with fantastic terrors never felt before;\nSo that now, to still the beating of my heart, I stood repeating\n\"'Tis some visitor entreating entrance at my chamber door—\nSome late visitor entreating entrance at my chamber door;—\nThis it is and nothing more.\"\n\nPresently my soul grew stronger; hesitating then no longer,\n\"Sir,\" said I, \"or Madam, truly your forgiveness I implore;\nBut the fact is I was napping, and so gently you came rapping,\nAnd so faintly you came tapping, tapping at my chamber door,\nThat I scarce was sure I heard you\"—here I opened wide the door;—\nDarkness there and nothing more.\n\nDeep into that darkness peering, long I stood there wondering, fearing,\nDoubting, dreaming dreams no mortal ever dared to dream before;\nBut the silence was unbroken, and the stillness gave no token,\nAnd the only word there spoken was the whispered word, \"Lenore?\"\nThis I whispered, and an echo murmured back the word, \"Lenore!\"—\nMerely this and nothing more.\n\nBack into the chamber turning, all my soul within me burning,\nSoon again I heard a tapping somewhat louder than before.\n\"Surely,\" said I, \"surely that is something at my window lattice;\nLet me see, then, what thereat is, and this mystery explore—\nLet my heart be still a moment and this mystery explore;—\n'Tis the wind and nothing more!\"\n\nOpen here I flung the shutter, when, with many a flirt and flutter,\nIn there stepped a stately Raven of the saintly days of yore;\nNot the least obeisance made he; not a minute stopped or stayed he;\nBut, with mien of lord or lady, perched above my chamber door—\nPerched upon a bust of Pallas just above my chamber door—\nPerched, and sat, and nothing more.\n\nThen this ebony bird beguiling my sad fancy into smiling,\nBy the grave and stern decorum of the countenance it wore,\n\"Though thy crest be shorn and shaven, thou,\" I said, \"art sure no craven,\nGhastly grim and ancient Raven wandering from the Nightly shore—\nTell me what thy lordly name is on the Night's Plutonian shore!\"\nQuoth the Raven \"Nevermore.\"\n\nMuch I marvelled this ungainly fowl to hear discourse so plainly,\nThough its answer little meaning—little relevancy bore;\nFor we cannot help agreeing that no living human being\nEver yet was blest with seeing bird above his chamber door—\nBird or beast upon the sculptured bust above his chamber door,\nWith such name as \"Nevermore.\"\n\nBut the Raven, sitting lonely on the placid bust, spoke only\nThat one word, as if his soul in that one word he did outpour.\nNothing further then he uttered—not a feather then he fluttered—\nTill I scarcely more than muttered \"Other friends have flown before—\nOn the morrow he will leave me, as my Hopes have flown before.\"\nThen the bird said \"Nevermore.\"\n\nStartled at the stillness broken by reply so aptly spoken,\n\"Doubtless,\" said I, \"what it utters is its only stock and store\nCaught from some unhappy master whom unmerciful Disaster\nFollowed fast and followed faster till his songs one burden bore—\nTill the dirges of his Hope that melancholy burden bore\nOf 'Never—nevermore'.\"\n\nBut the Raven still beguiling all my fancy into smiling,\nStraight I wheeled a cushioned seat in front of bird, and bust and door;\nThen, upon the velvet sinking, I betook myself to linking\nFancy unto fancy, thinking what this ominous bird of yore—\nWhat this grim, ungainly, ghastly, gaunt, and ominous bird of yore\nMeant in croaking \"Nevermore.\"\n\nThis I sat engaged in guessing, but no syllable expressing\nTo the fowl whose fiery eyes now burned into my bosom's core;\nThis and more I sat divining, with my head at ease reclining\nOn the cushion's velvet lining that the lamp-light gloated o'er,\nBut whose velvet-violet lining with the lamp-light gloating o'er,\nShe shall press, ah, nevermore!\n\nThen, methought, the air grew denser, perfumed from an unseen censer\nSwung by Seraphim whose foot-falls tinkled on the tufted floor.\n\"Wretch,\" I cried, \"thy God hath lent thee—by these angels he hath sent thee\nRespite—respite and nepenthe from thy memories of Lenore;\nQuaff, oh quaff this kind nepenthe and forget this lost Lenore!\"\nQuoth the Raven \"Nevermore.\"\n\n\"Prophet!\" said I, \"thing of evil!—prophet still, if bird or devil!—\nWhether Tempter sent, or whether tempest tossed thee here ashore,\nDesolate yet all undaunted, on this desert land enchanted—\nOn this home by Horror haunted—tell me truly, I implore—\nIs there—is there balm in Gilead?—tell me—tell me, I implore!\"\nQuoth the Raven \"Nevermore.\"\n\n\"Prophet!\" said I, \"thing of evil!—prophet still, if bird or devil!\nBy that Heaven that bends above us—by that God we both adore—\nTell this soul with sorrow laden if, within the distant Aidenn,\nIt shall clasp a sainted maiden whom the angels name Lenore—\nClasp a rare and radiant maiden whom the angels name Lenore.\"\nQuoth the Raven \"Nevermore.\"\n\n\"Be that word our sign of parting, bird or fiend!\" I shrieked, upstarting—\n\"Get thee back into the tempest and the Night's Plutonian shore!\nLeave no black plume as a token of that lie thy soul hath spoken!\nLeave my loneliness unbroken!—quit the bust above my door!\nTake thy beak from out my heart, and take thy form from off my door!\"\nQuoth the Raven \"Nevermore.\"\n\nAnd the Raven, never flitting, still is sitting, still is sitting\nOn the pallid bust of Pallas just above my chamber door;\nAnd his eyes have all the seeming of a demon's that is dreaming,\nAnd the lamp-light o'er him streaming throws his shadow on the floor;\nAnd my soul from out that shadow that lies floating on the floor\nShall be lifted—nevermore!",
       "characterCount": 6230,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "8006c705-784b-4acd-9868-119ae8af02dc",
@@ -330,7 +330,7 @@
       "order": 33,
       "content": "Half a league, half a league,\nHalf a league onward,\nAll in the valley of Death\nRode the six hundred.\n\"Forward, the Light Brigade!\nCharge for the guns!\" he said.\nInto the valley of Death\nRode the six hundred.\n\n\"Forward, the Light Brigade!\"\nWas there a man dismayed?\nNot though the soldier knew\nSomeone had blundered.\nTheirs not to make reply,\nTheirs not to reason why,\nTheirs but to do and die.\nInto the valley of Death\nRode the six hundred.\n\nCannon to right of them,\nCannon to left of them,\nCannon in front of them\nVolleyed and thundered;\nStormed at with shot and shell,\nBoldly they rode and well,\nInto the jaws of Death,\nInto the mouth of hell\nRode the six hundred.\n\nFlashed all their sabres bare,\nFlashed as they turned in air\nSabring the gunners there,\nCharging an army, while\nAll the world wondered.\nPlunged in the battery-smoke\nRight through the line they broke;\nCossack and Russian\nReeled from the sabre stroke\nShattered and sundered.\nThen they rode back, but not,\nNot the six hundred.\n\nCannon to right of them,\nCannon to left of them,\nCannon behind them\nVolleyed and thundered;\nStormed at with shot and shell,\nWhile horse and hero fell.\nThey that had fought so well\nCame through the jaws of Death,\nBack from the mouth of hell,\nAll that was left of them,\nLeft of six hundred.\n\nWhen can their glory fade?\nO the wild charge they made!\nAll the world wondered.\nHonour the charge they made!\nHonour the Light Brigade,\nNoble six hundred!",
       "characterCount": 1436,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "bbb0cbc9-c5c0-4e2c-a550-6fdcb823f8d9",
@@ -340,7 +340,7 @@
       "order": 34,
       "content": "My heart aches, and a drowsy numbness pains\nMy sense, as though of hemlock I had drunk,\nOr emptied some dull opiate to the drains\nOne minute past, and Lethe-wards had sunk:\n'Tis not through envy of thy happy lot,\nBut being too happy in thine happiness,—\nThat thou, light-wingèd Dryad of the trees,\nIn some melodious plot\nOf beechen green, and shadows numberless,\nSingest of summer in full-throated ease.\n\nO, for a draught of vintage! that hath been\nCooled a long age in the deep-delvèd earth,\nTasting of Flora and the country green,\nDance, and Provençal song, and sunburnt mirth!\nO for a beaker full of the warm South,\nFull of the true, the blushful Hippocrene,\nWith beaded bubbles winking at the brim,\nAnd purple-stainèd mouth;\nThat I might drink, and leave the world unseen,\nAnd with thee fade away into the forest dim:\n\nFade far away, dissolve, and quite forget\nWhat thou among the leaves hast never known,\nThe weariness, the fever, and the fret\nHere, where men sit and hear each other groan;\nWhere palsy shakes a few, sad, last gray hairs,\nWhere youth grows pale, and spectre-thin, and dies;\nWhere but to think is to be full of sorrow\nAnd leaden-eyed despairs,\nWhere Beauty cannot keep her lustrous eyes,\nOr new Love pine at them beyond to-morrow.\n\nAway! away! for I will fly to thee,\nNot charioted by Bacchus and his pards,\nBut on the viewless wings of Poesy,\nThough the dull brain perplexes and retards:\nAlready with thee! tender is the night,\nAnd haply the Queen-Moon is on her throne,\nClustered around by all her starry Fays;\nBut here there is no light,\nSave what from heaven is with the breezes blown\nThrough verdurous glooms and winding mossy ways.\n\nI cannot see what flowers are at my feet,\nNor what soft incense hangs upon the boughs,\nBut, in embalmèd darkness, guess each sweet\nWherewith the seasonable month endows\nThe grass, the thicket, and the fruit-tree wild;\nWhite hawthorn, and the pastoral eglantine;\nFast fading violets covered up in leaves;\nAnd mid-May's eldest child,\nThe coming musk-rose, full of dewy wine,\nThe murmurous haunt of flies on summer eves.\n\nDarkling I listen; and, for many a time\nI have been half in love with easeful Death,\nCall'd him soft names in many a musèd rhyme,\nTo take into the air my quiet breath;\nNow more than ever seems it rich to die,\nTo cease upon the midnight with no pain,\nWhile thou art pouring forth thy soul abroad\nIn such an ecstasy!\nStill wouldst thou sing, and I have ears in vain—\nTo thy high requiem become a sod.\n\nThou wast not born for death, immortal Bird!\nNo hungry generations tread thee down;\nThe voice I hear this passing night was heard\nIn ancient days by emperor and clown:\nPerhaps the self-same song that found a path\nThrough the sad heart of Ruth, when, sick for home,\nShe stood in tears amid the alien corn;\nThe same that oft-times hath\nCharm'd magic casements, opening on the foam\nOf perilous seas, in faery lands forlorn.\n\nForlorn! the very word is like a bell\nTo toll me back from thee to my sole self!\nAdieu! the fancy cannot cheat so well\nAs she is famed to do, deceiving elf.\nAdieu! adieu! thy plaintive anthem fades\nPast the near meadows, over the still stream,\nUp the hill-side; and now 'tis buried deep\nIn the next valley-glades:\nWas it a vision, or a waking dream?\nFled is that music:—Do I wake or sleep?",
       "characterCount": 3290,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "f04b6c1a-cad4-448c-8e09-aa886d86ac69",
@@ -350,7 +350,7 @@
       "order": 35,
       "content": "The outlook wasn't brilliant for the Mudville nine that day;\nThe score stood four to two, with but one inning more to play.\nAnd then when Cooney died at first, and Barrows did the same,\nA sickly silence fell upon the patrons of the game.\n\nA straggling few got up to go in deep despair. The rest\nClung to that hope which springs eternal in the human breast;\nThey thought, if only Casey could get but a whack at that—\nWe'd put up even money now, with Casey at the bat.\n\nBut Flynn preceded Casey, as did also Jimmy Blake,\nAnd the former was a lulu and the latter was a cake;\nSo upon that stricken multitude grim melancholy sat,\nFor there seemed but little chance of Casey's getting to the bat.\n\nBut Flynn let drive a single, to the wonderment of all,\nAnd Blake, the much despised, tore the cover off the ball;\nAnd when the dust had lifted, and men saw what had occurred,\nThere was Jimmy safe at second and Flynn a-hugging third.\n\nThen from five thousand throats and more there rose a lusty yell;\nIt rumbled through the valley, it rattled in the dell;\nIt knocked upon the mountain and recoiled upon the flat,\nFor Casey, mighty Casey, was advancing to the bat.\n\nThere was ease in Casey's manner as he stepped into his place;\nThere was pride in Casey's bearing and a smile on Casey's face.\nAnd when, responding to the cheers, he lightly doffed his hat,\nNo stranger in the crowd could doubt 'twas Casey at the bat.\n\nTen thousand eyes were on him as he rubbed his hands with dirt;\nFive thousand tongues applauded when he wiped them on his shirt.\nThen while the writhing pitcher ground the ball into his hip,\nDefiance gleamed in Casey's eye, a sneer curled Casey's lip.\n\nAnd now the leather-covered sphere came hurtling through the air,\nAnd Casey stood a-watching it in haughty grandeur there.\nClose by the sturdy batsman the ball unheeded sped—\n\"That ain't my style,\" said Casey. \"Strike one,\" the umpire said.\n\nFrom the benches, black with people, there went up a muffled roar,\nLike the beating of the storm-waves on a stern and distant shore.\n\"Kill him! Kill the umpire!\" shouted some one on the stand;\nAnd it's likely they'd have killed him had not Casey raised his hand.\n\nWith a smile of Christian charity great Casey's visage shone;\nHe stilled the rising tumult; he bade the game go on;\nHe signaled to the pitcher, and once more the spheroid flew;\nBut Casey still ignored it, and the umpire said, \"Strike two.\"\n\n\"Fraud!\" cried the maddened thousands, and echo answered fraud;\nBut one scornful look from Casey and the audience was awed.\nThey saw his face grow stern and cold, they saw his muscles strain,\nAnd they knew that Casey wouldn't let that ball go by again.\n\nThe sneer is gone from Casey's lip, his teeth are clenched in hate;\nHe pounds with cruel violence his bat upon the plate.\nAnd now the pitcher holds the ball, and now he lets it go,\nAnd now the air is shattered by the force of Casey's blow.\n\nOh, somewhere in this favored land the sun is shining bright;\nThe band is playing somewhere, and somewhere hearts are light,\nAnd somewhere men are laughing, and somewhere children shout;\nBut there is no joy in Mudville—mighty Casey has struck out.",
       "characterCount": 3151,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "9eff99f4-4de7-4e21-b8ad-49f48ded5870",
@@ -360,7 +360,7 @@
       "order": 36,
       "content": "I will arise and go now, and go to Innisfree,\nAnd a small cabin build there, of clay and wattles made;\nNine bean-rows will I have there, a hive for the honey-bee,\nAnd live alone in the bee-loud glade.\n\nAnd I shall have some peace there, for peace comes dropping slow,\nDropping from the veils of the morning to where the cricket sings;\nThere midnight's all a glimmer, and noon a purple glow,\nAnd evening full of the linnet's wings.\n\nI will arise and go now, for always night and day\nI hear lake water lapping with low sounds by the shore;\nWhile I stand on the roadway, or on the pavements grey,\nI hear it in the deep heart's core.",
       "characterCount": 629,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "458e13e1-4ee3-4355-9435-25e5a087a2b1",
@@ -370,7 +370,7 @@
       "order": 37,
       "content": "Turning and turning in the widening gyre\nThe falcon cannot hear the falconer;\nThings fall apart; the centre cannot hold;\nMere anarchy is loosed upon the world,\nThe blood-dimmed tide is loosed, and everywhere\nThe ceremony of innocence is drowned;\nThe best lack all conviction, while the worst\nAre full of passionate intensity.\n\nSurely some revelation is at hand;\nSurely the Second Coming is at hand.\nThe Second Coming! Hardly are those words out\nWhen a vast image out of Spiritus Mundi\nTroubles my sight: somewhere in sands of the desert\nA shape with lion body and the head of a man,\nA gaze blank and pitiless as the sun,\nIs moving its slow thighs, while all about it\nReel shadows of the indignant desert birds.\nThe darkness drops again; but now I know\nThat twenty centuries of stony sleep\nWere vexed to nightmare by a rocking cradle,\nAnd what rough beast, its hour come round at last,\nSloughs towards Bethlehem to be born?",
       "characterCount": 922,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "b7adb630-4b60-4fad-87f9-3f2d4d858c44",
@@ -380,7 +380,7 @@
       "order": 38,
       "content": "Let us go then, you and I,\nWhen the evening is spread out against the sky\nLike a patient etherized upon a table;\nLet us go, through certain half-deserted streets,\nThe muttering retreats\nOf restless nights in one-night cheap hotels\nAnd sawdust restaurants with oyster-shells:\nStreets that follow like a tedious argument\nOf insidious intent\nTo lead you to an overwhelming question...\nOh, do not ask, \"What is it?\"\nLet us go and make our visit.\n\nIn the room the women come and go\nTalking of Michelangelo.\n\nThe yellow fog that rubs its back upon the window-panes,\nThe yellow smoke that rubs its muzzle on the window-panes,\nLicked its tongue into the corners of the evening,\nLingered upon the pools that stand in drains,\nLet fall upon its back the soot that falls from chimneys,\nSlipped by the terrace, made a sudden leap,\nAnd seeing that it was a soft October night,\nCurled once about the house, and fell asleep.\n\nAnd indeed there will be time\nFor the yellow smoke that slides along the street,\nRubbing its back upon the window-panes;\nThere will be time, there will be time\nTo prepare a face to meet the faces that you meet;\nThere will be time to murder and create,\nAnd time for all the works and days of hands\nThat lift and drop a question on your plate;\nTime for you and time for me,\nAnd time yet for a hundred indecisions,\nAnd for a hundred visions and revisions,\nBefore the taking of a toast and tea.\n\nIn the room the women come and go\nTalking of Michelangelo.\n\nAnd indeed there will be time\nTo wonder, \"Do I dare?\" and, \"Do I dare?\"\nTime to turn back and descend the stair,\nWith a bald spot in the middle of my hair—\n(They will say: \"How his hair is growing thin!\")\nMy morning coat, my collar mounting firmly to the chin,\nMy necktie rich and modest, but asserted by a simple pin—\n(They will say: \"But how his arms and legs are thin!\")\nDo I dare\nDisturb the universe?\nIn a minute there is time\nFor decisions and revisions which a minute will reverse.\n\nFor I have known them all already, known them all:\nHave known the evenings, mornings, afternoons,\nI have measured out my life with coffee spoons;\nI know the voices dying with a dying fall\nBeneath the music from a farther room.\nSo how should I presume?\n\nAnd I have known the eyes already, known them all—\nThe eyes that fix you in a formulated phrase,\nAnd when I am formulated, sprawling on a pin,\nWhen I am pinned and wriggling on the wall,\nThen how should I begin\nTo spit out all the butt-ends of my days and ways?\nAnd how should I presume?\n\nAnd I have known the arms already, known them all—\nArms that are braceleted and white and bare\n(But in the lamplight, downed with light brown hair!)\nIs it perfume from a dress\nThat makes me so digress?\nArms that lie along a table, or wrap about a shawl.\nAnd should I then presume?\nAnd how should I begin?\n\nShall I say, I have gone at dusk through narrow streets\nAnd watched the smoke that rises from the pipes\nOf lonely men in shirt-sleeves, leaning out of windows?...\n\nI should have been a pair of ragged claws\nScuttling across the floors of silent seas.\n\nAnd the afternoon, the evening, sleeps so peacefully!\nSmoothed by long fingers,\nAsleep... tired... or it malingers,\nStretched on the floor, here beside you and me.\nShould I, after tea and cakes and ices,\nHave the strength to force the moment to its crisis?\nBut though I have wept and fasted, wept and prayed,\nThough I have seen my head (grown slightly bald) brought in upon a platter,\nI am no prophet—and here's no great matter;\nI have seen the moment of my greatness flicker,\nAnd I have seen the eternal Footman hold my coat, and snicker,\nAnd in short, I was afraid.\n\nAnd would it have been worth it, after all,\nAfter the cups, the marmalade, the tea,\nAmong the porcelain, among some talk of you and me,\nWould it have been worth while,\nTo have bitten off the matter with a smile,\nTo have squeezed the universe into a ball\nTo roll it toward some overwhelming question,\nTo say: \"I am Lazarus, come from the dead,\nCome back to tell you all, I shall tell you all\"—\nIf one, settling a pillow by her head,\nShould say: \"That is not what I meant at all;\nThat is not it, at all.\"\n\nAnd would it have been worth it, after all,\nWould it have been worth while,\nAfter the sunsets and the dooryards and the sprinkled streets,\nAfter the novels, after the teacups, after the skirts that trail along the floor—\nAnd this, and so much more?—\nIt is impossible to say just what I mean!\nBut as if a magic lantern threw the nerves in patterns on a screen:\nWould it have been worth while\nIf one, settling a pillow or throwing off a shawl,\nAnd turning toward the window, should say:\n\"That is not it at all,\nThat is not what I meant, at all.\"\n\nNo! I am not Prince Hamlet, nor was meant to be;\nAm an attendant lord, one that will do\nTo swell a progress, start a scene or two,\nAdvise the prince; no doubt, an easy tool,\nDeferential, glad to be of use,\nPolitic, cautious, and meticulous;\nFull of high sentence, but a bit obtuse;\nAt times, indeed, almost ridiculous—\nAlmost, at times, the Fool.\n\nI grow old... I grow old...\nI shall wear the bottoms of my trousers rolled.\n\nShall I part my hair behind? Do I dare to eat a peach?\nI shall wear white flannel trousers, and walk upon the beach.\nI have heard the mermaids singing, each to each.\n\nI do not think that they will sing to me.\n\nI have seen them riding seaward on the waves\nCombing the white hair of the waves blown back\nWhen the wind blows the water white and black.\n\nWe have lingered in the chambers of the sea\nBy sea-girls wreathed with seaweed red and brown\nTill human voices wake us, and we drown.",
       "characterCount": 5577,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "48e9cc76-35fc-43d0-acfd-2dbe28bb6310",
@@ -390,7 +390,7 @@
       "order": 39,
       "content": "Little Lamb, who made thee?\nDost thou know who made thee?\nGave thee life, and bid thee feed\nBy the stream and o'er the mead;\nGave thee clothing of delight,\nSoftest clothing, woolly, bright;\nGave thee such a tender voice,\nMaking all the vales rejoice?\nLittle Lamb, who made thee?\nDost thou know who made thee?\n\nLittle Lamb, I'll tell thee,\nLittle Lamb, I'll tell thee:\nHe is called by thy name,\nFor he calls himself a Lamb.\nHe is meek, and he is mild;\nHe became a little child.\nI a child, and thou a lamb,\nWe are called by his name.\nLittle Lamb, God bless thee!\nLittle Lamb, God bless thee!",
       "characterCount": 589,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "c8640bd8-cdf9-42bc-ae54-375719b468df",
@@ -400,7 +400,7 @@
       "order": 40,
       "content": "O my Luve is like a red, red rose\nThat's newly sprung in June;\nO my Luve is like the melody\nThat's sweetly played in tune.\n\nAs fair art thou, my bonnie lass,\nSo deep in luve am I;\nAnd I will luve thee still, my dear,\nTill a' the seas gang dry.\n\nTill a' the seas gang dry, my dear,\nAnd the rocks melt wi' the sun;\nI will love thee still, my dear,\nWhile the sands o' life shall run.\n\nAnd fare thee weel, my only luve!\nAnd fare thee weel awhile!\nAnd I will come again, my luve,\nThough it were ten thousand mile.",
       "characterCount": 508,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "700acefc-aa4c-4397-ba69-1ed5199a2b10",
@@ -410,7 +410,7 @@
       "order": 41,
       "content": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;\nConspiring with him how to load and bless\nWith fruit the vines that round the thatch-eves run;\nTo bend with apples the mossed cottage-trees,\nAnd fill all fruit with ripeness to the core;\nTo swell the gourd, and plump the hazel shells\nWith a sweet kernel; to set budding more,\nAnd still more, later flowers for the bees,\nUntil they think warm days will never cease,\nFor summer has o'er-brimmed their clammy cells.\n\nWho hath not seen thee oft amid thy store?\nSometimes whoever seeks abroad may find\nThee sitting careless on a granary floor,\nThy hair soft-lifted by the winnowing wind;\nOr on a half-reaped furrow sound asleep,\nDrowsed with the fume of poppies, while thy hook\nSpares the next swath and all its twinèd flowers:\nAnd sometimes like a gleaner thou dost keep\nSteady thy laden head across a brook;\nOr by a cider-press, with patient look,\nThou watchest the last oozings hours by hours.\n\nWhere are the songs of spring? Ay, where are they?\nThink not of them, thou hast thy music too,—\nWhile barrèd clouds bloom the soft-dying day,\nAnd touch the stubble-plains with rosy hue;\nThen in a wailful choir the small gnats mourn\nAmong the river sallows, borne aloft\nOr sinking as the light wind lives or dies;\nAnd full-grown lambs loud bleat from hilly bourn;\nHedge-crickets sing; and now with treble soft\nThe red-breast whistles from a garden-croft;\nAnd gathering swallows twitter in the skies.",
       "characterCount": 1472,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "2d59051b-b7ca-4cc1-ac45-39067edc940a",
@@ -420,7 +420,7 @@
       "order": 42,
       "content": "Let me not to the marriage of true minds\nAdmit impediments. Love is not love\nWhich alters when it alteration finds,\nOr bends with the remover to remove.\nO no! it is an ever-fixed mark\nThat looks on tempests and is never shaken;\nIt is the star to every wand'ring bark,\nWhose worth's unknown, although his height be taken.\nLove's not Time's fool, though rosy lips and cheeks\nWithin his bending sickle's compass come;\nLove alters not with his brief hours and weeks,\nBut bears it out even to the edge of doom.\nIf this be error and upon me proved,\nI never writ, nor no man ever loved.",
       "characterCount": 579,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "f324de25-070e-4326-b162-96ec279a62ad",
@@ -430,7 +430,7 @@
       "order": 43,
       "content": "How do I love thee? Let me count the ways.\nI love thee to the depth and breadth and height\nMy soul can reach, when feeling out of sight\nFor the ends of being and ideal grace.\nI love thee to the level of every day's\nMost quiet need, by sun and candlelight.\nI love thee freely, as men strive for right.\nI love thee purely, as they turn from praise.\nI love thee with the passion put to use\nIn my old griefs, and with my childhood's faith.\nI love thee with a love I seemed to lose\nWith my lost saints. I love thee with the breath,\nSmiles, tears, of all my life; and, if God choose,\nI shall but love thee better after death.",
       "characterCount": 619,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "ec25f822-5f87-4725-95a5-f8a2fdf99bad",
@@ -440,7 +440,7 @@
       "order": 44,
       "content": "The wind was a torrent of darkness among the gusty trees,\nThe moon was a ghostly galleon tossed upon cloudy seas,\nThe road was a ribbon of moonlight over the purple moor,\nAnd the highwayman came riding—\nRiding—riding—\nThe highwayman came riding, up to the old inn-door.\n\nHe'd a French cocked-hat on his forehead, a bunch of lace at his chin,\nA coat of the claret velvet, and breeches of brown doe-skin;\nThey fitted with never a wrinkle: his boots were up to the thigh!\nAnd he rode with a jewelled twinkle,\nHis pistol butts a-twinkle,\nHis rapier hilt a-twinkle, under the jewelled sky.\n\nOver the cobbles he clattered and clashed in the dark inn-yard,\nAnd he tapped with his whip on the shutters, but all was locked and barred;\nHe whistled a tune to the window, and who should be waiting there\nBut the landlord's black-eyed daughter,\nBess, the landlord's daughter,\nPlaiting a dark red love-knot into her long black hair.\n\nAnd dark in the dark old inn-yard a stable-wicket creaked\nWhere Tim the ostler listened; his face was white and peaked;\nHis eyes were hollows of madness, his hair like mouldy hay,\nBut he loved the landlord's daughter,\nThe landlord's red-lipped daughter,\nDumb as a dog he listened, and he heard the robber say—\n\n\"One kiss, my bonny sweetheart, I'm after a prize to-night,\nBut I shall be back with the yellow gold before the morning light;\nYet, if they press me sharply, and harry me through the day,\nThen look for me by moonlight,\nWatch for me by moonlight,\nI'll come to thee by moonlight, though hell should bar the way.\"\n\nHe rose upright in the stirrups; he scarce could reach her hand,\nBut she loosened her hair i' the casement! His face burnt like a brand\nAs the black cascade of perfume came tumbling over his breast;\nAnd he kissed its waves in the moonlight,\n(Oh, sweet black waves in the moonlight!)\nThen he tugged at his rein in the moonlight, and galloped away to the West.\n\nHe did not come in the dawning; he did not come at noon;\nAnd out o' the tawny sunset, before the rise o' the moon,\nWhen the road was a gypsy's ribbon, looping the purple moor,\nA red-coat troop came marching—\nMarching—marching—\nKing George's men came marching, up to the old inn-door.\n\nThey said no word to the landlord, they drank his ale instead,\nBut they gagged his daughter and bound her to the foot of her narrow bed;\nTwo of them knelt at her casement, with muskets at their side!\nThere was death at every window;\nAnd hell at one dark window;\nFor Bess could see, through her casement, the road that he would ride.\n\nThey had tied her up to attention, with many a sniggering jest;\nThey had bound a musket beside her, with the barrel beneath her breast!\n\"Now keep good watch!\" and they kissed her.\nShe heard the dead man say—\nLook for me by moonlight;\nWatch for me by moonlight;\nI'll come to thee by moonlight, though hell should bar the way!\n\nShe twisted her hands behind her; but all the knots held good!\nShe writhed her hands till her fingers were wet with sweat or blood!\nThey stretched and strained in the darkness, and the hours crawled by like years,\nTill, now, on the stroke of midnight,\nCold, on the stroke of midnight,\nThe tip of one finger touched it! The trigger at least was hers!\n\nThe tip of one finger touched it; she strove no more for the rest!\nUp, she stood up to attention, with the barrel beneath her breast,\nShe would not risk their hearing; she would not strive again;\nFor the road lay bare in the moonlight;\nBlank and bare in the moonlight;\nAnd the blood of her veins in the moonlight throbbed to her love's refrain.\n\nTlot-tlot; tlot-tlot! Had they heard it? The horse-hoofs ringing clear;\nTlot-tlot, tlot-tlot, in the distance? Were they deaf that they did not hear?\nDown the ribbon of moonlight, over the brow of the hill,\nThe highwayman came riding,\nRiding, riding!\nThe red-coats looked to their priming! She stood up straight and still!\n\nTlot-tlot, in the frosty silence! Tlot-tlot, in the echoing night!\nNearer he came and nearer! Her face was like a light!\nHer eyes grew wide for a moment; she drew one last deep breath,\nThen her finger moved in the moonlight,\nHer musket shattered the moonlight,\nShattered her breast in the moonlight and warned him—with her death.\n\nHe turned; he spurred him westward; he did not know who stood\nBowed, with her head o'er the musket, drenched with her own red blood!\nNot till the dawn he heard it, his face grew grey to hear\nHow Bess, the landlord's daughter,\nThe landlord's black-eyed daughter,\nHad watched for her love in the moonlight, and died in the darkness there.\n\nBack, he spurred like a madman, shrieking a curse to the sky,\nWith the white road smoking behind him and his rapier brandished high!\nBlood-red were his spurs i' the golden noon; wine-red was his velvet coat,\nWhen they shot him down on the highway,\nDown like a dog on the highway,\nAnd he lay in his blood on the highway, with the bunch of lace at his throat.\n\nAnd still of a winter's night, they say, when the wind is in the trees,\nWhen the moon is a ghostly galleon tossed upon cloudy seas,\nWhen the road is a ribbon of moonlight over the purple moor,\nA highwayman comes riding—\nRiding—riding—\nA highwayman comes riding, up to the old inn-door.\n\nOver the cobbles he clatters and clangs in the dark inn-yard;\nAnd he taps with his whip on the shutters, but all is locked and barred;\nHe whistles a tune to the window, and who should be waiting there\nBut the landlord's black-eyed daughter,\nBess, the landlord's daughter,\nPlaiting a dark red love-knot into her long black hair.",
       "characterCount": 5511,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "1696d02f-cf89-4099-bdfc-3a16aec62139",
@@ -450,7 +450,7 @@
       "order": 45,
       "content": "I celebrate myself, and sing myself,\nAnd what I assume you shall assume,\nFor every atom belonging to me as good belongs to you.\n\nI loafe and invite my soul,\nI lean and loafe at my ease observing a spear of summer grass.\n\nMy tongue, every atom of my blood, formed from this soil, this air,\nBorn here of parents born here from parents the same, and their parents the same,\nI, now thirty-seven years old in perfect health begin,\nHoping to cease not till death.\n\nCreeds and schools in abeyance,\nRetiring back a while sufficed at what they are, but never forgotten,\nI harbor for good or bad, I permit to speak at every hazard,\nNature without check with original energy.",
       "characterCount": 664,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "9ebb2be1-b2da-44db-b842-93657c24bb1a",
@@ -460,7 +460,7 @@
       "order": 46,
       "content": "Sunset and evening star,\nAnd one clear call for me!\nAnd may there be no moaning of the bar,\nWhen I put out to sea,\n\nBut such a tide as moving seems asleep,\nToo full for sound and foam,\nWhen that which drew from out the boundless deep\nTurns again home.\n\nTwilight and evening bell,\nAnd after that the dark!\nAnd may there be no sadness of farewell,\nWhen I embark;\n\nFor though from out our bourne of Time and Place\nThe flood may bear me far,\nI hope to see my Pilot face to face\nWhen I have crossed the bar.",
       "characterCount": 502,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "7ec1d86d-8fb2-460b-a846-6944b2a54b7d",
@@ -470,7 +470,7 @@
       "order": 47,
       "content": "O beautiful for spacious skies,\nFor amber waves of grain,\nFor purple mountain majesties\nAbove the fruited plain!\nAmerica! America!\nGod shed His grace on thee,\nAnd crown thy good with brotherhood\nFrom sea to shining sea!\n\nO beautiful for pilgrim feet,\nWhose stern, impassioned stress\nA thoroughfare for freedom beat\nAcross the wilderness!\nAmerica! America!\nGod mend thine every flaw,\nConfirm thy soul in self-control,\nThy liberty in law!\n\nO beautiful for heroes proved\nIn liberating strife,\nWho more than self their country loved\nAnd mercy more than life!\nAmerica! America!\nMay God thy gold refine,\nTill all success be nobleness,\nAnd every gain divine!\n\nO beautiful for patriot dream\nThat sees beyond the years\nThine alabaster cities gleam\nUndimmed by human tears!\nAmerica! America!\nGod shed His grace on thee,\nAnd crown thy good with brotherhood\nFrom sea to shining sea!",
       "characterCount": 870,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "e201441a-ee86-4bf2-bc70-2f5ff8e604da",
@@ -480,7 +480,7 @@
       "order": 48,
       "content": "Under a spreading chestnut-tree\nThe village smithy stands;\nThe smith, a mighty man is he,\nWith large and sinewy hands;\nAnd the muscles of his brawny arms\nAre strong as iron bands.\n\nHis hair is crisp, and black, and long,\nHis face is like the tan;\nHis brow is wet with honest sweat,\nHe earns whate'er he can,\nAnd looks the whole world in the face,\nFor he owes not any man.\n\nWeek in, week out, from morn till night,\nYou can hear his bellows blow;\nYou can hear him swing his heavy sledge,\nWith measured beat and slow,\nLike a sexton ringing the village bell,\nWhen the evening sun is low.\n\nAnd children coming home from school\nLook in at the open door;\nThey love to see the flaming forge,\nAnd hear the bellows roar,\nAnd catch the burning sparks that fly\nLike chaff from a threshing-floor.\n\nHe goes on Sunday to the church,\nAnd sits among his boys;\nHe hears the parson pray and preach,\nHe hears his daughter's voice,\nSinging in the village choir,\nAnd it makes his heart rejoice.\n\nIt sounds to him like her mother's voice,\nSinging in Paradise!\nHe needs must think of her once more,\nHow in the grave she lies;\nAnd with his hard, rough hand he wipes\nA tear out of his eyes.\n\nToiling,—rejoicing,—sorrowing,\nOnward through life he goes;\nEach morning sees some task begin,\nEach evening sees it close;\nSomething attempted, something done,\nHas earned a night's repose.\n\nThanks, thanks to thee, my worthy friend,\nFor the lesson thou hast taught!\nThus at the flaming forge of life\nOur fortunes must be wrought;\nThus on its sounding anvil shaped\nEach burning deed and thought.",
       "characterCount": 1559,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "a09200bc-7812-45a6-8bd7-995c087a242e",
@@ -490,7 +490,7 @@
       "order": 49,
       "content": "Listen, my children, and you shall hear\nOf the midnight ride of Paul Revere,\nOn the eighteenth of April, in Seventy-five;\nHardly a man is now alive\nWho remembers that famous day and year.\n\nHe said to his friend, \"If the British march\nBy land or sea from the town to-night,\nHang a lantern aloft in the belfry arch\nOf the North Church tower as a signal light,—\nOne, if by land, and two, if by sea;\nAnd I on the opposite shore will be,\nReady to ride and spread the alarm\nThrough every Middlesex village and farm,\nFor the country folk to be up and to arm.\"\n\nThen he said \"Good-night!\" and with muffled oar\nSilently rowed to the Charlestown shore,\nJust as the moon rose over the bay,\nWhere swinging wide at her moorings lay\nThe Somerset, British man-of-war;\nA phantom ship, with each mast and spar\nAcross the moon like a prison bar,\nAnd a huge black hulk, that was magnified\nBy its own reflection in the tide.\n\nMeanwhile, his friend, through alley and street,\nWanders and watches with eager ears,\nTill in the silence around him he hears\nThe muster of men at the barrack door,\nThe sound of arms, and the tramp of feet,\nAnd the measured tread of the grenadiers,\nMarching down to their boats on the shore.\n\nThen he climbed to the tower of the Old North Church,\nBy the wooden stairs, with stealthy tread,\nTo the belfry-chamber overhead,\nAnd startled the pigeons from their perch\nOn the sombre rafters, that round him made\nMasses and moving shapes of shade,—\nBy the trembling ladder, steep and tall,\nTo the highest window in the wall,\nWhere he paused to listen and look down\nA moment on the roofs of the town,\nAnd the moonlight flowing over all.\n\nBeneath, in the churchyard, lay the dead,\nIn their night-encampment on the hill,\nWrapped in silence so deep and still\nThat he could hear, like a sentinel's tread,\nThe watchful night-wind, as it went\nCreeping along from tent to tent,\nAnd seeming to whisper, \"All is well!\"\nA moment only he feels the spell\nOf the place and the hour, and the secret dread\nOf the lonely belfry and the dead;\nFor suddenly all his thoughts are bent\nOn a shadowy something far away,\nWhere the river widens to meet the bay,—\nA line of black that bends and floats\nOn the rising tide, like a bridge of boats.\n\nMeanwhile, impatient to mount and ride,\nBooted and spurred, with a heavy stride\nOn the opposite shore walked Paul Revere.\nNow he patted his horse's side,\nNow gazed at the landscape far and near,\nThen, impetuous, stamped the earth,\nAnd turned and tightened his saddle-girth;\nBut mostly he watched with eager search\nThe belfry-tower of the Old North Church,\nAs it rose above the graves on the hill,\nLonely and spectral and sombre and still.\nAnd lo! as he looks, on the belfry's height\nA glimmer, and then a gleam of light!\nHe springs to the saddle, the bridle he turns,\nBut lingers and gazes, till full on his sight\nA second lamp in the belfry burns!\n\nA hurry of hoofs in a village street,\nA shape in the moonlight, a bulk in the dark,\nAnd beneath, from the pebbles, in passing, a spark\nStruck out by a steed flying fearless and fleet;\nThat was all! And yet, through the gloom and the light,\nThe fate of a nation was riding that night;\nAnd the spark struck out by that steed, in his flight,\nKindled the land into flame with its heat.\n\nHe has left the village and mounted the steep,\nAnd beneath him, tranquil and broad and deep,\nIs the Mystic, meeting the ocean tides;\nAnd under the alders, that skirt its edge,\nNow soft on the sand, now loud on the ledge,\nIs heard the tramp of his steed as he rides.\n\nIt was twelve by the village clock\nWhen he crossed the bridge into Medford town.\nHe heard the crowing of the cock,\nAnd the barking of the farmer's dog,\nAnd felt the damp of the river fog,\nThat rises after the sun goes down.\n\nIt was one by the village clock,\nWhen he galloped into Lexington.\nHe saw the gilded weathercock\nSwim in the moonlight as he passed,\nAnd the meeting-house windows, blank and bare,\nGaze at him with a spectral glare,\nAs if they already stood aghast\nAt the bloody work they would look upon.\n\nIt was two by the village clock,\nWhen he came to the bridge in Concord town.\nHe heard the bleating of the flock,\nAnd the twitter of birds among the trees,\nAnd felt the breath of the morning breeze\nBlowing over the meadows brown.\nAnd one was safe and asleep in his bed\nWho at the bridge would be first to fall,\nWho that day would be lying dead,\nPierced by a British musket-ball.\n\nYou know the rest. In the books you have read,\nHow the British Regulars fired and fled,—\nHow the farmers gave them ball for ball,\nFrom behind each fence and farmyard wall,\nChasing the redcoats down the lane,\nThen crossing the fields to emerge again\nUnder the trees at the turn of the road,\nAnd only pausing to fire and load.\n\nSo through the night rode Paul Revere;\nAnd so through the night went his cry of alarm\nTo every Middlesex village and farm,—\nA cry of defiance and not of fear,\nA voice in the darkness, a knock at the door,\nAnd a word that shall echo forevermore!\nFor, borne on the night-wind of the Past,\nThrough all our history, to the last,\nIn the hour of darkness and peril and need,\nThe people will waken and listen to hear\nThe hurrying hoof-beats of that steed,\nAnd the midnight message of Paul Revere.",
       "characterCount": 5228,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     },
     {
       "id": "bb00296e-ad8b-4379-a7a4-1e08fbb1a877",
@@ -500,7 +500,7 @@
       "order": 50,
       "content": "April is the cruellest month, breeding\nLilacs out of the dead land, mixing\nMemory and desire, stirring\nDull roots with spring rain.\nWinter kept us warm, covering\nEarth in forgetful snow, feeding\nA little life with dried tubers.\nSummer surprised us, coming over the Starnbergersee\nWith a shower of rain; we stopped in the colonnade,\nAnd went on in sunlight, into the Hofgarten,\nAnd drank coffee, and talked for an hour.\nBin gar keine Russin, stamm' aus Litauen, echt deutsch.\nAnd when we were children, staying at the archduke's,\nMy cousin's, he took me out on a sled,\nAnd I was frightened. He said, Marie,\nMarie, hold on tight. And down we went.\nIn the mountains, there you feel free.\nI read, much of the night, and go south in the winter.\n\nWhat are the roots that clutch, what branches grow\nOut of this stony rubbish? Son of man,\nYou cannot say, or guess, for you know only\nA heap of broken images, where the sun beats,\nAnd the dead tree gives no shelter, the cricket no relief,\nAnd the dry stone no sound of water. Only\nThere is shadow under this red rock,\n(Come in under the shadow of this red rock),\nAnd I will show you something different from either\nYour shadow at morning striding behind you\nOr your shadow at evening rising to meet you;\nI will show you fear in a handful of dust.",
       "characterCount": 1287,
-      "chineseCharCount": 0
+      "cjkCharCount": 0
     }
   ]
 }

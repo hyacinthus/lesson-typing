@@ -6,7 +6,7 @@ import { isKana, getKanaRomajiLength, DEFAULT_KANJI_ROMAJI_LENGTH } from './japa
 /**
  * Check if a character is a CJK Unified Ideograph (Chinese/Japanese kanji).
  */
-export function isChineseCharacter(char: string): boolean {
+export function isHanCharacter(char: string): boolean {
   return /[\u4e00-\u9fa5]/.test(char);
 }
 
@@ -21,7 +21,7 @@ function detectContentLanguage(content: { char: string }[]): ContentLanguageType
   const hasKana = content.some(c => isKana(c.char));
   if (hasKana) return 'japanese';
 
-  const hasCJK = content.some(c => isChineseCharacter(c.char));
+  const hasCJK = content.some(c => isHanCharacter(c.char));
   if (hasCJK) return 'chinese';
 
   return 'other';
@@ -38,14 +38,14 @@ function getEffectiveKeystrokesForChar(char: string, lang: ContentLanguageType):
     if (romajiLen != null) return romajiLen;
 
     // Kanji in Japanese context → use average romaji length
-    if (isChineseCharacter(char)) return DEFAULT_KANJI_ROMAJI_LENGTH;
+    if (isHanCharacter(char)) return DEFAULT_KANJI_ROMAJI_LENGTH;
 
     // Other characters (punctuation, latin, etc.)
     return 1;
   }
 
   if (lang === 'chinese') {
-    if (isChineseCharacter(char)) {
+    if (isHanCharacter(char)) {
       const py = pinyin(char, { toneType: 'none', type: 'array' });
       return py.length > 0 ? py.join('').length : 0;
     }
@@ -97,7 +97,7 @@ export function calculateStats(session: TypingSession): RealtimeStats {
   if (contentLang === 'chinese') {
     // For Chinese: WPM = Chinese characters per minute
     const chineseChars = typedChars.filter(char =>
-      isChineseCharacter(char.char) && char.status === CharacterStatus.CORRECT
+      isHanCharacter(char.char) && char.status === CharacterStatus.CORRECT
     ).length;
     wpm = durationMinutes > 0
       ? Math.round(chineseChars / durationMinutes)
@@ -105,7 +105,7 @@ export function calculateStats(session: TypingSession): RealtimeStats {
   } else if (contentLang === 'japanese') {
     // For Japanese: WPM = kana/kanji characters per minute
     const japaneseChars = typedChars.filter(char =>
-      (isKana(char.char) || isChineseCharacter(char.char)) &&
+      (isKana(char.char) || isHanCharacter(char.char)) &&
       char.status === CharacterStatus.CORRECT
     ).length;
     wpm = durationMinutes > 0

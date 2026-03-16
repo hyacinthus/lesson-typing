@@ -22,7 +22,7 @@ function rowToLesson(row: Record<string, unknown>): Lesson {
     order: row.sort_order as number,
     content: row.content as string,
     characterCount: row.character_count as number,
-    chineseCharCount: row.chinese_char_count as number,
+    cjkCharCount: row.cjk_char_count as number,
   };
 }
 
@@ -109,10 +109,10 @@ export function lessonToCharacters(content: string): Character[] {
 }
 
 /**
- * Check if a character is Chinese
+ * Check if a character is a CJK character (Han, Hiragana, Katakana, Hangul)
  */
-export function isChineseCharacter(char: string): boolean {
-  return /[\u4e00-\u9fa5]/.test(char);
+export function isCJKCharacter(char: string): boolean {
+  return /[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff\u3040-\u309f\u30a0-\u30ff\uac00-\ud7af\u1100-\u11ff]/.test(char);
 }
 
 /**
@@ -120,10 +120,10 @@ export function isChineseCharacter(char: string): boolean {
  */
 export function countLessonCharacters(content: string): {
   total: number;
-  chinese: number;
+  cjk: number;
 } {
   const chars = Array.from(content);
   const total = chars.length;
-  const chinese = chars.filter(isChineseCharacter).length;
-  return { total, chinese };
+  const cjk = chars.filter(isCJKCharacter).length;
+  return { total, cjk };
 }

@@ -10,8 +10,8 @@
       "order": 1,
       "content": "El sistema solar es fascinante. El sol está en el centro y es una estrella muy grande y caliente. Hay ocho planetas que giran alrededor del sol. La Tierra es nuestro hogar y es el tercer planeta. Júpiter es el planeta más grande de todos. Me gustaría ser astronauta para ver las estrellas de cerca.",
       "characterCount": 298,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "bd3b90fb-293b-4a79-b2b8-4afd8db1171f",
@@ -21,8 +21,8 @@
       "order": 2,
       "content": "La mariposa monarca es conocida por sus increíbles viajes. Cada año, estas mariposas vuelan miles de kilómetros desde Canadá hasta México. Tienen alas de color naranja y negro que son muy hermosas. En México, pasan el invierno en los bosques. Es un fenómeno natural impresionante que atrae a muchos turistas.",
       "characterCount": 308,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "cc91c1ac-c4d2-4c46-b257-9e8b6757ec1b",
@@ -32,8 +32,8 @@
       "order": 3,
       "content": "Reciclar es muy importante para cuidar nuestro planeta. Podemos reciclar papel, plástico y vidrio. Cuando reciclamos, ayudamos a reducir la basura y a conservar los recursos naturales. En mi casa, separamos la basura en diferentes contenedores. Si todos ayudamos, podemos mantener la Tierra limpia y saludable.",
       "characterCount": 310,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "ae67b944-dd5f-431c-8948-218c4a02f140",
@@ -43,8 +43,8 @@
       "order": 4,
       "content": "Según la mitología azteca, existieron cuatro mundos o soles antes del actual. El primer sol fue destruido por jaguares; el segundo, por el viento; el tercero, por una lluvia de fuego; y el cuarto, por el agua. Para crear el quinto sol, los dioses se reunieron en Teotihuacán. Nanahuatzin, un dios humilde, se arrojó al fuego y se convirtió en el Sol. Tecuciztécatl lo siguió y se convirtió en la Luna. Como el Sol no se movía, los demás dioses se sacrificaron para darle fuerza.",
       "characterCount": 478,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "96e7a5ff-72a9-4cd8-9f8a-4a3d7b5f0da2",
@@ -54,8 +54,8 @@
       "order": 5,
       "content": "Hace mucho tiempo, los aztecas solo comían raíces y animales que cazaban. El maíz estaba escondido detrás de unas montañas. Los dioses intentaron separarlas con su fuerza, pero no pudieron. Quetzalcóatl decidió usar la inteligencia. Se transformó en una hormiga negra y, acompañado de una hormiga roja, cruzó las montañas. Tomó un grano de maíz y lo llevó de regreso a su pueblo. Los aztecas sembraron el maíz y así obtuvieron su alimento sagrado.",
       "characterCount": 447,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "b0b83bd1-d442-4044-afae-30e69abc414b",
@@ -65,8 +65,8 @@
       "order": 6,
       "content": "En Córdoba vivía una mujer muy bella y misteriosa llamada la Mulata. Dicen que tenía poderes mágicos y curaba enfermedades. La gente empezó a decir que era bruja. La Inquisición la encarceló. En su celda, la Mulata dibujó un barco en la pared con un trozo de carbón. Le preguntó al carcelero: \"¿Qué le falta a este barco?\". \"Navegar\", respondió él. \"Pues mira cómo navega\", dijo ella, y saltó al dibujo. El barco se alejó por la pared y la Mulata desapareció para siempre.",
       "characterCount": 472,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "ec342583-7232-4b8d-bb1f-94fe1ea4a403",
@@ -76,8 +76,8 @@
       "order": 7,
       "content": "El dios Huitzilopochtli ordenó a los aztecas salir de Aztlán y buscar un lugar para fundar su ciudad. La señal sería un águila parada sobre un nopal devorando una serpiente. Los aztecas caminaron durante muchos años. Finalmente, llegaron al lago de Texcoco y vieron la señal prometida. Allí fundaron Tenochtitlán, que hoy es la Ciudad de México. Esta imagen está en la bandera mexicana.",
       "characterCount": 386,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "805a982f-c654-4be4-8ecf-3326bacc0e68",
@@ -87,8 +87,8 @@
       "order": 8,
       "content": "La ciudad de Hamelín estaba llena de ratas. Un flautista prometió librarlos de ellas a cambio de dinero. Tocó su flauta y todas las ratas lo siguieron hasta el río, donde se ahogaron. Pero el alcalde no quiso pagarle. El flautista, enojado, tocó otra melodía. Esta vez, todos los niños del pueblo lo siguieron y desaparecieron en una montaña. Solo un niño cojo que no pudo seguirlos regresó para contarlo. La promesa se debe cumplir.",
       "characterCount": 433,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "40d0c478-834c-46fa-a53a-9abd45845df2",
@@ -98,8 +98,8 @@
       "order": 9,
       "content": "Un burro, un perro, un gato y un gallo, viejos y cansados, decidieron ir a Bremen para ser músicos. En el camino, encontraron una casa de ladrones. Se subieron uno encima del otro y gritaron todos a la vez. Los ladrones, asustados por el ruido monstruoso, huyeron. Los animales entraron, comieron y se quedaron a vivir allí felices, olvidando su viaje a Bremen.",
       "characterCount": 361,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "7c695f56-9cb9-4ff0-b742-8912ddbd9878",
@@ -109,8 +109,8 @@
       "order": 10,
       "content": "Un emperador vanidoso contrató a dos estafadores que prometieron hacerle un traje invisible para los tontos. El emperador y sus ministros fingían ver la tela para no parecer tontos. El día del desfile, el emperador salió en ropa interior. Nadie decía nada hasta que un niño gritó: \"¡El emperador está desnudo!\". Todos empezaron a reír, y el emperador se dio cuenta de su error, pero continuó el desfile con la cabeza alta.",
       "characterCount": 422,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "2f54dcd0-3abf-4258-b39b-07172cf21b4c",
@@ -120,8 +120,8 @@
       "order": 11,
       "content": "Pedro era un pastorcillo que se aburría cuidando ovejas. Para divertirse, gritaba: \"¡Que viene el lobo!\". Los aldeanos venían corriendo y Pedro se reía de ellos. Un día, el lobo vino de verdad. Pedro gritó y gritó, pero los aldeanos pensaron que era otra broma y no vinieron. El lobo se comió las ovejas. Pedro aprendió que no se debe mentir, porque nadie cree a un mentiroso.",
       "characterCount": 376,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "47a692d8-dac7-4cb8-bea2-a6d02a2f7b0a",
@@ -131,8 +131,8 @@
       "order": 12,
       "content": "Una familia americana compró un castillo inglés habitado por un fantasma. El fantasma intentó asustarlos con cadenas y manchas de sangre, pero los americanos no se asustaban. Los gemelos le hacían bromas y el padre le ofreció aceite para sus cadenas. El fantasma se sentía humillado y triste. Finalmente, la hija mayor, Virginia, ayudó al fantasma a encontrar la paz y descansar para siempre.",
       "characterCount": 392,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "54c13016-8f50-4e03-ad28-96d213ae0176",
@@ -142,8 +142,8 @@
       "order": 13,
       "content": "El príncipe Sigfrido se enamoró de Odette, una princesa convertida en cisne por un hechicero. Solo el amor verdadero podía romper el hechizo. El hechicero engañó a Sigfrido con su hija Odile, disfrazada de cisne negro. Sigfrido le juró amor a Odile, condenando a Odette. Al darse cuenta, corrió al lago. El amor de ambos fue tan fuerte que vencieron al hechicero, aunque en algunas versiones, ambos mueren para estar juntos siempre.",
       "characterCount": 432,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "e51dc0cf-be63-4051-a647-99af90bcb5ac",
@@ -153,8 +153,8 @@
       "order": 14,
       "content": "En Navidad, Clara recibió un Cascanueces de madera. Por la noche, el Cascanueces cobró vida y luchó contra el Rey de los Ratones. Clara le ayudó lanzando su zapato al ratón. El Cascanueces se transformó en un príncipe y llevó a Clara al Reino de los Dulces, donde el Hada de Azúcar bailó para ellos. Fue un sueño maravilloso lleno de magia y fantasía.",
       "characterCount": 351,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "3392abf2-edde-444c-ab23-ce0a54116a7b",
@@ -164,8 +164,8 @@
       "order": 15,
       "content": "Aladino era un joven pobre que encontró una lámpara vieja. Al frotarla, salió un genio que le concedió tres deseos. Aladino pidió ser rico para casarse con la princesa. Un hechicero malvado robó la lámpara engañando a la princesa. Aladino, con ayuda de un anillo mágico, recuperó la lámpara y derrotó al hechicero. Vivió feliz con la princesa y usó sus deseos para ayudar a los demás.",
       "characterCount": 384,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "d58e81ad-2733-44d6-ba4e-98bd6963ebf7",
@@ -175,8 +175,8 @@
       "order": 16,
       "content": "Alí Babá descubrió una cueva llena de tesoros que se abría diciendo \"¡Ábrete, Sésamo!\". Era la guarida de cuarenta ladrones. Alí Babá tomó algo de oro. Su hermano Kasim quiso más, pero olvidó la palabra mágica y quedó atrapado. Los ladrones descubrieron a Alí Babá, pero su criada Morgiana, muy astuta, los derrotó uno por uno. Alí Babá recompensó a Morgiana y vivieron tranquilos.",
       "characterCount": 381,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "d743ec50-0d32-4c34-a9b6-71f573104ef4",
@@ -186,8 +186,8 @@
       "order": 17,
       "content": "Simbad era un marino que vivió siete viajes increíbles. Se enfrentó a aves gigantes llamadas Rocs, a cíclopes y a ballenas que parecían islas. En cada viaje perdía todo su barco pero lograba sobrevivir con ingenio y suerte, regresando a Bagdad más rico que antes. Sus historias nos enseñan que la aventura y el valor pueden superar cualquier peligro.",
       "characterCount": 350,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "d3406d56-3f09-453c-b7e2-0363a4333c5a",
@@ -197,8 +197,8 @@
       "order": 18,
       "content": "Dorothy y su perro Totó fueron llevados por un tornado al país de Oz. Para volver a casa, debían buscar al Mago. En el camino, se unieron a un Espantapájaros que quería un cerebro, un Hombre de Hojalata que quería un corazón y un León que quería valor. Juntos enfrentaron a la Bruja del Oeste. Al final, descubrieron que el Mago era un farsante, pero que ellos ya tenían lo que buscaban dentro de sí mismos.",
       "characterCount": 407,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "ab0fe65a-a9c3-4908-935a-5a866d17c1dc",
@@ -208,8 +208,8 @@
       "order": 19,
       "content": "Peter Pan es el niño que no quería crecer. Vive en el País de Nunca Jamás con los Niños Perdidos y el hada Campanilla. Una noche, llevó a Wendy y sus hermanos volando a su isla. Allí lucharon contra el Capitán Garfio y sus piratas. Garfio temía a un cocodrilo que se había comido su mano y un reloj. Al final, Wendy volvió a casa para crecer, pero Peter se quedó en su mundo de aventuras eternas.",
       "characterCount": 396,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "41a1a179-079d-40df-9c42-c76244d3373a",
@@ -219,8 +219,8 @@
       "order": 20,
       "content": "Gepetto talló una marioneta de madera llamada Pinocho. El Hada Azul le dio vida, pero le dijo que debía ser bueno para convertirse en un niño de verdad. Pinocho era desobediente y mentiroso, y cada vez que mentía le crecía la nariz. Pasó por muchas aventuras peligrosas, incluso fue tragado por una ballena. Al final, salvó a Gepetto y demostró ser valiente y generoso, convirtiéndose en un niño real.",
       "characterCount": 401,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     }
   ]
 }

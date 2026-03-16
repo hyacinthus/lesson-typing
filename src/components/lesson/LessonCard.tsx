@@ -41,7 +41,7 @@ export function LessonCard({ lesson, collectionName, stats, onSelect }: LessonCa
         <div className="flex gap-4">
           <span className="flex items-center gap-1">
             <BookOpen size={16} />
-            {lesson.chineseCharCount} 字
+            {lesson.cjkCharCount} 字
           </span>
         </div>
 

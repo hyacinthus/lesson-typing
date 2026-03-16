@@ -10,7 +10,7 @@
       "order": 1,
       "content": "天高了，云淡了，\n秋姑娘蹦蹦跳跳地来了。\n\n她把黄色给了银杏树，\n黄黄的叶子像一把小扇子，\n扇哪扇哪，扇走了夏天的炎热。\n\n她把红色给了枫树，\n红红的枫叶像一枚枚邮票，\n飘哇飘哇，邮来了秋天的凉爽。",
       "characterCount": 99,
-      "chineseCharCount": 79
+      "cjkCharCount": 79
     },
     {
       "id": "5bc58faf-5538-494f-9a92-3b7db6c952a3",
@@ -20,7 +20,7 @@
       "order": 2,
       "content": "春风吹，春风吹，\n吹绿了柳树，\n吹红了桃花，\n吹来了燕子，\n吹醒了青蛙。\n\n春风吹，春风吹，\n吹得小雨轻轻地下，\n大家快来种葵花。",
       "characterCount": 65,
-      "chineseCharCount": 47
+      "cjkCharCount": 47
     },
     {
       "id": "eb19ac5a-6625-4b70-bce8-bc375858e63e",
@@ -30,7 +30,7 @@
       "order": 3,
       "content": "弯弯的月儿小小的船，\n小小的船儿两头尖。\n我在小小的船里坐，\n只看见闪闪的星星蓝蓝的天。",
       "characterCount": 44,
-      "chineseCharCount": 37
+      "cjkCharCount": 37
     },
     {
       "id": "2ad48cab-1d2e-4a97-920d-e3139c8c0a92",
@@ -40,7 +40,7 @@
       "order": 4,
       "content": "影子在前，影子在后，\n影子常常跟着我，\n就像一条小黑狗。\n\n影子在左，影子在右，\n影子常常陪着我，\n它是我的好朋友。",
       "characterCount": 58,
-      "chineseCharCount": 44
+      "cjkCharCount": 44
     },
     {
       "id": "f73dd7ad-6287-4f51-91ce-4c9496413c8b",
@@ -50,7 +50,7 @@
       "order": 5,
       "content": "谁的尾巴长？\n谁的尾巴短？\n谁的尾巴好像一把伞？\n\n猴子的尾巴长。\n兔子的尾巴短。\n松鼠的尾巴好像一把伞。\n\n谁的尾巴弯？\n谁的尾巴扁？\n谁的尾巴最好看？\n\n公鸡的尾巴弯。\n鸭子的尾巴扁。\n孔雀的尾巴最好看。",
       "characterCount": 104,
-      "chineseCharCount": 78
+      "cjkCharCount": 78
     },
     {
       "id": "7aba3930-4d63-46cf-a942-893ee9ff43bf",
@@ -60,7 +60,7 @@
       "order": 6,
       "content": "天上月亮圆又圆，\n照在海里像玉盘。\n一群鱼儿游过来，\n玉盘碎成两三片。\n\n鱼儿吓得快逃开，\n一直逃到岩石边。\n回过头来看一看，\n月亮还是圆又圆。",
       "characterCount": 72,
-      "chineseCharCount": 56
+      "cjkCharCount": 56
     },
     {
       "id": "0d564b93-0403-4513-9cb0-b36bc817f584",
@@ -70,7 +70,7 @@
       "order": 7,
       "content": "江南可采莲，莲叶何田田。\n鱼戏莲叶间。\n鱼戏莲叶东，鱼戏莲叶西，\n鱼戏莲叶南，鱼戏莲叶北。",
       "characterCount": 45,
-      "chineseCharCount": 35
+      "cjkCharCount": 35
     },
     {
       "id": "6fb23ab8-bca6-4e2b-a3c2-6d450897cd22",
@@ -80,7 +80,7 @@
       "order": 8,
       "content": "草芽尖尖，他对小鸟说：“我是春天。”\n荷叶圆圆，他对青蛙说：“我是夏天。”\n谷穗弯弯，他鞠着躬说：“我是秋天。”\n雪人大肚子一挺，他顽皮地说：“我就是冬天。”",
       "characterCount": 79,
-      "chineseCharCount": 56
+      "cjkCharCount": 56
     },
     {
       "id": "1eef0ef3-30d2-49d0-9b26-7d7a47efcb00",
@@ -90,7 +90,7 @@
       "order": 9,
       "content": "下雪啦，下雪啦！\n雪地里来了一群小画家。\n小鸡画竹叶，小狗画梅花，\n小鸭画枫叶，小马画月牙。\n不用颜料不用笔，\n几步就成一幅画。\n青蛙为什么没参加？\n他在洞里睡着啦。",
       "characterCount": 83,
-      "chineseCharCount": 65
+      "cjkCharCount": 65
     },
     {
       "id": "d7d96c44-2fcd-414b-8e96-bb95e3a2414b",
@@ -100,7 +100,7 @@
       "order": 10,
       "content": "一只乌鸦口渴了，到处找水喝。乌鸦看见一个瓶子，瓶子里有水。但是，瓶子里水不多，瓶口又小，乌鸦喝不着水。怎么办呢？\n乌鸦看见旁边有许多小石子，想出办法来了。\n乌鸦把小石子一个一个地放进瓶子里。瓶子里的水渐渐升高，乌鸦就喝着水了。",
       "characterCount": 113,
-      "chineseCharCount": 97
+      "cjkCharCount": 97
     },
     {
       "id": "14c19db3-5b1b-4504-ba2b-26d37666c4e9",
@@ -110,7 +110,7 @@
       "order": 11,
       "content": "床前明月光，疑是地上霜。\n举头望明月，低头思故乡。",
       "characterCount": 25,
-      "chineseCharCount": 20
+      "cjkCharCount": 20
     },
     {
       "id": "a0c88a83-adce-4225-beea-4ebcb8e780f6",
@@ -120,7 +120,7 @@
       "order": 12,
       "content": "春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花落知多少。",
       "characterCount": 25,
-      "chineseCharCount": 20
+      "cjkCharCount": 20
     },
     {
       "id": "9e5e87a3-081a-44a3-a25f-865c415a7428",
@@ -130,7 +130,7 @@
       "order": 13,
       "content": "雨停了，天上有一座美丽的桥。\n爸爸，你那把浇花用的水壶呢？如果我提着它，走到桥上，把水洒下来，那不就是我在下雨吗？你就不用挑水去浇田了，你高兴吗？\n妈妈，你梳头用的那面镜子呢？如果我拿着它，走到桥上，天上不就多了一个月亮吗？我拿着圆圆的月亮照着你梳头，你高兴吗？\n哥哥，你系在门前树上的秋千呢？如果我把它挂在彩虹桥上，坐着秋千荡来荡去，花裙子飘啊飘的，不就成了一朵彩云吗？你看见了，高兴吗？",
       "characterCount": 195,
-      "chineseCharCount": 167
+      "cjkCharCount": 167
     },
     {
       "id": "2db023b1-11a9-4bd2-a94b-5d0a7f5a879d",
@@ -140,7 +140,7 @@
       "order": 14,
       "content": "一到端午节，外婆总会煮好一锅粽子，盼着我们回去。\n粽子是用青青的箬竹叶包的，里面裹着白白的糯米，中间有一颗红红的枣。外婆一掀开锅盖，煮熟的粽子就飘出一股清香来。剥开粽叶，咬一口粽子，真是又黏又甜。\n外婆包的粽子十分好吃，花样也多。除了红枣粽，还有红豆粽和鲜肉粽。我们在外婆家美美地吃了之后，外婆还会装一篮子粽子要我们带回去，分给邻居吃。\n长大了我才知道，人们端午节吃粽子，据说是为了纪念爱国诗人屈原。",
       "characterCount": 200,
-      "chineseCharCount": 176
+      "cjkCharCount": 176
     },
     {
       "id": "0c0946d0-b025-47a1-8f4c-d93fceda60c1",
@@ -150,7 +150,7 @@
       "order": 15,
       "content": "蜻蜓半空展翅飞，蝴蝶花间捉迷藏。\n蚯蚓土里造宫殿，蚂蚁地上运食粮。\n蝌蚪池中游得欢，蜘蛛房前结网忙。",
       "characterCount": 50,
-      "chineseCharCount": 42
+      "cjkCharCount": 42
     },
     {
       "id": "13efc703-53f3-4cf0-a19d-fd6a0d6ce37b",
@@ -160,7 +160,7 @@
       "order": 16,
       "content": "铃声响，下课了，\n操场上，真热闹。\n跳绳踢毽丢沙包，\n天天锻炼身体好。",
       "characterCount": 35,
-      "chineseCharCount": 26
+      "cjkCharCount": 26
     },
     {
       "id": "5adba423-7b41-415b-8605-2aea764f8314",
@@ -170,7 +170,7 @@
       "order": 17,
       "content": "蜗牛一家住在小树林的旁边。\n春天来了，蜗牛妈妈对小蜗牛说：“孩子，到小树林里去玩吧，小树发芽了。”\n小蜗牛爬呀，爬呀，好久才爬回来。它说：“妈妈，小树长满了叶子，碧绿碧绿的，地上还长着许多草莓呢。”\n蜗牛妈妈说：“哦，已经是夏天了！快去摘几颗草莓回来。”\n小蜗牛爬呀，爬呀，好久才爬回来。它说：“妈妈，草莓没有了，地上长着蘑菇，树叶全变黄了。”\n蜗牛妈妈说：“哦，已经是秋天了！快去采几只蘑菇回来。”\n小蜗牛爬呀，爬呀，好久才爬回来。它说：“妈妈，蘑菇没有了，地上盖着雪，树叶全掉了。”\n蜗牛妈妈说：“哦，已经是冬天了！你可以待在家里过冬了。”",
       "characterCount": 272,
-      "chineseCharCount": 209
+      "cjkCharCount": 209
     },
     {
       "id": "6da449ae-af0e-4ca4-a839-daee2140897c",
@@ -180,7 +180,7 @@
       "order": 18,
       "content": "鹅，鹅，鹅，\n曲项向天歌。\n白毛浮绿水，\n红掌拨清波。",
       "characterCount": 27,
-      "chineseCharCount": 18
+      "cjkCharCount": 18
     },
     {
       "id": "3b908fbe-c044-4a78-b275-b806c1d9b06b",
@@ -190,7 +190,7 @@
       "order": 19,
       "content": "远看山有色，\n近听水无声。\n春去花还在，\n人来鸟不惊。",
       "characterCount": 27,
-      "chineseCharCount": 20
+      "cjkCharCount": 20
     },
     {
       "id": "a48dc4e3-afd2-4779-9f44-f4ec09cc51fb",
@@ -200,7 +200,7 @@
       "order": 20,
       "content": "一二三四五，\n金木水火土。\n天地分上下，\n日月照今古。",
       "characterCount": 27,
-      "chineseCharCount": 20
+      "cjkCharCount": 20
     },
     {
       "id": "a47b4114-74e9-4475-b229-23100a45788d",
@@ -210,7 +210,7 @@
       "order": 21,
       "content": "云对雨，雪对风。\n花对树，鸟对虫。\n山清对水秀，\n柳绿对桃红。",
       "characterCount": 31,
-      "chineseCharCount": 22
+      "cjkCharCount": 22
     },
     {
       "id": "0597e583-6103-4d58-bb5b-237df7cc97af",
@@ -220,7 +220,7 @@
       "order": 22,
       "content": "大海，蓝蓝的，又宽又远。沙滩，黄黄的，又长又软。雪白雪白的浪花，哗哗地笑着，涌向沙滩，悄悄撒下小小的海螺和贝壳。\n娃娃嘻嘻地笑着，迎上去，捡起小小的海螺和贝壳，穿成彩色的项链，挂在胸前。\n快活的脚印落在沙滩上，穿成金色的项链，挂在大海的胸前。",
       "characterCount": 121,
-      "chineseCharCount": 101
+      "cjkCharCount": 101
     },
     {
       "id": "191002a6-f7ea-4542-b83b-f792ecaa8558",
@@ -230,7 +230,7 @@
       "order": 23,
       "content": "五星红旗，我们的国旗。\n国歌声中，高高升起。\n我们立正，向您敬礼。",
       "characterCount": 33,
-      "chineseCharCount": 25
+      "cjkCharCount": 25
     }
   ]
 }

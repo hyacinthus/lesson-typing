@@ -7,7 +7,7 @@ export interface LessonMetadata {
   category?: string;
   difficulty: number;
   characterCount: number;
-  chineseCharCount: number;
+  cjkCharCount: number;
   order: number;
 }
 
@@ -24,7 +24,7 @@ export interface Lesson {
   order: number;
   content: string;
   characterCount: number;
-  chineseCharCount: number;
+  cjkCharCount: number;
 }
 
 export interface Collection {

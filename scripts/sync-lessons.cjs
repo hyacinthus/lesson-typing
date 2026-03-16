@@ -60,7 +60,7 @@ async function syncLessons() {
           sort_order: lesson.order,
           content: lesson.content,
           character_count: lesson.characterCount,
-          chinese_char_count: lesson.chineseCharCount || 0,
+          cjk_char_count: lesson.cjkCharCount || 0,
         });
       }
     }

@@ -10,8 +10,8 @@
       "order": 1,
       "content": "Un día, un gato vio un pájaro. El pájaro estaba en un árbol. El gato quería atrapar al pájaro. El pájaro voló muy alto. El gato no pudo atraparlo.",
       "characterCount": 146,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "f7623fb9-6fa2-4eed-9f7d-2db088fbaac3",
@@ -21,8 +21,8 @@
       "order": 2,
       "content": "Me llamo Ana. Tengo una familia grande. Mi mamá es doctora. Mi papá es profesor. Tengo un hermano pequeño. Él se llama Luis. Nosotros jugamos juntos. Amo a mi familia.",
       "characterCount": 167,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "166a8a6c-e445-446d-bfc9-ba01a41b9d37",
@@ -32,8 +32,8 @@
       "order": 3,
       "content": "Me gustan los colores. El cielo es azul. El sol es amarillo. La hierba es verde. Mi manzana es roja. ¿Cuál es tu color favorito?",
       "characterCount": 128,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "46a4ec04-3f22-4496-9be6-fd30974874d1",
@@ -43,8 +43,8 @@
       "order": 4,
       "content": "En una hermosa mañana de verano, los huevos que habían empollado la mamá Pata empezaban a romperse. Los patitos fueron saliendo poquito a poco. Estaban tan contentos que casi no se dieron cuenta de que un huevo, el más grande de todos, aún permanecía intacto. Pronto se pudo ver el pico, luego el cuerpo, y las patas del sonriente pato. Era el más grande, y para sorpresa de todos, muy distinto de los demás. Y como era diferente todos empezaron a llamarle el Patito Feo. La mamá Pata, avergonzada por haber tenido un patito tan feo, le apartó con el ala. El patito feo empezó a darse cuenta de que allí no le querían. Triste y solo, el patito se fue de la granja. Pasó el invierno con frío y hambre. Pero llegó la primavera. Un día, al pasar por un estanque, vio las aves más hermosas que jamás había visto. ¡Eran cisnes! El patito se miró en el agua y lo que vio le dejó sin habla. ¡Había crecido y se había transformado en un precioso cisne! Y en este momento, él supo que jamás había sido feo. Él no era un pato sino un cisne. Y así, el nuevo cisne se unió a los demás y vivió feliz para siempre.",
       "characterCount": 1100,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "8dfdf8ee-a98d-45fc-92b0-5eddf29344d0",
@@ -54,8 +54,8 @@
       "order": 5,
       "content": "Susi es mamá de Memo. Ema ama a Memo y a Mimi. Mamá mima a Mimi. Ema y Mimi son hermanas de Memo. Su papá se llama Juan y ama a Susi. Juan y Susi aman a sus hijos.",
       "characterCount": 163,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "3468a080-c6e8-4bf7-9c7b-b0a971171ea1",
@@ -65,8 +65,8 @@
       "order": 6,
       "content": "Susu tiene un oso grande llamado Marcelo. Es de color café con grandes ojos y orejas. Marcelo es bueno y tierno, le encanta su moño color rojo. Susu lo saca a pasear todos los días por las mañanas.",
       "characterCount": 197,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "1879ce56-c46a-47ea-a2a1-73c9b06e4f4b",
@@ -76,8 +76,8 @@
       "order": 7,
       "content": "Mi tío es Tomás y mi tía es Mimi. Mi tío toma té con su amigo Matute. Mimi usa el tomate para la comida. Mateo tiene una moto pequeña y Tita una mesita. Mateo y Tita aman a sus papás.",
       "characterCount": 183,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "9e110c75-3e37-4771-944d-168a3b57134d",
@@ -87,8 +87,8 @@
       "order": 8,
       "content": "Alma es alta y le gusta cocinar. Luis y Lola limpian la sala. Tito corta las limas y mete la maleta. Elisa ayuda a Alma a hacer la sopa. La mamá de Alma espera la comida. Lupe limpia las limas para hacer agua y Susi pela los elotes. Lalo usa muletas y espera que la sopa esté lista.",
       "characterCount": 282,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "17b19aad-d679-49f6-a2fc-24c5d6760d18",
@@ -98,8 +98,8 @@
       "order": 9,
       "content": "Rita se ríe porque salió a Rusia. Lleva en su mochila un tarro, un remo, una rama, un radio y una torta. Sara y Teresa la acompañan. Renato y Ramiro las esperan. En su camino se enfrentan a un torero, saltan una torre, brincan los rieles, juegan la ruleta, usan el remo y siempre escuchan la radio.",
       "characterCount": 298,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "bdcff2b7-0420-49be-bb70-74d3a21d24ec",
@@ -109,8 +109,8 @@
       "order": 10,
       "content": "Lupita y Pepe preparan una fiesta para su amiga Telma. Es una niña con muchos amigos. Pepe alista su ropa, Susi hará el pastel, Tomas y Rosita hacen la sopa. Mimi envuelve el regalo. Dentro de la caja tiene una paloma y un pato. Ramiro come de la pasta. Los niños se divierten con las pelotas en el tapete.",
       "characterCount": 306,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "aaaa5d6b-38d0-4f96-8315-8bf69e112350",
@@ -120,8 +120,8 @@
       "order": 11,
       "content": "Nina es la nana de Nino. La nana pone a Nino en su cuna. Nino está al lado de la cuna. La nana toma la cuna y Nino pone su mano en la mano de su nana Nina, la cuna de Nino tiene una luna. La Nana deja solo a Nino.",
       "characterCount": 213,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "85b51a6c-f40a-414a-9639-543079b01d7d",
@@ -131,8 +131,8 @@
       "order": 12,
       "content": "Dame la mano mamita. Dame la mano mamá. Dame la mano y dame un beso, un solo beso y nada más. Mis dedos y tus dedos se tocan al danzar. Dame la mano mamita, dame la mano mamá.",
       "characterCount": 175,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "3ba13dc0-6584-480b-af6e-7127d6f6d927",
@@ -142,8 +142,8 @@
       "order": 13,
       "content": "El Sol y la Luna son amigos. El Sol sale de día. La Luna sale de noche. El Sol nos da calor y luz. La Luna nos alumbra en la oscuridad. A veces juegan a las escondidas. Cuando el Sol se va, la Luna aparece. ¡Qué buenos amigos son!",
       "characterCount": 230,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "9cf96e64-77ca-4b53-a44d-e45e240233f6",
@@ -153,8 +153,8 @@
       "order": 14,
       "content": "Había una vez una hormiga. Ella trabajaba mucho. Llevaba comida a su casa. La cigarra cantaba y no trabajaba. Llegó el invierno. La hormiga tenía comida y casa caliente. La cigarra tenía frío y hambre. La hormiga le dio comida a la cigarra.",
       "characterCount": 240,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "c86f892b-90c7-46b2-b46e-7164db6996bd",
@@ -164,8 +164,8 @@
       "order": 15,
       "content": "Un león dormía. Un ratón lo despertó. El león quería comer al ratón. El ratón dijo: \"No me comas, soy pequeño pero puedo ayudarte\". El león se rió y lo dejó ir. Un día, el león cayó en una red. El ratón cortó la red con sus dientes. El león fue libre. \"Gracias\", dijo el león.",
       "characterCount": 276,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "9777c880-dfad-43dd-aa20-3d1063f7e73b",
@@ -175,8 +175,8 @@
       "order": 16,
       "content": "La liebre corre muy rápido. La tortuga camina despacio. Hicieron una carrera. La liebre corrió y luego se durmió. La tortuga caminó sin parar. La tortuga llegó a la meta primero. La liebre se despertó y vio que perdió. Despacio se llega lejos.",
       "characterCount": 243,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "a20ba25a-504a-4ac0-a43e-53e4558245fa",
@@ -186,8 +186,8 @@
       "order": 17,
       "content": "Un perro tenía un hueso. Pasó por un río. Vio su reflejo en el agua. Pensó que era otro perro con un hueso más grande. Quiso el otro hueso. Abrió la boca para ladrar. Su hueso cayó al agua. El perro se quedó sin nada.",
       "characterCount": 217,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "dbcd43b5-4ae8-49a7-9b84-09f8a743b126",
@@ -197,8 +197,8 @@
       "order": 18,
       "content": "El Viento y el Sol discutían. \"Soy más fuerte\", dijo el Viento. \"No, yo soy más fuerte\", dijo el Sol. Vieron a un hombre con abrigo. El Viento sopló fuerte. El hombre se abrigó más. El Sol salió y dio calor. El hombre se quitó el abrigo. El Sol ganó con suavidad.",
       "characterCount": 263,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "3d34abc5-55d9-4497-9ba7-2f8003c2ee7c",
@@ -208,8 +208,8 @@
       "order": 19,
       "content": "Un granjero tenía una gallina especial. Ponía huevos de oro. El granjero quería todo el oro de una vez. Mató a la gallina. Pero adentro no había oro. Era igual a las otras gallinas. El granjero perdió su gallina y sus huevos de oro.",
       "characterCount": 232,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     },
     {
       "id": "88fe0cd8-367a-43e1-9b29-34e82def3671",
@@ -219,8 +219,8 @@
       "order": 20,
       "content": "Un ratón vivía en el campo. Comía semillas y era feliz. Su primo vivía en la ciudad. Comía queso y pasteles. El ratón de campo visitó al de ciudad. Había mucha comida rica. Pero un gato los asustó. \"Prefiero mi paz en el campo\", dijo el ratón.",
       "characterCount": 243,
-      "chineseCharCount": 0,
-      "language": "spanish"
+      "language": "spanish",
+      "cjkCharCount": 0
     }
   ]
 }
