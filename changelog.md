@@ -1,7 +1,12 @@
-## v0.14.0 (2026-03-15)
+## v0.15.0 (2026-03-16)
 
 ### New Features
-- **Leaderboard** — Added Top 10 leaderboard showing best CPM scores per lesson
-- **Change article button** — A "Change" button appears in the top-right corner of the practice page before typing starts, allowing users to switch to a different article; disappears once the first character is typed
+- **Lyrics collection** — Added a new "Lyrics" collection for all 9 languages, each containing 50 public domain song lyrics (traditional folk songs, hymns, children's songs, etc.) as typing practice content
 
-**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.13.0...v0.14.0
+### Refactoring
+- **Rename chineseCharCount to cjkCharCount** — Renamed the `chineseCharCount` field to `cjkCharCount` across all lesson data, source code, and database schema to eliminate ambiguity; CJK character counting now correctly includes Han ideographs, Hiragana, Katakana, and Hangul
+
+### Database
+- New migration `09_rename_chinese_to_cjk.sql` to rename `chinese_char_count` column to `cjk_char_count`
+
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.14.0...v0.15.0
