@@ -1,0 +1,506 @@
+{
+  "id": "lyrics-8",
+  "title": "Lyrics",
+  "lessons": [
+    {
+      "id": "6097c0d2-78c3-4ac7-b7e9-20db59194904",
+      "title": "Row, Row, Row Your Boat (Traditional)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Row, row, row your boat,\nGently down the stream.\nMerrily, merrily, merrily, merrily,\nLife is but a dream.",
+      "characterCount": 105,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4e77eb14-af18-4edd-8a49-78193523d9d8",
+      "title": "Mary Had a Little Lamb (Sarah Josepha Hale)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Mary had a little lamb,\nIts fleece was white as snow;\nAnd everywhere that Mary went,\nThe lamb was sure to go.\n\nIt followed her to school one day,\nWhich was against the rule;\nIt made the children laugh and play\nTo see a lamb at school.",
+      "characterCount": 234,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4e752f73-d34f-4208-8947-481bdc053cd9",
+      "title": "London Bridge Is Falling Down (Traditional)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 3,
+      "content": "London Bridge is falling down,\nFalling down, falling down.\nLondon Bridge is falling down,\nMy fair lady.\n\nBuild it up with wood and clay,\nWood and clay, wood and clay.\nBuild it up with wood and clay,\nMy fair lady.\n\nWood and clay will wash away,\nWash away, wash away.\nWood and clay will wash away,\nMy fair lady.",
+      "characterCount": 309,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7669054b-53aa-48a6-bccf-5b0a89c23712",
+      "title": "Are You Sleeping (Traditional French)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Are you sleeping, are you sleeping,\nBrother John, Brother John?\nMorning bells are ringing,\nMorning bells are ringing,\nDing, dang, dong.\nDing, dang, dong.",
+      "characterCount": 153,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b91d6703-0861-47b4-ae6c-9cbd3c662018",
+      "title": "Three Blind Mice (Traditional)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Three blind mice, three blind mice,\nSee how they run, see how they run!\nThey all ran after the farmer's wife,\nWho cut off their tails with a carving knife.\nDid you ever see such a sight in your life\nAs three blind mice?",
+      "characterCount": 219,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c1092c97-c598-4391-b1ac-66d04dba6c6d",
+      "title": "Hot Cross Buns (Traditional)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Hot cross buns! Hot cross buns!\nOne a penny, two a penny,\nHot cross buns!\nIf you have no daughters,\nGive them to your sons.\nOne a penny, two a penny,\nHot cross buns!",
+      "characterCount": 165,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ebe34182-6c36-4140-80e6-38c8c4c5f0ef",
+      "title": "Old MacDonald Had a Farm (Traditional)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Old MacDonald had a farm, E-I-E-I-O!\nAnd on his farm he had a cow, E-I-E-I-O!\nWith a moo-moo here and a moo-moo there,\nHere a moo, there a moo, everywhere a moo-moo.\nOld MacDonald had a farm, E-I-E-I-O!\n\nOld MacDonald had a farm, E-I-E-I-O!\nAnd on his farm he had a pig, E-I-E-I-O!\nWith an oink-oink here and an oink-oink there,\nHere an oink, there an oink, everywhere an oink-oink.\nOld MacDonald had a farm, E-I-E-I-O!",
+      "characterCount": 419,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "555a9ca6-ed7e-497a-b85f-3e29fab9100e",
+      "title": "Pop Goes the Weasel (Traditional)",
+      "category": "Children's",
+      "difficulty": 1,
+      "order": 8,
+      "content": "All around the mulberry bush,\nThe monkey chased the weasel.\nThe monkey thought 'twas all in fun,\nPop! Goes the weasel.\n\nA penny for a spool of thread,\nA penny for a needle.\nThat's the way the money goes,\nPop! Goes the weasel.",
+      "characterCount": 225,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7da91a90-b3bf-433d-a2c2-dd66ef41a26d",
+      "title": "Oh! Susanna (Stephen Foster)",
+      "category": "Folk",
+      "difficulty": 2,
+      "order": 9,
+      "content": "I come from Alabama with my banjo on my knee,\nI'm going to Louisiana, my true love for to see.\nIt rained all night the day I left, the weather it was dry,\nThe sun so hot I froze to death, Susanna, don't you cry.\n\nOh! Susanna, oh don't you cry for me,\nFor I come from Alabama with my banjo on my knee.\n\nI had a dream the other night, when everything was still;\nI thought I saw Susanna dear, a-coming down the hill.\nA buckwheat cake was in her mouth, a tear was in her eye,\nSays I, I'm coming from the South, Susanna, don't you cry.\n\nOh! Susanna, oh don't you cry for me,\nFor I come from Alabama with my banjo on my knee.",
+      "characterCount": 619,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b8fea9bc-ab03-4adc-bf07-6c9507ccea2a",
+      "title": "Camptown Races (Stephen Foster)",
+      "category": "Folk",
+      "difficulty": 2,
+      "order": 10,
+      "content": "The Camptown ladies sing this song, doo-dah! doo-dah!\nThe Camptown racetrack's five miles long, oh, doo-dah day!\nI come down there with my hat caved in, doo-dah! doo-dah!\nI go back home with a pocket full of tin, oh, doo-dah day!\n\nGoing to run all night! Going to run all day!\nI'll bet my money on the bob-tail nag,\nSomebody bet on the bay.",
+      "characterCount": 340,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "08e562d4-2c99-4584-94e4-a3fe4a46723f",
+      "title": "My Bonnie Lies Over the Ocean (Traditional)",
+      "category": "Folk",
+      "difficulty": 2,
+      "order": 11,
+      "content": "My Bonnie lies over the ocean,\nMy Bonnie lies over the sea,\nMy Bonnie lies over the ocean,\nOh, bring back my Bonnie to me.\n\nBring back, bring back,\nOh, bring back my Bonnie to me, to me.\nBring back, bring back,\nOh, bring back my Bonnie to me.\n\nOh, blow ye winds over the ocean,\nOh, blow ye winds over the sea,\nOh, blow ye winds over the ocean,\nAnd bring back my Bonnie to me.",
+      "characterCount": 375,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1c4b091e-d245-4108-8666-a4992e58a26b",
+      "title": "She'll Be Coming 'Round the Mountain (Traditional)",
+      "category": "Folk",
+      "difficulty": 2,
+      "order": 12,
+      "content": "She'll be coming 'round the mountain when she comes,\nShe'll be coming 'round the mountain when she comes,\nShe'll be coming 'round the mountain,\nShe'll be coming 'round the mountain,\nShe'll be coming 'round the mountain when she comes.\n\nShe'll be driving six white horses when she comes,\nShe'll be driving six white horses when she comes,\nShe'll be driving six white horses,\nShe'll be driving six white horses,\nShe'll be driving six white horses when she comes.\n\nWe'll all go out to meet her when she comes,\nWe'll all go out to meet her when she comes,\nWe'll all go out to meet her,\nWe'll all go out to meet her,\nWe'll all go out to meet her when she comes.",
+      "characterCount": 656,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "99ccafd0-68ea-469b-8fee-8061ba615fa0",
+      "title": "Polly Wolly Doodle (Traditional)",
+      "category": "Folk",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Oh, I went down South for to see my Sal,\nSing Polly Wolly Doodle all the day;\nMy Sal, she is a spunky gal,\nSing Polly Wolly Doodle all the day.\n\nFare thee well, fare thee well,\nFare thee well my fairy fay,\nFor I'm going to Louisiana\nFor to see my Susyanna,\nSing Polly Wolly Doodle all the day.",
+      "characterCount": 293,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ab03bc66-cf61-4cca-96dc-7e5d3dc878be",
+      "title": "I've Been Working on the Railroad (Traditional)",
+      "category": "Folk",
+      "difficulty": 2,
+      "order": 14,
+      "content": "I've been working on the railroad\nAll the livelong day.\nI've been working on the railroad\nJust to pass the time away.\nCan't you hear the whistle blowing,\nRise up so early in the morn;\nCan't you hear the captain shouting,\nDinah, blow your horn!\n\nDinah, won't you blow,\nDinah, won't you blow,\nDinah, won't you blow your horn?\nDinah, won't you blow,\nDinah, won't you blow,\nDinah, won't you blow your horn?",
+      "characterCount": 402,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ffa06460-c5ec-4504-bed7-f3d3616f340e",
+      "title": "Clementine (Percy Montrose)",
+      "category": "Folk",
+      "difficulty": 2,
+      "order": 15,
+      "content": "In a cavern, in a canyon,\nExcavating for a mine,\nDwelt a miner, forty-niner,\nAnd his daughter, Clementine.\n\nOh my darling, oh my darling,\nOh my darling, Clementine!\nYou are lost and gone forever,\nDreadful sorry, Clementine.\n\nLight she was and like a fairy,\nAnd her shoes were number nine,\nHerring boxes without topses,\nSandals were for Clementine.\n\nOh my darling, oh my darling,\nOh my darling, Clementine!\nYou are lost and gone forever,\nDreadful sorry, Clementine.",
+      "characterCount": 464,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "208472de-6db3-4eb7-9c4a-0f7a8bf1a832",
+      "title": "Yankee Doodle (Traditional)",
+      "category": "Patriotic",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Yankee Doodle went to town,\nA-riding on a pony,\nStuck a feather in his cap\nAnd called it macaroni.\n\nYankee Doodle keep it up,\nYankee Doodle dandy,\nMind the music and the step,\nAnd with the girls be handy.\n\nFather and I went down to camp,\nAlong with Captain Gooding,\nAnd there we saw the men and boys\nAs thick as hasty pudding.\n\nYankee Doodle keep it up,\nYankee Doodle dandy,\nMind the music and the step,\nAnd with the girls be handy.",
+      "characterCount": 432,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e7b7ba78-41b0-4695-8c0d-43dcfdd6eb4a",
+      "title": "What Shall We Do with a Drunken Sailor (Traditional)",
+      "category": "Sea Shanty",
+      "difficulty": 3,
+      "order": 17,
+      "content": "What shall we do with a drunken sailor,\nWhat shall we do with a drunken sailor,\nWhat shall we do with a drunken sailor,\nEarly in the morning?\n\nWay hay and up she rises,\nWay hay and up she rises,\nWay hay and up she rises,\nEarly in the morning!\n\nShave his belly with a rusty razor,\nShave his belly with a rusty razor,\nShave his belly with a rusty razor,\nEarly in the morning!\n\nWay hay and up she rises,\nWay hay and up she rises,\nWay hay and up she rises,\nEarly in the morning!\n\nPut him in the longboat till he's sober,\nPut him in the longboat till he's sober,\nPut him in the longboat till he's sober,\nEarly in the morning!",
+      "characterCount": 620,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "11232869-6d7b-4064-8df0-8e03014d980c",
+      "title": "Blow the Man Down (Traditional)",
+      "category": "Sea Shanty",
+      "difficulty": 3,
+      "order": 18,
+      "content": "Come all you young fellows that follow the sea,\nTo my way hay, blow the man down,\nAnd pray pay attention and listen to me,\nGive me some time to blow the man down.\n\nI'm a deep water sailor just come from Hong Kong,\nTo my way hay, blow the man down,\nIf you'll give me some grog, I'll sing you a song,\nGive me some time to blow the man down.\n\nOn a trim Black Ball liner I first served my time,\nTo my way hay, blow the man down,\nAnd on that Black Baller I wasted my prime,\nGive me some time to blow the man down.",
+      "characterCount": 508,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ce3304e9-7f30-4101-b637-bb2045b1fae7",
+      "title": "Swing Low, Sweet Chariot (Traditional Spiritual)",
+      "category": "Spiritual",
+      "difficulty": 3,
+      "order": 19,
+      "content": "Swing low, sweet chariot,\nComing for to carry me home,\nSwing low, sweet chariot,\nComing for to carry me home.\n\nI looked over Jordan, and what did I see,\nComing for to carry me home?\nA band of angels coming after me,\nComing for to carry me home.\n\nSwing low, sweet chariot,\nComing for to carry me home,\nSwing low, sweet chariot,\nComing for to carry me home.\n\nIf you get there before I do,\nComing for to carry me home,\nTell all my friends I'm coming too,\nComing for to carry me home.",
+      "characterCount": 480,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f1fbb470-4ac4-4383-8e0f-79d4f825bf2b",
+      "title": "Go Down Moses (Traditional Spiritual)",
+      "category": "Spiritual",
+      "difficulty": 3,
+      "order": 20,
+      "content": "When Israel was in Egypt's land,\nLet my people go!\nOppressed so hard they could not stand,\nLet my people go!\n\nGo down, Moses, way down in Egypt's land;\nTell old Pharaoh to let my people go!\n\nThus saith the Lord, bold Moses said,\nLet my people go!\nIf not, I'll smite your firstborn dead,\nLet my people go!\n\nGo down, Moses, way down in Egypt's land;\nTell old Pharaoh to let my people go!",
+      "characterCount": 385,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1fd719df-3433-4556-8d3d-5c9683d176f3",
+      "title": "Amazing Grace (John Newton)",
+      "category": "Hymn",
+      "difficulty": 3,
+      "order": 21,
+      "content": "Amazing grace! How sweet the sound\nThat saved a wretch like me!\nI once was lost, but now am found;\nWas blind, but now I see.\n\n'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed.\n\nThrough many dangers, toils, and snares,\nI have already come;\n'Tis grace hath brought me safe thus far,\nAnd grace will lead me home.\n\nThe Lord has promised good to me,\nHis Word my hope secures;\nHe will my shield and portion be,\nAs long as life endures.",
+      "characterCount": 512,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "af40019f-32cb-4db0-985e-85b7413fa3c8",
+      "title": "Nobody Knows the Trouble I've Seen (Traditional Spiritual)",
+      "category": "Spiritual",
+      "difficulty": 3,
+      "order": 22,
+      "content": "Nobody knows the trouble I've seen,\nNobody knows my sorrow.\nNobody knows the trouble I've seen,\nGlory hallelujah!\n\nSometimes I'm up, sometimes I'm down,\nOh, yes, Lord!\nSometimes I'm almost to the ground,\nOh, yes, Lord!\n\nNobody knows the trouble I've seen,\nNobody knows my sorrow.\nNobody knows the trouble I've seen,\nGlory hallelujah!\n\nAlthough you see me going 'long so,\nOh, yes, Lord!\nI have my trials here below,\nOh, yes, Lord!",
+      "characterCount": 429,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "613ce3af-930f-4936-b9d4-8c3c649f4f2c",
+      "title": "When Johnny Comes Marching Home (Patrick Gilmore)",
+      "category": "Patriotic",
+      "difficulty": 3,
+      "order": 23,
+      "content": "When Johnny comes marching home again,\nHurrah! Hurrah!\nWe'll give him a hearty welcome then,\nHurrah! Hurrah!\nThe men will cheer and the boys will shout,\nThe ladies they will all turn out,\nAnd we'll all feel gay when Johnny comes marching home.\n\nThe old church bell will peal with joy,\nHurrah! Hurrah!\nTo welcome home our darling boy,\nHurrah! Hurrah!\nThe village lads and lassies say\nWith roses they will strew the way,\nAnd we'll all feel gay when Johnny comes marching home.",
+      "characterCount": 474,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e66676e8-a57f-4d91-8e76-e2228dbd0f3f",
+      "title": "My Old Kentucky Home (Stephen Foster)",
+      "category": "Folk",
+      "difficulty": 3,
+      "order": 24,
+      "content": "The sun shines bright in the old Kentucky home;\n'Tis summer, the people are gay;\nThe corn-top's ripe and the meadow's in the bloom,\nWhile the birds make music all the day.\n\nThe young folks roll on the little cabin floor,\nAll merry, all happy and bright;\nBy'n by hard times comes a-knocking at the door,\nThen my old Kentucky home, good night!\n\nWeep no more, my lady,\nOh! weep no more today!\nWe will sing one song for the old Kentucky home,\nFor the old Kentucky home, far away.",
+      "characterCount": 475,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "50e57f64-161e-422f-9e73-04927a6748e6",
+      "title": "Auld Lang Syne (Robert Burns)",
+      "category": "Folk",
+      "difficulty": 4,
+      "order": 25,
+      "content": "Should auld acquaintance be forgot,\nAnd never brought to mind?\nShould auld acquaintance be forgot,\nAnd auld lang syne?\n\nFor auld lang syne, my dear,\nFor auld lang syne,\nWe'll tak' a cup o' kindness yet,\nFor auld lang syne.\n\nAnd surely ye'll be your pint-stoup!\nAnd surely I'll be mine!\nAnd we'll tak' a cup o' kindness yet,\nFor auld lang syne.\n\nWe twa hae run about the braes,\nAnd pou'd the gowans fine;\nBut we've wandered mony a weary fit,\nSin' auld lang syne.\n\nFor auld lang syne, my dear,\nFor auld lang syne,\nWe'll tak' a cup o' kindness yet,\nFor auld lang syne.",
+      "characterCount": 565,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5999facf-8bf8-400b-86ed-b659cd616551",
+      "title": "Home on the Range (Brewster Higley)",
+      "category": "Folk",
+      "difficulty": 4,
+      "order": 26,
+      "content": "Oh, give me a home where the buffalo roam,\nWhere the deer and the antelope play,\nWhere seldom is heard a discouraging word,\nAnd the skies are not cloudy all day.\n\nHome, home on the range,\nWhere the deer and the antelope play,\nWhere seldom is heard a discouraging word,\nAnd the skies are not cloudy all day.\n\nWhere the air is so pure, the zephyrs so free,\nThe breezes so balmy and light,\nThat I would not exchange my home on the range\nFor all of the cities so bright.\n\nHome, home on the range,\nWhere the deer and the antelope play,\nWhere seldom is heard a discouraging word,\nAnd the skies are not cloudy all day.",
+      "characterCount": 611,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fcb7af59-0b4c-4cc9-81cd-5be4238cc58e",
+      "title": "Danny Boy (Frederic Weatherly)",
+      "category": "Folk",
+      "difficulty": 4,
+      "order": 27,
+      "content": "Oh, Danny boy, the pipes, the pipes are calling,\nFrom glen to glen, and down the mountain side.\nThe summer's gone, and all the flowers are dying;\n'Tis you, 'tis you must go and I must bide.\nBut come ye back when summer's in the meadow,\nOr when the valley's hushed and white with snow;\n'Tis I'll be here in sunshine or in shadow;\nOh, Danny boy, oh, Danny boy, I love you so.\n\nAnd if you come, when all the flowers are dying,\nAnd I am dead, as dead I well may be,\nYou'll come and find the place where I am lying,\nAnd kneel and say an Ave there for me.\nAnd I shall hear, tho' soft you tread above me,\nAnd all my dreams will warm and sweeter be;\nIf you'll not fail to tell me that you love me,\nI'll simply sleep in peace until you come to me.",
+      "characterCount": 738,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1436dcab-939b-4fec-9bb3-89a2ae4112a5",
+      "title": "Scarborough Fair (Traditional)",
+      "category": "Folk",
+      "difficulty": 4,
+      "order": 28,
+      "content": "Are you going to Scarborough Fair?\nParsley, sage, rosemary, and thyme.\nRemember me to one who lives there,\nShe once was a true love of mine.\n\nTell her to make me a cambric shirt,\nParsley, sage, rosemary, and thyme;\nWithout no seams nor needlework,\nThen she'll be a true love of mine.\n\nTell her to find me an acre of land,\nParsley, sage, rosemary, and thyme;\nBetween the salt water and the sea sand,\nThen she'll be a true love of mine.\n\nTell her to reap it in a sickle of leather,\nParsley, sage, rosemary, and thyme;\nAnd gather it all in a bunch of heather,\nThen she'll be a true love of mine.",
+      "characterCount": 592,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "cdae1731-dbc6-44e3-ace4-0cc252181077",
+      "title": "Shenandoah (Traditional)",
+      "category": "Folk",
+      "difficulty": 4,
+      "order": 29,
+      "content": "Oh, Shenandoah, I long to see you,\nAway you rolling river.\nOh, Shenandoah, I long to see you,\nAway, I'm bound away,\n'Cross the wide Missouri.\n\nOh, Shenandoah, I love your daughter,\nAway you rolling river.\nFor her I've crossed the stormy water,\nAway, I'm bound away,\n'Cross the wide Missouri.\n\n'Tis seven long years since last I've seen you,\nAway you rolling river.\n'Tis seven long years since last I've seen you,\nAway, I'm bound away,\n'Cross the wide Missouri.\n\nOh, Shenandoah, I'm bound to leave you,\nAway you rolling river.\nOh, Shenandoah, I'll not deceive you,\nAway, I'm bound away,\n'Cross the wide Missouri.",
+      "characterCount": 611,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "de872959-2470-487a-985d-f1a9b270c967",
+      "title": "Greensleeves (Traditional)",
+      "category": "Folk",
+      "difficulty": 4,
+      "order": 30,
+      "content": "Alas, my love, you do me wrong,\nTo cast me off discourteously.\nFor I have loved you well and long,\nDelighting in your company.\n\nGreensleeves was all my joy,\nGreensleeves was my delight,\nGreensleeves was my heart of gold,\nAnd who but my lady Greensleeves.\n\nYour vows you've broken, like my heart,\nOh, why did you so enrapture me?\nNow I remain in a world apart\nBut my heart remains in captivity.\n\nGreensleeves was all my joy,\nGreensleeves was my delight,\nGreensleeves was my heart of gold,\nAnd who but my lady Greensleeves.",
+      "characterCount": 521,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5480b826-3b7b-4c2a-ad9e-4ae21a491d2f",
+      "title": "Beautiful Dreamer (Stephen Foster)",
+      "category": "Folk",
+      "difficulty": 4,
+      "order": 31,
+      "content": "Beautiful dreamer, wake unto me,\nStarlight and dewdrops are waiting for thee;\nSounds of the rude world, heard in the day,\nLulled by the moonlight have all passed away!\nBeautiful dreamer, queen of my song,\nList while I woo thee with soft melody;\nGone are the cares of life's busy throng,\nBeautiful dreamer, awake unto me!\nBeautiful dreamer, awake unto me!\n\nBeautiful dreamer, out on the sea,\nMermaids are chanting the wild lorelie;\nOver the streamlet, vapors are borne,\nWaiting to fade at the bright coming morn.\nBeautiful dreamer, beam on my heart,\nE'en as the morn on the streamlet and sea;\nThen will all clouds of sorrow depart,\nBeautiful dreamer, awake unto me!\nBeautiful dreamer, awake unto me!",
+      "characterCount": 698,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6501e3fe-0916-4158-984e-8fc4ae46de88",
+      "title": "John Brown's Body (Traditional Civil War)",
+      "category": "Patriotic",
+      "difficulty": 4,
+      "order": 32,
+      "content": "John Brown's body lies a-mouldering in the grave,\nJohn Brown's body lies a-mouldering in the grave,\nJohn Brown's body lies a-mouldering in the grave,\nBut his soul goes marching on.\n\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nHis soul goes marching on.\n\nHe's gone to be a soldier in the army of the Lord,\nHe's gone to be a soldier in the army of the Lord,\nHe's gone to be a soldier in the army of the Lord,\nHis soul goes marching on.\n\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nHis soul goes marching on.",
+      "characterCount": 573,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b08713a4-9551-4383-a206-bad7baca9ead",
+      "title": "The Water Is Wide (Traditional)",
+      "category": "Folk",
+      "difficulty": 5,
+      "order": 33,
+      "content": "The water is wide, I cannot get o'er,\nAnd neither have I wings to fly.\nGive me a boat that can carry two,\nAnd both shall row, my love and I.\n\nO, love is handsome and love is fine,\nAnd love's a jewel when it is new.\nBut when it is old, it groweth cold,\nAnd fades away like morning dew.\n\nThere is a ship, and she sails the sea.\nShe's loaded deep as deep can be,\nBut not so deep as the love I'm in;\nI know not if I sink or swim.\n\nI leaned my back up against some oak,\nThinking that he was a trusty tree.\nBut first he bended and then he broke;\nAnd so did my false love to me.",
+      "characterCount": 571,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "53821fad-f6f6-4e4c-b716-32f902c51103",
+      "title": "Barbara Allen (Traditional)",
+      "category": "Folk",
+      "difficulty": 5,
+      "order": 34,
+      "content": "In Scarlet town, where I was born,\nThere was a fair maid dwellin',\nMade every youth cry well-a-way!\nHer name was Barbara Allen.\n\nAll in the merry month of May,\nWhen green buds they were swellin',\nYoung Jemmy Grove on his deathbed lay,\nFor love of Barbara Allen.\n\nHe sent his man down through the town\nTo the place where she was dwellin':\nO haste and come to my master dear,\nGin ye be Barbara Allen.\n\nO hooly, hooly rose she up,\nTo the place where he was lyin',\nAnd when she drew the curtain by:\nYoung man, I think you're dyin'.\n\nO it's I'm sick, and very, very sick,\nAnd 'tis a' for Barbara Allen.\nO the better for me ye's never be,\nTho your heart's blood were a-spillin'.",
+      "characterCount": 672,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2108082e-7fd0-4ddb-8a7f-920ddb95f278",
+      "title": "Old Folks at Home (Stephen Foster)",
+      "category": "Folk",
+      "difficulty": 5,
+      "order": 35,
+      "content": "Way down upon the Swanee River,\nFar, far away,\nThere's where my heart is turning ever,\nThere's where the old folks stay.\nAll up and down the whole creation\nSadly I roam,\nStill longing for the old plantation,\nAnd for the old folks at home.\n\nAll the world is sad and dreary,\nEverywhere I roam;\nOh, brothers, how my heart grows weary,\nFar from the old folks at home!\n\nAll round the little farm I wandered\nWhen I was young,\nThen many happy days I squandered,\nMany the songs I sung.\nWhen I was playing with my brother,\nHappy was I;\nOh, take me to my kind old mother!\nThere let me live and die.",
+      "characterCount": 588,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "27691fc0-173a-4275-ada8-cc09cee3a1ff",
+      "title": "Abide with Me (Henry Francis Lyte)",
+      "category": "Hymn",
+      "difficulty": 5,
+      "order": 36,
+      "content": "Abide with me; fast falls the eventide;\nThe darkness deepens; Lord, with me abide!\nWhen other helpers fail and comforts flee,\nHelp of the helpless, oh, abide with me.\n\nSwift to its close ebbs out life's little day;\nEarth's joys grow dim; its glories pass away;\nChange and decay in all around I see;\nO Thou who changest not, abide with me.\n\nI need Thy presence every passing hour;\nWhat but Thy grace can foil the tempter's power?\nWho, like Thyself, my guide and stay can be?\nThrough cloud and sunshine, Lord, abide with me.\n\nI fear no foe, with Thee at hand to bless;\nIlls have no weight, and tears no bitterness;\nWhere is death's sting? Where, grave, thy victory?\nI triumph still, if Thou abide with me.",
+      "characterCount": 703,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a9e0429b-885b-4238-8bbc-ca8474259cc5",
+      "title": "Rock of Ages (Augustus Toplady)",
+      "category": "Hymn",
+      "difficulty": 5,
+      "order": 37,
+      "content": "Rock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy wounded side which flowed,\nBe of sin the double cure;\nSave from wrath and make me pure.\n\nNot the labors of my hands\nCan fulfill Thy law's demands;\nCould my zeal no respite know,\nCould my tears forever flow,\nAll for sin could not atone;\nThou must save, and Thou alone.\n\nNothing in my hand I bring,\nSimply to the cross I cling;\nNaked, come to Thee for dress;\nHelpless, look to Thee for grace;\nFoul, I to the fountain fly;\nWash me, Savior, or I die.\n\nWhile I draw this fleeting breath,\nWhen mine eyes shall close in death,\nWhen I soar to worlds unknown,\nSee Thee on Thy judgment throne,\nRock of Ages, cleft for me,\nLet me hide myself in Thee.",
+      "characterCount": 733,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6920181a-f197-42da-ab28-9ce833849948",
+      "title": "The Battle Hymn of the Republic (Julia Ward Howe)",
+      "category": "Patriotic",
+      "difficulty": 5,
+      "order": 38,
+      "content": "Mine eyes have seen the glory of the coming of the Lord;\nHe is trampling out the vintage where the grapes of wrath are stored;\nHe hath loosed the fateful lightning of His terrible swift sword;\nHis truth is marching on.\n\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nHis truth is marching on.\n\nI have seen Him in the watch-fires of a hundred circling camps,\nThey have builded Him an altar in the evening dews and damps;\nI can read His righteous sentence by the dim and flaring lamps;\nHis day is marching on.\n\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nGlory, glory, hallelujah!\nHis day is marching on.\n\nHe has sounded forth the trumpet that shall never call retreat;\nHe is sifting out the hearts of men before His judgment seat;\nOh, be swift, my soul, to answer Him! Be jubilant, my feet!\nOur God is marching on.",
+      "characterCount": 852,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ed211b55-732b-40ff-8774-7e56a0d659b3",
+      "title": "Down in the Valley (Traditional)",
+      "category": "Folk",
+      "difficulty": 5,
+      "order": 39,
+      "content": "Down in the valley, the valley so low,\nHang your head over, hear the wind blow.\nHear the wind blow, dear, hear the wind blow;\nHang your head over, hear the wind blow.\n\nRoses love sunshine, violets love dew,\nAngels in heaven know I love you.\nKnow I love you, dear, know I love you;\nAngels in heaven know I love you.\n\nIf you don't love me, love whom you please,\nThrow your arms round me, give my heart ease.\nGive my heart ease, dear, give my heart ease;\nThrow your arms round me, give my heart ease.\n\nBuild me a castle forty feet high,\nSo I can see him as he rides by.\nAs he rides by, dear, as he rides by;\nSo I can see him as he rides by.\n\nWrite me a letter, send it by mail;\nSend it in care of Birmingham Jail.\nBirmingham Jail, dear, Birmingham Jail;\nSend it in care of Birmingham Jail.",
+      "characterCount": 786,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1f7dd3d7-762e-45dc-b86b-0bb95629135e",
+      "title": "Dixie's Land (Daniel Decatur Emmett)",
+      "category": "Folk",
+      "difficulty": 5,
+      "order": 40,
+      "content": "I wish I was in the land of cotton,\nOld times there are not forgotten;\nLook away, look away, look away, Dixie Land!\nIn Dixie Land where I was born in,\nEarly on one frosty mornin',\nLook away, look away, look away, Dixie Land!\n\nThen I wish I was in Dixie, hooray! Hooray!\nIn Dixie Land I'll take my stand,\nTo live and die in Dixie;\nAway, away, away down South in Dixie!\nAway, away, away down South in Dixie!\n\nOld Missus marry Will the Weaver;\nWilliam was a gay deceiver;\nLook away, look away, look away, Dixie Land!\nBut when he put his arm around her,\nHe smiled as fierce as a forty pounder;\nLook away, look away, look away, Dixie Land!",
+      "characterCount": 634,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2665246e-e3ab-450b-b12c-55b09484321d",
+      "title": "Nearer, My God, to Thee (Sarah Flower Adams)",
+      "category": "Hymn",
+      "difficulty": 6,
+      "order": 41,
+      "content": "Nearer, my God, to Thee, nearer to Thee!\nE'en though it be a cross that raiseth me,\nStill all my song shall be, nearer, my God, to Thee.\nNearer, my God, to Thee, nearer to Thee!\n\nThough like the wanderer, the sun gone down,\nDarkness be over me, my rest a stone;\nYet in my dreams I'd be nearer, my God, to Thee.\nNearer, my God, to Thee, nearer to Thee!\n\nThere let the way appear, steps unto Heaven;\nAll that Thou sendest me, in mercy given;\nAngels to beckon me nearer, my God, to Thee.\nNearer, my God, to Thee, nearer to Thee!\n\nThen, with my waking thoughts bright with Thy praise,\nOut of my stony griefs Bethel I'll raise;\nSo by my woes to be nearer, my God, to Thee.\nNearer, my God, to Thee, nearer to Thee!\n\nOr, if on joyful wing cleaving the sky,\nSun, moon, and stars forgot, upward I fly,\nStill all my song shall be, nearer, my God, to Thee.\nNearer, my God, to Thee, nearer to Thee!",
+      "characterCount": 886,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "59c1e9bc-e4a9-4a8e-9fef-4f898c2a7517",
+      "title": "The Ash Grove (Traditional Welsh)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 42,
+      "content": "The ash grove, how graceful, how plainly 'tis speaking,\nThe harp through it playing has language for me.\nWhenever the light through its branches is breaking,\nA host of kind faces is gazing on me.\nThe friends of my childhood again are before me,\nEach step wakes a memory as freely I roam.\nWith soft whispers laden, its leaves rustle o'er me;\nThe ash grove, the ash grove alone is my home.\n\nMy laughter is over, my step loses lightness,\nOld countryside measures steal soft on my ear;\nI only remember the past and its brightness,\nThe dear ones I mourn for again gather here.\nFrom out of the shadows their loving looks greet me,\nAnd wistfully searching the leafy green dome,\nI find other faces fond bending to greet me;\nThe ash grove, the ash grove alone is my home.",
+      "characterCount": 762,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "bd20844a-7d8a-433d-b73e-b505491692ac",
+      "title": "Drink to Me Only with Thine Eyes (Ben Jonson)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 43,
+      "content": "Drink to me only with thine eyes,\nAnd I will pledge with mine;\nOr leave a kiss but in the cup,\nAnd I'll not look for wine.\nThe thirst that from the soul doth rise\nDoth ask a drink divine;\nBut might I of Jove's nectar sup,\nI would not change for thine.\n\nI sent thee late a rosy wreath,\nNot so much honouring thee\nAs giving it a hope, that there\nIt could not withered be.\nBut thou thereon didst only breathe,\nAnd sent'st it back to me;\nSince when it grows, and smells, I swear,\nNot of itself, but thee.",
+      "characterCount": 500,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "8d491b1a-f1ef-4fd8-afe2-baaabeda0d73",
+      "title": "A Mighty Fortress Is Our God (Martin Luther)",
+      "category": "Hymn",
+      "difficulty": 6,
+      "order": 44,
+      "content": "A mighty fortress is our God,\nA bulwark never failing;\nOur helper He, amid the flood\nOf mortal ills prevailing.\nFor still our ancient foe\nDoth seek to work us woe;\nHis craft and power are great,\nAnd armed with cruel hate,\nOn earth is not his equal.\n\nDid we in our own strength confide,\nOur striving would be losing;\nWere not the right Man on our side,\nThe Man of God's own choosing.\nDost ask who that may be?\nChrist Jesus, it is He;\nLord Sabaoth, His Name,\nFrom age to age the same,\nAnd He must win the battle.\n\nAnd though this world, with devils filled,\nShould threaten to undo us,\nWe will not fear, for God hath willed\nHis truth to triumph through us.\nThe Prince of Darkness grim,\nWe tremble not for him;\nHis rage we can endure,\nFor lo, his doom is sure;\nOne little word shall fell him.",
+      "characterCount": 788,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e3ada483-0d1b-4d4c-813b-628527f4a723",
+      "title": "Loch Lomond (Traditional Scottish)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 45,
+      "content": "By yon bonnie banks and by yon bonnie braes,\nWhere the sun shines bright on Loch Lomond,\nWhere me and my true love were ever wont to gae,\nOn the bonnie, bonnie banks of Loch Lomond.\n\nOh, ye'll take the high road, and I'll take the low road,\nAnd I'll be in Scotland afore ye;\nBut me and my true love will never meet again\nOn the bonnie, bonnie banks of Loch Lomond.\n\n'Twas there that we parted in yon shady glen,\nOn the steep, steep side of Ben Lomond,\nWhere in purple hue the Highland hills we view,\nAnd the moon coming out in the gloaming.\n\nOh, ye'll take the high road, and I'll take the low road,\nAnd I'll be in Scotland afore ye;\nBut me and my true love will never meet again\nOn the bonnie, bonnie banks of Loch Lomond.\n\nThe wee birdies sing and the wildflowers spring,\nAnd in sunshine the waters are sleeping;\nBut the broken heart it kens nae second spring again,\nThough the waeful may cease from their grieving.",
+      "characterCount": 917,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "776f2f83-4098-422e-b737-86fb995d1e23",
+      "title": "Sweet Betsy from Pike (Traditional)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 46,
+      "content": "Oh, don't you remember sweet Betsy from Pike,\nWho crossed the big mountains with her lover Ike,\nWith two yoke of cattle, a large yellow dog,\nA tall Shanghai rooster and one spotted hog.\n\nHoodle dang fol-de dido, hoodle dang fol-de day.\n\nOne evening quite early they camped on the Platte,\n'Twas near by the road on a green shady flat,\nWhere Betsy, sore-footed, lay down to repose,\nWith wonder Ike gazed on that Pike County rose.\n\nHoodle dang fol-de dido, hoodle dang fol-de day.\n\nThe Shanghai ran off, and their cattle all died;\nThat morning the last piece of bacon was fried;\nPoor Ike was discouraged, and Betsy got mad,\nThe dog drooped his tail and looked wonderfully sad.\n\nHoodle dang fol-de dido, hoodle dang fol-de day.\n\nThey soon reached the desert, where Betsy gave out,\nAnd down in the sand she lay rolling about;\nWhile Ike, half distracted, looked on with surprise,\nSaying, Betsy, get up, you'll get sand in your eyes.\n\nHoodle dang fol-de dido, hoodle dang fol-de day.",
+      "characterCount": 976,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "800411a8-7473-47cb-aa93-6e771b3efce1",
+      "title": "The Unquiet Grave (Traditional)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 47,
+      "content": "The wind doth blow today, my love,\nAnd a few small drops of rain;\nI never had but one true-love,\nIn cold grave she was lain.\n\nI'll do as much for my true-love\nAs any young man may;\nI'll sit and mourn all at her grave\nFor a twelvemonth and a day.\n\nThe twelvemonth and a day being up,\nThe dead began to speak:\nOh who sits weeping on my grave,\nAnd will not let me sleep?\n\n'Tis I, my love, sits on your grave,\nAnd will not let you sleep;\nFor I crave one kiss of your clay-cold lips,\nAnd that is all I seek.\n\nYou crave one kiss of my clay-cold lips,\nBut my breath smells earthy strong;\nIf you have one kiss of my clay-cold lips,\nYour time will not be long.\n\n'Tis down in yonder garden green,\nLove, where we used to walk,\nThe finest flower that e'er was seen\nIs withered to a stalk.",
+      "characterCount": 776,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fb3a7b82-a27c-48c4-bc4a-4d144785c06d",
+      "title": "The Bonnie Banks o' Loch Lomond - Extended (Traditional Scottish)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 48,
+      "content": "I was a soldier in the rebel army,\nAnd a prisoner I was ta'en;\nThey sentenced me to death at Carlisle,\nAnd 'twas there I was to hang.\n\nBut as I walked by yon castle wall,\nSo high it was and steep,\nI spied my love down among them all,\nAnd she bitterly did weep.\n\nOh, ye'll take the high road, and I'll take the low road,\nAnd I'll be in Scotland afore ye;\nBut me and my true love will never meet again\nOn the bonnie, bonnie banks of Loch Lomond.\n\nOh, the oak and the ash and the bonnie ivy tree,\nThey flourish at home in my own country;\nOh, the oak and the ash and the bonnie birken tree,\nThey're all growing green in the North Country.",
+      "characterCount": 634,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "02e91247-34bf-4280-9ce8-73f015f2fcd6",
+      "title": "All Through the Night (Traditional Welsh)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 49,
+      "content": "Sleep, my child, and peace attend thee,\nAll through the night.\nGuardian angels God will send thee,\nAll through the night.\nSoft the drowsy hours are creeping,\nHill and dale in slumber sleeping,\nI my loved ones' watch am keeping,\nAll through the night.\n\nWhile the moon her watch is keeping,\nAll through the night.\nWhile the weary world is sleeping,\nAll through the night.\nO'er thy spirit gently stealing,\nVisions of delight revealing,\nBreathes a pure and holy feeling,\nAll through the night.\n\nLove, to thee my thoughts are turning,\nAll through the night.\nAll for thee my heart is yearning,\nAll through the night.\nThough sad fate our lives may sever,\nParting will not last forever,\nThere's a hope that leaves me never,\nAll through the night.",
+      "characterCount": 738,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "156ca909-1c93-461e-beca-4912b572fc87",
+      "title": "John Barleycorn (Traditional)",
+      "category": "Folk",
+      "difficulty": 6,
+      "order": 50,
+      "content": "There were three men came out of the West,\nTheir fortunes for to try,\nAnd these three men made a solemn vow:\nJohn Barleycorn must die.\n\nThey've ploughed, they've sown, they've harrowed him in,\nThrew clods upon his head,\nAnd these three men made a solemn vow:\nJohn Barleycorn was dead.\n\nThey've let him lie for a very long time,\nTill the rains from heaven did fall,\nAnd little Sir John sprung up his head,\nAnd so amazed them all.\n\nThey've let him stand till Midsummer's Day,\nTill he looked both pale and wan,\nAnd little Sir John's grown a long, long beard,\nAnd so become a man.\n\nThey've hired men with their scythes so sharp,\nTo cut him off at the knee,\nThey've rolled him and tied him by the way,\nServing him most barbarously.\n\nThey've hired men with their sharp pitchforks,\nWho've pricked him to the heart,\nAnd the loader he has served him worse than that,\nFor he's bound him to the cart.",
+      "characterCount": 889,
+      "cjkCharCount": 0
+    }
+  ]
+}

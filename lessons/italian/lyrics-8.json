@@ -1,0 +1,506 @@
+{
+  "id": "lyrics-8",
+  "title": "Testi di canzoni",
+  "lessons": [
+    {
+      "id": "bef8ff9c-29e9-419d-b00e-54e0f20f576b",
+      "title": "Giro giro tondo (Tradizionale)",
+      "category": "Filastrocca",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Giro giro tondo,\ncasca il mondo,\ncasca la terra,\ntutti giù per terra!",
+      "characterCount": 69,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4198d5b8-f1b2-4e31-94d6-73693ab87bae",
+      "title": "Fra Martino (Tradizionale)",
+      "category": "Filastrocca",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Fra Martino, campanaro,\ndormi tu? Dormi tu?\nSuona le campane,\nsuona le campane,\ndin don dan, din don dan.",
+      "characterCount": 105,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b680b815-e070-4971-af8f-3b0f6412070b",
+      "title": "Lucciola lucciola (Tradizionale)",
+      "category": "Filastrocca",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Lucciola lucciola vien da me,\nti darò il pan del re,\npan del re e della regina,\nlucciola lucciola vien vicina.",
+      "characterCount": 110,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "899a63fd-b85a-475f-9344-703c20dac6a6",
+      "title": "Oh che bel castello (Tradizionale)",
+      "category": "Filastrocca",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Oh che bel castello, marcondiro ndiro ndello,\noh che bel castello, marcondiro ndiro ndà.\nÈ più bello il mio, marcondiro ndiro ndello,\nè più bello il mio, marcondiro ndiro ndà.",
+      "characterCount": 175,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "8ece6ade-c4ab-4dee-982f-cbfe398d6dfe",
+      "title": "Ninna nanna (Tradizionale toscana)",
+      "category": "Ninna nanna",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Ninna nanna, ninna oh,\nquesto bimbo a chi lo do?\nLo darò alla Befana\nche lo tiene una settimana.\nLo darò all'Uomo Nero\nche lo tiene un mese intero.\nLo darò al Saggio Re\nche lo tiene mesi tre.",
+      "characterCount": 191,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6e5a3963-1564-4662-9f63-31f998735c03",
+      "title": "La bella lavanderina (Tradizionale)",
+      "category": "Filastrocca",
+      "difficulty": 1,
+      "order": 6,
+      "content": "La bella lavanderina\nche lava i fazzoletti\nper i poveretti della città.\nFai un salto, fanne un altro,\nfai la riverenza,\nfai la penitenza,\nguarda in su, guarda in giù,\ndai un bacio a chi vuoi tu!",
+      "characterCount": 194,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "8c7ac196-475f-41c5-a694-2cca5d141894",
+      "title": "Stella stellina (Tradizionale)",
+      "category": "Filastrocca",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Stella stellina,\nla notte si avvicina,\nla fiamma traballa,\nla mucca è nella stalla.\nLa mucca e il vitello,\nla pecora e l'agnello,\nla chioccia coi pulcini,\nla gatta coi gattini.\nOgnuno ha la sua mamma\ne tutti fan la nanna.",
+      "characterCount": 221,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9a8171f4-1b15-43cb-a5f5-f0654a01a449",
+      "title": "La vispa Teresa (Luigi Sailer)",
+      "category": "Filastrocca",
+      "difficulty": 2,
+      "order": 8,
+      "content": "La vispa Teresa\navea tra l'erbetta\na volo sorpresa\ngentil farfalletta,\ne tutta giuliva\nstringendola viva\ngridava a distesa:\n\"L'ho presa! L'ho presa!\"",
+      "characterCount": 149,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b0d66288-196e-4236-b900-3c99b8c5705d",
+      "title": "Quel mazzolin di fiori (Tradizionale trentina)",
+      "category": "Canzone popolare",
+      "difficulty": 2,
+      "order": 9,
+      "content": "Quel mazzolin di fiori\nche vien dalla montagna,\ne bada ben che non si bagna\nché lo voglio regalar.\n\nLo voglio regalare\nperché l'è un bel mazzetto,\nlo voglio dare al mio moretto\nquesta sera quando vien.",
+      "characterCount": 201,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f031057b-3617-4e09-b500-0a927436a043",
+      "title": "La donna è mobile (Giuseppe Verdi, Rigoletto)",
+      "category": "Opera",
+      "difficulty": 2,
+      "order": 10,
+      "content": "La donna è mobile\nqual piuma al vento,\nmuta d'accento\ne di pensiero.\nSempre un amabile\nleggiadro viso,\nin pianto o in riso,\nè menzognero.\n\nLa donna è mobile\nqual piuma al vento,\nmuta d'accento\ne di pensier!",
+      "characterCount": 206,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "145ccced-f7b2-4a2c-b3f8-bbbdcc8630a5",
+      "title": "L'Inno di Mameli (Goffredo Mameli)",
+      "category": "Inno patriottico",
+      "difficulty": 2,
+      "order": 11,
+      "content": "Fratelli d'Italia,\nl'Italia s'è desta,\ndell'elmo di Scipio\ns'è cinta la testa.\nDov'è la Vittoria?\nLe porga la chioma,\nché schiava di Roma\nIddio la creò.\n\nStringiamci a coorte,\nsiam pronti alla morte,\nl'Italia chiamò!",
+      "characterCount": 216,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "03f3ed0f-b657-4066-988c-750b6192041d",
+      "title": "Reginella (Libero Bovio, 1917)",
+      "category": "Canzone napoletana",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Te si' fatto na vesta scollata,\ntu te miette a cantà ncopp'o balcone,\ne la gente se ferma pe' strada\npe' sentì chesta bella canzone.\n\nReginella, Reginella,\ntu si' ll'aria profumata,\ntu si' rosa, tu si' stella,\nReginella!",
+      "characterCount": 220,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "549844e6-b352-431c-afbf-2474acdde684",
+      "title": "Mamma mia dammi cento lire (Tradizionale piemontese)",
+      "category": "Canzone popolare",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Mamma mia dammi cento lire\nche in America voglio andar.\nCento lire io te li do\nma in America no, no, no!\n\nI suoi fratelli alla finestra:\n\"Mamma mia, lasciatela andar!\"\nVai, vai pure, o figlia ingrata,\nva' in America a lavorar!",
+      "characterCount": 226,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2c8bffad-532d-4b5f-af24-bff4e67a1064",
+      "title": "Ciribiribin (Alberto Pestalozza, 1898)",
+      "category": "Canzone popolare",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Ciribiribin, che bella cosa,\nciribiribin, che bel faccin,\nciribiribin, che bella bocca,\nciribiribin, che bel nasin!\nCiribiribin, su presto andiamo,\nciribiribin, che bel piacer!\nCiribiribin, vicino al fuoco,\nciribiribin, stiam tutti e tre!",
+      "characterCount": 238,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3f08e181-1c9c-44ef-b01e-b5b0d961742f",
+      "title": "Santa Lucia (Teodoro Cottrau)",
+      "category": "Canzone napoletana",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Sul mare luccica l'astro d'argento,\nplacida è l'onda, prospero è il vento.\nVenite all'agile barchetta mia,\nSanta Lucia! Santa Lucia!\n\nCon questo zeffiro così soave,\noh com'è bello star sulla nave!\nSu passeggeri, venite via,\nSanta Lucia! Santa Lucia!",
+      "characterCount": 249,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ca04fe45-6056-4873-ab3c-34d24d48cadb",
+      "title": "La Montanara (Tradizionale trentina)",
+      "category": "Canzone popolare",
+      "difficulty": 2,
+      "content": "Là su per le montagne\nfra boschi e valli d'or,\ntra l'aspre rupi echeggia\nun cantico d'amor.\n\nLa montanara, ohè!\nsi sente cantare,\ncantiam la montanara\ne chi non la sa?\n\nLà su per le montagne\nfra boschi e valli d'or,\nla montanara canta\nil canto dell'amor.",
+      "characterCount": 254,
+      "order": 16,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0af22ee5-4d56-4089-a7b7-ebf77bb2af5d",
+      "title": "Stornelli romani (Tradizionale romana)",
+      "category": "Canzone popolare",
+      "difficulty": 2,
+      "content": "Roma, nun fa' la stupida stasera,\ndamme la mano e famme fa' er dottore,\nche 'sta serenata tanto bella e sincera\nte la dedico io co' tutto er core.\n\nFiori de carta, fiori de stagione,\nte sei piantata in mezzo ar core mio.\nFiori de carta, fior de peperone,\nme so' innamorato e solo Dio sa er perché!",
+      "characterCount": 297,
+      "order": 17,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fcba9d59-2544-4465-8c69-9b0a18674adc",
+      "title": "Caro mio ben (Giuseppe Giordani, 1783)",
+      "category": "Canzone classica",
+      "difficulty": 3,
+      "order": 18,
+      "content": "Caro mio ben, credimi almen,\nsenza di te languisce il cor.\nIl tuo fedel sospira ognor.\nCessa, crudel, tanto rigor!\n\nCaro mio ben, credimi almen,\nsenza di te languisce il cor.\nIl tuo fedel sospira ognor.\nCessa, crudel, tanto rigor!",
+      "characterCount": 230,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2364a37f-69dc-42e3-947b-3428b01eb96b",
+      "title": "Va' pensiero (Giuseppe Verdi, Nabucco)",
+      "category": "Opera",
+      "difficulty": 3,
+      "order": 19,
+      "content": "Va', pensiero, sull'ali dorate;\nva', ti posa sui clivi, sui colli,\nove olezzano tepide e molli\nl'aure dolci del suolo natal!\n\nDel Giordano le rive saluta,\ndi Sionne le torri atterrate.\nOh, mia patria sì bella e perduta!\nOh, membranza sì cara e fatal!",
+      "characterCount": 250,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "62c61ef7-59d6-4517-833d-46a518acc677",
+      "title": "Fenesta vascia (Tradizionale napoletana)",
+      "category": "Canzone napoletana",
+      "difficulty": 3,
+      "order": 20,
+      "content": "Fenesta vascia e patrona crudele,\nquanta suspire m'aje fatto jettare!\nM'arde sto core comme a na cannela,\nbella, pe' te me sento di murire.\n\nOgni mumento me pare n'anno,\nquanno te veco me sento murì.\nSi tu sapisse quanto me fai male,\nforze pietà te venarria de me.",
+      "characterCount": 264,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9fdd5540-0697-4840-951e-68ee0129163f",
+      "title": "'O sole mio (Eduardo di Capua, 1898)",
+      "category": "Canzone napoletana",
+      "difficulty": 3,
+      "order": 21,
+      "content": "Che bella cosa na jurnata 'e sole,\nn'aria serena doppo na tempesta!\nPe' ll'aria fresca pare già na festa,\nche bella cosa na jurnata 'e sole!\n\nMa n'atu sole cchiù bello, oi ne',\n'o sole mio sta 'nfronte a te!\n'O sole, 'o sole mio,\nsta 'nfronte a te,\nsta 'nfronte a te!",
+      "characterCount": 267,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "12e8ac47-0997-4c55-becb-e80462a5603a",
+      "title": "La danza (Gioachino Rossini)",
+      "category": "Opera",
+      "difficulty": 3,
+      "order": 22,
+      "content": "Già la luna è in mezzo al mare,\nmamma mia, si salterà!\nL'ora è bella per danzare,\nchi è in amor non mancherà.\n\nPresto in danza a tondo a tondo,\ndonne mie, venite qua,\nammazzate la tarantella,\nche il mio sangue ardendo va!\n\nLa la ra la la, la la ra la la,\nla la ra la la la la!",
+      "characterCount": 276,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a3231e4e-15c2-4f47-b0d0-3d94272d94a3",
+      "title": "'A vucchella (Gabriele D'Annunzio / F.P. Tosti, 1907)",
+      "category": "Canzone napoletana",
+      "difficulty": 3,
+      "order": 23,
+      "content": "Si comm'a nu sciore\ntu tiene na vucchella\nun poco pocorella\nappassuliatella.\n\nMeh, dammillo, dammillo,\nè comm'a na rusella,\ndammillo nu vasillo,\ndammillo, Cannetella!\n\nDammillo e pigliatillo,\nnu vaso piccerillo,\ncomm'a chesta vucchella,\nche pare na rusella,\nun poco pocorella\nappassuliatella.",
+      "characterCount": 292,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1a3619fa-66ce-46f4-ae2e-ac754e4a89ee",
+      "title": "Torna a Surriento (Ernesto De Curtis, 1902)",
+      "category": "Canzone napoletana",
+      "difficulty": 3,
+      "order": 24,
+      "content": "Vide 'o mare quant'è bello,\nspira tantu sentimento.\nComme tu a chi tieni mente,\nca scetato 'o faje sunnà.\n\nGuarda, guà, chistu ciardino,\nsiente, sié, sti sciure arance:\nnu profumo accusì fino\ndinto 'o core se ne va.\n\nMa nun me lassà,\nnun darme stu turmiento!\nTorna a Surriento,\nlassame nun me fa murì!",
+      "characterCount": 301,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c64b024b-bea8-4ab6-b1f7-d5df86a2e368",
+      "title": "Funiculì funiculà (Luigi Denza, 1880)",
+      "category": "Canzone napoletana",
+      "difficulty": 3,
+      "order": 25,
+      "content": "Aissera, oi Nanninè, me ne sagliette,\ntu saje addò, tu saje addò!\nAddò 'sto core 'ngrato cchiù dispietto\nfarme nun pò, farme nun pò!\n\nAddò lo fuoco coce, ma si fuie,\nte lassa stà, te lassa stà!\nE nun te corre appriesso, e nun te struie\nsulo a guardà, solo a guardà!\n\nJammo, jammo 'ncoppa jammo jà,\nfuniculì, funiculà!",
+      "characterCount": 317,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fbe51a75-acde-48a4-a6d9-8920ed6cc455",
+      "title": "Vieni sul mar (Tradizionale napoletana)",
+      "category": "Canzone napoletana",
+      "difficulty": 3,
+      "order": 26,
+      "content": "Vieni sul mar, vieni a vogar,\nsentirai l'ebbrezza del tuo marinar.\nVieni sul mar, vieni a vogar,\nsentirai l'ebbrezza del naufragar!\n\nSull'onda che si culla\nbenedetta dal lunar,\nuna barca se ne va\nper le calme onde del mar.\nE la vela bianca appare\ncome un sogno in mezzo al mar.\n\nVieni sul mar, vieni a vogar,\nsentirai l'ebbrezza del tuo marinar!",
+      "characterCount": 345,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "63fbde31-1a95-42e6-8830-8572751fce62",
+      "title": "Mattinata (Ruggero Leoncavallo, 1904)",
+      "category": "Canzone classica",
+      "difficulty": 3,
+      "order": 27,
+      "content": "L'aurora di bianco vestita\ngià l'uscio dischiude al gran sol;\ndi già con le rosee sue dita\ncarezza de' fiori lo stuol!\n\nCommosso da un fremito arcano\nintorno il creato già par,\ne tu non ti desti, ed invano\nmi sto qui dolente a cantar.\n\nMetti anche tu la veste bianca\ne schiudi l'uscio al tuo cantor!\nOve non sei la luce manca,\nove tu sei nasce l'amor!",
+      "characterCount": 351,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "31bbf031-78fd-46be-95a4-44bd655acc1c",
+      "title": "Nessun dorma (Giacomo Puccini, Turandot)",
+      "category": "Opera",
+      "difficulty": 3,
+      "order": 28,
+      "content": "Nessun dorma! Nessun dorma!\nTu pure, o Principessa,\nnella tua fredda stanza\nguardi le stelle\nche tremano d'amore e di speranza!\n\nMa il mio mistero è chiuso in me,\nil nome mio nessun saprà!\nNo, no, sulla tua bocca lo dirò,\nquando la luce splenderà!\n\nEd il mio bacio scioglierà\nil silenzio che ti fa mia!\nDilegua, o notte!\nTramontate, stelle!\nAll'alba vincerò! Vincerò! Vincerò!",
+      "characterCount": 376,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "75ccdb22-b172-43c7-a0fb-5b0287aef225",
+      "title": "L'uva fogarina (Tradizionale emiliana)",
+      "category": "Canzone popolare",
+      "difficulty": 3,
+      "content": "L'uva fogarina la fa l'uvetta,\nla fa l'uvetta che dolce va.\nL'uva fogarina la fa l'uvetta,\ne la vendemmia comincerà.\n\nOhi la bèla, la bèla campagna,\nohi la bèla, la bèla stagion!\nCon le ceste piene e le mani rosse\ncantano tutti la lor canzon.\n\nQuando il sole scende dietro la collina,\ne la sera porta fresco e rugiada,\nla fogarina matura dolce e fina\ne il contadino torna per la strada.",
+      "characterCount": 386,
+      "order": 29,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d4fddc94-3d47-4a2a-b9f2-ab88cb0a30a0",
+      "title": "La Campagnola (Tradizionale)",
+      "category": "Canzone popolare",
+      "difficulty": 3,
+      "content": "Vieni, vieni in campagna,\nche l'aria è fresca e pura,\ne il sole della pianura\nci scalda il viso e il cuor.\n\nLa campagnola bella\ncammina per il prato,\ncoglie un fior delicato\ne canta la canzon.\n\nTra i filari delle vigne,\nsotto il cielo azzurro e chiaro,\nil contadino caro\nlavora e canta ognor.\n\nVieni, vieni in campagna,\nche il grano è già maturo,\nil cielo è tanto puro\ne il mondo è tutto in fior!",
+      "characterCount": 396,
+      "order": 30,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3a11d33e-ea3e-4108-a7ee-87db1d48686c",
+      "title": "Il canto degli Italiani - completo (Goffredo Mameli)",
+      "category": "Inno patriottico",
+      "difficulty": 3,
+      "order": 31,
+      "content": "Fratelli d'Italia,\nl'Italia s'è desta,\ndell'elmo di Scipio\ns'è cinta la testa.\nDov'è la Vittoria?\nLe porga la chioma,\nché schiava di Roma\nIddio la creò.\n\nStringiamci a coorte,\nsiam pronti alla morte,\nl'Italia chiamò! Sì!\n\nNoi siamo da secoli\ncalpesti, derisi,\nperché non siam popolo,\nperché siam divisi.\nRaccolgaci un'unica\nbandiera, una speme:\ndi fonderci insieme\ngià l'ora suonò.\n\nStringiamci a coorte,\nsiam pronti alla morte,\nl'Italia chiamò! Sì!",
+      "characterCount": 449,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ea7e958d-405e-43eb-a172-01b56c8bd489",
+      "title": "Libiamo ne' lieti calici (Giuseppe Verdi, La Traviata)",
+      "category": "Opera",
+      "difficulty": 4,
+      "order": 32,
+      "content": "Libiamo, libiamo ne' lieti calici\nche la bellezza infiora,\ne la fuggevol, fuggevol ora\ns'inebrii a voluttà.\n\nLibiam ne' dolci fremiti\nche suscita l'amore,\npoiché quell'occhio al core\nonnipotente va.\nLibiamo, amore, amor fra i calici\npiù caldi baci avrà.\n\nAh! Libiam, amor fra i calici\npiù caldi baci avrà.",
+      "characterCount": 305,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "aacf46f7-858e-47bd-a997-2b320359eaac",
+      "title": "Il bacio (Luigi Arditi, 1860)",
+      "category": "Canzone classica",
+      "difficulty": 4,
+      "order": 33,
+      "content": "Sulle labbra, sulle labbra,\nse potessi dolce un bacio ti darei!\nTutte, tutte le dolcezze dell'amore\nin quel bacio ti direi!\n\nSempre assisa a te d'accanto,\nsempre stretta a te d'appresso,\nquelle gioie, quelle gioie ch'io sospiro\nsempre sempre ti direi!\n\nAh! Sulle labbra, ah! Sulle labbra,\nse potessi dolce un bacio ti darei!\nAh! Ti darei! Ah! Ti darei!",
+      "characterCount": 352,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "637573b3-8303-43c2-ba8a-df3af1cde5fa",
+      "title": "Te voglio bene assaje (Raffaele Sacco / Gaetano Donizetti, 1839)",
+      "category": "Canzone napoletana",
+      "difficulty": 4,
+      "order": 34,
+      "content": "Io te voglio bene assaje\ne tu nun pienze a me!\nÈ na cosa che fa morire,\nnu cchiù granne turmiento nun ce sta.\n\nTe voglio bene assaje\ne tu nun pienze a me!\nSi durmisse 'nzuonno a te,\nme svegliasse pensanno sempre a te.\n\nQuanno fa notte e me corco a durmì,\nnce vò na mez'orata pe' me addurmentà.\nE tutto chesto pe' causa de te,\ne tutto chesto pe' causa de te!",
+      "characterCount": 357,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b56a7fd4-0e7e-4a6c-a6b9-8a74b3b9cb70",
+      "title": "La canzone di Marinella (Tradizionale ligure)",
+      "category": "Canzone popolare",
+      "difficulty": 4,
+      "order": 35,
+      "content": "Sulla riva del mare c'era Marinella,\ncoi capelli color dell'oro e gli occhi come stella.\nTutti i marinai la guardavano dal mare,\ne dicevano fra loro: \"Che bella ragazza!\"\n\nMarinella, Marinella, tu sei bella come il sole,\ncoi tuoi occhi color mare e le tue belle parole.\nMarinella, Marinella, non andare via di qui,\nresta ancora, resta ancora, fino al tramontar così.",
+      "characterCount": 366,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1df6c129-617a-4e0c-89bf-d662e87b3bfb",
+      "title": "Core 'ngrato (Salvatore Cardillo, 1911)",
+      "category": "Canzone napoletana",
+      "difficulty": 4,
+      "order": 36,
+      "content": "Catarì, Catarì,\npecché me dici sti parole amare,\npecché me parle e 'o core me turmiente, Catarì?\n\nNun te scurdà ca t'aggio dato 'o core, Catarì,\nnun te scurdà!\nCatarì, Catarì, che vene a dicere\nstu parlà ca me dà spasimo?\nTu nun ce pienze a stu dulore mio,\ntu nun ce pienze, tu nun te ne cure.\n\nCore, core 'ngrato,\nt'aje pigliato 'a vita mia!\nTutt'è passato\ne nun ce pienze cchiù!",
+      "characterCount": 380,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a85b9dc1-4ba0-4516-bacf-fff47e8a3c6f",
+      "title": "Maremma amara (Tradizionale toscana)",
+      "category": "Canzone popolare",
+      "difficulty": 4,
+      "content": "Tutti mi dicon Maremma, Maremma,\ne a me mi pare una Maremma amara.\nL'uccello che ci va perde la penna,\nio c'ho perduto una persona cara.\n\nSia maledetta Maremma, Maremma,\nsia maledetta Maremma e chi l'ama!\nSempre mi trema il cor quando ci vai,\nperché ho paura che non torni mai.\n\nTutti mi dicon Maremma, Maremma,\ne a me mi pare una Maremma amara.\nSia maledetta Maremma, Maremma,\nsia maledetta Maremma e chi l'ama!",
+      "characterCount": 412,
+      "order": 37,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "09d714ba-2c2d-4a75-9f1f-df6411509212",
+      "title": "Il bel Danubio blu - versione italiana (Johann Strauss II)",
+      "category": "Canzone popolare",
+      "difficulty": 4,
+      "order": 38,
+      "content": "Sul bel Danubio blu, sul bel Danubio blu,\nvola un valzer leggero che porta il sogno su.\nE tutte le fanciulle col cuore innamorato\nbattono le mani e girano sul prato.\n\nSul bel Danubio blu, fra le rive in fiore,\ndanzan le coppie liete al ritmo dell'amore.\nLa musica risuona sotto le stelle d'or,\ne il Danubio bello canta il suo splendor.\n\nGira, gira, gira, il valzer ci trascina,\ndal tramonto rosso fino alla mattina.",
+      "characterCount": 415,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f2bd0043-10f7-4366-85e7-4a3ab4a8878a",
+      "title": "Era de maggio (Salvatore Di Giacomo, 1885)",
+      "category": "Canzone napoletana",
+      "difficulty": 4,
+      "order": 39,
+      "content": "Era de maggio e te cadevano 'nzino,\na ciocche a ciocche, li ccerase rosse.\nE tu ceglie per me; io pe' te cantavo\nna canzona che mo nun canto cchiù.\n\nEra de maggio, io, no, nun me ne scordo,\nna canzona cantàvamo tutt'e doje,\ne chella canzona sentìmmola ancòra.\nEra de maggio e ce parlàvamo d'ammore.\n\nAh, comm'è bello a stare assieme\ne comm'è bello a se vulé bene!\nEra de maggio, e ce vulévamo bene,\ne ce parlavamo cu 'nu filo 'e voce.",
+      "characterCount": 434,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fba7750a-f960-4975-b115-77a6eca1a605",
+      "title": "Donna Lombarda (Tradizionale)",
+      "category": "Ballata popolare",
+      "difficulty": 4,
+      "content": "Donna Lombarda, Donna Lombarda,\nchi te lo fa fare l'amor con quel soldà?\n\"Io l'amo, io l'amo, io l'amo tanto,\nio l'amo e non lo posso abbandonar.\"\n\n\"Va' nel giardino, cogli una rosa,\nuna rosa che sia velenosa.\nMettila nel vino, fallo bere a lui,\ne Donna Lombarda libera sarà.\"\n\n\"Bevi, marito, bevi questo vino,\nbevi il vino che ti fa guarir.\"\n\"Prima tu lo bevi, Donna Lombarda,\nprima tu lo bevi avanti a me.\"\n\nDonna Lombarda bevve per la prima,\nDonna Lombarda cascò in terra morta.\nOhi che giustizia, ohi che destino,\nDonna Lombarda morì col suo veleno!",
+      "characterCount": 553,
+      "order": 40,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "24e0e25e-c766-4bbb-8869-50a6b767f0fd",
+      "title": "Bella ciao (Tradizionale partigiana)",
+      "category": "Canzone popolare",
+      "difficulty": 4,
+      "order": 41,
+      "content": "Una mattina mi son svegliato,\no bella ciao, bella ciao, bella ciao ciao ciao!\nUna mattina mi son svegliato\ne ho trovato l'invasor.\n\nO partigiano, portami via,\no bella ciao, bella ciao, bella ciao ciao ciao!\nO partigiano, portami via\nché mi sento di morir.\n\nE se io muoio da partigiano,\no bella ciao, bella ciao, bella ciao ciao ciao!\nE se io muoio da partigiano\ntu mi devi seppellir.\n\nE seppellire lassù in montagna,\no bella ciao, bella ciao, bella ciao ciao ciao!\nE seppellire lassù in montagna\nsotto l'ombra di un bel fior.\n\nE le genti che passeranno,\no bella ciao, bella ciao, bella ciao ciao ciao!\nE le genti che passeranno\nmi diranno: \"Che bel fior!\"\n\nÈ questo il fiore del partigiano,\no bella ciao, bella ciao, bella ciao ciao ciao!\nÈ questo il fiore del partigiano\nmorto per la libertà!",
+      "characterCount": 793,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f446b861-5d15-4ac4-aac9-968944c1f66c",
+      "title": "I' te vurria vasà (Eduardo di Capua, 1900)",
+      "category": "Canzone napoletana",
+      "difficulty": 5,
+      "order": 42,
+      "content": "Ah, che bell'aria fresca\nch'addora d'arancio!\nE tu duorme e nun pienze a me...\nLevate da 'o balcone.\nChe luna chiena chiena!\nE io, cuntento, canto 'nzerenata a te.\n\nI' te vurria vasà,\ni' te vurria vasà,\nma 'o core nun m'o dice\n'e te scetà, 'e te scetà.\nI' te vurria vasà!\n\nE i gigli e le viole\nche tu miette 'o balcone\npe' ll'aria ne sentì,\nme pare 'o paraviso\nquanno me metto a guardà,\nquanno me metto a guardà!",
+      "characterCount": 412,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "49da8fb6-2627-4861-ac5c-4cad7e3329fb",
+      "title": "Addio a Napoli (Teodoro Cottrau, 1868)",
+      "category": "Canzone napoletana",
+      "difficulty": 5,
+      "order": 43,
+      "content": "Addio, mia bella Napoli, addio, addio!\nIl ciel ti guardi ognor col suo sorriso,\ne il golfo azzurro che per te sospira\nda lontano ti mando il mio sospir!\n\nCe ne salimmo pe' la collina,\nce ne partimmo cu 'o core 'mano,\ne tutt'e llacreme e li suspire\nrestano a te, o Napule, pe' sempre!\n\nAddio, mia bella Napoli, la terra mia!\nNon ti scordar di me, come io non scordo\ncheste strade, stu mare e chesta luna.\nAddio, Napule mia, addio!",
+      "characterCount": 429,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "cc9c0582-ec1d-45e5-9471-8ed617a0ebd0",
+      "title": "O surdato 'nnammurato (Aniello Califano, 1915)",
+      "category": "Canzone napoletana",
+      "difficulty": 5,
+      "order": 44,
+      "content": "Staje luntana da stu core,\na te volo cu 'o penziero.\nNiente voglio, e niente spero\nca tenerte stretta a me.\n\nSì, te sento int'a stu core,\nche te chiammo a tutt'e ll'ore,\ne 'o suspiro mio te vene\na parlà sempe d'ammore.\n\nOi vita, oi vita mia,\noi core 'e chistu core,\nsi stata 'o primmo ammore\ne 'o primmo e ll'ùrdimo sarraje pe' me!\n\nQuanno staje 'mmiez'a via,\nla gente se avutaje,\nsi bella, oje bella assaje,\nma comm'a te, nce n'è!",
+      "characterCount": 431,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f55d67d6-ea3f-418b-a9c7-ff42791add45",
+      "title": "Ideale (Francesco Paolo Tosti, 1882)",
+      "category": "Canzone classica",
+      "difficulty": 5,
+      "order": 45,
+      "content": "Io ti seguii come iride di pace\nlungo le vie del cielo:\nio ti seguii come un'amica face\nde la notte nel velo.\n\nE ti sentii ne la luce, ne l'aria,\nnel profumo dei fiori;\ne fu piena la stanza solitaria\ndi te, dei tuoi splendori.\n\nIn te rapito, al suon de la tua voce\nlungamente sognai;\ne de la terra ogni affanno, ogni croce\nin quel sogno scordai.\n\nTorna, caro ideal, torna un istante\na sorridermi ancora,\ne a me risplenderà nel tuo sembiante\nuna novella aurora!",
+      "characterCount": 460,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "00a52cdb-e45d-41a0-9a36-ed56777e77e1",
+      "title": "Lu passariello (Tradizionale napoletana)",
+      "category": "Canzone napoletana",
+      "difficulty": 5,
+      "content": "Oje passariello, tu che vuole 'a me?\nVuote magnà? Vuote vevì?\nOje passariello, tu che vuole 'a me?\nVuote durmì ncopp' a stu ramo?\n\nCanzone belle me cante tu,\ncanzone belle pe' 'stu ciardino.\nPassariello mio, che bella voce,\nche bella voce tieni tu!\n\nQuanno è matina tu te scete primmo,\ne cante, e cante ncopp' a chella rama.\nE io t'ascolto da la fenestella,\ne penzo a chi me vo' bene assaje.\n\nOje passariello, vola, vola, vola,\nvola luntano e porta stu biglietto,\nportalo a chella ca sta luntana\ne dille ca 'o core mio è sempe 'o stesso!",
+      "characterCount": 537,
+      "order": 46,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c4591c83-357a-49d7-a3c6-48abed3bdf54",
+      "title": "Montagne verdi (Tradizionale alpina)",
+      "category": "Canzone popolare",
+      "difficulty": 5,
+      "order": 47,
+      "content": "La montanara che viene giù dalla montagna,\ncanta la bella canzone del suo paese natal.\nSopra le vette le nuvole fan corona,\ne gli uccellini nel bosco cantano già.\n\nLa montanara, la montanara,\nquella che viene dalla montagna,\ncanta la sua canzone bella,\ncanta la sua canzone al sol!\n\nSu per i monti, giù per le valli,\nsotto la pioggia, sotto le stelle,\nil cuore canta e non si stanca,\nperché la vita è bella quassù!\n\nE quando viene la sera dolce,\ne il sole scende dietro alla collina,\nla montanara torna alla sua casa\ne sogna ancora il suo bel mattino.",
+      "characterCount": 551,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0587f998-fea6-4bbf-b520-a1e9fe8c74c5",
+      "title": "Ciuri ciuri (Tradizionale siciliana)",
+      "category": "Canzone popolare",
+      "difficulty": 5,
+      "content": "Ciuri ciuri ciuri di tuttu l'annu,\nl'amuri ca mi dasti ti lu tornu.\nCiuri ciuri ciuri di tuttu l'annu,\nl'amuri ca mi dasti ti lu tornu.\n\nSi' bedda, si' bedda e non lu sai,\ncu' l'occhi neri e la facci comu un ciuri.\nSi' bedda, si' bedda e non lu sai,\ne tuttu lu paisi parla di tia.\n\nLu suli quannu nesci la matina\nlu primu salutu lu duna a tia.\nLu suli quannu nesci la matina\nsi ferma pi' guardari la to' biddizza.\n\nCiuri ciuri ciuri di tuttu l'annu,\nl'amuri ca mi dasti ti lu tornu.\nCiuri ciuri, oh bedda matri,\nciuri ciuri, lu me' cori è tuttu 'n focu!",
+      "characterCount": 553,
+      "order": 48,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "74fc77f8-b8b0-462c-9385-ea02260e7965",
+      "title": "Non ti scordar di me (Ernesto De Curtis, 1935)",
+      "category": "Canzone classica",
+      "difficulty": 6,
+      "order": 49,
+      "content": "Non ti scordar di me,\nla vita mia legata è a te!\nIo t'amo sempre più,\nnel sogno mio rimani tu!\n\nNon ti scordar di me,\nla vita mia legata è a te!\nC'è sempre un nido nel mio cuore per te,\nnon ti scordar di me!\n\nPartirono le rondini\ndal mio paese freddo e senza sole,\ncercando primavere di viole,\nnidi d'amore e di felicità.\n\nLa mia piccola rondine partì\nsenza lasciarmi un bacio, senza un addio.\nMa il giorno tornerà\nl'amore tornerà,\ne il nido antico suo ritroverà.\n\nNon ti scordar di me,\nla vita mia legata è a te!\nIo t'amo sempre più,\nnel sogno mio rimani tu!\nNon ti scordar di me!",
+      "characterCount": 581,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7d1cb266-735c-47a6-9d84-37c58c0b49a1",
+      "title": "Tarantella napoletana (Tradizionale)",
+      "category": "Canzone napoletana",
+      "difficulty": 6,
+      "order": 50,
+      "content": "Io me ne voglio ì a letto,\nio me ne voglio ì a durmì,\nca dimane m'aggia alzà\ne m'aggia ì a faticà.\n\nMa quanno sento 'a tarantella,\nil sangue mio s'arrevutaje,\ne 'o core mio cchiù forte vatte\ne 'e piede mie vulessero ballà!\n\nGira, gira, gira la tarantella,\nbatte forte il tamburello!\nTutti quanti mano nella mano,\nballano la tarantella sotto il cielo napoletano!\n\nE chi la sente 'sta canzone,\nnun po' restà fermo a guardà,\nperché la tarantella è bella\ne fa ballare e fa cantà!\n\nGira, gira, gira la tarantella,\nbatte forte il tamburello!\nÈ la più bella danza del mondo,\nla tarantella fa girar in tondo!\n\nE quando il sole va giù nel mare,\ne le stelle cominciano a brillare,\nancora suona la tarantella\ne tutto il mondo sembra più bello!",
+      "characterCount": 732,
+      "cjkCharCount": 0
+    }
+  ]
+}

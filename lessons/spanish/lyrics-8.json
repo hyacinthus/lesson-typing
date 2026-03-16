@@ -1,0 +1,506 @@
+{
+  "id": "lyrics-8",
+  "title": "Letras de canciones",
+  "lessons": [
+    {
+      "id": "a1d3e6f0-8b2c-4a5d-9e7f-1c3b5a7d9e0f",
+      "title": "Los pollitos dicen (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Los pollitos dicen\npío, pío, pío,\ncuando tienen hambre,\ncuando tienen frío.\n\nLa gallina busca\nel maíz y el trigo,\nles da la comida\ny les presta abrigo.\n\nBajo sus dos alas,\nacurrucaditos,\nduermen los pollitos\nhasta el otro día.",
+      "characterCount": 226,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "19a4181b-6173-49a3-905f-8789ab4e5bda",
+      "title": "Arroz con leche (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Arroz con leche,\nme quiero casar\ncon una señorita\nde la capital.\n\nQue sepa coser,\nque sepa bordar,\nque sepa abrir la puerta\npara ir a jugar.\n\nYo soy la viudita\ndel barrio del Rey,\nme quiero casar\ny no sé con quién.\n\nCon ésta sí,\ncon ésta no,\ncon esta señorita\nme caso yo.",
+      "characterCount": 271,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "694ee74c-b52e-42db-92ca-2bb5e7e389f1",
+      "title": "Que llueva, que llueva (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Que llueva, que llueva,\nla Virgen de la Cueva,\nlos pajaritos cantan,\nlas nubes se levantan.\n\n¡Que sí, que no,\nque caiga un chaparrón!\nCon azúcar y turrón\npara los niños son.\n\nQue llueva, que llueva,\nla Virgen de la Cueva,\nlos pajaritos cantan,\nlas nubes se levantan.\n\n¡Que sí, que no,\nque caiga un chaparrón!\nCon azúcar y turrón\npara los niños son.",
+      "characterCount": 348,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4c9be18e-2c9b-4710-8c88-94fc2c82c302",
+      "title": "Cu cú cantaba la rana (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Cu cú, cu cú,\ncantaba la rana.\nCu cú, cu cú,\ndebajo del agua.\n\nCu cú, cu cú,\npasó un caballero.\nCu cú, cu cú,\ncon capa y sombrero.\n\nCu cú, cu cú,\npasó una señora.\nCu cú, cu cú,\ncon traje de cola.\n\nCu cú, cu cú,\npasó un marinero.\nCu cú, cu cú,\nvendiendo romero.\n\nCu cú, cu cú,\nle pidió un ramito.\nCu cú, cu cú,\nno le quiso dar.\nCu cú, cu cú,\ny se echó a llorar.",
+      "characterCount": 360,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9db15382-9ce6-44ff-8791-ec694d15268a",
+      "title": "Tengo una muñeca (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Tengo una muñeca\nvestida de azul,\ncon su camisita\ny su canesú.\n\nLa saqué a paseo,\nse me constipó,\nla tengo en la cama\ncon mucho dolor.\n\nEsta mañanita\nme dijo el doctor\nque le dé jarabe\ncon un tenedor.\n\nDos y dos son cuatro,\ncuatro y dos son seis,\nseis y dos son ocho\ny ocho dieciséis.",
+      "characterCount": 284,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e2f454aa-553f-4f34-9639-bebcd80ba5b3",
+      "title": "Aserrín, aserrán (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Aserrín, aserrán,\nlos maderos de San Juan\npiden pan, no les dan,\npiden queso, les dan hueso\ny les cortan el pescuezo.\n\nAserrín, aserrán,\nlos maderos de San Juan\npiden pan, no les dan,\npiden queso, les dan hueso\ny les cortan el pescuezo.\n\nLos del rey sierran bien,\nlos de la reina también,\nlos del duque,\ntruque, truque, truque.",
+      "characterCount": 327,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "80f2d4c3-ff3d-45ee-af83-3dae0446956f",
+      "title": "Pin Pon (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Pin Pon es un muñeco\nmuy guapo y de cartón,\nse lava la carita\ncon agua y con jabón.\n\nSe desenreda el pelo\ncon peine de marfil\ny aunque se dé tirones\nno llora ni hace así.\n\nPin Pon toma su sopa\ny no ensucia el delantal,\npues come con cuidado\ncomo un buen general.\n\nY apenas las estrellas\ncomienzan a salir,\nPin Pon se va a la cama\ny se acuesta a dormir.",
+      "characterCount": 352,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5128de3b-29db-4fb4-828f-4d46f9df01d3",
+      "title": "La mar estaba serena (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 8,
+      "content": "La mar estaba serena,\nserena estaba la mar.\nLa mar estaba serena,\nserena estaba la mar.\n\nCon a: La mar astaba sarana,\nsarana astaba la mar.\nLa mar astaba sarana,\nsarana astaba la mar.\n\nCon e: Le mer estebe serene,\nserene estebe le mer.\nLe mer estebe serene,\nserene estebe le mer.\n\nCon i: Li mir istibi sirini,\nsirini istibi li mir.\nLi mir istibi sirini,\nsirini istibi li mir.",
+      "characterCount": 375,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9f8176a7-c17a-4eca-8b9a-4c6c6e45bcd3",
+      "title": "Duérmete niño (Tradicional)",
+      "category": "Nana",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Duérmete niño,\nduérmete ya,\nque viene el coco\ny te comerá.\n\nDuérmete niño,\nduérmete ya,\nque viene el coco\ny te llevará.\n\nEste niño lindo\nse quiere dormir,\ny el pícaro sueño\nno quiere venir.\n\nEste niño lindo\nque nació de noche\nquiere que lo lleven\na pasear en coche.",
+      "characterCount": 265,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3322f1d8-23a5-471d-981b-0191a0c69e45",
+      "title": "Fray Santiago (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 1,
+      "order": 10,
+      "content": "Fray Santiago, Fray Santiago,\n¿duermes tú? ¿duermes tú?\nToca la campana, toca la campana.\nDin, don, dan. Din, don, dan.\n\nFray Santiago, Fray Santiago,\n¿duermes tú? ¿duermes tú?\nToca la campana, toca la campana.\nDin, don, dan. Din, don, dan.\n\nFray Santiago, Fray Santiago,\n¿duermes tú? ¿duermes tú?\nToca la campana, toca la campana.\nDin, don, dan. Din, don, dan.",
+      "characterCount": 361,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d0a2b5c9-7e1f-4d4a-8b6c-0f2e4d6c8b9a",
+      "title": "A la nanita nana (Tradicional)",
+      "category": "Nana",
+      "difficulty": 2,
+      "order": 11,
+      "content": "A la nanita nana, nanita ella, nanita ella,\nmi niño tiene sueño, bendito sea, bendito sea.\n\nFuentecita que corre clara y sonora,\nruiseñor que en la selva cantando llora,\ncallad mientras la cuna se balancea,\na la nanita nana, nanita ella.\n\nA la nanita nana, nanita ella, nanita ella,\nmi niño tiene sueño, bendito sea, bendito sea.\n\nManojito de rosas y de alelíes,\n¿qué es lo que sientes, dime, niño, por qué lloras?\na la nanita nana, nanita ella,\nmi niño tiene sueño, bendito sea.",
+      "characterCount": 479,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e1b3c6d0-8f2a-4e5b-9c7d-1a3f5e7d9c0b",
+      "title": "De colores (Tradicional mexicana)",
+      "category": "Canción popular",
+      "difficulty": 2,
+      "order": 12,
+      "content": "De colores, de colores\nse visten los campos en la primavera.\nDe colores, de colores\nson los pajaritos que vienen de afuera.\nDe colores, de colores\nes el arco iris que vemos lucir.\n\nY por eso los grandes amores\nde muchos colores me gustan a mí.\nY por eso los grandes amores\nde muchos colores me gustan a mí.\n\nDe colores, de colores\nes el diamante que vemos lucir.\nDe colores, de colores\nes todo el rebaño que viene a pastar.\nDe colores, de colores\nson las mariposas del jardín.",
+      "characterCount": 476,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fadbec73-86e1-47a0-b99a-d9922be1192b",
+      "title": "La cucaracha (Tradicional mexicana)",
+      "category": "Canción popular",
+      "difficulty": 2,
+      "order": 13,
+      "content": "La cucaracha, la cucaracha,\nya no puede caminar,\nporque no tiene, porque le falta\nuna patita de atrás.\n\nUna cucaracha pinta\nle dijo a una colorada,\nvámonos para mi tierra\na pasar la temporada.\n\nLa cucaracha, la cucaracha,\nya no puede caminar,\nporque no tiene, porque le falta\nuna patita de atrás.\n\nLas muchachas son de oro,\nlas casadas son de plata,\nlas viuditas son de cobre\ny las viejas de hojalata.\n\nLa cucaracha, la cucaracha,\nya no puede caminar,\nporque no tiene, porque le falta\nuna patita de atrás.",
+      "characterCount": 505,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "cd734cd0-cee5-4b1d-a17f-4f991d5a5a2f",
+      "title": "Cielito lindo (Tradicional mexicana)",
+      "category": "Canción popular",
+      "difficulty": 2,
+      "order": 14,
+      "content": "De la Sierra Morena,\ncielito lindo, vienen bajando,\nun par de ojitos negros,\ncielito lindo, de contrabando.\n\n¡Ay, ay, ay, ay!\nCanta y no llores,\nporque cantando se alegran,\ncielito lindo, los corazones.\n\nPájaro que abandonas\ntu primera rama,\nsi lo hallarás ocupada,\nbien merecido lo tienes ya.\n\n¡Ay, ay, ay, ay!\nCanta y no llores,\nporque cantando se alegran,\ncielito lindo, los corazones.\n\nEse lunar que tienes,\ncielito lindo, junto a la boca,\nno se lo des a nadie,\ncielito lindo, que a mí me toca.",
+      "characterCount": 498,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b701dcaa-e3e8-4582-b1a3-ef0d6b89e50d",
+      "title": "Noche de paz (Tradicional - Villancico)",
+      "category": "Villancico",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Noche de paz, noche de amor,\ntodo duerme en derredor.\nEntre los astros que esparcen su luz,\nbella anunciando al niñito Jesús,\nbrilla la estrella de paz,\nbrilla la estrella de paz.\n\nNoche de paz, noche de amor,\ntodo duerme en derredor.\nSolo velan en la oscuridad\nlos pastores que en el campo están,\ny la estrella de Belén,\ny la estrella de Belén.\n\nNoche de paz, noche de amor,\ntodo duerme en derredor.\nSobre el santo niño Jesús,\nuna estrella esparce su luz,\nbrilla sobre el Rey de paz,\nbrilla sobre el Rey de paz.",
+      "characterCount": 512,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "26096da6-555e-40fe-ba4c-9eeba7f836c3",
+      "title": "Campana sobre campana (Tradicional)",
+      "category": "Villancico",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Campana sobre campana,\ny sobre campana una.\nAsómate a la ventana,\nverás al niño en la cuna.\n\nBelén, campanas de Belén,\nque los ángeles tocan,\n¿qué nueva me traéis?\n\nRecogido tu rebaño,\n¿a dónde vas, pastorcito?\nVoy a llevar al portal\nreqüesón, manteca y vino.\n\nBelén, campanas de Belén,\nque los ángeles tocan,\n¿qué nueva me traéis?\n\nCampana sobre campana,\ny sobre campana dos.\nAsómate a la ventana,\nporque está naciendo Dios.\n\nBelén, campanas de Belén,\nque los ángeles tocan,\n¿qué nueva me traéis?",
+      "characterCount": 497,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f1689e9e-f24f-4ced-b6be-416bc0536bba",
+      "title": "Los peces en el río (Tradicional)",
+      "category": "Villancico",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Pero mira cómo beben\nlos peces en el río,\npero mira cómo beben\npor ver al Dios nacido.\nBeben y beben y vuelven a beber,\nlos peces en el río\npor ver a Dios nacer.\n\nLa Virgen se está peinando\nentre cortina y cortina,\nlos cabellos son de oro\ny el peine de plata fina.\n\nPero mira cómo beben\nlos peces en el río,\npero mira cómo beben\npor ver al Dios nacido.\nBeben y beben y vuelven a beber,\nlos peces en el río\npor ver a Dios nacer.",
+      "characterCount": 427,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "81e82586-665f-415e-9bda-5a0267ef5753",
+      "title": "El burrito sabanero (Tradicional venezolana)",
+      "category": "Villancico",
+      "difficulty": 2,
+      "order": 18,
+      "content": "Con mi burrito sabanero\nvoy camino de Belén,\ncon mi burrito sabanero\nvoy camino de Belén.\n\nSi me ven, si me ven,\nvoy camino de Belén.\nSi me ven, si me ven,\nvoy camino de Belén.\n\nEl lucerito mañanero\nilumina mi sendero,\nel lucerito mañanero\nilumina mi sendero.\n\nSi me ven, si me ven,\nvoy camino de Belén.\nSi me ven, si me ven,\nvoy camino de Belén.\n\nTuqui tuqui tuqui tuqui,\ntuqui tuqui tuqui ta.\nApúrate mi burrito\nque ya vamos a llegar.",
+      "characterCount": 436,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ba7a5896-4085-4beb-992f-50583585fd0e",
+      "title": "Estrellita, ¿dónde estás? (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 2,
+      "order": 19,
+      "content": "Estrellita, ¿dónde estás?\nMe pregunto qué serás.\nEn el cielo y en el mar,\nun diamante de verdad.\n\nEstrellita, ¿dónde estás?\nMe pregunto qué serás.\n\nCuando el sol se ha ido ya,\ncuando nada brilla más,\ntú nos muestras tu brillar,\nbrillas, brillas sin parar.\n\nEstrellita, ¿dónde estás?\nMe pregunto qué serás.\n\nEn la oscura inmensidad,\nbrillas tú con claridad.\nNo podría en la oscuridad\nsin tu luz caminar.\n\nEstrellita, ¿dónde estás?\nMe pregunto qué serás.",
+      "characterCount": 452,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "597f8114-7060-441e-9014-ab40675223bf",
+      "title": "El patio de mi casa (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 2,
+      "order": 20,
+      "content": "El patio de mi casa\nes particular,\ncuando llueve se moja\ncomo los demás.\n\nAgáchate y vuélvete a agachar,\nque los agachaditos\nno saben bailar.\n\nHache, i, jota, ka,\nele, elle, eme, a,\nque si tú no me quieres\notro amante me querrá.\n\nChocolate, molinillo,\ncorre, corre, que te pillo.\nA estirar, a estirar,\nque el demonio va a pasar.\n\nEl patio de mi casa\nes particular,\ncuando llueve se moja\ncomo los demás.",
+      "characterCount": 402,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b0e2f5a9-7c1d-4b4e-8f6a-0d2c4b6a8f9e",
+      "title": "Dónde están las llaves (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 2,
+      "order": 21,
+      "content": "Yo tengo un castillo,\nmatarile, rile, rile,\nyo tengo un castillo,\nmatarile, rile, ron, chimpón.\n\n¿Dónde están las llaves,\nmatarile, rile, rile,\ndónde están las llaves,\nmatarile, rile, ron, chimpón?\n\nEn el fondo del mar,\nmatarile, rile, rile,\nen el fondo del mar,\nmatarile, rile, ron, chimpón.\n\n¿Quién irá a buscarlas,\nmatarile, rile, rile,\nquién irá a buscarlas,\nmatarile, rile, ron, chimpón?\n\nIrá la señorita,\nmatarile, rile, rile,\nirá la señorita,\nmatarile, rile, ron, chimpón.",
+      "characterCount": 479,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c1f3a6b0-8d2e-4c5f-9a7b-1e3d5c7b9a0f",
+      "title": "Al pasar la barca (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 2,
+      "order": 22,
+      "content": "Al pasar la barca\nme dijo el barquero:\nlas niñas bonitas\nno pagan dinero.\n\nYo no soy bonita\nni lo quiero ser,\nlas niñas bonitas\nse echan a perder.\n\nAl volver la barca\nme volvió a decir:\nlas niñas bonitas\nno pagan aquí.\n\nYo no soy bonita\nni lo quiero ser,\narriba la barca,\nuna, dos y tres.",
+      "characterCount": 288,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "bc701aa0-a442-4b3d-895d-ca463dd783d0",
+      "title": "La Tarara (Tradicional española)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 23,
+      "content": "Tiene la Tarara\nun vestido blanco\nque sólo se pone\nen el Jueves Santo.\n\nLa Tarara sí,\nla Tarara no,\nla Tarara, madre,\nque la bailo yo.\n\nTiene la Tarara\nun vestido verde\nlleno de volantes\ny de cascabeles.\n\nLa Tarara sí,\nla Tarara no,\nla Tarara, madre,\nque la bailo yo.\n\nTiene la Tarara\nunos pantalones\nque de arriba abajo\ntodo son botones.\n\nLa Tarara sí,\nla Tarara no,\nla Tarara, madre,\nque la bailo yo.\n\nTiene la Tarara\nun cesto de frutas\ny si se las pido\nme da las maduras.",
+      "characterCount": 474,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6fc5d269-6636-40b0-abbc-dc8b62b917ad",
+      "title": "Eres alta y delgada (Tradicional española)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 24,
+      "content": "Eres alta y delgada\ncomo tu madre,\nmorena, salada,\ncomo tu madre.\n\nBendita sea la rama\nque al tronco sale.\nMorena, salada,\nque al tronco sale.\n\nTodas las noches vengo\na tu ventana.\nMorena, salada,\na tu ventana.\n\nA regarme los tiestos\nde mejorana.\nMorena, salada,\nde mejorana.\n\nTodas las noches vengo\na tu balcón.\nMorena, salada,\na tu balcón.\n\nA regarme los tiestos\nde albahacón.\nMorena, salada,\nde albahacón.",
+      "characterCount": 408,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "508555ce-fe77-4530-b2c4-8f1997603e71",
+      "title": "La bamba (Tradicional veracruzana)",
+      "category": "Son jarocho",
+      "difficulty": 3,
+      "order": 25,
+      "content": "Para bailar la bamba,\npara bailar la bamba\nse necesita una poca de gracia,\nuna poca de gracia pa mí, pa ti.\nArriba y arriba,\ny arriba y arriba.\nPor ti seré, por ti seré, por ti seré.\n\nYo no soy marinero,\nyo no soy marinero, soy capitán,\nsoy capitán, soy capitán.\n\nBamba, bamba,\nbamba, bamba,\nbamba, bamba, bamba.\n\nPara subir al cielo,\npara subir al cielo\nse necesita una escalera grande,\nuna escalera grande y otra chiquita.\nArriba y arriba,\ny arriba y arriba.\nPor ti seré, por ti seré, por ti seré.",
+      "characterCount": 499,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a3adbd79-1ee0-4593-9454-e71afa480445",
+      "title": "El vito (Tradicional andaluza)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 26,
+      "content": "Con el vito, vito, vito,\ncon el vito, vito, va.\nNo me haga usted cosquillas\nque me pongo colorá.\n\nUna malagueña fue a Sevilla\na ver los toros del Puerto.\nY en la mitad del camino\nla pobre se cayó al suelo.\n\nCon el vito, vito, vito,\ncon el vito, vito, va.\nNo me haga usted cosquillas\nque me pongo colorá.\n\nCada vez que paso y miro\nesas ventanas y esas rejas,\nme acuerdo de quien vivía\ny la sangre se me queja.\n\nCon el vito, vito, vito,\ncon el vito, vito, va.\nNo me haga usted cosquillas\nque me pongo colorá.",
+      "characterCount": 506,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b524e00c-456a-4a4d-b964-1813223e0d4e",
+      "title": "Mambrú se fue a la guerra (Tradicional)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 27,
+      "content": "Mambrú se fue a la guerra,\n¡qué dolor, qué dolor, qué pena!\nMambrú se fue a la guerra,\nno sé cuándo vendrá.\n\nDo, re, mi, do, re, fa,\nno sé cuándo vendrá.\n\nSi vendrá por la Pascua,\n¡qué dolor, qué dolor, qué pena!\nSi vendrá por la Pascua\no por la Trinidad.\n\nDo, re, mi, do, re, fa,\no por la Trinidad.\n\nLa Trinidad se pasa,\n¡qué dolor, qué dolor, qué pena!\nLa Trinidad se pasa,\nMambrú no viene ya.\n\nDo, re, mi, do, re, fa,\nMambrú no viene ya.\n\nPor allí viene un paje,\n¡qué dolor, qué dolor, qué pena!\nPor allí viene un paje,\n¿qué noticias traerá?",
+      "characterCount": 544,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9e742f81-4e9d-4697-a246-55cd6982cf86",
+      "title": "A mi burro (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 3,
+      "order": 28,
+      "content": "A mi burro, a mi burro\nle duele la cabeza,\nel médico le ha puesto\nuna corbata negra.\n\nUna corbata negra,\nmi burro enfermo está.\n\nA mi burro, a mi burro\nle duele la garganta,\nel médico le ha puesto\nuna corbata blanca.\n\nUna corbata blanca,\nuna corbata negra,\nmi burro enfermo está.\n\nA mi burro, a mi burro\nle duelen las orejas,\nel médico le ha puesto\nuna gorrita negra.\n\nUna gorrita negra,\nuna corbata blanca,\nuna corbata negra,\nmi burro enfermo está.",
+      "characterCount": 449,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f35084cd-9416-4300-b4e5-12bdc1a7868b",
+      "title": "Guantanamera (Tradicional cubana / José Martí)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 29,
+      "content": "Guantanamera, guajira guantanamera.\nGuantanamera, guajira guantanamera.\n\nYo soy un hombre sincero\nde donde crece la palma,\ny antes de morirme quiero\nechar mis versos del alma.\n\nGuantanamera, guajira guantanamera.\nGuantanamera, guajira guantanamera.\n\nMi verso es de un verde claro\ny de un carmín encendido,\nmi verso es un ciervo herido\nque busca en el monte amparo.\n\nGuantanamera, guajira guantanamera.\nGuantanamera, guajira guantanamera.\n\nCon los pobres de la tierra\nquiero yo mi suerte echar,\nel arroyo de la sierra\nme complace más que el mar.",
+      "characterCount": 544,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f0c2d5e9-7a1b-4f4c-8d6e-0b2a4f6e8d9c",
+      "title": "Alma llanera (Tradicional venezolana)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 30,
+      "content": "Yo nací en esta ribera\ndel Arauca vibrador,\nsoy hermano de la espuma,\nde las garzas, de las rosas\ny del sol, y del sol.\n\nMe arrulló la viva diana\nde la brisa en el palmar,\ny por eso tengo el alma\ncomo el alma primorosa\ndel cristal, del cristal.\n\nAmo, lloro, canto, sueño\ncon claveles de pasión,\npara ornar las rubias crines\ndel potro de mi amador.\n\nYo nací en esta ribera\ndel Arauca vibrador,\nsoy hermano de la espuma,\nde las garzas, de las rosas\ny del sol, y del sol.",
+      "characterCount": 468,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a1e3f6a0-8b2c-4a5d-9e7f-1c3b5a7d9e1a",
+      "title": "El cóndor pasa (Tradicional peruana)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 31,
+      "content": "Oh majestuoso cóndor de los Andes,\nllévarme a mi hogar, en los Andes,\noh cóndor.\n\nQuiero volver a mi tierra querida\ny vivir con mis hermanos incas,\nque es lo que más añoro.\n\nOh cóndor, déjame volar,\nvolar sobre esos campos verdes.\nAhí donde los ríos cristalinos\nreflejan tu grandeza.\n\nEspérame en Cusco,\nen la plaza principal,\nque ahí te recibiré\ncon un festín.\n\nOh majestuoso cóndor de los Andes,\nllévarme a mi hogar, en los Andes,\noh cóndor.\nQuiero volver a mi tierra querida\ny vivir con mis hermanos incas.",
+      "characterCount": 509,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1bd4f4d3-a884-4ba9-97c7-426d9adf96de",
+      "title": "Ay, Carmela (Tradicional - Guerra Civil)",
+      "category": "Canción patriótica",
+      "difficulty": 3,
+      "order": 32,
+      "content": "El ejército del Ebro,\nrumba la rumba la rum bam bam.\nEl ejército del Ebro,\nrumba la rumba la rum bam bam.\nUna noche el río pasó,\n¡ay, Carmela! ¡Ay, Carmela!\nUna noche el río pasó,\n¡ay, Carmela! ¡Ay, Carmela!\n\nY a las tropas invasoras,\nrumba la rumba la rum bam bam.\nY a las tropas invasoras,\nrumba la rumba la rum bam bam.\nBuena paliza les dio,\n¡ay, Carmela! ¡Ay, Carmela!\nBuena paliza les dio,\n¡ay, Carmela! ¡Ay, Carmela!\n\nEl furor de los traidores,\nrumba la rumba la rum bam bam.\nEl furor de los traidores,\nrumba la rumba la rum bam bam.\nLo descarga su aviación,\n¡ay, Carmela! ¡Ay, Carmela!",
+      "characterCount": 592,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2106fb47-edc1-4ad6-9861-72fc680c6175",
+      "title": "La adelita (Tradicional mexicana)",
+      "category": "Corrido",
+      "difficulty": 3,
+      "order": 33,
+      "content": "En lo alto de la abrupta serranía\nacampado se encontraba un regimiento,\ny una moza que valiente lo seguía\nlocamente enamorada del sargento.\n\nPopular entre la tropa era Adelita,\nla mujer que el sargento idolatraba,\nque además de ser valiente era bonita,\nque hasta el mismo coronel la respetaba.\n\nSi Adelita se fuera con otro,\nla seguiría por tierra y por mar;\nsi por mar en un buque de guerra,\nsi por tierra en un tren militar.\n\nSi Adelita quisiera ser mi novia,\nsi Adelita fuera mi mujer,\nle compraría un vestido de seda\npara llevarla a bailar al cuartel.",
+      "characterCount": 555,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "27a5c2f6-459d-43fb-8c4f-3fcabc8569c2",
+      "title": "Las mañanitas (Tradicional mexicana)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 34,
+      "content": "Estas son las mañanitas\nque cantaba el rey David,\nhoy por ser día de tu santo\nte las cantamos a ti.\n\nDespierta, mi bien, despierta,\nmira que ya amaneció,\nya los pajarillos cantan,\nla luna ya se metió.\n\nQué linda está la mañana\nen que vengo a saludarte,\nvenimos todos con gusto\ny placer a felicitarte.\n\nEl día en que tú naciste\nnacieron todas las flores,\nen la pila del bautismo\ncantaron los ruiseñores.\n\nYa viene amaneciendo,\nya la luz del día nos dio.\nLevántate de mañana,\nmira que ya amaneció.",
+      "characterCount": 495,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "39a98773-cef3-4eb1-beaf-907faec7f970",
+      "title": "Mi caballo blanco (Tradicional chilena)",
+      "category": "Canción popular",
+      "difficulty": 3,
+      "order": 35,
+      "content": "Es mi caballo blanco\ncomo un amanecer,\nsiempre juntos vamos,\nes mi amigo más fiel.\n\nMi caballo, mi caballo\ngalopando va,\nmi caballo, mi caballo\nse va y se va.\n\nAh, qué lindo es\nmi caballo blanco,\ncabalgando siempre\njuntito a mí va.\n\nAh, qué lindo es\nmi caballo blanco,\nllévame hasta donde\nestá mi amor.\n\nEs mi caballo blanco\ncomo un amanecer,\nsiempre juntos vamos,\nes mi amigo más fiel.\n\nMi caballo, mi caballo\ngalopando va,\nmi caballo, mi caballo\nse va y se va.",
+      "characterCount": 462,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "cfa2c5c9-0f4c-4486-9151-b420623f6c0a",
+      "title": "Quisiera ser tan alta (Tradicional)",
+      "category": "Canción infantil",
+      "difficulty": 3,
+      "order": 36,
+      "content": "Quisiera ser tan alta\ncomo la luna,\n¡ay, ay!\ncomo la luna,\ncomo la luna.\n\nPara ver los soldados\nde Cataluña,\n¡ay, ay!\nde Cataluña,\nde Cataluña.\n\nDe Cataluña vengo\nde servir al rey,\n¡ay, ay!\nde servir al rey,\nde servir al rey.\n\nY traigo la licencia\nde mi coronel,\n¡ay, ay!\nde mi coronel,\nde mi coronel.\n\nAl pasar por el puente\nde Santa Clara,\n¡ay, ay!\nde Santa Clara,\nde Santa Clara.\n\nSe me cayó el anillo\ndentro del agua,\n¡ay, ay!\ndentro del agua,\ndentro del agua.",
+      "characterCount": 464,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "70a7861c-dbf2-46b8-8084-6b39e2b592f2",
+      "title": "Allá en el Rancho Grande (Tradicional mexicana)",
+      "category": "Ranchera",
+      "difficulty": 4,
+      "order": 37,
+      "content": "Allá en el Rancho Grande,\nallá donde vivía,\nhabía una rancherita\nque alegre me decía,\nque alegre me decía:\n\nTe voy a hacer tus calzones\ncomo los usa el ranchero,\nte los comienzo de lana,\nte los acabo de cuero.\n\nAllá en el Rancho Grande,\nallá donde vivía,\nhabía una rancherita\nque alegre me decía,\nque alegre me decía:\n\nNunca te fíes de promesas\nni mucho menos de amores,\nque si te dan calabazas\nverás lo que son ardores.\n\nAllá en el Rancho Grande,\nallá donde vivía,\nhabía una rancherita\nque alegre me decía,\nque alegre me decía:\n\nPonte la nagua planchada\ny el rebozo colorado,\nporque hoy vamos al pueblo\ny verás a tu cuñado.",
+      "characterCount": 624,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ac6a638c-72b7-4603-bfd3-0752af586217",
+      "title": "Clavelitos (Tradicional española)",
+      "category": "Canción popular",
+      "difficulty": 4,
+      "order": 38,
+      "content": "Clavelitos, clavelitos,\nclavelitos de mi corazón.\nYo te traigo clavelitos colorados\nigual que un botón.\n\nSi tú me das clavelitos\nde color de mi pasión,\nyo te daré clavelitos\ncolorados como el sol.\n\nCada vez que paso por tu puerta\ncojo un clavel del balcón,\ny me pongo a pensar si me quieres\no si no me quieres, vida de mi corazón.\n\nClavelitos, clavelitos,\nclavelitos de mi corazón.\nYo te traigo clavelitos colorados\nigual que un botón.\n\nPor la mañana temprano\ncuando amanece el sol,\nyo te llevo clavelitos\nde todos los colores.",
+      "characterCount": 527,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5a00fb50-4485-45f2-9ed0-2adb425d71ee",
+      "title": "El humahuaqueño (Tradicional argentina)",
+      "category": "Carnavalito",
+      "difficulty": 4,
+      "order": 39,
+      "content": "Llegando está el carnaval,\nquebradeño, mi cholitay,\nllegando está el carnaval,\nquebradeño, mi cholitay.\n\nFlor de cardón, flor de cardón,\ncanta, que hoy es carnaval.\nFlor de cardón, flor de cardón,\ncanta, que hoy es carnaval.\n\nErque, charango y bombo,\ncarnavalito para bailar.\nErque, charango y bombo,\ncarnavalito para bailar.\n\nQuebradeño, humahuaqueño,\nla fiesta vamos a celebrar.\nQuebradeño, humahuaqueño,\nla fiesta vamos a celebrar.\n\nFlor de cardón, flor de cardón,\ncanta, que hoy es carnaval.\nFlor de cardón, flor de cardón,\ncanta, que hoy es carnaval.",
+      "characterCount": 555,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d6b47fb6-3667-4e82-9607-46778927f83a",
+      "title": "Ojos azules (Tradicional boliviana)",
+      "category": "Huayño",
+      "difficulty": 4,
+      "order": 40,
+      "content": "Ojos azules no llores,\nno llores ni te entristezcas.\nOjos azules no llores,\nno llores ni te entristezcas.\n\nQue más tarde o más temprano\nyo he de ser para ti.\nQue más tarde o más temprano\nyo he de ser para ti.\n\nEn una copa de vino\nte he de brindar mi cariño.\nEn una copa de vino\nte he de brindar mi cariño.\n\nY en un vasito de chicha\nte entregaré el corazón.\nY en un vasito de chicha\nte entregaré el corazón.\n\nOjos azules no llores,\nno llores ni te entristezcas.\nVida te daré llorando\ny alma te daré muriendo.",
+      "characterCount": 507,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d0b2c5d9-7e1f-4d4a-8b6c-0f2e4d6c9b0d",
+      "title": "El rey del mundo (Copla flamenca tradicional)",
+      "category": "Copla flamenca",
+      "difficulty": 4,
+      "order": 41,
+      "content": "Dicen que no nos queremos\nporque no nos ven hablar;\na tu corazón y al mío\nse lo pueden preguntar.\n\nTus ojos y los míos\nse han enredado;\ncomo las zarzamoras\npor los vallados.\n\nYo no sé lo que tiene\nesa calle tan larga,\nque cada vez que paso\nme duele el alma.\n\nDe tu ventana a la mía\nme tiraste un limón;\nel limón cayó en la calle\ny el zumo en mi corazón.\n\nNi contigo ni sin ti\ntienen mis males remedio;\ncontigo porque me matas\ny sin ti porque me muero.\n\nQuién te puso petenera\nno supo ponerte nombre;\nte debía haber puesto\nla perdición de los hombres.",
+      "characterCount": 550,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e1c3d6e0-8f2a-4e5b-9c7d-1a3f5e7d0c1e",
+      "title": "Yo me enamoré del aire (Tradicional española)",
+      "category": "Canción popular",
+      "difficulty": 4,
+      "order": 42,
+      "content": "Yo me enamoré del aire,\ndel aire de una mujer;\ncomo la mujer es aire,\nen el aire me quedé.\n\nQué trabajo me cuesta\nquererte como te quiero;\npor una mirada tuya\nme hacen falta mil luceros.\n\nEn la calle donde vives\nvoy a mandar un bando:\nque ninguna se asome\nmientras yo esté pasando.\n\nA tu puerta hemos llegado,\ncuatrocientos en cuadrilla;\nsi quieres que te cantemos,\nsácanos cuatrocientas sillas.\n\nDicen que los celos matan;\nyo digo que no es verdad,\nporque yo estoy celoso\ny todavía sigo acá.\n\nDe los cuatro muleros\nque van al campo,\nel de la mula torda,\nmoreno y alto.",
+      "characterCount": 569,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9added6f-db1a-4bc0-aac1-9b66ae056319",
+      "title": "Asturias, patria querida (Tradicional asturiana)",
+      "category": "Canción regional",
+      "difficulty": 4,
+      "order": 43,
+      "content": "Asturias, patria querida,\nAsturias de mis amores.\n¡Quién estuviera en Asturias\nen todas las ocasiones!\n\nTengo de subir al árbol,\ntengo de coger la flor\ny dársela a mi morena\nque la ponga en el balcón.\n\nQue la ponga en el balcón,\nque la deje de poner;\nque la dé a quien ella quiera\nque a su gusto puede ser.\n\nAsturias, patria querida,\nAsturias de mis amores.\n¡Quién estuviera en Asturias\nen todas las ocasiones!\n\nPor más que el buitre se empine,\ny por más alto que vuele,\nal fin se viene a posar\nen el lugar que más quiere.\n\nAsturias, patria querida,\nAsturias de mis amores.\n¡Quién estuviera en Asturias\nen todas las ocasiones!",
+      "characterCount": 626,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1e525b33-c564-4627-bd7e-75384f19d384",
+      "title": "Los cuatro muleros (Tradicional andaluza)",
+      "category": "Canción popular",
+      "difficulty": 4,
+      "order": 44,
+      "content": "De los cuatro muleros\nque van al agua,\nel de la mula torda,\nmoreno y alto.\n\nDe los cuatro muleros\nque van al río,\nel de la mula torda\nes mi marido.\n\n¿A qué buscas la lumbre\nla calle arriba?\nSi la cara te alumbra,\nmoreno y alto.\n\nDe los cuatro muleros\nque van al agua,\nel de la mula torda,\nmoreno y alto.\n\nAy, que me he puesto colorada,\nay, que ya me puse morena.\nAy, que ya no tengo remedio,\nay, que ya no merezco pena.\n\nDe los cuatro muleros\nque van al campo,\nel de la mula torda,\nmoreno y alto.\n\nDe los cuatro muleros\nque van al agua,\nel de la mula torda\nme roba el alma.",
+      "characterCount": 573,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "203e9ef1-c700-4dcc-8933-28476ca3d838",
+      "title": "Ay, linda amiga (Tradicional sefardí)",
+      "category": "Canción sefardí",
+      "difficulty": 4,
+      "order": 45,
+      "content": "Ay, linda amiga que yo ya me voy,\nay, linda amiga de mí corazón.\n\nYo ya me voy a tierras lejanas\ny no sé cuándo volveré.\n\nDéjame llorar orillas del mar,\nquizás algún día te vuelva a encontrar.\n\nMás vale trocar\nplacer por dolores\nque estar sin amores.\n\nAy, linda amiga que yo ya me voy,\nay, linda amiga de mí corazón.\n\nPor las altas mares\nnavega mi pena,\ncon los marineros\nque cantan sirenas.\n\nAy, linda amiga que yo ya me voy,\nay, linda amiga de mí corazón.\nDéjame llorar orillas del mar,\nquizás algún día te vuelva a encontrar.",
+      "characterCount": 528,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f69a56bf-287a-4611-af90-f13595ba5d62",
+      "title": "Romance del Conde Olinos (Tradicional)",
+      "category": "Romance",
+      "difficulty": 5,
+      "order": 46,
+      "content": "Madrugaba el Conde Olinos,\nmañanita de San Juan,\na dar agua a su caballo\na las orillas del mar.\n\nMientras el caballo bebe,\nél se pone a cantar;\nlas aves que iban volando\nse paraban a escuchar.\n\nDesde la torre más alta\nla reina le oyó cantar:\n—Mira, hija, cómo canta\nla sirenita del mar.\n\n—No es la sirenita, madre,\nque esa tiene otro cantar;\nes la voz del Conde Olinos\nque por mí penando está.\n\n—Si es la voz del Conde Olinos,\nyo le mandaré matar;\nque para casar contigo\nle falta sangre real.\n\n—No le mande matar, madre,\nno le mande usted matar;\nque si mata al Conde Olinos\njuntos nos han de enterrar.\n\nÉl murió a la medianoche,\nella a los gallos cantar;\na ella como hija de reyes\nla entierran en el altar;\na él como hijo del conde\nunos pasos más atrás.",
+      "characterCount": 753,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d70cf031-b20a-4b22-8d85-4daaf0b06f9f",
+      "title": "La petenera (Tradicional andaluza)",
+      "category": "Copla flamenca",
+      "difficulty": 5,
+      "order": 47,
+      "content": "Quién te puso petenera\nno supo ponerte nombre,\nte debía haber puesto\nla perdición de los hombres.\n\nEn la calle de la pila,\nen la calle de la fuente,\nallí me enamoré un día\nde unos ojos relucientes.\n\nSoledad, Soledad,\nSoledad, qué desconsuelo,\ncomo soy de Cádiz\nnadie me quiere ya.\n\nTres morillas me enamoran\nen Jaén: Axa, Fátima y Marién.\nTres morillas tan garridas\niban a coger olivas,\ny hallábanlas cogidas\nen Jaén: Axa, Fátima y Marién.\n\nDicen que no me quieres,\nya me has querido;\nvayase lo ganado\npor lo perdido.\n\nNo hay camino más largo\nque el que no tiene fin,\nni pena más pesada\nque la que no tiene alivio.",
+      "characterCount": 614,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "95c9b3bf-acc6-4cfd-a453-701afcac7559",
+      "title": "La llorona (Tradicional oaxaqueña)",
+      "category": "Canción popular",
+      "difficulty": 5,
+      "order": 48,
+      "content": "Todos me dicen el negro, llorona,\nnegro pero cariñoso.\nTodos me dicen el negro, llorona,\nnegro pero cariñoso.\n\nYo soy como el chile verde, llorona,\npicante pero sabroso.\nYo soy como el chile verde, llorona,\npicante pero sabroso.\n\n¡Ay de mí, llorona,\nllorona de azul celeste!\n¡Ay de mí, llorona,\nllorona de azul celeste!\n\nY aunque la vida me cueste, llorona,\nno dejaré de quererte.\nY aunque la vida me cueste, llorona,\nno dejaré de quererte.\n\nSi porque te quiero, quieres, llorona,\nquieres que te quiera más.\nSi ya te he dado la vida, llorona,\n¿qué más quieres? ¿Qué más?\n\n¡Ay de mí, llorona,\nllorona, llévame al río!\nTápame con tu rebozo, llorona,\nporque me muero de frío.",
+      "characterCount": 672,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a8762f59-07ab-49e5-8497-7c15887414f6",
+      "title": "Romance de la luna, luna (Tradicional / García Lorca)",
+      "category": "Romance",
+      "difficulty": 5,
+      "order": 49,
+      "content": "La luna vino a la fragua\ncon su polisón de nardos.\nEl niño la mira, mira.\nEl niño la está mirando.\n\nEn el aire conmovido\nmueve la luna sus brazos\ny enseña, lúbrica y pura,\nsus senos de duro estaño.\n\nHuye luna, luna, luna.\nSi vinieran los gitanos,\nharían con tu corazón\ncollares y anillos blancos.\n\nNiño, déjame que baile.\nCuando vengan los gitanos,\nte encontrarán sobre el yunque\ncon los ojillos cerrados.\n\nHuye luna, luna, luna,\nque ya siento sus caballos.\nNiño, déjame, no pises\nmi blancor almidonado.\n\nEl jinete se acercaba\ntocando el tambor del llano.\nDentro de la fragua el niño\ntiene los ojos cerrados.\n\nPor el olivar venían,\nbronce y sueño, los gitanos.\nLas cabezas levantadas\ny los ojos entornados.\n\nEl aire la vela, vela.\nEl aire la está velando.",
+      "characterCount": 755,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b0f2a5b9-7c1d-4b4e-8f6a-0d2c4b6a9f0b",
+      "title": "Cantares (Antonio Machado - Dominio público)",
+      "category": "Canción popular",
+      "difficulty": 5,
+      "order": 50,
+      "content": "Todo pasa y todo queda,\npero lo nuestro es pasar,\npasar haciendo caminos,\ncaminos sobre la mar.\n\nNunca perseguí la gloria,\nni dejar en la memoria\nde los hombres mi canción;\nyo amo los mundos sutiles,\ningrávidos y gentiles,\ncomo pompas de jabón.\n\nCaminante, son tus huellas\nel camino y nada más;\ncaminante, no hay camino,\nse hace camino al andar.\n\nAl andar se hace camino\ny al volver la vista atrás\nse ve la senda que nunca\nse ha de volver a pisar.\n\nCaminante, no hay camino\nsino estelas en la mar.\n\nHace algún tiempo en ese lugar\ndonde hoy los bosques se visten de espinos,\nse oyó la voz de un poeta gritar:\ncaminante, no hay camino,\nse hace camino al andar.\n\nGolpe a golpe, verso a verso.",
+      "characterCount": 689,
+      "cjkCharCount": 0
+    }
+  ]
+}

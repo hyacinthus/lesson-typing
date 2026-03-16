@@ -1,0 +1,506 @@
+{
+  "id": "lyrics-8",
+  "title": "Liedtexte",
+  "lessons": [
+    {
+      "id": "d8403053-221e-49b5-9bb7-f49869174c64",
+      "title": "Alle meine Entchen (Volkslied)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Alle meine Entchen\nschwimmen auf dem See,\nschwimmen auf dem See,\nKöpfchen in das Wasser,\nSchwänzchen in die Höh'.",
+      "characterCount": 113,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6ed6210c-7404-4cb9-8c31-0037e1183914",
+      "title": "Hänschen klein (Franz Wiedemann)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Hänschen klein\nging allein\nin die weite Welt hinein.\nStock und Hut\nsteht ihm gut,\ner ist wohlgemut.\nAber Mutter weinet sehr,\nhat ja nun kein Hänschen mehr!\nDa besinnt\nsich das Kind,\nläuft nach Haus geschwind.",
+      "characterCount": 208,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "8af9b97c-aaa7-45d7-8cb7-b6bd4fc26adf",
+      "title": "Backe, backe Kuchen (Volkslied)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Backe, backe Kuchen,\nder Bäcker hat gerufen!\nWer will guten Kuchen backen,\nder muß haben sieben Sachen:\nEier und Schmalz,\nButter und Salz,\nMilch und Mehl,\nSafran macht den Kuchen gel!",
+      "characterCount": 183,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ac8192de-37f5-4566-8d0e-27de0137aca0",
+      "title": "Summ, summ, summ (Hoffmann von Fallersleben)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Summ, summ, summ,\nBienchen summ herum!\nEi, wir tun dir nichts zuleide,\nflieg nur aus in Wald und Heide!\nSumm, summ, summ,\nBienchen summ herum!\n\nSumm, summ, summ,\nBienchen summ herum!\nSuch in Blumen, such in Blümchen\ndir ein Tröpfchen, dir ein Krümchen!\nSumm, summ, summ,\nBienchen summ herum!",
+      "characterCount": 291,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "23641130-fb61-4e50-941a-b431ee2f764c",
+      "title": "Ein Männlein steht im Walde (Hoffmann von Fallersleben)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Ein Männlein steht im Walde\nganz still und stumm,\nes hat von lauter Purpur\nein Mäntlein um.\nSagt, wer mag das Männlein sein,\ndas da steht im Wald allein\nmit dem purpurroten Mäntelein?\n\nDas Männlein steht im Walde\nauf einem Bein\nund hat auf seinem Haupte\nschwarz Käpplein klein.\nSagt, wer mag das Männlein sein,\ndas da steht im Wald allein\nmit dem kleinen schwarzen Käppelein?",
+      "characterCount": 375,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a57e9ce3-a7df-46dd-ac19-d89a0a411afe",
+      "title": "Fuchs, du hast die Gans gestohlen (Ernst Anschütz)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Fuchs, du hast die Gans gestohlen,\ngib sie wieder her!\ngib sie wieder her!\nSonst wird dich der Jäger holen\nmit dem Schießgewehr.\nSonst wird dich der Jäger holen\nmit dem Schießgewehr.",
+      "characterCount": 182,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d2765965-42f6-430b-a65d-9e754fd01df6",
+      "title": "Hoppe, hoppe Reiter (Volkslied)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 7,
+      "content": "Hoppe, hoppe Reiter,\nwenn er fällt, dann schreit er,\nfällt er in den Graben,\nfressen ihn die Raben,\nfällt er in den Sumpf,\nmacht der Reiter plumps!",
+      "characterCount": 147,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "45f323ab-d517-4828-ad8e-aaa3f36cb719",
+      "title": "Kuckuck, Kuckuck, ruft's aus dem Wald (Hoffmann von Fallersleben)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 8,
+      "content": "Kuckuck, Kuckuck, ruft's aus dem Wald.\nLasset uns singen,\ntanzen und springen!\nFrühling, Frühling wird es nun bald.\n\nKuckuck, Kuckuck, läßt nicht sein Schrei'n:\nKomm in die Felder,\nWiesen und Wälder!\nFrühling, Frühling, stelle dich ein!\n\nKuckuck, Kuckuck, trefflicher Held!\nWas du gesungen,\nist dir gelungen:\nWinter, Winter räumet das Feld!",
+      "characterCount": 340,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9fd6c500-0241-4cb9-a1bd-1eceb0470484",
+      "title": "Schlaf, Kindlein, schlaf (Volkslied)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Schlaf, Kindlein, schlaf!\nDer Vater hüt' die Schaf,\ndie Mutter schüttelts Bäumelein,\nda fällt herab ein Träumelein.\nSchlaf, Kindlein, schlaf!\n\nSchlaf, Kindlein, schlaf!\nAm Himmel ziehn die Schaf,\ndie Sternlein sind die Lämmerlein,\nder Mond, der ist das Schäferlein.\nSchlaf, Kindlein, schlaf!",
+      "characterCount": 291,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1fe001de-cf0f-481e-9d81-d2912d350c77",
+      "title": "Wer hat die schönsten Schäfchen (Hoffmann von Fallersleben)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 10,
+      "content": "Wer hat die schönsten Schäfchen?\nDie hat der goldne Mond,\nder hinter unsern Bäumen\nam Himmel droben wohnt.\n\nEr kommt am späten Abend,\nwenn alles schlafen will,\nhervor aus seinem Hause\nzum Himmel leis und still.",
+      "characterCount": 210,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "afeb13d2-f366-41da-a456-9e4ef22372e4",
+      "title": "Mein Hut, der hat drei Ecken (Volkslied)",
+      "category": "Kinderlied",
+      "difficulty": 1,
+      "order": 11,
+      "content": "Mein Hut, der hat drei Ecken,\ndrei Ecken hat mein Hut,\nund hätt' er nicht drei Ecken,\nso wär' er nicht mein Hut.",
+      "characterCount": 112,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1bafac41-2382-481e-a3f8-4e738792c6da",
+      "title": "Der Mond ist aufgegangen (Matthias Claudius)",
+      "category": "Abendlied",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Der Mond ist aufgegangen,\ndie goldnen Sternlein prangen\nam Himmel hell und klar;\nder Wald steht schwarz und schweiget,\nund aus den Wiesen steiget\nder weiße Nebel wunderbar.\n\nWie ist die Welt so stille,\nund in der Dämmrung Hülle\nso traulich und so hold!\nAls eine stille Kammer,\nwo ihr des Tages Jammer\nverschlafen und vergessen sollt.\n\nSo legt euch denn, ihr Brüder,\nin Gottes Namen nieder;\nkalt ist der Abendhauch.\nVerschon uns, Gott! mit Strafen,\nund laß uns ruhig schlafen!\nUnd unsern kranken Nachbar auch!",
+      "characterCount": 508,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "95a89a92-1195-43b6-b024-3e23ed04fd1e",
+      "title": "O Tannenbaum (Volkslied)",
+      "category": "Weihnachtslied",
+      "difficulty": 2,
+      "order": 13,
+      "content": "O Tannenbaum, o Tannenbaum,\nwie treu sind deine Blätter!\nDu grünst nicht nur zur Sommerzeit,\nnein, auch im Winter, wenn es schneit.\nO Tannenbaum, o Tannenbaum,\nwie treu sind deine Blätter!\n\nO Tannenbaum, o Tannenbaum,\ndu kannst mir sehr gefallen!\nWie oft hat nicht zur Weihnachtszeit\nein Baum von dir mich hoch erfreut!\nO Tannenbaum, o Tannenbaum,\ndu kannst mir sehr gefallen!\n\nO Tannenbaum, o Tannenbaum,\ndein Kleid will mich was lehren:\nDie Hoffnung und Beständigkeit\ngibt Trost und Kraft zu jeder Zeit.\nO Tannenbaum, o Tannenbaum,\ndein Kleid will mich was lehren!",
+      "characterCount": 566,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7f21cc97-fa73-48b2-aed0-730687310494",
+      "title": "Stille Nacht (Joseph Mohr)",
+      "category": "Weihnachtslied",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Stille Nacht, heilige Nacht!\nAlles schläft, einsam wacht\nnur das traute, hochheilige Paar.\nHolder Knabe im lockigen Haar,\nschlaf in himmlischer Ruh,\nschlaf in himmlischer Ruh!\n\nStille Nacht, heilige Nacht!\nGottes Sohn, o wie lacht\nLieb' aus deinem göttlichen Mund,\nda uns schlägt die rettende Stund',\nChrist, in deiner Geburt,\nChrist, in deiner Geburt!\n\nStille Nacht, heilige Nacht!\nHirten erst kundgemacht;\ndurch der Engel Halleluja\ntönt es laut von fern und nah:\nChrist, der Retter, ist da,\nChrist, der Retter, ist da!",
+      "characterCount": 520,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ae2452fa-ebe3-4476-ba2c-0515279f8e8d",
+      "title": "O du fröhliche (Johannes Daniel Falk)",
+      "category": "Weihnachtslied",
+      "difficulty": 2,
+      "order": 15,
+      "content": "O du fröhliche, o du selige,\ngnadenbringende Weihnachtszeit!\nWelt ging verloren, Christ ist geboren:\nFreue, freue dich, o Christenheit!\n\nO du fröhliche, o du selige,\ngnadenbringende Weihnachtszeit!\nChrist ist erschienen, uns zu versühnen:\nFreue, freue dich, o Christenheit!\n\nO du fröhliche, o du selige,\ngnadenbringende Weihnachtszeit!\nHimmlische Heere jauchzen dir Ehre:\nFreue, freue dich, o Christenheit!",
+      "characterCount": 406,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0e15fe95-202d-4b7e-9d43-0d3e2d94f8a8",
+      "title": "Leise rieselt der Schnee (Eduard Ebel)",
+      "category": "Weihnachtslied",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Leise rieselt der Schnee,\nstill und starr ruht der See,\nweihnachtlich glänzet der Wald:\nFreue dich, Christkind kommt bald!\n\nIn den Herzen ist's warm,\nstill schweigt Kummer und Harm,\nSorge des Lebens verhallt:\nFreue dich, Christkind kommt bald!\n\nBald ist heilige Nacht,\nChor der Engel erwacht,\nhört nur, wie lieblich es schallt:\nFreue dich, Christkind kommt bald!",
+      "characterCount": 362,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4f2a9f5d-be36-471a-b44f-b0d0cc0b11d2",
+      "title": "Ihr Kinderlein, kommet (Christoph von Schmid)",
+      "category": "Weihnachtslied",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Ihr Kinderlein, kommet, o kommet doch all!\nZur Krippe her kommet in Bethlehems Stall\nund seht, was in dieser hochheiligen Nacht\nder Vater im Himmel für Freude uns macht.\n\nO seht in der Krippe im nächtlichen Stall,\nseht hier bei des Lichtleins hellglänzendem Strahl\nin reinlichen Windeln das himmlische Kind,\nviel schöner und holder, als Engel es sind.",
+      "characterCount": 351,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "85a98116-b0fd-4bf6-af4c-087e91e16a5a",
+      "title": "Heidenröslein (Johann Wolfgang von Goethe)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 18,
+      "content": "Sah ein Knab' ein Röslein stehn,\nRöslein auf der Heiden,\nwar so jung und morgenschön,\nlief er schnell, es nah zu sehn,\nsah's mit vielen Freuden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.\n\nKnabe sprach: Ich breche dich,\nRöslein auf der Heiden!\nRöslein sprach: Ich steche dich,\ndaß du ewig denkst an mich,\nund ich will's nicht leiden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.\n\nUnd der wilde Knabe brach\n's Röslein auf der Heiden;\nRöslein wehrte sich und stach,\nhalf ihm doch kein Weh und Ach,\nmußt es eben leiden.\nRöslein, Röslein, Röslein rot,\nRöslein auf der Heiden.",
+      "characterCount": 593,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4f72fd27-dc45-4699-aeae-5fc5bb777196",
+      "title": "Es klappert die Mühle am rauschenden Bach (Ernst Anschütz)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 19,
+      "content": "Es klappert die Mühle am rauschenden Bach,\nklipp klapp!\nBei Tag und bei Nacht ist der Müller stets wach,\nklipp klapp!\nEr mahlet das Korn zu dem kräftigen Brot,\nund haben wir dieses, so hat's keine Not.\nKlipp klapp, klipp klapp, klipp klapp!\n\nFlink laufen die Räder und drehen den Stein,\nklipp klapp!\nund mahlen den Weizen zu Mehl uns so fein,\nklipp klapp!\nDer Bäcker dann Zwieback und Kuchen draus bäckt,\nder immer den Kindern besonders gut schmeckt.\nKlipp klapp, klipp klapp, klipp klapp!",
+      "characterCount": 489,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "59d6a522-2272-47e0-a329-20fa98b9e532",
+      "title": "Das Wandern ist des Müllers Lust (Wilhelm Müller)",
+      "category": "Wanderlied",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Das Wandern ist des Müllers Lust,\ndas Wandern!\nDas muß ein schlechter Müller sein,\ndem niemals fiel das Wandern ein,\ndas Wandern.\n\nVom Wasser haben wir's gelernt,\nvom Wasser!\nDas hat nicht Rast bei Tag und Nacht,\nist stets auf Wanderschaft bedacht,\ndas Wasser.\n\nDas sehn wir auch den Rädern ab,\nden Rädern!\nDie gar nicht gerne stille stehn,\ndie sich mein Tag nicht müde drehn,\ndie Räder.",
+      "characterCount": 387,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "8316dc91-6a46-45c5-b615-94d417023b01",
+      "title": "Wenn ich ein Vöglein wär' (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 21,
+      "content": "Wenn ich ein Vöglein wär'\nund auch zwei Flüglein hätt',\nflög' ich zu dir;\nweil's aber nicht kann sein,\nbleib' ich allhier.\n\nBin ich gleich weit von dir,\nbin ich doch im Schlaf bei dir\nund red' mit dir;\nwenn ich erwachen tu',\nbin ich allein.\n\nEs vergeht kein' Stund' in der Nacht,\nda nicht mein Herz erwacht\nund an dich denkt,\ndaß du mir viel tausendmal\ndein Herz geschenkt.",
+      "characterCount": 373,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "868b120c-ce67-4011-8c15-75e67a3b5baa",
+      "title": "Kein schöner Land in dieser Zeit (Anton Wilhelm von Zuccalmaglio)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 22,
+      "content": "Kein schöner Land in dieser Zeit,\nals hier das unsre weit und breit,\nwo wir uns finden\nwohl unter Linden\nzur Abendzeit.\n\nDa haben wir so manche Stund'\ngesessen da in froher Rund'\nund taten singen;\ndie Lieder klingen\nim Eichengrund.\n\nDaß wir uns hier in diesem Tal\nnoch treffen so viel hundertmal,\nGott mag es schenken,\nGott mag es lenken,\ner hat die Gnad'.",
+      "characterCount": 356,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f0c24188-eeb0-4fb3-9a62-3a0ca7a0a59e",
+      "title": "Im schönsten Wiesengrunde (Wilhelm Ganzhorn)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 23,
+      "content": "Im schönsten Wiesengrunde\nist meiner Heimat Haus;\nda zog ich manche Stunde\nins Tal hinaus.\n\nDich, mein stilles Tal,\ngrüß ich tausendmal!\nDa zog ich manche Stunde\nins Tal hinaus.\n\nMußt aus dem Tal jetzt scheiden,\nwo alles Lust und Klang;\ndas ist mein herbstes Leiden,\nmein letzter Gang.\n\nDich, mein stilles Tal,\ngrüß ich tausendmal!\nDas ist mein herbstes Leiden,\nmein letzter Gang.",
+      "characterCount": 380,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4a2c779c-ea20-4032-8f96-2898d44324e4",
+      "title": "Guten Abend, gut' Nacht (Wiegenlied, Volkslied)",
+      "category": "Kinderlied",
+      "difficulty": 2,
+      "order": 24,
+      "content": "Guten Abend, gut' Nacht,\nmit Rosen bedacht,\nmit Näglein besteckt,\nschlüpf unter die Deck':\nMorgen früh, wenn Gott will,\nwirst du wieder geweckt.\n\nGuten Abend, gut' Nacht,\nvon Englein bewacht,\ndie zeigen im Traum\ndir Christkindleins Baum:\nSchlaf nun selig und süß,\nschau im Traum's Paradies.",
+      "characterCount": 290,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6ff42d69-0254-4b80-9fa8-c20d701e642a",
+      "title": "Kommt ein Vogel geflogen (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 25,
+      "content": "Kommt ein Vogel geflogen,\nsetzt sich nieder auf mein' Fuß,\nhat ein Zettel im Schnabel,\nvon der Mutter einen Gruß.\n\nLieber Vogel, fliege weiter,\nnimm ein' Gruß mit und ein' Kuß,\ndenn ich kann dich nicht begleiten,\nweil ich hier bleiben muß.",
+      "characterCount": 239,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5a3d7ee6-2f60-4f39-baf5-4c6dfcd81c22",
+      "title": "Weißt du, wieviel Sternlein stehen (Wilhelm Hey)",
+      "category": "Kinderlied",
+      "difficulty": 2,
+      "order": 26,
+      "content": "Weißt du, wieviel Sternlein stehen\nan dem blauen Himmelszelt?\nWeißt du, wieviel Wolken gehen\nweithin über alle Welt?\nGott der Herr hat sie gezählet,\ndaß ihm auch nicht eines fehlet\nan der ganzen großen Zahl.\n\nWeißt du, wieviel Mücklein spielen\nin der heißen Sonnenglut?\nWieviel Fischlein auch sich kühlen\nin der hellen Wasserflut?\nGott der Herr rief sie mit Namen,\ndaß sie all ins Leben kamen,\ndaß sie nun so fröhlich sind.",
+      "characterCount": 423,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6ea32a08-7bd6-48a1-8d00-59df14abdfbc",
+      "title": "Horch, was kommt von draußen rein (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 27,
+      "content": "Horch, was kommt von draußen rein?\nHollahi, hollaho!\nWird wohl mein Feinsliebchen sein,\nhollahiaho!\nGeht vorbei und schaut nicht rein,\nhollahi, hollaho!\nWird's wohl nicht gewesen sein,\nhollahiaho!\n\nLeute haben's oft gesagt,\nhollahi, hollaho!\ndaß ich ein Feinsliebchen hab',\nhollahiaho!\nLaß sie reden, schweig fein still,\nhollahi, hollaho!\nkann ja lieben, wen ich will,\nhollahiaho!",
+      "characterCount": 380,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "97e374f3-2958-4aa3-9125-ac35738a400c",
+      "title": "Ich hatt' einen Kameraden (Ludwig Uhland)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 28,
+      "content": "Ich hatt' einen Kameraden,\neinen bessern findst du nit.\nDie Trommel schlug zum Streite,\ner ging an meiner Seite\nin gleichem Schritt und Tritt.\n\nEine Kugel kam geflogen:\nGilt's mir oder gilt es dir?\nIhn hat es weggerissen,\ner liegt mir vor den Füßen,\nals wär's ein Stück von mir.\n\nWill mir die Hand noch reichen,\nderweil ich eben lad'.\nKann dir die Hand nicht geben;\nbleib du im ew'gen Leben\nmein guter Kamerad!",
+      "characterCount": 410,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d31835c6-0f1a-455a-b379-769d0ca252b8",
+      "title": "Im Frühtau zu Berge (schwedisches Volkslied, dt. Text)",
+      "category": "Wanderlied",
+      "difficulty": 2,
+      "order": 29,
+      "content": "Im Frühtau zu Berge wir ziehn, fallera,\nes grünen alle Wälder, alle Höhn, fallera.\nWir wandern ohne Sorgen,\nsingend in den Morgen,\nnoch ehe im Tale die Hähne krähn.\n\nIhr alten und ihr jungen Leute, fallera,\nlaßt doch das Grübeln sein, fallera!\nDas Schwinden und das Sorgen,\nlaßt es bis morgen,\nheut ist ja ein so herrlicher Tag.",
+      "characterCount": 328,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "25dbd2ac-9f89-4609-9b42-da3b51b2043c",
+      "title": "Auf einem Baum ein Kuckuck saß (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 30,
+      "content": "Auf einem Baum ein Kuckuck,\nsimsalabimbambasaladusaladim,\nauf einem Baum ein Kuckuck saß.\n\nDa kam ein junger Jäger,\nsimsalabimbambasaladusaladim,\nda kam ein junger Jägersmann.\n\nDer schoß den armen Kuckuck,\nsimsalabimbambasaladusaladim,\nder schoß den armen Kuckuck tot.\n\nUnd als ein Jahr vergangen,\nsimsalabimbambasaladusaladim,\nda war der Kuckuck wieder da.",
+      "characterCount": 357,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "bbda571a-bed8-4984-a69b-4e719c1804f6",
+      "title": "Nun ade, du mein lieb Heimatland (August Disselhoff)",
+      "category": "Volkslied",
+      "difficulty": 2,
+      "order": 31,
+      "content": "Nun ade, du mein lieb Heimatland,\nlieb Heimatland, ade!\nEs geht jetzt fort zum fernen Strand,\nlieb Heimatland, ade!\nUnd so sing ich denn mit frohem Mut,\nwie man singet, wenn man wandern tut,\nlieb Heimatland, ade!",
+      "characterCount": 212,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5d0cd5ac-6482-47e2-83a8-9868db66ee11",
+      "title": "Ich weiß nicht, was soll es bedeuten – Die Lorelei (Heinrich Heine)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 32,
+      "content": "Ich weiß nicht, was soll es bedeuten,\ndaß ich so traurig bin;\nein Märchen aus alten Zeiten,\ndas kommt mir nicht aus dem Sinn.\n\nDie Luft ist kühl und es dunkelt,\nund ruhig fließt der Rhein;\nder Gipfel des Berges funkelt\nim Abendsonnenschein.\n\nDie schönste Jungfrau sitzet\ndort oben wunderbar;\nihr goldnes Geschmeide blitzet,\nsie kämmt ihr goldenes Haar.\n\nSie kämmt es mit goldenem Kamme\nund singt ein Lied dabei;\ndas hat eine wundersame,\ngewaltige Melodei.\n\nDen Schiffer im kleinen Schiffe\nergreift es mit wildem Weh;\ner schaut nicht die Felsenriffe,\ner schaut nur hinauf in die Höh'.\n\nIch glaube, die Wellen verschlingen\nam Ende Schiffer und Kahn;\nund das hat mit ihrem Singen\ndie Lorelei getan.",
+      "characterCount": 695,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9db557d9-7e54-4b40-ba8a-f80bd076fa33",
+      "title": "Am Brunnen vor dem Tore (Wilhelm Müller)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 33,
+      "content": "Am Brunnen vor dem Tore,\nda steht ein Lindenbaum;\nich träumt' in seinem Schatten\nso manchen süßen Traum.\n\nIch schnitt in seine Rinde\nso manches liebe Wort;\nes zog in Freud und Leide\nzu ihm mich immer fort.\n\nIch mußt' auch heute wandern\nvorbei in tiefer Nacht,\nda hab' ich noch im Dunkel\ndie Augen zugemacht.\n\nUnd seine Zweige rauschten,\nals riefen sie mir zu:\nKomm her zu mir, Geselle,\nhier findst du deine Ruh!\n\nDie kalten Winde bliesen\nmir grad ins Angesicht;\nder Hut flog mir vom Kopfe,\nich wendete mich nicht.\n\nNun bin ich manche Stunde\nentfernt von jenem Ort,\nund immer hör' ich's rauschen:\nDu fändest Ruhe dort!",
+      "characterCount": 617,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a5a24931-36ab-4089-8db8-6cb15bafd505",
+      "title": "Ännchen von Tharau (Simon Dach)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 34,
+      "content": "Ännchen von Tharau ist's, die mir gefällt,\nsie ist mein Leben, mein Gut und mein Geld.\n\nÄnnchen von Tharau hat wieder ihr Herz\nauf mich gerichtet in Lieb' und in Schmerz.\n\nÄnnchen von Tharau, mein Reichtum, mein Gut,\ndu meine Seele, mein Fleisch und mein Blut!\n\nKäm' alles Wetter gleich auf uns zu schlahn,\nwir sind gesinnt, beieinander zu stahn.\n\nKrankheit, Verfolgung, Betrübnis und Pein,\nsoll unsrer Liebe Verknotigung sein.\n\nRecht als ein Palmenbaum über sich steigt,\nje mehr ihn Hagel und Regen anficht,\nso wird die Lieb' in uns mächtig und groß\ndurch Kreuz, durch Leiden, durch allerlei Not.",
+      "characterCount": 597,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2a6ee52f-7225-4a38-a97e-e1196f3858de",
+      "title": "Muß i denn, muß i denn zum Städtele hinaus (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 35,
+      "content": "Muß i denn, muß i denn zum Städtele hinaus,\nStädtele hinaus, und du, mein Schatz, bleibst hier!\nWenn i komm, wenn i komm, wenn i wieder, wieder komm,\nwieder, wieder komm, kehr i ein, mein Schatz, bei dir.\nKann i gleich net allweil bei dir sein,\nhan i doch mein Freud an dir;\nwenn i komm, wenn i komm, wenn i wieder, wieder komm,\nwieder, wieder komm, kehr i ein, mein Schatz, bei dir.",
+      "characterCount": 383,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "93e600ed-51c2-4c8d-9b27-cc79489af2cd",
+      "title": "Die Gedanken sind frei (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 36,
+      "content": "Die Gedanken sind frei,\nwer kann sie erraten,\nsie fliehen vorbei\nwie nächtliche Schatten.\nKein Mensch kann sie wissen,\nkein Jäger erschießen.\nEs bleibet dabei:\nDie Gedanken sind frei!\n\nIch denke, was ich will,\nund was mich beglücket,\ndoch alles in der Still',\nund wie es sich schicket.\nMein Wunsch und Begehren\nkann niemand verwehren.\nEs bleibet dabei:\nDie Gedanken sind frei!\n\nUnd sperrt man mich ein\nim finsteren Kerker,\ndas alles sind rein\nvergebliche Werke;\ndenn meine Gedanken\nzerreißen die Schranken\nund Mauern entzwei:\nDie Gedanken sind frei!",
+      "characterCount": 549,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e902d13a-c0f5-46a4-b0b9-160a85b9e741",
+      "title": "Es waren zwei Königskinder (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 37,
+      "content": "Es waren zwei Königskinder,\ndie hatten einander so lieb,\nsie konnten zusammen nicht kommen,\ndas Wasser war viel zu tief.\n\nAch Liebster, könntest du schwimmen,\nso schwimm doch herüber zu mir!\nDrei Kerzen will ich anzünden,\nund die sollen leuchten dir.\n\nDas hört' eine falsche Nonne,\ndie tat, als wenn sie schlief;\nsie tat die Kerzen auslöschen,\nder Jüngling ertrank so tief.\n\nEin Fischer wohl fischte lange,\nbis er den Toten fand;\ner bracht' ihn zu der Königstochter:\nIst das nicht euer Galant?",
+      "characterCount": 493,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "95c154f7-df03-45b4-a7e3-47b6b1ddd55c",
+      "title": "Wem Gott will rechte Gunst erweisen (Joseph von Eichendorff)",
+      "category": "Wanderlied",
+      "difficulty": 3,
+      "order": 38,
+      "content": "Wem Gott will rechte Gunst erweisen,\nden schickt er in die weite Welt,\ndem will er seine Wunder weisen\nin Berg und Wald und Strom und Feld.\n\nDie Trägen, die zu Hause liegen,\nerquicket nicht das Morgenrot;\nsie wissen nur von Kinderwiegen,\nvon Sorgen, Last und Not um Brot.\n\nDie Bächlein von den Bergen springen,\ndie Lerchen schwirren hoch vor Lust,\nwas sollt' ich nicht mit ihnen singen\naus voller Kehl' und frischer Brust?\n\nDen lieben Gott laß ich nur walten;\nder Bächlein, Lerchen, Wald und Feld\nund Erd' und Himmel will erhalten,\nhat auch mein' Sach' aufs Best' bestellt!",
+      "characterCount": 573,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c1916d67-cee1-4406-990d-e84bb95730a7",
+      "title": "Wohlauf, die Luft geht frisch und rein (Joseph Victor von Scheffel)",
+      "category": "Wanderlied",
+      "difficulty": 3,
+      "order": 39,
+      "content": "Wohlauf, die Luft geht frisch und rein,\nwer lange sitzt, muß rosten;\nden allerschönsten Sonnenschein\nläßt uns der Himmel kosten.\nJetzt reicht mir Stab und Ordenskleid\nder fahrenden Scholaren;\nich will zur schönen Sommerzeit\nins Land der Franken fahren!\n\nValeri, valera, valeri, valera,\nins Land der Franken fahren!\n\nZu Würzburg auf der Festung droben,\nda sieht man Frankenland zu Füßen,\ndrum hat der liebe Gott sie eben\nso hoch da oben hingesetzt.\nValeri, valera, valeri, valera,\nso hoch da oben hingesetzt!",
+      "characterCount": 507,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6c01afca-8af6-4977-b534-8e33a7638eb9",
+      "title": "Gaudeamus igitur (Studentenlied)",
+      "category": "Studentenlied",
+      "difficulty": 3,
+      "order": 40,
+      "content": "Gaudeamus igitur,\njuvenes dum sumus!\nPost jucundam juventutem,\npost molestam senectutem\nnos habebit humus.\n\nUbi sunt, qui ante nos\nin mundo fuere?\nVadite ad superos,\ntransite ad inferos,\nubi jam fuere.\n\nVita nostra brevis est,\nbrevi finietur;\nvenit mors velociter,\nrapit nos atrociter;\nnemini parcetur.\n\nVivat academia,\nvivant professores!\nVivat membrum quodlibet,\nvivant membra quaelibet,\nsemper sint in flore!",
+      "characterCount": 411,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c74d9c73-034d-468f-8870-7a4fac710e30",
+      "title": "Morgen muß ich fort von hier (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 41,
+      "content": "Morgen muß ich fort von hier\nund muß Abschied nehmen;\no du allerschönste Zier,\nScheiden, das bringt Grämen.\nDa ich dich so treu geliebt\nüber alle Maßen,\nsoll ich dich verlassen.\n\nWenn zwei gute Freunde sind,\ndie einander kennen,\nSonn' und Mond bewegen sich,\nehe sie sich trennen.\nNoch viel größer ist der Schmerz,\nwenn ein treu verliebtes Herz\nin die Fremde ziehet.",
+      "characterCount": 365,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "567c446c-5009-4f74-9e83-fa010b8ba00b",
+      "title": "Es zogen drei Burschen wohl über den Rhein (Ludwig Uhland)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 42,
+      "content": "Es zogen drei Burschen wohl über den Rhein,\nbei einer Frau Wirtin, da kehrten sie ein.\n\nFrau Wirtin, hat Sie gut Bier und Wein?\nWo hat Sie Ihr schönes Töchterlein?\n\nMein Bier und Wein ist frisch und klar,\nmein Töchterlein liegt auf der Totenbahr.\n\nUnd als sie traten zur Kammer hinein,\nda lag sie in einem schwarzen Schrein.\n\nDer erste, der schlug den Schleier zurück\nund schaute sie an mit traurigem Blick:\n\nAch lebtest du noch, du schöne Maid!\nIch würde dich lieben von dieser Zeit.\n\nDer zweite deckte den Schleier zu\nund kehrte sich ab und weinte dazu:\n\nAch, daß du liegst auf der Totenbahr!\nIch hab dich geliebet so manches Jahr.\n\nDer dritte hub ihn wieder sogleich\nund küßte sie an den Mund so bleich:\n\nDich liebt ich immer, dich lieb ich noch heut\nund werde dich lieben in Ewigkeit.",
+      "characterCount": 788,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ac47d73f-2cda-4839-939c-f1ffe2a4a93f",
+      "title": "Zu Straßburg auf der Schanz (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 43,
+      "content": "Zu Straßburg auf der Schanz,\nda ging mein Trauern an;\ndas Alphorn hört' ich drüben wohl anstimmen,\nins Vaterland mußt' ich hinüberschwimmen,\ndas ging ja nicht an.\n\nEin Stund' in der Nacht,\nsia haben mich gebracht;\nsie führten mich gleich vor des Hauptmanns Haus,\nach Gott, sie fischten mich im Strome aus,\nmit mir ist es aus.\n\nFrühmorgens um zehn Uhr\nstellt man mich vor das Regiment;\nich soll da bitten um Pardon,\nund ich bekomm doch meinen Lohn,\ndas weiß ich schon.",
+      "characterCount": 467,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b31bd349-b5df-4836-8b7c-214d9f3b2bcc",
+      "title": "Innsbruck, ich muß dich lassen (Heinrich Isaac)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 44,
+      "content": "Innsbruck, ich muß dich lassen,\nich fahr dahin mein Straßen,\nin fremde Land dahin.\nMein Freud ist mir genommen,\ndie ich nicht weiß bekommen,\nwo ich im Elend bin.\n\nGroß Leid muß ich jetzt tragen,\ndas ich allein tu klagen\ndem liebsten Buhlen mein.\nAch Lieb, nun laß mich Armen\nim Herzen dein erbarmen,\ndaß ich muß dannen sein.\n\nMein Trost ob allen Weiben,\ndein tu ich ewig bleiben,\nstet, treu, der Ehren fromm.\nNun muß dich Gott bewahren,\nin aller Tugend sparen,\nbis daß ich wiederkomm.",
+      "characterCount": 484,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "bc4f4a4e-d691-467d-ac5a-adbcfac0400d",
+      "title": "Es ist ein Ros' entsprungen (Volkslied, 16. Jh.)",
+      "category": "Weihnachtslied",
+      "difficulty": 3,
+      "order": 45,
+      "content": "Es ist ein Ros' entsprungen\naus einer Wurzel zart,\nwie uns die Alten sungen,\nvon Jesse kam die Art\nund hat ein Blümlein bracht\nmitten im kalten Winter\nwohl zu der halben Nacht.\n\nDas Röslein, das ich meine,\ndavon Jesaja sagt,\nist Maria, die Reine,\ndie uns das Blümlein bracht.\nAus Gottes ew'gem Rat\nhat sie ein Kind geboren,\nwohl zu der halben Nacht.",
+      "characterCount": 349,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a69d8da4-e803-493a-ac9f-b030895790d2",
+      "title": "Die Vogelhochzeit (Volkslied)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 46,
+      "content": "Ein Vogel wollte Hochzeit machen\nin dem grünen Walde.\nFidiralala, fidiralala, fidiralalala!\n\nDie Drossel war der Bräutigam,\ndie Amsel war die Braute.\nFidiralala, fidiralala, fidiralalala!\n\nDer Sperber, der Sperber,\nder war der Hochzeitswerber.\nFidiralala, fidiralala, fidiralalala!\n\nDie Lerche, die Lerche,\ndie führt die Braut zur Kerche.\nFidiralala, fidiralala, fidiralalala!\n\nDer Auerhahn, der Auerhahn,\nder war der Küster und Kaplan.\nFidiralala, fidiralala, fidiralalala!\n\nDie Meise, die Meise,\ndie sang das Kyrieleise.\nFidiralala, fidiralala, fidiralalala!\n\nNun ist die Vogelhochzeit aus,\nund alle ziehn vergnügt nach Haus.\nFidiralala, fidiralala, fidiralalala!",
+      "characterCount": 665,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "196e9eca-7ebf-49b7-b22d-e658bb14addf",
+      "title": "Ach, wie ist's möglich dann (Volkslied / Helmina von Chézy)",
+      "category": "Volkslied",
+      "difficulty": 3,
+      "order": 47,
+      "content": "Ach, wie ist's möglich dann,\ndaß ich dich lassen kann!\nHab dich von Herzen lieb,\ndas glaube mir!\nDu hast die Seele mein\nso ganz genommen ein,\ndaß ich kein andre lieb'\nals dich allein.\n\nBlau ist ein Blümelein,\ndas heißt Vergißnichtmein;\ndies Blümlein leg ans Herz\nund denk an mich!\nStirbt Blum' und Hoffnung gleich,\nwir sind an Liebe reich;\ndenn die stirbt nie bei mir,\ndas glaube mir.\n\nWär' ich ein Vögelein,\nwollt' ich bald bei dir sein,\nscheut' Falk und Habicht nicht,\nflög schnell zu dir!\nSchöss' mich ein Jäger tot,\nfiel ich in deinen Schoß;\nsähst du mich traurig an,\ngern stürb ich dann.",
+      "characterCount": 592,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7df9faea-f90b-4ff2-a7b4-4f31d553a939",
+      "title": "Freut euch des Lebens (Johann Martin Usteri)",
+      "category": "Gesellschaftslied",
+      "difficulty": 4,
+      "order": 48,
+      "content": "Freut euch des Lebens,\nweil noch das Lämpchen glüht;\npflücket die Rose,\neh sie verblüht!\n\nWer Neid und Mißgunst sorgsam flieht\nund Genügsamkeit im Gärtchen zieht,\ndem schießt sie bald zum Bäumchen auf,\ndas goldne Früchte trägt.\nFreut euch des Lebens,\nweil noch das Lämpchen glüht;\npflücket die Rose,\neh sie verblüht!\n\nWer Redlichkeit und Treue übt\nund gern dem ärmern Bruder gibt,\nbei dem baut sich Zufriedenheit\nso gern ihr Hüttchen auf.\nFreut euch des Lebens,\nweil noch das Lämpchen glüht;\npflücket die Rose,\neh sie verblüht!",
+      "characterCount": 527,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1391fc08-2ab4-48f9-8c94-c1b7d2194580",
+      "title": "Hoch auf dem gelben Wagen (Rudolf Baumbach)",
+      "category": "Wanderlied",
+      "difficulty": 4,
+      "order": 49,
+      "content": "Hoch auf dem gelben Wagen\nsitz ich beim Schwager vorn.\nVorwärts die Rosse traben,\nlustig schmettert das Horn.\nBerge und Täler und Auen,\nleuchtendes Ährengold.\nMöchte so gerne noch schauen,\naber der Wagen, der rollt.\n\nPostillon in der Ferne\nschwingt seine Geißel und lacht.\nFröhlich ins Land der Sterne\nführt er durch finstere Nacht.\nFehlen am Wagen die Speichen,\nbleibst du einst traurig stehn,\nmußt noch die letzte Meile\nhinter dem Wagen gehn.",
+      "characterCount": 444,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0ba83f5c-ec45-4e15-bcf7-7f67ae8eff47",
+      "title": "Abendstille überall (Volkslied / Kanon)",
+      "category": "Abendlied",
+      "difficulty": 4,
+      "order": 50,
+      "content": "Abendstille überall,\nnur am Bach die Nachtigall\nsingt ihre Weise\nklagend und leise\ndurch das Tal.\n\nAbendstille überall,\nund kein Laut im Wiesengrund;\nnur das leise Singen\nwill noch erklingen\nin der Rund'.",
+      "characterCount": 204,
+      "cjkCharCount": 0
+    }
+  ]
+}

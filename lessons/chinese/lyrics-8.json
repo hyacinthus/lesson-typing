@@ -1,0 +1,506 @@
+{
+  "id": "lyrics-8",
+  "title": "歌词",
+  "lessons": [
+    {
+      "id": "24ff50d2-74a1-46ca-9233-2f6f09e2607a",
+      "title": "小白兔（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 1,
+      "content": "小白兔，白又白，\n两只耳朵竖起来，\n爱吃萝卜爱吃菜，\n蹦蹦跳跳真可爱。",
+      "characterCount": 35,
+      "cjkCharCount": 27
+    },
+    {
+      "id": "4faff265-f48d-47e6-910d-76061f1291da",
+      "title": "小星星（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 2,
+      "content": "一闪一闪亮晶晶，\n满天都是小星星，\n挂在天空放光明，\n好像许多小眼睛。",
+      "characterCount": 35,
+      "cjkCharCount": 28
+    },
+    {
+      "id": "d2a016b1-fbda-49c6-bbc6-2e1dc7e5eb3b",
+      "title": "找朋友（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 3,
+      "content": "找呀找呀找朋友，\n找到一个好朋友，\n敬个礼呀握握手，\n你是我的好朋友。",
+      "characterCount": 35,
+      "cjkCharCount": 28
+    },
+    {
+      "id": "d6142355-6cb5-4e6b-b29a-d164d3bc4dfc",
+      "title": "新年好（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 4,
+      "content": "新年好呀，新年好呀，\n祝贺大家新年好。\n我们唱歌，我们跳舞，\n祝贺大家新年好。",
+      "characterCount": 39,
+      "cjkCharCount": 30
+    },
+    {
+      "id": "0a128db1-4b60-4e7a-8e72-8706eb281030",
+      "title": "两只老虎（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 5,
+      "content": "两只老虎，两只老虎，\n跑得快，跑得快，\n一只没有眼睛，\n一只没有尾巴，\n真奇怪，真奇怪。",
+      "characterCount": 44,
+      "cjkCharCount": 32
+    },
+    {
+      "id": "013b2058-fe9b-445e-b1bf-adcb1c8ecad7",
+      "title": "拔萝卜（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 6,
+      "content": "拔萝卜，拔萝卜，\n嘿哟嘿哟拔萝卜，\n嘿哟嘿哟拔不动。\n老太婆，快快来，\n快来帮我们拔萝卜。",
+      "characterCount": 45,
+      "cjkCharCount": 34
+    },
+    {
+      "id": "df18fd2b-29f2-450b-8878-7829878f5198",
+      "title": "丢手绢（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 7,
+      "content": "丢手绢，丢手绢，\n轻轻地放在小朋友的后面，\n大家不要告诉他，\n快点快点抓住他，\n快点快点抓住他。",
+      "characterCount": 48,
+      "cjkCharCount": 38
+    },
+    {
+      "id": "0776a022-1510-4ed6-b511-008c8c161f2f",
+      "title": "数鸭子（传统童谣）",
+      "category": "童谣",
+      "difficulty": 1,
+      "order": 8,
+      "content": "门前大桥下，\n游过一群鸭，\n快来快来数一数，\n二四六七八。\n嘎嘎嘎嘎，\n真呀真多呀，\n数不清到底多少鸭。",
+      "characterCount": 52,
+      "cjkCharCount": 39
+    },
+    {
+      "id": "9f532a91-ba62-4c53-b647-d55a19ffa947",
+      "title": "山歌好比春江水（广西民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "order": 9,
+      "content": "唱山歌嘞，\n这边唱来那边和。\n山歌好比春江水，\n不怕滩险弯又多。",
+      "characterCount": 32,
+      "cjkCharCount": 25
+    },
+    {
+      "id": "1788f1de-5784-456e-b654-daf0b6e957e8",
+      "title": "槐花几时开（四川民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "content": "高高山上一树槐，\n手把栏杆望郎来。\n娘问女儿望什么？\n我望槐花几时开。",
+      "characterCount": 35,
+      "order": 10,
+      "cjkCharCount": 28
+    },
+    {
+      "id": "9c5896fe-8dda-48d6-b8e8-8e314e09c536",
+      "title": "虹彩妹妹（山西民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "order": 11,
+      "content": "虹彩妹妹呀长得好，\n樱桃小口一点点，\n好像那个天上的仙女下凡来。\n你要是跟我走，\n我就带你去看那个好风光。",
+      "characterCount": 53,
+      "cjkCharCount": 44
+    },
+    {
+      "id": "38a79ba5-4ba2-469d-8001-8b63bc0b567d",
+      "title": "月儿弯弯照九州（传统民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "content": "月儿弯弯照九州，\n几家欢乐几家愁。\n几家夫妇同罗帐，\n几个飘零在外头。\n月儿弯弯照九州，\n几家欢乐几家愁。",
+      "characterCount": 53,
+      "order": 12,
+      "cjkCharCount": 42
+    },
+    {
+      "id": "3bd6d879-8e14-4918-a277-413bf9a07727",
+      "title": "紫竹调（上海民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "content": "一根紫竹直苗苗，\n送给宝宝做管箫。\n箫儿对准口，口儿对准箫，\n箫中吹出新时调。\n小宝宝，小宝宝，\n箫儿吹得好，吹得好。",
+      "characterCount": 59,
+      "order": 13,
+      "cjkCharCount": 45
+    },
+    {
+      "id": "9dcde2b7-25a5-4d5a-9662-62d784ab88b8",
+      "title": "茉莉花（江苏民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "order": 14,
+      "content": "好一朵美丽的茉莉花，\n好一朵美丽的茉莉花，\n芬芳美丽满枝桠，\n又香又白人人夸。\n让我来将你摘下，\n送给别人家，\n茉莉花呀茉莉花。",
+      "characterCount": 64,
+      "cjkCharCount": 51
+    },
+    {
+      "id": "a087f460-ae09-461b-8e55-e8c826c38839",
+      "title": "凤阳花鼓（安徽民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "order": 15,
+      "content": "左手锣，右手鼓，\n手拿着锣鼓来唱歌，\n别的歌儿我也不会唱，\n只会唱个凤阳歌。\n凤阳歌来咿呀嘿，\n得儿铃咚飘一飘，\n得儿铃咚飘一飘。",
+      "characterCount": 65,
+      "cjkCharCount": 51
+    },
+    {
+      "id": "0fd162d5-5365-407b-acf6-602b97df54f6",
+      "title": "世上只有妈妈好（传统儿歌）",
+      "category": "儿歌",
+      "difficulty": 2,
+      "order": 16,
+      "content": "世上只有妈妈好，\n有妈的孩子像块宝，\n投进妈妈的怀抱，\n幸福享不了。\n世上只有妈妈好，\n没妈的孩子像根草，\n离开妈妈的怀抱，\n幸福哪里找。",
+      "characterCount": 69,
+      "cjkCharCount": 54
+    },
+    {
+      "id": "8f2c2d1b-bec5-4064-aa1c-b611cadf3530",
+      "title": "摇篮曲（东北民歌）",
+      "category": "民歌",
+      "difficulty": 2,
+      "order": 17,
+      "content": "月儿明，风儿静，\n树叶儿遮窗棂。\n蛐蛐儿叫铮铮，\n好比那琴弦儿声。\n琴声儿轻，调儿动听，\n摇篮轻摆动。\n娘的宝宝闭上眼睛，\n睡了那个睡在梦中。",
+      "characterCount": 71,
+      "cjkCharCount": 54
+    },
+    {
+      "id": "71413859-0d74-474a-9847-eb807a5594ee",
+      "title": "送别（李叔同）",
+      "category": "艺术歌曲",
+      "difficulty": 3,
+      "order": 18,
+      "content": "长亭外，古道边，\n芳草碧连天。\n晚风拂柳笛声残，\n夕阳山外山。\n天之涯，地之角，\n知交半零落。\n一壶浊酒尽余欢，\n今宵别梦寒。",
+      "characterCount": 63,
+      "cjkCharCount": 46
+    },
+    {
+      "id": "1a24ae29-8c79-4665-9dcd-689c56ecc246",
+      "title": "望春风（台湾民谣）",
+      "category": "民歌",
+      "difficulty": 3,
+      "content": "独夜无伴守灯下，\n清风对面吹。\n十七八岁未出嫁，\n见着少年家。\n果然标致面肉白，\n谁家人子弟？\n想要问伊惊歹势，\n心内弹琵琶。",
+      "characterCount": 63,
+      "order": 19,
+      "cjkCharCount": 48
+    },
+    {
+      "id": "75e11820-20bc-427d-af7c-933480095e6d",
+      "title": "康定情歌（四川民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "order": 20,
+      "content": "跑马溜溜的山上，\n一朵溜溜的云哟，\n端端溜溜的照在，\n康定溜溜的城哟。\n月亮弯弯，康定溜溜的城哟，\n李家溜溜的大姐，\n人才溜溜的好哟。",
+      "characterCount": 67,
+      "cjkCharCount": 53
+    },
+    {
+      "id": "072e300c-c327-4eea-a8c0-201a6584377b",
+      "title": "绣荷包（云南民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "content": "小小荷包双丝双线绣，\n妹绣荷包挂在郎腰头。\n荷包绣了三个月，\n郎在外头等白了头。\n问声小郎你有什么愁？\n有愁你对妹妹说，\n莫在心里头。",
+      "characterCount": 67,
+      "order": 21,
+      "cjkCharCount": 54
+    },
+    {
+      "id": "0a00a4ef-ab22-4d82-8d3a-93e9b27844c0",
+      "title": "牧歌（内蒙古民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "order": 22,
+      "content": "蓝蓝的天上白云飘，\n白云下面马儿跑，\n挥动鞭儿响四方，\n百鸟齐飞翔。\n要是有人来问我，\n这是什么地方，\n我就骄傲地告诉他，\n这是我的家乡。",
+      "characterCount": 69,
+      "cjkCharCount": 54
+    },
+    {
+      "id": "9dd5bd08-895e-489f-b0ad-a686c21083b7",
+      "title": "龙船调（湖北民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "order": 23,
+      "content": "正月里是新年哪咿哟喂，\n妹娃儿要过河呀哪个来推我嘛。\n我就来推你嘛！\n艄公你把舵搬哪，\n妹娃儿要过河呀，\n是哪个来推我嘛，\n我就来推你嘛！",
+      "characterCount": 69,
+      "cjkCharCount": 56
+    },
+    {
+      "id": "619b1a99-6a2d-4d6b-8120-267a181fe3db",
+      "title": "编花篮（河南民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "content": "编，编，编花篮，\n编个花篮上南山。\n南山开满红牡丹，\n朵朵花儿开得艳。\n银个丹丹呀，银牡丹，\n哪哈依呀嗨，\n摘一朵哟牡丹花，\n拿回家中看。",
+      "characterCount": 69,
+      "order": 24,
+      "cjkCharCount": 51
+    },
+    {
+      "id": "8e2821f1-0519-4ee8-9896-189c292ad535",
+      "title": "太阳出来喜洋洋（四川民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "order": 25,
+      "content": "太阳出来罗儿，\n喜洋洋欧郎罗，\n挑起扁担郎郎扯，\n光扯上山岗欧罗罗。\n手里拿把开山斧，\n不怕虎豹和豺狼，\n就怕那个懒家伙，\n太阳出来他不忙。",
+      "characterCount": 70,
+      "cjkCharCount": 55
+    },
+    {
+      "id": "cb4f6fc2-71b7-4d07-a00c-89de1a646a1b",
+      "title": "落水天（广东民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "content": "落水天，落水天，\n落水落到我身边。\n湿了衣裳湿了面，\n唔知几时天会变。\n落水天，落水天，\n望望前路好凄然。\n打把雨伞遮风雨，\n风雨遮住我心烦。",
+      "characterCount": 71,
+      "order": 26,
+      "cjkCharCount": 54
+    },
+    {
+      "id": "ba0ff95b-0a5e-4e7e-83ea-799642ed8557",
+      "title": "对花（河北民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "content": "正月里开什么花？\n正月里开迎春花。\n迎春花开头一朵，\n迎来了春天迎来了家。\n二月里开什么花？\n二月里开杏花。\n杏花村里出美酒，\n杯杯美酒敬大家。",
+      "characterCount": 72,
+      "order": 27,
+      "cjkCharCount": 57
+    },
+    {
+      "id": "ecc6f749-ee0e-43e7-8bc4-e82a358e0c65",
+      "title": "孟姜女（传统民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "content": "正月里来是新春，\n家家户户点红灯。\n别人家夫妻团圆聚，\n孟姜女的丈夫去造长城。\n二月里来暖洋洋，\n双双燕子到南方。\n每逢佳节倍思亲，\n孟姜女思夫泪汪汪。",
+      "characterCount": 76,
+      "order": 28,
+      "cjkCharCount": 61
+    },
+    {
+      "id": "27b14a32-276a-4d6b-8347-21aa2a49cdf8",
+      "title": "嘎达梅林（蒙古族民歌）",
+      "category": "民歌",
+      "difficulty": 3,
+      "order": 29,
+      "content": "南方飞来的小鸿雁呀，\n不落长江不呀不起飞。\n要说起义的嘎达梅林，\n是为了蒙古人民的土地。\n北方飞来的小鸿雁呀，\n不落长江不呀不起飞。\n要说起义的嘎达梅林，\n是为了蒙古人民的土地。",
+      "characterCount": 89,
+      "cjkCharCount": 74
+    },
+    {
+      "id": "2d7f3a76-e98a-4a40-b805-6f05e3643f60",
+      "title": "阳关三叠（古曲）",
+      "category": "古曲",
+      "difficulty": 4,
+      "content": "渭城朝雨浥轻尘，\n客舍青青柳色新。\n劝君更尽一杯酒，\n西出阳关无故人。\n遄行，遄行，\n长途越渡关津。\n历苦辛，历苦辛，\n历历苦辛宜自珍。",
+      "characterCount": 68,
+      "order": 30,
+      "cjkCharCount": 51
+    },
+    {
+      "id": "11719679-ff65-47fe-9532-d329aefab2e4",
+      "title": "兰花花（陕北民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "order": 31,
+      "content": "青线线那个蓝线线，\n蓝格英英的彩，\n生下一个兰花花，\n实实的爱死人。\n五谷子那个田苗子，\n数上高粱高，\n一十三省的女儿呀，\n数上兰花花好。",
+      "characterCount": 69,
+      "cjkCharCount": 54
+    },
+    {
+      "id": "bb533121-218c-403f-b5d9-025eaa03fade",
+      "title": "交城山（山西民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "content": "交城的山来交城的水，\n不浇那个交城浇了文水。\n灵石的大门口，\n有一道长流水。\n交城的大山里，\n没有那好茶饭，\n只有莜面栲栳栳，\n还有那山药蛋。",
+      "characterCount": 71,
+      "order": 32,
+      "cjkCharCount": 56
+    },
+    {
+      "id": "1ed6643c-ec63-4935-b2db-99d8e75b1b38",
+      "title": "茶山情歌（云南民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "content": "大茶山高来高又高，\n阿妹上山来采茶。\n左手采茶茶满篓，\n右手采花花满家。\n采得茶来送情郎，\n情郎见了笑哈哈。\n茶山上的好风光，\n年年花开香满山。",
+      "characterCount": 72,
+      "order": 33,
+      "cjkCharCount": 57
+    },
+    {
+      "id": "01591255-1f9f-4268-939b-e396f24a321d",
+      "title": "弥渡山歌（云南民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "content": "山对山来崖对崖，\n蜜蜂采花深山里来。\n蜜蜂本为采花死，\n梁山伯为祝英台。\n小河对岸摘石榴，\n只因河宽没法走。\n哥有情来妹有意，\n隔河摆手点点头。",
+      "characterCount": 72,
+      "order": 34,
+      "cjkCharCount": 57
+    },
+    {
+      "id": "f8532aac-84a6-439a-a470-4d565a54eedb",
+      "title": "赶牲灵（陕北民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "content": "走头头的那个骡子呦，\n三盏盏的那个灯。\n哎呀戴上了那个铃子呦，\n噢哇哇的那个声。\n白脖子的那个哈巴呦，\n朝南咬。\n赶牲灵的那个人儿呦，\n过呀来了。",
+      "characterCount": 73,
+      "order": 35,
+      "cjkCharCount": 58
+    },
+    {
+      "id": "d0c8db2b-0470-4fd2-9d3e-aefd6a845d95",
+      "title": "教我如何不想她（赵元任曲/刘半农词）",
+      "category": "艺术歌曲",
+      "difficulty": 4,
+      "order": 36,
+      "content": "天上飘着些微云，\n地上吹着些微风，\n啊！微风吹动了我的头发，\n教我如何不想她？\n月光恋爱着海洋，\n海洋恋爱着月光，\n啊！这般蜜也似的银夜，\n教我如何不想她？",
+      "characterCount": 78,
+      "cjkCharCount": 61
+    },
+    {
+      "id": "a72d2699-2ffa-4d50-8447-cffb8d54643e",
+      "title": "绣荷包（山西民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "order": 37,
+      "content": "初一到十五，十五的月儿高，\n那春风吹动杨呀杨柳梢。\n三月桃花开，情人捎书来，\n捎书书带信信要一个荷包袋。\n一绣一只船，船上撑着帆，\n里面坐着我那个心上的人儿。",
+      "characterCount": 79,
+      "cjkCharCount": 65
+    },
+    {
+      "id": "9d8c97fa-1fd6-4817-9d4a-2d9d7ffd6c58",
+      "title": "采花（四川民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "order": 38,
+      "content": "正月里采花无花采，\n二月间采花花正开。\n三月里桃花红似火，\n四月间牡丹靠墙栽。\n五月里石榴红似火，\n六月间荷花满池开。\n七月里菱角浮水面，\n八月间桂花满园香。",
+      "characterCount": 79,
+      "cjkCharCount": 64
+    },
+    {
+      "id": "aac2f995-da6a-4a43-bb89-946290f31b6b",
+      "title": "走西口（山西民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "order": 39,
+      "content": "哥哥你走西口，\n小妹妹我实在难留，\n手拉着哥哥的手，\n送哥送到大门口。\n哥哥你走西口，\n小妹妹我有话儿留，\n走路走大路，\n不要走小路，\n大路上人儿多，\n拉拉话话解忧愁。",
+      "characterCount": 84,
+      "cjkCharCount": 65
+    },
+    {
+      "id": "fc094a34-5953-49a9-9cb2-0b2d9aeaa917",
+      "title": "花儿为什么这样红（塔吉克族民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "order": 40,
+      "content": "花儿为什么这样红？\n为什么这样红？\n哎，红得好像燃烧的火，\n它象征着纯洁的友谊和爱情。\n花儿为什么这样鲜？\n为什么这样鲜？\n哎，鲜得使人不忍离去，\n它是用了青春的血液来浇灌。",
+      "characterCount": 87,
+      "cjkCharCount": 70
+    },
+    {
+      "id": "d459b092-1bc8-44d0-a625-a9089283d5cb",
+      "title": "绣金匾（陕北民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "order": 41,
+      "content": "正月里闹元宵，\n金匾绣开了，\n金匾绣咱毛主席，\n领导的主意高。\n二月里刮春风，\n金匾绣的红，\n金匾上绣的是，\n救星毛泽东。\n三月里是清明，\n金匾绣三层，\n金匾上绣的是，\n正是那好收成。",
+      "characterCount": 92,
+      "cjkCharCount": 69
+    },
+    {
+      "id": "220bbff6-beb1-48ae-9891-586ca8f03622",
+      "title": "小河淌水（云南民歌）",
+      "category": "民歌",
+      "difficulty": 4,
+      "order": 42,
+      "content": "月亮出来亮汪汪，亮汪汪，\n想起我的阿哥在深山，\n哥像月亮天上走，天上走，\n山下小河淌水清悠悠。\n月亮出来照半坡，照半坡，\n望见月亮想起我阿哥，\n一阵清风吹上坡，吹上坡，\n哥啊，你可听见阿妹叫阿哥。",
+      "characterCount": 98,
+      "cjkCharCount": 78
+    },
+    {
+      "id": "693d71aa-6f1e-4f37-80da-8f803dec3e7d",
+      "title": "八月桂花遍地开（传统民歌）",
+      "category": "民歌",
+      "difficulty": 5,
+      "content": "八月桂花遍地开，\n鲜红的旗帜竖呀竖起来。\n张灯又结彩呀，张灯又结彩，\n光辉灿烂闪出新世界。\n亲爱的工友们呀，\n亲爱的农友们呀，\n唱一曲国际歌庆祝苏维埃。",
+      "characterCount": 76,
+      "order": 43,
+      "cjkCharCount": 62
+    },
+    {
+      "id": "d63c863d-d8d5-4e64-86e7-8806c24a52f8",
+      "title": "十送红军（赣南民歌）",
+      "category": "民歌",
+      "difficulty": 5,
+      "content": "一送里格红军，介支个下了山，\n秋风里格细雨，介支个缠绵绵。\n山上里格野鹿，声声哀号叫，\n树树里格梧桐，叶呀叶落光。\n问一声亲人，红军啊，\n几时里格人马，介支个再回山。",
+      "characterCount": 83,
+      "order": 44,
+      "cjkCharCount": 66
+    },
+    {
+      "id": "3dc66d9e-c367-4017-880b-0f572184eb51",
+      "title": "东方红（陕北民歌）",
+      "category": "爱国歌曲",
+      "difficulty": 5,
+      "order": 45,
+      "content": "东方红，太阳升，\n中国出了个毛泽东，\n他为人民谋幸福，\n呼儿嗨哟，\n他是人民大救星。\n毛主席，爱人民，\n他是我们的带路人，\n为了建设新中国，\n呼儿嗨哟，\n领导我们向前进。",
+      "characterCount": 85,
+      "cjkCharCount": 64
+    },
+    {
+      "id": "7476aba2-fb75-4d76-9d8d-5d1d6e33a1d1",
+      "title": "猜调（云南民歌）",
+      "category": "民歌",
+      "difficulty": 5,
+      "content": "小乖乖来小乖乖，\n我们说给你们猜。\n什么长长上天？\n什么长长海中间？\n什么长长街前卖？\n什么长长姑娘前？\n银河长长上天，\n莲藕长长海中间，\n米线长长街前卖，\n丝线长长姑娘前。",
+      "characterCount": 87,
+      "order": 46,
+      "cjkCharCount": 68
+    },
+    {
+      "id": "5bb94ef7-c315-4a2c-842c-f7e929134756",
+      "title": "大刀进行曲（麦新）",
+      "category": "爱国歌曲",
+      "difficulty": 5,
+      "order": 47,
+      "content": "大刀向鬼子们的头上砍去！\n全国武装的弟兄们，\n抗战的一天来到了，\n抗战的一天来到了！\n前面有东北的义勇军，\n后面有全国的老百姓，\n咱们军民团结勇敢前进，\n看准那敌人，\n把他消灭，把他消灭！冲啊！\n大刀向鬼子们的头上砍去！杀！",
+      "characterCount": 112,
+      "cjkCharCount": 90
+    },
+    {
+      "id": "08312971-7975-4c14-80eb-2e44e3b70d5c",
+      "title": "松花江上（张寒晖）",
+      "category": "爱国歌曲",
+      "difficulty": 5,
+      "order": 48,
+      "content": "我的家在东北松花江上，\n那里有森林煤矿，\n还有那满山遍野的大豆高粱。\n我的家在东北松花江上，\n那里有我的同胞，\n还有那衰老的爹娘。\n九一八，九一八，\n从那个悲惨的时候，\n脱离了我的家乡，\n抛弃那无尽的宝藏，\n流浪！流浪！\n整日价在关内流浪！",
+      "characterCount": 120,
+      "cjkCharCount": 95
+    },
+    {
+      "id": "97ba0b4c-f4ab-48e6-92b3-5a08729f365b",
+      "title": "梅花三弄（古曲）",
+      "category": "古曲",
+      "difficulty": 6,
+      "content": "梅花一弄断人肠，\n梅花二弄费思量。\n梅花三弄风波起，\n云烟深处水茫茫。\n疏影横斜水清浅，\n暗香浮动月黄昏。\n岁寒三友松竹梅，\n傲雪凌霜几千年。\n只因梅花五瓣开，\n天下人间春自来。",
+      "characterCount": 89,
+      "order": 49,
+      "cjkCharCount": 70
+    },
+    {
+      "id": "403989b1-bee9-4365-8203-6c54123c296a",
+      "title": "春天里（赵元任曲）",
+      "category": "艺术歌曲",
+      "difficulty": 6,
+      "order": 50,
+      "content": "春天里来百花香，\n朗里格朗里格朗里格朗，\n和暖的太阳在天空照，\n照到了我的破衣裳。\n朗里格朗里格朗里格朗，\n穿过了大街走小巷，\n为了吃为了穿，\n昼夜都在忙，\n没有钱也得吃碗饭，\n也得住间房。\n哪怕老板娘，凶得像阎王，\n何日才能够回家乡？",
+      "characterCount": 118,
+      "cjkCharCount": 94
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "id": "lyrics-8",
+  "title": "Letras",
+  "lessons": [
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "title": "Ciranda Cirandinha (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Ciranda, cirandinha,\nVamos todos cirandar,\nVamos dar a meia volta,\nVolta e meia vamos dar.\n\nO anel que tu me deste\nEra vidro e se quebrou,\nO amor que tu me tinhas\nEra pouco e se acabou.\n\nPor isso, dona Rosa,\nEntre dentro desta roda,\nDiga um verso bem bonito,\nDiga adeus e vá-se embora.",
+      "characterCount": 285,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "title": "Nana Nenê (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Nana nenê,\nQue a Cuca vem pegar,\nPapai foi pra roça,\nMamãe foi trabalhar.\n\nBicho papão,\nSai de cima do telhado,\nDeixa esse menino\nDormir sossegado.",
+      "characterCount": 147,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "35e65875-da5b-46a7-bf03-1562d056a551",
+      "title": "Boi da Cara Preta (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Boi, boi, boi,\nBoi da cara preta,\nPega esta criança\nQue tem medo de careta.\n\nBoi, boi, boi,\nBoi do Piauí,\nQue vem lá de longe\nPra assustar gente daqui.",
+      "characterCount": 151,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "beeb2614-231d-4466-ba5e-3401f44685de",
+      "title": "Marcha Soldado (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Marcha soldado,\nCabeça de papel,\nSe não marchar direito\nVai preso pro quartel.\n\nO quartel pegou fogo,\nA polícia deu sinal,\nAcode, acode, acode\nA bandeira nacional.",
+      "characterCount": 163,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d3c419d7-5300-45c4-8d90-5a27af88cc49",
+      "title": "Cai Cai Balão (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Cai, cai, balão,\nCai, cai, balão,\nAqui na minha mão.\nNão cai não, não cai não, não cai não,\nCai na rua do Sabão.\n\nCai, cai, balão,\nCai, cai, balão,\nAqui na minha mão.\nNão vou lá, não vou lá, não vou lá,\nTenho medo de apanhar.",
+      "characterCount": 225,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "29f5385b-1391-4590-9dbc-79b356cd38b0",
+      "title": "Sapo Cururu (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Sapo Cururu\nNa beira do rio,\nQuando o sapo canta,\nÓ maninha, é que está com frio.\n\nA mulher do sapo\nDeve estar lá dentro,\nFazendo rendinha,\nÓ maninha, pro seu casamento.",
+      "characterCount": 169,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e3981c7b-cf6d-4a4f-a04f-0b8d1c8e1054",
+      "title": "A Canoa Virou (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 7,
+      "content": "A canoa virou,\nPor deixá-la virar,\nFoi por causa da Maria\nQue não soube remar.\n\nSe eu fosse um peixinho\nE soubesse nadar,\nEu tirava a Maria\nDo fundo do mar.\n\nSiriri pra cá,\nSiriri pra lá,\nA Maria é velha\nE quer casar.",
+      "characterCount": 217,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3ba9c645-968c-4878-b9a8-cbaad71bc1a4",
+      "title": "Peixe Vivo (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 8,
+      "content": "Como pode o peixe vivo\nViver fora da água fria?\nComo pode o peixe vivo\nViver fora da água fria?\n\nComo poderei viver,\nComo poderei viver\nSem a tua, sem a tua,\nSem a tua companhia?\nSem a tua, sem a tua,\nSem a tua companhia?\n\nOs pastores desta aldeia\nJá me fazem zombaria,\nOs pastores desta aldeia\nJá me fazem zombaria.\n\nPor me verem assim chorando\nSem a tua, sem a tua,\nSem a tua companhia.\nSem a tua, sem a tua,\nSem a tua companhia.",
+      "characterCount": 431,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "82ce6b36-2ca9-4a70-aa24-7f8a15be38c7",
+      "title": "Atirei o Pau no Gato (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Atirei o pau no gato, tô, tô,\nMas o gato, tô, tô,\nNão morreu, reu, reu,\nDona Chica, ca, ca,\nAdmirou-se, se, se,\nDo berro, do berro\nQue o gato deu: Miau!",
+      "characterCount": 152,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7eea1ef2-94ab-42fd-9b12-d611df4e547a",
+      "title": "O Cravo e a Rosa (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 1,
+      "order": 10,
+      "content": "O cravo brigou com a rosa\nDebaixo de uma sacada,\nO cravo saiu ferido\nE a rosa despedaçada.\n\nO cravo ficou doente,\nA rosa foi visitar,\nO cravo teve um desmaio,\nA rosa pôs-se a chorar.\n\nO cravo ficou são\nE a rosa também curou,\nE ambos ficaram juntos\nPois um ao outro amou.",
+      "characterCount": 270,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+      "title": "Teresinha de Jesus (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 2,
+      "order": 11,
+      "content": "Teresinha de Jesus\nDe uma queda foi ao chão,\nAcudiram três cavalheiros\nTodos três chapéu na mão.\n\nO primeiro foi seu pai,\nO segundo seu irmão,\nO terceiro foi aquele\nQue a Teresa deu a mão.\n\nTeresinha levantou-se,\nLevantou-se lá do chão,\nE sorrindo disse ao noivo:\nEu te dou meu coração.\n\nDá laranja quero um gomo,\nDo limão quero um pedaço,\nDa morena mais bonita\nQuero um beijo e um abraço.",
+      "characterCount": 389,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
+      "title": "Escravos de Jó (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Escravos de Jó\nJogavam caxangá,\nTira, põe, deixa ficar,\nGuerreiros com guerreiros\nFazem zigue, zigue, zá.\nGuerreiros com guerreiros\nFazem zigue, zigue, zá.",
+      "characterCount": 155,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fc05d514-fc86-4c7f-9ef4-fbe515ff20e2",
+      "title": "Se Esta Rua Fosse Minha (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Se esta rua, se esta rua fosse minha,\nEu mandava, eu mandava ladrilhar,\nCom pedrinhas, com pedrinhas de brilhante,\nPara o meu, para o meu amor passar.\n\nNesta rua, nesta rua tem um bosque,\nQue se chama, que se chama solidão,\nDentro dele, dentro dele mora um anjo,\nQue roubou, que roubou meu coração.\n\nSe eu roubei, se eu roubei teu coração,\nTu roubaste, tu roubaste o meu também,\nSe eu roubei, se eu roubei teu coração,\nÉ porque, é porque te quero bem.",
+      "characterCount": 451,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "850a9dea-1aba-4db8-9033-5bc1a6a92296",
+      "title": "Capelinha de Melão (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Capelinha de melão\nÉ de São João,\nÉ de cravo, é de rosa,\nÉ de manjericão.\n\nSão João dormia,\nE o anjo acordou,\nAcorda, São João,\nQue o seu dia chegou.\n\nSão João, São João,\nAcende a fogueira\nNo meu coração.",
+      "characterCount": 204,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "36d8e718-154c-4067-828c-30d9586e870e",
+      "title": "Olha o Baile Que Vem (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Pai Francisco entrou na roda\nTocando seu violão,\nDararão, dão, dão!\nVem de lá seu delegado\nE Pai Francisco foi pra prisão.\nComo ele vem todo requebrado,\nParece um boneco desengonçado.",
+      "characterCount": 183,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3f4f1918-2644-4ea8-b20d-4c396085e31d",
+      "title": "Carneirinho, Carneirão (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Carneirinho, carneirão, neirão, neirão,\nOlhai pro céu, olhai pro chão, pro chão, pro chão,\nManda o rei, nosso senhor, senhor, senhor,\nPara todos se sentar.\n\nCarneirinho, carneirão, neirão, neirão,\nOlhai pro céu, olhai pro chão, pro chão, pro chão,\nManda o rei, nosso senhor, senhor, senhor,\nPara todos se levantar.",
+      "characterCount": 314,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "61cc95cc-16e9-4f99-a5d3-3a973d53857d",
+      "title": "Sambalelê (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Sambalelê está doente,\nEstá com a cabeça quebrada.\nSambalelê precisava\nÉ de umas boas lambadas.\n\nSamba, samba, samba, ô Lelê!\nPisa na barra da saia, ô Lelê!\n\nÓ morena bonita,\nComo é que se namora?\nPõe o lencinho no bolso,\nDeixa a pontinha de fora.\n\nSamba, samba, samba, ô Lelê!\nPisa na barra da saia, ô Lelê!",
+      "characterCount": 308,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9d96ffe9-ceab-43e5-af41-790c3c28d9a3",
+      "title": "Alecrim Dourado (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 2,
+      "order": 18,
+      "content": "Alecrim, alecrim dourado,\nQue nasceu no campo\nSem ser semeado.\n\nAlecrim, alecrim dourado,\nQue nasceu no campo\nSem ser semeado.\n\nFoi meu amor\nQue me disse assim:\nQue a flor do campo\nÉ o alecrim.\n\nFoi meu amor\nQue me disse assim:\nQue a flor do campo\nÉ o alecrim.",
+      "characterCount": 260,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6de2ba7c-6f94-4f52-b5f5-e3515d46089a",
+      "title": "Samba Lelê (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 2,
+      "order": 19,
+      "content": "Samba Lelê tá doente,\nTá com a cabeça quebrada,\nSamba Lelê precisava\nDe umas dezoito lambadas.\n\nSamba, samba, samba, ô Lelê,\nSamba, samba, samba, ô Lalá.\nSamba, samba, samba, ô Lelê,\nPisa na barra da saia, ô Lalá.\n\nÓ morena bonita,\nOnde é que você mora?\nMoro na praia formosa,\nDo lado de lá do mar.\n\nSamba, samba, samba, ô Lelê,\nSamba, samba, samba, ô Lalá.\nSamba, samba, samba, ô Lelê,\nPisa na barra da saia, ô Lalá.",
+      "characterCount": 417,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "03901421-beac-43c0-a4a5-8c5e16ad49fb",
+      "title": "Eu Vi o Sapo (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Eu vi um sapo, po, po,\nNa beira do rio, io, io,\nDe papo amarelo, elo, elo,\nMorrendo de frio, io, io.\n\nA dona do sapo, po, po,\nDevia estar lá dentro, entro, entro,\nFazendo rendinha, inha, inha,\nPro seu casamento, ento, ento.",
+      "characterCount": 223,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
+      "title": "Meu Limão, Meu Limoeiro (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 2,
+      "order": 21,
+      "content": "Meu limão, meu limoeiro,\nMeu pé de jacarandá,\nUma vez, tindolelê,\nOutra vez, tindolalá.\n\nMorena, dá-me um abraço\nQue eu dou-te meu coração,\nMas depois, morena ingrata,\nDevolva-me o meu abraço,\nQue eu quero meu coração.\n\nMeu limão, meu limoeiro,\nMeu pé de jacarandá,\nUma vez, tindolelê,\nOutra vez, tindolalá.",
+      "characterCount": 307,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a",
+      "title": "Ó Malhão (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 2,
+      "order": 22,
+      "content": "Ó malhão, malhão,\nQue vida é a tua?\nComer e beber\nE andar pela rua.\n\nÓ malhão, malhão,\nQue vida a tua é,\nPassear e dormir\nE estar sempre de pé.\n\nÓ malhão, ó malhão,\nÓ malhão de bigode,\nQuem tem amores tem penas,\nQuem não os tem também pode.\n\nÓ malhão, malhão,\nMalhão do coração,\nQuem anda com amores\nNão precisa de pão.",
+      "characterCount": 319,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9606f0e0-9804-4ceb-9fb2-7980b858e0a3",
+      "title": "Oliveira da Serra (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 2,
+      "order": 23,
+      "content": "Oliveira da serra,\nO vento a levou.\nÓ sol, chuva e luar,\nQue bonita que ela está.\n\nOliveira da serra,\nO vento a levou,\nFoi o vento, foi a chuva,\nFoi o temporal.\n\nTruz, truz, truz,\nOliveira do campo,\nQuem bate à minha porta?\nQuem bate ao meu portão?\n\nÉ o meu amor, é ele,\nQue está lá fora ao relento,\nA tremer, a tremer de frio,\nBatido pelo vento.",
+      "characterCount": 346,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "c82c3c14-2d3e-4c21-a8d6-def0892b1bd3",
+      "title": "Indo Eu (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 2,
+      "order": 24,
+      "content": "Indo eu, indo eu,\nA caminho de Viseu,\nEncontrei o meu amor,\nAi, Jesus, que lá vou eu!\n\nEle vinha triste,\nEu vinha-lhe a rir,\nEle vinha triste\nQue nem podia seguir.\n\nOlha a roda, olha a roda,\nOlha a roda do linho,\nOlha a roda, olha a roda,\nOlha a roda do moinho.\n\nQuem passa por mim\nBate-me no chapéu,\nOlha a roda, olha a roda,\nA caminho de Viseu.",
+      "characterCount": 346,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6c9208d3-76d6-4e84-bc8a-2093983ab6ce",
+      "title": "Papagaio Louro (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 25,
+      "content": "Papagaio louro\nDo bico dourado,\nLeva-me esta carta\nAo meu namorado.\n\nQue ele está na guerra,\nNão posso lá ir,\nQue chove e que neva\nE faz muito frio.\n\nFaz calor, faz frio,\nFaz tempo de neve,\nQuem tem amores\nCedo à rua deve.\n\nCedo à rua deve,\nTarde à janela,\nOuvir cantar o moço\nQue anda de ronda a ela.",
+      "characterCount": 301,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3a506c3f-1155-45b2-b42e-3b5753dde39e",
+      "title": "A Machadinha (Tradicional)",
+      "category": "Cantiga infantil",
+      "difficulty": 3,
+      "order": 26,
+      "content": "Ai, eu entrei na roda\nPra ver como se dança,\nEu entrei na roda,\nPra ver como se dança.\nFiz troque, troque, troque,\nFiz troque, troque, tá.\nFiz troque, troque, troque,\nFiz troque, troque, tá.\n\nAi, eu dei a meia volta\nE fui pra contramão,\nEu dei a meia volta\nE fui pra contramão.\nFiz troque, troque, troque,\nFiz troque, troque, tá.\nFiz troque, troque, troque,\nFiz troque, troque, tá.",
+      "characterCount": 381,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ce7ea829-d52e-46bf-a0ed-176472a28340",
+      "title": "Rosa Branca (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 3,
+      "order": 27,
+      "content": "Onde vais, linda Rosa,\nTão tarde e sozinha?\nVou buscar a rosa branca\nQue está lá na campina.\n\nRosa branca ao peito\nOu rosa vermelha?\nA rosa que é mais bonita\nNão tem quem a colha.\n\nRosa branca na mão,\nRosa vermelha no chão,\nToda a rosa é bonita\nQuando nasce no verão.\n\nOlha a rosa branca,\nOlha a rosa escarlate,\nEu não sei qual é mais bela,\nQual é que mais me abate.",
+      "characterCount": 366,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9a1fd275-924a-4ede-9e23-ca807f064ea4",
+      "title": "Ó Rama Ó Que Linda Rama (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 28,
+      "content": "Ó rama, ó que linda rama,\nÓ que linda ramada és tu,\nQuem te ensinou a namorar\nFoi o sol e a lua.\n\nFoi o sol e a lua\nE as estrelinhas de além,\nQuem te ensinou a namorar\nFoi eu, mais ninguém.\n\nFoi eu, mais ninguém,\nFoi eu, mais ninguém,\nQuem te ensinou a namorar\nFoi eu, mais ninguém.\n\nA minha mãe mandou-me à fonte,\nEu não queria ir,\nAgora, vou, agora venho,\nAgora vou-me a rir.",
+      "characterCount": 377,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0f151bf6-033e-4725-8240-f6131b17e801",
+      "title": "Ai, Linda Flor (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 29,
+      "content": "Ai, linda flor do campo,\nAi, linda flor do mar,\nVem cá, ó minha menina,\nVem comigo passear.\n\nPassear na praia,\nPassear no mar,\nVer as ondas verdes\nNa praia a quebrar.\n\nAi, que lindos olhos tens,\nAi, que lindo teu olhar,\nSão estrelas que brilham\nQuando me vens abraçar.\n\nOs olhos da morena\nSão dois raios de luar,\nQuando ela me olha\nFaz o meu peito sonhar.",
+      "characterCount": 355,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a007e28a-4d83-414a-929d-cc5de9b1fb4c",
+      "title": "Ó Senhor da Serra (Tradicional Minhoto)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 30,
+      "content": "Ó senhor da Serra,\nDai-me uma pastora,\nQue guarde o meu gado\nDe noite e de aurora.\n\nEla é tão bonita,\nEla é tão formosa,\nParece uma estrela\nNascida entre a rosa.\n\nPelo rio abaixo\nVai a minha canção,\nVai levar saudades\nDo meu coração.\n\nDo meu coração parte\nUm suspiro a voar,\nVai pousar na serra\nPerto do luar.",
+      "characterCount": 309,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a1b2c3d4-f5e6-4a7b-8c9d-1e2f3a4b5c6d",
+      "title": "Laranjeira Pequenina (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 3,
+      "order": 31,
+      "content": "Laranjeira pequenina\nCarregadinha de flor,\nEu também sou pequenina,\nCarregadinha de amor.\n\nEu subi ao pé de cravo\nPara ver se te avistava,\nComo o cravo era alto,\nO raminho se quebrava.\n\nSe o raminho se quebrou,\nOutro há de arrebentar,\nMeu amor sempre é constante,\nNão se pode acabar.\n\nQuem me dera ter agora\nA chave do teu portão,\nPra entrar e falar contigo,\nÓ dono do meu coração.",
+      "characterCount": 381,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b2c3d4e5-a6f7-4b8c-9d0e-2f3a4b5c6d7e",
+      "title": "Noite de São João (Tradicional)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 32,
+      "content": "Olha a fogueira, olha a fogueira,\nComo ela queima bem,\nSão João, São João,\nNão tem ninguém como tem.\n\nPula a fogueira, iaiá,\nPula a fogueira, ioiô,\nCuidado para não se queimar,\nOlha que a fogueira já queimou.\n\nNoite de São João,\nNoite de alegria,\nA fogueira queima\nAté o romper do dia.\n\nVem cá, meu bem,\nVem cá, meu amor,\nVem pular a fogueira\nComigo e com fervor.",
+      "characterCount": 363,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "782ba1cf-baca-4018-a99b-9497fded5ded",
+      "title": "Ó Ai, Ó Linda (Tradicional Açoriano)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 33,
+      "content": "Ó ai, ó linda, ó linda,\nÓ ai, ó linda menina,\nÓ ai, ó linda, ó linda,\nÓ ai, ó linda menina.\n\nNão há moça tão bonita\nComo a minha Catarina,\nAnda de roda, anda de roda,\nCom a saia de chita fina.\n\nOs olhos da Catarina\nSão duas contas de vidro,\nQuando ela os põe em mim\nFaz o meu peito sentido.\n\nÓ ai, ó linda, ó linda,\nÓ ai, ó linda menina,\nDá-me um beijo, ó menina,\nÓ flor da minha campina.",
+      "characterCount": 388,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "40b51d82-e1d7-4ce9-8981-096e4b57c37a",
+      "title": "A Velha a Fiar (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 3,
+      "order": 34,
+      "content": "Estava a velha no seu lugar,\nVeio a mosca lhe fazer mal.\nA mosca na velha,\nA velha a fiar.\n\nEstava a mosca no seu lugar,\nVeio a aranha lhe fazer mal.\nA aranha na mosca,\nA mosca na velha,\nA velha a fiar.\n\nEstava a aranha no seu lugar,\nVeio o rato lhe fazer mal.\nO rato na aranha,\nA aranha na mosca,\nA mosca na velha,\nA velha a fiar.\n\nEstava o rato no seu lugar,\nVeio o gato lhe fazer mal.\nO gato no rato,\nO rato na aranha,\nA aranha na mosca,\nA mosca na velha,\nA velha a fiar.",
+      "characterCount": 474,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5c45b480-03b5-4505-becf-f296ab2e7145",
+      "title": "Verde é o Trigo (Tradicional Alentejano)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 35,
+      "content": "Verde é o trigo, verde,\nVerde é o milho real,\nVerde são os teus olhinhos\nQuando me fazem mal.\n\nQuando me fazem mal,\nQuando me fazem bem,\nVerde são os teus olhinhos,\nÓ menina, meu bem.\n\nAi, que lindos campos verdes,\nAi, que lindo é o trigal,\nQuando a brisa sopra leve\nSobre a terra de Portugal.\n\nEu hei de amar os campos,\nEu hei de amar o sol,\nMas mais que os campos todos\nAmo o teu olhar de arrebol.",
+      "characterCount": 399,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9ac6fd86-86ec-4d9e-943a-93c8e35f5581",
+      "title": "A Lenheira (Tradicional Minhoto)",
+      "category": "Canção folclórica",
+      "difficulty": 3,
+      "order": 36,
+      "content": "Lá vai a lenheira,\nLá vai para o monte,\nLá vai a lenheira\nBeber água na fonte.\n\nBebe água fresca,\nBebe água fria,\nLá vai a lenheira\nAté ao fim do dia.\n\nTraz a lenha às costas,\nTraz o feixe atado,\nTraz o coração cheio\nDe amor e de cuidado.\n\nQuem me dera ser\nO feixe que ela traz,\nPra ir sempre às costas\nDa moça que me apraz.",
+      "characterCount": 324,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1fa5dc1c-e731-4e7f-8095-312f54b5ea18",
+      "title": "Menina Estás à Janela (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 4,
+      "order": 37,
+      "content": "Menina, estás à janela\nCom o teu vestido branco,\nPareces uma açucena\nPlantada no teu remanso.\n\nSe tu viesses comigo,\nComigo ao pé do mar,\nEu dava-te a minha vida\nSó para te ver cantar.\n\nAs estrelas no céu brilham,\nA lua vem a raiar,\nOs meus olhos só te veem,\nÓ menina do meu olhar.\n\nDeixa a janela aberta,\nDeixa a cortina correr,\nDeixa-me ver o teu rosto\nÓ menina do meu querer.\n\nOs caminhos são tão longos,\nAs noites são tão escuras,\nMas o amor que eu te tenho\nAlumia as minhas venturas.",
+      "characterCount": 488,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1ba20028-1613-4c99-bfca-7f9738b6739e",
+      "title": "Barca Bela (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 4,
+      "order": 38,
+      "content": "Pescador da barca bela,\nOnde vais pescar com ela?\nQue é tão bela, ó pescador?\n\nNão vês que a última estrela\nNo céu nublado se vela?\nTem cuidado, ó pescador!\n\nNão vês que o céu se escurece?\nNão vês que o vento já cresce?\nNão te arrisques, ó pescador!\n\nPescador da barca bela,\nVolta para a tua donzela,\nVolta ao porto, ó pescador!\n\nÉ tão triste a tua vida,\nSobre as águas suspendida,\nSempre em risco, ó pescador!\n\nDeixa o mar, deixa a procela,\nVolta, volta para ela,\nQue te espera, ó pescador!",
+      "characterCount": 491,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "553117db-ed5f-4760-bd20-15ca74648b81",
+      "title": "Canção do Mar (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 4,
+      "order": 39,
+      "content": "Fui bailar no mar, no mar,\nFui bailar no fundo do mar,\nE os peixinhos a nadar,\nE as estrelas a brilhar.\n\nÓ mar salgado,\nQuanto do teu sal\nSão lágrimas de Portugal!\n\nFui ao mar buscar sardinha\nPara o gato da vizinha,\nMas o gato não comeu,\nFoi-se embora e agradeceu.\n\nÓ mar, ó mar,\nQue segredos tens a guardar?\nOs barcos vão e vêm\nE as ondas a cantar.\n\nÓ mar salgado,\nQuanto do teu sal\nSão lágrimas de Portugal!\nPor te cruzarmos\nQuantos filhos teus choraram,\nQuantas noivas ficaram por casar.",
+      "characterCount": 490,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6677d73e-3fee-46df-b7d1-2a482c065571",
+      "title": "Milho Verde (Tradicional)",
+      "category": "Canção popular",
+      "difficulty": 4,
+      "order": 40,
+      "content": "Milho verde, milho verde,\nMilho verde no capim,\nQuando eu vim da minha terra\nNão era assim.\n\nMilho verde, milho verde,\nMilho verde serenô,\nQuando eu vim da minha terra\nTinha um amor só.\n\nCorra a roda, meus amigos,\nVamos todos cirandar,\nQuem não tem o seu par\nVai sozinho passear.\n\nMilho verde, milho verde,\nMilho verde na janela,\nSe o amor que eu tenho é verde\nVerde é a estrela.\n\nQuando o sol se põe na serra,\nQuando a lua vem raiar,\nMilho verde, milho verde,\nMilho verde junto ao mar.",
+      "characterCount": 486,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e1f2a3b4-d5c6-4e7f-8a9b-1c2d3e4f5a6b",
+      "title": "Que Lindos Olhos (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 4,
+      "order": 41,
+      "content": "Que lindos olhos que tu tens,\nQue lindos olhos tens, menina,\nQue lindos olhos que tu tens,\nÓ flor da minha campina.\n\nSão dois luzeiros a brilhar\nNa escuridão da minha noite,\nSão dois diamantes a luzir\nNa escuridão do meu desgosto.\n\nEu bem queria não te amar,\nMas não consigo, ó meu amor,\nOs teus olhos são dois sóis\nQue me dão luz e me dão calor.\n\nQuando me olhas sinto em mim\nUm tremor doce e uma ternura,\nQuando me olhas sinto em mim\nA maior, a melhor ventura.\n\nQue lindos olhos que tu tens,\nQue lindos olhos, minha flor,\nSão a lanterna do meu peito,\nSão a chama do meu amor.",
+      "characterCount": 577,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "f2a3b4c5-e6d7-4f8a-9b0c-2d3e4f5a6b7c",
+      "title": "Fui ao Jardim da Celeste (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 4,
+      "order": 42,
+      "content": "Fui ao jardim da Celeste,\nFui ao jardim a passear,\nEncontrei uma roseira\nQue estava a desabrochar.\n\nColhi a rosa mais bela\nE levei-a ao coração,\nEla disse-me baixinho:\nEu sou a tua paixão.\n\nRosa branca, rosa rubra,\nRosa do meu Portugal,\nNão há flor no mundo inteiro\nQue se compare a tal.\n\nNo jardim da minha vida\nSó cresce um tipo de flor,\nA flor que mais me seduz\nÉ a flor do teu amor.\n\nFui ao jardim da Celeste\nPra ver as flores crescer,\nMas a mais bela das flores\nÉs tu, meu doce prazer.",
+      "characterCount": 490,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "07e21a6b-7850-4562-bf03-04b251461781",
+      "title": "Na Fonte do Largo (Tradicional Transmontano)",
+      "category": "Canção folclórica",
+      "difficulty": 4,
+      "order": 43,
+      "content": "Na fonte do largo\nEstá uma cachopa,\nCom o cântaro na mão,\nCom a saia de roda.\n\nEla é a mais bela\nDe toda a região,\nQuem a vê suspira,\nQuem a vê diz não.\n\nVai à fonte de manhã,\nVai à fonte ao entardecer,\nVai à fonte porque sabe\nQue lá a hei de ver.\n\nNa fonte do largo\nA água é de cristal,\nMas os olhos da menina\nSão o meu manancial.\n\nQuem me dera ser a fonte,\nQuem me dera ser a água,\nPra correr por entre os dedos\nDa menina que me magoa.",
+      "characterCount": 437,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3750f919-fa82-44fc-9e8f-38e880bcd662",
+      "title": "Regadinho (Tradicional Português)",
+      "category": "Canção folclórica",
+      "difficulty": 4,
+      "order": 44,
+      "content": "Eu tenho um cravo\nE um regadinho,\nMinha mãe tem feito\nArroz com coentrinhos.\n\nÓ regadinho, ó regadinho,\nChega-te a mim, chega-te a mim,\nO meu coração está sozinho,\nNão o deixes assim.\n\nA minha mãe mandou-me à fonte,\nEu fui e não quis ir,\nVi lá estar o meu amor\nE comecei a rir.\n\nRi-te, ri-te, ó cachopa,\nRi-te, ri-te sem parar,\nQue a vida é curta demais\nPara a gente não gozar.\n\nÓ regadinho, ó regadinho,\nQuem te deu tanto poder?\nFazes o meu coração\nDe amor estremecer.",
+      "characterCount": 469,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "dbbd8768-63ec-4c4a-8367-4a30e3e6d5f2",
+      "title": "O Vira (Tradicional Minhoto)",
+      "category": "Canção folclórica",
+      "difficulty": 4,
+      "order": 45,
+      "content": "Olha o vira, olha o vira,\nOlha o vira da Ribeira,\nQuem não sabe dançar o vira\nNão é de boa maneira.\n\nVira, vira, vira, vira,\nVira de volta e meia,\nVira, vira que eu já virei\nNa roda da minha aldeia.\n\nFoi na roda do vira\nQue eu primeiro te encontrei,\nFoi na roda do vira\nQue de ti me enamorei.\n\nDança o vira quem é moço,\nDança o vira quem é velho,\nDança o vira quem quiser,\nTodo o mundo tem espelho.\n\nOlha o vira, olha o vira,\nOlha o vira, meu amor,\nDança o vira com fervor\nQue a vida é uma lira.",
+      "characterCount": 495,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9394b2b4-d721-4b1f-890f-7cb43270b978",
+      "title": "A Serra da Estrela (Tradicional Beirão)",
+      "category": "Canção folclórica",
+      "difficulty": 5,
+      "order": 46,
+      "content": "Lá na Serra da Estrela\nHá neve e há luar,\nHá pastores nas encostas\nQue não cessam de cantar.\n\nCantam porque têm saudade,\nCantam porque o peito doi,\nCantam porque a terra é linda,\nCantam porque o sol se foi.\n\nAs ovelhas vão pastando\nPelo monte, pelo vale,\nE os pastores vão cantando\nPara que a dor se cale.\n\nÓ Serra da Estrela,\nÓ terra de encantar,\nCom as tuas neves brancas\nE as fontes a jorrar.\n\nQuando a noite cai na serra,\nQuando o frio vem chegando,\nOs pastores recolhem-se\nE vão os lumes ateando.\n\nÓ Serra da Estrela,\nTão alta e tão bonita,\nÉs o altar de Portugal,\nÉs a nossa terra bendita.",
+      "characterCount": 595,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a43c28d8-c9e9-498f-9902-facc93ea2c24",
+      "title": "Canção do Lavrador (Tradicional Alentejano)",
+      "category": "Canção folclórica",
+      "difficulty": 5,
+      "order": 47,
+      "content": "De manhã cedo o lavrador\nSai de casa ao amanhecer,\nCom a sua enxada na mão\nVai o pão nosso fazer.\n\nAra a terra, semeia o grão,\nEspera a chuva e espera o sol,\nTem a esperança no coração\nE a fé como farol.\n\nQuando o sol queima na seara\nE o suor lhe corre na face,\nO lavrador não desampara\nA terra onde ele nasce.\n\nCanta o lavrador contente\nQuando a seara está loura,\nCanta para a sua gente\nUma canção que o sol doura.\n\nDe manhã cedo ao anoitecer,\nDo nascer ao pôr do sol,\nO lavrador cumpre o dever\nCom a terra como farol.\n\nBendita seja esta terra,\nBendito seja este chão,\nBendito seja o lavrador\nQue nos dá o nosso pão.",
+      "characterCount": 617,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3a9adb57-73dc-419d-867f-b39f329c9a41",
+      "title": "Canção dos Pescadores (Tradicional)",
+      "category": "Canção folclórica",
+      "difficulty": 5,
+      "order": 48,
+      "content": "Ó mar, ó mar aberto,\nLeva os barcos ao largo,\nOs pescadores vão certos\nCom o seu destino amargo.\n\nDe madrugada se levantam,\nCom as redes vão ao mar,\nAs mulheres ficam na praia\nA rezar e a esperar.\n\nPuxam as redes pesadas,\nPuxam com força e com fé,\nVêm os peixes nas malhas presos\nPara vender no cais a pé.\n\nÓ vida do pescador,\nVida de sal e de vento,\nVida de angústia e amor,\nVida de sofrimento.\n\nQuando a tempestade ruge\nE o mar se faz gigante,\nO pescador não foge,\nSegue firme e arrogante.\n\nVolta o barco carregado,\nVolta o barco ao cais,\nVoltam os homens cansados\nPara os braços das mães.\n\nÓ mar, ó mar salgado,\nÓ mar da minha terra,\nGuarda os meus pescadores\nDa tempestade que encerra.",
+      "characterCount": 689,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2ef25364-5b86-4c47-9a17-9f1965accd27",
+      "title": "Cantiga de Roda do Algarve (Tradicional Algarvio)",
+      "category": "Canção folclórica",
+      "difficulty": 5,
+      "order": 49,
+      "content": "No Algarve a amendoeira\nVeste-se toda de branco,\nParece uma noiva bela\nNo seu vestido mais franco.\n\nAs ondas batem na costa,\nO sol brilha sobre o mar,\nOs barcos dos pescadores\nVão e voltam sem cessar.\n\nÓ Algarve, terra linda,\nTerra de sol e de cal,\nCom as chaminés rendilhadas\nÉs a joia de Portugal.\n\nNas tuas praias douradas\nO sol vem sempre brilhar,\nE as gaivotas voando\nFazem a ronda do mar.\n\nQuem nasce junto ao mar\nTem sal correndo nas veias,\nTem o azul dentro dos olhos\nE a areia entre as meias.\n\nÓ Algarve, terra amada,\nTerra do figo e da amêndoa,\nTerra de povo valente\nQue não tem medo da emenda.",
+      "characterCount": 604,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "694aca9e-9724-43f8-a8ec-5c13d69de190",
+      "title": "Canção da Ceifa (Tradicional Alentejano)",
+      "category": "Canção folclórica",
+      "difficulty": 6,
+      "order": 50,
+      "content": "Nas planícies do Alentejo,\nOnde o sol castiga forte,\nOs ceifeiros vão cantando\nDesafiando a própria sorte.\n\nCom a foice bem afiada,\nCortam o trigo maduro,\nSob o céu azul sem nuvens,\nSob o calor tão duro.\n\nCanta o ceifeiro a sua dor,\nCanta a saudade da amada,\nCanta porque é lavrador,\nCanta porque não tem mais nada.\n\nO Alentejo é uma planície\nQue se estende até ao céu,\nCom os seus montes de azinho\nE o sobreiro que é só seu.\n\nQuando a tarde cai sobre os campos\nE o sol se põe lá ao fundo,\nOs ceifeiros recolhem-se\nCansados do peso do mundo.\n\nMas amanhã de madrugada\nLá estarão outra vez,\nCom a foice na mão calosa\nE a canção que não desfez.\n\nBendito seja o Alentejo,\nBendita seja esta terra,\nOnde o povo canta e sofre\nMas nunca o espírito encerra.\n\nNas planícies do Alentejo,\nQuando a lua vem raiar,\nOs ceifeiros junto ao lume\nVão as cantigas cantar.",
+      "characterCount": 851,
+      "cjkCharCount": 0
+    }
+  ]
+}

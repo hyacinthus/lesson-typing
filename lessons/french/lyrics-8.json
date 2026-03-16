@@ -1,0 +1,506 @@
+{
+  "id": "lyrics-8",
+  "title": "Paroles",
+  "lessons": [
+    {
+      "id": "15118896-13f2-47a8-b92f-243ac67256ea",
+      "title": "Frère Jacques (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 1,
+      "content": "Frère Jacques, Frère Jacques,\nDormez-vous ? Dormez-vous ?\nSonnez les matines ! Sonnez les matines !\nDing, dang, dong. Ding, dang, dong.",
+      "characterCount": 135,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6f39a693-7be8-466c-afd4-d0266fcb2954",
+      "title": "Meunier, Tu Dors (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 2,
+      "content": "Meunier, tu dors,\nTon moulin, ton moulin\nVa trop vite,\nMeunier, tu dors,\nTon moulin, ton moulin\nVa trop fort.\n\nTon moulin, ton moulin\nVa trop vite,\nTon moulin, ton moulin\nVa trop fort.",
+      "characterCount": 184,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4e2f6947-49c8-4823-b7fe-ce43293d1075",
+      "title": "Une Souris Verte (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 3,
+      "content": "Une souris verte\nQui courait dans l'herbe,\nJe l'attrape par la queue,\nJe la montre à ces messieurs.\nCes messieurs me disent :\nTrempez-la dans l'huile,\nTrempez-la dans l'eau,\nÇa fera un escargot\nTout chaud.",
+      "characterCount": 205,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "81d8e19a-6b86-4756-959e-089c86083c66",
+      "title": "Ainsi Font, Font, Font (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 4,
+      "content": "Ainsi font, font, font,\nLes petites marionnettes,\nAinsi font, font, font,\nTrois p'tits tours et puis s'en vont.\n\nMais elles reviendront,\nLes petites marionnettes,\nMais elles reviendront\nQuand les enfants dormiront.",
+      "characterCount": 214,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "dd6e9440-aecd-40c6-acc4-688a2463fc79",
+      "title": "Pomme de Reinette (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 5,
+      "content": "Pomme de reinette et pomme d'api,\nTapis, tapis rouge,\nPomme de reinette et pomme d'api,\nTapis, tapis gris.\n\nCache ton poing derrière ton dos,\nOu j'te donne un coup d'marteau.\nPomme de reinette et pomme d'api,\nTapis, tapis rouge,\nPomme de reinette et pomme d'api,\nTapis, tapis gris.",
+      "characterCount": 281,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "32fb14de-d0ac-4283-addd-74f87aa76be3",
+      "title": "Dodo, l'Enfant Do (Traditionnel)",
+      "category": "Berceuse",
+      "difficulty": 1,
+      "order": 6,
+      "content": "Dodo, l'enfant do,\nL'enfant dormira bien vite,\nDodo, l'enfant do,\nL'enfant dormira bientôt.\n\nUne poule blanche\nEst là dans la grange.\nQui va faire un petit coco\nPour l'enfant qui va fair' dodo.\n\nDodo, l'enfant do,\nL'enfant dormira bien vite,\nDodo, l'enfant do,\nL'enfant dormira bientôt.",
+      "characterCount": 286,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3f1a10b4-8ce9-4c76-9eb1-242571d6ecba",
+      "title": "À la Claire Fontaine (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 1,
+      "order": 7,
+      "content": "À la claire fontaine\nM'en allant promener,\nJ'ai trouvé l'eau si belle\nQue je m'y suis baigné.\nIl y a longtemps que je t'aime,\nJamais je ne t'oublierai.\n\nSous les feuilles d'un chêne\nJe me suis fait sécher,\nSur la plus haute branche\nUn rossignol chantait.\nIl y a longtemps que je t'aime,\nJamais je ne t'oublierai.",
+      "characterCount": 312,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a30bf8c9-b893-4d39-88e6-189e14d28b29",
+      "title": "Savez-vous planter les choux (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 8,
+      "content": "Savez-vous planter les choux,\nÀ la mode, à la mode,\nSavez-vous planter les choux,\nÀ la mode de chez nous ?\n\nOn les plante avec le doigt,\nÀ la mode, à la mode,\nOn les plante avec le doigt,\nÀ la mode de chez nous.\n\nOn les plante avec le pied,\nÀ la mode, à la mode,\nOn les plante avec le pied,\nÀ la mode de chez nous.",
+      "characterCount": 314,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ed758b0f-72eb-4d20-994e-4204c73290d4",
+      "title": "Alouette (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 1,
+      "order": 9,
+      "content": "Alouette, gentille alouette,\nAlouette, je te plumerai.\nJe te plumerai la tête,\nJe te plumerai la tête,\nEt la tête, et la tête,\nAlouette, alouette,\nAh ! Alouette, gentille alouette,\nAlouette, je te plumerai.\nJe te plumerai le bec,\nJe te plumerai le bec,\nEt le bec, et le bec,\nEt la tête, et la tête,\nAlouette, alouette,\nAh !",
+      "characterCount": 323,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "24d2a0c4-c2aa-47ef-be37-e18f8242dba9",
+      "title": "Au Clair de la Lune (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 1,
+      "order": 10,
+      "content": "Au clair de la lune,\nMon ami Pierrot,\nPrête-moi ta plume\nPour écrire un mot.\nMa chandelle est morte,\nJe n'ai plus de feu,\nOuvre-moi ta porte,\nPour l'amour de Dieu.\n\nAu clair de la lune,\nPierrot répondit :\n« Je n'ai pas de plume,\nJe suis dans mon lit.\nVa chez la voisine,\nJe crois qu'elle y est,\nCar dans sa cuisine\nOn bat le briquet. »",
+      "characterCount": 335,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "a88d79fb-c59d-4301-a8e7-e889e8b3afcb",
+      "title": "Sur le Pont d'Avignon (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 1,
+      "order": 11,
+      "content": "Sur le pont d'Avignon,\nOn y danse, on y danse,\nSur le pont d'Avignon,\nOn y danse tout en rond.\n\nLes beaux messieurs font comme ça,\nEt puis encore comme ça.\nSur le pont d'Avignon,\nOn y danse, on y danse,\nSur le pont d'Avignon,\nOn y danse tout en rond.\n\nLes belles dames font comme ça,\nEt puis encore comme ça.\nSur le pont d'Avignon,\nOn y danse, on y danse,\nSur le pont d'Avignon,\nOn y danse tout en rond.",
+      "characterCount": 403,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "379085db-6f15-469d-b025-48a348089f98",
+      "title": "Ah ! Vous Dirais-je, Maman (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 2,
+      "order": 12,
+      "content": "Ah ! vous dirais-je, maman,\nCe qui cause mon tourment ?\nPapa veut que je raisonne,\nComme une grande personne ;\nMoi, je dis que les bonbons\nValent mieux que la raison.\n\nAh ! vous dirais-je, maman,\nCe qui cause mon tourment ?\nPapa veut que je retienne\nDes verbes la longue antienne ;\nMoi, je dis que les bonbons\nValent mieux que les leçons.",
+      "characterCount": 338,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1228921c-fdcc-427c-afdb-1c0fbcec9066",
+      "title": "Un Éléphant qui se Balançait (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 2,
+      "order": 13,
+      "content": "Un éléphant qui se balançait\nSur une toile d'araignée,\nTrouvait ce jeu si amusant\nQu'il appela un deuxième éléphant.\n\nDeux éléphants qui se balançaient\nSur une toile d'araignée,\nTrouvaient ce jeu si amusant\nQu'ils appelèrent un troisième éléphant.\n\nTrois éléphants qui se balançaient\nSur une toile d'araignée,\nTrouvaient ce jeu si amusant\nQu'ils appelèrent un quatrième éléphant.",
+      "characterCount": 379,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9893f287-b5e5-43ab-bb0d-3676314a8187",
+      "title": "Le Bon Roi Dagobert (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 2,
+      "order": 14,
+      "content": "Le bon roi Dagobert\nA mis sa culotte à l'envers.\nLe grand saint Éloi\nLui dit : « Ô mon roi,\nVotre Majesté\nEst mal culottée. »\n« C'est vrai, lui dit le roi,\nJe vais la remettre à l'endroit. »\n\nLe bon roi Dagobert\nAvait sa perruque de travers.\nLe grand saint Éloi\nLui dit : « Ô mon roi,\nVotre Majesté\nEst mal coiffée. »\n« C'est vrai, lui dit le roi,\nJe vais la remettre tout droit. »",
+      "characterCount": 381,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2b34d8d3-476e-4e74-967f-9c31500d9495",
+      "title": "Nous N'irons Plus au Bois (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 2,
+      "order": 15,
+      "content": "Nous n'irons plus au bois,\nLes lauriers sont coupés,\nLa belle que voilà,\nLa laiss'rons-nous danser ?\n\nEntrez dans la danse,\nVoyez comme on danse,\nSautez, dansez,\nEmbrassez qui vous voudrez.\n\nLa belle que voilà,\nLa laiss'rons-nous danser ?\nMais les lauriers du bois,\nLes laiss'rons-nous faner ?\n\nEntrez dans la danse,\nVoyez comme on danse,\nSautez, dansez,\nEmbrassez qui vous voudrez.",
+      "characterCount": 382,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0381f6a7-5419-4433-b08c-ad811adfffc6",
+      "title": "Il Pleut, Il Pleut, Bergère (Fabre d'Églantine)",
+      "category": "Chanson populaire",
+      "difficulty": 2,
+      "order": 16,
+      "content": "Il pleut, il pleut, bergère,\nPresse tes blancs moutons,\nAllons sous ma chaumière,\nBergère, vite, allons.\nJ'entends sur le feuillage\nL'eau qui tombe à grand bruit,\nVoici, voici l'orage,\nVoici l'éclair qui luit.\n\nEntends-tu le tonnerre ?\nIl roule en approchant ;\nPrends un abri, bergère,\nÀ ma droite en marchant.\nJe vois notre cabane...\nEt, tiens, voici venir\nMa mère et ma sœur Anne\nQui vont l'étable ouvrir.",
+      "characterCount": 407,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "1d46950a-e7ce-40a1-9a8c-11ac7df647d8",
+      "title": "Fais Dodo, Colas Mon P'tit Frère (Traditionnel)",
+      "category": "Berceuse",
+      "difficulty": 2,
+      "order": 17,
+      "content": "Fais dodo, Colas mon p'tit frère,\nFais dodo, t'auras du lolo.\nMaman est en haut qui fait du gâteau,\nPapa est en bas qui fait du chocolat.\nFais dodo, Colas mon p'tit frère,\nFais dodo, t'auras du lolo.\n\nFais dodo, Colas mon p'tit frère,\nFais dodo, t'auras du lolo.\nTa sœur est en haut qui fait des chapeaux,\nTon frère est en bas qui fait des nougats.\nFais dodo, Colas mon p'tit frère,\nFais dodo, t'auras du lolo.",
+      "characterCount": 410,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4f833d0f-0786-40f9-95be-03463a8263fe",
+      "title": "J'ai du Bon Tabac (Abbé de l'Attaignant)",
+      "category": "Chanson populaire",
+      "difficulty": 2,
+      "order": 18,
+      "content": "J'ai du bon tabac dans ma tabatière,\nJ'ai du bon tabac, tu n'en auras pas.\nJ'en ai du fin et du bien râpé,\nMais ce n'est pas pour ton vilain nez.\nJ'ai du bon tabac dans ma tabatière,\nJ'ai du bon tabac, tu n'en auras pas.\n\nJ'ai du bon tabac dans ma tabatière,\nJ'ai du bon tabac, tu n'en auras pas.\nJ'en ai du blond et du bien frisé,\nMais ce n'est pas pour ton vilain nez.\nJ'ai du bon tabac dans ma tabatière,\nJ'ai du bon tabac, tu n'en auras pas.",
+      "characterCount": 445,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "b317c69e-c397-4ad1-b340-a27f681a281f",
+      "title": "Gentil Coquelicot (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 2,
+      "order": 19,
+      "content": "J'ai descendu dans mon jardin,\nJ'ai descendu dans mon jardin,\nPour y cueillir du romarin.\nGentil coqu'licot, mesdames,\nGentil coqu'licot nouveau.\n\nPour y cueillir du romarin,\nPour y cueillir du romarin,\nJ'n'avais pas cueilli deux brins.\nGentil coqu'licot, mesdames,\nGentil coqu'licot nouveau.\n\nJ'n'avais pas cueilli deux brins,\nJ'n'avais pas cueilli deux brins,\nQu'un rossignol vint sur ma main.\nGentil coqu'licot, mesdames,\nGentil coqu'licot nouveau.",
+      "characterCount": 451,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d5fc83b1-39fc-49a9-af0f-dcb3cc80d44c",
+      "title": "Plaisir d'Amour (Jean-Pierre Claris de Florian)",
+      "category": "Romance",
+      "difficulty": 2,
+      "order": 20,
+      "content": "Plaisir d'amour ne dure qu'un moment,\nChagrin d'amour dure toute la vie.\n\nJ'ai tout quitté pour l'ingrate Sylvie,\nElle me quitte et prend un autre amant.\nPlaisir d'amour ne dure qu'un moment,\nChagrin d'amour dure toute la vie.\n\nTant que cette eau coulera doucement\nVers ce ruisseau qui borde la prairie,\nJe t'aimerai, me répétait Sylvie.\nL'eau coule encore, elle a changé pourtant.\nPlaisir d'amour ne dure qu'un moment,\nChagrin d'amour dure toute la vie.",
+      "characterCount": 454,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9825b2ba-8615-4305-aa96-75015b7fb7b8",
+      "title": "Malbrough s'en Va-t-en Guerre (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 2,
+      "order": 21,
+      "content": "Malbrough s'en va-t-en guerre,\nMironton, mironton, mirontaine,\nMalbrough s'en va-t-en guerre,\nNe sait quand reviendra.\nNe sait quand reviendra,\nNe sait quand reviendra.\n\nIl reviendra z-à Pâques,\nMironton, mironton, mirontaine,\nIl reviendra z-à Pâques,\nOu à la Trinité.\nOu à la Trinité,\nOu à la Trinité.\n\nLa Trinité se passe,\nMironton, mironton, mirontaine,\nLa Trinité se passe,\nMalbrough ne revient pas.\nMalbrough ne revient pas,\nMalbrough ne revient pas.",
+      "characterCount": 455,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "dba83fa7-738e-4be9-aec5-883d4c3e5947",
+      "title": "Cadet Rousselle (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 2,
+      "order": 22,
+      "content": "Cadet Rousselle a trois maisons,\nCadet Rousselle a trois maisons,\nQui n'ont ni poutres ni chevrons,\nQui n'ont ni poutres ni chevrons.\nC'est pour loger les hirondelles,\nQue direz-vous d'Cadet Rousselle ?\nAh ! Ah ! Ah ! oui, vraiment,\nCadet Rousselle est bon enfant.\n\nCadet Rousselle a trois habits,\nCadet Rousselle a trois habits,\nDeux jaunes, l'autre en papier gris,\nDeux jaunes, l'autre en papier gris.\nIl met celui-là quand il gèle,\nOu quand il pleut, ou quand il grêle.\nAh ! Ah ! Ah ! oui, vraiment,\nCadet Rousselle est bon enfant.",
+      "characterCount": 534,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "3d19cf04-4867-4ccd-a152-828637d77f20",
+      "title": "Le Roi a Fait Battre Tambour (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 23,
+      "content": "Le roi a fait battre tambour,\nLe roi a fait battre tambour,\nPour voir toutes ces dames de la cour,\nEt la première qu'il a vue\nLui a ravi le cœur.\n\nMarquis, je te fais capitaine,\nMarquis, je te fais capitaine,\nJette ta femme aux pieds du roi,\nÀ la guerre on ira.\n\nMarquise, ne pleurez pas tant,\nMarquise, ne pleurez pas tant,\nLe roi vous rendra votre époux,\nAvec un régiment d'or.",
+      "characterCount": 379,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7ce98aac-748a-42e5-8924-419244c40f44",
+      "title": "Il Était un Petit Navire (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 24,
+      "content": "Il était un petit navire,\nIl était un petit navire,\nQui n'avait ja-ja-jamais navigué,\nQui n'avait ja-ja-jamais navigué.\nOhé ! Ohé !\n\nIl entreprit un long voyage,\nIl entreprit un long voyage,\nSur la mer Mé-Mé-Méditerranée,\nSur la mer Mé-Mé-Méditerranée.\nOhé ! Ohé !\n\nAu bout de cinq à six semaines,\nAu bout de cinq à six semaines,\nLes vivres vin-vin-vinrent à manquer,\nLes vivres vin-vin-vinrent à manquer.\nOhé ! Ohé !",
+      "characterCount": 417,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "dacafd4b-a894-42e6-9d0a-899fa130dd48",
+      "title": "Prends Garde au Loup (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 25,
+      "content": "Prends garde au loup, bergère,\nPrends garde au loup,\nIl est caché derrière\nUn gros caillou.\n\nLa bergère imprudente\nS'assit sur l'herbe,\nÉcoutant la tourmente\nSouffler superbe.\n\nLe loup sortit de l'ombre,\nLa dent méchante,\nMais le berger sans nombre\nVeillait, ô chance !\n\nIl prit sa houlette forte,\nChassa la bête,\nEt ramena à la porte\nSa bergerette.\n\nPrends garde au loup, bergère,\nPrends garde au loup,\nIl est caché derrière\nUn gros caillou.",
+      "characterCount": 442,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "79532cb8-4845-4a5c-939f-2ec67166af38",
+      "title": "Chevaliers de la Table Ronde (Traditionnel)",
+      "category": "Chanson à boire",
+      "difficulty": 3,
+      "order": 26,
+      "content": "Chevaliers de la Table Ronde,\nGoûtons voir si le vin est bon.\nGoûtons voir, oui, oui, oui,\nGoûtons voir, non, non, non,\nGoûtons voir si le vin est bon.\n\nS'il est bon, s'il est agréable,\nJ'en boirai jusqu'à mon plaisir.\nJ'en boirai, oui, oui, oui,\nJ'en boirai, non, non, non,\nJ'en boirai jusqu'à mon plaisir.\n\nJ'en boirai cinq à six bouteilles,\nUne femme sur mes genoux.\nUne femme, oui, oui, oui,\nUne femme, non, non, non,\nUne femme sur mes genoux.",
+      "characterCount": 447,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "6d13ec64-1544-4a42-8905-cf9702e3ffc6",
+      "title": "Au Près de ma Blonde (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 27,
+      "content": "Au jardin de mon père,\nLes lilas sont fleuris,\nAu jardin de mon père,\nLes lilas sont fleuris.\nTous les oiseaux du monde\nViennent y faire leur nid.\n\nAuprès de ma blonde,\nQu'il fait bon, fait bon, fait bon,\nAuprès de ma blonde,\nQu'il fait bon dormir !\n\nTous les oiseaux du monde\nViennent y faire leur nid,\nTous les oiseaux du monde\nViennent y faire leur nid.\nLa caille, la tourterelle\nEt la jolie perdrix.\n\nAuprès de ma blonde,\nQu'il fait bon, fait bon, fait bon,\nAuprès de ma blonde,\nQu'il fait bon dormir !",
+      "characterCount": 506,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "2cc2d32f-2438-4143-99aa-29d71dee4c9c",
+      "title": "Il Était une Bergère (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 3,
+      "order": 28,
+      "content": "Il était une bergère,\nEt ron et ron, petit patapon,\nIl était une bergère\nQui gardait ses moutons,\nRon, ron,\nQui gardait ses moutons.\n\nElle fit un fromage,\nEt ron et ron, petit patapon,\nElle fit un fromage\nDu lait de ses moutons,\nRon, ron,\nDu lait de ses moutons.\n\nLe chat qui la regarde,\nEt ron et ron, petit patapon,\nLe chat qui la regarde\nD'un petit air fripon,\nRon, ron,\nD'un petit air fripon.\n\nSi tu y mets la patte,\nEt ron et ron, petit patapon,\nSi tu y mets la patte,\nTu auras du bâton,\nRon, ron,\nTu auras du bâton.",
+      "characterCount": 521,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4c172123-1651-4aec-9765-4a9df254ea57",
+      "title": "À la Pêche aux Moules (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 29,
+      "content": "À la pêche aux moules, moules, moules,\nJe ne veux plus aller, maman.\nÀ la pêche aux moules, moules, moules,\nJe ne veux plus y aller.\n\nLes gens de la ville, ville, ville,\nM'ont pris mon panier, maman.\nLes gens de la ville, ville, ville,\nM'ont pris mon panier.\n\nLes garçons de Marennes, Marennes, Marennes,\nMe l'ont rempli, maman.\nLes garçons de Marennes, Marennes, Marennes,\nMe l'ont tout rempli.\n\nÀ la pêche aux moules, moules, moules,\nJe ne veux plus aller, maman.\nÀ la pêche aux moules, moules, moules,\nJe ne veux plus y aller.",
+      "characterCount": 529,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "4e8441d6-6682-44c6-9bba-342409dde4c5",
+      "title": "En Passant par la Lorraine (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 30,
+      "content": "En passant par la Lorraine,\nAvec mes sabots,\nEn passant par la Lorraine,\nAvec mes sabots,\nRencontrai trois capitaines,\nAvec mes sabots,\nDondaine, oh ! oh ! oh !\nAvec mes sabots.\n\nRencontrai trois capitaines,\nAvec mes sabots,\nRencontrai trois capitaines,\nAvec mes sabots,\nIls m'ont appelée vilaine,\nAvec mes sabots,\nDondaine, oh ! oh ! oh !\nAvec mes sabots.\n\nIls m'ont appelée vilaine,\nAvec mes sabots,\nIls m'ont appelée vilaine,\nAvec mes sabots,\nJe ne suis pas si vilaine,\nAvec mes sabots,\nDondaine, oh ! oh ! oh !\nAvec mes sabots.",
+      "characterCount": 531,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "444adc6f-c88b-42ae-a364-2b63e1b9099b",
+      "title": "Mon Beau Sapin (Traditionnel)",
+      "category": "Chant de Noël",
+      "difficulty": 3,
+      "order": 31,
+      "content": "Mon beau sapin, roi des forêts,\nQue j'aime ta verdure !\nQuand par l'hiver, bois et guérets\nSont dépouillés de leurs attraits,\nMon beau sapin, roi des forêts,\nTu gardes ta parure.\n\nToi que Noël planta chez nous\nAu saint anniversaire,\nJoli sapin, comme ils sont doux\nEt tes bonbons et tes joujoux !\nToi que Noël planta chez nous\nTout brillant de lumière.\n\nMon beau sapin, tes verts sommets\nEt leur fidèle ombrage,\nDe la foi qui ne ment jamais,\nDe la constance et de la paix.\nMon beau sapin, tes verts sommets\nM'offrent la douce image.",
+      "characterCount": 532,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "ca510873-a17c-47f6-8478-a68d5c71600a",
+      "title": "Compagnons de la Marjolaine (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 32,
+      "content": "Compagnons de la Marjolaine,\nGai, gai, dessus le quai !\nCompagnons de la Marjolaine,\nGai, gai, dessus le quai !\n\nQue demande le chevalier ?\nGai, gai, dessus le quai !\nQue demande le chevalier ?\nGai, gai, dessus le quai !\n\nUne fille à marier,\nGai, gai, dessus le quai !\nUne fille à marier,\nGai, gai, dessus le quai !\n\nN'y en a pas de plus jolie,\nGai, gai, dessus le quai !\nN'y en a pas de plus jolie,\nGai, gai, dessus le quai !\n\nSon amant vient la chercher,\nGai, gai, dessus le quai !\nSon amant vient la chercher,\nGai, gai, dessus le quai !",
+      "characterCount": 539,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e777f7a4-47bb-4507-b188-d6c967f3897e",
+      "title": "Trois Jeunes Tambours (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 33,
+      "content": "Trois jeunes tambours s'en revenaient de guerre,\nTrois jeunes tambours s'en revenaient de guerre,\nEt ri et ran, ran pa ta plan,\nS'en revenaient de guerre.\n\nLe plus jeune a dans sa bouche une rose,\nLe plus jeune a dans sa bouche une rose,\nEt ri et ran, ran pa ta plan,\nDans sa bouche une rose.\n\nLa fille du roi était à sa fenêtre,\nLa fille du roi était à sa fenêtre,\nEt ri et ran, ran pa ta plan,\nÉtait à sa fenêtre.\n\n« Joli tambour, donnez-moi votre rose. »\n« Joli tambour, donnez-moi votre rose. »\nEt ri et ran, ran pa ta plan,\nDonnez-moi votre rose.",
+      "characterCount": 551,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "d2d7fa1a-23e5-4507-b7b7-2428e183b83e",
+      "title": "V'là l'Bon Vent (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 34,
+      "content": "Derrière chez nous, y'a un étang,\nV'là l'bon vent, v'là l'joli vent,\nDerrière chez nous, y'a un étang,\nV'là l'bon vent, mon ami m'attend.\n\nTrois beaux canards s'en vont baignant,\nV'là l'bon vent, v'là l'joli vent,\nTrois beaux canards s'en vont baignant,\nV'là l'bon vent, mon ami m'attend.\n\nLe fils du roi s'en va chassant,\nV'là l'bon vent, v'là l'joli vent,\nLe fils du roi s'en va chassant,\nV'là l'bon vent, mon ami m'attend.\n\nAvec son grand fusil d'argent,\nV'là l'bon vent, v'là l'joli vent,\nAvec son grand fusil d'argent,\nV'là l'bon vent, mon ami m'attend.",
+      "characterCount": 558,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "fd962dbb-6630-4ba0-bd24-5d1ca75b8b90",
+      "title": "À la Volette (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 3,
+      "order": 35,
+      "content": "Mon petit oiseau a pris sa volée,\nMon petit oiseau a pris sa volée,\nA pris sa, à la volette,\nA pris sa, à la volette,\nA pris sa volée.\n\nEst allé se mettre sur un oranger,\nEst allé se mettre sur un oranger,\nSur un o, à la volette,\nSur un o, à la volette,\nSur un oranger.\n\nLa branche était sèche, elle a cassé,\nLa branche était sèche, elle a cassé,\nElle a ca, à la volette,\nElle a ca, à la volette,\nElle a cassé.\n\nMon petit oiseau, où t'es-tu blessé ?\nMon petit oiseau, où t'es-tu blessé ?\nOù t'es-tu, à la volette,\nOù t'es-tu, à la volette,\nOù t'es-tu blessé ?",
+      "characterCount": 559,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "678f9cf1-77fb-41e5-a8e4-818c3819b326",
+      "title": "Mon Père m'a Donné un Mari (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 36,
+      "content": "Mon père m'a donné un mari,\nMon Dieu, quel homme, quel petit homme !\nMon père m'a donné un mari,\nMon Dieu, quel homme, qu'il est petit !\n\nD'une feuille on fit son habit,\nMon Dieu, quel homme, quel petit homme !\nD'une feuille on fit son habit,\nMon Dieu, quel homme, qu'il est petit !\n\nJe l'ai perdu dans mon grand lit,\nMon Dieu, quel homme, quel petit homme !\nJe l'ai perdu dans mon grand lit,\nMon Dieu, quel homme, qu'il est petit !\n\nLe chat l'a pris pour une souris,\nMon Dieu, quel homme, quel petit homme !\nLe chat l'a pris pour une souris,\nMon Dieu, quel homme, qu'il est petit !",
+      "characterCount": 582,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "9f52277a-8c6b-4126-b3f1-7ae2a1f1982e",
+      "title": "La Mère Michel (Traditionnel)",
+      "category": "Chanson populaire",
+      "difficulty": 3,
+      "order": 37,
+      "content": "C'est la mère Michel qui a perdu son chat,\nQui crie par la fenêtre à qui le lui rendra.\nC'est le compère Lustucru\nQui lui a répondu :\n« Allez, la mère Michel, vot' chat n'est pas perdu. »\n\nC'est la mère Michel qui lui a demandé :\n« Mon chat n'est pas perdu, vous l'avez donc trouvé ? »\nC'est le compère Lustucru\nQui lui a répondu :\n« Donnez une récompense, il vous sera rendu. »\n\nC'est la mère Michel qui dit : « C'est décidé,\nSi vous rendez mon chat, vous aurez un baiser. »\nMais le compère Lustucru\nQui n'en a pas voulu :\n« Je n'veux pas de vos baisers, je veux votre chat noir ! »",
+      "characterCount": 583,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e24d6b57-4034-42b7-88ee-86e69fc92087",
+      "title": "Vive le Vent (Traditionnel français)",
+      "category": "Chant de Noël",
+      "difficulty": 3,
+      "order": 38,
+      "content": "Vive le vent, vive le vent,\nVive le vent d'hiver,\nQui s'en va sifflant, soufflant\nDans les grands sapins verts.\nOh ! Vive le temps, vive le temps,\nVive le temps d'hiver,\nBoule de neige et jour de l'an\nEt bonne année grand-mère.\n\nSur le long chemin\nTout blanc de neige blanche,\nUn vieux monsieur s'avance\nAvec sa canne dans la main.\nEt tout là-haut le vent\nQui siffle dans les branches\nLui souffle la romance\nQu'il chantait petit enfant.\n\nVive le vent, vive le vent,\nVive le vent d'hiver,\nQui s'en va sifflant, soufflant\nDans les grands sapins verts.\nOh ! Vive le temps, vive le temps,\nVive le temps d'hiver,\nBoule de neige et jour de l'an\nEt bonne année grand-mère.",
+      "characterCount": 665,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "86673bf3-270d-4e4a-9360-1c8cd86d2163",
+      "title": "Jean de la Lune (Traditionnel)",
+      "category": "Comptine",
+      "difficulty": 3,
+      "order": 39,
+      "content": "Par une tiède nuit de printemps,\nIl y a bien de cela cent ans,\nQue sous un brin de persil sans beurre,\nUn lumignon tout en pleurs,\nRéchauffait un tout petit ver de terre.\n\nC'est Jean de la Lune, c'est Jean de la Lune,\nLes gens ne savent que dire,\nLes gens ne savent que faire.\nC'est Jean de la Lune, c'est Jean de la Lune,\nQu'il est sot ce Jean de la Lune.\n\nDeux gendarmes, un beau dimanche,\nChevrotaient sous leurs manches ;\nIls vinrent l'appréhender au corps\nEt lui dirent : « Sors dehors. »\n\nC'est Jean de la Lune, c'est Jean de la Lune,\nLes gens ne savent que dire,\nLes gens ne savent que faire.\nC'est Jean de la Lune, c'est Jean de la Lune,\nQu'il est sot ce Jean de la Lune.",
+      "characterCount": 679,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "5a95bd24-8bae-4840-927b-e5acc3bad2d2",
+      "title": "Se Canto (Traditionnel occitan)",
+      "category": "Chanson régionale",
+      "difficulty": 4,
+      "order": 40,
+      "content": "Se canto, que canto,\nCanto pas per you,\nCanto per ma mio\nQu'es al luènh de you.\n\nDeçà la fenèstra\nY a un aucelòu\nTota la nuèch canta,\nCanta sa cançou.\n\nAi passé lo puènt\nDe Mirabel,\nL'aiga èra tan clara\nQu'i vi lo cèu.\n\nAi passé lo puènt\nDe Tolosa,\nL'aiga èra tan clara\nQu'i vi ma mia.\n\nSe canto, que canto,\nCanto pas per you,\nCanto per ma mio\nQu'es al luènh de you.",
+      "characterCount": 366,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "abaea500-d448-47dc-9845-4ac942a5b770",
+      "title": "Le P'tit Quinquin (Alexandre Desrousseaux)",
+      "category": "Berceuse",
+      "difficulty": 4,
+      "order": 41,
+      "content": "Dors, min p'tit quinquin,\nMin p'tit pouchin,\nMin gros rojin,\nTe m'fras du chagrin\nSi te n'dors point ch'qu'à d'main.\n\nAinsi l'aut' jour eun' pauv' dintellière,\nIn amiclotant sin p'tit garchon\nQui d'puis trois quarts d'heure n'faijot que d'braire,\nTâchot d'l'indormir par eun' canchon.\nEll' li dijot : « Min Narcisse,\nD'main t'aras du pain d'épice,\nDu chuc à gogo,\nSi t'es sage, i f'ra dodo. »\n\nDors, min p'tit quinquin,\nMin p'tit pouchin,\nMin gros rojin,\nTe m'fras du chagrin\nSi te n'dors point ch'qu'à d'main.",
+      "characterCount": 510,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "25d1cfc1-5345-4549-b85f-2a6a3fabc525",
+      "title": "Le Temps des Cerises (Jean-Baptiste Clément)",
+      "category": "Chanson populaire",
+      "difficulty": 4,
+      "order": 42,
+      "content": "Quand nous chanterons le temps des cerises,\nEt gai rossignol et merle moqueur\nSeront tous en fête !\nLes belles auront la folie en tête\nEt les amoureux du soleil au cœur.\nQuand nous chanterons le temps des cerises,\nSifflera bien mieux le merle moqueur !\n\nMais il est bien court, le temps des cerises,\nOù l'on s'en va deux cueillir en rêvant\nDes pendants d'oreilles...\nCerises d'amour aux robes pareilles,\nTombant sous la feuille en gouttes de sang...\nMais il est bien court, le temps des cerises,\nPendants de corail qu'on cueille en rêvant !",
+      "characterCount": 540,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0ab7f9e7-89d3-4e86-9260-b5ec61e51089",
+      "title": "Les Filles de La Rochelle (Traditionnel)",
+      "category": "Chanson de marin",
+      "difficulty": 4,
+      "order": 43,
+      "content": "Sont les filles de La Rochelle\nQui ont armé un bâtiment,\nPour aller faire la course\nDedans les mers du Levant.\nAh ! la feuille s'envole, s'envole,\nAh ! la feuille s'envole au vent.\n\nLa grand'vergue est en ivoire,\nLes poulies en diamant,\nLa grand'voile est en dentelle,\nLa misaine en satin blanc.\nAh ! la feuille s'envole, s'envole,\nAh ! la feuille s'envole au vent.\n\nLes cordages du navire\nSont des fils d'or et d'argent,\nEt la coque est en bois rouge,\nTravaillé fort proprement.\nAh ! la feuille s'envole, s'envole,\nAh ! la feuille s'envole au vent.",
+      "characterCount": 549,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "7dce4dc5-b99a-4db3-9cdb-d2fc76802daf",
+      "title": "La Chanson de Craonne (Anonyme, 1917)",
+      "category": "Chanson historique",
+      "difficulty": 4,
+      "order": 44,
+      "content": "Quand au bout d'huit jours, le repos terminé,\nOn va reprendre les tranchées,\nNotre place est si utile\nQue sans nous on prend la pile.\nMais c'est bien fini, on en a assez,\nPersonne ne veut plus marcher,\nEt le cœur bien gros, comm' dans un sanglot,\nOn dit adieu aux civ'lots.\nMême sans tambour, même sans trompette,\nOn s'en va là-haut en baissant la tête.\n\nAdieu la vie, adieu l'amour,\nAdieu toutes les femmes.\nC'est bien fini, c'est pour toujours,\nDe cette guerre infâme.\nC'est à Craonne, sur le plateau,\nQu'on doit laisser sa peau,\nCar nous sommes tous condamnés,\nC'est nous les sacrifiés !",
+      "characterCount": 590,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "0b52b1a0-fa01-45bb-aaff-4d13213dc131",
+      "title": "La Complainte de Mandrin (Traditionnel)",
+      "category": "Complainte",
+      "difficulty": 4,
+      "order": 45,
+      "content": "Nous étions vingt ou trente,\nBrigands dans une bande,\nTous habillés de blanc\nÀ la mode des...\nTous habillés de blanc\nÀ la mode des marchands.\n\nLa première volerie\nQue je fis dans ma vie,\nC'est d'avoir goupillé\nLa bourse d'un...\nC'est d'avoir goupillé\nLa bourse d'un curé.\n\nJ'entrai dedans sa chambre,\nMon Dieu, qu'elle était grande !\nJ'y trouvai mille écus,\nJe les mis dans ma...\nJ'y trouvai mille écus,\nJe les mis dans ma poche.\n\nJ'entrai dedans une autre,\nMon Dieu, qu'elle était haute !\nJ'y trouvai mille francs,\nJe les mis dans mes...\nJ'y trouvai mille francs,\nJe les mis dans mes gants.",
+      "characterCount": 591,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "97a8df40-502a-4cd2-ae46-3a475c5b7fff",
+      "title": "Minuit, Chrétiens (Placide Cappeau)",
+      "category": "Chant de Noël",
+      "difficulty": 4,
+      "order": 46,
+      "content": "Minuit, chrétiens, c'est l'heure solennelle\nOù l'Homme-Dieu descendit jusqu'à nous,\nPour effacer la tache originelle\nEt de Son Père arrêter le courroux.\nLe monde entier tressaille d'espérance\nÀ cette nuit qui lui donne un Sauveur.\nPeuple, à genoux, attends ta délivrance !\nNoël ! Noël ! Voici le Rédempteur !\nNoël ! Noël ! Voici le Rédempteur !\n\nLe Rédempteur a brisé toute entrave,\nLa terre est libre et le ciel est ouvert.\nIl voit un frère où n'était qu'un esclave,\nL'amour unit ceux qu'enchaînait le fer.\nQui lui dira notre reconnaissance ?\nC'est pour nous tous qu'il naît, qu'il souffre et meurt.\nPeuple, debout ! Chante ta délivrance !\nNoël ! Noël ! Chantons le Rédempteur !\nNoël ! Noël ! Chantons le Rédempteur !",
+      "characterCount": 718,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "e06f0cf6-b426-4e4d-ab8c-2e00f535c183",
+      "title": "La Marseillaise (Rouget de Lisle)",
+      "category": "Chanson patriotique",
+      "difficulty": 4,
+      "order": 47,
+      "content": "Allons enfants de la Patrie,\nLe jour de gloire est arrivé !\nContre nous de la tyrannie,\nL'étendard sanglant est levé,\nL'étendard sanglant est levé !\nEntendez-vous dans les campagnes\nMugir ces féroces soldats ?\nIls viennent jusque dans vos bras\nÉgorger vos fils, vos compagnes !\n\nAux armes, citoyens,\nFormez vos bataillons,\nMarchons, marchons !\nQu'un sang impur\nAbreuve nos sillons !\n\nAmour sacré de la Patrie,\nConduis, soutiens nos bras vengeurs.\nLiberté, Liberté chérie,\nCombats avec tes défenseurs !\nSous nos drapeaux que la victoire\nAccoure à tes mâles accents,\nQue tes ennemis expirants\nVoient ton triomphe et notre gloire !\n\nAux armes, citoyens,\nFormez vos bataillons,\nMarchons, marchons !\nQu'un sang impur\nAbreuve nos sillons !",
+      "characterCount": 733,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "cfc9e1b6-ce14-4dc3-9374-fb9dc33a04df",
+      "title": "L'Internationale (Eugène Pottier)",
+      "category": "Chanson historique",
+      "difficulty": 5,
+      "order": 48,
+      "content": "Debout ! les damnés de la terre !\nDebout ! les forçats de la faim !\nLa raison tonne en son cratère,\nC'est l'éruption de la fin.\nDu passé faisons table rase,\nFoule esclave, debout ! debout !\nLe monde va changer de base :\nNous ne sommes rien, soyons tout !\n\nC'est la lutte finale ;\nGroupons-nous, et demain,\nL'Internationale\nSera le genre humain.\nC'est la lutte finale ;\nGroupons-nous, et demain,\nL'Internationale\nSera le genre humain.\n\nIl n'est pas de sauveurs suprêmes :\nNi Dieu, ni César, ni tribun,\nProducteurs, sauvons-nous nous-mêmes !\nDécrétons le salut commun !\nPour que le voleur rende gorge,\nPour tirer l'esprit du cachot,\nSoufflons nous-mêmes notre forge,\nBattons le fer quand il est chaud !",
+      "characterCount": 700,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "13e36014-2a2f-4186-a766-31b37d3816b3",
+      "title": "Le Chant du Départ (Marie-Joseph Chénier)",
+      "category": "Chanson patriotique",
+      "difficulty": 5,
+      "order": 49,
+      "content": "La victoire en chantant nous ouvre la barrière,\nLa Liberté guide nos pas.\nEt du Nord au Midi la trompette guerrière\nA sonné l'heure des combats.\nTremblez, ennemis de la France !\nRois ivres de sang et d'orgueil !\nLe Peuple souverain s'avance,\nTyrans, descendez au cercueil !\n\nLa République nous appelle,\nSachons vaincre ou sachons périr !\nUn Français doit vivre pour elle,\nPour elle un Français doit mourir !\n\nUn Français doit vivre pour elle,\nPour elle un Français doit mourir !\n\nDe Bara, de Viala le sort nous fait envie ;\nIls sont morts, mais ils ont vaincu.\nLe lâche accablé d'ans n'a point connu la vie ;\nQui meurt pour le peuple a vécu.\nVous êtes vaillants, nous le sommes ;\nGuidez-nous contre les tyrans !\nLes républicains sont des hommes,\nLes esclaves sont des enfants.",
+      "characterCount": 776,
+      "cjkCharCount": 0
+    },
+    {
+      "id": "8b236b31-e49a-427f-bc30-45b14f345f40",
+      "title": "Les Stances à Marquise (Pierre Corneille)",
+      "category": "Chanson poétique",
+      "difficulty": 6,
+      "order": 50,
+      "content": "Marquise, si mon visage\nA quelques traits un peu vieux,\nSouvenez-vous qu'à mon âge\nVous ne vaudrez guère mieux.\n\nLe temps aux plus belles choses\nSe plaît à faire un affront,\nEt saura faner vos roses\nComme il a ridé mon front.\n\nLe même cours des planètes\nRègle nos jours et nos nuits :\nOn m'a vu ce que vous êtes ;\nVous serez ce que je suis.\n\nCependant j'ai quelques charmes\nQui sont assez éclatants\nPour n'avoir pas trop d'alarmes\nDe ces ravages du temps.\n\nVous en avez qu'on adore ;\nMais ceux que vous méprisez\nPourraient bien durer encore\nQuand ceux-là seront usés.\n\nIls pourront sauver la gloire\nDes yeux qui me semblent doux,\nEt dans mille ans faire croire\nCe qu'il me plaira de vous.\n\nChez cette race nouvelle,\nOù j'aurai quelque crédit,\nVous ne passerez pour belle\nQu'autant que je l'aurai dit.",
+      "characterCount": 800,
+      "cjkCharCount": 0
+    }
+  ]
+}
