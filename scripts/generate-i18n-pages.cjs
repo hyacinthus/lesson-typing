@@ -120,8 +120,8 @@ const redirectHtml = `<!doctype html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson Typing</title>
-    <meta name="robots" content="noindex" />
+    <title>Lesson Typing - Elementary School Typing Practice</title>
+    <meta name="description" content="Free typing practice for elementary school students. Practice with real curriculum texts in 9 languages." />
     <link rel="canonical" href="${baseUrl}/en/" />
     ${hreflangTags}
     <noscript><meta http-equiv="refresh" content="0;url=/en/" /></noscript>
