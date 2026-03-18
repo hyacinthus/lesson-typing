@@ -1,12 +1,9 @@
-## v0.15.0 (2026-03-16)
+## v0.15.1 (2026-03-18)
 
-### New Features
-- **Lyrics collection** — Added a new "Lyrics" collection for all 9 languages, each containing 50 public domain song lyrics (traditional folk songs, hymns, children's songs, etc.) as typing practice content
+### Bug Fixes
+- **SEO: remove noindex from root page** — Removed the `noindex` robots meta tag from the root redirect page that was preventing Google from indexing the site; added proper title and description meta tags
 
-### Refactoring
-- **Rename chineseCharCount to cjkCharCount** — Renamed the `chineseCharCount` field to `cjkCharCount` across all lesson data, source code, and database schema to eliminate ambiguity; CJK character counting now correctly includes Han ideographs, Hiragana, Katakana, and Hangul
+### Content
+- **Chinese lyrics curation** — Curated Chinese lyrics collection with diverse artists and added curation guide
 
-### Database
-- New migration `09_rename_chinese_to_cjk.sql` to rename `chinese_char_count` column to `cjk_char_count`
-
-**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.14.0...v0.15.0
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.15.0...v0.15.1
