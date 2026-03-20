@@ -11,5 +11,5 @@ Tracking the review status of lyrics lessons across all 9 languages, following `
 | Italian    | Done        | Curated in v0.15.2           |
 | Japanese   | Done        | Curated in v0.15.3           |
 | Korean     | Done        | Curated in v0.15.4           |
-| Portuguese | Pending     |                              |
+| Portuguese | Done        | Curated in v0.15.4           |
 | Spanish    | Pending     |                              |
