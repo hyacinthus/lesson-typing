@@ -9,7 +9,7 @@ Tracking the review status of lyrics lessons across all 9 languages, following `
 | French     | Done        | Curated in v0.15.2           |
 | German     | Done        | Curated in v0.15.2           |
 | Italian    | Done        | Curated in v0.15.2           |
-| Japanese   | Pending     |                              |
+| Japanese   | Done        | Curated in v0.15.3           |
 | Korean     | Pending     |                              |
 | Portuguese | Pending     |                              |
 | Spanish    | Pending     |                              |

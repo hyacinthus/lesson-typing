@@ -3,21 +3,11 @@
   "title": "歌詞",
   "lessons": [
     {
-      "id": "27c2c65d-1193-44c1-8014-7a2771e09bd9",
-      "title": "猫 DISH//",
-      "category": "J-Pop",
-      "difficulty": 4,
-      "order": 1,
-      "content": "熱い風に　包まれたまま\n朝までそばにいたいだけ\n\n君に火をつけてSummer, summer night\n止まらない刺激が欲しいなら\nその手を　預けて\nI’ll never let you down\n大人になれないSummer, summer night\nこの夜の続きが見たいから\n裸足で　駆け出そう\nI’ll never let you down\n\n焦がせ Summer night\n(Summer night, summer night)\n焦がせ Summer night\n(湧き上がるDesire 隠しきれないや)\n焦がせ Summer night\n\n君に火をつけてSummer, summer night\n止まらない刺激が欲しいなら\nその手を　預けて\nI’ll never let you down\n大人になれないSummer, summer night\nこの夜の続きが見たいから\n裸足で 駆け出そう\nI’ll nevеr let you down\n焦がせ Summer night\n(Summer night, summеr night)\n焦がせ Summer night",
-      "characterCount": 491,
-      "cjkCharCount": 46
-    },
-    {
       "id": "7741ddaa-1fa0-4169-8a02-adb45359dceb",
       "title": "First Love（宇多田ヒカル）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 2,
+      "order": 1,
       "content": "明日の今頃にはわたしはきっと泣いてる\nあなたを想ってるんだろう\nYeah, yeah, yeah\n\nYou will always be inside my heart\nいつもあなただけの場所があるから\nI hope that I have a place in your heart too\nNow and forever, you are still the one\n今はまだ悲しいLove song\n新しい歌うたえるまで\nOh, oh\nYou are always gonna be my love\nいつか誰かとまた恋に落ちても\nI'll remember to love, you taught me how\nYou are always gonna be the one\nまだ悲しいLove song, yeah\nNow and forever, ooh",
       "characterCount": 382,
       "cjkCharCount": 16
@@ -27,7 +17,7 @@
       "title": "Automatic（宇多田ヒカル）",
       "category": "J-Pop",
       "difficulty": 5,
-      "order": 3,
+      "order": 2,
       "content": "Oh yeah, yeah, yeah\n\nあいまいな態度がまだ不安にさせるから\nこんなにほれてることは もう少し秘密にしておくよ\n\nやさしさがつらかった日も\nいつも本当のことを言ってくれた\nひとりじゃ泣けない rainy days\n指輪をさわれば ほらね sun will shine\n\nIt's automatic\n側にいるだけで 体中が熱くなってくる\nハラハラ隠せない (I don't know why)\n息さえ出来ない\nI just can't help\nIt's automatic\nアクセスしてみると 映るcomputer screenの中\nチカチカしてる文字 (I don't know why)\n手をあててみると\nI feel so warm\nIt's automatic\n側にいるだけで 愛しいなんて思わない\nただ必要なだけ (I don't know why)\n淋しいからじゃない\nI just need you (Oh yeah)\nIt's automatic\n抱きしめられると君とパラダイスにいるみたい\nキラキラまぶしくて, woah woah yeah\nI feel so good\nIt's automatic\n\nI just want you here with me\n(I don't know why)\nTell me why\nIt's automatic\n(I don't know why) I'll tell you why\nIt's automatic\nOh no, yeah\nOh no, no, no, baby, I need you\n(I don't know why) Baby\nI want you right now\nIt's automatic",
       "characterCount": 751,
       "cjkCharCount": 35
@@ -37,67 +27,37 @@
       "title": "名もなき詩（Mr.Children）",
       "category": "ロック",
       "difficulty": 4,
-      "order": 4,
+      "order": 3,
       "content": "どれほど分かり合える同志でも\n孤独な夜はやってくるんだよ\nOh darlin　このわだかまり\nきっと消せはしないだろう\n\nいろんな事を踏み台にしてきたけど\n失くしちゃいけない物がやっと見つかった気がする\n\n君の仕草が滑稽なほど\n優しい気持ちになれるんだよ\nOh darlin　夢物語\n逢う度に聞かせてくれ\n\n愛はきっと奪うでも与えるでもなくて\n気が付けばそこにある物\n街の風に吹かれて唄いながら\n妙なプライドは捨ててしまえばいい\nそこからはじまるさ\n\n絶望、失望 (Down)\n何をくすぶってんだ\n愛、自由、希望、夢 (勇気)\n足元をごらんよきっと転がってるさ\n\n成り行きまかせの恋におち\n時には誰かを傷つけたとしても\nその度心いためる様な時代じゃない\n誰かを想いやりゃあだになり\n自分の胸につきささる\n\nだけど\nあるがままの心で生きようと願うから\n人はまた傷ついてゆく\n知らぬ間に築いていた自分らしさの檻の中で\nもがいているなら誰だってそう\n僕だってそうなんだ\n\n愛情ってゆう形のないもの\n伝えるのはいつも困難だね\nだから darlin　この「名もなき詩」を\nいつまでも君に捧ぐ",
       "characterCount": 490,
       "cjkCharCount": 97
     },
     {
-      "id": "108bca78-ea5f-42af-abf9-1c72b0d38a18",
-      "title": "Cry Baby Official髭男dism",
-      "category": "ロック",
-      "difficulty": 3,
-      "order": 5,
-      "content": "胸ぐらを掴み返して\n反撃のパンチを繰り出すくらいじゃなきゃ\nお前の隣には立てないから\n相手が何であれ日和らない\n何度伸されても諦めない\n忘れるな 忘れるなと\n言い聞かせ続けたのに\n\nどうして (やり直して しくじって)\nどうして (やり過ごして 離れたいね)\nどうして (やり直して しくじって)\nどうして (やり過ごして 肩落として)\n\nあぁ 傘はいらないから言葉を一つくれないか\n微温い優しさではなく\n弱音に侵された胸の奥を抉るような言葉を\n\n何度も 青あざだらけで涙を\n流して 流して\n不安定な心を肩に預け合いながら (あぁ)\n腐り切ったバッドエンドに抗う\n\nなぜだろう 喜びよりも心地よい痛み\nずっしりと響いて\n濡れた服に 舌打ちしながら (あぁ)\n腫れ上がった顔を見合って笑う\n\n土砂降りの夜に\n囚われの日々に\n問いかけるように\n光った瞳の中で\n誓ったリベンジ",
-      "characterCount": 385,
-      "cjkCharCount": 88
-    },
-    {
-      "id": "7e1c8f48-d4c2-4bdb-a820-e1a646733e89",
-      "title": "I LOVE... Official髭男dism",
-      "category": "ロック",
-      "difficulty": 4,
-      "order": 6,
-      "content": "見えない物を見て笑う君の事を\n分かれない僕が居る\n美しすぎて目が眩んでしまう\n今も劣等感に縛られて生きている\n\nI love, I love, 不恰好な結び目\nI love, I love, 手探りで見つけて\nI love, your love, 解いて 絡まって\n僕は繰り返してる 何度も\n\nレプリカばかりが飾られた銀河\nカーテンで作られた暗闇 嘆く人も居ない\n鼠色の街の中で\nI love, その証を抱き締めて\n(Ah-ah-ah-ah, ah-ah-ah-ah-ah)\n\n喜びも悲しみも\n句読点のない想いも\n完全に分かち合うより\n曖昧に悩みながらも\n認め合えたなら\n\n重なる愛の中 濁った感情の中\n瞬きの僅かその合間に\n君がくれたプレゼントはこの\nやけに優しい世界だ, イレギュラー\n\n独りじゃ何ひとつ気付けなかっただろう\nこんなに大切な光に\n普通の事だと\nとぼける君に言いかけた\nI love, その続きを贈らせて\n\n受け取り合う僕ら\n名前もない夜が更けていく",
-      "characterCount": 434,
-      "cjkCharCount": 101
-    },
-    {
       "id": "a21a3fbf-046c-4ba1-a8c6-9419c8b6f686",
-      "title": "一途 King Gnu",
+      "title": "一途（King Gnu）",
       "category": "ロック",
       "difficulty": 3,
-      "order": 7,
+      "order": 4,
       "content": "ひとひらの想いよ\n届け届けと血を巡らせて\n一途に見つめます\n理由なんて必要は無いの\n\n涙の理由も知らずに\n愛が体を喰いちぎった\n正しさを振りかざさないで\n事実が理由を喰いちぎった\n\n鼓動が止まぬように\n喧騒に薪を焚べんだ\n帳を張る事すら\n無粋な気がしてんだ\n\nさあ来世に期待ね\n光れ閃け猛スピードで\n一途に向かいます\n余力を残す気は無いの\n\n届け届けと血を巡らせて\n一途に愛します\n永遠なんて必要は無いの\n\n最期にもう一度\n強く抱きしめて\nその後はもう\n何も要らないよ\n見えない未来も\n消せぬ過去さえも\nあなたで満ちれば\n後悔はないよ\n\n最期にもう一度\n力を貸して\nその後はもう\n何も要らないよ\n僕の未来も心も体も\nあなたにあげるよ\n全部全部",
       "characterCount": 321,
       "cjkCharCount": 103
     },
     {
       "id": "01a9e630-428e-49f0-8102-74370ebf8e4f",
-      "title": "BOY King Gnu",
+      "title": "BOY（King Gnu）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 8,
+      "order": 5,
       "content": "走れ遥か先へ\n汚れた靴と足跡は\n確かに未来へと\n今駆けてゆく\n息を切らした君は\n誰より素敵さ\n\n物語の始まりはいつも\n静寂を切り裂き突然に\n胸の中ざわめく焔に\n照れて忘れて大人になる\n\n形振り構わず\n今日は御仕舞いにしましょ\n日溜りの様な\n夢を見れますように\n固唾を呑んで\n恥を忍んで\nまだ諦めきれなくて\nまた何度だって\n明日を追いかけるの\n\n声を枯らすまで\n泣いていたんだよ\n叶わないと判って尚\n抗っておくれよ\n剥き出しで咲く君は\n誰より素敵さ\n\n今日も\nその涙が汗が滲んだ\n誰とも違う美しさで\n笑っておくれよ\n息を切らした君は\n誰より素敵さ\n\n走れ遥か先へ\n汚れた靴と足跡は\n確かに未来へと\n今駆けてゆく\n息を切らした君は\n誰より素敵さ",
       "characterCount": 320,
       "cjkCharCount": 105
     },
     {
-      "id": "1444f4e6-5325-4db4-9c58-90986f0fcd44",
-      "title": "らいおんハート（SMAP）",
-      "category": "J-Pop",
-      "difficulty": 6,
-      "order": 9,
-      "content": "てめぇ見開いてよく見ろ\nキメる、耳かっぽじって開けよ\nてめ一見開いてよく見ろ\nキメる、耳かっぽじって開けよ\n「空にそびえる 鉄の城」\n巻き起こすJ-RAPとの戦争\nいかがわしいこの街並の残像\n頭ん中で爆発\n洗脳さ戦場\nもはやこれこそが現状だ!\nどれだけの奴が\n今気付くだろう\n次々に繋がる連鎖反応 爆走\n手のひら返しの産業\n発狂する拒絶反応\n反抗する魂のかけら\n行き急ぐ悪魔 死への狭間\n明後日から明日から朝から\nすちゃだらだらした目から見たもの\nそれこそが狂ったルール\nはまったブーム\n外れたレールの上走るちっぽけなキープリアル\n邪魔させん 割り込みはいけません\n俺達の文化着火MAKE A FIRE\n電光石火かっ飛んできた\n仲間とつねに魂燃やし焦がし笑い\n力となってく俺の肥やし\n言葉の力俺の言霊が\nみなぎるパワー!うわー!\n真っ赤な目をしたフクロウ\n俺登場、証言2放つ\n\n敵は我なりとどけKAMINARI\n狙いすました第三の証言\n心にしまわず吐いたあの暴言\n裏を返せばシマネのような名言\n雑念ぶっ飛ぶ一直線\n進むリズムに乗るこの光線\nの中何小節かの旅\nばっちりがっちり\n行きますか?吸いますか?\n音に溢れた空気を\n疲れやつれたメッキを剥がせ\n陰に隠れた熱気を捜せ\n笑ってたいから踏む韻\n要らねえ怒りなんて封印\nきばらず行くのがここの掟\n縛られることの無いGKな書き手\nカッカするなら磨けよ牙\nマッハ超えて飛べ俺の唾\n\n証言4番大判小判に目眩み\n悪魔に魂売る奴の企み\nMcDADDY気取りのボケ\nHIPHOP使っていっちょ金儲け\n不純な動機\nシーンに対すRESPECTなど放棄\n俺のタケボウキで大掃除\n暴走しかけたその張本人\nよく聞いとけ俺らコケにした奴\n今時計が処刑の時刻を指す\n鋭く尖った言葉のギロチン\nきっと縄放ち落とし取る命\n何が無駄で何が大切か\nやっぱこれが真の解決策\nナメた呼び屋にゃ媚び売らん\n俺がZEEBRA鼻息荒いシマウマ\n\n証言五てんこもりの話要らねえぜ\n弁護連動無理ならば戦闘開始か\n仕掛けるか願える意志\nお主、弱ええし速ええし\nコエーくらいドケチ\nセージでも焚いてココロ開いてないね\n大抵喜んで御来店\nったくもう本音はさえない改善\n門前払いもしばしばくう\n前座でライムが牙をむく\nあいつら苦笑いハハ 自爆\n毎日磨くスニーカーとスキル\n順位とつけミーハーは区切る\n準備しときな\n業界のぼせ\n金、ふりおとしな\nそして言語の自由\n\n時間がねえよ 証言6\nうだだだ 寝てられねえぞ\n動いてる ジタバタしたって ム ム\nブルブル レッドゾーン振り切る 加熱\nちっと言っとく 多分そう思う\n4、5、6でなきゃ それじゃ泣いちゃう\nおお突撃のしぶき 火の玉爆弾てめえが標的\nトビ カタスミのMC 語録 双六 通す節\n鳴く蝉 泡銭どこに 独房の猛毒妄想\nおっつあん とっつあん 媚び売らん\n御破算 珊瑚が桃色陽炎で\nさあ 生き方の証明\nこれが証言波 かわす 刺客\n\n惨めた頭にゃけち臭い夢\nそれなりのちっちゃい臭い人生\n虚弱な知性で死に突き進む\n待ってるドラマは不幸な結末\n強談威迫 JUST LIKE脅迫\n勘違いMOTHER FUCKER\nTURN IN TO てんぐ\nSMALL TIME HUSTLER\n目先の金離せず\n鼻だけBIGで中身おっ付かず\nキメる極める頭上できらめく\nギラギラ光る俺ら爆発\nそろそろ兆す貴様らに刻む\nキレ者つわものDEVLARGE牙出す\n問答無用不要邪道外道\n支離滅裂奴自然消滅まであとわずか\n秒読みカウントダウン\nPIN FALL PIN DOWN\nもうチョイでドカン\n煮えくり返る熱湯のごとく\n氷のごとく冷たく落とす\nHA!BRING DAMAGE HIT'YA直撃\nポンコツ頭にゃチト難しい話\nFUCKこけおどし FUCK子供だまし\nREAL 見えない遠視近視乱視達\nNEVER立ち往生\nFUCK FOR THE LOVE OF MONEY\nひるまねぇ 怯むわけにゃいかねぇ\n証言SEVEN",
-      "characterCount": 1670,
-      "cjkCharCount": 469
-    },
-    {
       "id": "1ffe8635-cab4-48a3-afc5-e129ed8d61b7",
-      "title": "KICK BACK 米津玄師",
+      "title": "KICK BACK（米津玄師）",
       "category": "J-Pop",
       "difficulty": 5,
-      "order": 10,
+      "order": 6,
       "content": "努力 未来, a beautiful star\n努力 未来, a beautiful star\n努力 未来, a beautiful star\n努力 未来, a beautiful star\n\n4443で外れる炭酸水\nハングリー拗らせて吐きそうな人生\n「止まない雨はない」より先に その傘をくれよ\nあれが欲しい これが欲しい\n全て欲しい ただ虚しい\n\n幸せになりたい\n楽して生きていたい\n全部滅茶苦茶にしたい\n何もかも消し去りたい\nあなたのその胸の中\n\nラッキーで埋め尽くして\nレストインピースまで行こうぜ\n良い子だけ迎える天国じゃ\nどうも生きらんない\nアイラブユー貶して奪って笑ってくれマイハニー\n努力 未来, a beautiful star\n努力 未来, a beautiful star\n努力 未来, a beautiful star\nなんか忘れちゃってんだ\n\nハッピーラッキー\nこんにちはベイビー\n良い子でいたい そりゃつまらない\nハッピーラッキー\nこんにちはベイビーソースイート\n努力 未来, a beautiful star\n努力 未来, a beautiful star\n努力 未来, a beautiful star\nなんかすごい良い感じ\n\n努力 未来, a beautiful star\n努力 未来, a beautiful star\n努力 未来, a beautiful star\n努力 未来, a beautiful star\n(Ha, ha, ha, ha)",
       "characterCount": 642,
       "cjkCharCount": 104
@@ -107,17 +67,17 @@
       "title": "世界に一つだけの花（SMAP）",
       "category": "J-Pop",
       "difficulty": 4,
-      "order": 11,
+      "order": 7,
       "content": "困ったように笑いながら\nずっと迷ってる人がいる\n頑張って咲いた花はどれも\nきれいだから仕方ないね\nやっと店から出てきた\nその人が抱えていた\n色とりどりの花束と\n嬉そうな横顔\n\n名前も知らなかったけれど\nあの日僕に笑顔をくれた\n誰も気づかないような場所で\n咲いてた花のように\n\nそうさ僕らも\n世界に一つだけの花\n一人一人違う種を持つ\nその花を咲かせる事だけに\n一生懸命になれば良い\n小さい花や大きな花\n一つとして同じものはないから\nナンバーワンにならなくても良い\nもともと特別な only one\n\nLa-la-la, la-la-la, la-la-la, la-la-la\nLa-la-la, la-la-la, la-la-la\nLa-la-la, la-la-la, la-la-la, la-la-la\nLa-la-la, la-la-la, la-la-la\nLa-la-la, la-la-la, la-la-la, la-la-la\nLa-la-la, la-la-la, la-la-la\nLa-la-la, la-la-la, la-la-la, la-la-la\nLa-la-la, la-la-la, la-la-la",
       "characterCount": 520,
       "cjkCharCount": 62
     },
     {
       "id": "430a43a9-0e0e-4152-ba6c-596a1fd4518e",
-      "title": "only my railgun fripSide",
+      "title": "only my railgun（fripSide）",
       "category": "J-Pop",
       "difficulty": 4,
-      "order": 12,
+      "order": 8,
       "content": "立ち止まると\n少しだけ 感じる切なさに\n戸惑う事\n無いなんて嘘はつかないよ\n\n宙に舞うコインが描く\n放物線が決める運命\n打ち出した答えが今日も\n私の胸を駆け巡る\n\nSparkling, the shiny lights awake true desire\nOnly my railgun can shoot it 必ず\n貫いてく 途惑うことなく\n傷ついても 走り続ける\n狙え 凛と煌く視線は\n狂い無く闇を切り裂く\n迷いなんて 吹き飛ばせばいい\nこの心が叫ぶ限り\n誰ひとり邪魔などさせない\n\n儚く舞う 無数の願いは\nこの両手に積もってゆく\n切り裂く闇に見えてくるのは\n重く深く 切ない記憶\n色褪せてく 現実に揺れる\n絶望には 負けたくない\n私が今 私であること\n胸を張って 全て誇れる\n\nLooking, the blitz loop this planet to search way\nOnly my railgun can shoot it 今すぐ\n身体中を光の速さで\n駆け巡った 確かな予感\n放て 心に刻んだ夢を\n未来さえ置き去りにして\n限界など知らない 意味ない\nこの能力が光散らす\nその先に遥かな想いを",
       "characterCount": 505,
       "cjkCharCount": 117
@@ -127,17 +87,17 @@
       "title": "小さな恋のうた（MONGOL800）",
       "category": "ロック",
       "difficulty": 3,
-      "order": 13,
+      "order": 9,
       "content": "ほら ほら ほら\n響け恋の歌\n\nあなたは気付く 二人は歩く\n暗い道でも 日々照らす月\n握りしめた手 離すことなく\n思いは強く 永遠誓う\n永遠の淵 きっと僕は言う\n思い変わらず同じ言葉を\n\nそれでも足りず\n涙に変わり\n喜びになり\n言葉にできず\nただ抱きしめる ただ抱きしめる\n\nほら!\nあなたにとって大事な人ほど\nすぐそばにいるの\nただ!\nあなたにだけ届いて欲しい\n響け恋の歌\n\nほら ほら ほら\n響け恋の歌\n\n夢ならば覚めないで\n夢ならば覚めないで\nあなたと過ごした時\n永遠の 星となる\n\nほら!\nあなたにとって大事な人ほど\nすぐそばにいるの\nただ!\nあなたにだけ, 届いて欲しい\n響け恋の歌\nほら!\nあなたにとって大事な人ほど\nすぐそばにいるの\nただ!\nあなたにだけ届いて欲しい\n響け恋の歌\n\nほら ほら ほら!\n響け恋の歌",
       "characterCount": 363,
       "cjkCharCount": 78
     },
     {
       "id": "06704b03-e1f2-4845-b2a3-63ec2a3748df",
-      "title": "Flamingo 米津玄師",
+      "title": "Flamingo（米津玄師）",
       "category": "ロック",
       "difficulty": 4,
-      "order": 14,
+      "order": 10,
       "content": "御目通りありがたし\n闇雲に舞い上がり 上滑り (Brr-ra)\n虚仮威し 口ずさみ (Cha-cha-cha)\n狼狽えに 軽はずみ阿呆晒し (Uh-huh)\n\n愛おしいその声だけ聞いていたい\n半端に稼いだ あの癖に集り出す昼鳶 (Grr-ra)\nくだらないこのステージで光るのは\nあなただけでもいい (Uh-huh)\n\nそれは フラ フラ フラ フラミンゴ (Ah-ah)\n恐ろしや フラ フラ フラ フラミンゴ\nはにかんだ ふらふら浮かんでもう さいなら\nそりゃないね もっとちゃんと話そうぜ\n畜生め 吐いた唾も飲まないで\n\n(Heh-ye) 小雨に打たれて 鼻垂らし\nあたしは右手に猫じゃらし\n(Heh-ye) 今日びこの程度じゃ騙せない\n狭間で彷徨う永久に\n(Heh-ye) 地獄の閻魔にもうしり\nあの子を見受けておくんなまし\n(Heh-ye) 酔いどれ張り子の物語\nやったれ死ぬまで猿芝居\n\nあなた フラ フラ フラ フラミンゴ\n鮮やかな フラ フラ フラ フラミンゴ\n踊るままふらふら笑っても変わらない\n嫉妬ばっか残して (La-la-la, la-la-la-la)\n毎度あり 次はもっと大事にして\n\n宵闇に 爪弾き 花曇り\n枯れた街 にべもなし\nはらへらり (Mmm)",
       "characterCount": 541,
       "cjkCharCount": 94
@@ -147,17 +107,17 @@
       "title": "シャルル（バルーン）",
       "category": "ロック",
       "difficulty": 3,
-      "order": 15,
+      "order": 11,
       "content": "朝焼けとあなたの溜息\nこの街は僕等の夢を見てる\n今日だって互いの事を忘れていくんだね\nねえそうでしょ\n\n黙っていようそれでいつか\n苛まれたとしても\n別に良いんだよこんな憂いも\n意味があるなら\n\n恋と飾って飾って 静かな方へ\n汚れきった言葉を今\n今今\n「此処には誰もいない」「ええ、そうね」\n混ざって混ざって二人の果て\n譲り合って何もないな\n否否\n痛みだって教えて\n\nきっときっとわかっていた\n騙し合うなんて馬鹿らしいよな\nずっとずっと迷っていた\nほらね僕等は変われない\nそうだろう互いのせいで\n今があるのに\n\n愛を謳って謳って雲の上\n濁りきっては見えないや\n嫌嫌\n日に日に増えていた後悔を\n語って語って夜の群れ\n許し合って意味もないな\n否否\n\n愛を謳って謳って雲の上\n語って語って夜の群れ\n\n哂い合ってさよなら",
       "characterCount": 355,
       "cjkCharCount": 92
     },
     {
       "id": "83476504-4f2b-4246-836b-ab6c1ac18f0e",
-      "title": "群青 YOASOBI",
+      "title": "群青（YOASOBI）",
       "category": "J-Pop",
       "difficulty": 4,
-      "order": 16,
+      "order": 12,
       "content": "嗚呼 手を伸ばせば伸ばすほどに\n遠くへゆく 思うようにいかない今日も\nまた慌ただしくもがいてる\n悔しい気持ちも ただ情けなくて\n涙が出る 踏み込むほど\n苦しくなる 痛くもなる\n\n嗚呼 感じたままに進む\n自分で選んだこの道を\n重いまぶた擦る夜に\nしがみついた青い誓い\n好きなことを続けること\nそれは楽しいだけじゃない\n本当にできる 不安になるけど\n\n嗚呼 何枚でも ほら何枚でも\n自信がないから描いてきたんだよ\n嗚呼 何回でも ほら何回でも\n積み上げてきたことが武器になる\n周りを見たって 誰と比べたって\n僕にしかできないことはなんだ\n今でも自信なんかない それでも\n\n感じたことない気持ち\n知らずにいた想い あの日踏み出して\n初めて感じたこの痛みも全部\n好きなものと向き合うことで\n触れたまだ小さな光\n大丈夫行こうあとは楽しむだけだ\n\n嗚呼 全てを賭けて描く\n自分にしか出せない色で\n朝も夜も走り続け\n見つけ出した青い光\n好きなものと向き合うこと\n今だって怖いことだけど\nもう今はあの日の透明な僕じゃない\n嗚呼 ありのままの\nかけがえの無い僕だ\n\n知らず知らず隠してた\n本当の声を響かせてよほら\n見ないフリしていても\n確かにそこに今もそこにあるよ\n知らず知らず隠してた\n本当の声を響かせてよさあ\n見ないフリしていても\n確かにそこに君の中に",
       "characterCount": 569,
       "cjkCharCount": 143
@@ -167,7 +127,7 @@
       "title": "ベテルギウス（優里）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 17,
+      "order": 13,
       "content": "何十回 何百回 ぶつかりあって\n何十年 何百年 昔の光が\n僕自身も忘れたころに\n僕らを照らしてる\n\n僕ら見つけあって 手繰りあって 同じ空\n輝くのだって 二人だって 約束した\n遥か遠く終わらないベテルギウス\n誰かに繋ぐ魔法\n\nどこまで いつまで 生きられるか\n君が不安になるたびに強がるんだ\n大丈夫 僕が横にいるよ\n見えない線を繋ごう\n\n僕ら見つけあって 手繰りあって 同じ空\n輝くのだって 二人だって 約束した\n遥か遠く終わらないベテルギウス\n誰かに繋ぐ魔法\n僕ら 肩並べ 手取り合って 進んでく\n辛い時だって 二人だって 誓っただろう\n遥か遠く終わらないベテルギウス\n君にも見えるだろう 祈りが\n\n空にある何かを見つめてたら\nそれは星だって君がおしえてくれた",
       "characterCount": 331,
       "cjkCharCount": 92
@@ -177,47 +137,37 @@
       "title": "青いベンチ（サスケ）",
       "category": "J-Pop",
       "difficulty": 6,
-      "order": 18,
-      "content": "いきまっせ～！！ ブンブンブンブンブン\nハジケ飛んで　ブンブンブンブンブン\nいまだかつてない　こんな　スペシャルハッピーな笑顔だらけ\nココロ刻め　忘れんなよ　一分一秒の　熱を\n燃えあがれ　メラメラ FLAME FIRE！！\nそうだ！！ ブッ放せ！！\n行くぜ！！ まだまだ GO GO GO\n空へ羽ばたけ　ブンブンブンブンブン\n飛んで飛んで　ブンブンブンブンブン\nまだまだこんなもんじゃ　物足んねえ　もっと湧かせ！！\nハンパねえ　史上最幸 NO SMILE, NO LIFE\nマチガイナイ！！ 終わらないぜ\nYO Baby 姉ちゃん兄ちゃん寄っといで\n盛んに騒いじゃってこう Let's go パリピポ！！\n\nエンジン全開　バリバリ　寝起きは若干　ダリぃダリぃ\nやるときゃやんぜ　キメてみせまっせ！！\nでもちょっと待った！！ アッチの方向　左向け左　そう\nボンボンッキュッ　ボンボンッキュッ BOMB！！\nSEXY ダイナマイト\n\n駆け抜ける　流れ星の下で\nヘタレ上等　気分上々　テンションは上昇\n語り合って　輪になって　お祭り妄想\n公園のベンチ座って　気づけば朝まで\n完全無敵 We can make it！！ 行くぞ\nごっつ　めっちゃ　やっぱ　俺ら最強！！\nさあ皆！！ 気合いをいれろ！！ 最高潮　ゼッコーチョー！！\n1.2.3.4.5\n\nいきまっせ～！！ ブンブンブンブンブン\nハジケ飛んで　ブンブンブンブンブン\nいまだかつてない　こんな素晴らしい時間(とき)と場所で\nココロ刻め　忘れんなよ　青春のストーリー　今を\n鳴らせ　ワレ♂♂(アゲアゲ) ファンファーレ\n響き渡れ\n行くぜ！！ まだまだ GO GO GO\n空へ羽ばたけ　ブンブンブンブンブン\n飛んで飛んで　ブンブンブンブンブン\nみんなそこらじゅう　ハメ外しちゃって OH YEAH！！ 踊れ！！\nハンパねえ　史上最幸　感謝　感激　マチガイナイ！！ 止まらないぜ\nYO Baby 姉ちゃん兄ちゃん寄っといで\n盛んに騒いじゃってこう Let's go パリピポ！！\n\nときには　くじけちゃったり　ときには　逃げてしまったり\n投げ出したいこともあるけど\nそうやって　つまずいて　涙流して\nきっと明日は 1歩踏み出して\n笑い飛ばしちゃって　全身全霊で叫べ！！\n\nいきまっせ～！！ ブンブンブンブンブン\nハジケ飛んで　ブンブンブンブンブン\nいまだかつてない　こんな　スペシャルハッピーな笑顔だらけ\nココロ刻め　忘れんなよ　一分一秒の　熱を\n燃えあがれ　メラメラ FLAME FIRE！！\nそうだ！！ ブッ放せ！！\n行くぜ！！ まだまだ GO GO GO\n空へ羽ばたけ　ブンブンブンブンブン\n飛んで飛んで　ブンブンブンブンブン\nまだまだこんなもんじゃ　物足んねえ　もっと湧かせ！！\nハンパねえ　史上最幸 NO SMILE, NO LIFE\nマチガイナイ！！ 終わらないぜ\nYO Baby 姉ちゃん兄ちゃん寄っといで\n盛んに騒いじゃってこう Let's go パリピポ！！\n盛んに騒いじゃってこう Let's go パリピポ！！\n\n上がっちゃってこう！！ 騒いじゃってこう！！\nブッ飛ばしてこう！！ 笑っちゃってこう！！\n上がっちゃってこう！！ 騒いじゃってこう！！\nブッ飛ばしてこう！！ もうめっちゃサイコー！！\n上がっちゃってこう！！ 騒いじゃってこう！！",
-      "characterCount": 1404,
-      "cjkCharCount": 173
+      "order": 14,
+      "content": "君は来るだろうか 明日のクラス会に\n半分に折り曲げた「案内」をもう一度見る\nつきあってた頃 僕ら手をつなぎながら歩いた並木道\nたくさんの人がゆくよ ああ\nいつも僕が待たせた駅で待つはず無い君を捜すけど\n\nこの声が枯れるくらいに 君に好きと言えばよかった\n会いたくて仕方なかった どこにいても何をしてても\n\n夕方の雲が ホームの空を抜ける\nこの街で僕は 夢を見て旅している ああ\n青いベンチ腰かけ君が手をふった あの日思い出すよ\n\nこの声が枯れるくらいに 君に好きと言えばよかった\nもう二度と戻らない恋 痛みだけがちょっと動いた\n\nああ季節は思ったよりも進んでて思いを掻き消してく\n気づかない程遠く\n\nこの声が枯れるくらいに 君に好きと言えばよかった\n会いたくて仕方なかった どこにいても何をしてても\n\nこの声が枯れるくらいに 君に好きと言えばよかった\nもう二度と戻らない恋 痛みだけがちょっと動いた",
+      "characterCount": 399,
+      "cjkCharCount": 96
     },
     {
       "id": "27b5f4bd-2db6-4404-a602-d302087443b0",
       "title": "キセキ（GReeeeN）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 19,
+      "order": 15,
       "content": "2人フザけあった帰り道　それも大切な僕らの日々\n「想いよ届け！！！」と伝えた時に　初めて見せた表情の君\n少し間が空いて　君がうなずいて　僕らの心　満たされてく愛で\nぼくらまだ旅の途中で　またこれから先も\n何十年続いていけるような未来へ\n\n例えばほら　明日を見失いそうに　僕らなったとしても、、、\n\n2人寄り添って歩いて　永久の愛を形にして\nいつまでも君の横で　笑っていたくて\nアリガトウや　Ah　愛してるじゃまだ足りないけど\nせめて言わせて　「幸せです」と\n\nうまく行かない日だって　2人で居れば晴れだって！\n喜びや悲しみも　全て分け合える\n君がいるから　生きていけるから！\nだからいつも　そばにいてよ　『愛しい君へ』　最後の一秒まで\n\n明日、今日より笑顔になれる　君がいるだけで　そう思えるから\n何十年　何百年　何千年　時を超えよう　君を愛してる",
       "characterCount": 374,
       "cjkCharCount": 94
-    },
-    {
-      "id": "e9d83f43-ed43-4606-b515-aa7e2ccc6f4c",
-      "title": "丸の内サディスティック 椎名林檎",
-      "category": "J-Pop",
-      "difficulty": 3,
-      "order": 20,
-      "content": "Ao kande itte choudai\nShuuden de kaerutteba ikebukuro\n\nMaasharu no nioi de tonjatte taihen sa\nMaiban zecchou ni tasshite iru dake\nRatto hitotsu wo shoubaidougu ni shite iru sa\nSoshitara benjii ga hai ni utsutte torippu\nShourai sou ni natte kekkon shite hoshii\nMaiban shingu de yuugi suru dake\nPiza ya no kanojo ni natte mitai\nSoshitara benjii atashi wo gurecchi de utte",
-      "characterCount": 369,
-      "cjkCharCount": 0
     },
     {
       "id": "cb49bf27-382d-4642-887f-1443ec35056c",
       "title": "そばにいるね（青山テルマ）",
       "category": "R&B",
       "difficulty": 6,
-      "order": 21,
+      "order": 16,
       "content": "どんなことよりお前の方は元気か?\nちゃんと飯食ってるか? (待ってるよ)\nちくしょう やっぱ言えねぇや\nまた今度送るよ 俺からの letter\n\n過ぎ去った時は戻せないけれど\n近くにいてくれた君が恋しいの\nだけど あなたとの 距離が遠くなる程に\n忙しくみせていたあたし逃げてたの\n\nだけど目を閉じる時眠ろうとする時\n逃げきれないよ あなたの事\n思い出しては\n一人泣いてたの\n\nあなたのこと私は今でも\n思い続けているよ\nいくら時流れて行こうと\nI'm by your side, baby, いつでも\nSo どんなに離れていようと\n心の中ではいつでも\n一緒にいるけど寂しいんだよ\nSo, baby, please, ただ hurry back home\n\nBaby boy, あたしはここにいるよ\nどこもいかずに待ってるよ\nYou know that I love you, だからこそ\n心配しなくていいんだよ\nどんなに遠くにいても\n変わらないよこの心\n言いたい事わかるでしょ?\nあなたのこと待ってるよ (Baby boy)\n\n不器用な俺 遠くにいる君\n伝えたい気持ちそのまま言えずに (待ってるよ)\n君は行っちまった\n今じゃ残された君はアルバムの中\n\nアルバムの中納めた思い出の\n日々より何げない一時が今じゃ恋しいの (君の温もり)\nAnd now あなたからの電話待ち続けていた\n携帯にぎりしめながら眠りについた (抱きしめてやりたい)\n\nどこも行かないよ ここにいるけれど\n見つめあいたい あなたのその瞳\nねぇわかるでしょ?\nあたし待ってるよ\n\nI'm here, baby\nYeah\n\nBaby boy, あたしはここにいるよ\nどこもいかずに待ってるよ\nYou know that I love you, だからこそ\n心配しなくていいんだよ\nどんなに遠くにいても\n変わらないよこの心\n言いたい事わかるでしょ?\nあなたのこと待ってるよ\n\n俺はどこも行かないよ\nここにいるけれど\n探し続けるあなたの顔\n(I'll be by your side)\nYour 笑顔 今でも触れそうだって\n思いながら手を伸ばせば 君は\n\nあなたのこと私は今でも\n思い続けているよ\nいくら時流れて行こうと\nI'm by your side, baby, いつでも\nSo どんなに離れていようと\n心の中ではいつでも\n一緒にいるけど寂しいんだよ\nSo, baby, please, ただ hurry back home\nあなたのこと私は今でも\n思い続けているよ\nいくら時流れて行こうと\nI'm by your side, baby, いつでも\nSo どんなに離れていようと\n心の中ではいつでも\n一緒にいるけど寂しいんだよ\nSo, baby, please, ただ hurry back home, yeah",
       "characterCount": 1191,
       "cjkCharCount": 148
     },
     {
       "id": "7b8a68b7-b299-408a-9981-eaa328445766",
-      "title": "踊り子 Vaundy",
+      "title": "踊り子（Vaundy）",
       "category": "J-Pop",
       "difficulty": 5,
-      "order": 22,
+      "order": 17,
       "content": "思いを蹴って\n二人でしてんだ\n壊(わす)れない愛を歌う\n言葉を二人に課して\n誓いをたてんだ\n忘れない愛を歌うようにね\n\n回り出した あの子と僕の未来が\n止まりどっかで またやり直せたら\n回り出した あの子と僕が被害者\nづらでどっかを また練り歩けたらな\n\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\n\n回り出した あの子と僕の未来が\n止まりどっかで またやり直せたら\n回り出した あの子と僕が被害者\nづらでどっかを また練り歩けたらな\n\n時代に乗って僕たちは\n(とぅるるる とぅるるる とぅるる)\n変わらず愛に生きるだろう\n(とぅるるる とぅるるる とぅるる)\n僕らが散って残るのは\n(とぅるるる とぅるるる とぅるる)\n変わらぬ愛の歌なんだろうな\n(とぅるるる とぅるるる とぅるる)\n時代に乗って僕たちは\n(とぅるるる とぅるるる とぅるる)\n変わらず愛に生きるだろう\n(とぅるるる とぅるるる とぅるる)\n僕らが散って残るのは\n(とぅるるる とぅるるる とぅるる)\n変わらぬ愛の歌なんだろうな\n(とぅるるる とぅるるる とぅるる)\n\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる\nとぅるるる とぅるるる とぅるる",
       "characterCount": 651,
       "cjkCharCount": 76
@@ -227,27 +177,17 @@
       "title": "Real Face（KAT-TUN）",
       "category": "J-Pop",
       "difficulty": 6,
-      "order": 23,
+      "order": 18,
       "content": "夢を語るフリしてれば\n(J-O-K-E-R, K-O 劇になる)\nなんか大人になれる気がして\n(Ay-yo, 警報鳴らせかざせ手を)\n舌打ちをした (丁重に呼べよ)\n\nギリギリでいつも生きていたいから ああ\nここを今飛び出して 行こうぜ (Oh, woah)\nこの涙嘆き未来へのステップ さぁ\n思い切りブチ破ろう (To go through fire and water)\n\nリアルを手に入れるんだ\n(The law of the jungle, so we never lost)\n\n新しいシャツ脱ぎ捨てて\nずぶ濡れになった火曜日を\n笑いたきゃ笑えば良い\n雨上がり濡れた堤防で\n初めて君についた嘘は\n今も乾いちゃいない\n\n悪いけど賢くはないさ\n(Sneaker, speaker, diva, ここの key, right?)\nきっと頭より心で\n(Big star, east side, west side, 俺の big time)\n考えるタイプ (帝王手を上げろ 騒げハラバック)\n\nギザギザで牙をむき出しながら ああ\n俺流スタートダッシで行くんだ (Woah, oh)\nこの誓いデカい世界の先へ さぁ\n無限こえていこう (Time lost can't be recalled)\n\nリアルを見つけにいこう\n\nFaith, come move mountain, yeah\nJ-O-K-E-R, yeah\nWake up, wake up, make up, 覚めろ才能\nPlay back, make bounce, 定番壊し, shine on\n\nギリギリでいつも生きていたいから ああ\nここを今飛び出して行こうぜ\nこの涙嘆き未来へのステップ さぁ\n思い切りブチ破ろう (Failure teaches success, so I wanna believe)\n\nリアルを手に入れるんだ\n(The die is cast, so we have to go)\n\n俺がハスラー kid, これ果たすだけ\n声からす訳 超えられるか this\nそれは誰だ? Haha, 俺は joker\nDoop な rhyme で泣き出す嬢ちゃん\n待ちに待ったこれが俺の showtime\n壮大キメろ all night\nヤバメな flow で沸き出す場内\nWest side, east side, 上げろ, hands up!",
       "characterCount": 1012,
       "cjkCharCount": 112
-    },
-    {
-      "id": "d8a7e447-5032-4646-aec4-f82346246de2",
-      "title": "花束を君に 宇多田ヒカル",
-      "category": "ロック",
-      "difficulty": 5,
-      "order": 24,
-      "content": "花束を君に贈ろう\n愛おしい人 愛おしい人\nどんな言葉並べても\n君を讃えるには 足りないから\n今日は贈ろう 涙色の花束を君に\n\n君に 君に\n君に 君に\n君に 君に\n君に 君に\n\nRōmaji\n\nFudan kara MEIKU shinai kimi ga usugeshou shita asa\nHajimari to owari no hazama de\nWasurenu yakusoku shita\n\nHanataba wo kimi ni okurou\nItoshii hito itoshii hito\nDonna kotoba narabetemo\nShinjitsu ni wa naranai kara\nKyou wa okurou namida iro no hanataba wo kimi ni\n\nMainichi no hito shirenu kurou ya sabishi mi mo naku tada\nTanoshii koto bakari dattara\nAi nante shirazu ni sunda noni na\n\nHanataba wo kimi ni okurou\nIitai koto iitai koto\nKitto yama hodo aru kedo\nKami-sama shika shiranai mama\nKyou wa okurou namida iro no hanataba wo kimi ni\n\nRyoute de mo kakaekirenai\nMabayui fuukei no kazukazu wo arigatou\n\nSekaijuu ga ame no hi mo\nKimi no egao ga boku no taiyou datta yo\nIma wa tsutawaranakutemo\nShinjitsu ni wa kawarinai sa\nDakishimete yo, tatta ichido sayonara no mae ni\n\nHanataba wo kimi ni okurou\nItoshii hito itoshii hito\nDonna kotoba narabetemo\nKimi wo tataeru ni wa tarinai kara\nKyou wa okurou namida iro no hanataba wo kimi ni\n\nKimi ni kimi ni\nKimi ni kimi ni\nKimi ni kimi ni\nKimi ni kimi ni",
-      "characterCount": 1095,
-      "cjkCharCount": 30
     },
     {
       "id": "406c402c-88ff-4d1b-b30a-e6425d99f9e4",
       "title": "マリーゴールド（あいみょん）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 25,
+      "order": 19,
       "content": "目の奥にずっと写るシルエット\n大好きさ\n\n柔らかな肌を寄せあい\n少し冷たい空気を2人\nかみしめて歩く今日という日に\n何と名前をつけようかなんて話して\nああ アイラブユーの言葉じゃ\n足りないからとキスして\n雲がまだ2人の影を残すから\nいつまでも いつまでも このまま\n\n遥か遠い場所にいても\n繋がっていたいなあ\n2人の想いが\n同じでありますように\n\n麦わらの帽子の君が\n揺れたマリーゴールドに似てる\nあれは空がまだ青い夏のこと\n懐かしいと笑えたあの日の恋\n「もう離れないで」と\n泣きそうな目で見つめる君を\n雲のような優しさでそっとぎゅっと\n抱きしめて離さない\nああ アイラブユーの言葉じゃ\n足りないからとキスして\n雲がまだ2人の影を残すから\nいつまでも いつまでも このまま\n\n離さない\nいつまでも いつまでも 離さない",
       "characterCount": 359,
       "cjkCharCount": 67
@@ -257,67 +197,57 @@
       "title": "全力少年（スキマスイッチ）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 26,
+      "order": 20,
       "content": "遊ぶこと忘れてたら\n老いて枯れんだ\nここんとこは仕事オンリー\n笑えなくなっている\n\nガラクタの中に\n輝いてた物がいっぱいあったろう？\n「大切なもの」\n全て埋もれてしまう前に\n\nさえぎるものはぶっ飛ばして\nまとわりつくものかわして\n止め処ない血と涙で渇いた心臓潤せ\nあの頃の僕らはきっと\n全力で少年だった\n怯えてたら何も生まれない\n\n澱んだ景色に\n答えを見つけ出すのはもう止めだ\n濁った水も\n新しい希望ですぐに\n透み渡っていく\n\n積み上げたものぶっ壊して\n身に着けたもの取っ払って\n幾重に重なり合う描いた夢への放物線\n紛れもなく僕らずっと\n全力で少年なんだ\nセカイを開くのは僕だ\n視界はもう澄み切ってる",
       "characterCount": 300,
       "cjkCharCount": 75
-    },
-    {
-      "id": "ecc0f1f4-f57b-486d-9951-20083da225db",
-      "title": "パプリカ（Foorin）",
-      "category": "J-Pop",
-      "difficulty": 3,
-      "order": 27,
-      "content": "Ai ni yuku yo namiki wo nukete\nUta wo utatte\nTe ni wa ippai no hana wo kakaetе\nRa ru ra ri ra\n\nAi ni yuku yo namiki wo nukete\nUta wo utatte\nTе ni wa ippai no hana wo kakaete\nRa ru ra ri ra\n\nPapurika hana ga saitara\nHareta sora ni tane wo makou\nHareruya yume wo egaita nara\nKokoro asobase anata ni todoke\n\nKakato hazumase kono yubi tomare",
-      "characterCount": 337,
-      "cjkCharCount": 0
     },
     {
       "id": "4021027b-f476-4307-9af8-6ca302438f97",
       "title": "Pretender（Official髭男dism）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 28,
+      "order": 21,
       "content": "誰かが偉そうに 語る恋愛の論理\n何ひとつとしてピンとこなくて\n飛行機の窓から見下ろした\n知らない街の夜景みたいだ\n\nもっと違う設定で もっと違う関係で\n出会える世界線 選べたらよかった\nいたって純な心で 叶った恋を抱きしめて\n「好きだ」とか無責任に言えたらいいな\nそう願っても虚しいのさ\n\nグッバイ 繋いだ手の向こうにエンドライン\n引き伸ばすたびに 疼きだす未来には\n君はいない その事実に cry-y-y-y-y\nそりゃ苦しいよな\n\nグッバイ 君の運命のヒトは僕じゃない\n辛いけど否めない でも離れ難いのさ\nその髪に触れただけで 痛いや いや\nでも 甘いな いやいや\nグッバイ それじゃ僕にとって君は何？\n答えは分からない 分かりたくもないのさ\nたったひとつ確かなことがあるとするのならば\n「君は綺麗だ」\n\nそれもこれもロマンスの定めなら\n悪くないよな\n永遠も約束もないけれど\n「とても綺麗だ」",
       "characterCount": 398,
       "cjkCharCount": 84
     },
     {
       "id": "f61f62d0-abff-4537-bbf5-a3ee9828d623",
-      "title": "怪獣の花唄 Vaundy",
+      "title": "怪獣の花唄（Vaundy）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 29,
+      "order": 22,
       "content": "思い出すのは\n君がいた\nギター持ってる\n君がいた\n忘れられないんだよ\nだから僕が歌うよ\n\nでも最後に見たいのは\nきっともう君の夢の中\nもう一度\nまた聞かせてくれよ\n聞きたいんだ\n\nもっと\n騒げ怪獣の歌\nまだ消えない\n夢の歌唱えて\n君がいつも\n歌う怪獣の歌\nまだ消えない\n口ずさんでしまうよ\n\n落ちてく過去は鮮明で\n見せたい未来は繊細で\nすぎてく日々には鈍感な君へ\n落ちてく過去は鮮明で\n見せたい未来は繊細で\nすぎてく日々には鈍感な君へ\n\nねぇ、もっと\n騒げ怪獣の歌\nまだ消えない\n夢の歌唱えて\n君がいつも\n歌う怪獣の歌\nまだ消えない\n口ずさんでしまうよ\n\nねぇ、僕ら\n眠れない夜に手を伸ばして\n眠らない夜をまた伸ばして\n眠くないまだね\nそんな日々でいたいのにな\n懲りずに\n眠れない夜に手を伸ばして\n眠らない夜をまた伸ばして\n眠くないまだね\nそんな夜に歌う\n怪獣の歌",
       "characterCount": 382,
       "cjkCharCount": 100
     },
     {
       "id": "ede85bb1-7a35-4534-9ed4-6a6af9de1559",
-      "title": "ギラギラ Ado",
+      "title": "ギラギラ（Ado）",
       "category": "アニソン",
       "difficulty": 4,
-      "order": 30,
+      "order": 23,
       "content": "ギラ (ギラ)\nギラギラ (ギラ)\nギラ (ギラ)\n\nUnknown お釈迦様も存ぜぬうちに\nもう健やかに狂っていたみたい\nそれは世界の方かそれとも私の方ですか？\n共生は端からムリでしょう\n\nマガイモノこそかなしけれ\n無我夢中疾る疾る\n強い酸性雨が洗い流す前に\n蛍光色の痣抱いて\n\nメラメラ火を噴いて私は夜の狼\nRap, tap, tap, tap\nそこで見てろこの乱舞\n強くおなり あなたなりの武装で\nFlap up, flap up\n不意に不安に\n\n孤独は燃料 卑屈な町を行く\n目を閉じて もういいかい もういいかい\nもしも神様が左利きならどんなに幸せか知れない\n\nギラギラ輝いて私は夜を呑み\nRap, tap, tap, tap\n今に見てろこの Love\n目に染みるは 1mg の花火\nDrag on, drag on\nなんてファニー この世はビザール\n\nギラ (ギラ)\nギラギラ (ギラ)\nギラ (ギラ)\nギラギラ, ah\n\nGive love 花は満ちて (ギラギラ)\nありのまんまじゃいられない 誰も彼も\nなんて素晴らしき世界だ\nギラついてこう",
       "characterCount": 478,
       "cjkCharCount": 82
     },
     {
       "id": "280f7307-a2c4-471c-9dd4-ecb30253213a",
-      "title": "天体観測 BUMP OF CHICKEN",
+      "title": "天体観測（BUMP OF CHICKEN）",
       "category": "アニソン",
       "difficulty": 3,
-      "order": 31,
+      "order": 24,
       "content": "知らないモノを知ろうとして 望遠鏡を覗き込んだ\n暗闇を照らす様な 微かな光 探したよ\nそうして知った痛みを 未だに僕は覚えている\n「イマ」という ほうき星 今も一人追いかけている\n\n背が伸びるにつれて 伝えたい事も増えてった\n宛名の無い手紙も 崩れる程 重なった\n僕は元気でいるよ 心配事も少ないよ\nただひとつ 今も思い出すよ\n\n予報外れの雨に打たれて 泣きだしそうな\n君の震える手を 握れなかった あの日を\n\n見えてるモノを 見落として 望遠鏡をまた担いで\n静寂と暗闇の帰り道を 駆け抜けた\nそうして知った痛みが 未だに僕を支えている\n「イマ」という ほうき星 今も一人追いかけている\nもう一度君に会おうとして 望遠鏡をまた担いで\n前と同じ 午前二時 フミキリまで駆けてくよ\n始めようか 天体観測 二分後に君が来なくとも\n「イマ」という ほうき星 君と二人追いかけている",
       "characterCount": 386,
       "cjkCharCount": 113
     },
     {
       "id": "88bacccd-2696-47f9-b9a5-f78e734afa90",
-      "title": "桜坂 福山雅治",
+      "title": "桜坂（福山雅治）",
       "category": "J-Pop",
       "difficulty": 5,
-      "order": 32,
+      "order": 25,
       "content": "逢えないけど\n季節は変わるけど\n愛しき人\n\n君だけが　わかってくれた\n憧れを追いかけて\n僕は生きるよ\n\n愛と知っていたのに\n春はやってくるのに\n夢は今も　夢のままで\n\n君よずっと幸せに\n風にそっと歌うよ\n愛は今も　愛のままで\n\n二人すごしたのもこんな春の日\nSo many years have passed away\n流れ行く季節の中で　今も残る君の思い出\n届けたい想いが募るEveryday\nI think about you\nなぜ行かせてしまったんだろう?\nI just don't know\n後悔しても\nYou walked away slow\n去っていった君の後ろ姿\n消えるまで見つめつづけた\nHolding on to your memory tight\nAnd it's true that reality bites\nまるで桜のような儚さ故\n心に深く刻まれる絵\nやさしい笑顔　君の面影\n桜の季節に見る夢\nAgain and again it makes me wanna say\nThat's right, when the flower blooms\nI remember the days I spent with you\n光浴びる桜　透き通る花びら　見上げ登る坂\nこれから先きっとまた　ここを通ると思い出す\n二人一緒　夢見てた明日\nまぶしすぎて手をかざす\nCause I never felt like that\n心に穴があいた　埋めるため手探り\nでもまた気付くとここにいた\n時がくれば散りゆくからより愛しくて\n桜舞散るこの坂で　今君の記憶とお別れ\nI'll be dreaming about you again and again\nIt was a beautiful day\nWhen you passed away\nI'll be dreaming about you\nEach and everyday\nA beautiful scene\nDeep down my memory\nThe smile you gave me\nMy only remedy",
       "characterCount": 892,
       "cjkCharCount": 109
@@ -327,7 +257,7 @@
       "title": "空も飛べるはず（スピッツ）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 33,
+      "order": 26,
       "content": "幼い微熱を下げられないまま\n神様の影を恐れて\n隠したナイフが似合わない僕を\nおどけた歌でなぐさめた\n\n色褪せながら\nひび割れながら\n輝くすべを持っていた\n\n君と出会った奇跡が\nこの胸にあふれてる\nきっと今は自由に空も飛べるはず\n夢を濡らした涙が\n海原へ流れたら\nずっとそばで笑っていてほしい\n\n切り札にしていた\n見えすいた嘘は\nもう関係ないから\n\n君と出会った奇跡が\nこの胸にあふれてる\nきっと今は自由に空も飛べるはず\n\nゴミできらめく世界が\n僕たちを拒んでも\nずっとそばで笑っていてほしい\n\n君と出会った奇跡が\nこの胸にあふれてる\nきっと今は自由に空も飛べるはず\n夢を濡らした涙が\n海原へ流れたら\nずっとそばで笑っていてほしい",
       "characterCount": 314,
       "cjkCharCount": 76
@@ -337,47 +267,27 @@
       "title": "RPG（SEKAI NO OWARI）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 34,
+      "order": 27,
       "content": "大切な何かが壊れたあの夜に\n僕は君を探して一人で歩いていた\nあの日から僕らは一人で海を目指す\n約束のあの場所で必ずまた逢おうと\n\n世間 という悪魔に\n惑わされないで\n自分だけが決めた\n答を思い出して\n\n空は青く澄み渡り\n海を目指して歩く\n怖いものなんてない\n僕らはもう一人じゃない\n空は青く澄み渡り\n海を目指して歩く\n怖くても大丈夫\n僕らはもう一人じゃない\n\n煌めきのような\n人生の中で\n君に出逢えて\n僕は本当によかった\n街を抜け海に出たら\n次はどこを目指そうか\n僕らはまた出かけよう\n愛しいこの地球を\n\n空は青く澄み渡り\n海を目指して歩く\n怖いものなんてない\n僕らはもう一人じゃない\n空は青く澄み渡り\n海を目指して歩く\n怖くても大丈夫\n僕らはもう一人じゃない",
       "characterCount": 330,
       "cjkCharCount": 111
     },
     {
-      "id": "f4a54425-3a04-4aa3-8b3b-2f500317f1ec",
-      "title": "FIRE DANCE Da-iCE",
-      "category": "J-Pop",
-      "difficulty": 5,
-      "order": 35,
-      "content": "Old meets New\nOld lives in New...\n\nI know it's dangerous\nKeep on leading, heating, breaking through\nYou know it's scandalous\n見惚れちゃってるそこの君 Lock\n\nTurn up the vibe, right now drive, feel the fire\nStep around, get loud hеre, take it higher\nOnе step in, you're hooked on the vibe\nこれ以上 No place to hide\n\nLike a clock, so precisely\nHit the floor so tight に\nNo matter how far I go\nきっと Back to the basics\nKeep it true\n\nOne & two & three & four & five & six & seven, eight\nNo matter what you do\nBy the last count, you'll be lost in my eyes\nNo disguise\n\nOld meets New\nOld lives in New...\n\nすり減ったソールの跡だけ\nFrom the top　何万回\nGimme that, one more try\n黒く塗り潰して\n\nAll I wanna do is Dance\n\nOld meets New\nOld lives in New...\n\nI know it's dangerous\nKeep on leading, heating, breaking through\nYou know it's scandalous\n見惚れちゃってるそこの君 Lock",
-      "characterCount": 809,
-      "cjkCharCount": 16
-    },
-    {
-      "id": "8e62a8cd-829d-4488-9961-5af6555aaef3",
-      "title": "打上花火（DAOKO×米津玄師）",
-      "category": "J-Pop",
-      "difficulty": 6,
-      "order": 36,
-      "content": "A light that seemed it might disappear if we let out a gasp\nSurely remained within our hearts\nA warm future we felt when we reached out our hands\nWas secretly watching us\n\nFireworks, in flash of light (Fireworks, in flash of light)\nBloomed in the night (Bloomed in the night)\nThey bloomed in the night (They bloomed in the night)\nAnd disappeared silently (And disappeared silently)\nDon't let go (Don't go away)\nJust a little longer (Just a little longer)\nJust a little longer, let us stay like this\n\nI can still remember the shore we saw that day\nThe words we wrote in the sand\nThe sight of you as you turned away\n\nWe watched fireworks blooming in a flash of light\nSurely this summer is far from over\nAnd has unraveled our uncertain hearts, tying them together\nI wanted this night to go on forever\n\nLa, la-la-la-la-la, la-la-la, la-la-la-la\nLa-la-la, la-la-la-la\nLa, la-la-la-la-la, la-la-la, la-la-la-la-la-la\nLa-la-la, la-la-la\nLa, la-la-la-la-la, la-la-la, la-la-la-la\nLa-la-la, la-la-la-la\nLa, la-la-la-la-la, la-la-la, la-la-la-la-la-la\nLa-la-la, la-la-la",
-      "characterCount": 1060,
-      "cjkCharCount": 0
-    },
-    {
       "id": "bb8532f1-c807-4a41-bd80-febff761cb83",
-      "title": "CITRUS Da-iCE",
+      "title": "CITRUS（Da-iCE）",
       "category": "アニソン",
       "difficulty": 3,
-      "order": 37,
+      "order": 28,
       "content": "絆されてしまった\nシトラスの香りに\n強く心の臓掴まれたようで\n\n上手く笑えてる\nあの日の僕らよりも\n悩み方すら忘れた\n誇らしい愛情\n\nそぞろに鼻を利かせては\n誰かに怯えて生きるより\n上も下もない世界で\n包み込んで\n\n離さないって決めたから\n守りたいって言ったのさ\nホンモノの強さだけ\n見つけたくて\n今未練なんかこれっぽっちもない\n\nもどかしく燻る滑走路\n身動き取れずに\n後手後手にまわり沈むのなら\n空へカケろ Oh\n\n優しさが溢れないようにずっと\n何が起きようと変わらないままで\n\n離さないって決めたから\n守りたいって言ったのさ\nホンモノの強さだけ\n見つけたくて\n今未練なんかこれっぽっちも無い\n\n無作為に伸びてる雑草も\n自由を掴んでる\nそれぞれの未来が咲き誇る\n君といれば",
       "characterCount": 337,
       "cjkCharCount": 79
     },
     {
       "id": "f668637f-0cf4-488d-8812-948077eaff82",
-      "title": "恋するフォーチュンクッキー AKB48",
+      "title": "恋するフォーチュンクッキー（AKB48）",
       "category": "J-Pop",
       "difficulty": 4,
-      "order": 38,
+      "order": 29,
       "content": "人生捨てたもんじゃないよね\nあっと驚く奇跡が起きる\nあなたとどこかで愛し合える予感\n\nあなたにちゃんと告りたい\nだけど自分に自信ない\nリアクションは想像つくから\nYeah, yeah, yeah~\n\n性格いいコがいいなんて\n男の子は言うけど\nルックスがアドヴァンテージ\nいつだって可愛い子が\n人気投票一位になる\nプリーズ! プリーズ!プリーズ! オーベイビー\n私も見て\n\n恋するフォーチュンクッキー！\nその殻さあ壊してみよう\nHey, hey, hey~\n先の展開\n神様も知らない\n涙のフォーチュンクッキー\nそんなにネガティブにならずに\nHey, hey, hey~\nHey, hey, hey~\n\n世界は愛で溢れているよ\n悲しい出来事忘れさせる\n明日は明日の風が吹くと思う\n\nカモン カモン カモン カモン ベイビー\n占ってよ\n\n恋するフォーチュンクッキー！\n未来はそんな悪くないよ\nHey, hey, hey~\nツキを呼ぶには\n笑顔を見せること\nハートのフォーチュンクッキー\n運勢今日よりもよくしよう\nHey, hey, hey~\nHey, hey, hey~\n\n世界は愛で溢れているよ\n悲しい出来事忘れさせる\n明日は明日の風が吹くと思う",
       "characterCount": 521,
       "cjkCharCount": 89
@@ -387,27 +297,27 @@
       "title": "夜に駆ける（YOASOBI）",
       "category": "J-Pop",
       "difficulty": 6,
-      "order": 39,
-      "content": "黄金の精神　流れる血筋に\n思いつく限り惨たらしい死を\n昇る太陽に消えて死ぬ前に\nくらえロードローラーだ（ロードローラーだッ！）\n時を止めてみても（ザ・ワールドッ）\n目潰しをしても（この血の目潰しはッ！）\n貴様のスタンドが動けるなら\n意味は無いな　空に日が昇るまで\n持ち堪えるぞ\n\n（人間は誰でも不安や恐怖を克服して安心を得るために生きる）\n（名声を手に入れたり　人を支配したり）\n（安心を求める事こそ人間の目的だ）\n\nジョジョにしかできない\nこのDIOの体の代わりなんて（馴染む！実に馴染むぞ）\n向かってくるのか　よかろう\n近づくがよい\n次は承太郎\n（貴様だ）\n同じタイプの能力\nジョナサンの血筋　受け継いだせいか\nこのままラッシュの速さ比べて\nこのDIOが勝つしかないぞ\nそれでもきっとこのDIOきっと\n発動「世界」　 時を止めたぞ\n10秒経過\n\n（おれは「恐怖」を克服することが）\n（「生きる」ことだと思う）\n（世界の頂点に立つ者は）\n（ほんのちっぽけな「恐怖」をも持たぬ者ッ！）\n（わかるかエンヤ婆？）\n\n無駄無駄オラオラぶつかり合って\nがむしゃらに投げ出したDIOの脚を砕く貴様\n無駄無駄無駄無駄放つ拳\n本当はもう気付いてるんだ\n\nあーほらまた「星の白金」（オラッ!）\nオラオラ食らう何度だってさ（捉えたっ!）\n食らうラッシュでそろそろこのDIOの\n体にヒビが入ってしまったぞ\n不死身であるはずのDIOが\nDIOは初めて恐れた\n\n黄金の精神　流れる血筋に\nこのDIOの野望は打ち砕かれる\n昇る太陽に溶けてゆくように\n体が徐々に消えてく\n搾り取ってやる　きさまの生命を\n『浄めてやる　その穢れたる野望』\n消えるDIOを眺める承太郎\nジョジョの面影重ねる\n殺してしまいたくて憎んでたジョジョに\n感じているこの奇妙な友情と\n二人だけの数奇なこの運命は\n朝日と共に\n震える心臓の鼓動が（震えるぞ）\nこのDIOは\nジョジョに　敗北する\n\nAlt. Titles: JoJo ni Makeru, Losing to JoJo, Defeated by JoJo, Racing Into the Night",
-      "characterCount": 902,
-      "cjkCharCount": 212
+      "order": 30,
+      "content": "沈むように 溶けてゆくように\n二人だけの空が広がる夜に\n\n「さよなら」だけだった\nその一言で全てが分かった\n日が沈み出した空と君の姿\nフェンス越しに重なっていた\n\n初めて会った日から\n僕の心の全てを奪った\nどこか儚い空気を纏う君は\n寂しい目をしてたんだ\n\nいつだってチックタックと\n鳴る世界で何度だってさ\n触れる心無い言葉うるさい声に\n涙が零れそうでも\nありきたりな喜び きっと二人なら見つけられる\n\n騒がしい日々に 笑えない君に\n思い付く限り眩しい明日を\n明けない夜に落ちてゆく前に\n僕の手を掴んでほら\n忘れてしまいたくて 閉じ込めた日々も\n抱きしめた温もりで溶かすから\n怖くないよ いつか日が昇るまで 二人でいよう\n\n君にしか見えない何かを見つめる君が嫌いだ\n見惚れているかのような 恋するようなそんな顔が嫌いだ\n\n信じていたいけど信じれないこと\nそんなのどうしたってきっと\nこれからだっていくつもあって\nそのたんび怒って泣いていくの\nそれでもきっといつかはきっと僕らはきっと\n分かり合えるさ 信じてるよ\n\nもう嫌だって 疲れたんだって\nがむしゃらに差し伸べた僕の手を振り払う君\nもう嫌だって 疲れたよなんて\n本当は僕も言いたいんだ\n\nほらまたチックタックと\n鳴る世界で何度だってさ\n君の為に用意した言葉どれも届かない\n「終わりにしたい」だなんてさ\n釣られて言葉にした時\n君は初めて笑った\n\n騒がしい日々に笑えなくなっていた\n僕の目に映る君は綺麗だ\n明けない夜に溢れた涙も\n君の笑顔に溶けていく\n\n変わらない日々に泣いていた僕を\n君は優しく終わりへと誘う\n沈むように 溶けてゆくように\n染み付いた霧が晴れる\n忘れてしまいたくて 閉じ込めた日々に\n差し伸べてくれた君の手を取る\n涼しい風が空を泳ぐように今吹き抜けていく\n繋いだ手を離さないでよ\n二人今 夜に駆け出していく",
+      "characterCount": 786,
+      "cjkCharCount": 189
     },
     {
       "id": "2328756f-411e-4c30-b6e8-1d3d918a1e04",
-      "title": "クリスマスソング back number",
+      "title": "クリスマスソング（back number）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 40,
+      "order": 31,
       "content": "君が喜ぶプレゼントって何だろう\n僕だけがあげられるものって何だろう\n\n大好きだと言った返事が\n思っていたのとは違っても\nそれだけで嫌いになんてなれやしないから\n星に願いをなんてさ 柄じゃないけど\n結局君じゃないとイヤなんだって\n見上げてるんだ\n\nあの時君に\n出会って ただそれだけで\n自分の知らなかった自分が次から次に\n\n会いたいと毎日思ってて\nそれを君に知って欲しくて\nすれ違う人混みに君を探している\nこんな日も他の誰かと笑ってるかな\n胸の奥の奥が苦しくなる\nできれば横にいて欲しくて\nどこにも行っても欲しくなくて\n僕のことだけをずっと考えていて欲しい\nやっぱりこんなこと伝えたら格好悪いし\n長くなるだけだからまとめるよ\n君が好きだ\n聞こえるまで何度だっていうよ\n君が好きだ",
       "characterCount": 338,
       "cjkCharCount": 71
     },
     {
       "id": "ea3db18a-39cf-4a90-96f8-98db86260473",
-      "title": "サウダージ ポルノグラフィティ",
+      "title": "サウダージ（ポルノグラフィティ）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 41,
+      "order": 32,
       "content": "時を重ねるごとに ひとつずつあなたを知っていって\nさらに時を重ねて ひとつずつわからなくなって\n愛が消えていくのを 夕日に例えてみたりして\nそこに確かに残るサウダージ\n\n想いを紡いだ言葉まで 影を背負わすのならば\n海の底で物言わぬ貝になりたい\n誰にも邪魔をされずに 海に帰れたらいいのに\nあなたをひっそりと思い出させて\n\n諦めて 恋心よ\n青い期待は私を切り裂くだけ\nあの人に伝えて...\n寂しい... 大丈夫... 寂しい\n\n繰り返される よくある話\n出逢いと別れ 泣くも笑うも好きも嫌いも\nあぁ\n\n許してね 恋心よ\n甘い夢は波にさらわれたの\nいつかまた逢いましょう\nその日までサヨナラ 恋心よ\nあなたのそばでは\n永遠を確かに感じたから\n夜空を焦がして\n私は生きたわ 恋心と\n\nベイベー",
       "characterCount": 343,
       "cjkCharCount": 78
@@ -417,7 +327,7 @@
       "title": "ドライフラワー（優里）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 42,
+      "order": 33,
       "content": "多分、君じゃなくてよかった\nもう泣かされることもないし\n「私ばかり」なんて言葉も\nなくなった\n\nあんなに悲しい別れでも\n時間がたてば忘れてく\n新しい人と並ぶ君は\nちゃんとうまくやれているのかな\n\nもう顔も見たくないからさ\n変に連絡してこないでほしい\n都合がいいのは変わってないんだね\nでも無視できずにまた少し返事\n\n声も顔も不器用なとこも\n多分今も 嫌いじゃないの\nドライフラワーみたく\n時間が経てば\nきっときっときっときっと\n色褪せる\n\n月灯りに魔物が揺れる\nきっと私もどうかしてる\n暗闇に色彩が浮かぶ\n赤黄藍色が胸の奥\nずっと貴方の名前を呼ぶ\n好きという気持ち また香る\n\n声も顔も不器用なとこも\n全部全部 大嫌いだよ\nまだ枯れない花を\n君に添えてさ\nずっとずっとずっとずっと\n抱えてよ\n\nAh-ah, ah-ah",
       "characterCount": 359,
       "cjkCharCount": 85
@@ -427,57 +337,37 @@
       "title": "Subtitle（Official髭男dism）",
       "category": "J-Pop",
       "difficulty": 4,
-      "order": 43,
+      "order": 34,
       "content": "君の胸を震わすのを 諦められない\n愛してるよりも愛が届くまで\nもう少しだけ待ってて\n\n薄着でただそばに立ってても\n不必要に汗をかいてしまう僕なんかもう\nどうしたって生温くて君を痛めつけてしまうのだろう\n\n「手のひらが熱いほど心は冷たいんでしょう?」\n冗談でもそんな残酷なこと言わないでよ\n別に言えばいいけど 全人生を賭けても\nちゃんと覆さしてよ\n\n救いたい＝救われたい\nこのイコールが今\n優しく剥がしていくんだよ\n堅い理論武装\nプライドの過剰包装を\n\n正しさよりも優しさが欲しい\nそしてそれを受け取れるのは\nイルミネーションみたいな\n不特定多数じゃなくてただ1人\n君であってほしい\n\nかけた言葉で 割れたヒビを直そうとして\n足しすぎた熱量で\n引かれてしまったカーテン\nそんな失敗作を\n重ねて 重ねて 重ねて\n見つけたいんだいつか\n最高の一言一句を\n\n言葉はまるで雪の結晶\n君にプレゼントしたとして\n時間が経ってしまえば大抵\n記憶からこぼれ落ちて溶けていって\n消えてしまう でも\n絶えず僕らのストーリーに\n添えられた字幕のように\n思い返した時\n不意に目をやる時に\n\n君の胸を震わすもの 探し続けたい\n愛してるよりも愛が届くまで\nもう少しだけ待ってて\n\n言葉など何も欲しくないほど\n悲しみに凍てつく夜でも\n勝手に君のそばで\nあれこれと考えてる\n雪が溶けても残ってる",
       "characterCount": 580,
       "cjkCharCount": 136
     },
     {
-      "id": "b3d16898-d26c-4814-9f86-833f0dd4bf72",
-      "title": "ミックスナッツ（Official髭男dism）",
-      "category": "J-Pop",
-      "difficulty": 3,
-      "order": 44,
-      "content": "生まれた場所が木の上か地面の中か それだけの違い\n許されないほどにドライなこの世界を\n等しく雨が湿らせますように\n\n時に冷たくて 騒がしい窓の向こうyou know?\n星の一つも見つからない 雷に満ちた日があっても良い\nミスだらけ アドリブ任せのshow, but I know\n所詮ひとかけの日常だから\n腹の中にでも 流して寝よう\n隠し事だらけ 継ぎ接ぎだらけのhome, you know?\nとっておきも出来合いも 残さずに全部食らいながら\n普通などない 正解などないlife, and I know\n仮初めまみれの日常だけど\nここに僕が居て あなたが居る\n\nこの真実だけでもう\n胃がもたれてゆく, woah\nこの一掴みの奇跡を\n噛み締めてゆく",
-      "characterCount": 324,
-      "cjkCharCount": 67
-    },
-    {
-      "id": "f4116b2e-4930-4831-86f9-40e34e9fcbad",
-      "title": "新時代（Ado）",
-      "category": "J-Pop",
-      "difficulty": 4,
-      "order": 45,
-      "content": "Ooh\n\nArеkore iranai mono wa keshite\nRiaru wo karafuru ni koе youze\nMyuujikku, ima hajimaru raijingu\n\nMe wo tsuburi minna de nigeyou yo\nIma yori ii mono wo misete ageru yo\nKono uta wo utaeba\n\nDo you wanna play?\nRiaru geemu, girigiri, tsuna watari mitaina unmei\nMitomenai modorenai wasuretai, yume no naka ni isasete\nI wanna be free\nMieru yo shinjidai ga sekai no mukou e\nSaa iku yo, new world\n\nShinjitaiwa kono mirai wo\nSekaijuu zenbu kaete shimaeba, kaete shimaeba\nHateshinai ongaku ga motto todoku you ni\nYume wo miseru yo, yume wo miseru yo\nShinjidai da\n\nOoh\n\nShinjidai da",
-      "characterCount": 574,
-      "cjkCharCount": 0
-    },
-    {
       "id": "e354adce-da7f-45cc-bbb1-3a2bd14a9d61",
-      "title": "アゲハ蝶 ポルノグラフィティ",
+      "title": "アゲハ蝶（ポルノグラフィティ）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 46,
-      "content": "もしこれが戯曲なら\nなんてひどいストーリーだろう\n進むことも戻ることもできずに\nただひとり舞台に立っているだけなのだから\n\nあなたが望むのなら この身など いつでも差し出していい\n降り注ぐ火の粉の盾になろう\nただそこに一握り残った僕の想いを\nすくい上げて心の隅において\n\nLa, la, la, la, la, la, la\n\nあなたに逢えた それだけでよかった 世界に光が満ちた\n夢で逢えるだけでよかったのに\n愛されたいと願ってしまった 世界が表情を変えた\n世の果てでは空と海が交じる\n荒野に咲いたアゲハ蝶 揺らぐその景色の向こう\n近づくことはできないオアシス\n冷たい水をください できたら愛してください\n僕の肩で羽を休めておくれ",
-      "characterCount": 316,
-      "cjkCharCount": 59
+      "order": 35,
+      "content": "ヒラリヒラリと舞い遊ぶように 姿見せたアゲハ蝶\n夏の夜の真ん中 月の下 喜びとしてのイエロー\n憂いを帯びたブルーに 世の果てに似ている漆黒の羽\n\n旅人に尋ねてみた どこまで行くのかと いつになれば終えるのかと\n旅人は答えた 終わりなどはないさ 終わらせることはできるけど\n\nそう…じゃあ お気をつけてと 見送ったのはずっと前で\nここに未だ帰らない誰かが 僕自身だと気付いたのは 今更になってだった\n\nあなたに逢えた それだけでよかった 世界に光が満ちた\n夢で逢えるだけでよかったのに 愛されたいと願ってしまった\n世界が表情を変えた 世の果てでは空と海が交じる\n荒野に咲いたアゲハ蝶 揺らぐその景色の向こう\n近づくことはできないオアシス\n冷たい水をください できたら愛してください\n僕の肩で羽を休めておくれ\n\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la, la\n\n詩人がたった一行の言葉に込めた意味を ついに知ることはない\nそう それは共にできるなら あなたに届けばいいと思う\nもしこれが戯曲なら なんてひどいストーリーだろう\n進むことも戻ることもできずに ただひとり舞台に立っているだけなのだから\n\nあなたが望むのなら この身など いつでも差し出していい\n降り注ぐ火の粉の盾になろう\nただそこに一握り残った僕の想いを\nすくい上げて心の隅において\n\nあなたに逢えた それだけでよかった 世界に光が満ちた\n夢で逢えるだけでよかったのに 愛されたいと願ってしまった\n世界が表情を変えた 世の果てでは空と海が交じる\n荒野に咲いたアゲハ蝶 揺らぐその景色の向こう\n近づくことはできないオアシス\n冷たい水をください できたら愛してください\n僕の肩で羽を休めておくれ\n\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la, la\nあなたに逢えた それだけでよかった 世界に光が満ちた\n夢で逢えるだけでよかったのに 愛されたいと願ってしまった\n世界が表情を変えた 世の果てでは空と海が交じる\n荒野に咲いたアゲハ蝶 揺らぐその景色の向こう\n近づくことはできないオアシス\n冷たい水をください できたら愛してください\n僕の肩で羽を休めておくれ\n\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la, la\nLa, la, la, la, la, la, la",
+      "characterCount": 1071,
+      "cjkCharCount": 186
     },
     {
       "id": "e715d702-e370-4df1-990a-662ddce40adc",
       "title": "踊（Ado）",
       "category": "J-Pop",
       "difficulty": 5,
-      "order": 47,
-      "content": "Ooh-woah-oh-ooh-oh\nOoh-woah-ooh-oh\n動き出せ 動き出せ\n昇る朝日 太陽光線\nOoh-woah-oh-ooh-oh\nOoh-woah-ooh-oh\n血の運命 終わらせ\nさよなら GOOD BYE, JOJO\n\nJo-Jo-Jo-Jo-Jo-Jo-Jo-Jo-Jo-Jo-Joestar\n血統が波紋で 黄金の継承者で\n無謀で突っ込んで\nしまっちゃうだろう (Ah, yeah)\nUp and High! なテンション\n石仮面の衝動\nドグオオンのロードローラーが\nとどめの「世界」ッ!!\n「過程や方法なぞ」(ない)\n「特に関係ない」 (ないない)\n血の目つぶし どうだ！勝った！死ねい！\n鎮魂歌奏でて\nWRYY WRYY WRYY WRYY Yeah\n時が止まって 10秒だ\n動けんぞッ！\n\nBa-la-bam-ba-lam, ba-lam-bam\nBam, ba-la-bam-ba-lam, ba-lam-bam\nBa-la-bam-ba-lam, ba-lam-bam\nBa-la-ba-lam, bam-ba-la\nジョースターなら K.O\n次は丈太郎 貴様だ\n\nOoh-woah-oh-ooh-oh\nOoh-woah-ooh-oh\n動き出せ 動き出せ\n昇る朝日 太陽光線\nOoh-woah-oh-ooh-oh\nOoh-woah-ooh-oh\n血の運命 途絶えて\n今夜は絶対白金だ\nOoh-woah-oh-ooh-oh\n闇の踊り子 ずっと (Ooh-ooh-ooh-ooh-ooh)\nOoh-woah-oh-ooh-oh\nOoh-woah-ooh-oh\n夜が明け 時間切れ\nさよなら GOOD BYE, JOJO",
-      "characterCount": 724,
-      "cjkCharCount": 90
+      "order": 36,
+      "content": "半端なら K.O. ふわふわしたいならどうぞ\n開演準備しちゃおうか\n泣いても笑っても愛してね\nほら Say No 低音響かせろ\n\nなんだかな…ってつまんないこともあるでしょう\nロンリー論理のノート ハンディー本気脱走\nやんなっちゃって泥に Bad ご法度だろうが\n溺れて堕ちて そろそろいっか\n\nもっと頑張って アガるまでもっと頑張って\n繋がろうひとりよりふたり 増えたら安心 心配ないや\nAlright 任せて Don't Mind 波あり難題 みんなで乗っかっちゃえば\n案外さくっと行っちゃいそう\n\n半端なら K.O. ふわふわしたいならどうぞ\n開演準備しちゃおうか\n泣いても笑っても愛してね\nほら Say No 低音響かせろ\n今宵は暗転パーティー\n\nWoah 踊りだせ 踊りだせ 孤独は殺菌 満員御礼\nWoah 痛みまで おシェアで ここらでバイバイ Let go\n\nどんな劣等感だとて 即興の血小板で\n抑え込んで 突っ込んで 仕舞っちゃうでしょ\nUp and down なテンションねえまいっちゃってんの相当\nドバっと噴き出すのは 本音の独り言\n「別に興味ない」 「特に関係ない」\n塞ぎ込んで 舌鋒絶頂へ\n合図を奏でて PrrPrrPrr ほら集まって夜行だ 鳴いていこう\n\n半端なら K.O.\n\nWoah 踊りだせ 踊りだせ 孤独は殺菌 満員御礼\nWoah 痛みまで おシェアで 今宵も暗転パーティーだ\nWoah またのお越しを きっと\nWoah 次回までお元気で ここらでバイバイ Let go",
+      "characterCount": 653,
+      "cjkCharCount": 131
     },
     {
       "id": "b905d587-f169-4d83-9afe-529d148b822e",
       "title": "きらり（藤井風）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 48,
+      "order": 37,
       "content": "無くしてしまったものを振り返って ほろり\n時には途方に暮れてただ風に吹かれて ゆらり\n\n息せき切ってきたの\n行き先は決めたの\n迷わずに行きたいけど保証はしないよ\n何か分かったようで 何も分かってなくて\nだけどそれが分かって本当に良かった\n\n新しい日々は探さずとも常に ここに\n常にここに ここに\n色々見てきたけれどこの瞳は永遠に きらり\n永遠に きらり\n\n生きてきたけど全ては夢みたい\nあれもこれも魅力的でも私は君がいい\nAah, aah, aah, aah\n\nどこにいたの 探してたよ\n連れてって 連れてって\n何もかも 捨ててくよ\nどこまでも どこまでも\n荒れ狂う 季節の中も 群衆の中も\n君とならばさらり さらり\n新しい日々も 拙い過去も\n全てがきらり",
       "characterCount": 328,
       "cjkCharCount": 66
@@ -487,20 +377,130 @@
       "title": "Rain（秦基博）",
       "category": "J-Pop",
       "difficulty": 4,
-      "order": 49,
+      "order": 38,
       "content": "別々に暮らす 泣き出しそうな空を\nにぎりしめる強さは今はもうない\n変わらずいる心のすみだけで傷つくような\nきみならもういらない\n\nLady きみは雨にぬれて\nぼくの眼を少し見ていた\n\nどしゃぶりでもかまわないと\nずぶぬれでもかまわないと\n口笛ふくぼくがついてく\nずいぶんきみを知りすぎたのに\n初めて争った夜のように\n行かないで 行かないで\nそう言うよ\n\n肩が乾いたシャツ改札を出る頃\nきみの町じゃもう雨は小降りになる\n今日だけが明日に続いてる\nこんなふうに きみとは終われない\n\nLady きみは今もこうして\n小さめの傘もささずに\n\nどしゃぶりでもかまわないと\nずぶぬれでもかまわないと\nしぶきあげるきみが消えてく\n路地裏では朝が早いから\n今のうちにきみをつかまえ\n行かないで 行かないで\nそう言うよ\nどしゃぶりでもかまわないと\nずぶぬれでもかまわないと\n口笛ふくぼくがついてく\nずいぶんきみを知りすぎたのに\n初めて争った夜のように\n行かないで 行かないで\nそう言うよ",
       "characterCount": 434,
       "cjkCharCount": 61
     },
     {
       "id": "217cf94b-1d1e-469a-a37b-b97d2822101d",
-      "title": "ハルノヒ あいみょん",
+      "title": "ハルノヒ（あいみょん）",
       "category": "J-Pop",
       "difficulty": 3,
-      "order": 50,
+      "order": 39,
       "content": "北千住駅をフワっと歩く\n藍色のスカート\nいつになく遠く遠くに見える\n加速する足音\n素直じゃないと\nいけないような気がしたよ\n\n優しさに甘えすぎて\n怯えすぎた男の背中に\n掌を添えてくれるのはもう\n前を歩く君じゃなきゃダメだから\n\nどうか未来が\nこちらに手を振ってほしい\n日々の辛さと僕の体が\nだらしなく帰る場所を探し続けている\nほら もうこんなにも夕焼け\nいつかの灯り思い出すとき\n大切に気づくのでしょう\n\n焦らないでいい\nいつか花束になっておくれよ\n僕らは何も見えない\n未来を誓い合った\n\nどんな未来が\nこちらを覗いてるかな\n君の強さと僕の弱さをわけ合えば\nどんな凄いことが起きるかな?\nほら もうこんなにも幸せ\nいつかはひとり いつかはふたり\nいや もっと もっと\n大切を増やしていこう?\n\n住み慣れた駅のプラットホーム\n水色に挨拶\n「お帰りなさい」と\n小さく揺れる影を踏む幸せ",
       "characterCount": 390,
       "cjkCharCount": 86
+    },
+    {
+      "id": "27c2c65d-1193-44c1-8014-7a2771e09bd9",
+      "title": "猫（DISH//）",
+      "category": "J-Pop",
+      "difficulty": 4,
+      "order": 40,
+      "content": "夕焼けが燃えてこの街ごと\n飲み込んでしまいそうな今日に\n僕は君を手放してしまった\n\n明日が不安だ　とても嫌だ\nだからこの僕も一緒に\n飲み込んでしまえよ夕焼け\n\nだけどもそうはいかないよな\n明日ってウザいほど来るよな\n眠たい夜になんだか笑っちゃう\n\n家まで帰ろう　1人で帰ろう\n昨日のことなど幻だと思おう\n君の顔なんて忘れてやるさ\n馬鹿馬鹿しいだろ、そうだろ\n\n君がいなくなった日々も\nこのどうしようもない気だるさも\n心と体が喧嘩して\n頼りない僕は寝転んで\n猫になったんだよな君は\nいつかフラッと現れてくれ\n何気ない毎日を君色に染めておくれよ\n\n夕焼けが燃えてこの街ごと\n飲み込んでしまいそうな今日に\n僕は君を手放してしまった\n\n若すぎる僕らはまた1から\n出会うことは可能なのかな\n願うだけ無駄だ、分かってるさ\n\nだけどもそうはいかないよな\n奇跡は起きないと言い聞かせた\n君の香りがしたんだ、今更\n\n家まで帰ろう　1人で帰ろう\n昨日のことなど幻だと思おう\n君の顔なんて忘れてやるさ\n馬鹿馬鹿しいだろ、そうだろ\n\n君がいなくなった日々も\nこのどうしようもない気だるさも\n心と体が喧嘩して\n頼りない僕は寝転んで\n猫になったんだよな君は\nいつかフラッと現れてくれ\n何気ない毎日を君色に染めておくれよ\n\n君がいなくなった日々も\nこのどうしようもない気だるさも\n心と体が喧嘩して\n頼りない僕は寝転んで\n猫になったんだよな君は\nいつかフラッと現れてくれ\n何気ない毎日を君色に染めておくれよ\n\n捨て猫みたいでいいから\n僕の隣で眠ってくれないか\n君がいなきゃ何もできない\nそんな僕になってしまった\n\n夕焼けが燃えてこの街ごと\n飲み込んでしまいそうな今日に\n僕は君を手放してしまった",
+      "characterCount": 731,
+      "cjkCharCount": 174
+    },
+    {
+      "id": "e9d83f43-ed43-4606-b515-aa7e2ccc6f4c",
+      "title": "丸の内サディスティック（椎名林檎）",
+      "category": "J-Pop",
+      "difficulty": 4,
+      "order": 41,
+      "content": "報酬は入社後並行線で\n東京は愛せど何にも無い\nリッケン620頂戴\n19万も持って居ない 御茶ノ水\nマーシャルの匂いで飛んじゃって大変さ\n毎晩絶頂に達して居るだけ\nラット１つを商売道具にしているさ\nそしたらベンジーが肺に映ってトリップ\n\n最近は銀座で警官ごっこ\n国境は越えても盛者必衰\n領収書を書いて頂戴\n税理士なんて就いて居ない 後楽園\n将来 僧に成って結婚して欲しい\n毎晩寝具で遊戯するだけ\nピザ屋の彼女になってみたい\nそしたらベンジー、あたしをグレッチで殴って\n\n青 噛んで 熟って頂戴\n終電で帰るってば 池袋\n\nマーシャルの匂いで飛んじゃって大変さ\n毎晩絶頂に達して居るだけ\nラット１つを商売道具にしているさ\nそしたらベンジーが肺に映ってトリップ\n\n将来 僧に成って結婚して欲しい\n毎晩寝具で遊戯するだけ\nピザ屋の彼女になってみたい\nそしたらベンジー、あたしをグレッチで殴って",
+      "characterCount": 391,
+      "cjkCharCount": 124
+    },
+    {
+      "id": "ecc0f1f4-f57b-486d-9951-20083da225db",
+      "title": "パプリカ（Foorin）",
+      "category": "J-Pop",
+      "difficulty": 4,
+      "order": 42,
+      "content": "曲りくねり　はしゃいだ道\n青葉の森で駆け回る\n遊び回り　日差しの街\n誰かが呼んでいる\n\n夏が来る　影が立つ　あなたに会いたい\n見つけたのはいちばん星\n明日も晴れるかな\n\nパプリカ　花が咲いたら\n晴れた空に種を蒔こう\nハレルヤ　夢を描いたなら\n心遊ばせあなたに届け\n\n雨に燻り　月は陰り\n木陰で泣いていたのは誰\n一人一人　慰めるように\n誰かが呼んでいる\n\n喜びを数えたら　あなたでいっぱい\n帰り道を照らしたのは\n思い出の影法師\n\nパプリカ　花が咲いたら\n晴れた空に種を蒔こう\nハレルヤ　夢を描いたなら\n心遊ばせあなたに届け\n\n会いに行くよ　並木を抜けて\n歌を歌って\n手にはいっぱいの　花を抱えて\nらるらりら\n\n会いに行くよ　並木を抜けて\n歌を歌って\n手にはいっぱいの　花を抱えて\nらるらりら\n\nパプリカ　花が咲いたら\n晴れた空に種を蒔こう\nハレルヤ　夢を描いたなら\n心遊ばせあなたに届け\n\nかかと弾ませこの指とまれ\n明日に種をまこう",
+      "characterCount": 415,
+      "cjkCharCount": 107
+    },
+    {
+      "id": "8e62a8cd-829d-4488-9961-5af6555aaef3",
+      "title": "打上花火（DAOKO×米津玄師）",
+      "category": "J-Pop",
+      "difficulty": 4,
+      "order": 43,
+      "content": "あの日見渡した渚を　今も思い出すんだ\n砂の上に刻んだ言葉　君の後ろ姿\n\n寄り返す波が　足元をよぎり何かを攫う\n夕凪の中　日暮れだけが通り過ぎて行く\n\nパッと光って咲いた　花火を見ていた\nきっとまだ　終わらない夏が\n曖昧な心を　解かして繋いだ\nこの夜が　続いて欲しかった\n\n「あと何度君と同じ花火を見られるかな」って\n笑う顔に何ができるだろうか\n傷つくこと　喜ぶこと　繰り返す波と情動\n焦燥　最終列車の音\n\n何度でも　言葉にして君を呼ぶよ\n波を選び　もう一度\nもう二度と悲しまずに済むように\n\nはっと息を飲めば　消えちゃいそうな光が\nきっとまだ　胸に住んでいた\n手を伸ばせば触れた　あったかい未来は\nひそかに二人を見ていた\n\nパッと花火が（パッと花火が）\n夜に咲いた（夜に咲いた）\n夜に咲いて（夜に咲いて）\n静かに消えた（静かに消えた）\n離さないで（離れないで）\nもう少しだけ（もう少しだけ）\nもう少しだけ　このままで\n\nあの日見渡した渚を　今も思い出すんだ\n砂の上に刻んだ言葉　君の後ろ姿\n\nパッと光って咲いた　花火を見ていた\nきっとまだ　終わらない夏が\n曖昧な心を　解かして繋いだ\nこの夜が　続いて欲しかった",
+      "characterCount": 505,
+      "cjkCharCount": 148
+    },
+    {
+      "id": "eb437da1-72a5-4caa-9ca6-44ae507a330c",
+      "title": "残酷な天使のテーゼ（高橋洋子）",
+      "category": "J-Pop",
+      "difficulty": 4,
+      "order": 44,
+      "content": "残酷な天使のように\n少年よ 神話になれ\n\n蒼い風がいま\n胸のドアを叩いても\n私だけをただ見つめて\n微笑んでるあなた\n\nそっとふれるもの\nもとめることに夢中で\n運命さえまだ知らない\nいたいけな瞳\n\nだけどいつか気付くでしょう\nその背中には\n遥か未来 めざすための\n羽根があること\n\n残酷な天使のテーゼ\n窓辺からやがて飛び立つ\nほとばしる熱いパトスで\n思い出を裏切るなら\nこの宇宙を抱いて輝く\n少年よ 神話になれ\n\nずっと眠ってる\n私の愛の揺りかご\nあなただけが 夢の使者に\n呼ばれる朝がくる\n\n細い首筋を\n月あかりが映してる\n世界中の時を止めて\n閉じこめたいけど\n\nもしもふたり逢えたことに\n意味があるなら\n私はそう 自由を知るための\nバイブル\n\n残酷な天使のテーゼ\n悲しみがそしてはじまる\n抱きしめた命のかたち\nその夢に目覚めたとき\n誰よりも光を放つ\n少年よ 神話になれ\n\n人は愛をつむぎながら\n歴史をつくる\n女神なんてなれないまま\n私は生きる\n\n残酷な天使のテーゼ\n窓辺からやがて飛び立つ\nほとばしる熱いパトスで\n思い出を裏切るなら\nこの宇宙を抱いて輝く\n少年よ 神話になれ",
+      "characterCount": 488,
+      "cjkCharCount": 125
+    },
+    {
+      "id": "1fb87cc0-6d11-49d8-afb1-8b975191a8a3",
+      "title": "糸（中島みゆき）",
+      "category": "フォーク",
+      "difficulty": 4,
+      "order": 45,
+      "content": "なぜ めぐり逢うのかを\n私たちは なにも知らない\nいつ めぐり逢うのかを\n私たちは いつも知らない\nどこにいたの 生きてきたの\n遠い空の下 ふたつの物語\n\n縦の糸はあなた 横の糸は私\n織りなす布は いつか誰かを\n暖めうるかもしれない\n\nなぜ 生きてゆくのかを\n迷った日の跡の ささくれ\n夢追いかけ走って\nころんだ日の跡の ささくれ\nこんな糸が なんになるの\n心許なくて ふるえてた風の中\n\n縦の糸はあなた 横の糸は私\n織りなす布は いつか誰かの\n傷をかばうかもしれない\n\n縦の糸はあなた 横の糸は私\n逢うべき糸に 出逢えることを\n人は 仕合わせと呼びます",
+      "characterCount": 277,
+      "cjkCharCount": 57
+    },
+    {
+      "id": "a848ee87-bbda-4ae3-8689-4fdf90eb4c65",
+      "title": "ハナミズキ（一青窈）",
+      "category": "J-Pop",
+      "difficulty": 4,
+      "order": 46,
+      "content": "空を押し上げて\n手を伸ばす君　五月のこと\nどうか来てほしい\n水際まで来てほしい\nつぼみをあげよう\n庭のハナミズキ\n\n薄紅色の可愛い君のね\n果てない夢がちゃんと終わりますように\n君と好きな人が百年続きますように\n\n夏は暑過ぎて\n僕から気持ちは重すぎて\n一緒にわたるには\nきっと船が沈んじゃう\nどうぞゆきなさい\nお先にゆきなさい\n\n僕の我慢がいつか実を結び\n果てない波がちゃんと止まりますように\n君と好きな人が百年続きますように\n\nひらり蝶々を\n追いかけて白い帆を揚げて\n母の日になれば\nミズキの葉、贈って下さい\n待たなくてもいいよ\n知らなくてもいいよ\n\n薄紅色の可愛い君のね\n果てない夢がちゃんと終わりますように\n君と好きな人が百年続きますように\n\n僕の我慢がいつか実を結び\n果てない波がちゃんと止まりますように\n君と好きな人が百年続きますように\n\n君と好きな人が百年続きますように",
+      "characterCount": 390,
+      "cjkCharCount": 101
+    },
+    {
+      "id": "8cdaf40d-c6fd-4348-a185-0c6f1f38c3b2",
+      "title": "紅蓮華（LiSA）",
+      "category": "ロック",
+      "difficulty": 4,
+      "order": 47,
+      "content": "強くなれる理由を知った　僕を連れて進め\n\n泥だらけの走馬灯に酔う　こわばる心\n震える手は掴みたいものがある　それだけさ\n夜の匂いに空睨んでも\n変わっていけるのは自分自身だけ　それだけさ\n\n強くなれる理由を知った　僕を連れて進め\n\nどうしたって！\n消せない夢も　止まれない今も\n誰かのために強くなれるなら\nありがとう　悲しみよ\n世界に打ちのめされて負ける意味を知った\n紅蓮の華よ咲き誇れ！　運命を照らして\n\nイナビカリの雑音が耳を刺す　戸惑う心\n優しいだけじゃ守れないものがある？　わかってるけど\n水面下で絡まる善悪　透けて見える偽善に天罰\n逸材の花より　挑み続け咲いた一輪が美しい\n\n乱暴に敷き詰められた　トゲだらけの道も\n本気の僕だけに現れるから　乗り越えてみせるよ\n簡単に片付けられた　守れなかった夢も\n紅蓮の心臓に根を生やし　この血に宿ってる\n\n人知れず儚い　散りゆく結末\n無情に破れた　悲鳴の風吹く\n誰かの笑う影　誰かの泣き声\n誰もが幸せを願ってる\n\nどうしたって！\n消せない夢も　止まれない今も\n誰かのために強くなれるなら\nありがとう　悲しみよ\n世界に打ちのめされて負ける意味を知った\n紅蓮の華よ咲き誇れ！　運命を照らして\n\n運命を照らして",
+      "characterCount": 525,
+      "cjkCharCount": 156
+    },
+    {
+      "id": "f12ff710-4e43-4313-a47a-3be0d60f2a33",
+      "title": "残響散歌（Aimer）",
+      "category": "ロック",
+      "difficulty": 4,
+      "order": 48,
+      "content": "誰が袖に咲く幻花\nただそこに藍を落とした\n派手に色を溶かす夜に\n銀朱の月を添えて\n\n転がるように風を切って\n躓くごとに強くなった\n光も痛みも怒りも全部抱きしめて\n選ばれなければ選べばいい\n\n声よ轟け　夜のその向こうへ\n涙で滲んでたあんなに遠くの景色まで\n響き渡れ\n何を奏でて？　誰に届けたくて？\n不確かなままでいい\nどんなに暗い感情も\nどんなに長い葛藤も\n歌と散れ　残響\n\nただ一人舞う千夜\n違えない帯を結べば\n派手な色も負かす様に\n深紅の香こそあはれ\n\nこの先どんなつらい時も\n口先よりも胸を張って\n抱いた夢の灯りを全部辿るだけ\n逃げ出すためここまで来たんじゃないだろ？\n\n選ばれなければ選べばいい\n\n声をからして　燃える花のように\n闇間を照らしたら\n曖昧過ぎる正解も譜面にして\n夜を数えて朝を描く様な\n鮮やかな音を鳴らす\nどんなに深い後悔も\nどんなに高い限界も\n掻き消して　残響",
+      "characterCount": 391,
+      "cjkCharCount": 120
+    },
+    {
+      "id": "f4cf4819-71c3-49df-b046-e537b04f0ee4",
+      "title": "奏（スキマスイッチ）",
+      "category": "J-Pop",
+      "difficulty": 4,
+      "order": 49,
+      "content": "改札の前つなぐ手と手　いつものざわめき、新しい風\n明るく見送るはずだったのに　うまく笑えずに君を見ていた\n\n君が大人になってくその季節が　悲しい歌で溢れないように\n最後に何か君に伝えたくて　「さよなら」に代わる言葉を僕は探してた\n\n君の手を引くその役目が　僕の使命だなんて　そう思ってた\nだけど今わかったんだ　僕らならもう\n重ねた日々がほら、導いてくれる\n\n君が大人になってくその時間が　降り積もる間に僕も変わってく\nたとえばそこにこんな歌があれば　ふたりはいつもどんな時もつながっていける\n\n突然ふいに鳴り響くベルの音　焦る僕　解ける手　離れてく君\n夢中で呼び止めて　抱き締めたんだ\n君がどこに行ったって僕の声で守るよ\n\n君が僕の前に現れた日から　何もかもが違く見えたんだ\n朝も光も涙も、歌う声も　君が輝きをくれたんだ\n\n抑えきれない思いをこの声に乗せて　遠く君の街まで届けよう\nたとえばそれがこんな歌だったら　ぼくらは何処にいたとしてもつながっていける\n\n君が大人になってくその季節が　悲しい歌で溢れないように\n最後に何か君に伝えたくて　「さよなら」に代わる言葉を僕は探してた\n\n君の声で守るよ",
+      "characterCount": 499,
+      "cjkCharCount": 126
+    },
+    {
+      "id": "371270d5-42e7-4153-b76f-77c66f4beb7b",
+      "title": "花に亡霊（ヨルシカ）",
+      "category": "ロック",
+      "difficulty": 4,
+      "order": 50,
+      "content": "もう忘れてしまったかな\n夏の木陰に座ったまま\nアイスを口に放り込んで風を待っていた\n\nもう忘れてしまったかな\n世の中の全部嘘だらけ\n本当の価値を二人で探しに行こうと笑ったこと\n\n忘れないように　色褪せないように\n形に残るものが全てじゃないように\n\n言葉をもっと教えて　夏が来るって教えて\n僕は描いてる　眼に映ったのは夏の亡霊だ\n風にスカートが揺れて　思い出なんて忘れて\n浅い呼吸をする、汗を拭って夏めく\n\nもう忘れてしまったかな\n夏の木陰に座った頃\n遠くの丘から顔出した雲があったじゃないか\n君はそれを掴もうとして　馬鹿みたいに空を切った手で\n僕は紙に雲一つを書いて、笑って握って見せて\n\n忘れないように　色褪せないように\n歴史に残るものが全てじゃないから\n\n今だけ顔もなくして　言葉も全部忘れて\n君は笑ってる　夏を待っている僕ら亡霊だ\n心をもっと教えて　夏の匂いを教えて\n浅い呼吸をする\n\n忘れないように　色褪せないように\n形に残るものが全てじゃないから\n\n言葉をもっと教えて　さよならだって教えて\n今も見るんだよ　夏に咲いてる花に亡霊を\n言葉じゃなくて時間を　時間じゃなくて心を\n浅い呼吸をする、汗を拭って夏めく\n\n夏の匂いがする",
+      "characterCount": 517,
+      "cjkCharCount": 142
     }
   ]
 }
