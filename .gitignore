@@ -45,3 +45,6 @@ coverage/
 .eslintcache
 
 .npmrc
+
+# Claude
+.claude/scheduled_tasks.lock
