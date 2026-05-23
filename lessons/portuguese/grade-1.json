@@ -4,12 +4,12 @@
   "lessons": [
     {
       "id": "1827e8a5-60fb-4ae5-8400-312ab075756d",
-      "title": "O Gato Mimi",
-      "category": "Conto",
+      "title": "Atirei o Pau no Gato",
+      "category": "Música",
       "difficulty": 1,
       "order": 1,
-      "content": "O gato Mimi é muito fofo. Ele gosta de beber leite. O gato brinca com a bola de lã. Mimi dorme na cama. O gato faz miau miau.",
-      "characterCount": 125,
+      "content": "Atirei o pau no gato-to. Mas o gato-to. Não morreu-reu-reu. Dona Chica-ca. Admirou-se-se. Do berro, do berro que o gato deu. Miau!",
+      "characterCount": 130,
       "cjkCharCount": 0
     },
     {
@@ -44,12 +44,12 @@
     },
     {
       "id": "4661fea5-d7a4-47e7-894f-7358fae99662",
-      "title": "A Bola do Beto",
-      "category": "Conto",
+      "title": "Rei, Capitão",
+      "category": "Música",
       "difficulty": 1,
       "order": 5,
-      "content": "Beto tem uma bola. A bola de Beto é azul. Beto chuta a bola. A bola rola e rola. Beto gosta de jogar bola com seus amigos.",
-      "characterCount": 122,
+      "content": "Rei, capitão, soldado, ladrão. Moça bonita do meu coração. Padre, frade, freira, sacristão. Cego, surdo, mudo, capitão. Rei, capitão, soldado, ladrão.",
+      "characterCount": 150,
       "cjkCharCount": 0
     },
     {
@@ -104,12 +104,12 @@
     },
     {
       "id": "22cc14a5-3e69-4811-ba51-ecfe071582bd",
-      "title": "A Boneca de Pano",
-      "category": "Conto",
+      "title": "A Canoa Virou",
+      "category": "Música",
       "difficulty": 1,
       "order": 11,
-      "content": "A boneca é de pano. O nome dela é Ana. Ana é bonita e feliz. Ela usa um vestido amarelo. A menina gosta muito da sua boneca Ana.",
-      "characterCount": 128,
+      "content": "A canoa virou, pois deixaram ela virar. Foi por causa da Maria, que não soube remar. Se eu fosse um peixinho. E soubesse nadar. Eu tirava a Maria do fundo do mar.",
+      "characterCount": 162,
       "cjkCharCount": 0
     },
     {
@@ -124,12 +124,12 @@
     },
     {
       "id": "32391fb4-9b57-4d4e-9230-20e645a88d9f",
-      "title": "O Sol",
-      "category": "Conto",
+      "title": "Marcha Soldado",
+      "category": "Música",
       "difficulty": 1,
       "order": 13,
-      "content": "O sol brilha no céu. O sol é amarelo e quente. O sol nos dá luz e calor. Eu gosto de brincar quando o sol aparece.",
-      "characterCount": 114,
+      "content": "Marcha, soldado. Cabeça de papel. Quem não marchar direito. Vai preso no quartel. O quartel pegou fogo. A polícia deu sinal. Acode, acode, acode. A bandeira nacional.",
+      "characterCount": 166,
       "cjkCharCount": 0
     },
     {

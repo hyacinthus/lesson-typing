@@ -264,12 +264,12 @@
     },
     {
       "id": "09e8a5b9-9812-4940-ad13-3f61eaa66d2c",
-      "title": "Les Étoiles (Alfred de Musset)",
-      "category": "Nature",
+      "title": "Tristesse (Alfred de Musset)",
+      "category": "Mélancolie",
       "difficulty": 3,
       "order": 27,
-      "content": "Pale étoile du soir, messagère lointaine,\nDont le front sort brilliant des voiles du couchant,\nDe ton palais d'azur, au sein de l'onde sereine,\nTu regardes la nuit qui vient sur l'horizon.\n\nLa nuit vient, et déjà sur les coteaux de France\nLes pâtres assemblés chantent un vieil air.\nLe troupeau revient seul de la plaine immense ;\nEt les enfants, de loin, suivent un vieux berger.\n\nMoi, je cherche autre chose en suivant dans la plaine,\nMoi, je cherche autre chose en marchant, tout songeur.\nÔ lumière que j'aime, ô ma sœur, mon étoile,\nÀ quoi te comparer, sinon à mon cœur ?",
-      "characterCount": 575,
+      "content": "J'ai perdu ma force et ma vie,\nEt mes amis et ma gaieté ;\nJ'ai perdu jusqu'à la fierté\nQui faisait croire à mon génie.\n\nQuand j'ai connu la Vérité,\nJ'ai cru que c'était une amie ;\nQuand je l'ai comprise et sentie,\nJ'en étais déjà dégoûté.\n\nEt pourtant elle est éternelle,\nEt ceux qui se sont passés d'elle\nIci-bas ont tout ignoré.\n\nDieu parle, il faut qu'on lui réponde.\nLe seul bien qui me reste au monde\nEst d'avoir quelquefois pleuré.",
+      "characterCount": 437,
       "cjkCharCount": 0
     },
     {
@@ -324,12 +324,12 @@
     },
     {
       "id": "f8d24907-7159-4ab5-8f2d-6788fa13663d",
-      "title": "Le Dormeur (Victor Hugo)",
-      "category": "Enfance",
-      "difficulty": 2,
+      "title": "Oceano Nox (Victor Hugo)",
+      "category": "Mélancolie",
+      "difficulty": 4,
       "order": 33,
-      "content": "L'enfant chantait ; la mère au lit,\nExténuée et pâle, souriait.\nL'enfant chantait. La nuit berçait\nSon sommeil de bruit et de chaleur.\n\nUne ombre allait et venait\nDans la grande chambre obscure.\nUne lueur de lampe éclairait\nLe berceau d'un vague jour.\n\nL'enfant dormait. Dehors les pas\nDes passants résonnaient dans la rue.\nL'aurore venait. La mère, las,\nNe dormirait plus.",
-      "characterCount": 373,
+      "content": "Oh ! combien de marins, combien de capitaines\nQui sont partis joyeux pour des courses lointaines,\nDans ce morne horizon se sont évanouis !\nCombien ont disparu, dure et triste fortune !\nDans une mer sans fond, par une nuit sans lune,\nSous l'aveugle océan à jamais enfouis !\n\nCombien de patrons morts avec leurs équipages !\nL'ouragan de leur vie a pris toutes les pages\nEt d'un souffle il a tout dispersé sur les flots !\nNul ne saura leur fin dans l'abîme plongée.\nChaque vague en passant d'un butin s'est chargée ;\nL'une a saisi l'esquif, l'autre les matelots !",
+      "characterCount": 560,
       "cjkCharCount": 0
     },
     {
@@ -404,22 +404,22 @@
     },
     {
       "id": "a9c83b5e-bdd9-46fa-a9e3-2017222441d8",
-      "title": "Le Printemps (Francis Jammes)",
+      "title": "Il va neiger (Francis Jammes)",
       "category": "Saisons",
-      "difficulty": 2,
+      "difficulty": 3,
       "order": 41,
-      "content": "Il va neiger dans quelques jours. Je me souviens\nDe l'an dernier. Je me souviens de mes tristesses\nAu coin du feu. Que pensais-je ? Je regardais\nLe jardin noyé sous un ciel cendré de brumes.\n\nCette année encore sur la place du village\nLes enfants jouaient. On a repeint en bleu\nLa façade de la vieille mairie.\nLes feuilles d'or tombaient des tilleuls.\n\nEt maintenant, dans la nuit douce, j'entends\nUne cloche sonner au loin dans la plaine.\nElles tintent dans la nuit. Elles sonnent la fête.\nLe printemps reviendra, porteur de ses chansons.",
-      "characterCount": 539,
+      "content": "Il va neiger dans quelques jours. Je me souviens\nde l'an dernier. Je me souviens de mes tristesses\nau coin du feu. Si l'on m'avait demandé : qu'est-ce ?\nj'aurais dit : laissez-moi tranquille. Ce n'est rien.\n\nJ'ai bien réfléchi, l'année avant, dans ma chambre,\npendant que la neige lourde tombait dehors.\nJ'ai réfléchi pour rien. À présent comme alors\nje fume une pipe en bois avec un bout d'ambre.\n\nMa vieille commode en chêne sent toujours bon.\nMais moi j'étais un niais parce que ces choses\nne pouvaient pas changer et que c'est une pose\nde vouloir chasser les choses que nous savons.\n\nPourquoi donc pensons-nous et parlons-nous ? c'est drôle ;\nnos larmes et nos baisers, eux, ne parlent pas\net cependant nous les comprenons, et les pas\nd'un ami sont plus doux que de douces paroles.",
+      "characterCount": 785,
       "cjkCharCount": 0
     },
     {
       "id": "d312768a-5835-4261-b58b-e601ed5ff817",
-      "title": "Le Forgeron (Arthur Rimbaud)",
+      "title": "Le Buffet (Arthur Rimbaud)",
       "category": "Vie",
-      "difficulty": 5,
+      "difficulty": 4,
       "order": 42,
-      "content": "Ma Tristesse, autrefois, avait son dieu...\nQue ne suis-je à présent un simple forgeron,\nBattant le fer rouge sur l'enclume grise\nAu bruit sourd du marteau sur l'acier qui brise !\n\nJ'irais, bras nus, dans le feu et la sueur,\nFaire chanter l'acier sous mon bras vigoureux ;\nEt la forge rougeoyant au milieu du soir,\nM'enverrait, dans la nuit, sa lumière et son noir.\n\nJe ne penserais plus aux beaux yeux qui m'ont pris,\nNi à ces élans fous vers l'horizon suprême ;\nJe battrais simplement le fer sur l'enclume, même\nEn chantant les vieux airs de mon pays.",
-      "characterCount": 552,
+      "content": "C'est un large buffet sculpté ; le chêne sombre,\nTrès vieux, a pris cet air si bon des vieilles gens ;\nLe buffet est ouvert, et verse dans son ombre\nComme un flot de vin vieux, des parfums engageants ;\n\nTout plein, c'est un fouillis de vieilles vieilleries,\nDe linges odorants et jaunes, de chiffons\nDe femmes ou d'enfants, de dentelles flétries,\nDe fichus de grand'mère où sont peints des griffons ;\n\n— C'est là qu'on trouverait les médaillons, les mèches\nDe cheveux blancs ou blonds, les portraits, les fleurs sèches\nDont le parfum se mêle à des parfums de fruits.\n\n— Ô buffet du vieux temps, tu sais bien des histoires,\nEt tu voudrais conter tes contes, et tu bruis\nQuand s'ouvrent lentement tes grandes portes noires.",
+      "characterCount": 721,
       "cjkCharCount": 0
     },
     {
@@ -444,12 +444,12 @@
     },
     {
       "id": "69296a0b-fc9b-435e-ac26-d4da7b821bb4",
-      "title": "Réponse à un acte d'accusation (Victor Hugo)",
-      "category": "Liberté",
-      "difficulty": 5,
+      "title": "Si vous n'avez rien à me dire (Victor Hugo)",
+      "category": "Amour",
+      "difficulty": 3,
       "order": 45,
-      "content": "Donc, c'est moi qui suis l'ogre et le barbare.\nC'est moi qui sur le mot tombé comme un esclave\nFais le bourreau, c'est moi qui souffre et qui travaille.\nJe suis le démagogue horrible et glapissant\nQui mêle à la rime obscure le passant.\n\nOui, je suis ce Danton ! je suis ce Robespierre !\nJ'ai, contre le mot noble à la morgue altière,\nExcité la révolte, et, pâle, échevelé,\nJ'ai crié dans la nuit : Egalité ! allez !\nOui, c'est moi qui dit au beau langage : ouvrez !\nMot-Bastille, croulant sous mes efforts prouvés,\nLaisse passer le peuple et le grand siècle ardent.",
-      "characterCount": 565,
+      "content": "Si vous n'avez rien à me dire,\nPourquoi venir auprès de moi ?\nPourquoi me faire ce sourire\nQui tournerait la tête au roi ?\nSi vous n'avez rien à me dire,\nPourquoi venir auprès de moi ?\n\nSi vous n'avez rien à m'apprendre,\nPourquoi me pressez-vous la main ?\nSur le rêve angélique et tendre,\nAuquel vous songez en chemin,\nSi vous n'avez rien à m'apprendre,\nPourquoi me pressez-vous la main ?\n\nSi vous voulez que je m'en aille,\nPourquoi passez-vous par ici ?\nLorsque je vous vois, je tressaille :\nC'est ma joie et c'est mon souci.\nSi vous voulez que je m'en aille,\nPourquoi passez-vous par ici ?",
+      "characterCount": 591,
       "cjkCharCount": 0
     },
     {
@@ -484,12 +484,12 @@
     },
     {
       "id": "367cc2a3-4d50-4d60-8248-8f6f1d21e2dc",
-      "title": "La Prière pour tous (Victor Hugo)",
-      "category": "Vie",
+      "title": "Lorsque l'enfant paraît (Victor Hugo)",
+      "category": "Enfance",
       "difficulty": 4,
       "order": 49,
-      "content": "Lorsque l'enfant paraît, le cercle de famille\nApplaudit à grands cris. Son doux regard qui brille\nFait briller tous les yeux,\nEt les plus tristes fronts, les plus souillés peut-être,\nSe dérident soudain à voir l'enfant paraître,\nInnocent et joyeux.\n\nToujours avec un cri de bonheur on le nomme ;\nSens-tu dans ton regard s'allumer quelque flamme,\nToi, vieux père tranquille ?\nEt toujours sa présence enchante les esprits,\nLui qui chasse l'ennui de la maison soumise,\nDomestique et docile.\n\nQuand il rit, son babil est plein de doux caprices.\nComme un oiseau qui joue et qui saute et qui danse,\nL'air et la liberté !\nComme un enfant divin, sa grâce nous attire,\nComme une fleur, son âme est remplie et son sourire\nEst toute la beauté.",
-      "characterCount": 732,
+      "content": "Lorsque l'enfant paraît, le cercle de famille\nApplaudit à grands cris ; son doux regard qui brille\nFait briller tous les yeux,\nEt les plus tristes fronts, les plus souillés peut-être,\nSe dérident soudain à voir l'enfant paraître,\nInnocent et joyeux.\n\nSoit que juin ait verdi mon seuil, ou que novembre\nFasse autour d'un grand feu vacillant dans la chambre\nLes chaises se toucher,\nQuand l'enfant vient, la joie arrive et nous éclaire.\nOn rit, on se récrie, on l'appelle, et sa mère\nTremble à le voir marcher.\n\nQuelquefois nous parlons, en remuant la flamme,\nDe patrie et de Dieu, des poètes, de l'âme\nQui s'élève en priant ;\nL'enfant paraît, adieu le ciel et la patrie\nEt les poètes saints ! la grave causerie\nS'arrête en souriant.",
+      "characterCount": 730,
       "cjkCharCount": 0
     },
     {

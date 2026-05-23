@@ -4,32 +4,32 @@
   "lessons": [
     {
       "id": "3fc96e3a-77ed-48ac-aa16-9f971a75b047",
-      "title": "My Family",
-      "category": "Daily Life",
-      "difficulty": 1,
+      "title": "The Princess and the Pea",
+      "category": "Story",
+      "difficulty": 3,
       "order": 1,
-      "content": "Hello, my name is Tom. I am a student. I have a happy family.\n\nThere are four people in my family. My father is a doctor. He is tall and strong. My mother is a teacher. She is very kind. I have a little sister. Her name is Lily. She is cute and lovely.\n\nI love my family very much. We are happy every day.",
-      "characterCount": 305,
+      "content": "Once upon a time there was a prince who wanted to marry a princess; but she would have to be a real princess. He travelled all over the world to find one, but nowhere could he get what he wanted. There were princesses enough, but it was difficult to find out whether they were real ones. There was always something about them that was not as it should be. So he came home again and was sad, for he would have liked very much to have a real princess.\nOne evening a terrible storm came on; there was thunder and lightning, and the rain poured down in torrents. Suddenly a knocking was heard at the city gate, and the old king went to open it.\nIt was a princess standing out there in front of the gate. But, good gracious! what a sight the rain and the wind had made her look. The water ran down from her hair and clothes; it ran down into the toes of her shoes and out again at the heels. And yet she said that she was a real princess.",
+      "characterCount": 932,
       "cjkCharCount": 0
     },
     {
       "id": "cbe918ad-2176-4872-b47b-1f22b8cbf324",
-      "title": "My Day",
-      "category": "Daily Life",
-      "difficulty": 1,
+      "title": "The Three Billy Goats Gruff",
+      "category": "Story",
+      "difficulty": 3,
       "order": 2,
-      "content": "I get up at six thirty in the morning. I wash my face and brush my teeth.\n\nI have breakfast at seven o'clock. I go to school at seven thirty.\n\nI have lunch at school at twelve o'clock. I go home at five in the afternoon.\n\nI do my homework at six. I have dinner at seven. I go to bed at nine.\n\nThis is my day. I am very busy but happy.",
-      "characterCount": 334,
+      "content": "Once on a time there were three Billy Goats, who were to go up to the hillside to make themselves fat, and the name of all three was Gruff.\nOn the way up was a bridge over a burn they had to cross; and under the bridge lived a great ugly Troll, with eyes as big as saucers, and a nose as long as a poker.\nFirst of all came the youngest Billy Goat Gruff to cross the bridge. \"Trip, trap! trip, trap!\" went the bridge. \"WHO'S THAT tripping over my bridge?\" roared the Troll. \"Oh, it is only I, the tiniest Billy Goat Gruff,\" said the billy goat, with such a small voice.\n\"Now, I'm coming to gobble you up,\" said the Troll. \"Oh, no! pray don't take me. I'm too little, that I am,\" said the billy goat. \"Wait a bit till the second Billy Goat Gruff comes. He's much bigger.\" \"Well, be off with you,\" said the Troll.",
+      "characterCount": 803,
       "cjkCharCount": 0
     },
     {
       "id": "62c2ff27-e89c-4cee-a9ec-02ffb9f6ba6a",
-      "title": "Four Seasons",
-      "category": "Scenery/Nature",
-      "difficulty": 1,
+      "title": "The Bremen Town Musicians",
+      "category": "Story",
+      "difficulty": 3,
       "order": 3,
-      "content": "There are four seasons in a year. They are spring, summer, autumn and winter.\n\nIn spring, it is warm. The trees are green. The flowers are beautiful. I like to fly kites in spring.\n\nIn summer, it is hot. I can swim in the water. I like to eat ice cream in summer.\n\nIn autumn, it is cool. The leaves are yellow and red. They fall from the trees.\n\nIn winter, it is cold. It snows. I can make a snowman. It is great fun.\n\nI love all the seasons.",
-      "characterCount": 442,
+      "content": "A certain man had a donkey which had carried sacks to the mill for many a long year, but whose strength was now failing, so that he was becoming unfit for work. Then his master began to think of getting rid of him; but the donkey, seeing that mischief was in the wind, ran away and started on the road to Bremen, for there he thought he might become town musician.\nWhen he had been on his way for some time, he met a dog lying by the roadside and panting like one who was tired. \"What are you panting so for, old fellow?\" said the donkey. \"Ah,\" said the dog, \"just because I am old, and getting weaker every day, my master wanted to kill me, so I took my leave. But how am I to earn my living?\" \"Come with me,\" said the donkey, \"I am going to Bremen, to become town musician; you can be musician too.\"",
+      "characterCount": 802,
       "cjkCharCount": 0
     },
     {

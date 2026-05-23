@@ -4,23 +4,23 @@
   "lessons": [
     {
       "id": "bb81513c-a4ba-43bd-8bff-0fa93e4403cc",
-      "title": "La Historia del Chocolate",
-      "category": "History",
+      "title": "Don Quijote: En un lugar de la Mancha",
+      "category": "Literatura",
       "difficulty": 5,
       "order": 1,
-      "content": "El chocolate tiene una historia fascinante que se remonta a miles de años en las civilizaciones antiguas de Mesoamérica. Los mayas y los aztecas en México fueron los primeros en descubrir las propiedades del árbol del cacao, al que consideraban un regalo de los dioses. Para ellos, las semillas de cacao eran tan valiosas que las utilizaban como moneda para el comercio. Bebían una mezcla amarga y espumosa hecha de cacao molido, agua y diversas especias como el chile. Cuando los exploradores españoles llevaron el cacao a Europa en el siglo XVI, la receta se transformó radicalmente al añadirle azúcar y leche, convirtiéndose en el chocolate dulce que tanto nos gusta hoy en día. Actualmente, el chocolate es uno de los alimentos más populares en todo el mundo, presente en una infinita variedad de postres y golosinas, y su producción es una industria global que conecta a los agricultores de las regiones tropicales con los consumidores de todos los continentes.",
-      "characterCount": 966,
+      "content": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso, que eran los más del año, se daba a leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda.",
+      "characterCount": 1150,
       "language": "spanish",
       "cjkCharCount": 0
     },
     {
       "id": "c2b9ab9d-451e-49f8-a30b-e04942cf5baa",
-      "title": "El Agua es Vida",
-      "category": "Science",
+      "title": "Sonatina (Rubén Darío)",
+      "category": "Poema",
       "difficulty": 5,
       "order": 2,
-      "content": "El agua es el recurso natural más preciado y esencial para la existencia de todos los seres vivos en nuestro planeta. Sin agua, no habría plantas que produzcan oxígeno, ni animales que formen ecosistemas, ni seres humanos que construyan civilizaciones. Aunque la Tierra es conocida como el 'planeta azul' porque el setenta por ciento de su superficie está cubierta por agua, la gran mayoría es agua salada de los océanos que no podemos consumir directamente. Solo una mínima parte es agua dulce apta para el consumo humano, y se encuentra principalmente en glaciares, ríos y acuíferos subterráneos. Por esta razón, es nuestra responsabilidad colectiva proteger y no desperdiciar el agua potable. Acciones sencillas como cerrar el grifo mientras nos cepillamos los dientes, reparar las fugas en las tuberías y tomar duchas cortas pueden marcar una gran diferencia. Cuidar el agua no es solo un hábito de higiene, sino un acto de respeto hacia la naturaleza y un compromiso vital para asegurar el futuro de las próximas generaciones.",
-      "characterCount": 1031,
+      "content": "La princesa está triste... ¿Qué tendrá la princesa?\nLos suspiros se escapan de su boca de fresa,\nque ha perdido la risa, que ha perdido el color.\nLa princesa está pálida en su silla de oro,\nestá mudo el teclado de su clave sonoro,\ny en un vaso, olvidada, se desmaya una flor.\n\nEl jardín puebla el triunfo de los pavos reales.\nParlanchina, la dueña dice cosas banales,\ny vestido de rojo piruetea el bufón.\nLa princesa no ríe, la princesa no siente;\nla princesa persigue por el cielo de Oriente\nla libélula vaga de una vaga ilusión.\n\n¿Piensa, acaso, en el príncipe de Golconda o de China,\no en el que ha detenido su carroza argentina\npara ver de sus ojos la dulzura de luz?\n¿O en el rey de las islas de las rosas fragantes,\no en el que es soberano de los claros diamantes,\no en el dueño orgulloso de las perlas de Ormuz?\n\n¡Ay! La pobre princesa de la boca de rosa\nquiere ser golondrina, quiere ser mariposa,\ntener alas ligeras, bajo el cielo volar.",
+      "characterCount": 946,
       "language": "spanish",
       "cjkCharCount": 0
     },

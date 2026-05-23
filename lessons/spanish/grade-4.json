@@ -4,12 +4,12 @@
   "lessons": [
     {
       "id": "b194bb39-de70-45db-bd5a-2180d6c487cb",
-      "title": "El Sistema Solar",
-      "category": "Science",
+      "title": "Canción de Otoño en Primavera (Rubén Darío)",
+      "category": "Poema",
       "difficulty": 4,
       "order": 1,
-      "content": "El sistema solar es fascinante. El sol está en el centro y es una estrella muy grande y caliente. Hay ocho planetas que giran alrededor del sol. La Tierra es nuestro hogar y es el tercer planeta. Júpiter es el planeta más grande de todos. Me gustaría ser astronauta para ver las estrellas de cerca.",
-      "characterCount": 298,
+      "content": "Juventud, divino tesoro,\n¡ya te vas para no volver!\nCuando quiero llorar, no lloro...\ny a veces lloro sin querer.\n\nPlural ha sido la celeste\nhistoria de mi corazón.\nEra una dulce niña, en este\nmundo de duelo y de aflicción.\n\nMiraba como el alba pura;\nsonreía como una flor.\nEra su cabellera obscura\nhecha de noche y de dolor.",
+      "characterCount": 325,
       "language": "spanish",
       "cjkCharCount": 0
     },
@@ -26,12 +26,12 @@
     },
     {
       "id": "cc91c1ac-c4d2-4c46-b257-9e8b6757ec1b",
-      "title": "El Reciclaje",
-      "category": "Society",
+      "title": "La Mariposa Blanca (Platero y yo)",
+      "category": "Literatura",
       "difficulty": 4,
       "order": 3,
-      "content": "Reciclar es muy importante para cuidar nuestro planeta. Podemos reciclar papel, plástico y vidrio. Cuando reciclamos, ayudamos a reducir la basura y a conservar los recursos naturales. En mi casa, separamos la basura en diferentes contenedores. Si todos ayudamos, podemos mantener la Tierra limpia y saludable.",
-      "characterCount": 310,
+      "content": "La noche cae, brumosa ya y morada. Vagas claridades malvas y verdes perduran tras la torre de la iglesia. El camino sube, lleno de sombras, de campanillas, de fragancia de hierba, de canciones, de cansancio y de anhelo. De pronto, un hombre oscuro, con una gorra y un pincho, roja un instante la cara fea por la luz del cigarro, baja a nosotros de una casucha miserable, perdida entre sacas de carbón. Platero se amedrenta. —¿Va algo? —Vea usted... Mi mariposa blanca... —dice una voz nueva—. Y el hombre quiere clavar su pincho en el seroncillo, y no se lo impido. Abro la alforja y él no ve nada. Y el alimento ideal pasa, libre y cándido, sin pagar su tributo a los Consumos.",
+      "characterCount": 678,
       "language": "spanish",
       "cjkCharCount": 0
     },

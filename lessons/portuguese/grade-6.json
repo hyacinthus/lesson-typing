@@ -104,22 +104,22 @@
     },
     {
       "id": "9b430e96-938c-4e22-822c-b576fde7484a",
-      "title": "Notícia: Desmatamento",
-      "category": "Notícia",
+      "title": "Sonetos (Olavo Bilac)",
+      "category": "Poesia",
       "difficulty": 6,
       "order": 11,
-      "content": "O desmatamento na Amazônia atingiu níveis alarmantes no último semestre, segundo dados de satélite divulgados recentemente pelo Instituto Nacional de Pesquisas Espaciais (INPE). A derrubada de árvores para a criação de pastos, agricultura extensiva e extração ilegal de madeira destrói o habitat de milhares de espécies de animais e plantas, muitas das quais ainda nem foram estudadas pela ciência. Além disso, a queima da floresta libera enormes quantidades de dióxido de carbono na atmosfera, contribuindo diretamente para o aquecimento global e as mudanças climáticas que afetam todo o planeta. Sem a cobertura vegetal, o solo perde seus nutrientes e torna-se árido, impossibilitando a regeneração natural da floresta. Os rios, que dependem da umidade gerada pelas árvores através da evapotranspiração, correm o risco de secar, afetando o abastecimento de água e a geração de energia em várias regiões do país. A preservação da floresta amazônica não é apenas uma questão de proteção ambiental local, mas uma necessidade vital para o equilíbrio do clima global e para a sobrevivência das futuras gerações. Políticas públicas eficazes e a fiscalização rigorosa são urgentes para conter essa destruição desenfreada.",
-      "characterCount": 1216,
+      "content": "Ora (direis) ouvir estrelas! Certo\nPerdeste o senso! E eu vos direi, no entanto,\nQue, para ouvi-las, muita vez desperto\nE abro as janelas, pálido de espanto...\n\nE conversamos toda a noite, enquanto\nA Via-Láctea, como um pálio aberto,\nCintila. E, ao vir do sol, saudoso e em pranto,\nInda as procuro pelo céu deserto.\n\nDireis agora: Tresloucado amigo!\nQue conversas com elas? Que sentido\nTem o que dizem, quando estão contigo?\n\nE eu vos direi: Amai para entendê-las!\nPois só quem ama pode ter ouvido\nCapaz de ouvir e de entender estrelas.\n\nNel mezzo del camin... Cheguei. Chegaste.\nVinhas cansada e triste, e triste e cansado vinha.\nTinhas a alma de sonhos povoada,\nE a alma de sonhos povoada eu tinha...\n\nE paramos de súbito na estrada\nDa vida: longos anos, presa à minha\nA tua mão, a vista deslumbrada\nTive da luz que teu olhar continha.\n\nHoje segues de novo... Na partida\nNem o pranto os teus olhos umedece,\nNem te comove a dor da despedida.\n\nE eu, solitário, volto a face, e tremo,\nVendo o teu vulto que desaparece\nNa extrema curva do caminho extremo.",
+      "characterCount": 1053,
       "cjkCharCount": 0
     },
     {
       "id": "b15f6efd-452b-457b-90a8-5e4dc62a2f74",
-      "title": "Tecnologia 5G",
-      "category": "Tecnologia",
+      "title": "O Navio Negreiro (Castro Alves) — excerto",
+      "category": "Poesia",
       "difficulty": 6,
       "order": 12,
-      "content": "A tecnologia 5G é a quinta geração de redes móveis e promete revolucionar a forma como interagimos com o mundo digital. Com velocidades que podem ser até cem vezes maiores que as do 4G, o 5G permite baixar filmes de alta definição em apenas alguns segundos e conectar uma quantidade massiva de dispositivos simultaneamente sem perda de desempenho. No entanto, o verdadeiro impacto do 5G vai além da velocidade de navegação nos smartphones. Ele possibilita a latência ultrabaixa, o que é crucial para o desenvolvimento de tecnologias como carros autônomos, que precisam trocar informações em tempo real para evitar acidentes. Na medicina, cirurgias à distância tornam-se mais seguras e precisas. Nas cidades inteligentes, sensores conectados podem gerenciar o tráfego e o consumo de energia de forma eficiente. Por outro lado, a implementação do 5G traz desafios significativos, exigindo a instalação de milhares de novas antenas e uma infraestrutura de fibra óptica robusta. Além disso, surgem debates sobre a segurança dos dados e a soberania tecnológica. O Brasil já iniciou o leilão das frequências e a instalação das redes nas capitais, marcando o início de uma nova era de conectividade que transformará a indústria, a educação e o cotidiano de todos os cidadãos.",
-      "characterCount": 1268,
+      "content": "'Stamos em pleno mar... Doudo no espaço\nBrinca o luar — dourada borboleta;\nE as vagas após ele correm... cansam\nComo turba de infantes inquieta.\n\n'Stamos em pleno mar... Do firmamento\nOs astros saltam como espumas de ouro...\nO mar em troca acende as ardentias,\n— Constelações do líquido tesouro...\n\n'Stamos em pleno mar... Dois infinitos\nAli se estreitam num abraço insano,\nAzuis, dourados, plácidos, sublimes...\nQual dos dous é o céu? qual o oceano?...\n\nEra um sonho dantesco... o tombadilho\nQue das luzernas avermelha o brilho,\nEm sangue a se banhar.\nTinir de ferros... estalar de açoite...\nLegiões de homens negros como a noite,\nHorrendos a dançar...\n\nNegras mulheres, suspendendo às tetas\nMagras crianças, cujas bocas pretas\nRega o sangue das mães:\nOutras moças, mas nuas e espantadas,\nNo turbilhão de espectros arrastadas,\nEm ânsia e mágoa vãs!\n\nE ri-se a orquestra irônica, estridente...\nE da ronda fantástica a serpente\nFaz doidas espirais...\nSe o velho arqueja, se no chão resvala,\nOuvem-se gritos... o chicote estala.\nE voam mais e mais...",
+      "characterCount": 1048,
       "cjkCharCount": 0
     },
     {
@@ -174,12 +174,12 @@
     },
     {
       "id": "4df6f6bf-a50f-4b39-b44e-b4445a3591c2",
-      "title": "O Tempo (Poema)",
+      "title": "Língua Portuguesa (Olavo Bilac)",
       "category": "Poesia",
       "difficulty": 6,
       "order": 18,
-      "content": "A vida é uns deveres que nós trouxemos para fazer em casa.\nQuando se vê, já são seis horas!\nQuando se vê, já é sexta-feira!\nQuando se vê, já é natal...\nQuando se vê, já terminou o ano...\nQuando se vê perdemos o amor da nossa vida.\nQuando se vê passaram cinquenta anos!\nAgora é tarde para ser reprovado...\nSe me fosse dado um dia, outra oportunidade, eu nem olhava o relógio.\nSeguiria sempre em frente e iria jogando pelo caminho a casca dourada e inútil das horas...\nSeguraria o amor que está à minha frente e diria que eu o amo...\nE tem mais: não deixe de fazer algo de que gosta devido à falta de tempo.\nNão deixe de ter pessoas ao seu lado por puro receio de ser feliz.\nA única falta que terá será a desse tempo que, infelizmente, nunca mais voltará.\nO tempo é um mestre que ensina a todos, mas que mata seus alunos no final.\nPortanto, aproveite cada segundo como se fosse o último, pois a vida não tem ensaio, e a cortina pode fechar a qualquer momento, sem aviso prévio.",
-      "characterCount": 975,
+      "content": "Última flor do Lácio, inculta e bela,\nÉs, a um tempo, esplendor e sepultura:\nOuro nativo, que na ganga impura\nA bruta mina entre os cascalhos vela...\n\nAmo-te assim, desconhecida e obscura,\nTuba de alto clangor, lira singela,\nQue tens o trom e o silvo da procela,\nE o arrolo da saudade e da ternura!\n\nAmo o teu viço agreste e o teu aroma\nDe virgens selvas e de oceano largo!\nAmo-te, ó rude e doloroso idioma,\n\nEm que da voz materna ouvi: 'meu filho!'\nE em que Camões chorou, no exílio amargo,\nO gênio sem ventura e o amor sem brilho!",
+      "characterCount": 532,
       "cjkCharCount": 0
     },
     {

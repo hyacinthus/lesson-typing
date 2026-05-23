@@ -14,12 +14,12 @@
     },
     {
       "id": "c732f3ca-84c4-45c3-bfb4-27c2da9072c6",
-      "title": "L'autunno",
-      "category": "Sussidiario",
+      "title": "Il topo di campagna",
+      "category": "Esopo",
       "difficulty": 1,
       "order": 2,
-      "content": "Quando arriva l'autunno, gli alberi cambiano vestito. Le foglie diventano gialle, rosse e marroni, poi cadono a terra come una pioggia colorata. Il riccio si prepara per il lungo sonno invernale sotto una coperta di foglie secche. Il sole è meno caldo e le giornate si accorciano, ma nei boschi maturano le castagne e i funghi. È un tempo di pace e di preparazione per la terra che si riposa.",
-      "characterCount": 392,
+      "content": "Un topo di campagna invitò a cena un suo amico, topo di città. Sulla tavola c'erano ghiande, radici e qualche briciola di pane secco. Il topo di città storse il naso e disse: 'Vieni con me, ti farò vedere cose migliori'. Arrivati in città, trovarono formaggi e dolci. Ma all'improvviso entrarono i gatti, e i due topi scapparono tremanti. Allora il topo di campagna disse: 'Addio, amico mio, torno alle mie ghiande in pace'.",
+      "characterCount": 424,
       "cjkCharCount": 0
     },
     {
@@ -34,12 +34,12 @@
     },
     {
       "id": "34fbf5fd-f1b6-4823-9bf7-5b214a631d79",
-      "title": "Il mio gatto",
-      "category": "Sussidiario",
+      "title": "Il gatto e i topi",
+      "category": "Esopo",
       "difficulty": 1,
       "order": 4,
-      "content": "Il mio gatto si chiama Baffo. Ha il pelo morbido come la seta e gli occhi che brillano al buio come due piccole lanterne verdi. Quando è felice, fa le fusa: un rumore leggero che sembra un motorino lontano. Gli piace dormire al sole e rincorrere i fili di lana colorata. È un amico fedele che sa ascoltare senza parlare, e mi aspetta sempre davanti alla porta quando torno da scuola con lo zaino pesante.",
-      "characterCount": 404,
+      "content": "In una casa vivevano molti topi. Un gatto, sentendo il loro odore, si stabilì in quella casa e cominciò a mangiarne uno al giorno. I topi, spaventati, si nascosero in alto, dove il gatto non poteva arrivare. Allora il gatto pensò un inganno: si attaccò a un chiodo e fece il morto. Un topo vecchio si affacciò e disse: 'Caro mio, anche se diventassi un sacco, io non mi avvicinerei a te'. Chi è furbo non cade due volte nello stesso tranello.",
+      "characterCount": 442,
       "cjkCharCount": 0
     },
     {
@@ -54,12 +54,12 @@
     },
     {
       "id": "74ac3e6f-b959-4127-9597-7123c1457518",
-      "title": "La primavera",
-      "category": "Sussidiario",
+      "title": "Pinocchio nasce",
+      "category": "Carlo Collodi",
       "difficulty": 1,
       "order": 6,
-      "content": "In primavera la natura si risveglia dal lungo sonno invernale. I prati si coprono di fiori colorati: primule, viole e margherite spuntano timidamente tra l'erba verde. Gli alberi mettono le prime gemme e l'aria profuma di nuovo. Le rondini tornano dai paesi caldi e costruiscono i loro nidi sotto i tetti delle case. È una stagione piena di allegria, dove ogni creatura sembra festeggiare il ritorno del sole e della vita.",
-      "characterCount": 422,
+      "content": "C'era una volta un pezzo di legno. Non era un legno di lusso, ma un semplice pezzo da catasta, di quelli che d'inverno si mettono nelle stufe per accendere il fuoco. Capitò che maestro Ciliegia, falegname, lo trovò e si mise a sgrossarlo con l'ascia. Ma appena ebbe dato il primo colpo, restò sbigottito perché sentì una vocina sottile che diceva: 'Non mi picchiar tanto forte!'. Figurarsi come rimase quel buon vecchio di maestro Ciliegia.",
+      "characterCount": 440,
       "cjkCharCount": 0
     },
     {
@@ -74,12 +74,12 @@
     },
     {
       "id": "3d27c645-f88f-486b-8fd3-ceb0faada6a1",
-      "title": "La scuola",
-      "category": "Vita",
+      "title": "Filastrocca corta e matta",
+      "category": "Gianni Rodari",
       "difficulty": 1,
       "order": 8,
-      "content": "La mia scuola è un edificio grande e luminoso con tante finestre che guardano sul giardino. Ogni mattina entro in classe con i miei compagni e saluto la maestra con un sorriso. Sul mio banco ci sono i quaderni, le matite colorate e il libro di lettura. Impariamo a scrivere le prime parole e a contare con i numeri. Durante l'intervallo giochiamo tutti insieme a rincorrerci nel cortile, felici di stare in compagnia e di scoprire cose nuove ogni giorno.",
-      "characterCount": 454,
+      "content": "Filastrocca corta e matta: il porto vuole sposare la porta, la viola studia il violino, il busso bussa al campanello, il leone vuol farsi le penne, il cane vuole tre paia di scarpe, il pesce vuol vendere l'ombrello, il vento legge il giornale al gallo, il cavallo non ha il portafoglio per comprare la stalla. Filastrocca corta e povera, la vuoi più corta? Eccola qua: il pesce non sa dove andare, il pesce non sa dove restare.",
+      "characterCount": 427,
       "cjkCharCount": 0
     },
     {
@@ -94,42 +94,42 @@
     },
     {
       "id": "03ddbded-1705-406d-8119-68d1f7b5393f",
-      "title": "La stella stellina",
-      "category": "Filastrocca",
+      "title": "Promemoria",
+      "category": "Gianni Rodari",
       "difficulty": 1,
       "order": 10,
-      "content": "Stella stellina, la notte si avvicina, la fiamma traballa, la mucca è nella stalla. La pecora e l'agnello, la vacca e il suo vitello, la chioccia e il pulcino, ognuno ha il suo bambino. Ognuno ha la sua mamma e tutti fan la nanna. La luna brilla nel cielo scuro e protegge il sonno di tutti i piccoli del mondo, mentre un dolce silenzio scende sulle case e sui prati addormentati, portando sogni d'oro e di pace.",
-      "characterCount": 412,
+      "content": "Ci sono cose da fare ogni giorno: lavarsi, studiare, giocare, preparare la tavola, a mezzogiorno. Ci sono cose da fare di notte: chiudere gli occhi, dormire, avere sogni da sognare, orecchie per non sentire. Ci sono cose da non fare mai, né di giorno né di notte, né per mare né per terra: per esempio, la guerra.",
+      "characterCount": 313,
       "cjkCharCount": 0
     },
     {
       "id": "77fcd8c0-c4fe-492c-9f25-4eef1812b205",
-      "title": "Il vento dispettoso",
-      "category": "Natura",
+      "title": "La quercia e la canna",
+      "category": "Esopo",
       "difficulty": 1,
       "order": 11,
-      "content": "Oggi soffia un vento forte e dispettoso che fa volare i cappelli dei signori per la strada. Scuote i rami degli alberi e fa ballare le foglie secche in un girotondo colorato. La mia mantellina si gonfia come la vela di una barca e io mi diverto a correre controcorrente. Il vento sibila tra le fessure delle porte e sembra che voglia raccontarci un segreto che viene da lontano, dalle montagne coperte di neve o dal mare profondo.",
-      "characterCount": 430,
+      "content": "Una quercia robusta cresceva sulla riva di un fiume, accanto a una canna sottile. La quercia rideva della canna e diceva: 'Come sei debole! Basta un soffio di vento per piegarti'. La canna non rispondeva. Un giorno scoppiò una tempesta fortissima. La canna si piegò e lasciò passare il vento, ma la quercia, che voleva resistere, fu sradicata dalle sue forti braccia. Chi sa piegarsi sopravvive, chi è troppo rigido si spezza.",
+      "characterCount": 426,
       "cjkCharCount": 0
     },
     {
       "id": "45ca9068-3c50-4074-a1e4-3e73e79b9eda",
-      "title": "Il pesciolino rosso",
-      "category": "Animali",
+      "title": "Il pescatore e il pesciolino",
+      "category": "Esopo",
       "difficulty": 1,
       "order": 12,
-      "content": "Nella boccia di vetro nuota un pesciolino rosso dalle squame brillanti. Muove la coda con eleganza e apre la bocca come se volesse parlare. Tra i sassolini colorati e le piantine verdi, sembra un piccolo re nel suo castello trasparente. Quando gli porto il cibo, sale in superficie e fa delle piccole bollicine d'aria. È bello osservarlo mentre scivola silenzioso nell'acqua, portando un briciolo di magia e di colore nella mia cameretta.",
-      "characterCount": 438,
+      "content": "Un pescatore gettò la rete e prese solo un piccolo pesciolino. Il pesciolino lo pregò di lasciarlo andare, dicendo: 'Sono ancora piccolo, lasciami crescere. Quando sarò grande, mi prenderai e ti sarò più utile'. Ma il pescatore rispose: 'Sarei sciocco se lasciassi andare il piccolo che ho già in mano, sperando in un grande che forse non prenderò mai'. È meglio un guadagno sicuro, anche piccolo, di una grande speranza incerta.",
+      "characterCount": 429,
       "cjkCharCount": 0
     },
     {
       "id": "77fb74e6-1b6e-4e44-b7ac-826bf31cf0c4",
-      "title": "La pioggia",
-      "category": "Natura",
+      "title": "Il contadino e i suoi figli",
+      "category": "Esopo",
       "difficulty": 1,
       "order": 13,
-      "content": "Cade la pioggia leggera sulle strade e sui tetti delle case. Le goccioline picchiettano sui vetri della finestra facendo un rumore ritmico e rilassante. Indosso i miei stivaletti di gomma e apro l'ombrello colorato per andare a scuola. Le pozzanghere sembrano piccoli specchi dove si riflette il cielo grigio. La terra beve l'acqua con sete e i fiori sollevano la testa, ringraziando per questo dono prezioso che fa crescere l'erba e maturare i frutti.",
-      "characterCount": 452,
+      "content": "Un vecchio contadino, sentendosi vicino alla morte, chiamò i suoi figli e disse: 'Figli miei, nella vigna ho nascosto un tesoro. Quando sarò morto, cercatelo'. Dopo la sua morte, i figli si misero a scavare in ogni angolo della vigna. Non trovarono nessun tesoro, ma la terra ben lavorata diede quell'anno un raccolto abbondantissimo. Allora capirono: il vero tesoro che il padre aveva voluto lasciare era il lavoro stesso.",
+      "characterCount": 423,
       "cjkCharCount": 0
     },
     {
@@ -194,12 +194,12 @@
     },
     {
       "id": "f0775fc9-17da-4138-8ef0-8b01d124e404",
-      "title": "La famiglia",
-      "category": "Vita",
+      "title": "Il vecchio padre e i figli",
+      "category": "Esopo",
       "difficulty": 1,
       "order": 20,
-      "content": "La mia famiglia è come un grande albero con radici forti e rami che si protendono verso l'alto. Ci sono il papà, la mamma, i miei fratelli e i nonni che ci raccontano storie antiche. Insieme ridiamo, giochiamo e ci aiutiamo nei momenti difficili. Ogni sera ci riuniamo intorno al tavolo per la cena e ci raccontiamo quello che abbiamo fatto durante la giornata. L'amore che ci unisce è il regalo più prezioso, un porto sicuro dove tornare sempre e sentirsi protetti e felici.",
-      "characterCount": 475,
+      "content": "Un vecchio padre vide i suoi figli litigare ogni giorno. Per insegnare loro la concordia, prese un fascio di bastoncini legati insieme e chiese a ciascun figlio di spezzarlo. Nessuno ci riuscì. Allora sciolse il fascio e diede un bastoncino a ciascuno: tutti li spezzarono facilmente. 'Vedete, figli miei? Finché restate uniti, sarete forti come questo fascio; ma se vi separerete, chiunque potrà piegarvi senza fatica'. L'unione è la vera forza della famiglia.",
+      "characterCount": 461,
       "cjkCharCount": 0
     }
   ]

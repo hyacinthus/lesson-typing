@@ -34,12 +34,12 @@
     },
     {
       "id": "1021379c-286f-4f8c-86dd-3bde6b89a801",
-      "title": "Die drei Schmetterlinge",
-      "category": "Geschichte",
+      "title": "Der süße Brei",
+      "category": "Märchen",
       "difficulty": 2,
       "order": 4,
-      "content": "Drei Schmetterlinge spielten in der Sonne. Einer war weiß, einer war rot, einer war gelb. Plötzlich kam ein Regen. Sie flogen zu einer Tulpe. \"Dürfen wir uns unterstellen?\", fragten sie. Die Tulpe sagte: \"Nur der rote und der gelbe. Den weißen mag ich nicht.\" Da sagten die beiden: \"Dann bleiben wir lieber auch nass.\" Und sie flogen weiter.",
-      "characterCount": 341,
+      "content": "Es war einmal ein armes Mädchen, das lebte mit seiner Mutter allein. Eines Tages traf es im Wald eine alte Frau. Die schenkte ihm ein Töpfchen. Wenn man sagte: Töpfchen, koche, so kochte es guten süßen Brei. Wenn man sagte: Töpfchen, steh, so hörte es auf. Nun hatten Mutter und Kind keinen Hunger mehr.",
+      "characterCount": 303,
       "cjkCharCount": 0
     },
     {
@@ -164,42 +164,42 @@
     },
     {
       "id": "9712c67a-ca1d-4e77-b0c1-79e3696c3011",
-      "title": "Die Jahreszeiten",
-      "category": "Sachtext",
+      "title": "Der Hund und der Wolf",
+      "category": "Fabel",
       "difficulty": 2,
       "order": 17,
-      "content": "Das Jahr hat vier Jahreszeiten. Im Frühling erwacht die Natur. Die Vögel bauen Nester. Im Sommer ist es heiß. Die Tage sind lang. Im Herbst fallen die Blätter. Die Bauern ernten Äpfel und Kartoffeln. Im Winter ist es kalt. Die Tage sind kurz. Oft liegt Schnee und Eis.",
-      "characterCount": 268,
+      "content": "Ein hungriger Wolf traf einen wohlgenährten Hund. Der Hund sagte: Komm zu meinem Herrn, da gibt es immer Futter. Auf dem Weg sah der Wolf eine kahle Stelle am Hals des Hundes. Was ist das? fragte er. Da liegt das Halsband, sagte der Hund. Lebewohl, sagte der Wolf, ich bleibe lieber frei und hungrig.",
+      "characterCount": 300,
       "cjkCharCount": 0
     },
     {
       "id": "cd83daf0-7500-4690-9716-309a73fc758e",
-      "title": "Der Wald",
-      "category": "Sachtext",
+      "title": "Die Stadtmaus und die Feldmaus",
+      "category": "Fabel",
       "difficulty": 2,
       "order": 18,
-      "content": "Der Wald ist wichtig für uns. Die Bäume machen die Luft sauber. Im Wald leben viele Tiere: Rehe, Wildschweine, Füchse und Vögel. Wir müssen den Wald schützen. Man darf keinen Müll wegwerfen. Ein Spaziergang im Wald ist gesund und macht Spaß.",
-      "characterCount": 241,
+      "content": "Eine Stadtmaus besuchte ihre Base, die Feldmaus. Die Feldmaus setzte ihr Körner und Wurzeln vor. Komm mit in die Stadt, sagte die Stadtmaus, dort gibt es bessere Speisen. In der Speisekammer fanden sie Käse und Brot. Doch plötzlich kam die Katze. Lebewohl, rief die Feldmaus, ich esse lieber Wurzeln in Ruhe.",
+      "characterCount": 308,
       "cjkCharCount": 0
     },
     {
       "id": "461a9781-a333-45ea-81d8-6d9efb1e673a",
-      "title": "Mein Fahrrad",
-      "category": "Geschichte",
+      "title": "Der Wolf und das Lamm",
+      "category": "Fabel",
       "difficulty": 2,
       "order": 19,
-      "content": "Ich habe ein neues Fahrrad. Es ist blau und hat eine Klingel. Ich fahre jeden Tag zur Schule. Ich muss einen Helm tragen. Das ist sicherer. Am Wochenende mache ich eine Tour mit meinen Eltern. Wir fahren zum See und essen ein Eis.",
-      "characterCount": 230,
+      "content": "Ein Wolf und ein Lamm tranken an einem Bach. Du machst mir das Wasser schmutzig! sagte der Wolf zornig. Wie soll das gehen? sagte das Lamm. Ich stehe doch viel weiter unten. Da bist du es, der mich letztes Jahr beschimpft hat! Letztes Jahr war ich noch gar nicht geboren. Dann war es dein Vater, knurrte der Wolf und fraß das Lamm.",
+      "characterCount": 331,
       "cjkCharCount": 0
     },
     {
       "id": "99bb6f04-5232-433b-902c-2077a69e61e3",
-      "title": "Das Gewitter",
-      "category": "Geschichte",
+      "title": "Der Fuchs und der Storch",
+      "category": "Fabel",
       "difficulty": 2,
       "order": 20,
-      "content": "Am Nachmittag wurde der Himmel dunkel. Schwere Wolken zogen auf. Plötzlich zuckte ein Blitz. Dann donnerte es laut. Der Regen prasselte gegen das Fenster. Ich hatte ein bisschen Angst. Aber nach einer Stunde war das Gewitter vorbei. Die Luft war frisch und sauber.",
-      "characterCount": 264,
+      "content": "Der Fuchs lud den Storch zum Essen ein. Er stellte ihm Brei auf einem flachen Teller hin. Der Storch konnte mit seinem langen Schnabel nichts aufnehmen. Da lud der Storch den Fuchs ein. Er stellte ihm Speise in einem hohen, schmalen Krug hin. Nun konnte der Fuchs nichts erreichen. So wurde der Schalk vom Schalk geneckt.",
+      "characterCount": 321,
       "cjkCharCount": 0
     }
   ]
