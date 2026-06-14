@@ -49,8 +49,12 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
   
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // Seed the form with the latest profile each time the dialog opens. This is a
+  // legitimate "sync external data into local state" effect: a key-based remount
+  // would drop Radix's close animation, so the rule is disabled intentionally.
   useEffect(() => {
     if (open && user) {
+      /* eslint-disable react-hooks/set-state-in-effect */
       setNickname(profile?.nickname || user.user_metadata?.full_name || '');
       setAvatarUrl(profile?.avatar_url || user.user_metadata?.avatar_url || '');
       // Reset crop state
@@ -59,6 +63,7 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
       setPendingUploadBlob(null);
       setZoom(1);
       setCrop({ x: 0, y: 0 });
+      /* eslint-enable react-hooks/set-state-in-effect */
     }
   }, [open, user, profile]);
 

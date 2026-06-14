@@ -92,7 +92,7 @@ export function calculateStats(session: TypingSession): RealtimeStats {
     : 0;
 
   // WPM calculation varies by language
-  let wpm = 0;
+  let wpm: number;
 
   if (contentLang === 'chinese') {
     // For Chinese: WPM = Chinese characters per minute

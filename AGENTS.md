@@ -6,7 +6,8 @@
 - Build: `npm run build`
 - Preview: `npm run preview`
 - Lint: `npm run lint`
-- Basic check: `node test-basic.js`
+- Test: `npm test`
+- Basic check: `npm run test:basic`
 
 ## Project Layout
 - `src/` frontend code
