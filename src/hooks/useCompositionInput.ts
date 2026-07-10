@@ -59,6 +59,7 @@ export function useCompositionInput(
   const [isComposing, setIsComposing] = useState(false);
   const [compositionText, setCompositionText] = useState('');
   const lastValueRef = useRef('');
+  const lastCompositionEndAtRef = useRef(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const isHandlingKeyRef = useRef(false); // 标记是否正在处理按键
 
@@ -104,6 +105,7 @@ export function useCompositionInput(
 
   const handleCompositionEnd = useCallback((e: React.CompositionEvent<HTMLInputElement>) => {
     setIsComposing(false);
+    lastCompositionEndAtRef.current = performance.now();
     const finalInput = e.currentTarget.value;
 
     if (finalInput && enabled) {
@@ -142,14 +144,28 @@ export function useCompositionInput(
   }, [isComposing, onCharacterInput, onDelete, enabled]);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Backspace' && !isComposing && enabled) {
+    // Keys consumed by the IME must not be treated as typing input. Safari
+    // fires compositionend BEFORE the committing key's keydown, so the React
+    // isComposing state can already be false by then; the native event
+    // usually still marks IME-consumed keys (isComposing / keyCode 229), and
+    // the timestamp guard covers the same-keypress pair even when it doesn't
+    // (a human cannot press another key within 30ms of the commit).
+    if (
+      isComposing ||
+      e.nativeEvent.isComposing ||
+      e.nativeEvent.keyCode === 229 ||
+      performance.now() - lastCompositionEndAtRef.current < 30
+    ) {
+      return;
+    }
+    if (e.key === 'Backspace' && enabled) {
       if (onDelete) {
         e.currentTarget.value = '';
         lastValueRef.current = '';
         onDelete();
       }
       e.preventDefault();
-    } else if (e.key === 'Enter' && !isComposing && enabled) {
+    } else if (e.key === 'Enter' && enabled) {
       onCharacterInput('\n');
       e.preventDefault();
     }
