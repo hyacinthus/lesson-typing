@@ -2,3 +2,7 @@ node_modules
 dist
 .git
 .DS_Store
+# Never bake local env files into the image: Vite inlines VITE_* into the
+# bundle, and .env.local may hold the Supabase service-role key (sync script).
+.env
+.env.*
