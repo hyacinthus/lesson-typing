@@ -27,11 +27,36 @@ function detectContentLanguage(content: { char: string }[]): ContentLanguageType
   return 'other';
 }
 
+// calculateStats runs on every keystroke; without caching it would rescan the
+// whole lesson for language detection and redo a pinyin lookup for every
+// already-typed Han character each time (O(n²) per session).
+const contentLanguageCache = new Map<string, ContentLanguageType>();
+const keystrokeWeightCache = new Map<string, number>();
+
+function getContentLanguage(lessonId: string, content: { char: string }[]): ContentLanguageType {
+  const cached = contentLanguageCache.get(lessonId);
+  if (cached !== undefined) return cached;
+  const lang = detectContentLanguage(content);
+  contentLanguageCache.set(lessonId, lang);
+  return lang;
+}
+
+function getEffectiveKeystrokesForChar(char: string, lang: ContentLanguageType): number {
+  // Non-CJK content is always 1 keystroke per character — skip the cache.
+  if (lang === 'other') return 1;
+  const key = `${lang}:${char}`;
+  const cached = keystrokeWeightCache.get(key);
+  if (cached !== undefined) return cached;
+  const weight = computeEffectiveKeystrokesForChar(char, lang);
+  keystrokeWeightCache.set(key, weight);
+  return weight;
+}
+
 /**
  * Calculate the effective keystroke count for a single character
  * based on the detected content language.
  */
-function getEffectiveKeystrokesForChar(char: string, lang: ContentLanguageType): number {
+function computeEffectiveKeystrokesForChar(char: string, lang: ContentLanguageType): number {
   if (lang === 'japanese') {
     // Kana → romaji length
     const romajiLen = getKanaRomajiLength(char);
@@ -47,7 +72,8 @@ function getEffectiveKeystrokesForChar(char: string, lang: ContentLanguageType):
   if (lang === 'chinese') {
     if (isHanCharacter(char)) {
       const py = pinyin(char, { toneType: 'none', type: 'array' });
-      return py.length > 0 ? py.join('').length : 0;
+      // Typing any character costs at least one keystroke
+      return Math.max(1, py.join('').length);
     }
     return 1;
   }
@@ -77,8 +103,8 @@ export function calculateStats(session: TypingSession): RealtimeStats {
   // 计算时长（分钟）
   const durationMinutes = elapsedTime / 60000;
 
-  // Detect content language for keystroke estimation
-  const contentLang = detectContentLanguage(content);
+  // Detect content language for keystroke estimation (cached per lesson)
+  const contentLang = getContentLanguage(session.lessonId, content);
 
   // 计算有效按键数
   const effectiveKeystrokes = typedChars.reduce((acc, charObj) => {
