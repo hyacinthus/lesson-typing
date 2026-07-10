@@ -57,7 +57,7 @@ export function SignUpForm({ redirectTo }: SignUpFormProps) {
 
   if (success) {
     return (
-      <div className="rounded-md bg-green-50 p-4 text-sm text-green-800 border border-green-200">
+      <div className="rounded-md bg-success/10 p-4 text-sm text-success border border-success/20">
         {t('auth.check_email')}
       </div>
     );
@@ -103,7 +103,7 @@ export function SignUpForm({ redirectTo }: SignUpFormProps) {
         />
       </div>
       {error && (
-        <div className="rounded-md bg-red-50 border border-red-200 p-3 text-sm text-red-700">
+        <div className="rounded-md bg-destructive/10 border border-destructive/20 p-3 text-sm text-destructive">
           {error}
         </div>
       )}

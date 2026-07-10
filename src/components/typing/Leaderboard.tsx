@@ -33,13 +33,13 @@ export function Leaderboard({ lessonId, currentStats }: LeaderboardProps) {
   );
 
   return (
-    <div className="mt-4 md:mt-8 border-t border-gray-200 pt-4 md:pt-6">
-      <h3 className="text-lg font-bold text-gray-800 mb-4 text-left">
+    <div className="mt-4 md:mt-8 border-t border-border pt-4 md:pt-6">
+      <h3 className="text-lg font-bold mb-4 text-left">
         {'\u{1F3C6}'} {t('leaderboard.title')}
       </h3>
       <table className="w-full">
         <thead>
-          <tr className="text-xs text-gray-500 uppercase border-b border-gray-200">
+          <tr className="text-xs text-muted-foreground uppercase border-b border-border">
             <th className="py-2 px-2 md:px-3 text-left w-12">{t('leaderboard.rank')}</th>
             <th className="py-2 px-2 md:px-3 text-left">{t('leaderboard.player')}</th>
             <th className="py-2 px-2 md:px-3 text-left">CPM</th>
@@ -51,7 +51,7 @@ export function Leaderboard({ lessonId, currentStats }: LeaderboardProps) {
           {currentUserEntry && (
             <>
               <tr>
-                <td colSpan={4} className="text-center text-gray-400 text-xs py-1">···</td>
+                <td colSpan={4} className="text-center text-muted-foreground text-xs py-1">···</td>
               </tr>
               {renderRow(currentUserEntry)}
             </>

@@ -69,7 +69,7 @@ export function InputHandler({
       {/* 输入法组合文本预览 */}
       {isComposing && compositionText && (
         <div
-          className="fixed bg-yellow-100 text-yellow-800 px-3 py-1 rounded-lg shadow-lg text-sm font-medium z-50 pointer-events-none"
+          className="fixed bg-char-composition-bg text-char-composition border border-char-composition/30 px-3 py-1 rounded-lg shadow-lg text-sm font-medium z-50 pointer-events-none"
           style={cursorPosition ? {
             left: `${cursorPosition.left}px`,
             top: `${cursorPosition.top - 36}px`,

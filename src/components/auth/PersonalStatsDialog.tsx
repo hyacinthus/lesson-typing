@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Area, AreaChart, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 import { useHistoryStore } from '../../stores/historyStore';
 import { useLessonStore } from '../../stores/lessonStore';
-import { getScoreLevel } from '../../utils/statsCalculator';
+import { formatTime, getScoreLevel } from '../../utils/statsCalculator';
 import { ChartContainer } from '../ui/chart';
 import type { PracticeRecord } from '../../types';
 import {
@@ -81,28 +81,28 @@ export function PersonalStatsDialog({ open, onOpenChange }: PersonalStatsDialogP
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent aria-describedby={undefined} className="max-w-2xl rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-2xl">
+      <DialogContent aria-describedby={undefined} className="max-w-2xl rounded-2xl p-5 shadow-xl sm:max-w-2xl">
         <DialogHeader>
-          <DialogTitle className="text-gray-800">{t('auth.stats_title')}</DialogTitle>
+          <DialogTitle>{t('auth.stats_title')}</DialogTitle>
         </DialogHeader>
 
         {logs === null ? (
           <div className="flex items-center justify-center py-12">
-            <div className="text-sm text-gray-400">{t('loading')}</div>
+            <div className="text-sm text-muted-foreground">{t('loading')}</div>
           </div>
         ) : logs.length === 0 ? (
           <div className="flex items-center justify-center py-12">
-            <p className="text-sm text-gray-400">{t('auth.no_records')}</p>
+            <p className="text-sm text-muted-foreground">{t('auth.no_records')}</p>
           </div>
         ) : (
           <div className="space-y-6">
             {/* Recent Results */}
             <div>
-              <h3 className="text-sm font-semibold text-gray-700 mb-3">{t('auth.recent_results')}</h3>
+              <h3 className="text-sm font-semibold mb-3">{t('auth.recent_results')}</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="border-b border-gray-100 text-left text-gray-400">
+                    <tr className="border-b border-border text-left text-muted-foreground">
                       <th className="pb-2 font-medium">{t('auth.lesson_name')}</th>
                       <th className="pb-2 font-medium text-center">{t('stats.char_speed')}</th>
                       <th className="pb-2 font-medium text-center">{t('stats.wpm_title')}</th>
@@ -115,15 +115,15 @@ export function PersonalStatsDialog({ open, onOpenChange }: PersonalStatsDialogP
                     {recentThree.map((log) => {
                       const score = getScoreLevel(log.accuracy, log.cpm);
                       return (
-                        <tr key={log.id} className="border-b border-gray-50">
-                          <td className="py-2.5 max-w-[160px] truncate text-gray-700">
+                        <tr key={log.id} className="border-b border-border/50">
+                          <td className="py-2.5 max-w-[160px] truncate">
                             {lessonTitleMap.get(log.lessonId) || log.lessonId}
                           </td>
-                          <td className="py-2.5 text-center text-primary font-medium">{log.cpm}</td>
-                          <td className="py-2.5 text-center text-green-600">{log.wpm}</td>
-                          <td className="py-2.5 text-center text-purple-600">{log.accuracy}%</td>
+                          <td className="py-2.5 text-center text-primary font-medium tabular-nums">{log.cpm}</td>
+                          <td className="py-2.5 text-center text-primary tabular-nums">{log.wpm}</td>
+                          <td className="py-2.5 text-center tabular-nums">{log.accuracy}%</td>
                           <td className={`py-2.5 text-center font-bold ${score.color}`}>{score.level}</td>
-                          <td className="py-2.5 text-right text-gray-400 text-xs">{formatDate(log.completedAt)}</td>
+                          <td className="py-2.5 text-right text-muted-foreground text-xs">{formatDate(log.completedAt)}</td>
                         </tr>
                       );
                     })}
@@ -135,7 +135,7 @@ export function PersonalStatsDialog({ open, onOpenChange }: PersonalStatsDialogP
             {/* Progress Chart */}
             {chartData.length >= 3 && (
               <div>
-                <h3 className="text-sm font-semibold text-gray-700 mb-3">{t('auth.progress_chart')}</h3>
+                <h3 className="text-sm font-semibold mb-3">{t('auth.progress_chart')}</h3>
                 <div className="h-[220px] w-full">
                   <ChartContainer config={chartConfig} className="h-full w-full">
                     <AreaChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
@@ -174,15 +174,15 @@ export function PersonalStatsDialog({ open, onOpenChange }: PersonalStatsDialogP
                                   </div>
                                   <div className="flex justify-between gap-6">
                                     <span className="text-muted-foreground">{t('stats.wpm_title')}</span>
-                                    <span className="font-medium text-green-600">{data.wpm} {t('stats.wpm_unit')}</span>
+                                    <span className="font-medium text-primary">{data.wpm} {t('stats.wpm_unit')}</span>
                                   </div>
                                   <div className="flex justify-between gap-6">
                                     <span className="text-muted-foreground">{t('stats.accuracy')}</span>
-                                    <span className="font-medium text-purple-600">{data.accuracy}%</span>
+                                    <span className="font-medium text-foreground">{data.accuracy}%</span>
                                   </div>
                                   <div className="flex justify-between gap-6">
                                     <span className="text-muted-foreground">{t('time')}</span>
-                                    <span className="font-medium text-foreground">{Math.floor(data.duration / 60)}:{(data.duration % 60).toString().padStart(2, '0')}</span>
+                                    <span className="font-medium text-foreground">{formatTime(data.duration)}</span>
                                   </div>
                                 </div>
                               </div>

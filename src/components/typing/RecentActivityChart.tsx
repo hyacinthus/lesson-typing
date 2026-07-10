@@ -4,6 +4,7 @@ import { useHistoryStore } from '../../stores/historyStore';
 import type { PracticeRecord, RealtimeStats } from '../../types';
 import { Area, AreaChart, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 import { ChartContainer } from '../../components/ui/chart';
+import { formatTime } from '../../utils/statsCalculator';
 
 interface RecentActivityChartProps {
     lessonId: string;
@@ -91,8 +92,8 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
     };
 
     return (
-        <div className="rounded-lg mt-4 md:mt-8 border-t border-gray-200 pt-4 md:pt-6">
-            <h3 className="text-lg font-bold text-gray-800 mb-6 text-left">{t('recent_activity')}</h3>
+        <div className="rounded-lg mt-4 md:mt-8 border-t border-border pt-4 md:pt-6">
+            <h3 className="text-lg font-bold mb-6 text-left">{t('recent_activity')}</h3>
             <div className="h-[180px] md:h-[250px] w-full">
                 <ChartContainer config={chartConfig} className="h-full w-full">
                     <AreaChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
@@ -131,15 +132,15 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
                                                 </div>
                                                 <div className="flex justify-between gap-6">
                                                     <span className="text-muted-foreground">{t('stats.wpm_title')}</span>
-                                                    <span className="font-medium text-green-600">{data.wpm} {t('stats.wpm_unit')}</span>
+                                                    <span className="font-medium text-primary">{data.wpm} {t('stats.wpm_unit')}</span>
                                                 </div>
                                                 <div className="flex justify-between gap-6">
                                                     <span className="text-muted-foreground">{t('stats.accuracy')}</span>
-                                                    <span className="font-medium text-purple-600">{data.accuracy}%</span>
+                                                    <span className="font-medium text-foreground">{data.accuracy}%</span>
                                                 </div>
                                                 <div className="flex justify-between gap-6">
                                                     <span className="text-muted-foreground">{t('time')}</span>
-                                                    <span className="font-medium text-foreground">{Math.floor(data.duration / 60)}:{(data.duration % 60).toString().padStart(2, '0')}</span>
+                                                    <span className="font-medium text-foreground">{formatTime(data.duration)}</span>
                                                 </div>
                                             </div>
                                         </div>

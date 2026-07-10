@@ -58,9 +58,9 @@ export function LoginDialog() {
 
   return (
     <Dialog open={isLoginDialogOpen} onOpenChange={handleOpenChange}>
-      <DialogContent aria-describedby={undefined} className="max-w-md rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-md">
+      <DialogContent aria-describedby={undefined} className="max-w-md rounded-2xl p-5 shadow-xl sm:max-w-md">
         <DialogHeader className="mb-1">
-          <DialogTitle className="text-gray-800">{t('auth.welcome')}</DialogTitle>
+          <DialogTitle>{t('auth.welcome')}</DialogTitle>
         </DialogHeader>
 
         {view === 'options' ? (
@@ -73,7 +73,7 @@ export function LoginDialog() {
                 });
                 close();
               }}
-              className="h-auto w-full justify-start gap-3 rounded-xl border-gray-200 py-3 text-gray-700 hover:bg-gray-50"
+              className="h-auto w-full justify-start gap-3 rounded-xl py-3"
             >
               <GoogleLogoIcon className="size-[18px]" />
               <span>{t('auth.continue_with_google')}</span>
@@ -81,7 +81,7 @@ export function LoginDialog() {
             <Button
               variant="outline"
               onClick={() => setView('sign_in')}
-              className="h-auto w-full justify-start gap-3 rounded-xl border-gray-200 py-3 text-gray-700 hover:bg-gray-50"
+              className="h-auto w-full justify-start gap-3 rounded-xl py-3"
             >
               <EmailMaterialIcon className="size-[18px] text-[#5f6368]" />
               <span>{t('auth.login_with_email')}</span>
@@ -89,7 +89,7 @@ export function LoginDialog() {
             <Button
               variant="outline"
               onClick={() => setView('sign_up')}
-              className="h-auto w-full justify-start gap-3 rounded-xl border-gray-200 py-3 text-gray-700 hover:bg-gray-50"
+              className="h-auto w-full justify-start gap-3 rounded-xl py-3"
             >
               <RegisterMaterialIcon className="size-[18px] text-[#5f6368]" />
               <span>{t('auth.register_with_email')}</span>
@@ -105,7 +105,7 @@ export function LoginDialog() {
               >
                 {t('auth.back')}
               </Button>
-              <span className="text-sm text-gray-500">
+              <span className="text-sm text-muted-foreground">
                 {view === 'sign_in' ? t('auth.email_login') : t('auth.email_register')}
               </span>
             </div>

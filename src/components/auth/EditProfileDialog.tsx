@@ -209,7 +209,7 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
             </div>
             <div className="px-4 pb-2">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-xs text-gray-500">Zoom</span>
+                <span className="text-xs text-muted-foreground">Zoom</span>
                 <Slider 
                   value={[zoom]} 
                   min={1} 
@@ -239,7 +239,7 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
                   className="relative cursor-pointer group rounded-full overflow-hidden" 
                   onClick={handleAvatarClick}
                 >
-                  <Avatar className="h-24 w-24 border-2 border-gray-100">
+                  <Avatar className="h-24 w-24 border-2 border-border">
                     <AvatarImage src={avatarUrl} className="object-cover" />
                     <AvatarFallback className="bg-primary/10">
                       <User className="h-12 w-12 text-primary" />

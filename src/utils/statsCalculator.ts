@@ -165,15 +165,16 @@ export function getScoreLevel(accuracy: number, speed: number): {
   color: string;
 } {
   // 这里的 speed 传入的是 CPM
+  // Colors come from the --grade-* tokens in index.css (light/dark aware)
   if (accuracy >= 95 && speed >= 200) {
-    return { level: 'S', color: 'text-purple-600' };
+    return { level: 'S', color: 'text-grade-s' };
   } else if (accuracy >= 90 && speed >= 150) {
-    return { level: 'A', color: 'text-green-600' };
+    return { level: 'A', color: 'text-grade-a' };
   } else if (accuracy >= 80 && speed >= 100) {
-    return { level: 'B', color: 'text-blue-600' };
+    return { level: 'B', color: 'text-grade-b' };
   } else if (accuracy >= 70) {
-    return { level: 'C', color: 'text-yellow-600' };
+    return { level: 'C', color: 'text-grade-c' };
   } else {
-    return { level: 'D', color: 'text-red-600' };
+    return { level: 'D', color: 'text-grade-d' };
   }
 }

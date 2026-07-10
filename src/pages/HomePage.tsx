@@ -3,8 +3,11 @@ import { useTranslation } from 'react-i18next';
 import { useLessonStore, getLessonLanguage } from '../stores/lessonStore';
 import { LessonPractice } from '../components/lesson/LessonPractice';
 import { Logo } from '../components/Logo';
+import { TypingDemo } from '../components/TypingDemo';
+import { ThemeToggle } from '../components/ThemeToggle';
 import { UserMenu } from '../components/auth/UserMenu';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { cn, pillClass } from '@/lib/utils';
 import { BookOpen, ChartLine, Keyboard } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import type { Lesson } from '../types';
@@ -85,10 +88,12 @@ export function HomePage() {
   useEffect(() => {
     if (activeLesson) return;
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        handleStart();
-      }
+      if (e.key !== 'Enter') return;
+      // Don't hijack Enter from form fields or open dialogs (e.g. login)
+      const target = e.target as HTMLElement | null;
+      if (target?.closest('input, textarea, select, [contenteditable], [role="dialog"]')) return;
+      e.preventDefault();
+      handleStart();
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
@@ -125,7 +130,7 @@ export function HomePage() {
 
   if (error) {
     return (
-      <div className="flex items-center justify-center min-h-screen text-red-500">
+      <div className="flex items-center justify-center min-h-screen text-destructive">
         {t('error')}: {error}
       </div>
     );
@@ -134,7 +139,7 @@ export function HomePage() {
   // If active lesson is set, render the practice view
   if (activeLesson) {
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-background">
         <LessonPractice
           key={activeLesson.id}
           lesson={activeLesson}
@@ -146,14 +151,14 @@ export function HomePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-background flex flex-col">
       {/* Header / Top Bar */}
       <div className="sticky top-0 bg-header text-header-foreground shadow-sm px-4 py-3 md:px-6 md:py-4 z-10" data-nosnippet>
         {/* Row 1: Logo + UserMenu (mobile) / Full row (desktop) */}
         <div className="flex items-center justify-between md:justify-between gap-3">
           {/* Logo & Title */}
           <div className="flex items-center gap-2 md:gap-3 md:w-1/3 shrink-0">
-            <Logo className="w-8 h-8 md:w-10 md:h-10 shadow-sm" />
+            <Logo className="w-8 h-8 md:w-10 md:h-10" />
             <span className="text-lg md:text-xl font-bold tracking-tight">Lesson Typing</span>
           </div>
 
@@ -165,10 +170,10 @@ export function HomePage() {
               onValueChange={setSelectedCollection}
               disabled={collections.length === 0}
             >
-              <SelectTrigger className="h-10 min-w-[160px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
+              <SelectTrigger className={cn(pillClass, 'h-10 min-w-[160px] px-4 focus-visible:ring-primary/50')}>
                 <SelectValue placeholder={t('loading')} />
               </SelectTrigger>
-              <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
+              <SelectContent position="popper" side="bottom">
                 {collections.map((collection) => (
                   <SelectItem key={collection.id} value={collection.id}>
                     {collection.name}
@@ -184,10 +189,10 @@ export function HomePage() {
               value={i18n.language.split('-')[0]}
               onValueChange={(value) => navigate(`/${value}/`)}
             >
-              <SelectTrigger className="h-10 min-w-[150px] rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm transition-shadow hover:shadow-md focus-visible:ring-primary/50">
+              <SelectTrigger className={cn(pillClass, 'h-10 min-w-[150px] px-4 focus-visible:ring-primary/50')}>
                 <SelectValue />
               </SelectTrigger>
-              <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
+              <SelectContent position="popper" side="bottom">
                 <SelectItem value="en">English</SelectItem>
                 <SelectItem value="zh">中文</SelectItem>
                 <SelectItem value="es">Español</SelectItem>
@@ -199,11 +204,13 @@ export function HomePage() {
                 <SelectItem value="it">Italiano</SelectItem>
               </SelectContent>
             </Select>
+            <ThemeToggle />
             <UserMenu />
           </div>
 
           {/* Mobile: UserMenu only in row 1 */}
-          <div className="flex md:hidden items-center">
+          <div className="flex md:hidden items-center gap-2">
+            <ThemeToggle className="size-9" />
             <UserMenu />
           </div>
         </div>
@@ -216,10 +223,10 @@ export function HomePage() {
             onValueChange={setSelectedCollection}
             disabled={collections.length === 0}
           >
-            <SelectTrigger className="h-9 flex-1 rounded-full border-gray-100 bg-white px-3 text-sm font-medium text-gray-600 shadow-sm">
+            <SelectTrigger className={cn(pillClass, 'h-9 flex-1 px-3')}>
               <SelectValue placeholder={t('loading')} />
             </SelectTrigger>
-            <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
+            <SelectContent position="popper" side="bottom">
               {collections.map((collection) => (
                 <SelectItem key={collection.id} value={collection.id}>
                   {collection.name}
@@ -231,10 +238,10 @@ export function HomePage() {
             value={i18n.language.split('-')[0]}
             onValueChange={(value) => navigate(`/${value}/`)}
           >
-            <SelectTrigger className="h-9 w-24 shrink-0 rounded-full border-gray-100 bg-white px-3 text-sm font-medium text-gray-600 shadow-sm">
+            <SelectTrigger className={cn(pillClass, 'h-9 w-24 shrink-0 px-3')}>
               <SelectValue />
             </SelectTrigger>
-            <SelectContent className="border-gray-100 bg-white" position="popper" side="bottom">
+            <SelectContent position="popper" side="bottom">
               <SelectItem value="en">English</SelectItem>
               <SelectItem value="zh">中文</SelectItem>
               <SelectItem value="es">Español</SelectItem>
@@ -250,21 +257,34 @@ export function HomePage() {
       </div>
 
       {/* Main Content */}
-      <main className="min-h-screen flex flex-col items-center pt-[15vh] md:pt-[25vh] p-4">
-        <div className="text-gray-400 text-2xl md:text-[3rem] leading-tight md:leading-none mb-12 md:mb-24 tracking-wide text-center">
+      <main className="min-h-screen flex flex-col items-center pt-[12vh] md:pt-[20vh] p-4">
+        <div className="text-foreground text-2xl md:text-[3rem] leading-tight md:leading-none mb-8 md:mb-12 tracking-wide text-center font-medium">
           {t('hero_subtitle')}
         </div>
 
+        <div className="mb-10 md:mb-16">
+          <TypingDemo key={i18n.language} />
+        </div>
+
         {isLoading ? (
-          <div className="text-xl text-gray-500 animate-pulse">{t('loading')}</div>
+          <div className="text-xl text-muted-foreground animate-pulse">{t('loading')}</div>
         ) : (
-          <button
-            onClick={handleStart}
-            disabled={!currentCollectionId && collections.length === 0}
-            className="group relative px-10 py-3 bg-primary text-primary-foreground text-xl font-medium rounded-[10px] shadow-sm hover:bg-primary/90 hover:shadow-md transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            {t('start')}
-          </button>
+          <div className="flex flex-col items-center gap-4">
+            <button
+              onClick={handleStart}
+              disabled={!currentCollectionId && collections.length === 0}
+              className="group relative px-10 py-3 bg-primary text-primary-foreground text-xl font-medium rounded-[10px] shadow-sm hover:bg-primary/90 hover:shadow-md transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {t('start')}
+            </button>
+            <p className="hidden md:block text-sm text-muted-foreground">
+              {t('hint_enter_before')}{' '}
+              <kbd className="rounded-md border border-border bg-card px-1.5 py-0.5 font-sans text-xs shadow-sm">
+                Enter ↵
+              </kbd>{' '}
+              {t('hint_enter_after')}
+            </p>
+          </div>
         )}
 
       </main>
@@ -275,18 +295,18 @@ export function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
           <div className="flex flex-col items-center text-center gap-2 p-4">
             <BookOpen className="w-8 h-8 text-primary" />
-            <h2 className="font-semibold text-gray-700">{t('seo.feature_curriculum')}</h2>
-            <p className="text-sm text-gray-500">{t('seo.feature_curriculum_desc')}</p>
+            <h2 className="font-semibold text-foreground">{t('seo.feature_curriculum')}</h2>
+            <p className="text-sm text-muted-foreground">{t('seo.feature_curriculum_desc')}</p>
           </div>
           <div className="flex flex-col items-center text-center gap-2 p-4">
             <ChartLine className="w-8 h-8 text-primary" />
-            <h2 className="font-semibold text-gray-700">{t('seo.feature_tracking')}</h2>
-            <p className="text-sm text-gray-500">{t('seo.feature_tracking_desc')}</p>
+            <h2 className="font-semibold text-foreground">{t('seo.feature_tracking')}</h2>
+            <p className="text-sm text-muted-foreground">{t('seo.feature_tracking_desc')}</p>
           </div>
           <div className="flex flex-col items-center text-center gap-2 p-4">
             <Keyboard className="w-8 h-8 text-primary" />
-            <h2 className="font-semibold text-gray-700">{t('seo.feature_languages')}</h2>
-            <p className="text-sm text-gray-500">{t('seo.feature_languages_desc')}</p>
+            <h2 className="font-semibold text-foreground">{t('seo.feature_languages')}</h2>
+            <p className="text-sm text-muted-foreground">{t('seo.feature_languages_desc')}</p>
           </div>
         </div>
       </section>

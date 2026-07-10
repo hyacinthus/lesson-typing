@@ -55,7 +55,7 @@ export function SignInForm() {
         />
       </div>
       {error && (
-        <div className="rounded-md bg-red-50 border border-red-200 p-3 text-sm text-red-700">
+        <div className="rounded-md bg-destructive/10 border border-destructive/20 p-3 text-sm text-destructive">
           {error}
         </div>
       )}

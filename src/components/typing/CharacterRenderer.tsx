@@ -42,13 +42,13 @@ export const CharacterRenderer = memo(function CharacterRenderer({ character, is
 function getStatusClass(status: CharacterStatus): string {
   switch (status) {
     case CharacterStatus.PENDING:
-      return 'text-gray-400';
+      return 'text-char-pending';
     case CharacterStatus.CURRENT:
-      return 'bg-[#e3f2fd] text-[#1976d2]';
+      return 'bg-char-current-bg text-char-current rounded-[3px]';
     case CharacterStatus.CORRECT:
-      return 'text-green-600';
+      return 'text-char-correct';
     case CharacterStatus.INCORRECT:
-      return 'text-red-600 bg-red-50 underline decoration-red-500 decoration-wavy';
+      return 'text-char-incorrect bg-char-incorrect-bg underline decoration-char-incorrect decoration-wavy';
     default:
       return '';
   }

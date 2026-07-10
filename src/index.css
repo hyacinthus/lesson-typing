@@ -4,20 +4,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme {
-  /* 字符状态颜色 */
-  --color-pending: #9ca3af;
-  --color-current: #90caf9;
-  --color-current-bg: #e3f2fd;
-  --color-correct: #22c55e;
-  --color-incorrect: #ef4444;
-  --color-incorrect-bg: #fee2e2;
-  --color-composition: #f59e0b;
-  --color-composition-bg: #fef3c7;
-  --color-header: var(--header);
-  --color-header-foreground: var(--header-foreground);
-}
-
 * {
   box-sizing: border-box;
 }
@@ -34,6 +20,18 @@ body {
     opacity: 1;
   }
   51%, 100% {
+    opacity: 0;
+  }
+}
+
+/* 完成页彩带下落动画 */
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-5vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(105vh) rotate(720deg);
     opacity: 0;
   }
 }
@@ -77,11 +75,34 @@ body {
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-header: var(--header);
+  --color-header-foreground: var(--header-foreground);
+  /* 字符状态颜色 */
+  --color-char-pending: var(--char-pending);
+  --color-char-current: var(--char-current);
+  --color-char-current-bg: var(--char-current-bg);
+  --color-char-correct: var(--char-correct);
+  --color-char-incorrect: var(--char-incorrect);
+  --color-char-incorrect-bg: var(--char-incorrect-bg);
+  --color-char-composition: var(--char-composition);
+  --color-char-composition-bg: var(--char-composition-bg);
+  /* 评级颜色 */
+  --color-grade-s: var(--grade-s);
+  --color-grade-a: var(--grade-a);
+  --color-grade-b: var(--grade-b);
+  --color-grade-c: var(--grade-c);
+  --color-grade-d: var(--grade-d);
+  --color-success: var(--success);
+  /* 完成页成绩面板背景 */
+  --color-results: var(--results);
+  --color-results-foreground: var(--results-foreground);
+  --animate-blink: blink 1s infinite;
 }
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  /* Slightly gray page background so white cards stand out */
+  --background: oklch(0.985 0.002 247.839);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -114,42 +135,81 @@ body {
   --sidebar-ring: oklch(0.708 0 0);
   --header: #E9F4FF;
   --header-foreground: oklch(0.145 0 0);
+  --char-pending: #9ca3af;
+  --char-current: #1565c0;
+  --char-current-bg: #cfe6ff;
+  --char-correct: #16a34a;
+  --char-incorrect: #dc2626;
+  --char-incorrect-bg: #fee2e2;
+  --char-composition: #b45309;
+  --char-composition-bg: #fef3c7;
+  /* 评级梯度：金 > 绿 > 蓝 > 灰 > 红；S 用 amber-600，再深就发棕像铜牌 */
+  --grade-s: #d97706;
+  --grade-a: #16a34a;
+  --grade-b: #2563eb;
+  --grade-c: #64748b;
+  --grade-d: #dc2626;
+  --success: #16a34a;
+  --results: #E9F4FF;
+  --results-foreground: oklch(0.145 0 0);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  /* Navy-tinted dark surfaces so the body harmonizes with the #0C3A66 header */
+  --background: oklch(0.18 0.02 255);
+  --foreground: oklch(0.96 0.005 250);
+  --card: oklch(0.23 0.025 255);
+  --card-foreground: oklch(0.96 0.005 250);
+  --popover: oklch(0.23 0.025 255);
+  --popover-foreground: oklch(0.96 0.005 250);
+  /* Lightened brand blue (#007FFF); ≥4.5:1 as text on --card */
+  --primary: #4DA6FF;
+  --primary-foreground: oklch(0.15 0.02 255);
+  --secondary: oklch(0.3 0.03 255);
+  --secondary-foreground: oklch(0.96 0.005 250);
+  --muted: oklch(0.29 0.025 255);
+  --muted-foreground: oklch(0.73 0.015 250);
+  --accent: oklch(0.3 0.03 255);
+  --accent-foreground: oklch(0.96 0.005 250);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.55 0.08 255);
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar: oklch(0.23 0.025 255);
+  --sidebar-foreground: oklch(0.96 0.005 250);
   --sidebar-primary: oklch(0.488 0.243 264.376);
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --sidebar-accent: oklch(0.3 0.03 255);
+  --sidebar-accent-foreground: oklch(0.96 0.005 250);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.55 0.08 255);
   --header: #0C3A66;
   --header-foreground: oklch(0.985 0 0);
+  /* Untyped lesson text is the main reading surface — keep ≥4.5:1 on --card */
+  --char-pending: #94a3b8;
+  --char-current: #8ec9ff;
+  --char-current-bg: #17395c;
+  --char-correct: #4ade80;
+  --char-incorrect: #fca5a5;
+  --char-incorrect-bg: rgb(153 27 27 / 0.3);
+  /* IME preview floats over arbitrary content — must stay opaque and high-contrast */
+  --char-composition: #fde68a;
+  --char-composition-bg: #713f12;
+  /* 评级梯度：金 > 绿 > 蓝 > 灰 > 红 */
+  --grade-s: #fbbf24;
+  --grade-a: #4ade80;
+  --grade-b: #60a5fa;
+  --grade-c: #94a3b8;
+  --grade-d: #fca5a5;
+  --success: #4ade80;
+  /* 低饱和抬升面，避免蓝底蓝字 */
+  --results: oklch(0.26 0.02 255);
+  --results-foreground: oklch(0.96 0.005 250);
 }
 
 @layer base {

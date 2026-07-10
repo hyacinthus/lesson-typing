@@ -5,6 +5,7 @@ import { useAuthStore } from '../../stores/authStore';
 import { EditProfileDialog } from './EditProfileDialog';
 import { PersonalStatsDialog } from './PersonalStatsDialog';
 import { Button } from '@/components/ui/button';
+import { cn, pillClass } from '@/lib/utils';
 import {
   Dialog,
   DialogContent,
@@ -32,7 +33,7 @@ export function UserMenu() {
   const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
 
   if (isLoading || (user && !isProfileLoaded)) {
-    return <div className="w-8 h-8 rounded-full bg-gray-200 animate-pulse" />;
+    return <div className="w-8 h-8 rounded-full bg-muted animate-pulse" />;
   }
 
   if (!user) {
@@ -40,7 +41,7 @@ export function UserMenu() {
       <Button
         variant="outline"
         onClick={() => setLoginDialogOpen(true)}
-        className="h-10 rounded-full border-gray-100 bg-white px-4 text-sm font-medium text-gray-600 shadow-sm hover:bg-white hover:shadow-md"
+        className={cn(pillClass, 'h-10 px-4 hover:bg-card')}
       >
         <span>{t('auth.login')}</span>
       </Button>
@@ -55,10 +56,10 @@ export function UserMenu() {
       <PersonalStatsDialog open={isStatsOpen} onOpenChange={setIsStatsOpen} />
       <EditProfileDialog open={isEditProfileOpen} onOpenChange={setIsEditProfileOpen} />
       <Dialog open={isFeedbackOpen} onOpenChange={setIsFeedbackOpen}>
-        <DialogContent className="max-w-md rounded-2xl border-gray-100 bg-white p-5 shadow-xl sm:max-w-md">
+        <DialogContent className="max-w-md rounded-2xl p-5 shadow-xl sm:max-w-md">
           <DialogHeader>
-            <DialogTitle className="text-gray-800">{t('auth.feedback_title')}</DialogTitle>
-            <DialogDescription className="text-gray-500">
+            <DialogTitle>{t('auth.feedback_title')}</DialogTitle>
+            <DialogDescription>
               {t('auth.feedback_description')}
             </DialogDescription>
           </DialogHeader>
@@ -66,7 +67,7 @@ export function UserMenu() {
             <Button
               variant="outline"
               onClick={() => setIsFeedbackOpen(false)}
-              className="rounded-xl border-gray-200 text-gray-700 hover:bg-gray-50"
+              className="rounded-xl"
             >
               {t('auth.profile.cancel')}
             </Button>
@@ -75,7 +76,7 @@ export function UserMenu() {
                 window.open('https://github.com/hyacinthus/lesson-typing/issues', '_blank');
                 setIsFeedbackOpen(false);
               }}
-              className="rounded-xl bg-primary text-white hover:bg-primary/90"
+              className="rounded-xl"
             >
               {t('auth.feedback_go_github')}
             </Button>
@@ -86,7 +87,7 @@ export function UserMenu() {
         <DropdownMenuTrigger asChild>
           <Button
             variant="outline"
-            className="h-10 rounded-full border-gray-100 bg-white p-1 pr-3 text-sm font-medium text-gray-600 shadow-sm hover:bg-white hover:shadow-md"
+            className={cn(pillClass, 'h-10 p-1 pr-3 hover:bg-card')}
           >
             <Avatar className="size-7">
               <AvatarImage src={avatarUrl} alt="avatar" className="object-cover" />
@@ -97,8 +98,8 @@ export function UserMenu() {
             <span className="max-w-[100px] truncate">{displayName}</span>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="w-52 rounded-xl border-gray-100 bg-white py-2">
-          <DropdownMenuLabel className="truncate text-xs text-gray-400">{user.email}</DropdownMenuLabel>
+        <DropdownMenuContent align="end" className="w-52 rounded-xl py-2">
+          <DropdownMenuLabel className="truncate text-xs text-muted-foreground">{user.email}</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem
             className="gap-3"
