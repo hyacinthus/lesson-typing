@@ -8,6 +8,7 @@ import { StatsPanel } from './StatsPanel';
 import { Leaderboard } from './Leaderboard';
 import { RecentActivityChart } from './RecentActivityChart';
 import { useAuthStore } from '../../stores/authStore';
+import { shouldMaintainTypingFocus } from '../../hooks/useCompositionInput';
 import { formatTime, getScoreLevel } from '../../utils/statsCalculator';
 import { Button } from '@/components/ui/button';
 
@@ -49,6 +50,13 @@ export function TypingArea({
   useEffect(() => {
     if (!isCompleted) return;
     const handleKeyDown = (e: KeyboardEvent) => {
+      // Leave browser shortcuts (Cmd+R, Ctrl+R, ...) alone, and don't race an
+      // in-progress IME composition commit
+      if (e.metaKey || e.ctrlKey || e.altKey || e.isComposing) return;
+      // Don't steal keys from form fields, dialogs or menus (e.g. the login dialog)
+      if (!shouldMaintainTypingFocus(e.target)) return;
+      // A focused button/link owns Enter — let native activation win
+      if (e.target instanceof HTMLElement && e.target.closest('button, a')) return;
       if (e.key === 'Enter' && onNextLesson) {
         e.preventDefault();
         onNextLesson();
