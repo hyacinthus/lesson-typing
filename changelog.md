@@ -1,24 +1,27 @@
-## v0.17.0 (2026-07-10)
-
-### Features
-- **Dark mode** — Full dark theme wired via `next-themes`: follows the system preference with a manual sun/moon toggle in the header. Dark surfaces are navy-tinted to harmonize with the header, and the brand blue lightens to `#4DA6FF` for contrast on dark backgrounds.
-- **Home page** — Self-typing demo animation under the hero title (per-language sample text, respects reduced motion), foreground-colored title, and an `Enter ↵` shortcut hint under the start button. New i18n keys added for all 9 languages.
-- **Completion celebration** — Large S/A/B/C/D grade badge, CSS-only confetti burst (no new dependency, skipped under reduced motion), and an entrance animation on the results panel.
-- **Typing screen polish** — Stronger current-character highlight, progress bar as a slim strip on top of the text card, `tabular-nums` on all stats, and accuracy shows `—` before the first keystroke instead of a meaningless "100% / grade C".
-- **New SVG logo** — Crisp blue keycap replaces the bitmap favicon image in the header.
+## v0.17.1 (2026-07-11)
 
 ### Fixes
-- **IME preview readability in dark mode** — The floating composition preview now uses an opaque high-contrast amber pill with a border; it was translucent and unreadable over dark cards.
-- **Enter no longer hijacked in dialogs** — The home-page Enter-to-start listener ignores key presses coming from form fields and open dialogs (previously it could start a lesson while typing in the login form).
-- **Theme-aware charts** — Recharts CPM area charts use `var(--primary)` instead of hardcoded `#007FFF`, so they follow the dark-mode primary.
-- **Contrast** — Pending lesson text, error red, and primary-as-text bumped to ≥4.5:1 (WCAG AA) on dark surfaces.
+- **Typing engine rewrite (pure state updates)** — Fixed a batch of bugs caused by side effects inside React state updaters: a timer-interval leak accumulating one orphaned 10 Hz interval per run, timing that only started at the 2nd–3rd keystroke (inflating CPM on short lessons), the first keystroke-trace entries being dropped, and `onStart` firing twice (duplicate backend sessions). The displayed duration now also keeps ticking while you pause between keystrokes instead of freezing.
+- **Results-screen shortcuts no longer hijack dialogs** — `R`/`Enter` on the results screen previously fired even while typing in the login dialog (the letter *r* was untypeable in the email field) and swallowed browser shortcuts like `Cmd+R`. Shortcuts now ignore modifier keys, form fields, dialogs, menus, and focused buttons/links.
+- **Safari IME** — The Enter that commits a composition no longer inserts a stray newline; keys consumed by the IME are ignored across the whole key handler (covers Backspace too).
+- **Fast finishes no longer lose the run** — Completion now awaits the in-flight practice-session creation instead of silently submitting without one.
+- **Sync failures are visible** — Failed server submissions, expired sessions, and runs flagged by validation now show a toast instead of failing silently (new i18n keys in all 9 languages).
+- **Personal stats** — Lesson names are now resolved for records practiced under another language (previously showed a raw UUID).
 
-### Design
-- **Grade colors** — S is now gold (was purple); the ladder reads gold > green > blue > gray > red, defined as light/dark token pairs.
-- **Results panel** — New dedicated `--results` token: light keeps the pale blue, dark switches to a low-saturation elevated surface so the blue stats stand out (no more blue-on-blue).
-- **Semantic tokens everywhere** — All hardcoded `gray-*`/`bg-white` classes in live components replaced with shadcn semantic tokens (`bg-card`, `text-muted-foreground`, `border-border`, …); char-state, grade, and success colors are defined once in `index.css` for both themes.
+### Security
+- **`submit-practice` hardening (deployed)** — The submitted `lessonId` must match the anti-cheat session, so scores can no longer be planted on another lesson's leaderboard; a well-formed keystroke trace with at least one entry per typed character is now mandatory (empty/stub/malformed traces are flagged); accuracy and error counts are cross-validated against character counts; all numeric fields are validated (NaN-proof); raw character throughput is capped server-side; `language`/`collection` are taken from the lesson row instead of the client.
+
+### Performance
+- **Stats calculation off the O(n²) path** — Content-language detection is cached per lesson and pinyin keystroke weights per character, so each keystroke no longer rescans the whole lesson nor redoes pinyin lookups for every typed Han character.
+
+### Accessibility & i18n
+- **Light-mode reading contrast** — Untyped lesson text raised from ~2.5:1 to ≥4.5:1 (WCAG AA) on the card, matching the dark theme's documented standard.
+- **Localized auth errors** — Common sign-in/sign-up errors (wrong credentials, existing account) now show translated messages via a shared `mapAuthError`; the avatar-crop "Zoom" label is localized.
 
 ### Maintenance
-- **Cleanup** — Removed unused `LessonCard`/`LessonList` components; deduplicated grade computation, duration formatting (`formatTime`), reduced-motion detection (new `usePrefersReducedMotion` hook), and the shared header pill class.
+- **CI** — New GitHub Actions workflow runs lint, both test suites, and the full build on every push/PR (with superseded-PR-run cancellation).
+- **Deploy correctness** — Caddy `no-cache` headers now actually apply to real page navigations (previously matched nothing post-rewrite, letting browsers serve stale HTML pointing at deleted hashed assets after a deploy); local `.env` files are excluded from the Docker build context so secrets can't be baked into images.
+- **Tests** — First unit tests for `calculateStats` (English/Chinese weighting, accuracy, zero-duration, progress).
+- **Dependencies** — Routine upgrades (supabase-js, i18next, react-router-dom, recharts, vite, eslint, tailwind, and friends).
 
-**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.16.2...v0.17.0
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.17.0...v0.17.1
