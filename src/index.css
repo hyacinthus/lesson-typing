@@ -135,7 +135,8 @@ body {
   --sidebar-ring: oklch(0.708 0 0);
   --header: #E9F4FF;
   --header-foreground: oklch(0.145 0 0);
-  --char-pending: #9ca3af;
+  /* Untyped lesson text is the main reading surface — keep ≥4.5:1 on --card */
+  --char-pending: #6b7280;
   --char-current: #1565c0;
   --char-current-bg: #cfe6ff;
   --char-correct: #16a34a;

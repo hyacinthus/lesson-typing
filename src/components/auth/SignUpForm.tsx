@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { supabase } from '../../lib/supabase';
+import { mapAuthError } from '../../lib/authErrors';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -36,7 +37,7 @@ export function SignUpForm({ redirectTo }: SignUpFormProps) {
       });
 
       if (signUpError) {
-        setError(signUpError.message);
+        setError(mapAuthError(signUpError));
         return;
       }
 

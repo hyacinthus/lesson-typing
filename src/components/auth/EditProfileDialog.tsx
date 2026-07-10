@@ -209,7 +209,7 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
             </div>
             <div className="px-4 pb-2">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-xs text-muted-foreground">Zoom</span>
+                <span className="text-xs text-muted-foreground">{t('auth.profile.zoom')}</span>
                 <Slider 
                   value={[zoom]} 
                   min={1} 
