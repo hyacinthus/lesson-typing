@@ -29,9 +29,7 @@ export interface TypingSession {
   currentIndex: number; // 当前输入位置
   startTime: number | null; // 开始时间（时间戳）
   elapsedTime: number; // 已用时间（毫秒）
-  isPaused: boolean; // 是否暂停
   isCompleted: boolean; // 是否完成
-  compositionText: string; // 输入法组合文本
   trace: number[]; // 按键时间戳轨迹
 }
 
