@@ -96,6 +96,66 @@ export async function findLessonById(id: string): Promise<Lesson | null> {
 }
 
 
+// Titles resolved for practice logs whose lesson is outside the loaded
+// languages; seeded from lessonsByLanguage before falling back to the DB.
+const lessonTitleCache = new Map<string, string>();
+
+/**
+ * Resolve lesson titles for a set of lesson ids with one batched query.
+ */
+export async function findLessonTitlesByIds(ids: string[]): Promise<Map<string, string>> {
+  const titles = new Map<string, string>();
+  const missing: string[] = [];
+
+  for (const id of new Set(ids)) {
+    const cached = lessonTitleCache.get(id);
+    if (cached !== undefined) {
+      titles.set(id, cached);
+      continue;
+    }
+    let found: string | undefined;
+    for (const lessons of lessonsByLanguage.values()) {
+      const lesson = lessons.find(l => l.id === id);
+      if (lesson) {
+        found = lesson.title;
+        break;
+      }
+    }
+    if (found !== undefined) {
+      lessonTitleCache.set(id, found);
+      titles.set(id, found);
+    } else {
+      missing.push(id);
+    }
+  }
+
+  if (missing.length > 0) {
+    const { data, error } = await supabase
+      .from('lt_lessons')
+      .select('id, title')
+      .in('id', missing);
+    if (error) {
+      console.error('Failed to fetch lesson titles:', error);
+    } else if (data) {
+      for (const row of data) {
+        const id = row.id as string;
+        const title = row.title as string;
+        lessonTitleCache.set(id, title);
+        titles.set(id, title);
+      }
+      // Negative-cache ids the query did not return (deleted lessons) so
+      // they are not re-queried on every call.
+      for (const id of missing) {
+        if (!lessonTitleCache.has(id)) {
+          lessonTitleCache.set(id, '');
+        }
+      }
+    }
+  }
+
+  return titles;
+}
+
 /**
  * Convert lesson content to character array
  */

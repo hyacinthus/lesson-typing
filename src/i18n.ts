@@ -29,6 +29,10 @@ const resources = {
             "back_home": "Back to Home",
             "restart": "Restart",
             "recent_activity": "Recent Activity",
+            "practice": {
+                "sync_failed": "Could not save this result to the server, so it only counts on this device.",
+                "not_counted": "This result was saved, but didn't count toward records or the leaderboard."
+            },
             "leaderboard": {
                 "title": "Leaderboard",
                 "rank": "Rank",
@@ -79,6 +83,7 @@ const resources = {
                 "confirm_password": "Confirm Password",
                 "confirm_password_placeholder": "Repeat your password",
                 "passwords_mismatch": "Passwords do not match.",
+                "invalid_credentials": "Incorrect email or password.",
                 "email_already_exists": "An account with this email already exists. Please sign in instead.",
                 "check_email": "Check your email for the confirmation link.",
                 "error_occurred": "An error occurred.",
@@ -97,6 +102,7 @@ const resources = {
                     "description": "Update your profile information here.",
                     "crop_title": "Crop Image",
                     "crop_description": "Drag to reposition and use the slider to zoom.",
+                    "zoom": "Zoom",
                     "nickname": "Nickname",
                     "avatar": "Avatar",
                     "upload_avatar": "Upload Avatar",
@@ -137,6 +143,10 @@ const resources = {
             "back_home": "返回首页",
             "restart": "重新开始",
             "recent_activity": "近期练习",
+            "practice": {
+                "sync_failed": "成绩未能同步到服务器，只保存在本设备上。",
+                "not_counted": "本次成绩已保存，但不计入记录和排行榜。"
+            },
             "leaderboard": {
                 "title": "排行榜",
                 "rank": "排名",
@@ -187,6 +197,7 @@ const resources = {
                 "confirm_password": "确认密码",
                 "confirm_password_placeholder": "再次输入密码",
                 "passwords_mismatch": "两次密码不一致。",
+                "invalid_credentials": "邮箱或密码错误。",
                 "email_already_exists": "该邮箱已注册，请直接登录。",
                 "check_email": "请查收邮件中的确认链接。",
                 "error_occurred": "发生错误。",
@@ -205,6 +216,7 @@ const resources = {
                     "description": "在此更新您的个人资料。",
                     "crop_title": "裁剪图片",
                     "crop_description": "拖动以重新定位并使用滑块缩放。",
+                    "zoom": "缩放",
                     "nickname": "昵称",
                     "avatar": "头像",
                     "upload_avatar": "上传头像",
@@ -245,6 +257,10 @@ const resources = {
             "back_home": "Volver al inicio",
             "restart": "Reiniciar",
             "recent_activity": "Actividad Reciente",
+            "practice": {
+                "sync_failed": "No se pudo guardar este resultado en el servidor; solo cuenta en este dispositivo.",
+                "not_counted": "Este resultado se guardó, pero no cuenta para los récords ni la clasificación."
+            },
             "leaderboard": {
                 "title": "Clasificaci\u00f3n",
                 "rank": "Puesto",
@@ -295,6 +311,7 @@ const resources = {
                 "confirm_password": "Confirmar contraseña",
                 "confirm_password_placeholder": "Repite tu contraseña",
                 "passwords_mismatch": "Las contraseñas no coinciden.",
+                "invalid_credentials": "Correo o contraseña incorrectos.",
                 "email_already_exists": "Ya existe una cuenta con este email. Por favor, inicia sesión.",
                 "check_email": "Revisa tu correo para el enlace de confirmación.",
                 "error_occurred": "Se produjo un error.",
@@ -313,6 +330,7 @@ const resources = {
                     "description": "Actualice su información de perfil aquí.",
                     "crop_title": "Recortar imagen",
                     "crop_description": "Arrastre para reposicionar y use el control deslizante para hacer zoom.",
+                    "zoom": "Zoom",
                     "nickname": "Apodo",
                     "avatar": "Avatar",
                     "upload_avatar": "Subir avatar",
@@ -353,6 +371,10 @@ const resources = {
             "back_home": "ホームに戻る",
             "restart": "やり直す",
             "recent_activity": "最近のアクティビティ",
+            "practice": {
+                "sync_failed": "結果をサーバーに保存できませんでした。この端末にのみ保存されます。",
+                "not_counted": "この結果は保存されましたが、記録とランキングには反映されません。"
+            },
             "leaderboard": {
                 "title": "ランキング",
                 "rank": "順位",
@@ -403,6 +425,7 @@ const resources = {
                 "confirm_password": "パスワードの確認",
                 "confirm_password_placeholder": "パスワードを再入力",
                 "passwords_mismatch": "パスワードが一致しません。",
+                "invalid_credentials": "メールアドレスまたはパスワードが正しくありません。",
                 "email_already_exists": "このメールアドレスは既に登録されています。ログインしてください。",
                 "check_email": "確認リンクをメールで送信しました。ご確認ください。",
                 "error_occurred": "エラーが発生しました。",
@@ -421,6 +444,7 @@ const resources = {
                     "description": "ここでプロフィール情報を更新します。",
                     "crop_title": "画像の切り抜き",
                     "crop_description": "ドラッグして位置を調整し、スライダーでズームします。",
+                    "zoom": "ズーム",
                     "nickname": "ニックネーム",
                     "avatar": "アバター",
                     "upload_avatar": "アバターをアップロード",
@@ -461,6 +485,10 @@ const resources = {
             "back_home": "Voltar ao início",
             "restart": "Recomeçar",
             "recent_activity": "Atividade Recente",
+            "practice": {
+                "sync_failed": "Não foi possível salvar este resultado no servidor; ele só conta neste dispositivo.",
+                "not_counted": "Este resultado foi salvo, mas não conta para os recordes nem para o ranking."
+            },
             "leaderboard": {
                 "title": "Classifica\u00e7\u00e3o",
                 "rank": "Posi\u00e7\u00e3o",
@@ -511,6 +539,7 @@ const resources = {
                 "confirm_password": "Confirmar senha",
                 "confirm_password_placeholder": "Repita sua senha",
                 "passwords_mismatch": "As senhas não coincidem.",
+                "invalid_credentials": "Email ou senha incorretos.",
                 "email_already_exists": "Já existe uma conta com este email. Por favor, faça login.",
                 "check_email": "Verifique seu email para o link de confirmação.",
                 "error_occurred": "Ocorreu um erro.",
@@ -529,6 +558,7 @@ const resources = {
                     "description": "Atualize suas informações de perfil aqui.",
                     "crop_title": "Cortar Imagem",
                     "crop_description": "Arraste para reposicionar e use o controle deslizante para ampliar.",
+                    "zoom": "Zoom",
                     "nickname": "Apelido",
                     "avatar": "Avatar",
                     "upload_avatar": "Carregar Avatar",
@@ -569,6 +599,10 @@ const resources = {
             "back_home": "Retour à l'Accueil",
             "restart": "Recommencer",
             "recent_activity": "Activité Récente",
+            "practice": {
+                "sync_failed": "Impossible d'enregistrer ce résultat sur le serveur ; il ne compte que sur cet appareil.",
+                "not_counted": "Ce résultat a été enregistré, mais ne compte pas pour les records ni le classement."
+            },
             "leaderboard": {
                 "title": "Classement",
                 "rank": "Rang",
@@ -619,6 +653,7 @@ const resources = {
                 "confirm_password": "Confirmer le mot de passe",
                 "confirm_password_placeholder": "Répétez votre mot de passe",
                 "passwords_mismatch": "Les mots de passe ne correspondent pas.",
+                "invalid_credentials": "Email ou mot de passe incorrect.",
                 "email_already_exists": "Un compte avec cet email existe déjà. Veuillez vous connecter.",
                 "check_email": "Vérifiez votre email pour le lien de confirmation.",
                 "error_occurred": "Une erreur s'est produite.",
@@ -637,6 +672,7 @@ const resources = {
                     "description": "Mettez à jour les informations de votre profil ici.",
                     "crop_title": "Recadrer l'image",
                     "crop_description": "Faites glisser pour repositionner et utilisez le curseur pour zoomer.",
+                    "zoom": "Zoom",
                     "nickname": "Surnom",
                     "avatar": "Avatar",
                     "upload_avatar": "Télécharger l'avatar",
@@ -677,6 +713,10 @@ const resources = {
             "back_home": "Zur Startseite",
             "restart": "Neu starten",
             "recent_activity": "Letzte Aktivität",
+            "practice": {
+                "sync_failed": "Dieses Ergebnis konnte nicht auf dem Server gespeichert werden; es zählt nur auf diesem Gerät.",
+                "not_counted": "Dieses Ergebnis wurde gespeichert, zählt aber nicht für Rekorde und die Rangliste."
+            },
             "leaderboard": {
                 "title": "Rangliste",
                 "rank": "Rang",
@@ -727,6 +767,7 @@ const resources = {
                 "confirm_password": "Passwort bestätigen",
                 "confirm_password_placeholder": "Passwort wiederholen",
                 "passwords_mismatch": "Die Passwörter stimmen nicht überein.",
+                "invalid_credentials": "E-Mail oder Passwort falsch.",
                 "email_already_exists": "Ein Konto mit dieser E-Mail existiert bereits. Bitte melden Sie sich an.",
                 "check_email": "Bitte überprüfe deine E-Mail für den Bestätigungslink.",
                 "error_occurred": "Ein Fehler ist aufgetreten.",
@@ -745,6 +786,7 @@ const resources = {
                     "description": "Aktualisieren Sie hier Ihre Profilinformationen.",
                     "crop_title": "Bild zuschneiden",
                     "crop_description": "Ziehen Sie zum Neupositionieren und verwenden Sie den Schieberegler zum Zoomen.",
+                    "zoom": "Zoom",
                     "nickname": "Spitzname",
                     "avatar": "Avatar",
                     "upload_avatar": "Avatar hochladen",
@@ -785,6 +827,10 @@ const resources = {
             "back_home": "Torna alla home",
             "restart": "Ricomincia",
             "recent_activity": "Attività Recente",
+            "practice": {
+                "sync_failed": "Impossibile salvare questo risultato sul server; conta solo su questo dispositivo.",
+                "not_counted": "Questo risultato è stato salvato, ma non conta per i record né per la classifica."
+            },
             "leaderboard": {
                 "title": "Classifica",
                 "rank": "Posizione",
@@ -835,6 +881,7 @@ const resources = {
                 "confirm_password": "Conferma password",
                 "confirm_password_placeholder": "Ripeti la tua password",
                 "passwords_mismatch": "Le password non corrispondono.",
+                "invalid_credentials": "Email o password errati.",
                 "email_already_exists": "Un account con questa email esiste già. Effettua l'accesso.",
                 "check_email": "Controlla la tua email per il link di conferma.",
                 "error_occurred": "Si è verificato un errore.",
@@ -853,6 +900,7 @@ const resources = {
                     "description": "Aggiorna qui le informazioni del tuo profilo.",
                     "crop_title": "Ritaglia immagine",
                     "crop_description": "Trascina per riposizionare e usa il cursore per ingrandire.",
+                    "zoom": "Zoom",
                     "nickname": "Soprannome",
                     "avatar": "Avatar",
                     "upload_avatar": "Carica avatar",
@@ -893,6 +941,10 @@ const resources = {
             "back_home": "홈으로 돌아가기",
             "restart": "다시 시작",
             "recent_activity": "최근 활동",
+            "practice": {
+                "sync_failed": "결과를 서버에 저장하지 못했습니다. 이 기기에만 저장됩니다.",
+                "not_counted": "이 결과는 저장되었지만 기록과 리더보드에는 반영되지 않습니다."
+            },
             "leaderboard": {
                 "title": "순위표",
                 "rank": "순위",
@@ -943,6 +995,7 @@ const resources = {
                 "confirm_password": "비밀번호 확인",
                 "confirm_password_placeholder": "비밀번호를 다시 입력하세요",
                 "passwords_mismatch": "비밀번호가 일치하지 않습니다.",
+                "invalid_credentials": "이메일 또는 비밀번호가 올바르지 않습니다.",
                 "email_already_exists": "이미 등록된 이메일입니다. 로그인해 주세요.",
                 "check_email": "확인 링크가 포함된 이메일을 확인해 주세요.",
                 "error_occurred": "오류가 발생했습니다.",
@@ -961,6 +1014,7 @@ const resources = {
                     "description": "여기에서 프로필 정보를 수정할 수 있습니다.",
                     "crop_title": "이미지 자르기",
                     "crop_description": "드래그하여 위치를 조정하고 슬라이더로 확대/축소하세요.",
+                    "zoom": "확대/축소",
                     "nickname": "닉네임",
                     "avatar": "아바타",
                     "upload_avatar": "아바타 업로드",

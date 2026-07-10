@@ -1,8 +1,13 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { toast } from 'sonner';
 import type { PracticeRecord, LessonStats } from '../types';
 import { supabase } from '../lib/supabase';
 import { useAuthStore } from './authStore';
+import { findLessonTitlesByIds } from '../utils/lessonLoader';
+import i18n from '../i18n';
+
+const notifySyncFailed = () => toast.error(i18n.t('practice.sync_failed'));
 
 const STORAGE_KEY = 'typing-practices';
 
@@ -91,9 +96,12 @@ export const useHistoryStore = create<HistoryStore>()(
           // If we have a sessionId, this is a verified run. Submit via Edge Function.
           if (record.sessionId) {
             const session = await getActiveSession();
-            if (!session) return;
+            if (!session) {
+              notifySyncFailed();
+              return;
+            }
 
-            const { error: invokeError } = await supabase.functions.invoke('submit-practice', {
+            const { data, error: invokeError } = await supabase.functions.invoke('submit-practice', {
               body: {
                 sessionId: record.sessionId,
                 lessonId: record.lessonId,
@@ -113,12 +121,18 @@ export const useHistoryStore = create<HistoryStore>()(
 
             if (invokeError) {
               console.error('Failed to submit practice to edge function:', invokeError);
+              notifySyncFailed();
+            } else if (data?.cheatReason) {
+              console.warn('Practice run flagged by server:', data.cheatReason);
+              toast.warning(i18n.t('practice.not_counted'));
             }
           } else {
             console.warn('No session ID found for practice record, skipping backend submission.');
+            notifySyncFailed();
           }
         } catch (err) {
           console.error('Error in addPractice:', err);
+          notifySyncFailed();
         }
       },
 
@@ -228,10 +242,13 @@ export const useHistoryStore = create<HistoryStore>()(
           }
 
           if (data) {
+            const titles = await findLessonTitlesByIds(
+              [...new Set(data.map(log => log.lesson_id as string))]
+            );
             return data.map(log => ({
               id: log.id,
               lessonId: log.lesson_id,
-              lessonTitle: '',
+              lessonTitle: titles.get(log.lesson_id) || '',
               duration: log.duration,
               cpm: log.cpm,
               wpm: log.wpm,

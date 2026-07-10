@@ -117,7 +117,7 @@ export function PersonalStatsDialog({ open, onOpenChange }: PersonalStatsDialogP
                       return (
                         <tr key={log.id} className="border-b border-border/50">
                           <td className="py-2.5 max-w-[160px] truncate">
-                            {lessonTitleMap.get(log.lessonId) || log.lessonId}
+                            {log.lessonTitle || lessonTitleMap.get(log.lessonId) || log.lessonId}
                           </td>
                           <td className="py-2.5 text-center text-primary font-medium tabular-nums">{log.cpm}</td>
                           <td className="py-2.5 text-center text-primary tabular-nums">{log.wpm}</td>

@@ -19,7 +19,9 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     const addPractice = useHistoryStore((state) => state.addPractice);
     const getBestPracticeLog = useHistoryStore((state) => state.getBestPracticeLog);
     const [historyBest, setHistoryBest] = useState<PracticeRecord | null>(null);
-    const sessionIdRef = useRef<string | undefined>(undefined);
+    // Holds the in-flight session creation so a fast completion can await it
+    // instead of silently submitting without a session id.
+    const sessionPromiseRef = useRef<Promise<string | null> | null>(null);
 
     // Initialize characters for the active lesson
     const initialCharacters = useMemo(() => {
@@ -30,9 +32,11 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     // Use a ref to prevent double submission in Strict Mode
     const processingRef = useRef(false);
 
-    const handleComplete = useCallback((stats: RealtimeStats) => {
+    const handleComplete = useCallback(async (stats: RealtimeStats) => {
         if (processingRef.current) return;
         processingRef.current = true;
+
+        const sessionId = (await sessionPromiseRef.current) ?? undefined;
 
         const record: PracticeRecord = {
             id: `${lesson.id}-${Date.now()}`,
@@ -47,7 +51,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
             incorrectChars: stats.incorrectChars,
             effectiveKeystrokes: stats.effectiveKeystrokes,
             completedAt: new Date().toISOString(),
-            sessionId: sessionIdRef.current,
+            sessionId,
             trace: stats.trace,
         };
         addPractice(record, lesson.language, lesson.collectionId);
@@ -60,12 +64,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
 
     const handleStart = useCallback(() => {
         // Initialize practice session upon first keystroke
-        sessionIdRef.current = undefined;
-        startPracticeSession(lesson.id).then((id) => {
-            if (id) {
-                sessionIdRef.current = id;
-            }
-        });
+        sessionPromiseRef.current = startPracticeSession(lesson.id);
     }, [lesson.id, startPracticeSession]);
 
     const {
