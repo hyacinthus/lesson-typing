@@ -87,7 +87,7 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
     const chartConfig = {
         cpm: {
             label: 'CPM',
-            color: '#007FFF',
+            color: 'var(--primary)',
         }
     };
 
@@ -99,8 +99,8 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
                     <AreaChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                         <defs>
                             <linearGradient id="colorCpm" x1="0" y1="0" x2="0" y2="1">
-                                <stop offset="5%" stopColor="#007FFF" stopOpacity={0.3} />
-                                <stop offset="95%" stopColor="#007FFF" stopOpacity={0} />
+                                <stop offset="5%" stopColor="var(--primary)" stopOpacity={0.3} />
+                                <stop offset="95%" stopColor="var(--primary)" stopOpacity={0} />
                             </linearGradient>
                         </defs>
                         <CartesianGrid strokeDasharray="3 3" vertical={false} />
@@ -152,12 +152,12 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
                         <Area
                             type="monotone"
                             dataKey="cpm"
-                            stroke="#007FFF"
+                            stroke="var(--primary)"
                             strokeWidth={2}
                             fillOpacity={1}
                             fill="url(#colorCpm)"
-                            dot={{ fill: "var(--background)", stroke: "#007FFF", strokeWidth: 2, r: 4 }}
-                            activeDot={{ r: 6, fill: "#007FFF", stroke: "var(--background)" }}
+                            dot={{ fill: "var(--background)", stroke: "var(--primary)", strokeWidth: 2, r: 4 }}
+                            activeDot={{ r: 6, fill: "var(--primary)", stroke: "var(--background)" }}
                         />
                     </AreaChart>
                 </ChartContainer>
