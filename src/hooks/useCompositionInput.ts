@@ -52,7 +52,7 @@ interface CompositionInputHandlers {
 }
 
 export function useCompositionInput(
-  onCharacterInput: (char: string) => void,
+  onTextInput: (text: string) => void,
   onDelete?: () => void,
   enabled: boolean = true
 ): CompositionInputHandlers {
@@ -108,9 +108,10 @@ export function useCompositionInput(
     lastCompositionEndAtRef.current = performance.now();
     const finalInput = e.currentTarget.value;
 
+    // Pass the committed text as one unit so the typing engine can handle
+    // IME auto-paired punctuation against the expected text.
     if (finalInput && enabled) {
-      const chars = Array.from(finalInput);
-      chars.forEach(char => onCharacterInput(char));
+      onTextInput(finalInput);
     }
 
     setCompositionText('');
@@ -118,7 +119,7 @@ export function useCompositionInput(
       e.currentTarget.value = '';
     }
     lastValueRef.current = '';
-  }, [onCharacterInput, enabled]);
+  }, [onTextInput, enabled]);
 
   const handleInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     if (isComposing || isHandlingKeyRef.current) {
@@ -133,15 +134,14 @@ export function useCompositionInput(
       onDelete();
       lastValueRef.current = inputValue;
     } else if (inputValue.length > 0 && enabled) {
-      const chars = Array.from(inputValue);
-      chars.forEach(char => onCharacterInput(char));
+      onTextInput(inputValue);
 
       e.target.value = '';
       lastValueRef.current = e.target.value;
     } else {
       lastValueRef.current = inputValue;
     }
-  }, [isComposing, onCharacterInput, onDelete, enabled]);
+  }, [isComposing, onTextInput, onDelete, enabled]);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     // Keys consumed by the IME must not be treated as typing input. Safari
@@ -166,10 +166,10 @@ export function useCompositionInput(
       }
       e.preventDefault();
     } else if (e.key === 'Enter' && enabled) {
-      onCharacterInput('\n');
+      onTextInput('\n');
       e.preventDefault();
     }
-  }, [isComposing, onDelete, enabled, onCharacterInput]);
+  }, [isComposing, onDelete, enabled, onTextInput]);
 
   return {
     onCompositionStart: handleCompositionStart,

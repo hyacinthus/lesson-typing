@@ -1,7 +1,7 @@
 import { useCompositionInput } from '../../hooks/useCompositionInput';
 
 interface InputHandlerProps {
-  onCharacterInput: (char: string) => void;
+  onTextInput: (text: string) => void;
   onDelete: () => void;
   disabled?: boolean;
   compositionText?: string;
@@ -10,7 +10,7 @@ interface InputHandlerProps {
 }
 
 export function InputHandler({
-  onCharacterInput,
+  onTextInput,
   onDelete,
   disabled = false,
   inputId,
@@ -25,7 +25,7 @@ export function InputHandler({
     isComposing,
     compositionText,
     inputRef,
-  } = useCompositionInput(onCharacterInput, onDelete, !disabled);
+  } = useCompositionInput(onTextInput, onDelete, !disabled);
 
   const inputStyle: React.CSSProperties = cursorPosition
     ? {

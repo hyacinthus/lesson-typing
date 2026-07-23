@@ -16,7 +16,7 @@ interface TypingAreaProps {
   characters: Character[];
   stats: RealtimeStats;
   currentIndex: number;
-  onCharacterInput: (char: string) => void;
+  onTextInput: (text: string) => void;
   onDelete: () => void;
   onRestart: () => void;
   onNextLesson?: () => void;
@@ -30,7 +30,7 @@ export function TypingArea({
   characters,
   stats,
   currentIndex,
-  onCharacterInput,
+  onTextInput,
   onDelete,
   onRestart,
   onNextLesson,
@@ -165,7 +165,7 @@ export function TypingArea({
       {!isCompleted && (
         <InputHandler
           inputId={inputId}
-          onCharacterInput={onCharacterInput}
+          onTextInput={onTextInput}
           onDelete={onDelete}
           disabled={disabled}
           cursorPosition={cursorPosition}

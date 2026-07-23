@@ -70,7 +70,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     const {
         session,
         stats,
-        handleCharacterInput,
+        handleTextInput,
         handleDelete,
         resetSession,
         isCompleted,
@@ -118,7 +118,7 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                     characters={session.content}
                     stats={stats}
                     currentIndex={session.currentIndex}
-                    onCharacterInput={handleCharacterInput}
+                    onTextInput={handleTextInput}
                     onDelete={handleDelete}
                     onRestart={resetSession}
                     onNextLesson={onNext}

@@ -2,6 +2,7 @@ import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
 import type { Character, TypingSession, RealtimeStats } from '../types/typing.types';
 import { CharacterStatus } from '../types/typing.types';
 import { calculateStats } from '../utils/statsCalculator';
+import { charMatches, resolveInputChars } from '../utils/punctuationMatch';
 
 export interface UseTypingEngineProps {
   initialContent: Character[];
@@ -60,18 +61,18 @@ export function useTypingEngine({
   const startNotifiedRef = useRef(false);
   const completeNotifiedRef = useRef(false);
 
-  // 处理字符输入
+  // 处理输入：一次按键的单个字符，或一次 IME 上屏的整段文本
   // The updater must stay pure: React evaluates updaters eagerly and may
   // replay them, so side effects here run at unpredictable times (this
   // previously leaked intervals, delayed the timing start and dropped the
   // first trace entries). Timing starts at the first keystroke by setting
   // startTime inside the returned session itself.
-  const handleCharacterInput = useCallback((inputChar: string) => {
+  const handleTextInput = useCallback((text: string) => {
     setSession(prev => {
       const currentIndex = prev.currentIndex;
 
       // 检查是否已完成
-      if (prev.isCompleted || currentIndex >= prev.content.length) {
+      if (prev.isCompleted || currentIndex >= prev.content.length || text.length === 0) {
         return prev;
       }
 
@@ -79,23 +80,36 @@ export function useTypingEngine({
       const startTime = prev.startTime ?? now;
 
       const newContent = [...prev.content];
-      const currentChar = newContent[currentIndex];
 
-      // 检查输入是否正确
-      const isCorrect = inputChar === currentChar.char;
+      // IME auto-pairing may commit both halves of a quote/bracket pair at
+      // once; keep only the half that belongs at the cursor.
+      const chars = Array.from(text);
+      const expectedNext = newContent
+        .slice(currentIndex, currentIndex + chars.length)
+        .map(c => c.char);
+      const inputChars = resolveInputChars(chars, expectedNext);
 
-      // 更新字符状态
-      newContent[currentIndex] = {
-        ...currentChar,
-        status: isCorrect ? CharacterStatus.CORRECT : CharacterStatus.INCORRECT,
-        input: inputChar,
-      };
+      let nextIndex = currentIndex;
+      const trace = [...prev.trace];
+      for (const inputChar of inputChars) {
+        if (nextIndex >= newContent.length) {
+          break;
+        }
+        const target = newContent[nextIndex];
+        newContent[nextIndex] = {
+          ...target,
+          status: charMatches(inputChar, target.char)
+            ? CharacterStatus.CORRECT
+            : CharacterStatus.INCORRECT,
+          input: inputChar,
+        };
+        nextIndex++;
+        trace.push(now - startTime);
+      }
 
-      // 移动到下一个字符
-      const nextIndex = currentIndex + 1;
       const isCompleted = nextIndex >= newContent.length;
 
-      if (nextIndex < newContent.length) {
+      if (!isCompleted) {
         newContent[nextIndex] = {
           ...newContent[nextIndex],
           status: CharacterStatus.CURRENT,
@@ -109,7 +123,7 @@ export function useTypingEngine({
         isCompleted,
         startTime,
         elapsedTime: now - startTime,
-        trace: [...prev.trace, now - startTime],
+        trace,
       };
     });
   }, []);
@@ -206,7 +220,7 @@ export function useTypingEngine({
   return {
     session,
     stats,
-    handleCharacterInput,
+    handleTextInput,
     handleDelete,
     resetSession,
     isCompleted: session.isCompleted,

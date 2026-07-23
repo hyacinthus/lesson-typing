@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build && node scripts/generate-i18n-pages.cjs",
     "lint": "eslint .",
-    "test": "node --experimental-strip-types --import ./scripts/ts-ext-resolver.mjs src/utils/statsCalculator.test.ts",
+    "test": "for f in $(find src -name '*.test.ts'); do node --experimental-strip-types --import ./scripts/ts-ext-resolver.mjs \"$f\" || exit 1; done",
     "test:basic": "node --experimental-strip-types --import ./scripts/ts-ext-resolver.mjs test-basic.js",
     "preview": "vite preview",
     "sync": "node scripts/sync-lessons.cjs"
