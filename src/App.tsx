@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate, useParams, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useParams, Outlet } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { Toaster } from '@/components/ui/sonner';
 import { LoginOverlay } from '@/components/ui/login-overlay';

@@ -9,7 +9,7 @@ import { UserMenu } from '../components/auth/UserMenu';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { cn, pillClass } from '@/lib/utils';
 import { BookOpen, ChartLine, Keyboard } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import type { Lesson } from '../types';
 
 
