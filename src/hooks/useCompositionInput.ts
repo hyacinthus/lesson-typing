@@ -52,7 +52,7 @@ interface CompositionInputHandlers {
 }
 
 export function useCompositionInput(
-  onTextInput: (text: string) => void,
+  onTextInput: (text: string, startedAt?: number) => void,
   onDelete?: () => void,
   enabled: boolean = true
 ): CompositionInputHandlers {
@@ -60,6 +60,7 @@ export function useCompositionInput(
   const [compositionText, setCompositionText] = useState('');
   const lastValueRef = useRef('');
   const lastCompositionEndAtRef = useRef(0);
+  const compositionStartedAtRef = useRef<number | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const isHandlingKeyRef = useRef(false); // 标记是否正在处理按键
 
@@ -97,6 +98,9 @@ export function useCompositionInput(
   const handleCompositionStart = useCallback(() => {
     setIsComposing(true);
     setCompositionText('');
+    // A whole sentence can be composed before anything commits; remember when
+    // the composition began so the engine can count the composing time too.
+    compositionStartedAtRef.current = Date.now();
   }, []);
 
   const handleCompositionUpdate = useCallback((e: React.CompositionEvent<HTMLInputElement>) => {
@@ -111,8 +115,9 @@ export function useCompositionInput(
     // Pass the committed text as one unit so the typing engine can handle
     // IME auto-paired punctuation against the expected text.
     if (finalInput && enabled) {
-      onTextInput(finalInput);
+      onTextInput(finalInput, compositionStartedAtRef.current ?? undefined);
     }
+    compositionStartedAtRef.current = null;
 
     setCompositionText('');
     if (e.currentTarget.value) {

@@ -66,8 +66,10 @@ export function useTypingEngine({
   // replay them, so side effects here run at unpredictable times (this
   // previously leaked intervals, delayed the timing start and dropped the
   // first trace entries). Timing starts at the first keystroke by setting
-  // startTime inside the returned session itself.
-  const handleTextInput = useCallback((text: string) => {
+  // startTime inside the returned session itself; when the first input comes
+  // from an IME commit, startedAt backdates it to the composition start so
+  // the time spent composing (possibly a whole sentence) is counted.
+  const handleTextInput = useCallback((text: string, startedAt?: number) => {
     setSession(prev => {
       const currentIndex = prev.currentIndex;
 
@@ -77,7 +79,7 @@ export function useTypingEngine({
       }
 
       const now = Date.now();
-      const startTime = prev.startTime ?? now;
+      const startTime = prev.startTime ?? startedAt ?? now;
 
       const newContent = [...prev.content];
 

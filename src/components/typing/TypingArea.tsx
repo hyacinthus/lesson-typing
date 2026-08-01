@@ -16,7 +16,7 @@ interface TypingAreaProps {
   characters: Character[];
   stats: RealtimeStats;
   currentIndex: number;
-  onTextInput: (text: string) => void;
+  onTextInput: (text: string, startedAt?: number) => void;
   onDelete: () => void;
   onRestart: () => void;
   onNextLesson?: () => void;

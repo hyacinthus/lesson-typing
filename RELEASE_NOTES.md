@@ -1,3 +1,10 @@
+## v0.18.3 (2026-08-01)
+
+### Fixes
+- **IME timing no longer starts late** — With an IME, the clock previously started only when the first composed text was committed, so the time spent composing the first phrase (potentially a whole sentence) was silently dropped, inflating CPM/WPM and shrinking the recorded duration. The session start is now backdated to the moment the first composition began, so composing time counts from the very first keystroke. Cancelled compositions (e.g. Esc before anything commits) still leave the session unstarted, exactly as before — no timer, no backend session, and the "change article" button stays available.
+
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.18.2...v0.18.3
+
 ## v0.18.2 (2026-07-30)
 
 ### Security

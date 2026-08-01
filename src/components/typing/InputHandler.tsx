@@ -1,7 +1,7 @@
 import { useCompositionInput } from '../../hooks/useCompositionInput';
 
 interface InputHandlerProps {
-  onTextInput: (text: string) => void;
+  onTextInput: (text: string, startedAt?: number) => void;
   onDelete: () => void;
   disabled?: boolean;
   compositionText?: string;
