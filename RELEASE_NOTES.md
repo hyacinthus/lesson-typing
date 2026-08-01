@@ -1,3 +1,13 @@
+## v0.18.4 (2026-08-01)
+
+### Fixes
+- **Timer now ticks while composing the first phrase** — v0.18.3 made the recorded time correct, but the visible timer stayed at 0:00 during the first IME composition and jumped to n seconds at the first commit. The session now starts provisionally at the first composition keystroke, so the timer ticks live from the moment you start typing. If the composition is cancelled before anything is committed (e.g. Esc), everything rolls back to the pristine not-started state: timer back to 0:00, article switching available again, and no backend practice session is created — session creation is now keyed on the first committed character. Mid-session cancelled compositions keep the clock running as before.
+
+### Maintenance
+- **Input plumbing** — `useCompositionInput` now takes an options object (`onTextInput`/`onDelete`/`onInputStart`/`onInputCancel`/`enabled`) instead of positional arguments, and the transitional `startedAt` backdating channel from v0.18.3 was removed: `markInputStart` at compositionstart is now the single owner of the clock origin.
+
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.18.3...v0.18.4
+
 ## v0.18.3 (2026-08-01)
 
 ### Fixes

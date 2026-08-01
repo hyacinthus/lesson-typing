@@ -1,8 +1,10 @@
 import { useCompositionInput } from '../../hooks/useCompositionInput';
 
 interface InputHandlerProps {
-  onTextInput: (text: string, startedAt?: number) => void;
+  onTextInput: (text: string) => void;
   onDelete: () => void;
+  onInputStart: () => void;
+  onInputCancel: () => void;
   disabled?: boolean;
   compositionText?: string;
   inputId?: string;
@@ -12,6 +14,8 @@ interface InputHandlerProps {
 export function InputHandler({
   onTextInput,
   onDelete,
+  onInputStart,
+  onInputCancel,
   disabled = false,
   inputId,
   cursorPosition,
@@ -25,7 +29,13 @@ export function InputHandler({
     isComposing,
     compositionText,
     inputRef,
-  } = useCompositionInput(onTextInput, onDelete, !disabled);
+  } = useCompositionInput({
+    onTextInput,
+    onDelete,
+    onInputStart,
+    onInputCancel,
+    enabled: !disabled,
+  });
 
   const inputStyle: React.CSSProperties = cursorPosition
     ? {

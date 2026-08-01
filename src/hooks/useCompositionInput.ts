@@ -51,16 +51,27 @@ interface CompositionInputHandlers {
   inputRef: React.RefObject<HTMLInputElement | null>;
 }
 
-export function useCompositionInput(
-  onTextInput: (text: string, startedAt?: number) => void,
-  onDelete?: () => void,
-  enabled: boolean = true
-): CompositionInputHandlers {
+interface UseCompositionInputOptions {
+  onTextInput: (text: string) => void;
+  onDelete?: () => void;
+  /** Fires at compositionstart so the clock can start ticking immediately. */
+  onInputStart?: () => void;
+  /** Fires when a composition ends without committing any text (e.g. Esc). */
+  onInputCancel?: () => void;
+  enabled?: boolean;
+}
+
+export function useCompositionInput({
+  onTextInput,
+  onDelete,
+  onInputStart,
+  onInputCancel,
+  enabled = true,
+}: UseCompositionInputOptions): CompositionInputHandlers {
   const [isComposing, setIsComposing] = useState(false);
   const [compositionText, setCompositionText] = useState('');
   const lastValueRef = useRef('');
   const lastCompositionEndAtRef = useRef(0);
-  const compositionStartedAtRef = useRef<number | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const isHandlingKeyRef = useRef(false); // 标记是否正在处理按键
 
@@ -98,10 +109,10 @@ export function useCompositionInput(
   const handleCompositionStart = useCallback(() => {
     setIsComposing(true);
     setCompositionText('');
-    // A whole sentence can be composed before anything commits; remember when
-    // the composition began so the engine can count the composing time too.
-    compositionStartedAtRef.current = Date.now();
-  }, []);
+    // A whole sentence can be composed before anything commits; onInputStart
+    // lets the clock start at the first composition keystroke, not at commit.
+    onInputStart?.();
+  }, [onInputStart]);
 
   const handleCompositionUpdate = useCallback((e: React.CompositionEvent<HTMLInputElement>) => {
     setCompositionText(e.data);
@@ -115,16 +126,18 @@ export function useCompositionInput(
     // Pass the committed text as one unit so the typing engine can handle
     // IME auto-paired punctuation against the expected text.
     if (finalInput && enabled) {
-      onTextInput(finalInput, compositionStartedAtRef.current ?? undefined);
+      onTextInput(finalInput);
+    } else {
+      // Cancelled composition (Esc, or all pinyin deleted): nothing committed.
+      onInputCancel?.();
     }
-    compositionStartedAtRef.current = null;
 
     setCompositionText('');
     if (e.currentTarget.value) {
       e.currentTarget.value = '';
     }
     lastValueRef.current = '';
-  }, [onTextInput, enabled]);
+  }, [onTextInput, onInputCancel, enabled]);
 
   const handleInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     if (isComposing || isHandlingKeyRef.current) {

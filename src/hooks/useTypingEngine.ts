@@ -66,10 +66,9 @@ export function useTypingEngine({
   // replay them, so side effects here run at unpredictable times (this
   // previously leaked intervals, delayed the timing start and dropped the
   // first trace entries). Timing starts at the first keystroke by setting
-  // startTime inside the returned session itself; when the first input comes
-  // from an IME commit, startedAt backdates it to the composition start so
-  // the time spent composing (possibly a whole sentence) is counted.
-  const handleTextInput = useCallback((text: string, startedAt?: number) => {
+  // startTime inside the returned session itself (for IME input the clock is
+  // usually already running: markInputStart starts it at compositionstart).
+  const handleTextInput = useCallback((text: string) => {
     setSession(prev => {
       const currentIndex = prev.currentIndex;
 
@@ -79,7 +78,7 @@ export function useTypingEngine({
       }
 
       const now = Date.now();
-      const startTime = prev.startTime ?? startedAt ?? now;
+      const startTime = prev.startTime ?? now;
 
       const newContent = [...prev.content];
 
@@ -127,6 +126,40 @@ export function useTypingEngine({
         elapsedTime: now - startTime,
         trace,
       };
+    });
+  }, []);
+
+  // The visible clock must tick while the first phrase is still being
+  // composed, so markInputStart provisionally starts the session at the first
+  // composition keystroke; cancelInputStart rolls that back when a composition
+  // is cancelled before any text was ever committed, restoring the pristine
+  // not-started state (clock at 0, article switching available).
+  const markInputStart = useCallback(() => {
+    setSession(prev => {
+      if (prev.startTime !== null) {
+        return prev;
+      }
+      return { ...prev, startTime: Date.now() };
+    });
+  }, []);
+
+  const cancelInputStart = useCallback(() => {
+    // startNotifiedRef flips on the first committed character, so it doubles
+    // as "the session is past the provisional stage" — mid-session cancels
+    // (and deletes back to 0) keep the clock running.
+    if (startNotifiedRef.current) {
+      return;
+    }
+    setLiveDurationSec(0);
+    setSession(prev => {
+      // Updaters must stay pure and may be replayed (see handleTextInput), so
+      // revalidate against session state instead of trusting the ref above.
+      // trace only grows on commits, so an empty trace means nothing was ever
+      // committed (unlike currentIndex, it survives deleting back to 0).
+      if (prev.startTime === null || prev.trace.length > 0) {
+        return prev;
+      }
+      return { ...prev, startTime: null, elapsedTime: 0 };
     });
   }, []);
 
@@ -197,12 +230,17 @@ export function useTypingEngine({
     return () => clearInterval(id);
   }, [session.startTime, session.isCompleted]);
 
+  // onStart is keyed on the first committed character, not on startTime: a
+  // provisional (still-composing, cancellable) start must not create the
+  // backend practice session. The boolean keeps the effect from re-running
+  // on every subsequent keystroke.
+  const hasCommittedInput = session.currentIndex > 0;
   useEffect(() => {
-    if (session.startTime !== null && !startNotifiedRef.current) {
+    if (hasCommittedInput && !startNotifiedRef.current) {
       startNotifiedRef.current = true;
       onStart?.();
     }
-  }, [session.startTime, onStart]);
+  }, [hasCommittedInput, onStart]);
 
   useEffect(() => {
     if (session.isCompleted && !completeNotifiedRef.current) {
@@ -224,6 +262,8 @@ export function useTypingEngine({
     stats,
     handleTextInput,
     handleDelete,
+    markInputStart,
+    cancelInputStart,
     resetSession,
     isCompleted: session.isCompleted,
   };

@@ -72,6 +72,8 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
         stats,
         handleTextInput,
         handleDelete,
+        markInputStart,
+        cancelInputStart,
         resetSession,
         isCompleted,
     } = useTypingEngine({
@@ -120,6 +122,8 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                     currentIndex={session.currentIndex}
                     onTextInput={handleTextInput}
                     onDelete={handleDelete}
+                    onInputStart={markInputStart}
+                    onInputCancel={cancelInputStart}
                     onRestart={resetSession}
                     onNextLesson={onNext}
                     isCompleted={isCompleted}
