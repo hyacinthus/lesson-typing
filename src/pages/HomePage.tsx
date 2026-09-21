@@ -1,61 +1,29 @@
 import { useEffect, useState, useMemo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useLessonStore, getLessonLanguage } from '../stores/lessonStore';
-import { LessonPractice } from '../components/lesson/LessonPractice';
+import { useNavigate, useParams } from 'react-router';
+import { useLessonStore } from '../stores/lessonStore';
+import { getLessonLanguage } from '@/lib/languages';
+import { safeStorage } from '@/lib/storage';
+import { pickRandomLesson } from '../utils/pickLesson';
+import { shouldMaintainTypingFocus } from '../hooks/useCompositionInput';
 import { Logo } from '../components/Logo';
 import { TypingDemo } from '../components/TypingDemo';
 import { ThemeToggle } from '../components/ThemeToggle';
+import { LanguageSelect } from '../components/LanguageSelect';
 import { UserMenu } from '../components/auth/UserMenu';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { cn, pillClass } from '@/lib/utils';
 import { BookOpen, ChartLine, Keyboard } from 'lucide-react';
-import { useNavigate } from 'react-router';
-import type { Lesson } from '../types';
 
+const COLLECTION_STORAGE_KEY = 'lesson-typing-collection';
 
 export function HomePage() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+  const { lang = 'en' } = useParams<{ lang: string }>();
   const navigate = useNavigate();
-  const { lessons, collections, isLoading, error, loadLessonsByLang, preloadEnglish } = useLessonStore();
+  const { lessons, collections, isLoading, error } = useLessonStore();
 
-  const COLLECTION_STORAGE_KEY = 'lesson-typing-collection';
-  const PRACTICE_STATE = 'practice';
-  const [selectedCollection, setSelectedCollection] = useState<string | null>(() => localStorage.getItem(COLLECTION_STORAGE_KEY));
-  const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
-
-  useEffect(() => {
-    loadLessonsByLang(i18n.language);
-  }, [loadLessonsByLang, i18n.language]);
-
-  useEffect(() => {
-    const lang = getLessonLanguage(i18n.language);
-    if (lang && lang !== 'english') {
-      preloadEnglish();
-    }
-  }, [i18n.language, preloadEnglish]);
-
-  useEffect(() => {
-    const handlePopState = () => {
-      if (activeLesson) {
-        setActiveLesson(null);
-      }
-    };
-
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, [activeLesson]);
-
-  useEffect(() => {
-    if (!activeLesson) return;
-    if (window.history.state?.view === PRACTICE_STATE) return;
-    window.history.pushState({ view: PRACTICE_STATE }, '', window.location.href);
-  }, [activeLesson]);
-
-  const filteredLessons = useMemo(() => {
-    const targetLessonLang = getLessonLanguage(i18n.language);
-    if (!targetLessonLang) return [];
-    return lessons.filter((lesson) => lesson.language === targetLessonLang);
-  }, [lessons, i18n.language]);
+  const [selectedCollection, setSelectedCollection] = useState<string | null>(() => safeStorage.get(COLLECTION_STORAGE_KEY));
 
   const currentCollectionId = useMemo(() => {
     if (selectedCollection && collections.some(c => c.id === selectedCollection)) {
@@ -65,87 +33,35 @@ export function HomePage() {
   }, [collections, selectedCollection]);
 
   useEffect(() => {
-    if (currentCollectionId) {
-      localStorage.setItem(COLLECTION_STORAGE_KEY, currentCollectionId);
-    }
+    if (currentCollectionId) safeStorage.set(COLLECTION_STORAGE_KEY, currentCollectionId);
   }, [currentCollectionId]);
 
   const handleStart = useCallback(() => {
-    if (isLoading || filteredLessons.length === 0) return;
-
-    let pool = filteredLessons;
-    if (currentCollectionId) {
-      pool = filteredLessons.filter(l => l.collectionId === currentCollectionId);
-    }
-
-    if (pool.length === 0) return;
-
-    const randomIndex = Math.floor(Math.random() * pool.length);
-    setActiveLesson(pool[randomIndex]);
-  }, [isLoading, filteredLessons, currentCollectionId]);
+    if (isLoading) return;
+    const language = getLessonLanguage(lang);
+    const lesson = language && pickRandomLesson(lessons, { language, collectionId: currentCollectionId });
+    if (lesson) navigate(`/${lang}/lesson/${lesson.id}`);
+  }, [isLoading, lessons, currentCollectionId, navigate, lang]);
 
   // Enter key to start practice on home page
   useEffect(() => {
-    if (activeLesson) return;
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key !== 'Enter') return;
-      // Don't hijack Enter from form fields or open dialogs (e.g. login)
-      const target = e.target as HTMLElement | null;
-      if (target?.closest('input, textarea, select, [contenteditable], [role="dialog"]')) return;
+      // Don't hijack Enter from form fields, dialogs, or open select/menu
+      // popovers (Enter there picks the highlighted option)
+      if (!shouldMaintainTypingFocus(e.target)) return;
+      if ((e.target as HTMLElement | null)?.closest('[role="listbox"], [role="combobox"]')) return;
       e.preventDefault();
       handleStart();
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activeLesson, handleStart]);
-
-  const handleNextLesson = useCallback(() => {
-    if (!activeLesson || filteredLessons.length === 0) return;
-
-    // Filter by same collection as current active lesson
-    const sameCollectionLessons = filteredLessons.filter(l => l.collectionId === activeLesson.collectionId);
-    const pool = sameCollectionLessons.length > 0 ? sameCollectionLessons : filteredLessons;
-
-    if (pool.length === 0) return;
-
-    // Pick random
-    let nextLesson = pool[Math.floor(Math.random() * pool.length)];
-
-    // Try to find a different one if pool has more than 1
-    if (pool.length > 1 && nextLesson.id === activeLesson.id) {
-      const remaining = pool.filter(l => l.id !== activeLesson.id);
-      nextLesson = remaining[Math.floor(Math.random() * remaining.length)];
-    }
-
-    setActiveLesson(nextLesson);
-  }, [activeLesson, filteredLessons]);
-
-  const handleBackToMenu = () => {
-    if (window.history.state?.view === PRACTICE_STATE) {
-      window.history.back();
-      return;
-    }
-    setActiveLesson(null);
-  };
+  }, [handleStart]);
 
   if (error) {
     return (
       <div className="flex items-center justify-center min-h-screen text-destructive">
         {t('error')}: {error}
-      </div>
-    );
-  }
-
-  // If active lesson is set, render the practice view
-  if (activeLesson) {
-    return (
-      <div className="min-h-screen bg-background">
-        <LessonPractice
-          key={activeLesson.id}
-          lesson={activeLesson}
-          onBack={handleBackToMenu}
-          onNext={handleNextLesson}
-        />
       </div>
     );
   }
@@ -165,7 +81,7 @@ export function HomePage() {
           {/* Collection List - hidden on mobile row 1, shown on desktop */}
           <div className="hidden md:flex justify-center w-1/3">
             <Select
-              key={`collection-desktop-${i18n.language}`}
+              key={`collection-desktop-${lang}`}
               value={currentCollectionId || ""}
               onValueChange={setSelectedCollection}
               disabled={collections.length === 0}
@@ -185,25 +101,7 @@ export function HomePage() {
 
           {/* Desktop: Language Switcher & Auth */}
           <div className="hidden md:flex justify-end items-center gap-4 w-1/3">
-            <Select
-              value={i18n.language.split('-')[0]}
-              onValueChange={(value) => navigate(`/${value}/`)}
-            >
-              <SelectTrigger className={cn(pillClass, 'h-10 min-w-[150px] px-4 focus-visible:ring-primary/50')}>
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent position="popper" side="bottom">
-                <SelectItem value="en">English</SelectItem>
-                <SelectItem value="zh">中文</SelectItem>
-                <SelectItem value="es">Español</SelectItem>
-                <SelectItem value="ja">日本語</SelectItem>
-                <SelectItem value="ko">한국어</SelectItem>
-                <SelectItem value="pt">Português</SelectItem>
-                <SelectItem value="fr">Français</SelectItem>
-                <SelectItem value="de">Deutsch</SelectItem>
-                <SelectItem value="it">Italiano</SelectItem>
-              </SelectContent>
-            </Select>
+            <LanguageSelect className="h-10 min-w-[150px] px-4 focus-visible:ring-primary/50" />
             <ThemeToggle />
             <UserMenu />
           </div>
@@ -218,7 +116,7 @@ export function HomePage() {
         {/* Row 2: Mobile only - Collection + Language selectors */}
         <div className="flex md:hidden items-center gap-2 mt-2">
           <Select
-            key={`collection-mobile-${i18n.language}`}
+            key={`collection-mobile-${lang}`}
             value={currentCollectionId || ""}
             onValueChange={setSelectedCollection}
             disabled={collections.length === 0}
@@ -234,25 +132,7 @@ export function HomePage() {
               ))}
             </SelectContent>
           </Select>
-          <Select
-            value={i18n.language.split('-')[0]}
-            onValueChange={(value) => navigate(`/${value}/`)}
-          >
-            <SelectTrigger className={cn(pillClass, 'h-9 w-24 shrink-0 px-3')}>
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent position="popper" side="bottom">
-              <SelectItem value="en">English</SelectItem>
-              <SelectItem value="zh">中文</SelectItem>
-              <SelectItem value="es">Español</SelectItem>
-              <SelectItem value="ja">日本語</SelectItem>
-              <SelectItem value="ko">한국어</SelectItem>
-              <SelectItem value="pt">Português</SelectItem>
-              <SelectItem value="fr">Français</SelectItem>
-              <SelectItem value="de">Deutsch</SelectItem>
-              <SelectItem value="it">Italiano</SelectItem>
-            </SelectContent>
-          </Select>
+          <LanguageSelect className="h-9 w-24 shrink-0 px-3" />
         </div>
       </div>
 
@@ -263,7 +143,7 @@ export function HomePage() {
         </div>
 
         <div className="mb-10 md:mb-16">
-          <TypingDemo key={i18n.language} />
+          <TypingDemo key={lang} />
         </div>
 
         {isLoading ? (

@@ -4,7 +4,7 @@ import { ArrowLeft, Shuffle } from 'lucide-react';
 import { useHistoryStore } from '../../stores/historyStore';
 import { useTypingEngine } from '../../hooks/useTypingEngine';
 import { TypingArea } from '../typing/TypingArea';
-import { lessonToCharacters } from '../../utils/lessonLoader';
+import { lessonToCharacters } from '../../utils/lessonText';
 import type { Lesson, PracticeRecord, RealtimeStats } from '../../types';
 
 interface LessonPracticeProps {

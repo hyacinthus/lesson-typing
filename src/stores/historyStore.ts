@@ -21,6 +21,9 @@ const getActiveSession = async () => {
 
 interface HistoryStore {
   practices: PracticeRecord[];
+  /** Bumped when the server has finished processing a submitted run, so
+   *  server-backed views (leaderboard, recent activity) know to refetch. */
+  submissionVersion: number;
 
   // Actions
   startPracticeSession: (lessonId: string) => Promise<string | null>;
@@ -39,7 +42,7 @@ export const useHistoryStore = create<HistoryStore>()(
   persist(
     (set, get) => ({
       practices: [],
-
+      submissionVersion: 0,
 
       startPracticeSession: async (lessonId: string) => {
         const { user } = useAuthStore.getState();
@@ -125,6 +128,10 @@ export const useHistoryStore = create<HistoryStore>()(
             } else if (data?.cheatReason) {
               console.warn('Practice run flagged by server:', data.cheatReason);
               toast.warning(i18n.t('practice.not_counted'));
+              set((state) => ({ practices: state.practices.filter((p) => p.id !== record.id) }));
+            }
+            if (!invokeError) {
+              set((state) => ({ submissionVersion: state.submissionVersion + 1 }));
             }
           } else {
             console.warn('No session ID found for practice record, skipping backend submission.');
@@ -150,6 +157,8 @@ export const useHistoryStore = create<HistoryStore>()(
             .select('*')
             .eq('user_id', user.id)
             .eq('lesson_id', lessonId)
+            // Runs flagged by the server never count as a record.
+            .eq('is_valid', true)
             .order('accuracy', { ascending: false })
             .order('cpm', { ascending: false })
             .limit(1)
@@ -321,6 +330,7 @@ export const useHistoryStore = create<HistoryStore>()(
     }),
     {
       name: STORAGE_KEY,
+      partialize: (state) => ({ practices: state.practices }),
     }
   )
 );

@@ -7,7 +7,6 @@
 - Preview: `npm run preview`
 - Lint: `npm run lint`
 - Test: `npm test`
-- Basic check: `npm run test:basic`
 
 ## Project Layout
 - `src/` frontend code

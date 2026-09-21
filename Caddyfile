@@ -1,6 +1,14 @@
 :80 {
     root * /srv
     encode gzip zstd
+    # Deep links such as /zh/lesson/<id> must load that language's entry
+    # page, not the root index.html (which only redirects to /<lang>/ and
+    # would drop the rest of the path). Any two-letter prefix is tried; an
+    # unknown one has no /<code>/index.html and falls through to the root
+    # page, which redirects to a supported language.
+    @langPath path_regexp lang ^/([a-z]{2})/.+
+    rewrite @langPath /{re.lang.1}/index.html
+
     # SPA fallback: try exact path, then subdir index, then root
     try_files {path} {path}/index.html /index.html
 

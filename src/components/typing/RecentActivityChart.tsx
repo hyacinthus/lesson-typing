@@ -14,9 +14,8 @@ interface RecentActivityChartProps {
 export function RecentActivityChart({ lessonId, currentStats }: RecentActivityChartProps) {
     const { t } = useTranslation();
     const getRecentPracticeLogs = useHistoryStore((state) => state.getRecentPracticeLogs);
+    const submissionVersion = useHistoryStore((state) => state.submissionVersion);
     const [logs, setLogs] = useState<PracticeRecord[]>([]);
-
-    const statsSig = currentStats ? `${currentStats.cpm}-${currentStats.duration}-${currentStats.accuracy}` : '';
 
     useEffect(() => {
         getRecentPracticeLogs(lessonId, 10).then((data) => {
@@ -58,8 +57,10 @@ export function RecentActivityChart({ lessonId, currentStats }: RecentActivityCh
 
             setLogs(sortedData);
         });
+        // currentStats is only read for the local fallback row; the server
+        // state it reflects is tracked by submissionVersion.
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [lessonId, getRecentPracticeLogs, statsSig]);
+    }, [lessonId, getRecentPracticeLogs, submissionVersion]);
 
     const chartData = useMemo(() => {
         if (logs.length < 3) return [];

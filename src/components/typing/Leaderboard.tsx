@@ -1,17 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import { useLeaderboard } from '../../hooks/useLeaderboard';
-import type { RealtimeStats } from '../../types';
 
 interface LeaderboardProps {
   lessonId: string;
-  currentStats?: RealtimeStats;
 }
 
 const RANK_MEDALS = ['', '\u{1F947}', '\u{1F948}', '\u{1F949}'];
 
-export function Leaderboard({ lessonId, currentStats }: LeaderboardProps) {
+export function Leaderboard({ lessonId }: LeaderboardProps) {
   const { t } = useTranslation();
-  const { entries, currentUserEntry, loading } = useLeaderboard(lessonId, currentStats);
+  const { entries, currentUserEntry, loading } = useLeaderboard(lessonId);
 
   if (loading || entries.length === 0) return null;
 

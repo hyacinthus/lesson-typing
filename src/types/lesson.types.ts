@@ -1,20 +1,8 @@
 /**
- * Lesson metadata (without content)
+ * Lesson row without its text. The home page and "next lesson" picker only
+ * need this; the content is fetched when a lesson is opened.
  */
-export interface LessonMetadata {
-  id: string;
-  title: string;
-  category?: string;
-  difficulty: number;
-  characterCount: number;
-  cjkCharCount: number;
-  order: number;
-}
-
-/**
- * Full lesson data from Supabase lt_lessons table
- */
-export interface Lesson {
+export interface LessonSummary {
   id: string;
   title: string;
   collectionId: string;
@@ -22,9 +10,15 @@ export interface Lesson {
   category?: string;
   difficulty: number;
   order: number;
-  content: string;
   characterCount: number;
   cjkCharCount: number;
+}
+
+/**
+ * Full lesson data from Supabase lt_lessons table
+ */
+export interface Lesson extends LessonSummary {
+  content: string;
 }
 
 export interface Collection {

@@ -115,14 +115,12 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
   const handleSave = async () => {
     if (!user) return;
 
-    console.log('Starting handleSave...', { nickname, avatarUrl });
     try {
       setLoading(true);
       let finalAvatarUrl = avatarUrl;
 
       // Upload blob if exists
       if (pendingUploadBlob && user) {
-        console.log('Uploading new avatar...');
         const fileExt = 'jpg'; // We output jpeg from canvas
         const fileName = `${user.id}/${Date.now()}.${fileExt}`;
 
@@ -140,7 +138,6 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
 
         const { data } = supabase.storage.from('avatars').getPublicUrl(fileName);
         finalAvatarUrl = data.publicUrl;
-        console.log('Avatar uploaded:', finalAvatarUrl);
       }
 
       // Update lt_profiles table
@@ -151,7 +148,6 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
         updated_at: new Date().toISOString(),
       };
 
-      console.log('Updating lt_profiles...', updates);
       const { error } = await supabase
         .from('lt_profiles')
         .upsert(updates);
@@ -161,7 +157,6 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
         throw error;
       }
       
-      console.log('Profile updated in DB, updating auth metadata...');
       // Also update user metadata for consistency (optional but helpful)
       await supabase.auth.updateUser({
         data: {
@@ -170,7 +165,6 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
         },
       });
 
-      console.log('Closing dialog and refreshing profile...');
       onOpenChange(false);
       await refreshProfile();
       toast.success(t('auth.profile.success'));
@@ -179,7 +173,6 @@ export function EditProfileDialog({ open, onOpenChange }: EditProfileDialogProps
       console.error('Error updating profile:', error);
       toast.error(t('auth.profile.error'));
     } finally {
-      console.log('handleSave finished');
       setLoading(false);
     }
   };

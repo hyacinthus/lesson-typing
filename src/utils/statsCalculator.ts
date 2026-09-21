@@ -1,13 +1,34 @@
 import type { TypingSession, RealtimeStats } from '../types/typing.types';
 import { CharacterStatus } from '../types/typing.types';
-import { pinyin } from 'pinyin-pro';
 import { isKana, getKanaRomajiLength, DEFAULT_KANJI_ROMAJI_LENGTH } from './japaneseRomaji';
+
+// pinyin-pro ships a ~1MB dictionary that only Chinese lessons need, so it is
+// loaded on demand (see preparePinyin) instead of in the main bundle.
+type PinyinFn = (char: string, options: { toneType: 'none'; type: 'array' }) => string[];
+let pinyinFn: PinyinFn | null = null;
+let pinyinLoading: Promise<void> | null = null;
+
+/**
+ * Load the pinyin dictionary. findLessonById awaits this for Chinese
+ * lessons, so by the time content is typed the dictionary is present.
+ */
+export function preparePinyin(): Promise<void> {
+  pinyinLoading ??= import('pinyin-pro')
+    .then(mod => {
+      pinyinFn = mod.pinyin as PinyinFn;
+    })
+    .catch(err => {
+      pinyinLoading = null;
+      throw err;
+    });
+  return pinyinLoading;
+}
 
 /**
  * Check if a character is a CJK Unified Ideograph (Chinese/Japanese kanji).
  */
 export function isHanCharacter(char: string): boolean {
-  return /[\u4e00-\u9fa5]/.test(char);
+  return /[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff]/.test(char);
 }
 
 /**
@@ -71,7 +92,10 @@ function computeEffectiveKeystrokesForChar(char: string, lang: ContentLanguageTy
 
   if (lang === 'chinese') {
     if (isHanCharacter(char)) {
-      const py = pinyin(char, { toneType: 'none', type: 'array' });
+      if (!pinyinFn) {
+        throw new Error('preparePinyin() must resolve before computing stats for Chinese content');
+      }
+      const py = pinyinFn(char, { toneType: 'none', type: 'array' });
       // Typing any character costs at least one keystroke
       return Math.max(1, py.join('').length);
     }

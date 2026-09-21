@@ -42,19 +42,20 @@ Deno.serve(async (req: Request) => {
       )
     }
 
-    // Cleanup: remove expired sessions for this user
-    await supabaseAdmin
-      .from('lt_practice_sessions')
-      .delete()
-      .eq('user_id', user.id)
-      .lt('expires_at', new Date().toISOString())
-
-    // Cleanup: remove any existing session for this user+lesson
-    await supabaseAdmin
-      .from('lt_practice_sessions')
-      .delete()
-      .eq('user_id', user.id)
-      .eq('lesson_id', lessonId)
+    // Cleanup: expired sessions for this user, and any earlier session for
+    // this lesson (a restart supersedes it).
+    await Promise.all([
+      supabaseAdmin
+        .from('lt_practice_sessions')
+        .delete()
+        .eq('user_id', user.id)
+        .lt('expires_at', new Date().toISOString()),
+      supabaseAdmin
+        .from('lt_practice_sessions')
+        .delete()
+        .eq('user_id', user.id)
+        .eq('lesson_id', lessonId),
+    ])
 
     // Create a new session
     const { data, error } = await supabaseAdmin

@@ -1,9 +1,20 @@
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BarChart3, LogOut, MessageSquare, User, UserCog } from 'lucide-react';
 import { useAuthStore } from '../../stores/authStore';
-import { EditProfileDialog } from './EditProfileDialog';
-import { PersonalStatsDialog } from './PersonalStatsDialog';
+import { lazyNamed } from '@/lib/lazy';
+
+// Both dialogs pull in heavy libraries (react-easy-crop, recharts) that most
+// visits never need, so they load when the user menu is opened.
+const { Component: EditProfileDialog, preload: preloadEditProfile } =
+  lazyNamed(() => import('./EditProfileDialog'), 'EditProfileDialog');
+const { Component: PersonalStatsDialog, preload: preloadPersonalStats } =
+  lazyNamed(() => import('./PersonalStatsDialog'), 'PersonalStatsDialog');
+
+const preloadDialogs = () => {
+  void preloadEditProfile();
+  void preloadPersonalStats();
+};
 import { Button } from '@/components/ui/button';
 import { cn, pillClass } from '@/lib/utils';
 import {
@@ -53,8 +64,16 @@ export function UserMenu() {
 
   return (
     <>
-      <PersonalStatsDialog open={isStatsOpen} onOpenChange={setIsStatsOpen} />
-      <EditProfileDialog open={isEditProfileOpen} onOpenChange={setIsEditProfileOpen} />
+      {isStatsOpen && (
+        <Suspense fallback={null}>
+          <PersonalStatsDialog open={isStatsOpen} onOpenChange={setIsStatsOpen} />
+        </Suspense>
+      )}
+      {isEditProfileOpen && (
+        <Suspense fallback={null}>
+          <EditProfileDialog open={isEditProfileOpen} onOpenChange={setIsEditProfileOpen} />
+        </Suspense>
+      )}
       <Dialog open={isFeedbackOpen} onOpenChange={setIsFeedbackOpen}>
         <DialogContent className="max-w-md rounded-2xl p-5 shadow-xl sm:max-w-md">
           <DialogHeader>
@@ -83,7 +102,7 @@ export function UserMenu() {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-      <DropdownMenu>
+      <DropdownMenu onOpenChange={(open) => { if (open) preloadDialogs(); }}>
         <DropdownMenuTrigger asChild>
           <Button
             variant="outline"

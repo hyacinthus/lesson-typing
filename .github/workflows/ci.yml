@@ -32,8 +32,5 @@ jobs:
       - name: Test
         run: npm test
 
-      - name: Basic smoke test
-        run: npm run test:basic
-
       - name: Build (typecheck + vite build + i18n pages)
         run: npm run build

@@ -1,17 +1,32 @@
-import type { Lesson, Collection } from '../types';
-import type { Character } from '../types/typing.types.ts';
-import { CharacterStatus } from '../types/typing.types.ts';
+import type { Lesson, LessonSummary, Collection } from '../types';
 import { supabase } from '../lib/supabase';
+import { preparePinyin } from './statsCalculator';
 
-// Cache loaded lessons by language
-const lessonsByLanguage = new Map<string, Lesson[]>();
+// Caches hold the in-flight promise, so concurrent callers (e.g. the early
+// kick-off in main.tsx and the LangLayout effect) share one request.
+const lessonsByLanguage = new Map<string, Promise<LessonSummary[]>>();
 
-const collectionsByLanguage = new Map<string, Collection[]>();
+const collectionsByLanguage = new Map<string, Promise<Collection[]>>();
 
-/**
- * Convert a Supabase row to a Lesson object
- */
-function rowToLesson(row: Record<string, unknown>): Lesson {
+// Full lessons (with content) by id, fetched when a lesson is opened
+const lessonsById = new Map<string, Promise<Lesson | null>>();
+
+/** Memoize by key, evicting on failure so a transient error can be retried. */
+function cached<T>(cache: Map<string, Promise<T>>, key: string, load: () => Promise<T>): Promise<T> {
+  const hit = cache.get(key);
+  if (hit) return hit;
+  const promise = load().catch(err => {
+    cache.delete(key);
+    throw err;
+  });
+  cache.set(key, promise);
+  return promise;
+}
+
+const SUMMARY_COLUMNS =
+  'id, title, collection_id, language, category, difficulty, sort_order, character_count, cjk_char_count';
+
+function rowToSummary(row: Record<string, unknown>): LessonSummary {
   return {
     id: row.id as string,
     title: row.title as string,
@@ -20,84 +35,86 @@ function rowToLesson(row: Record<string, unknown>): Lesson {
     category: (row.category as string) || undefined,
     difficulty: row.difficulty as number,
     order: row.sort_order as number,
-    content: row.content as string,
     characterCount: row.character_count as number,
     cjkCharCount: row.cjk_char_count as number,
   };
 }
 
 /**
- * Load all lessons for a specific language from Supabase
+ * Convert a Supabase row to a Lesson object
  */
-export async function loadLessonsByLanguage(language: string): Promise<Lesson[]> {
-  if (lessonsByLanguage.has(language)) {
-    return lessonsByLanguage.get(language)!;
-  }
-
-  const { data, error } = await supabase
-    .from('lt_lessons')
-    .select('*')
-    .eq('language', language)
-    .order('collection_id')
-    .order('sort_order');
-
-  if (error) {
-    throw new Error(`Failed to load lessons for ${language}: ${error.message}`);
-  }
-
-  const lessons = (data || []).map(rowToLesson);
-  lessonsByLanguage.set(language, lessons);
-  return lessons;
+function rowToLesson(row: Record<string, unknown>): Lesson {
+  return { ...rowToSummary(row), content: row.content as string };
 }
 
-export async function loadCollectionsByLanguage(language: string): Promise<Collection[]> {
-  if (collectionsByLanguage.has(language)) {
-    return collectionsByLanguage.get(language)!;
-  }
+/**
+ * Load the summaries of all lessons for a language. The text itself is left
+ * out: a language has ~220 lessons and hundreds of KB of content, and only
+ * the one being practiced is ever needed (see findLessonById).
+ */
+export function loadLessonsByLanguage(language: string): Promise<LessonSummary[]> {
+  return cached(lessonsByLanguage, language, async () => {
+    const { data, error } = await supabase
+      .from('lt_lessons')
+      .select(SUMMARY_COLUMNS)
+      .eq('language', language)
+      .order('collection_id')
+      .order('sort_order');
 
-  const { data, error } = await supabase
-    .from('lt_collections')
-    .select('id, name, sort_order')
-    .eq('language', language)
-    .order('sort_order');
+    if (error) {
+      throw new Error(`Failed to load lessons for ${language}: ${error.message}`);
+    }
+    return (data || []).map(rowToSummary);
+  });
+}
 
-  if (error) {
-    throw new Error(`Failed to load collections for ${language}: ${error.message}`);
-  }
+export function loadCollectionsByLanguage(language: string): Promise<Collection[]> {
+  return cached(collectionsByLanguage, language, async () => {
+    const { data, error } = await supabase
+      .from('lt_collections')
+      .select('id, name, sort_order')
+      .eq('language', language)
+      .order('sort_order');
 
-  const collections = (data || []).map(row => ({
-    id: row.id as string,
-    name: row.name as string,
-    sortOrder: row.sort_order as number,
-  }));
-  collectionsByLanguage.set(language, collections);
-  return collections;
+    if (error) {
+      throw new Error(`Failed to load collections for ${language}: ${error.message}`);
+    }
+    return (data || []).map(row => ({
+      id: row.id as string,
+      name: row.name as string,
+      sortOrder: row.sort_order as number,
+    }));
+  });
 }
 
 /**
  * Load a single lesson by ID from Supabase
  */
-export async function findLessonById(id: string): Promise<Lesson | null> {
-  // Check cache first
-  for (const lessons of lessonsByLanguage.values()) {
-    const found = lessons.find(l => l.id === id);
-    if (found) return found;
-  }
+export function findLessonById(id: string): Promise<Lesson | null> {
+  return cached(lessonsById, id, async () => {
+    const { data, error } = await supabase
+      .from('lt_lessons')
+      .select(`${SUMMARY_COLUMNS}, content`)
+      .eq('id', id)
+      .maybeSingle();
 
-  // Query DB
-  const { data, error } = await supabase
-    .from('lt_lessons')
-    .select('*')
-    .eq('id', id)
-    .single();
+    if (error) {
+      throw new Error(`Failed to load lesson ${id}: ${error.message}`);
+    }
+    if (!data) return null;
 
-  if (error || !data) return null;
-  return rowToLesson(data);
+    const lesson = rowToLesson(data);
+    // Chinese stats need the pinyin dictionary; a lesson counts as loaded
+    // only once both are here, so the typing engine never sees it missing.
+    if (lesson.language === 'chinese') {
+      await preparePinyin();
+    }
+    return lesson;
+  });
 }
 
 
-// Titles resolved for practice logs whose lesson is outside the loaded
-// languages; seeded from lessonsByLanguage before falling back to the DB.
+// Titles resolved for practice logs (any language), cached across calls.
 const lessonTitleCache = new Map<string, string>();
 
 /**
@@ -113,20 +130,7 @@ export async function findLessonTitlesByIds(ids: string[]): Promise<Map<string, 
       titles.set(id, cached);
       continue;
     }
-    let found: string | undefined;
-    for (const lessons of lessonsByLanguage.values()) {
-      const lesson = lessons.find(l => l.id === id);
-      if (lesson) {
-        found = lesson.title;
-        break;
-      }
-    }
-    if (found !== undefined) {
-      lessonTitleCache.set(id, found);
-      titles.set(id, found);
-    } else {
-      missing.push(id);
-    }
+    missing.push(id);
   }
 
   if (missing.length > 0) {
@@ -154,36 +158,4 @@ export async function findLessonTitlesByIds(ids: string[]): Promise<Map<string, 
   }
 
   return titles;
-}
-
-/**
- * Convert lesson content to character array
- */
-export function lessonToCharacters(content: string): Character[] {
-  return Array.from(content).map((char, index) => ({
-    char,
-    status: index === 0 ? CharacterStatus.CURRENT : CharacterStatus.PENDING,
-    input: '',
-    index,
-  }));
-}
-
-/**
- * Check if a character is a CJK character (Han, Hiragana, Katakana, Hangul)
- */
-export function isCJKCharacter(char: string): boolean {
-  return /[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff\u3040-\u309f\u30a0-\u30ff\uac00-\ud7af\u1100-\u11ff]/.test(char);
-}
-
-/**
- * Count lesson characters
- */
-export function countLessonCharacters(content: string): {
-  total: number;
-  cjk: number;
-} {
-  const chars = Array.from(content);
-  const total = chars.length;
-  const cjk = chars.filter(isCJKCharacter).length;
-  return { total, cjk };
 }

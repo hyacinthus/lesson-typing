@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { Character, RealtimeStats, PracticeRecord } from '../../types';
 import { CharacterRenderer } from './CharacterRenderer';
@@ -6,7 +6,12 @@ import { ConfettiBurst } from './ConfettiBurst';
 import { InputHandler } from './InputHandler';
 import { StatsPanel } from './StatsPanel';
 import { Leaderboard } from './Leaderboard';
-import { RecentActivityChart } from './RecentActivityChart';
+import { lazyNamed } from '@/lib/lazy';
+
+// recharts is only needed on the result screen; keep it out of the main
+// bundle, but fetch it while the user types so the results show at once.
+const { Component: RecentActivityChart, preload: preloadChart } =
+  lazyNamed(() => import('./RecentActivityChart'), 'RecentActivityChart');
 import { useAuthStore } from '../../stores/authStore';
 import { shouldMaintainTypingFocus } from '../../hooks/useCompositionInput';
 import { formatTime, getScoreLevel } from '../../utils/statsCalculator';
@@ -49,6 +54,10 @@ export function TypingArea({
   const score = getScoreLevel(stats.accuracy, stats.cpm);
   const inputId = 'typing-input-area';
   const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number; height: number } | null>(null);
+
+  useEffect(() => {
+    void preloadChart();
+  }, []);
 
   // Keyboard shortcuts on result screen
   useEffect(() => {
@@ -331,8 +340,10 @@ export function TypingArea({
               </Button>
             )}
           </div>
-          <RecentActivityChart lessonId={lessonId} currentStats={stats} />
-          <Leaderboard lessonId={lessonId} currentStats={stats} />
+          <Suspense fallback={null}>
+            <RecentActivityChart lessonId={lessonId} currentStats={stats} />
+          </Suspense>
+          <Leaderboard lessonId={lessonId} />
         </div>
       )}
 

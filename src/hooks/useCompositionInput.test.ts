@@ -1,61 +1,22 @@
-import { shouldMaintainTypingFocus } from './useCompositionInput.ts';
+import { describe, it, expect } from 'vitest';
+import { shouldMaintainTypingFocus } from './useCompositionInput';
 
-function assert(condition: boolean, message: string) {
-    if (!condition) {
-        console.error('❌ ' + message);
-        process.exit(1);
-    }
-}
+/** Fake event target whose closest() matches exactly one selector. */
+const targetMatching = (selector: string | null) =>
+  ({ closest: (s: string) => (s === selector ? {} : null) }) as unknown as EventTarget;
 
-console.log('Running tests for shouldMaintainTypingFocus...');
+describe('shouldMaintainTypingFocus', () => {
+  it.each([
+    ['ignored element', '[data-typing-focus-ignore="true"]'],
+    ['form field', 'input, textarea, select, [contenteditable]'],
+    ['dialog', '[role="dialog"], [role="alertdialog"]'],
+    ['dropdown', '[role="menu"], [data-radix-popper-content-wrapper]'],
+  ])('releases focus for a %s', (_name, selector) => {
+    expect(shouldMaintainTypingFocus(targetMatching(selector))).toBe(false);
+  });
 
-const ignoreTarget = {
-    closest: (selector: string) =>
-        selector === '[data-typing-focus-ignore="true"]' ? {} : null,
-};
-
-const inputTarget = {
-    closest: (selector: string) =>
-        selector === 'input, textarea, select, [contenteditable]' ? {} : null,
-};
-
-const dialogTarget = {
-    closest: (selector: string) =>
-        selector === '[role="dialog"], [role="alertdialog"]' ? {} : null,
-};
-
-const dropdownTarget = {
-    closest: (selector: string) =>
-        selector === '[role="menu"], [data-radix-popper-content-wrapper]' ? {} : null,
-};
-
-const normalTarget = {
-    closest: () => null,
-};
-
-assert(
-    shouldMaintainTypingFocus(ignoreTarget as unknown as EventTarget) === false,
-    'shouldMaintainTypingFocus should return false for ignored target'
-);
-assert(
-    shouldMaintainTypingFocus(inputTarget as unknown as EventTarget) === false,
-    'shouldMaintainTypingFocus should return false for input target'
-);
-assert(
-    shouldMaintainTypingFocus(dialogTarget as unknown as EventTarget) === false,
-    'shouldMaintainTypingFocus should return false for dialog target'
-);
-assert(
-    shouldMaintainTypingFocus(dropdownTarget as unknown as EventTarget) === false,
-    'shouldMaintainTypingFocus should return false for dropdown target'
-);
-assert(
-    shouldMaintainTypingFocus(normalTarget as unknown as EventTarget) === true,
-    'shouldMaintainTypingFocus should return true for normal target'
-);
-assert(
-    shouldMaintainTypingFocus(null) === true,
-    'shouldMaintainTypingFocus should return true for null target'
-);
-
-console.log('\n✅ All shouldMaintainTypingFocus tests passed!');
+  it('keeps focus for ordinary targets and for no target', () => {
+    expect(shouldMaintainTypingFocus(targetMatching(null))).toBe(true);
+    expect(shouldMaintainTypingFocus(null)).toBe(true);
+  });
+});
