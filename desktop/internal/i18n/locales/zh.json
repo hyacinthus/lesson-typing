@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "请在浏览器中继续完成登录。",
+    "sign_in_link_invalid": "登录链接无效或已过期，请重新登录。",
+    "load_failed": "无法加载课文，请检查网络后重试。",
+    "retry": "重试",
+    "not_configured": "此版本没有配置服务器，无法加载课文。",
+    "browser_signed_in_title": "登录成功",
+    "browser_signed_in_body": "可以关闭这个页面，回到 Lesson Typing 继续练习了。",
+    "browser_failed_title": "登录没有完成",
+    "browser_failed_body": "请回到 Lesson Typing 再试一次。"
+  },
+  "menu": {
+    "practice": "练习",
+    "help": "帮助"
+  }
+}

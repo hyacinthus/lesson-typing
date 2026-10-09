@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "Continue in your browser to finish signing in.",
+    "sign_in_link_invalid": "This sign-in link is invalid or has expired. Please sign in again.",
+    "load_failed": "Could not load lessons. Check your connection and try again.",
+    "retry": "Retry",
+    "not_configured": "This build has no server configured, so lessons cannot load.",
+    "browser_signed_in_title": "You're signed in",
+    "browser_signed_in_body": "You can close this page and go back to Lesson Typing.",
+    "browser_failed_title": "Sign-in was not completed",
+    "browser_failed_body": "Go back to Lesson Typing and try again."
+  },
+  "menu": {
+    "practice": "Practice",
+    "help": "Help"
+  }
+}

@@ -11,6 +11,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  server: {
+    // Builds of the desktop app are not the page's sources.
+    watch: { ignored: ['**/desktop/{build,.mygo}/**'] },
+  },
   define: {
     __APP_VERSION__: JSON.stringify(Date.now().toString()),
   },

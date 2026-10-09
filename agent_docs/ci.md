@@ -10,3 +10,4 @@ When you generate git commit message, always start with one of feat/fix/chore/do
 3. Insert the release note to the beginning of RELEASE_NOTES.md
 4. Make the final git add --all, commit, push to origin main.
 5. Use `gh release create` command, use changelog.md as notes file in it.
+6. Publishing the release builds the web Docker image and the desktop installers (`.github/workflows/desktop-release.yml`), which it attaches to the release; check that run.

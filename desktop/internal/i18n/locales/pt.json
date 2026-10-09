@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "Continue no seu navegador para concluir o login.",
+    "sign_in_link_invalid": "Este link de login é inválido ou expirou. Faça login novamente.",
+    "load_failed": "Não foi possível carregar as lições. Verifique sua conexão e tente novamente.",
+    "retry": "Tentar novamente",
+    "not_configured": "Esta versão não tem um servidor configurado, então as lições não podem ser carregadas.",
+    "browser_signed_in_title": "Você entrou",
+    "browser_signed_in_body": "Você pode fechar esta página e voltar ao Lesson Typing.",
+    "browser_failed_title": "O login não foi concluído",
+    "browser_failed_body": "Volte ao Lesson Typing e tente novamente."
+  },
+  "menu": {
+    "practice": "Prática",
+    "help": "Ajuda"
+  }
+}

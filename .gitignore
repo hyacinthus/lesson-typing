@@ -35,6 +35,12 @@ supabase/migrations/.status
 supabase/functions/*/node_modules/
 supabase/functions/*/.temp/
 
+# Desktop app builds, and its Supabase config generated from .env
+desktop/build/
+desktop/.mygo/
+desktop/mygo_windows_*.syso
+desktop/internal/config/config_gen.go
+
 # Coverage
 coverage/
 

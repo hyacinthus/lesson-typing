@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "ブラウザでログインを完了してください。",
+    "sign_in_link_invalid": "ログインリンクが無効か、有効期限が切れています。もう一度ログインしてください。",
+    "load_failed": "課文を読み込めませんでした。接続を確認して、もう一度お試しください。",
+    "retry": "再試行",
+    "not_configured": "このビルドにはサーバーが設定されていないため、課文を読み込めません。",
+    "browser_signed_in_title": "ログインしました",
+    "browser_signed_in_body": "このページを閉じて、Lesson Typing に戻ってください。",
+    "browser_failed_title": "ログインを完了できませんでした",
+    "browser_failed_body": "Lesson Typing に戻って、もう一度お試しください。"
+  },
+  "menu": {
+    "practice": "練習",
+    "help": "ヘルプ"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Lesson Typing",
+  "identifier": "com.lessontyping.desktop",
+  "version": "0.1.0",
+  "icon": "../public/icons/icon-512.png",
+  "out": "build",
+  "urlSchemes": [
+    "lessontyping"
+  ],
+  "linux": {
+    "comment": "Typing practice with elementary school texts",
+    "categories": [
+      "Education"
+    ]
+  }
+}

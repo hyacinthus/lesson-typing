@@ -1,0 +1,80 @@
+name: Desktop
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'desktop/**'
+      # Sources of the desktop's generated files
+      - 'src/locales/**'
+      - 'src/i18n-meta.json'
+      - 'package-lock.json'
+      - 'scripts/generate-desktop-icons.mjs'
+      - 'scripts/generate-pinyin-weights.cjs'
+      - '.github/workflows/desktop.yml'
+  pull_request:
+    paths:
+      - 'desktop/**'
+      # Sources of the desktop's generated files
+      - 'src/locales/**'
+      - 'src/i18n-meta.json'
+      - 'package-lock.json'
+      - 'scripts/generate-desktop-icons.mjs'
+      - 'scripts/generate-pinyin-weights.cjs'
+      - '.github/workflows/desktop.yml'
+
+concurrency:
+  group: desktop-${{ github.ref }}
+  # Cancel superseded PR runs, but let main runs finish
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  desktop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: desktop/go.mod
+          cache-dependency-path: desktop/go.sum
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # The web's texts, lucide's icons and pinyin-pro's readings, copied into
+      # the desktop app, must follow their sources
+      - name: Generated files are up to date
+        run: |
+          npm ci
+          go -C desktop generate ./internal/i18n ./internal/engine ./app
+          git add --intent-to-add desktop
+          git diff --exit-code -- desktop
+
+      # The UI tests shape text with Pango, as the app does on Linux
+      - name: Install GTK
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libwebkit2gtk-4.1-0
+
+      - name: Vet
+        working-directory: desktop
+        run: go vet ./...
+
+      - name: Test
+        working-directory: desktop
+        run: go test ./...
+
+      # MyGo needs no cgo, so one runner compiles every platform
+      - name: Cross-compile
+        working-directory: desktop
+        run: |
+          for target in darwin/arm64 darwin/amd64 windows/amd64 windows/arm64 linux/amd64 linux/arm64; do
+            echo "building $target"
+            GOOS=${target%/*} GOARCH=${target#*/} go build -o /dev/null .
+          done

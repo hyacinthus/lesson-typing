@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "Schließe die Anmeldung in deinem Browser ab.",
+    "sign_in_link_invalid": "Dieser Anmeldelink ist ungültig oder abgelaufen. Bitte melde dich erneut an.",
+    "load_failed": "Die Lektionen konnten nicht geladen werden. Prüfe deine Verbindung und versuche es erneut.",
+    "retry": "Erneut versuchen",
+    "not_configured": "Für diese Version ist kein Server eingerichtet, daher können keine Lektionen geladen werden.",
+    "browser_signed_in_title": "Du bist angemeldet",
+    "browser_signed_in_body": "Du kannst diese Seite schließen und zu Lesson Typing zurückkehren.",
+    "browser_failed_title": "Die Anmeldung wurde nicht abgeschlossen",
+    "browser_failed_body": "Kehre zu Lesson Typing zurück und versuche es erneut."
+  },
+  "menu": {
+    "practice": "Übung",
+    "help": "Hilfe"
+  }
+}

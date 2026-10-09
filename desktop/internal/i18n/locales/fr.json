@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "Poursuivez dans votre navigateur pour terminer la connexion.",
+    "sign_in_link_invalid": "Ce lien de connexion est invalide ou a expiré. Veuillez vous reconnecter.",
+    "load_failed": "Impossible de charger les leçons. Vérifiez votre connexion et réessayez.",
+    "retry": "Réessayer",
+    "not_configured": "Cette version n'a pas de serveur configuré : les leçons ne peuvent pas être chargées.",
+    "browser_signed_in_title": "Vous êtes connecté",
+    "browser_signed_in_body": "Vous pouvez fermer cette page et revenir à Lesson Typing.",
+    "browser_failed_title": "La connexion n'a pas abouti",
+    "browser_failed_body": "Revenez à Lesson Typing et réessayez."
+  },
+  "menu": {
+    "practice": "Entraînement",
+    "help": "Aide"
+  }
+}

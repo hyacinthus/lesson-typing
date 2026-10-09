@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "Continúa en tu navegador para terminar de iniciar sesión.",
+    "sign_in_link_invalid": "Este enlace de inicio de sesión no es válido o ha caducado. Vuelve a iniciar sesión.",
+    "load_failed": "No se pudieron cargar las lecciones. Revisa tu conexión e inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "not_configured": "Esta versión no tiene un servidor configurado, así que no se pueden cargar las lecciones.",
+    "browser_signed_in_title": "Has iniciado sesión",
+    "browser_signed_in_body": "Puedes cerrar esta página y volver a Lesson Typing.",
+    "browser_failed_title": "No se completó el inicio de sesión",
+    "browser_failed_body": "Vuelve a Lesson Typing e inténtalo de nuevo."
+  },
+  "menu": {
+    "practice": "Práctica",
+    "help": "Ayuda"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "desktop": {
+    "continue_in_browser": "Continua nel browser per completare l'accesso.",
+    "sign_in_link_invalid": "Questo link di accesso non è valido o è scaduto. Accedi di nuovo.",
+    "load_failed": "Impossibile caricare le lezioni. Controlla la connessione e riprova.",
+    "retry": "Riprova",
+    "not_configured": "Questa versione non ha un server configurato, quindi le lezioni non possono essere caricate.",
+    "browser_signed_in_title": "Accesso effettuato",
+    "browser_signed_in_body": "Puoi chiudere questa pagina e tornare a Lesson Typing.",
+    "browser_failed_title": "L'accesso non è stato completato",
+    "browser_failed_body": "Torna a Lesson Typing e riprova."
+  },
+  "menu": {
+    "practice": "Esercizio",
+    "help": "Aiuto"
+  }
+}

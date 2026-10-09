@@ -1,0 +1,93 @@
+name: Desktop Release
+
+# Builds the desktop app for every platform when a release is published, and
+# attaches the installers to it: the release's tag is the app's version.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Tag of the release to build and attach the installers to, e.g. v0.20.0
+        required: true
+
+permissions:
+  contents: write # uploads to the release
+
+concurrency:
+  group: desktop-release-${{ github.event.release.tag_name || inputs.tag }}
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Signing, the disk image and its layout need macOS
+          - { name: macOS, os: macos-latest, platform: darwin/universal }
+          # MyGo needs no cgo: Ubuntu builds Windows and Linux
+          - { name: Windows, os: ubuntu-latest, platform: "windows/amd64,windows/arm64" }
+          - { name: Linux, os: ubuntu-latest, platform: "linux/amd64,linux/arm64" }
+    env:
+      TAG: ${{ github.event.release.tag_name || inputs.tag }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout the release
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: desktop/go.mod
+          cache-dependency-path: desktop/go.sum
+          # Only Linux shares the cache of the CI on main; a macOS one, keyed
+          # on this tag, would be stored and never used again
+          cache: ${{ runner.os == 'Linux' }}
+
+      - name: Install NSIS, for the Windows installers
+        if: matrix.name == 'Windows'
+        run: sudo apt-get update && sudo apt-get install -y nsis
+
+      - name: Version the app as the release
+        working-directory: desktop
+        run: |
+          version="${TAG#v}"
+          jq --arg v "$version" '.version = $v' mygo.json > mygo.json.new
+          mv mygo.json.new mygo.json
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+
+      # The web app's Supabase project, as its Docker image gets it
+      - name: Configure the Supabase project
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: go -C desktop generate ./internal/config
+
+      - name: Build
+        run: go -C desktop tool mygo build -platform "${{ matrix.platform }}"
+
+      # Release assets need names of their own: both Windows targets make
+      # "Lesson Typing Setup <version>.exe", and GitHub turns spaces into dots.
+      - name: Attach the installers to the release
+        working-directory: desktop/build
+        run: |
+          mkdir -p ../release
+          for dir in */; do
+            target="${dir%/}" # e.g. windows-amd64
+            arch="${target#*-}"
+            case "$arch" in amd64) arch=x64 ;; esac
+            for f in "$target"/*; do
+              case "$f" in
+                *.dmg) cp "$f" "../release/Lesson-Typing-$VERSION-macOS.dmg" ;;
+                *" Setup "*.exe) cp "$f" "../release/Lesson-Typing-Setup-$VERSION-windows-$arch.exe" ;;
+                *.deb | *.tar.gz) cp "$f" ../release/ ;; # already named by version and architecture
+                */install.sh) cp "$f" ../release/install.sh ;; # the same for every Linux target
+              esac
+            done
+          done
+          ls -l ../release
+          gh release upload "$TAG" ../release/* --clobber

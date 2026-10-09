@@ -10,7 +10,10 @@
     "lint": "eslint .",
     "test": "vitest run",
     "preview": "vite preview",
-    "sync": "node scripts/sync-lessons.cjs"
+    "sync": "node scripts/sync-lessons.cjs",
+    "desktop:dev": "go -C desktop generate ./internal/config && go -C desktop tool mygo dev",
+    "desktop:build": "go -C desktop generate ./internal/config && go -C desktop tool mygo build",
+    "desktop:test": "go -C desktop test ./..."
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.115.0",

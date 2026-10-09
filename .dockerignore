@@ -1,5 +1,7 @@
 node_modules
 dist
+# The desktop app (Go) is not part of the web image
+desktop
 .git
 .DS_Store
 # Never bake local env files into the image: Vite inlines VITE_* into the
