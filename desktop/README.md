@@ -40,7 +40,7 @@ Generated files, committed, which CI checks against their sources
   ideograph, from the web app's pinyin-pro, so that Chinese CPM matches the
   web's.
 - `app/icons/*.svg`: the lucide icons that `app/icons.go` names, from the
-  web app's lucide-react.
+  web app's lucide-react; `app/icons/app.png`, the web app's icon.
 
 ## Layout
 
@@ -87,6 +87,30 @@ the release. `workflow_dispatch` with a tag builds them again. The apps are
 not signed: macOS asks to allow the app in System Settings → Privacy &
 Security, and Windows SmartScreen warns, until signing certificates are set
 up (see MyGo's `docs/github-actions.md`).
+
+## Updates
+
+Installed apps update themselves from the latest release with MyGo's
+updater and its update window (`updates` in `mygo.json`; see MyGo's
+`docs/updates.md` and `docs/plugins/updater.md` for how it checks and
+installs, and where apps can update). Check for Updates… is in the app
+menu on macOS and in Help elsewhere. What is ours:
+
+- The release build signs each target's update archive with the
+  `MYGO_UPDATER_PRIVATE_KEY` secret, whose public half is
+  `updates.publicKey`, and fails without it. The manifests,
+  `update-<target>.json`, go up after the archives, so that apps never read
+  one whose archive is missing.
+- The update window shows the version's section of `RELEASE_NOTES.md`; the
+  build fails when it has none.
+- The private key: installed apps accept only updates signed with it, so
+  losing it strands them, and whoever has it can sign code for every user.
+  Keep it in a password manager besides the repository secret, never in
+  the repository. `go tool mygo keygen` made it; with a new key, every user
+  has to install a release by hand.
+- The `.deb` is updated by the package manager, not by the app.
+- No delta updates (`deltas: 0`): they need the release to stay a draft
+  while it builds, which `release: published` rules out.
 
 ## Shortcuts
 

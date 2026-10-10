@@ -12,5 +12,11 @@
     "categories": [
       "Education"
     ]
+  },
+  "updates": {
+    "publicKey": "jRodOMSLqt1MJu3VEzmB8m+EQEOdx1KijeecTRl3u6g=",
+    "github": "hyacinthus/lesson-typing",
+    "changelog": "../RELEASE_NOTES.md",
+    "deltas": 0
   }
 }

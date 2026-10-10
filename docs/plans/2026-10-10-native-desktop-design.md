@@ -102,6 +102,12 @@ them against its own computation (CPM within 30%, trace, durations):
 - The session (refresh token) persists in the user data directory with
   0600 permissions and refreshes before expiry.
 
+## Updates
+
+MyGo's updater with its update window in native UI: the release workflow
+attaches signed update archives and their manifests to the release, which
+installed apps check in the latest release. No server of our own.
+
 ## Phases
 
 1. Clean up the webview wrapper; skeleton window with theme, i18n, prefs.
@@ -114,3 +120,4 @@ them against its own computation (CPM within 30%, trace, durations):
    start-practice/submit-practice, profile with avatar crop and upload,
    personal stats.
 6. Packaging, menus, CI, docs.
+7. Updates from the GitHub releases.

@@ -24,9 +24,10 @@ type App struct {
 	files *prefs.Store
 	prefs prefs.Prefs
 	// post runs fn on the main thread and redraws: Window.Update.
-	post       func(fn func())
-	setMenu    func(*mygo.Menu)
-	showWindow func()
+	post            func(fn func())
+	setMenu         func(*mygo.Menu)
+	showWindow      func()
+	checkForUpdates func()
 
 	router *ui.Router
 	pal    *palette
@@ -57,31 +58,36 @@ type Options struct {
 	// ShowWindow brings the window to the front, on the main thread, as a
 	// sign-in completes in the browser.
 	ShowWindow func()
+	// CheckForUpdates checks for a new version as the user asked, from the
+	// menu; nil leaves the menu item out.
+	CheckForUpdates func()
 }
 
 // New returns the app, its session restored from files.
 func New(o Options) *App {
 	a := &App{
-		store:      o.Store,
-		files:      o.Files,
-		post:       o.Post,
-		setMenu:    o.SetMenu,
-		showWindow: o.ShowWindow,
-		router:     ui.NewRouter("/"),
-		pal:        &lightPalette,
+		store:           o.Store,
+		files:           o.Files,
+		post:            o.Post,
+		setMenu:         o.SetMenu,
+		showWindow:      o.ShowWindow,
+		checkForUpdates: o.CheckForUpdates,
+		router:          ui.NewRouter("/"),
+		pal:             &lightPalette,
 	}
 	if o.Files != nil {
 		a.prefs = o.Files.Load()
 	}
-	a.setLanguage(a.initialLanguage(o.Locale))
+	a.setLanguage(InitialLanguage(a.prefs.Language, o.Locale))
 	a.watchAuth()
 	return a
 }
 
-// initialLanguage is the language chosen last, else the system's (locale),
-// else English, as the web's root redirect picks it.
-func (a *App) initialLanguage(locale string) i18n.Language {
-	for _, code := range []string{a.prefs.Language, locale} {
+// InitialLanguage is the language the app starts in: the one chosen last
+// (saved), else the system's (locale), else English, as the web's root
+// redirect picks it.
+func InitialLanguage(saved, locale string) i18n.Language {
+	for _, code := range []string{saved, locale} {
 		if l, ok := i18n.Find(code); ok {
 			return l
 		}

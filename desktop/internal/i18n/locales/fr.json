@@ -12,6 +12,7 @@
   },
   "menu": {
     "practice": "Entraînement",
-    "help": "Aide"
+    "help": "Aide",
+    "check_for_updates": "Rechercher les mises à jour…"
   }
 }

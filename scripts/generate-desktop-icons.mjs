@@ -2,7 +2,8 @@
  * Writes the lucide icons the desktop app uses as SVG files
  * (desktop/app/icons/), from the lucide-react package the web app uses, so
  * that both show the same icons. Lucide is ISC licensed. The icons are
- * those desktop/app/icons.go names in calls of icon("...").
+ * those desktop/app/icons.go names in calls of icon("..."). The web app's
+ * own icon goes there too, as app.png, for the windows that show it.
  *
  * Run through `go generate ./app` in desktop/ after adding an icon.
  */
@@ -36,4 +37,6 @@ for (const name of ICONS) {
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n${children}\n</svg>\n`;
   fs.writeFileSync(path.join(outDir, `${name}.svg`), svg);
 }
-console.log(`Wrote ${ICONS.length} icons to ${path.relative(process.cwd(), outDir)}`);
+// 192 pixels: the update window shows it at 64 points, up to 3x.
+fs.copyFileSync(path.join(root, 'public', 'icons', 'icon-192.png'), path.join(outDir, 'app.png'));
+console.log(`Wrote ${ICONS.length} icons and the app's to ${path.relative(process.cwd(), outDir)}`);

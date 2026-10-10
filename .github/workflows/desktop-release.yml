@@ -1,7 +1,9 @@
 name: Desktop Release
 
 # Builds the desktop app for every platform when a release is published, and
-# attaches the installers to it: the release's tag is the app's version.
+# attaches the installers to it, with the signed updates that installed apps
+# take from the latest release (mygo.json's updates): the release's tag is the
+# app's version.
 on:
   release:
     types: [published]
@@ -67,12 +69,20 @@ jobs:
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
         run: go -C desktop generate ./internal/config
 
+      # Signs the update archives and writes their manifests, update-<target>.json.
+      # Without the key, mygo builds no updates and only warns.
       - name: Build
-        run: go -C desktop tool mygo build -platform "${{ matrix.platform }}"
+        env:
+          MYGO_UPDATER_PRIVATE_KEY: ${{ secrets.MYGO_UPDATER_PRIVATE_KEY }}
+        run: |
+          : "${MYGO_UPDATER_PRIVATE_KEY:?the MYGO_UPDATER_PRIVATE_KEY secret is not set}"
+          go -C desktop tool mygo build -platform "${{ matrix.platform }}"
 
       # Release assets need names of their own: both Windows targets make
       # "Lesson Typing Setup <version>.exe", and GitHub turns spaces into dots.
-      - name: Attach the installers to the release
+      # The update archives keep theirs, which the manifests point to, and the
+      # manifests go last, so that apps never read one whose archive is missing.
+      - name: Attach the installers and updates to the release
         working-directory: desktop/build
         run: |
           mkdir -p ../release
@@ -84,10 +94,14 @@ jobs:
               case "$f" in
                 *.dmg) cp "$f" "../release/Lesson-Typing-$VERSION-macOS.dmg" ;;
                 *" Setup "*.exe) cp "$f" "../release/Lesson-Typing-Setup-$VERSION-windows-$arch.exe" ;;
-                *.deb | *.tar.gz) cp "$f" ../release/ ;; # already named by version and architecture
+                *.deb | *.tar.gz) cp "$f" ../release/ ;; # already named by version and target
                 */install.sh) cp "$f" ../release/install.sh ;; # the same for every Linux target
               esac
             done
           done
           ls -l ../release
           gh release upload "$TAG" ../release/* --clobber
+          # Tags from before the updates have none
+          if jq -e .updates ../mygo.json > /dev/null; then
+            gh release upload "$TAG" ./*/update-*.json --clobber
+          fi

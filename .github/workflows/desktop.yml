@@ -8,6 +8,7 @@ on:
       # Sources of the desktop's generated files
       - 'src/locales/**'
       - 'src/i18n-meta.json'
+      - 'public/icons/icon-192.png'
       - 'package-lock.json'
       - 'scripts/generate-desktop-icons.mjs'
       - 'scripts/generate-pinyin-weights.cjs'
@@ -18,6 +19,7 @@ on:
       # Sources of the desktop's generated files
       - 'src/locales/**'
       - 'src/i18n-meta.json'
+      - 'public/icons/icon-192.png'
       - 'package-lock.json'
       - 'scripts/generate-desktop-icons.mjs'
       - 'scripts/generate-pinyin-weights.cjs'

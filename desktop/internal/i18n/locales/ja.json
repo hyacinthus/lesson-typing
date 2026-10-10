@@ -12,6 +12,7 @@
   },
   "menu": {
     "practice": "練習",
-    "help": "ヘルプ"
+    "help": "ヘルプ",
+    "check_for_updates": "アップデートを確認…"
   }
 }

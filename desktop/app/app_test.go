@@ -9,10 +9,12 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"runtime"
 	"strings"
 	"testing"
 	"time"
 
+	"github.com/egoist/mygo"
 	"github.com/egoist/mygo/ui"
 
 	"github.com/hyacinthus/lesson-typing/desktop/internal/data"
@@ -356,6 +358,43 @@ func TestEnterStartsAfterChoosingAGrade(t *testing.T) {
 	tt.Frame()
 	if !strings.HasPrefix(a.router.Path(), "/lesson/") {
 		t.Fatalf("Enter did not start: page %s, texts %q", a.router.Path(), tt.Texts())
+	}
+}
+
+// Check for Updates… follows About on macOS and is in Help elsewhere, in
+// the interface's language, and only when the app can check.
+func TestCheckForUpdatesInTheMenu(t *testing.T) {
+	a := newHarness(t).app
+	find := func() (*mygo.MenuItem, int) {
+		for _, top := range a.Menu().Items() {
+			for i, it := range top.Submenu {
+				if it.Label == a.t("menu.check_for_updates") {
+					return top, i
+				}
+			}
+		}
+		return nil, -1
+	}
+	if menu, _ := find(); menu != nil {
+		t.Fatal("an item without an updater")
+	}
+
+	checks := 0
+	a.checkForUpdates = func() { checks++ }
+	menu, i := find()
+	switch {
+	case menu == nil:
+		t.Fatal("no item")
+	case menu.Hidden:
+		t.Fatalf("%q is hidden", menu.Label)
+	case runtime.GOOS == "darwin" && (menu.Role != mygo.RoleAppMenu || i != 1 || menu.Submenu[0].Role != mygo.RoleAbout):
+		t.Fatalf("item %d of %q, want after About", i, menu.Role)
+	case runtime.GOOS != "darwin" && menu.Label != a.t("menu.help"):
+		t.Fatalf("in %q, want Help", menu.Label)
+	}
+	menu.Submenu[i].Click(menu.Submenu[i], nil)
+	if checks != 1 {
+		t.Fatalf("%d checks", checks)
 	}
 }
 

@@ -12,6 +12,7 @@
   },
   "menu": {
     "practice": "Esercizio",
-    "help": "Aiuto"
+    "help": "Aiuto",
+    "check_for_updates": "Controlla aggiornamenti…"
   }
 }

@@ -12,6 +12,7 @@
   },
   "menu": {
     "practice": "练习",
-    "help": "帮助"
+    "help": "帮助",
+    "check_for_updates": "检查更新…"
   }
 }

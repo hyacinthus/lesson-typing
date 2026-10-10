@@ -10,6 +10,8 @@ import (
 	"runtime"
 
 	"github.com/egoist/mygo"
+	"github.com/egoist/mygo/plugins/updater"
+	"github.com/egoist/mygo/plugins/updater/native"
 	"github.com/egoist/mygo/ui"
 
 	"github.com/hyacinthus/lesson-typing/desktop/app"
@@ -43,6 +45,12 @@ func main() {
 	}
 	store := data.New(supa.New(config.SupabaseURL, config.SupabaseAnonKey, files))
 
+	// The update window speaks the language the app starts in, until the
+	// next launch: the plugin chooses it once.
+	locale := mygo.App.Locale()
+	lang := app.InitialLanguage(files.Load().Language, locale)
+	mygo.Use(native.New(updater.Options{Language: lang.Code, Icon: app.AppIcon}))
+
 	var a *app.App
 	post := func(fn func()) {
 		if mainWin != nil {
@@ -65,12 +73,13 @@ func main() {
 
 	mygo.App.WhenReady(func() {
 		a = app.New(app.Options{
-			Store:      store,
-			Files:      files,
-			Post:       post,
-			Locale:     mygo.App.Locale(),
-			SetMenu:    mygo.App.SetMenu,
-			ShowWindow: showMainWindow,
+			Store:           store,
+			Files:           files,
+			Post:            post,
+			Locale:          locale,
+			SetMenu:         mygo.App.SetMenu,
+			ShowWindow:      showMainWindow,
+			CheckForUpdates: updater.CheckForUpdates,
 		})
 		mygo.Theme.SetSource(a.ThemeSource())
 		content = ui.View(a.View)

@@ -12,6 +12,7 @@
   },
   "menu": {
     "practice": "연습",
-    "help": "도움말"
+    "help": "도움말",
+    "check_for_updates": "업데이트 확인…"
   }
 }
