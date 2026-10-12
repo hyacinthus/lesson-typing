@@ -8,11 +8,29 @@
     "browser_signed_in_title": "Accesso effettuato",
     "browser_signed_in_body": "Puoi chiudere questa pagina e tornare a Lesson Typing.",
     "browser_failed_title": "L'accesso non è stato completato",
-    "browser_failed_body": "Torna a Lesson Typing e riprova."
+    "browser_failed_body": "Torna a Lesson Typing e riprova.",
+    "timer_hint": "Il tempo parte dal primo tasto",
+    "welcome_question": "Da dove vuoi iniziare?",
+    "welcome_hint": "Puoi cambiare in qualsiasi momento con il pulsante in alto a destra o dal menu Esercizio.",
+    "lesson_count": "{{count}} testi",
+    "switch_collection": "Cambia raccolta",
+    "grade": "Valutazione"
   },
   "menu": {
     "practice": "Esercizio",
     "help": "Aiuto",
-    "check_for_updates": "Controlla aggiornamenti…"
+    "check_for_updates": "Controlla aggiornamenti…",
+    "settings": "Impostazioni…"
+  },
+  "settings": {
+    "general": "Generali",
+    "account": "Account",
+    "language_hint": "Cambia sia l’interfaccia sia i testi.",
+    "appearance": "Aspetto",
+    "appearance_auto": "Automatico",
+    "appearance_light": "Chiaro",
+    "appearance_dark": "Scuro",
+    "updates": "Aggiornamenti",
+    "updates_hint": "Cerca aggiornamenti una volta al giorno"
   }
 }

@@ -8,11 +8,29 @@
     "browser_signed_in_title": "Vous êtes connecté",
     "browser_signed_in_body": "Vous pouvez fermer cette page et revenir à Lesson Typing.",
     "browser_failed_title": "La connexion n'a pas abouti",
-    "browser_failed_body": "Revenez à Lesson Typing et réessayez."
+    "browser_failed_body": "Revenez à Lesson Typing et réessayez.",
+    "timer_hint": "Le chrono démarre à la première frappe",
+    "welcome_question": "Par où voulez-vous commencer ?",
+    "welcome_hint": "Vous pourrez changer à tout moment avec le bouton en haut à droite ou dans le menu Entraînement.",
+    "lesson_count": "{{count}} textes",
+    "switch_collection": "Changer de collection",
+    "grade": "Niveau"
   },
   "menu": {
     "practice": "Entraînement",
     "help": "Aide",
-    "check_for_updates": "Rechercher les mises à jour…"
+    "check_for_updates": "Rechercher les mises à jour…",
+    "settings": "Réglages…"
+  },
+  "settings": {
+    "general": "Général",
+    "account": "Compte",
+    "language_hint": "Change à la fois l’interface et les textes.",
+    "appearance": "Apparence",
+    "appearance_auto": "Automatique",
+    "appearance_light": "Clair",
+    "appearance_dark": "Sombre",
+    "updates": "Mises à jour",
+    "updates_hint": "Recherche les mises à jour une fois par jour"
   }
 }

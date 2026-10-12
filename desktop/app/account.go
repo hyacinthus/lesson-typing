@@ -30,10 +30,8 @@ type account struct {
 
 // dialogs are the dialogs that may show, one at a time.
 type dialogs struct {
-	login    bool
-	stats    bool
-	profile  bool
-	feedback bool
+	login   bool
+	profile bool
 
 	loginView string // "", "sign_in" or "sign_up"
 	email     string
@@ -43,13 +41,10 @@ type dialogs struct {
 	err       string
 	sentEmail bool
 
-	statsLogs   []data.PracticeLog
-	statsLoaded bool
-
 	edit profileForm
 }
 
-func (d *dialogs) open() bool { return d.login || d.stats || d.profile || d.feedback }
+func (d *dialogs) open() bool { return d.login || d.profile }
 
 // userID returns the signed-in user's ID, "" when signed out.
 func (a *App) userID() string {
@@ -92,6 +87,7 @@ func (a *App) sessionChanged(s *supa.Session) {
 		a.loadBest(p)
 		a.loadLeaderboard(p)
 	}
+	a.refreshStats()
 }
 
 func (a *App) loadProfile() {
@@ -331,26 +327,27 @@ func (a *App) signOut() {
 	})
 }
 
-// userMenu is the login button, or the signed-in user's menu.
-func (a *App) userMenu(c *ui.Context) {
+// accountButton is the login button, or the signed-in user's picture,
+// which opens their menu.
+func (a *App) accountButton(c *ui.Context) {
 	if !a.store.Client().Configured() {
 		return
 	}
+	pal := a.pal
 	s := a.account.session
 	if s == nil {
-		b := ui.Button(c, a.t("auth.login"))
-		a.pill(b)
-		if b.Clicked() {
+		if a.capsuleButton(c, a.t("auth.login"), func() {
+			ui.Icon(c, iconUser).FontSize(16)
+			ui.Text(c, a.t("auth.login")).FontSize(13)
+		}).Clicked() {
 			a.openLogin()
 		}
 		return
 	}
 	name := a.displayName()
-	b := ui.Button(c, "").Label(name)
-	a.pill(b).Padding(0, 14, 0, 4).Gap(8).Children(func() {
-		a.avatarImage(c, 28)
-		ui.Text(c, name).SingleLine().MaxWidth(120)
-	})
+	b := ui.ButtonBase(c).Label(name).Tooltip(name).Size(capsuleHeight, capsuleHeight).
+		Radius(capsuleHeight/2).Border(1, pal.capsuleBorder)
+	b.Children(func() { a.avatarImage(c, capsuleHeight) })
 	b.Menu(func(m *ui.Menu) {
 		m.Item(s.User.Email).Disabled(true)
 		m.Separator()
@@ -360,9 +357,6 @@ func (a *App) userMenu(c *ui.Context) {
 		if m.Item(a.t("auth.edit_profile")).Chosen() {
 			a.openProfile()
 		}
-		if m.Item(a.t("auth.feedback")).Chosen() {
-			a.dialogs.feedback = true
-		}
 		m.Separator()
 		if m.Item(a.t("auth.logout")).Chosen() {
 			a.signOut()
@@ -370,15 +364,19 @@ func (a *App) userMenu(c *ui.Context) {
 	})
 }
 
-// avatarImage shows the user's picture, or a placeholder, size wide.
+// avatarImage shows the user's picture, else their initial, size wide.
 func (a *App) avatarImage(c *ui.Context, size float32) {
 	pal := a.pal
 	if bm := a.account.avatar; bm != nil {
 		ui.Image(c, bm).Size(size, size).Fit(ui.Cover).Radius(size / 2)
 		return
 	}
-	ui.Box(c).Size(size, size).Radius(size / 2).Background(pal.primary).Center().Children(func() {
-		ui.Icon(c, iconUser).FontSize(size * 0.55).TextColor(pal.primaryText)
+	ui.Box(c).Size(size, size).Radius(size / 2).Background(pal.primary.Mix(pal.background, 0.82)).Center().Children(func() {
+		if initial := []rune(strings.ToUpper(a.displayName())); len(initial) > 0 {
+			ui.Text(c, string(initial[0])).FontSize(size * 0.42).Bold().TextColor(pal.primary)
+		} else {
+			ui.Icon(c, iconUser).FontSize(size * 0.55).TextColor(pal.primary)
+		}
 	})
 }
 
@@ -386,9 +384,7 @@ func (a *App) avatarImage(c *ui.Context, size float32) {
 // sign-in completing.
 func (a *App) accountDialogs(c *ui.Context) {
 	a.loginDialog(c)
-	a.statsDialog(c)
 	a.profileDialog(c)
-	a.feedbackDialog(c)
 	if a.account.exchanging {
 		// Modal, so that nothing behind takes keys meanwhile; it closes
 		// when the sign-in completes, not on a click outside.
@@ -402,14 +398,16 @@ func (a *App) accountDialogs(c *ui.Context) {
 	}
 }
 
-// dialogPanel is the look of the app's dialogs.
+// dialogPanel is the look of the app's dialogs: sheets, which come down
+// below the title bar over the dimmed window, width wide at most.
 func (a *App) dialogPanel(c *ui.Context, open *bool, width float32, fn func()) {
 	pal := a.pal
+	w, _ := c.Size()
 	ui.DialogBase(c, open, func(backdrop, panel ui.Element) {
-		backdrop.Background(ui.RGBA(0, 0, 0, 0.45))
-		panel.Width(width).Padding(24).Gap(16).Radius(16).Background(pal.card).Border(1, pal.border).
-			Shadow(0, 12, 40, 0, ui.RGBA(0, 0, 0, 0.25))
-		panel.Transition(ui.ElementTransition{Enter: &ui.Motion{Y: 8}, Exit: &ui.Motion{Y: 8}})
+		backdrop.Background(pal.backdrop).Justify(ui.Start).Padding(headerHeight+8, 16, 16, 16)
+		panel.Width(min(width, w-32)).Padding(24).Gap(16).Radius(22).Background(pal.card).Border(1, pal.border).
+			Shadow(0, 24, 64, 0, ui.RGBA(0, 0, 0, 0.28))
+		panel.Transition(ui.ElementTransition{Enter: &ui.Motion{Y: -12}, Exit: &ui.Motion{Y: -12}})
 		fn()
 	})
 }
@@ -509,36 +507,5 @@ func (a *App) loginDialog(c *ui.Context) {
 				}
 			}
 		}
-	})
-}
-
-func (a *App) feedbackDialog(c *ui.Context) {
-	d := &a.dialogs
-	a.dialogPanel(c, &d.feedback, 420, func() {
-		ui.Text(c, a.t("auth.feedback_title")).FontSize(20).Bold()
-		ui.Text(c, a.t("auth.feedback_description")).TextColor(a.pal.mutedForeground)
-		ui.Row(c).Gap(8).Justify(ui.End).Children(func() {
-			if ui.Button(c, a.t("auth.profile.cancel")).Clicked() {
-				d.feedback = false
-			}
-			if ui.PrimaryButton(c, a.t("auth.feedback_go_github")).Clicked() {
-				c.OpenURL(config.IssuesURL)
-				d.feedback = false
-			}
-		})
-	})
-}
-
-// openStats opens the user's statistics, loading their latest runs.
-func (a *App) openStats() {
-	d := &a.dialogs
-	d.stats, d.statsLoaded, d.statsLogs = true, false, nil
-	user := a.userID()
-	a.run(func(ctx context.Context) func() {
-		logs, err := a.store.RecentLogs(ctx, user, "", 20)
-		if err != nil {
-			log.Printf("load recent runs: %v", err)
-		}
-		return func() { d.statsLogs, d.statsLoaded = logs, true }
 	})
 }

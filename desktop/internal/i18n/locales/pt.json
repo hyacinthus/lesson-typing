@@ -8,11 +8,29 @@
     "browser_signed_in_title": "Você entrou",
     "browser_signed_in_body": "Você pode fechar esta página e voltar ao Lesson Typing.",
     "browser_failed_title": "O login não foi concluído",
-    "browser_failed_body": "Volte ao Lesson Typing e tente novamente."
+    "browser_failed_body": "Volte ao Lesson Typing e tente novamente.",
+    "timer_hint": "O tempo começa na primeira tecla",
+    "welcome_question": "Por onde você quer começar?",
+    "welcome_hint": "Você pode trocar a qualquer momento pelo botão no canto superior direito ou pelo menu Prática.",
+    "lesson_count": "{{count}} textos",
+    "switch_collection": "Trocar coleção",
+    "grade": "Nível"
   },
   "menu": {
     "practice": "Prática",
     "help": "Ajuda",
-    "check_for_updates": "Verificar atualizações…"
+    "check_for_updates": "Verificar atualizações…",
+    "settings": "Ajustes…"
+  },
+  "settings": {
+    "general": "Geral",
+    "account": "Conta",
+    "language_hint": "Troca a interface e os textos juntos.",
+    "appearance": "Aparência",
+    "appearance_auto": "Automática",
+    "appearance_light": "Clara",
+    "appearance_dark": "Escura",
+    "updates": "Atualizações",
+    "updates_hint": "Procura atualizações uma vez por dia"
   }
 }

@@ -8,11 +8,29 @@
     "browser_signed_in_title": "Has iniciado sesión",
     "browser_signed_in_body": "Puedes cerrar esta página y volver a Lesson Typing.",
     "browser_failed_title": "No se completó el inicio de sesión",
-    "browser_failed_body": "Vuelve a Lesson Typing e inténtalo de nuevo."
+    "browser_failed_body": "Vuelve a Lesson Typing e inténtalo de nuevo.",
+    "timer_hint": "El tiempo empieza con la primera tecla",
+    "welcome_question": "¿Por dónde quieres empezar?",
+    "welcome_hint": "Puedes cambiarlo cuando quieras con el botón de arriba a la derecha o desde el menú Práctica.",
+    "lesson_count": "{{count}} textos",
+    "switch_collection": "Cambiar colección",
+    "grade": "Nivel"
   },
   "menu": {
     "practice": "Práctica",
     "help": "Ayuda",
-    "check_for_updates": "Buscar actualizaciones…"
+    "check_for_updates": "Buscar actualizaciones…",
+    "settings": "Ajustes…"
+  },
+  "settings": {
+    "general": "General",
+    "account": "Cuenta",
+    "language_hint": "Cambia la interfaz y los textos a la vez.",
+    "appearance": "Apariencia",
+    "appearance_auto": "Automática",
+    "appearance_light": "Clara",
+    "appearance_dark": "Oscura",
+    "updates": "Actualizaciones",
+    "updates_hint": "Busca actualizaciones una vez al día"
   }
 }

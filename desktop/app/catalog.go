@@ -35,9 +35,22 @@ func (a *App) loadCatalog(l i18n.Language) *catalog {
 		return func() {
 			cat.loading, cat.err = false, err
 			cat.lessons, cat.collections = lessons, cols
+			if a.catalog == cat {
+				a.catalogLoaded()
+			}
 		}
 	})
 	return cat
+}
+
+// catalogLoaded lists the collections in the menu and, when no lesson is
+// open, opens one of the collection chosen; at the first launch, the start
+// page asks for one.
+func (a *App) catalogLoaded() {
+	a.updateMenu()
+	if a.catalog.err == nil && a.lessonID == "" && a.prefs.Collection != "" {
+		a.startPractice()
+	}
 }
 
 // retryCatalog loads the catalog again after it failed.
@@ -47,25 +60,34 @@ func (a *App) retryCatalog() {
 
 // collection returns the collection to practice: the one chosen last when
 // the language has it, else its first.
-func (a *App) collection() string {
-	cols := a.catalog.collections
+func (a *App) collection() data.Collection {
+	return findCollection(a.catalog.collections, a.prefs.Collection)
+}
+
+// findCollection returns the collection of cols with id, else the first,
+// else none.
+func findCollection(cols []data.Collection, id string) data.Collection {
 	for _, c := range cols {
-		if c.ID == a.prefs.Collection {
-			return c.ID
+		if c.ID == id {
+			return c
 		}
 	}
 	if len(cols) > 0 {
-		return cols[0].ID
+		return cols[0]
 	}
-	return ""
+	return data.Collection{}
 }
 
-// setCollection chooses the collection to practice.
-func (a *App) setCollection(id string) {
-	if a.prefs.Collection != id {
-		a.prefs.Collection = id
-		a.savePrefs()
+// chooseCollection chooses the collection to practice and opens one of
+// its lessons, unless the lesson open is of it.
+func (a *App) chooseCollection(id string) {
+	if p := a.currentPractice(); p != nil && p.lesson.CollectionID == id {
+		return
 	}
+	a.prefs.Collection = id
+	a.savePrefs()
+	a.updateMenu()
+	a.startPractice()
 }
 
 // startPractice opens a random lesson of the chosen collection.
@@ -74,7 +96,18 @@ func (a *App) startPractice() {
 	if cat.loading {
 		return
 	}
-	if l := data.PickRandom(cat.lessons, a.lang.Lessons, a.collection(), ""); l != nil {
-		a.router.Push("/lesson/" + l.ID)
+	if l := data.PickRandom(cat.lessons, a.lang.Lessons, a.collection().ID, ""); l != nil {
+		a.lessonID = l.ID
 	}
+}
+
+// lessonCount is the number of lessons of collection id.
+func (a *App) lessonCount(id string) int {
+	n := 0
+	for _, l := range a.catalog.lessons {
+		if l.CollectionID == id {
+			n++
+		}
+	}
+	return n
 }

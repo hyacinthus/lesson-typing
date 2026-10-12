@@ -110,8 +110,8 @@ func (a *App) chartTooltip(p *ui.Painter, r ui.Rect, run data.PracticeLog, label
 	tw, th := p.MeasureText(0, title)
 	width, lineH := tw, th
 	for _, row := range rows {
-		lw, _ := p.MeasureText(0, ui.Span{Text: row[0], Size: 13})
-		vw, h := p.MeasureText(0, ui.Span{Text: row[1], Size: 13, Weight: 500})
+		lw, _ := p.MeasureText(0, ui.Span{Text: row.label, Size: 13})
+		vw, h := p.MeasureText(0, ui.Span{Text: row.text(), Size: 13, Weight: 500})
 		width = max(width, lw+24+vw)
 		lineH = max(lineH, h)
 	}
@@ -128,8 +128,8 @@ func (a *App) chartTooltip(p *ui.Painter, r ui.Rect, run data.PracticeLog, label
 	p.RichText(box.X+12, ty, 0, title)
 	ty += th + 10
 	for _, row := range rows {
-		p.RichText(box.X+12, ty, 0, ui.Span{Text: row[0], Size: 13, Color: pal.mutedForeground})
-		val := ui.Span{Text: row[1], Size: 13, Weight: 500, Color: pal.foreground}
+		p.RichText(box.X+12, ty, 0, ui.Span{Text: row.label, Size: 13, Color: pal.mutedForeground})
+		val := ui.Span{Text: row.text(), Size: 13, Weight: 500, Color: pal.foreground}
 		vw, _ := p.MeasureText(0, val)
 		p.RichText(box.X+box.W-12-vw, ty, 0, val)
 		ty += lineH + 6

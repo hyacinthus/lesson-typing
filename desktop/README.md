@@ -44,9 +44,13 @@ Generated files, committed, which CI checks against their sources
 
 ## Layout
 
-- `main.go`: the window, the menu, single-instance handling and the
+- `main.go`: the windows, the menu, single-instance handling and the
   `lessontyping://` deep links.
-- `app/`: the interface. `typing.go` and `textview.go` are the typing area:
+- `app/`: the interface: one window that opens on a lesson
+  (`practice_view.go`, its title bar in `shell.go`), the welcome sheet of
+  the first launch (`welcome.go`), the results' sheet (`results.go`), and
+  the windows of the settings (`settings.go`) and of the user's statistics
+  (`mystats.go`). `typing.go` and `textview.go` are the typing area:
   line breaks from the system's text engine, one layout per line styled by
   the characters' states, reshaped only where a keystroke changed it, and
   input through `HandleInput` + `TextCaret`.
@@ -116,7 +120,8 @@ menu on macOS and in Help elsewhere. What is ours:
 
 | Key | |
 |---|---|
-| Enter | start (home), next lesson (results) |
+| Enter | start (welcome), next lesson (results) |
 | R | restart (results) |
-| ⌘/Ctrl+R, ⌘/Ctrl+N | restart, next lesson (Practice menu) |
-| ⌘/Ctrl+[ | back to the home page |
+| ⌘/Ctrl+R, ⌘/Ctrl+N | restart, change lesson (Practice menu) |
+| ⌘/Ctrl+1 … 9 | choose a collection (Practice menu) |
+| ⌘/Ctrl+, | settings |

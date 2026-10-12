@@ -2,18 +2,21 @@ package app
 
 import "github.com/egoist/mygo/ui"
 
-// palette holds the app's colors, those of src/index.css in light and dark.
+// palette holds the app's colors in light and dark: the web's accent and
+// typing colors (src/index.css) over the neutral grays of macOS.
 type palette struct {
 	dark bool
 
 	background, foreground ui.Color
-	card                   ui.Color
-	muted, mutedForeground ui.Color
+	card                   ui.Color // sheets and popups
+	muted, mutedForeground ui.Color // wells, and secondary text
 	border                 ui.Color
 	primary, primaryText   ui.Color
 	destructive            ui.Color
-	header, headerText     ui.Color
-	results                ui.Color
+	// The controls of the title bar sit on capsules.
+	capsule, capsuleBorder ui.Color
+	// backdrop dims the window behind a sheet.
+	backdrop ui.Color
 
 	charPending, charCorrect           ui.Color
 	charCurrent, charCurrentBg         ui.Color
@@ -24,18 +27,18 @@ type palette struct {
 }
 
 var lightPalette = palette{
-	background:      ui.Oklch(0.985, 0.002, 247.839),
-	foreground:      ui.Oklch(0.145, 0, 0),
+	background:      ui.Hex("#ffffff"),
+	foreground:      ui.Hex("#1d1d1f"),
 	card:            ui.Hex("#ffffff"),
-	muted:           ui.Oklch(0.97, 0, 0),
-	mutedForeground: ui.Oklch(0.556, 0, 0),
-	border:          ui.Oklch(0.922, 0, 0),
+	muted:           ui.Hex("#f5f5f7"),
+	mutedForeground: ui.Hex("#6e6e73"),
+	border:          ui.RGBA(0, 0, 0, 0.1),
 	primary:         ui.Hex("#007FFF"),
 	primaryText:     ui.Hex("#ffffff"),
 	destructive:     ui.Oklch(0.577, 0.245, 27.325),
-	header:          ui.Hex("#E9F4FF"),
-	headerText:      ui.Oklch(0.145, 0, 0),
-	results:         ui.Hex("#E9F4FF"),
+	capsule:         ui.RGBA(255, 255, 255, 0.92),
+	capsuleBorder:   ui.RGBA(0, 0, 0, 0.08),
+	backdrop:        ui.RGBA(0, 0, 0, 0.12),
 
 	charPending:           ui.Hex("#6b7280"),
 	charCorrect:           ui.Hex("#16a34a"),
@@ -55,18 +58,18 @@ var lightPalette = palette{
 
 var darkPalette = palette{
 	dark:            true,
-	background:      ui.Oklch(0.18, 0.02, 255),
-	foreground:      ui.Oklch(0.96, 0.005, 250),
-	card:            ui.Oklch(0.23, 0.025, 255),
-	muted:           ui.Oklch(0.29, 0.025, 255),
-	mutedForeground: ui.Oklch(0.73, 0.015, 250),
+	background:      ui.Hex("#1e1e20"),
+	foreground:      ui.Hex("#f5f5f7"),
+	card:            ui.Hex("#2a2a2d"),
+	muted:           ui.Hex("#323236"),
+	mutedForeground: ui.Hex("#a1a1a6"),
 	border:          ui.RGBA(255, 255, 255, 0.12),
 	primary:         ui.Hex("#4DA6FF"),
 	primaryText:     ui.Oklch(0.15, 0.02, 255),
 	destructive:     ui.Oklch(0.704, 0.191, 22.216),
-	header:          ui.Hex("#0C3A66"),
-	headerText:      ui.Oklch(0.985, 0, 0),
-	results:         ui.Oklch(0.26, 0.02, 255),
+	capsule:         ui.RGBA(58, 58, 62, 0.92),
+	capsuleBorder:   ui.RGBA(255, 255, 255, 0.1),
+	backdrop:        ui.RGBA(0, 0, 0, 0.35),
 
 	charPending:           ui.Hex("#94a3b8"),
 	charCorrect:           ui.Hex("#4ade80"),

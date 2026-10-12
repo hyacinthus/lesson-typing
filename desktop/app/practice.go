@@ -64,6 +64,8 @@ type result struct {
 	// recent are the user's latest runs of the lesson, for the chart.
 	recent      []data.PracticeLog
 	completedAt time.Time
+	// dismissed is set once the user closed the results' sheet.
+	dismissed bool
 }
 
 // practiceFor returns the practice of lesson id, starting to load it.
@@ -148,7 +150,7 @@ func (a *App) nextLesson(p *practice) {
 	}
 	pick := func(lessons []data.LessonSummary) {
 		if next := data.PickRandom(lessons, l.Language, l.CollectionID, l.ID); next != nil {
-			a.router.Replace("/lesson/" + next.ID)
+			a.lessonID = next.ID
 		}
 	}
 	if l.Language == a.lang.Lessons {
@@ -312,6 +314,7 @@ func (a *App) submit(p *practice, res *result) {
 			if p.version == v && p.result == res {
 				res.recent = recent
 			}
+			a.refreshStats()
 		}
 	})
 }

@@ -8,11 +8,29 @@
     "browser_signed_in_title": "로그인되었습니다",
     "browser_signed_in_body": "이 페이지를 닫고 Lesson Typing으로 돌아가세요.",
     "browser_failed_title": "로그인을 완료하지 못했습니다",
-    "browser_failed_body": "Lesson Typing으로 돌아가 다시 시도해 주세요."
+    "browser_failed_body": "Lesson Typing으로 돌아가 다시 시도해 주세요.",
+    "timer_hint": "첫 글자를 입력하면 시간이 시작됩니다",
+    "welcome_question": "어디서부터 시작할까요?",
+    "welcome_hint": "나중에 오른쪽 위 버튼이나 메뉴 막대의 「연습」에서 언제든 바꿀 수 있습니다.",
+    "lesson_count": "{{count}}편",
+    "switch_collection": "모음 바꾸기",
+    "grade": "등급"
   },
   "menu": {
     "practice": "연습",
     "help": "도움말",
-    "check_for_updates": "업데이트 확인…"
+    "check_for_updates": "업데이트 확인…",
+    "settings": "설정…"
+  },
+  "settings": {
+    "general": "일반",
+    "account": "계정",
+    "language_hint": "화면과 글이 함께 바뀝니다.",
+    "appearance": "화면 모드",
+    "appearance_auto": "자동",
+    "appearance_light": "라이트",
+    "appearance_dark": "다크",
+    "updates": "업데이트",
+    "updates_hint": "하루에 한 번 자동으로 확인합니다"
   }
 }

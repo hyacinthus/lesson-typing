@@ -8,11 +8,29 @@
     "browser_signed_in_title": "登录成功",
     "browser_signed_in_body": "可以关闭这个页面，回到 Lesson Typing 继续练习了。",
     "browser_failed_title": "登录没有完成",
-    "browser_failed_body": "请回到 Lesson Typing 再试一次。"
+    "browser_failed_body": "请回到 Lesson Typing 再试一次。",
+    "timer_hint": "打下第一个字时开始计时",
+    "welcome_question": "从哪里开始？",
+    "welcome_hint": "以后可以点右上角的按钮，或在菜单栏「练习」里随时切换。",
+    "lesson_count": "{{count}} 篇",
+    "switch_collection": "切换文集",
+    "grade": "评级"
   },
   "menu": {
     "practice": "练习",
     "help": "帮助",
-    "check_for_updates": "检查更新…"
+    "check_for_updates": "检查更新…",
+    "settings": "设置…"
+  },
+  "settings": {
+    "general": "通用",
+    "account": "账户",
+    "language_hint": "界面和课文一起切换。",
+    "appearance": "外观",
+    "appearance_auto": "自动",
+    "appearance_light": "浅色",
+    "appearance_dark": "深色",
+    "updates": "更新",
+    "updates_hint": "每天自动检查一次"
   }
 }

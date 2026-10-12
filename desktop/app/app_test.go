@@ -25,13 +25,19 @@ import (
 
 const testLesson = "床前明月光，疑是地上霜。\n举头望明月，低头思故乡。"
 
+// testLessons are the fake Supabase's lessons, one in each collection.
+var testLessons = []struct{ id, title, collection, content string }{
+	{"jys", "静夜思", "grade-1", testLesson},
+	{"cx", "春晓", "grade-2", "春眠不觉晓，处处闻啼鸟。"},
+}
+
 // backend is what the fake Supabase saw.
 type backend struct {
 	submitted chan map[string]any
 }
 
-// fakeSupabase serves one Chinese lesson, an empty leaderboard, and the
-// account of Ada, whose password is "secret1".
+// fakeSupabase serves a Chinese lesson in each of two collections, an
+// empty leaderboard, and the account of Ada, whose password is "secret1".
 func fakeSupabase(t *testing.T) (*httptest.Server, *backend) {
 	t.Helper()
 	be := &backend{submitted: make(chan map[string]any, 1)}
@@ -77,14 +83,22 @@ func fakeSupabase(t *testing.T) (*httptest.Server, *backend) {
 			be.submitted <- sub
 			body = map[string]any{"success": true}
 		case "/rest/v1/lt_lessons":
-			lesson := map[string]any{
-				"id": "jys", "title": "静夜思", "collection_id": "grade-1", "language": "chinese",
-				"sort_order": 1, "character_count": len([]rune(testLesson)),
+			var lessons []any
+			for _, l := range testLessons {
+				lesson := map[string]any{
+					"id": l.id, "title": l.title, "collection_id": l.collection, "language": "chinese",
+					"sort_order": 1, "character_count": len([]rune(l.content)),
+				}
+				switch q.Get("id") {
+				case "":
+				case "eq." + l.id:
+					lesson["content"] = l.content
+				default:
+					continue
+				}
+				lessons = append(lessons, lesson)
 			}
-			if q.Get("id") == "eq.jys" {
-				lesson["content"] = testLesson
-			}
-			body = []any{lesson}
+			body = lessons
 		case "/rest/v1/lt_collections":
 			body = []any{map[string]any{"id": "grade-1", "name": "小学一年级"}, map[string]any{"id": "grade-2", "name": "小学二年级"}}
 		case "/rest/v1/rpc/lt_lesson_leaderboard":
@@ -105,15 +119,18 @@ type harness struct {
 	tt      *ui.Tester
 	posted  chan func()
 	backend *backend
+	// windows are the other windows the app opened.
+	windows []WindowSpec
 }
 
 func newHarness(t *testing.T) *harness {
 	srv, be := fakeSupabase(t)
 	h := &harness{t: t, posted: make(chan func(), 64), backend: be}
 	h.app = New(Options{
-		Store:  data.New(supa.New(srv.URL, "anon", nil)),
-		Post:   func(fn func()) { h.posted <- fn },
-		Locale: "zh-CN",
+		Store:      data.New(supa.New(srv.URL, "anon", nil)),
+		Post:       func(fn func()) { h.posted <- fn },
+		Locale:     "zh-CN",
+		OpenWindow: func(w WindowSpec) { h.windows = append(h.windows, w) },
 	})
 	h.tt = ui.NewTester(h.app.View, 1200, 840)
 	return h
@@ -135,8 +152,12 @@ func (h *harness) settle(what string, cond func() bool) {
 	h.tt.Frame()
 }
 
-// snapshot saves the last frame to LT_SNAPSHOT_DIR, for a look at it.
-func (h *harness) snapshot(name string) {
+// snapshot saves the main window's last frame to LT_SNAPSHOT_DIR, for a
+// look at it.
+func (h *harness) snapshot(name string) { h.snapshotOf(h.tt, name) }
+
+// snapshotOf saves the last frame of tt to LT_SNAPSHOT_DIR.
+func (h *harness) snapshotOf(tt *ui.Tester, name string) {
 	dir := os.Getenv("LT_SNAPSHOT_DIR")
 	if dir == "" {
 		return
@@ -146,7 +167,7 @@ func (h *harness) snapshot(name string) {
 		h.t.Fatal(err)
 	}
 	defer f.Close()
-	if err := png.Encode(f, h.tt.Image()); err != nil {
+	if err := png.Encode(f, tt.Image()); err != nil {
 		h.t.Fatal(err)
 	}
 }
@@ -158,6 +179,68 @@ func (h *harness) click(label string) {
 		h.t.Fatal(err)
 	}
 	h.tt.Frame()
+}
+
+// start opens the first lesson from the welcome sheet of the first
+// launch, with Enter.
+func (h *harness) start() *practice {
+	h.t.Helper()
+	h.settle("the catalog", func() bool { return !h.app.catalog.loading })
+	if !h.tt.HasText(h.app.t("desktop.welcome_question")) {
+		h.t.Fatalf("no welcome: %q", h.tt.Texts())
+	}
+	h.tt.Key(0, ui.KeyEnter)
+	h.settle("the lesson", func() bool { return h.app.practice != nil && h.app.practice.session != nil })
+	return h.app.practice
+}
+
+// window returns the view of the other window of key the app opened last.
+func (h *harness) window(key string) *ui.Tester {
+	h.t.Helper()
+	for i := len(h.windows) - 1; i >= 0; i-- {
+		if w := h.windows[i]; w.Key == key {
+			tt := ui.NewTester(w.View, int(w.Width), int(w.Height))
+			tt.Frame()
+			return tt
+		}
+	}
+	h.t.Fatalf("no %s window", key)
+	return nil
+}
+
+// typeText types text a character at a time, Enter for a line break.
+func (h *harness) typeText(text string) {
+	for _, r := range text {
+		if r == '\n' {
+			h.tt.Key(0, ui.KeyEnter)
+		} else {
+			h.tt.Type(string(r))
+		}
+		time.Sleep(3 * time.Millisecond) // a human's keystrokes vary
+	}
+	h.tt.Frame()
+}
+
+// findMenuItem returns the menu of the application menu that holds the
+// item of label, and the item's index in it.
+func findMenuItem(a *App, label string) (*mygo.MenuItem, int) {
+	for _, top := range a.Menu().Items() {
+		for i, it := range top.Submenu {
+			if it.Label == label {
+				return top, i
+			}
+		}
+	}
+	return nil, -1
+}
+
+// menuItem returns the item of label in the application menu, nil when
+// there is none.
+func menuItem(a *App, label string) *mygo.MenuItem {
+	if menu, i := findMenuItem(a, label); menu != nil {
+		return menu.Submenu[i]
+	}
+	return nil
 }
 
 func (h *harness) practice() *practice {
@@ -173,16 +256,16 @@ func TestPracticeWithAnInputMethod(t *testing.T) {
 	h := newHarness(t)
 	tt := h.tt
 	h.settle("the catalog", func() bool { return !h.app.catalog.loading })
-	if !tt.HasText("开始练习") {
-		t.Fatalf("home in Chinese: %q", tt.Texts())
+	if !tt.HasText("开始练习") || !tt.HasText("小学二年级") {
+		t.Fatalf("welcome in Chinese: %q", tt.Texts())
 	}
-	h.snapshot("home")
+	h.snapshot("welcome")
 
-	tt.Key(0, ui.KeyEnter)
-	h.settle("the lesson", func() bool { return h.app.practice != nil && h.app.practice.session != nil })
-	if !tt.HasText("静夜思") {
-		t.Fatalf("lesson page: %q", tt.Texts())
+	h.start()
+	if !tt.HasText("静夜思") || !tt.HasText(h.app.t("desktop.timer_hint")) || h.app.prefs.Collection != "grade-1" {
+		t.Fatalf("lesson page of %q: %q", h.app.prefs.Collection, tt.Texts())
 	}
+	h.snapshot("lesson")
 	if _, ok := tt.TextCaret(); !ok {
 		t.Fatal("the typing area takes no input method text")
 	}
@@ -254,9 +337,22 @@ func TestPracticeWithAnInputMethod(t *testing.T) {
 	if s.Started() || s.Index != 0 || p.result != nil {
 		t.Fatal("R did not restart")
 	}
+
+	// Closed, the results leave the text in view, and their keys work.
+	h.typeText(testLesson)
+	if p.result == nil {
+		t.Fatal("not completed again")
+	}
+	tt.Key(0, ui.KeyEscape)
+	tt.Frame()
+	if !p.result.dismissed || tt.HasText(h.app.t("next_lesson")) {
+		t.Fatalf("the sheet stayed: %q", tt.Texts())
+	}
+	tt.Key(0, ui.KeyEnter)
+	h.settle("the next lesson", func() bool { return h.app.currentPractice() != nil && h.app.lessonID == "cx" })
 }
 
-func TestEveryLanguageBuildsTheHomePage(t *testing.T) {
+func TestEveryLanguageBuildsTheWelcome(t *testing.T) {
 	h := newHarness(t)
 	h.settle("the catalog", func() bool { return !h.app.catalog.loading })
 	for _, code := range []string{"en", "ja", "ko", "de"} {
@@ -272,7 +368,7 @@ func TestEveryLanguageBuildsTheHomePage(t *testing.T) {
 func TestSignedInRunIsSubmitted(t *testing.T) {
 	h := newHarness(t)
 	tt, a := h.tt, h.app
-	h.settle("the catalog", func() bool { return !a.catalog.loading })
+	p := h.start()
 
 	// Sign in with the email form: a wrong password first.
 	h.click(a.t("auth.login"))
@@ -290,25 +386,13 @@ func TestSignedInRunIsSubmitted(t *testing.T) {
 	tt.Frame() // the field takes the new value
 	tt.Key(0, ui.KeyEnter)
 	h.settle("the profile", func() bool { return a.account.profile != nil })
-	if a.dialogs.login || !tt.HasText("Ada") {
+	if _, ok := tt.Find("Ada"); a.dialogs.login || !ok {
 		t.Fatalf("not signed in: dialog %v, texts %q", a.dialogs.login, tt.Texts())
 	}
 	h.snapshot("signed-in")
 
-	// A run, recorded on the server. The focus went back to the user's
-	// button, which takes Enter: click.
-	h.click(a.t("start"))
-	h.settle("the lesson", func() bool { return a.practice != nil && a.practice.session != nil })
-	p := a.practice
-	for _, r := range testLesson {
-		if r == '\n' {
-			tt.Key(0, ui.KeyEnter)
-		} else {
-			tt.Type(string(r))
-		}
-		time.Sleep(3 * time.Millisecond) // a human's keystrokes vary
-	}
-	tt.Frame()
+	// A run, recorded on the server.
+	h.typeText(testLesson)
 	if p.result == nil {
 		t.Fatal("not completed")
 	}
@@ -334,30 +418,94 @@ func TestSignedInRunIsSubmitted(t *testing.T) {
 	if !p.result.newRecord {
 		t.Error("a first run is a new record")
 	}
+
+	// The user's statistics open in a window of their own.
+	a.openStats()
+	h.settle("the runs", func() bool { return a.stats.loaded })
+	if st := h.window("stats"); !st.HasText(a.t("auth.no_records")) {
+		t.Fatalf("statistics: %q", st.Texts())
+	}
 }
 
-// Enter opens the lesson after a grade was chosen, as it does before: it
-// chooses an option only while the list is open.
-func TestEnterStartsAfterChoosingAGrade(t *testing.T) {
+// The welcome sheet of the first launch chooses the collection, which the
+// title bar's menu and the menu bar's change later.
+func TestChoosingTheCollection(t *testing.T) {
 	h := newHarness(t)
 	tt, a := h.tt, h.app
 	h.settle("the catalog", func() bool { return !a.catalog.loading })
-	h.click("小学一年级")
-	if !tt.HasText("小学二年级") {
-		t.Fatalf("the list did not open: %q", tt.Texts())
-	}
-	// Enter in the open list chooses the highlighted option.
-	tt.Key(0, ui.KeyDown)
+	h.click("小学二年级")
+	// Enter starts, though the tile has the focus.
 	tt.Key(0, ui.KeyEnter)
-	tt.Frame()
-	if a.prefs.Collection != "grade-2" || a.router.Path() != "/" {
-		t.Fatalf("collection %q, page %s", a.prefs.Collection, a.router.Path())
+	h.settle("the lesson", func() bool { return a.practice != nil && a.practice.session != nil })
+	if a.prefs.Collection != "grade-2" || a.lessonID != "cx" {
+		t.Fatalf("collection %q, lesson %q", a.prefs.Collection, a.lessonID)
 	}
-	// With the list closed, Enter starts, though the select has the focus.
-	tt.Key(0, ui.KeyEnter)
-	tt.Frame()
-	if !strings.HasPrefix(a.router.Path(), "/lesson/") {
-		t.Fatalf("Enter did not start: page %s, texts %q", a.router.Path(), tt.Texts())
+
+	// The title bar's button, named after the collection, opens its menu.
+	h.click("小学二年级")
+	if menu := tt.Menu(); len(menu) != 2 || menu[0] != "小学一年级" {
+		t.Fatalf("menu %q", menu)
+	}
+	if err := tt.ChooseMenuItem("小学一年级"); err != nil {
+		t.Fatal(err)
+	}
+	h.settle("the lesson", func() bool { return a.currentPractice() != nil && a.lessonID == "jys" })
+	if a.prefs.Collection != "grade-1" {
+		t.Fatalf("collection %q", a.prefs.Collection)
+	}
+
+	// The menu bar's Practice menu checks it, and chooses too.
+	if grade1 := menuItem(a, "小学一年级"); !grade1.Checked || grade1.Accelerator != "CmdOrCtrl+1" {
+		t.Errorf("%q: checked %v, %s", grade1.Label, grade1.Checked, grade1.Accelerator)
+	}
+	grade2 := menuItem(a, "小学二年级")
+	grade2.Click(grade2, nil)
+	h.settle("the lesson", func() bool { return a.currentPractice() != nil && a.lessonID == "cx" })
+}
+
+// Settings… opens the settings' window, which sets the language and the
+// appearance, and shows the account.
+func TestSettingsWindow(t *testing.T) {
+	h := newHarness(t)
+	a := h.app
+	h.start()
+	settings := menuItem(a, a.t("menu.settings"))
+	if settings == nil || settings.Accelerator != "CmdOrCtrl+," {
+		t.Fatalf("Settings… %+v", settings)
+	}
+	settings.Click(settings, nil)
+	h.settle("the window", func() bool { return len(h.windows) > 0 })
+	st := h.window("settings")
+	if h.windows[0].Title() != "通用" || !st.HasText(a.t("settings.language_hint")) {
+		t.Fatalf("title %q, texts %q", h.windows[0].Title(), st.Texts())
+	}
+	h.snapshotOf(st, "settings")
+
+	if err := st.Click(a.t("settings.appearance_dark")); err != nil {
+		t.Fatal(err)
+	}
+	st.Frame()
+	if a.prefs.Theme != "dark" {
+		t.Fatalf("theme %q", a.prefs.Theme)
+	}
+
+	if err := st.Click("中文"); err != nil {
+		t.Fatal(err)
+	}
+	if err := st.ChooseMenuItem("English"); err != nil {
+		t.Fatal(err)
+	}
+	st.Frame()
+	if a.lang.Code != "en" || !st.HasText("Appearance") || a.lessonID != "" {
+		t.Fatalf("language %s, lesson %q, texts %q", a.lang.Code, a.lessonID, st.Texts())
+	}
+
+	if err := st.Click("Account"); err != nil {
+		t.Fatal(err)
+	}
+	st.Frame()
+	if h.windows[0].Title() != "Account" || !st.HasText(a.t("auth.login_prompt")) {
+		t.Fatalf("title %q, texts %q", h.windows[0].Title(), st.Texts())
 	}
 }
 
@@ -365,23 +513,13 @@ func TestEnterStartsAfterChoosingAGrade(t *testing.T) {
 // the interface's language, and only when the app can check.
 func TestCheckForUpdatesInTheMenu(t *testing.T) {
 	a := newHarness(t).app
-	find := func() (*mygo.MenuItem, int) {
-		for _, top := range a.Menu().Items() {
-			for i, it := range top.Submenu {
-				if it.Label == a.t("menu.check_for_updates") {
-					return top, i
-				}
-			}
-		}
-		return nil, -1
-	}
-	if menu, _ := find(); menu != nil {
+	if menuItem(a, a.t("menu.check_for_updates")) != nil {
 		t.Fatal("an item without an updater")
 	}
 
 	checks := 0
 	a.checkForUpdates = func() { checks++ }
-	menu, i := find()
+	menu, i := findMenuItem(a, a.t("menu.check_for_updates"))
 	switch {
 	case menu == nil:
 		t.Fatal("no item")
@@ -401,7 +539,7 @@ func TestCheckForUpdatesInTheMenu(t *testing.T) {
 func TestGoogleSignInComesBackThroughTheBrowser(t *testing.T) {
 	h := newHarness(t)
 	tt, a := h.tt, h.app
-	h.settle("the catalog", func() bool { return !a.catalog.loading })
+	h.start()
 
 	// startGoogle opens the browser on Google's sign-in and returns where it
 	// comes back to.
@@ -462,7 +600,7 @@ func TestGoogleSignInComesBackThroughTheBrowser(t *testing.T) {
 		t.Fatalf("success page: %s", page)
 	}
 	h.settle("the profile", func() bool { return a.account.profile != nil })
-	if a.dialogs.login || !tt.HasText("Ada") {
+	if _, ok := tt.Find("Ada"); a.dialogs.login || !ok {
 		t.Fatalf("dialog %v, texts %q", a.dialogs.login, tt.Texts())
 	}
 	h.snapshot("google-signed-in")

@@ -8,11 +8,29 @@
     "browser_signed_in_title": "You're signed in",
     "browser_signed_in_body": "You can close this page and go back to Lesson Typing.",
     "browser_failed_title": "Sign-in was not completed",
-    "browser_failed_body": "Go back to Lesson Typing and try again."
+    "browser_failed_body": "Go back to Lesson Typing and try again.",
+    "timer_hint": "The clock starts with your first keystroke",
+    "welcome_question": "Where would you like to start?",
+    "welcome_hint": "You can switch any time with the button at the top right, or from the Practice menu.",
+    "lesson_count": "{{count}} lessons",
+    "switch_collection": "Switch collection",
+    "grade": "Rank"
   },
   "menu": {
     "practice": "Practice",
     "help": "Help",
-    "check_for_updates": "Check for Updates…"
+    "check_for_updates": "Check for Updates…",
+    "settings": "Settings…"
+  },
+  "settings": {
+    "general": "General",
+    "account": "Account",
+    "language_hint": "Switches both the interface and the lessons.",
+    "appearance": "Appearance",
+    "appearance_auto": "Auto",
+    "appearance_light": "Light",
+    "appearance_dark": "Dark",
+    "updates": "Updates",
+    "updates_hint": "Checks for updates once a day"
   }
 }

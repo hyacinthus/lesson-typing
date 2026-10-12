@@ -9,99 +9,86 @@ import (
 )
 
 const (
-	textSize       = 24
-	cardPaddingX   = 32
-	cardPaddingY   = 24
+	textSize = 30
+	// textBleed is how far the current character's and the mistakes'
+	// backgrounds, and the composition's bubble, may go past the text.
+	textBleed      = 32
 	minVisible     = 3
 	caretWidth     = 2
 	caretBlinkWait = 600 * time.Millisecond
 	caretBlink     = 530 * time.Millisecond
 )
 
-// typingCard builds the card the user types into: the lesson's text, the
-// caret, the input method's composition, and a progress bar, at width.
-// It takes keys, text and compositions as they come.
-func (a *App) typingCard(c *ui.Context, p *practice, width, maxHeight float32) {
+// typingArea builds the text the user types, width wide: the lesson's
+// text, the caret and the input method's composition, scrolled to the
+// current line when it does not fit in maxHeight. It takes keys, text and
+// compositions as they come.
+func (a *App) typingArea(c *ui.Context, p *practice, width, maxHeight float32) {
 	pal, s, tv := a.pal, p.session, p.view
 	p.settleComposition()
 
-	// The card's border takes room inside its width.
-	textWidth := width - 2 - 2*cardPaddingX
-	tv.layout(textWidth, textSize)
+	tv.layout(width, textSize)
 	// Once done, Index is past the end: no character is current.
 	current := s.Index
 
 	lh := tv.lineHeight()
 	lines := len(tv.lines)
-	visible := min(lines, max(minVisible, int((maxHeight-2*cardPaddingY-4)/lh)))
+	visible := min(lines, max(minVisible, int(maxHeight/lh)))
 	curLine := tv.lineAt(s.Index)
 	// The current line stays second from the top once past the first.
 	first := max(0, min(curLine-1, lines-visible))
 
-	// The card does not clip, so that the composition's bubble can rise
-	// above it from the first line.
-	ui.Column(c).Width(width).Radius(10).Background(pal.card).Border(1, pal.border).
-		Shadow(0, 1, 2, 0, ui.RGBA(0, 0, 0, 0.05)).Children(func() {
-		// Progress along the top.
-		progress := float32(0)
-		if len(s.Chars) > 0 {
-			progress = float32(s.Index) / float32(len(s.Chars))
+	// The area paints a little past its box: the backgrounds of the
+	// characters at its edges, and the composition's bubble above the first
+	// line.
+	area := ui.Box(c).Width(width).Height(float32(visible) * lh).
+		Focusable().FocusRing(false).Cursor(ui.CursorText).Label(p.lesson.Title)
+	scroll := area.Animate("scroll", float32(first)*lh, 180*time.Millisecond)
+	// The lines in view, where the scroll goes and where it is on the
+	// way: a restart flies back over the whole text.
+	shownFirst := int(scroll / lh)
+	tv.sync(s.Chars, s.Edits, current, pal, min(first, shownFirst)-1, max(first, shownFirst)+visible+3)
+
+	// The caret slides along its line and jumps to the next.
+	caretTop := float32(curLine)*lh - scroll + (lh-textSize*1.3)/2
+	caretX := area.Animate(struct{ line int }{curLine}, tv.caretX(s.Index), 70*time.Millisecond)
+	caret := ui.Rect{X: caretX, Y: caretTop, W: caretWidth, H: textSize * 1.3}
+	if r, ok := tv.charRect(s.Index); ok {
+		caret.W = max(r.W, caretWidth)
+	}
+
+	// The composition shows in a bubble above the caret, and the
+	// candidate window below it.
+	var bubble ui.Rect
+	if p.composing != "" {
+		bubble = a.compositionBubble(c, p, caret, width)
+	}
+
+	if !s.Done {
+		area.HandleInput(func(ev ui.InputEvent) bool { return a.typingInput(p, ev) }).TextCaret(caret)
+		// The typing area keeps the focus, as the web's does, unless
+		// something covers the page.
+		if !a.modal() {
+			area.Focus()
 		}
-		track := ui.Box(c).FillWidth().Radius(9, 9, 0, 0).Clip()
-		shown := track.Animate("progress", progress, 300*time.Millisecond)
-		track.Children(func() {
-			ui.Progress(c, float64(shown)).Height(4).Radius(0).Background(pal.muted).Label(p.lesson.Title)
-		})
+	}
 
-		area := ui.Box(c).Height(float32(visible)*lh).Margin(cardPaddingY, cardPaddingX).
-			Focusable().FocusRing(false).Cursor(ui.CursorText).Label(p.lesson.Title)
-		scroll := area.Animate("scroll", float32(first)*lh, 180*time.Millisecond)
-		// The lines in view, where the scroll goes and where it is on the
-		// way: a restart flies back over the whole text.
-		shownFirst := int(scroll / lh)
-		tv.sync(s.Chars, s.Edits, current, pal, min(first, shownFirst)-1, max(first, shownFirst)+visible+3)
-
-		// The caret slides along its line and jumps to the next.
-		caretTop := float32(curLine)*lh - scroll + (lh-textSize*1.3)/2
-		caretX := area.Animate(struct{ line int }{curLine}, tv.caretX(s.Index), 70*time.Millisecond)
-		caret := ui.Rect{X: caretX, Y: caretTop, W: caretWidth, H: textSize * 1.3}
-		if r, ok := tv.charRect(s.Index); ok {
-			caret.W = max(r.W, caretWidth)
-		}
-
-		// The composition shows in a bubble above the caret, and the
-		// candidate window below it.
-		var bubble ui.Rect
-		if p.composing != "" {
-			bubble = a.compositionBubble(c, p, caret, textWidth)
-		}
-
-		if !s.Done {
-			area.HandleInput(func(ev ui.InputEvent) bool { return a.typingInput(p, ev) }).TextCaret(caret)
-			// The typing area keeps the focus, as the web's does, unless
-			// something covers the page.
-			if !a.modal() {
-				area.Focus()
+	lastInput, composing, caretIdx := p.lastInput, p.composing, p.composeCaret
+	done := s.Done
+	area.Draw(func(pt *ui.Painter, r ui.Rect) {
+		pt.Clip(ui.Rect{X: r.X - textBleed, Y: r.Y - 4, W: r.W + 2*textBleed, H: r.H + 8}, 0, func() {
+			from := max(0, int(scroll/lh)-1)
+			to := min(lines, from+visible+3)
+			for li := from; li < to; li++ {
+				a.drawLine(pt, tv, li, r.X, r.Y+float32(li)*lh-scroll, s.Chars, current)
 			}
-		}
-
-		lastInput, composing, caretIdx := p.lastInput, p.composing, p.composeCaret
-		done := s.Done
-		area.Draw(func(pt *ui.Painter, r ui.Rect) {
-			pt.Clip(ui.Rect{X: r.X - cardPaddingX, Y: r.Y - 4, W: r.W + 2*cardPaddingX, H: r.H + 8}, 0, func() {
-				from := max(0, int(scroll/lh)-1)
-				to := min(lines, from+visible+3)
-				for li := from; li < to; li++ {
-					a.drawLine(pt, tv, li, r.X, r.Y+float32(li)*lh-scroll, s.Chars, current)
-				}
-				if !done {
-					drawCaret(pt, ui.Rect{X: r.X + caret.X, Y: r.Y + caret.Y, W: caretWidth, H: caret.H}, pal.primary, lastInput)
-				}
-			})
-			if composing != "" {
-				a.drawComposition(pt, ui.Rect{X: r.X + bubble.X, Y: r.Y + bubble.Y, W: bubble.W, H: bubble.H}, composing, caretIdx)
+			if !done {
+				drawCaret(pt, ui.Rect{X: r.X + caret.X, Y: r.Y + caret.Y, W: caretWidth, H: caret.H}, pal.primary, lastInput)
 			}
 		})
+		if composing != "" {
+			a.drawComposition(pt, ui.Rect{X: r.X + bubble.X, Y: r.Y + bubble.Y, W: bubble.W, H: bubble.H}, composing, caretIdx)
+		}
 	})
 }
 

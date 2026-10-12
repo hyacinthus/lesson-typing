@@ -8,11 +8,29 @@
     "browser_signed_in_title": "Du bist angemeldet",
     "browser_signed_in_body": "Du kannst diese Seite schließen und zu Lesson Typing zurückkehren.",
     "browser_failed_title": "Die Anmeldung wurde nicht abgeschlossen",
-    "browser_failed_body": "Kehre zu Lesson Typing zurück und versuche es erneut."
+    "browser_failed_body": "Kehre zu Lesson Typing zurück und versuche es erneut.",
+    "timer_hint": "Die Zeit läuft ab dem ersten Tastendruck",
+    "welcome_question": "Womit möchtest du anfangen?",
+    "welcome_hint": "Du kannst jederzeit über die Schaltfläche oben rechts oder im Menü „Übung“ wechseln.",
+    "lesson_count": "{{count}} Texte",
+    "switch_collection": "Sammlung wechseln",
+    "grade": "Niveau"
   },
   "menu": {
     "practice": "Übung",
     "help": "Hilfe",
-    "check_for_updates": "Nach Updates suchen …"
+    "check_for_updates": "Nach Updates suchen …",
+    "settings": "Einstellungen …"
+  },
+  "settings": {
+    "general": "Allgemein",
+    "account": "Account",
+    "language_hint": "Wechselt die Oberfläche und die Texte.",
+    "appearance": "Erscheinungsbild",
+    "appearance_auto": "Automatisch",
+    "appearance_light": "Hell",
+    "appearance_dark": "Dunkel",
+    "updates": "Updates",
+    "updates_hint": "Sucht einmal am Tag nach Updates"
   }
 }

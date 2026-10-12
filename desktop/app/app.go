@@ -1,5 +1,6 @@
-// Package app is the desktop app's interface, in native UI: the home page,
-// the practice of a lesson and its results, and the account's dialogs.
+// Package app is the desktop app's interface, in native UI: one window that
+// opens on a lesson to type, its results, the account's dialogs, and the
+// windows of the settings and of the user's statistics.
 package app
 
 import (
@@ -27,18 +28,27 @@ type App struct {
 	post            func(fn func())
 	setMenu         func(*mygo.Menu)
 	showWindow      func()
+	openWindow      func(WindowSpec)
+	setThemeSource  func(mygo.ThemeSource)
 	checkForUpdates func()
+	version         string
 
-	router *ui.Router
-	pal    *palette
-	tr     i18n.Translator
+	pal *palette
+	tr  i18n.Translator
 
-	lang        i18n.Language
-	catalog     *catalog
-	practice    *practice
-	account     account
-	dialogs     dialogs
-	pendingToks []toast
+	// lessonID is the lesson the window shows, "" before one opens.
+	lessonID string
+	lang     i18n.Language
+	catalog  *catalog
+	practice *practice
+	account  account
+	dialogs  dialogs
+	stats    stats
+	// settingsPane is the pane the settings show: general, or account.
+	settingsPane int
+	// welcomeChoice is the collection the first launch's sheet chose.
+	welcomeChoice string
+	pendingToks   []toast
 	// loopback is the server waiting for the browser's return from a
 	// Google sign-in, nil when none waits.
 	loopback *loopback
@@ -55,12 +65,31 @@ type Options struct {
 	// SetMenu sets the application menu, in the language of the interface
 	// as it changes.
 	SetMenu func(*mygo.Menu)
-	// ShowWindow brings the window to the front, on the main thread, as a
-	// sign-in completes in the browser.
+	// ShowWindow brings the main window to the front, on the main thread:
+	// as a sign-in completes in the browser, or the settings open one of
+	// its dialogs.
 	ShowWindow func()
+	// OpenWindow shows another window of the app's, or brings it to the
+	// front when it is open.
+	OpenWindow func(WindowSpec)
+	// SetThemeSource sets the appearance of the app's windows.
+	SetThemeSource func(mygo.ThemeSource)
 	// CheckForUpdates checks for a new version as the user asked, from the
 	// menu; nil leaves the menu item out.
 	CheckForUpdates func()
+	// Version is the app's, which the settings show.
+	Version string
+}
+
+// WindowSpec is a window of the app's besides the main one.
+type WindowSpec struct {
+	// Key names the window: opening it again brings it to the front.
+	Key string
+	// Title is the window's title, read again as the interface changes.
+	Title         func() string
+	Width, Height float32
+	Resizable     bool
+	View          func(c *ui.Context)
 }
 
 // New returns the app, its session restored from files.
@@ -71,8 +100,10 @@ func New(o Options) *App {
 		post:            o.Post,
 		setMenu:         o.SetMenu,
 		showWindow:      o.ShowWindow,
+		openWindow:      o.OpenWindow,
+		setThemeSource:  o.SetThemeSource,
 		checkForUpdates: o.CheckForUpdates,
-		router:          ui.NewRouter("/"),
+		version:         o.Version,
 		pal:             &lightPalette,
 	}
 	if o.Files != nil {
@@ -96,7 +127,8 @@ func InitialLanguage(saved, locale string) i18n.Language {
 	return l
 }
 
-// setLanguage switches the interface and the lessons to l.
+// setLanguage switches the interface and the lessons to l, opening a
+// lesson of l once its lessons load.
 func (a *App) setLanguage(l i18n.Language) {
 	if a.lang == l && a.catalog != nil {
 		return
@@ -108,10 +140,21 @@ func (a *App) setLanguage(l i18n.Language) {
 		a.savePrefs()
 	}
 	a.catalog = a.loadCatalog(l)
+	a.lessonID = "" // a lesson of l opens once its lessons load
+	a.updateMenu()
+}
+
+// updateMenu sets the application menu again, as the language, the
+// collections or the one chosen change.
+func (a *App) updateMenu() {
 	if a.setMenu != nil {
 		a.setMenu(a.Menu())
 	}
 }
+
+// changed redraws every window after a change made in one: the views of
+// the others do not know of it.
+func (a *App) changed() { a.post(func() {}) }
 
 func (a *App) savePrefs() {
 	if a.files != nil {
@@ -144,8 +187,8 @@ func (a *App) toast(kind, text string) {
 	a.pendingToks = append(a.pendingToks, toast{text: text, kind: kind})
 }
 
-// View builds the window's interface.
-func (a *App) View(c *ui.Context) {
+// applyTheme gives a window's view the colors of the appearance chosen.
+func (a *App) applyTheme(c *ui.Context) {
 	dark := c.Theme().Dark
 	switch a.prefs.Theme {
 	case "light":
@@ -159,20 +202,21 @@ func (a *App) View(c *ui.Context) {
 		a.pal, theme = &darkPalette, darkTheme
 	}
 	c.SetTheme(theme)
+}
 
+// View builds the main window's interface.
+func (a *App) View(c *ui.Context) {
+	a.applyTheme(c)
 	for _, tk := range a.pendingToks {
 		c.AddToast(ui.Toast{Title: tk.text, Type: tk.kind})
 	}
 	a.pendingToks = nil
 
-	a.router.View(c, func(r *ui.Route) {
-		switch {
-		case r.Match("/lesson/{id}"):
-			a.practicePage(c, r.Param("id"))
-		default:
-			a.homePage(c)
-		}
-	})
+	if a.lessonID != "" {
+		a.practicePage(c, a.lessonID)
+	} else {
+		a.startPage(c)
+	}
 	a.accountDialogs(c)
 }
 
@@ -194,29 +238,32 @@ func (a *App) ThemeSource() mygo.ThemeSource {
 	return mygo.ThemeSystem
 }
 
-// toggleTheme switches between light and dark, as the web's toggle does.
-func (a *App) toggleTheme() {
-	if a.pal.dark {
-		a.prefs.Theme = "light"
-	} else {
-		a.prefs.Theme = "dark"
+// setTheme sets the appearance: "light", "dark", or "" to follow the
+// system.
+func (a *App) setTheme(theme string) {
+	if a.prefs.Theme == theme {
+		return
 	}
+	a.prefs.Theme = theme
 	a.savePrefs()
-	mygo.Theme.SetSource(a.ThemeSource())
+	if a.setThemeSource != nil {
+		a.setThemeSource(a.ThemeSource())
+	}
+	a.changed()
 }
 
 // OpenURL handles a deep link of the app's scheme, whose host and path
-// are a page, as lessontyping://lesson/<id>: the callback of a sign-in
-// (config.AuthCallbackURL), or a page of the router.
+// are a page: the callback of a sign-in (config.AuthCallbackURL), or a
+// lesson, as lessontyping://lesson/<id>.
 func (a *App) OpenURL(raw string) {
 	u, err := url.Parse(raw)
 	if err != nil || !strings.EqualFold(u.Scheme, config.URLScheme) {
 		return
 	}
-	switch page := strings.TrimSuffix("/"+u.Host+u.Path, "/"); page {
-	case "/auth/callback":
+	page := strings.TrimSuffix("/"+u.Host+u.Path, "/")
+	if page == "/auth/callback" {
 		a.completeSignIn(u)
-	default:
-		a.router.Push(page)
+	} else if id, ok := strings.CutPrefix(page, "/lesson/"); ok && id != "" {
+		a.lessonID = id
 	}
 }

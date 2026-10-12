@@ -21,9 +21,21 @@ import (
 	"github.com/hyacinthus/lesson-typing/desktop/internal/supa"
 )
 
-// mainWin is the main window, nil while it is closed. Only touched on the
-// main thread, where MyGo runs event listeners.
-var mainWin *mygo.Window
+// mainWin is the main window, nil while it is closed, and others are the
+// app's other windows that are open, by key. Only touched on the main
+// thread, where MyGo runs event listeners.
+var (
+	mainWin *mygo.Window
+	others  = map[string]*otherWindow{}
+)
+
+// otherWindow is a window of the app's besides the main one: its title
+// follows the state, as the language changes.
+type otherWindow struct {
+	win       *mygo.Window
+	titleFunc func() string
+	title     string // the title shown
+}
 
 func main() {
 	// A deep link starts a new process on Windows and Linux: hand it to the
@@ -52,11 +64,16 @@ func main() {
 	mygo.Use(native.New(updater.Options{Language: lang.Code, Icon: app.AppIcon}))
 
 	var a *app.App
+	// A change of the state redraws every window, which all show it.
 	post := func(fn func()) {
+		redraw := func() {
+			fn()
+			refreshOthers()
+		}
 		if mainWin != nil {
-			mainWin.Update(fn)
+			mainWin.Update(redraw)
 		} else {
-			mygo.RunOnMain(fn)
+			mygo.RunOnMain(redraw)
 		}
 	}
 	// Deep links may arrive before the app is ready, at launch on macOS.
@@ -79,7 +96,10 @@ func main() {
 			Locale:          locale,
 			SetMenu:         mygo.App.SetMenu,
 			ShowWindow:      showMainWindow,
+			OpenWindow:      openWindow,
+			SetThemeSource:  mygo.Theme.SetSource,
 			CheckForUpdates: updater.CheckForUpdates,
+			Version:         mygo.App.Version(),
 		})
 		mygo.Theme.SetSource(a.ThemeSource())
 		content = ui.View(a.View)
@@ -121,11 +141,7 @@ var content *ui.Content
 // was closed.
 func showMainWindow() {
 	if mainWin != nil {
-		if mainWin.IsMinimized() {
-			mainWin.Restore()
-		}
-		mainWin.Show()
-		mainWin.Focus()
+		raise(mainWin)
 		return
 	}
 	mainWin = mygo.NewWindow(mygo.WindowOptions{
@@ -143,4 +159,46 @@ func showMainWindow() {
 		Content:         content,
 	})
 	mainWin.OnClosed(func() { mainWin = nil })
+}
+
+// openWindow shows a window of the app's besides the main one, bringing it
+// to the front when it is open.
+func openWindow(spec app.WindowSpec) {
+	if o := others[spec.Key]; o != nil {
+		raise(o.win)
+		return
+	}
+	o := &otherWindow{titleFunc: spec.Title, title: spec.Title()}
+	o.win = mygo.NewWindow(mygo.WindowOptions{
+		Title:           o.title,
+		Width:           int(spec.Width),
+		Height:          int(spec.Height),
+		StateKey:        spec.Key,
+		DisableResize:   !spec.Resizable,
+		DisableMaximize: !spec.Resizable,
+		Content:         ui.View(spec.View),
+	})
+	others[spec.Key] = o
+	o.win.OnClosed(func() { delete(others, spec.Key) })
+}
+
+// refreshOthers redraws the other windows after a change of the state,
+// renamed as their titles change with it.
+func refreshOthers() {
+	for _, o := range others {
+		if t := o.titleFunc(); t != o.title {
+			o.title = t
+			o.win.SetTitle(t)
+		}
+		o.win.Invalidate()
+	}
+}
+
+// raise brings a window to the front, restored when minimized.
+func raise(w *mygo.Window) {
+	if w.IsMinimized() {
+		w.Restore()
+	}
+	w.Show()
+	w.Focus()
 }

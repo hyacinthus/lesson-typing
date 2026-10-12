@@ -1,14 +1,11 @@
-## v0.21.0 (2026-10-10)
+## v0.22.0 (2026-10-12)
 
 ### Features
-- **The desktop app updates itself** — once a day, and from Check for Updates… (the app menu on macOS, Help on Windows and Linux), the app looks for a newer release. A window shows what is new and offers to install it, skip it or wait; installing downloads the new version, checks its signature, replaces the app and restarts it. The window speaks the language the app started in. Updates are signed with a key of the project, which the app checks before installing anything.
-- Apps installed on macOS (in Applications), Windows (the installer) and Linux (`install.sh`) update in place; the `.deb` is updated by the package manager. Installs of v0.20.0 have no updater: install this version by hand once.
-- **Linux: install with one command** — `curl -fsSL https://github.com/hyacinthus/lesson-typing/releases/latest/download/install.sh | sh` downloads the app of the machine's architecture from the latest release and installs it for the user; `install.sh` next to a downloaded `.tar.gz` still installs that one.
+- **The desktop app is one Mac-like window that opens on a lesson** — no home page: the title bar holds the lesson's title, how the run goes (progress, time, speeds, accuracy) in the middle, and on the right the collection, change lesson (⌘N), restart (⌘R) and the account. The text sits in the middle of the window, larger.
+- **Choosing the collection** — at the first launch, a welcome sheet with the app's demo asks which collection to start with; later, the collection button in the title bar or the Practice menu switches it (⌘1–⌘9), opening one of its lessons.
+- **Results in a sheet** — the grade, figures, personal best, recent runs and leaderboard come down over the completed text; Enter goes to the next lesson, R starts over, Escape closes it.
+- **Settings window (⌘,)** — the language, the appearance (auto, light or dark, which now can follow the system), Check for Updates…, and the account: profile, statistics and sign-out.
+- **Statistics in a window of their own** — the progress chart and the latest 20 runs, which follow sign-ins and new runs.
+- Neutral macOS grays in light and dark, with the app's blue and typing colors.
 
-### Fixes
-- **Desktop: the Help menu shows on Windows and Linux** — it was hidden there, with its Feedback item.
-
-### Maintenance
-- Publishing a release now also signs an update archive of each desktop target with the `MYGO_UPDATER_PRIVATE_KEY` secret and attaches it with its manifest (`update-<target>.json`), uploaded last; the build fails without the key, or without the version's section in RELEASE_NOTES.md, which the update window shows.
-
-**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.20.0...v0.21.0
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.21.0...v0.22.0

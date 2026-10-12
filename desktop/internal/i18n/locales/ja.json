@@ -8,11 +8,29 @@
     "browser_signed_in_title": "ログインしました",
     "browser_signed_in_body": "このページを閉じて、Lesson Typing に戻ってください。",
     "browser_failed_title": "ログインを完了できませんでした",
-    "browser_failed_body": "Lesson Typing に戻って、もう一度お試しください。"
+    "browser_failed_body": "Lesson Typing に戻って、もう一度お試しください。",
+    "timer_hint": "最初の文字を打つと計測が始まります",
+    "welcome_question": "どこから始めますか？",
+    "welcome_hint": "あとから右上のボタンや、メニューバーの「練習」でいつでも切り替えられます。",
+    "lesson_count": "{{count}} 編",
+    "switch_collection": "教材を切り替える",
+    "grade": "評価"
   },
   "menu": {
     "practice": "練習",
     "help": "ヘルプ",
-    "check_for_updates": "アップデートを確認…"
+    "check_for_updates": "アップデートを確認…",
+    "settings": "設定…"
+  },
+  "settings": {
+    "general": "一般",
+    "account": "アカウント",
+    "language_hint": "画面と課文の両方が切り替わります。",
+    "appearance": "外観",
+    "appearance_auto": "自動",
+    "appearance_light": "ライト",
+    "appearance_dark": "ダーク",
+    "updates": "アップデート",
+    "updates_hint": "1日に1回自動で確認します"
   }
 }

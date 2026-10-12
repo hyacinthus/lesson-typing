@@ -1,115 +1,214 @@
 package app
 
 import (
+	"math"
+	"runtime"
+	"strconv"
+	"time"
+
 	"github.com/egoist/mygo/ui"
 
-	"github.com/hyacinthus/lesson-typing/desktop/internal/i18n"
+	"github.com/hyacinthus/lesson-typing/desktop/internal/engine"
 )
 
-// titleBar builds the bar along the top of the window, under the window's
-// controls, which drags the window: left, center and right parts.
-func (a *App) titleBar(c *ui.Context, left, center, right func()) {
-	pal := a.pal
+// The window's title bar, which the view draws under the window's controls:
+// the lesson's title on the left, how the run goes in the middle, and the
+// controls on the right, on capsules, as macOS's toolbars have them.
+
+const (
+	// HeaderHeight is the height of the title bar the view draws, which
+	// holds the window controls.
+	HeaderHeight  = 56
+	headerHeight  = HeaderHeight
+	capsuleHeight = 34
+	// wideHeader is the width of a window whose title bar has room for the
+	// run's status between the title and the controls; a narrower window
+	// shows it under the title bar.
+	wideHeader = 1080
+)
+
+// digitKeys are the keys of the collections' shortcuts, Cmd+1 to Cmd+9.
+var digitKeys = []ui.Key{ui.Key1, ui.Key2, ui.Key3, ui.Key4, ui.Key5, ui.Key6, ui.Key7, ui.Key8, ui.Key9}
+
+// titleBar builds the bar along the top of the window, which drags the
+// window: the title, the center part, nil for none, and the right part.
+func (a *App) titleBar(c *ui.Context, title string, center, right func()) {
 	bar := c.TitleBar()
-	ui.Row(c).Height(headerHeight).FillWidth().Padding(0, bar.Right+20, 0, bar.Left+20).
-		Background(pal.header).TextColor(pal.headerText).
-		Shadow(0, 1, 2, 0, ui.RGBA(0, 0, 0, 0.06)).DragWindow().Children(func() {
-		ui.Row(c).Basis(0).Grow(1).Gap(12).Children(left)
-		ui.Row(c).Justify(ui.Center).Shrink(1).Children(center)
-		ui.Row(c).Basis(0).Grow(1).Gap(12).Justify(ui.End).Children(right)
+	ui.Row(c).Height(headerHeight).FillWidth().Padding(0, bar.Right+16, 0, bar.Left+20).Gap(16).
+		DragWindow().Children(func() {
+		ui.Row(c).Basis(0).Grow(1).MinWidth(0).Children(func() {
+			ui.Text(c, title).FontSize(18).FontWeight(600).SingleLine()
+		})
+		if center != nil {
+			ui.Row(c).Shrink(0).Children(center)
+		}
+		ui.Row(c).Basis(0).Grow(1).Gap(10).Justify(ui.End).Children(right)
 	})
 }
 
-// pill styles a control of the title bar as the web's pills.
-func (a *App) pill(e ui.Element) ui.Element {
+// capsule styles e as a control of the title bar, on a capsule.
+func (a *App) capsule(e ui.Element) ui.Element {
 	pal := a.pal
-	return e.Height(36).PaddingX(14).Radius(999).Background(pal.card.Alpha(0.7)).Border(1, pal.border)
+	return e.Height(capsuleHeight).Radius(capsuleHeight/2).Background(pal.capsule).Border(1, pal.capsuleBorder).
+		Shadow(0, 1, 3, 0, ui.RGBA(0, 0, 0, 0.08))
 }
 
-// logo shows the logo and the app's name.
-func (a *App) logo(c *ui.Context) {
-	ui.Row(c).Gap(10).Children(func() {
-		ui.Image(c, logoSVG).Size(32, 32)
-		ui.Text(c, "Lesson Typing").FontSize(18).Bold()
+// shortcutText is how a shortcut of Cmd and key reads on the platform.
+func shortcutText(key string) string {
+	if runtime.GOOS == "darwin" {
+		return "⌘" + key
+	}
+	return "Ctrl+" + key
+}
+
+// capsuleButton is a button of the title bar on a capsule, showing what
+// content builds.
+func (a *App) capsuleButton(c *ui.Context, label string, content func()) ui.Element {
+	pal := a.pal
+	b := ui.Button(c, "").Label(label)
+	a.capsule(b).Padding(0, 12).Gap(6)
+	if b.Hovered() {
+		b.Background(pal.capsule.Mix(pal.foreground, 0.05))
+	}
+	return b.Children(content)
+}
+
+// toolButton is an icon button on a capsule, with a face only under the
+// pointer, as a toolbar's buttons; its tooltip names its shortcut.
+func (a *App) toolButton(c *ui.Context, ic *ui.SVG, label, shortcut string) ui.Element {
+	pal := a.pal
+	b := ui.ButtonBase(c).Label(label).Tooltip(label+"  "+shortcutText(shortcut)).Size(38, 28).Radius(14).Center()
+	if b.Hovered() {
+		b.Background(pal.foreground.Alpha(0.07))
+	}
+	return b.Children(func() {
+		ui.Icon(c, ic).FontSize(17).TextColor(pal.foreground.Alpha(0.85))
 	})
 }
 
-// collectionSelect chooses the collection to practice.
-func (a *App) collectionSelect(c *ui.Context) {
+// practiceControls are the controls of the practice: the collection, a
+// change of lesson, a restart, and the account.
+func (a *App) practiceControls(c *ui.Context, p *practice) {
+	a.collectionButton(c)
+	// A toolbar's capsule, which ui.Toolbar would widen by the room of its
+	// overflow menu.
+	a.capsule(ui.Row(c)).Padding(0, 3).Children(func() {
+		if a.toolButton(c, iconShuffle, a.t("change_article"), "N").Clicked() {
+			a.nextLesson(p)
+		}
+		if a.toolButton(c, iconRestart, a.t("restart"), "R").Clicked() {
+			a.restart(p)
+		}
+	})
+	a.accountButton(c)
+}
+
+// collectionButton chooses the collection to practice from a menu, as the
+// menu bar's Practice menu does: a rare choice, which the title bar keeps
+// small.
+func (a *App) collectionButton(c *ui.Context) {
 	cols := a.catalog.collections
 	if len(cols) == 0 {
-		a.pill(ui.Row(c)).Children(func() {
-			ui.Text(c, a.t("loading")).TextColor(a.pal.mutedForeground)
+		return
+	}
+	pal := a.pal
+	current := a.collection()
+	b := a.capsuleButton(c, current.Name, func() {
+		ui.Icon(c, iconBook).FontSize(15).TextColor(pal.primary)
+		ui.Text(c, current.Name).FontSize(13).FontWeight(500).SingleLine()
+		ui.Icon(c, iconChevronsUpDown).FontSize(11).TextColor(pal.mutedForeground)
+	}).Tooltip(a.t("desktop.switch_collection"))
+	b.Menu(func(m *ui.Menu) {
+		for i, col := range cols {
+			it := m.Item(col.Name).Checked(col.ID == current.ID)
+			if i < len(digitKeys) {
+				it.Shortcut(ui.Cmd, digitKeys[i])
+			}
+			if it.Chosen() {
+				a.chooseCollection(col.ID)
+			}
+		}
+	})
+}
+
+// runStatus shows how the run goes: its progress, time, speeds and
+// accuracy; before it starts, that the clock waits for the first
+// character.
+func (a *App) runStatus(c *ui.Context, p *practice) {
+	pal, s := a.pal, p.session
+	if s == nil {
+		return
+	}
+	row := a.capsule(ui.Row(c)).Gap(12).Padding(0, 16, 0, 12).Shrink(0)
+	if !s.Started() && !s.Done {
+		row.Gap(8).Children(func() {
+			ui.Icon(c, iconKeyboard).FontSize(17).TextColor(pal.mutedForeground)
+			ui.Text(c, a.t("desktop.timer_hint")).FontSize(13).TextColor(pal.mutedForeground).SingleLine()
 		})
 		return
 	}
-	current := a.collection()
-	sel := ui.SelectBase(c.Key("collection-"+a.lang.Code), &current)
-	a.pill(sel.Trigger).MinWidth(160).Gap(8).Children(func() {
-		for _, col := range cols {
-			if col.ID == current {
-				ui.Text(c, col.Name).Grow(1).SingleLine()
-			}
-		}
-		ui.Icon(c, iconChevronDown).FontSize(16).TextColor(a.pal.mutedForeground)
-	})
-	a.selectPopup(c, sel, func(item func(value string, label string)) {
-		for _, col := range cols {
-			item(col.ID, col.Name)
-		}
-	})
-	if sel.Trigger.Changed() {
-		a.setCollection(current)
+	now := time.Now()
+	st := s.Stats()
+	secs := s.Seconds(now)
+	if !s.Done {
+		// Tick with the clock.
+		c.After(time.Second - now.Sub(s.Start)%time.Second)
 	}
-}
-
-// languageSelect chooses the interface's and the lessons' language.
-func (a *App) languageSelect(c *ui.Context) {
-	code := a.lang.Code
-	sel := ui.SelectBase(c.Key("language"), &code)
-	a.pill(sel.Trigger).MinWidth(130).Gap(8).Children(func() {
-		ui.Text(c, a.lang.Label).Grow(1)
-		ui.Icon(c, iconChevronDown).FontSize(16).TextColor(a.pal.mutedForeground)
-	})
-	a.selectPopup(c, sel, func(item func(value string, label string)) {
-		for _, l := range i18n.Languages {
-			item(l.Code, l.Label)
-		}
-	})
-	if sel.Trigger.Changed() {
-		if l, ok := i18n.Find(code); ok {
-			a.setLanguage(l)
-		}
+	grade := string(engine.GradeOf(st.Accuracy, st.CPM))
+	gradeColor := pal.gradeColor(grade)
+	progress := float32(1)
+	if len(s.Chars) > 0 {
+		progress = float32(s.Index) / float32(len(s.Chars))
 	}
-}
-
-// selectPopup builds the options of a select of strings.
-func (a *App) selectPopup(c *ui.Context, sel ui.SelectParts[string], items func(item func(value, label string))) {
-	pal := a.pal
-	sel.Popup(func(panel ui.Element) {
-		panel.Margin(6, 0, 0, 0).Padding(4).Radius(10).MinWidth(160).
-			Background(pal.card).Border(1, pal.border).Shadow(0, 4, 16, 0, ui.RGBA(0, 0, 0, 0.12))
-		items(func(value, label string) {
-			it := sel.Item(value).Padding(7, 12).Radius(6)
-			if it.Highlighted() {
-				it.Background(pal.primary).TextColor(pal.primaryText)
-			}
-			it.Children(func() { ui.Text(c, label) })
+	row.Children(func() {
+		a.progressRing(c, progress)
+		ui.Text(c, engine.FormatDuration(secs)).FontSize(13).FontWeight(600).FontFeatures("tnum")
+		figure := func(value int, unit string) {
+			ui.Box(c).Size(1, 14).Background(pal.border)
+			ui.Row(c).Gap(4).Shrink(0).Children(func() {
+				ui.Text(c, strconv.Itoa(value)).FontSize(13).FontWeight(600).FontFeatures("tnum").NoWrap()
+				ui.Text(c, unit).FontSize(13).TextColor(pal.mutedForeground).NoWrap()
+			})
+		}
+		figure(st.CPM, a.t("stats.char_unit"))
+		figure(st.WPM, a.t("stats.wpm_unit"))
+		ui.Box(c).Size(1, 14).Background(pal.border)
+		// No accuracy before a character is typed, while the first phrase is
+		// composed.
+		if st.Correct+st.Incorrect == 0 {
+			ui.Text(c, "—").FontSize(13).TextColor(pal.mutedForeground)
+			return
+		}
+		ui.Row(c).Gap(6).Children(func() {
+			ui.Text(c, strconv.Itoa(st.Accuracy)+"%").FontSize(13).FontWeight(600).FontFeatures("tnum").TextColor(gradeColor)
+			ui.Text(c, grade).FontSize(10).Bold().TextColor(gradeColor).Background(gradeColor.Alpha(0.15)).Radius(5).Padding(1, 5)
 		})
 	})
 }
 
-// themeToggle switches between light and dark.
-func (a *App) themeToggle(c *ui.Context) {
-	ic := iconSun
-	if a.pal.dark {
-		ic = iconMoon
-	}
-	b := ui.Button(c, "").Label(a.t("theme_toggle")).Tooltip(a.t("theme_toggle"))
-	a.pill(b).Size(36, 36).Padding(0).Center().Children(func() {
-		ui.Icon(c, ic).FontSize(18)
+// progressRing shows the share of the text typed, around a ring.
+func (a *App) progressRing(c *ui.Context, progress float32) {
+	pal := a.pal
+	ring := ui.Box(c).Size(20, 20)
+	shown := ring.Animate("progress", progress, 300*time.Millisecond)
+	ring.Draw(func(pt *ui.Painter, r ui.Rect) {
+		const radius, width = 7.5, 3
+		cx, cy := r.X+r.W/2, r.Y+r.H/2
+		pt.StrokePath(new(ui.Path).Circle(cx, cy, radius), width, pal.foreground.Alpha(0.1))
+		if shown <= 0 {
+			return
+		}
+		arc := new(ui.Path)
+		n := max(2, int(48*shown))
+		for i := 0; i <= n; i++ {
+			t := float64(shown)*2*math.Pi*float64(i)/float64(n) - math.Pi/2
+			x, y := cx+radius*float32(math.Cos(t)), cy+radius*float32(math.Sin(t))
+			if i == 0 {
+				arc.MoveTo(x, y)
+			} else {
+				arc.LineTo(x, y)
+			}
+		}
+		pt.StrokePath(arc, width, pal.primary)
 	})
-	if b.Clicked() {
-		a.toggleTheme()
-	}
 }

@@ -52,7 +52,8 @@ desktop/
                      tested like src/locales)
     prefs/           language, collection, theme, session, local history in
                      the user data directory
-  app/               views: shell, home, practice, results, dialogs
+  app/               views: title bar, welcome, practice, results, dialogs,
+                     settings and statistics windows
 ```
 
 ## Typing surface
@@ -70,7 +71,7 @@ desktop/
   `leading-loose`).
 - The caret position comes from the line layout's `Caret`; it slides
   between characters and blinks while idle. The text scrolls (animated) to
-  keep the current line in the upper part of the card.
+  keep the current line second from the top.
 - The IME preedit shows in a bubble above the caret, and `TextCaret` puts
   the candidate window under the current character.
 
@@ -102,6 +103,24 @@ them against its own computation (CPM within 30%, trace, durations):
 - The session (refresh token) persists in the user data directory with
   0600 permissions and refreshes before expiry.
 
+## A Mac-like window
+
+The first native screens followed the web's pages: a landing-style home,
+then a practice page of cards. They became one window that opens on a
+lesson, as a Mac app opens on its document:
+
+- The title bar holds the lesson's title, the run's status (progress
+  ring, time, speeds, accuracy) in the middle, and on the right the
+  collection, change and restart, and the account, on capsules.
+- What changes rarely leaves the window: the collection is a pop-up menu
+  in the title bar and the Practice menu (⌘1–⌘9), chosen once at the
+  first launch in a welcome sheet, which keeps the web's tagline and demo;
+  the language and the appearance (auto, light, dark) are in the settings
+  window (⌘,), the account in its menu and the settings.
+- The results come in a sheet; the user's statistics in a window of their
+  own.
+- Neutral grays as macOS's, with the web's accent and typing colors.
+
 ## Updates
 
 MyGo's updater with its update window in native UI: the release workflow
@@ -115,7 +134,8 @@ installed apps check in the latest release. No server of our own.
 3. Practice screen against real lessons; IME verified with `ui.Tester`
    (`Compose`, `Type`) and on the real app.
 4. Home (collection, language, theme, demo), results (grade, best, chart,
-   leaderboard, confetti), navigation and shortcuts.
+   leaderboard, confetti), navigation and shortcuts; later the one window
+   above, with the settings and statistics windows.
 5. Accounts: sign-in/up, Google, session persistence, submissions through
    start-practice/submit-practice, profile with avatar crop and upload,
    personal stats.
