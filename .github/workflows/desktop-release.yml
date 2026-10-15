@@ -80,6 +80,8 @@ jobs:
 
       # Release assets need names of their own: both Windows targets make
       # "Lesson Typing Setup <version>.exe", and GitHub turns spaces into dots.
+      # The web's download page (src/lib/desktopRelease.ts) finds the
+      # installers by these names.
       # The update archives keep theirs, which the manifests point to, and the
       # manifests go last, so that apps never read one whose archive is missing.
       - name: Attach the installers and updates to the release

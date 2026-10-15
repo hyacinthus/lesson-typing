@@ -101,5 +101,34 @@
       "error": "프로필 업데이트에 실패했습니다",
       "nickname_placeholder": "닉네임을 입력하세요"
     }
+  },
+  "download": {
+    "menu": "데스크톱 앱",
+    "title": "Lesson Typing 데스크톱 앱",
+    "subtitle": "macOS, Windows, Linux용 네이티브 앱입니다. 웹과 같은 계정으로 로그인하면 기록이 그대로 이어집니다.",
+    "button": "{{platform}}용 다운로드",
+    "mobile_note": "데스크톱 앱은 컴퓨터용입니다. 휴대폰과 태블릿에서는 웹에서 계속 연습하세요.",
+    "feature_native": "네이티브 앱",
+    "feature_native_desc": "브라우저 없이 바로 연습을 시작하고, 다른 글·다시 시작·모음 바꾸기를 단축키로 할 수 있습니다.",
+    "feature_sync": "기록 공유",
+    "feature_sync_desc": "웹과 같은 계정을 쓰므로 기록, 최고 기록, 순위표가 하나로 이어집니다.",
+    "feature_updates": "자동 업데이트",
+    "feature_updates_desc": "새 버전이 나오면 알려 주고, 클릭 한 번으로 업데이트합니다.",
+    "all_platforms": "모든 플랫폼",
+    "mac_requirement": "macOS 12 이상, Apple 실리콘 및 Intel 지원",
+    "windows_requirement": "Windows 10 이상",
+    "linux_requirement": "x64, GTK 3 필요",
+    "mac_dmg": "디스크 이미지(.dmg)",
+    "windows_installer": "설치 프로그램(.exe)",
+    "linux_deb": "Debian 패키지(.deb)",
+    "linux_script": "다른 배포판에서는 터미널에서 다음을 실행하세요:",
+    "copy": "복사",
+    "copied": "복사됨",
+    "mac_first_open": "처음 열 때 macOS가 앱을 확인할 수 없다고 하면, '시스템 설정 › 개인정보 보호 및 보안'에서 '그래도 열기'를 클릭하세요.",
+    "windows_first_open": "'Windows의 PC 보호' 창이 나타나면 '추가 정보'를 클릭한 다음 '실행'을 클릭하세요.",
+    "version": "버전 {{version}}",
+    "release_notes": "릴리스 노트",
+    "all_versions": "모든 버전",
+    "home_link": "macOS, Windows, Linux용 데스크톱 앱 다운로드"
   }
 }

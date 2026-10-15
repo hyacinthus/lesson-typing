@@ -25,3 +25,17 @@ const LESSON_LANGUAGES: Record<string, string> = Object.fromEntries(
 export function getLessonLanguage(uiLang: string): string | undefined {
   return LESSON_LANGUAGES[uiLang.split('-')[0]];
 }
+
+const SITE_TITLES: Record<string, string> = Object.fromEntries(
+  Object.entries(meta.languages).map(([code, { title }]) => [code, title])
+);
+
+/** The site's title in a UI language, as its generated entry page has it. */
+export function getSiteTitle(uiLang: string): string | undefined {
+  return SITE_TITLES[uiLang];
+}
+
+/** A path without its language, e.g. "/download" for "/zh/download". */
+export function pagePath(pathname: string): string {
+  return pathname.replace(/^\/[^/]*/, '');
+}

@@ -101,5 +101,34 @@
       "error": "Impossibile aggiornare il profilo",
       "nickname_placeholder": "Inserisci il tuo soprannome"
     }
+  },
+  "download": {
+    "menu": "App desktop",
+    "title": "Lesson Typing per desktop",
+    "subtitle": "Un'app nativa per macOS, Windows e Linux. Accedi con il tuo account del sito e i tuoi risultati ti seguono.",
+    "button": "Scarica per {{platform}}",
+    "mobile_note": "L'app desktop è per i computer. Su telefono e tablet continua a esercitarti sul sito.",
+    "feature_native": "Un'app nativa",
+    "feature_native_desc": "Niente browser: si apre sulla tua raccolta, con scorciatoie per cambiare testo, ricominciare e cambiare raccolta.",
+    "feature_sync": "I tuoi risultati, ovunque",
+    "feature_sync_desc": "Lo stesso account del sito: stessi risultati, record e classifiche.",
+    "feature_updates": "Aggiornamenti automatici",
+    "feature_updates_desc": "Quando esce una nuova versione, l'app te la propone e si aggiorna con un clic.",
+    "all_platforms": "Tutte le piattaforme",
+    "mac_requirement": "macOS 12 o successivo, per Apple silicon e Intel",
+    "windows_requirement": "Windows 10 o successivo",
+    "linux_requirement": "x64, con GTK 3",
+    "mac_dmg": "Immagine disco (.dmg)",
+    "windows_installer": "Programma di installazione (.exe)",
+    "linux_deb": "Pacchetto Debian (.deb)",
+    "linux_script": "Sulle altre distribuzioni, esegui in un terminale:",
+    "copy": "Copia",
+    "copied": "Copiato",
+    "mac_first_open": "Se al primo avvio macOS dice di non poter verificare l'app, vai in Impostazioni di Sistema › Privacy e sicurezza e fai clic su “Apri comunque”.",
+    "windows_first_open": "Se compare “PC protetto da Windows”, fai clic su “Ulteriori informazioni” e poi su “Esegui comunque”.",
+    "version": "Versione {{version}}",
+    "release_notes": "Note di rilascio",
+    "all_versions": "Tutte le versioni",
+    "home_link": "Scarica l'app desktop per macOS, Windows e Linux"
   }
 }

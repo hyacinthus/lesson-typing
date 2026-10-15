@@ -101,5 +101,34 @@
       "error": "Falha ao atualizar perfil",
       "nickname_placeholder": "Digite seu apelido"
     }
+  },
+  "download": {
+    "menu": "App para computador",
+    "title": "Lesson Typing para computador",
+    "subtitle": "Um app nativo para macOS, Windows e Linux. Entre com sua conta do site e seus resultados vão junto.",
+    "button": "Baixar para {{platform}}",
+    "mobile_note": "O app é feito para computadores. No celular e no tablet, continue praticando no site.",
+    "feature_native": "Um app nativo",
+    "feature_native_desc": "Sem navegador: ele abre na sua coleção, com atalhos para trocar de texto, recomeçar e trocar de coleção.",
+    "feature_sync": "Seus resultados, em todo lugar",
+    "feature_sync_desc": "A mesma conta do site: os mesmos resultados, recordes e rankings.",
+    "feature_updates": "Atualizações automáticas",
+    "feature_updates_desc": "Quando sai uma versão nova, o app avisa e se atualiza com um clique.",
+    "all_platforms": "Todas as plataformas",
+    "mac_requirement": "macOS 12 ou posterior, para Apple silicon e Intel",
+    "windows_requirement": "Windows 10 ou posterior",
+    "linux_requirement": "x64, com GTK 3",
+    "mac_dmg": "Imagem de disco (.dmg)",
+    "windows_installer": "Instalador (.exe)",
+    "linux_deb": "Pacote Debian (.deb)",
+    "linux_script": "Em outras distribuições, execute em um terminal:",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "mac_first_open": "Se o macOS disser que não pode verificar o app na primeira vez que você abri-lo, vá em Ajustes do Sistema › Privacidade e Segurança e clique em “Abrir Mesmo Assim”.",
+    "windows_first_open": "Se aparecer “O Windows protegeu o computador”, clique em “Mais informações” e depois em “Executar assim mesmo”.",
+    "version": "Versão {{version}}",
+    "release_notes": "Notas da versão",
+    "all_versions": "Todas as versões",
+    "home_link": "Baixe o app para macOS, Windows e Linux"
   }
 }

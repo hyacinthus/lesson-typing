@@ -101,5 +101,34 @@
       "error": "Fehler beim Aktualisieren des Profils",
       "nickname_placeholder": "Gib deinen Spitznamen ein"
     }
+  },
+  "download": {
+    "menu": "Desktop-App",
+    "title": "Lesson Typing für den Desktop",
+    "subtitle": "Eine native App für macOS, Windows und Linux. Melde dich mit deinem Web-Konto an, und deine Ergebnisse sind dabei.",
+    "button": "Für {{platform}} herunterladen",
+    "mobile_note": "Die Desktop-App ist für Computer. Auf Handy und Tablet übst du weiter im Web.",
+    "feature_native": "Eine native App",
+    "feature_native_desc": "Kein Browser nötig: Sie öffnet deine Sammlung, mit Tastenkürzeln zum Wechseln des Textes, Neustarten und Wechseln der Sammlung.",
+    "feature_sync": "Überall deine Ergebnisse",
+    "feature_sync_desc": "Dasselbe Konto wie im Web: dieselben Ergebnisse, Rekorde und Bestenlisten.",
+    "feature_updates": "Automatische Updates",
+    "feature_updates_desc": "Gibt es eine neue Version, bietet die App sie an und aktualisiert sich mit einem Klick.",
+    "all_platforms": "Alle Plattformen",
+    "mac_requirement": "macOS 12 oder neuer, für Apple Silicon und Intel",
+    "windows_requirement": "Windows 10 oder neuer",
+    "linux_requirement": "x64, mit GTK 3",
+    "mac_dmg": "Disk-Image (.dmg)",
+    "windows_installer": "Installationsprogramm (.exe)",
+    "linux_deb": "Debian-Paket (.deb)",
+    "linux_script": "Auf anderen Distributionen im Terminal ausführen:",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "mac_first_open": "Meldet macOS beim ersten Öffnen, dass die App nicht überprüft werden kann, öffne Systemeinstellungen › Datenschutz & Sicherheit und klicke auf „Dennoch öffnen“.",
+    "windows_first_open": "Erscheint „Der Computer wurde durch Windows geschützt“, klicke auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“.",
+    "version": "Version {{version}}",
+    "release_notes": "Versionshinweise",
+    "all_versions": "Alle Versionen",
+    "home_link": "Die Desktop-App für macOS, Windows und Linux"
   }
 }

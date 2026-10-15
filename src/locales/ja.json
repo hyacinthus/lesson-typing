@@ -101,5 +101,34 @@
       "error": "プロフィールの更新に失敗しました",
       "nickname_placeholder": "ニックネームを入力"
     }
+  },
+  "download": {
+    "menu": "デスクトップ版",
+    "title": "Lesson Typing デスクトップ版",
+    "subtitle": "macOS、Windows、Linux で使えるネイティブアプリ。Web 版と同じアカウントでログインすれば、成績もそのまま引き継げます。",
+    "button": "{{platform}} 版をダウンロード",
+    "mobile_note": "デスクトップ版はパソコン用です。スマートフォンやタブレットでは、引き続き Web 版で練習してください。",
+    "feature_native": "ネイティブアプリ",
+    "feature_native_desc": "ブラウザは不要。起動するとすぐ練習でき、別の文章・やり直し・教材の切り替えはショートカットでできます。",
+    "feature_sync": "成績を共有",
+    "feature_sync_desc": "Web 版と同じアカウントで、成績・自己ベスト・ランキングがひとつにまとまります。",
+    "feature_updates": "自動アップデート",
+    "feature_updates_desc": "新しいバージョンが出るとお知らせし、ワンクリックでアップデートできます。",
+    "all_platforms": "すべてのプラットフォーム",
+    "mac_requirement": "macOS 12 以降、Apple シリコンと Intel に対応",
+    "windows_requirement": "Windows 10 以降",
+    "linux_requirement": "x64、GTK 3 が必要",
+    "mac_dmg": "ディスクイメージ（.dmg）",
+    "windows_installer": "インストーラ（.exe）",
+    "linux_deb": "Debian パッケージ（.deb）",
+    "linux_script": "その他のディストリビューションでは、ターミナルで次を実行してください：",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "mac_first_open": "初めて開くときに macOS がこのアプリを検証できないと表示したら、「システム設定」›「プライバシーとセキュリティ」で「このまま開く」をクリックしてください。",
+    "windows_first_open": "「Windows によって PC が保護されました」と表示されたら、「詳細情報」をクリックしてから「実行」をクリックしてください。",
+    "version": "バージョン {{version}}",
+    "release_notes": "リリースノート",
+    "all_versions": "すべてのバージョン",
+    "home_link": "デスクトップ版をダウンロード（macOS、Windows、Linux）"
   }
 }

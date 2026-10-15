@@ -101,5 +101,34 @@
       "error": "Échec de la mise à jour du profil",
       "nickname_placeholder": "Entrez votre surnom"
     }
+  },
+  "download": {
+    "menu": "Application de bureau",
+    "title": "Lesson Typing pour ordinateur",
+    "subtitle": "Une application native pour macOS, Windows et Linux. Connectez-vous avec votre compte du site : vos résultats vous suivent.",
+    "button": "Télécharger pour {{platform}}",
+    "mobile_note": "L'application de bureau est faite pour les ordinateurs. Sur téléphone et tablette, continuez à vous entraîner sur le site.",
+    "feature_native": "Une application native",
+    "feature_native_desc": "Pas besoin de navigateur : elle s'ouvre sur votre collection, avec des raccourcis pour changer de texte, recommencer et changer de collection.",
+    "feature_sync": "Les mêmes résultats",
+    "feature_sync_desc": "Le même compte que sur le site : mêmes résultats, mêmes records et mêmes classements.",
+    "feature_updates": "Mises à jour automatiques",
+    "feature_updates_desc": "Quand une nouvelle version sort, l'application la propose et l'installe en un clic.",
+    "all_platforms": "Toutes les plateformes",
+    "mac_requirement": "macOS 12 ou ultérieur, pour Apple silicon et Intel",
+    "windows_requirement": "Windows 10 ou ultérieur",
+    "linux_requirement": "x64, avec GTK 3",
+    "mac_dmg": "Image disque (.dmg)",
+    "windows_installer": "Programme d'installation (.exe)",
+    "linux_deb": "Paquet Debian (.deb)",
+    "linux_script": "Sur les autres distributions, lancez dans un terminal :",
+    "copy": "Copier",
+    "copied": "Copié",
+    "mac_first_open": "Si macOS indique qu'il ne peut pas vérifier l'app à la première ouverture, allez dans Réglages Système › Confidentialité et sécurité et cliquez sur « Ouvrir quand même ».",
+    "windows_first_open": "Si « Windows a protégé votre ordinateur » s'affiche, cliquez sur « Informations complémentaires », puis sur « Exécuter quand même ».",
+    "version": "Version {{version}}",
+    "release_notes": "Notes de version",
+    "all_versions": "Toutes les versions",
+    "home_link": "L'application de bureau pour macOS, Windows et Linux"
   }
 }

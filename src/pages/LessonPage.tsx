@@ -6,6 +6,7 @@ import { LessonPractice } from '../components/lesson/LessonPractice';
 import { findLessonById } from '../utils/lessonLoader';
 import { pickRandomLesson } from '../utils/pickLesson';
 import { Button } from '@/components/ui/button';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import type { Lesson } from '../types';
 
 interface LessonPageProps {
@@ -30,12 +31,7 @@ export function LessonPage({ id }: LessonPageProps) {
 
   const lesson = result?.lesson ?? null;
 
-  useEffect(() => {
-    if (!lesson) return;
-    const previous = document.title;
-    document.title = `${lesson.title} - Lesson Typing`;
-    return () => { document.title = previous; };
-  }, [lesson]);
+  useDocumentTitle(lesson ? `${lesson.title} - Lesson Typing` : undefined);
 
   // Decide the next lesson up front and warm its content while the user
   // types, so "next" switches without a loading screen.

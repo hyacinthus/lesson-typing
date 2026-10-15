@@ -101,5 +101,34 @@
       "error": "Failed to update profile",
       "nickname_placeholder": "Enter your nickname"
     }
+  },
+  "download": {
+    "menu": "Desktop App",
+    "title": "Lesson Typing for Desktop",
+    "subtitle": "A native app for macOS, Windows and Linux. Sign in with your web account, and your results come along.",
+    "button": "Download for {{platform}}",
+    "mobile_note": "The desktop app is for computers. On phones and tablets, keep practicing on the web.",
+    "feature_native": "A native app",
+    "feature_native_desc": "No browser needed: it opens on your collection, with shortcuts to change lessons, restart and switch collections.",
+    "feature_sync": "Your results, everywhere",
+    "feature_sync_desc": "The same account as on the web: one set of results, records and leaderboards.",
+    "feature_updates": "Automatic updates",
+    "feature_updates_desc": "When a new version is out, the app offers it and updates in one click.",
+    "all_platforms": "All platforms",
+    "mac_requirement": "macOS 12 or later, for Apple silicon and Intel",
+    "windows_requirement": "Windows 10 or later",
+    "linux_requirement": "x64, with GTK 3",
+    "mac_dmg": "Disk image (.dmg)",
+    "windows_installer": "Installer (.exe)",
+    "linux_deb": "Debian package (.deb)",
+    "linux_script": "On other distributions, run this in a terminal:",
+    "copy": "Copy",
+    "copied": "Copied",
+    "mac_first_open": "If macOS says it can't verify the app the first time you open it, go to System Settings › Privacy & Security and click “Open Anyway”.",
+    "windows_first_open": "If you see “Windows protected your PC”, click “More info”, then “Run anyway”.",
+    "version": "Version {{version}}",
+    "release_notes": "Release notes",
+    "all_versions": "All versions",
+    "home_link": "Get the desktop app for macOS, Windows and Linux"
   }
 }

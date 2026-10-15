@@ -1,6 +1,7 @@
 import { useState, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-import { BarChart3, LogOut, MessageSquare, User, UserCog } from 'lucide-react';
+import { Link, useParams } from 'react-router';
+import { BarChart3, LogOut, MessageSquare, MonitorDown, User, UserCog } from 'lucide-react';
 import { useAuthStore } from '../../stores/authStore';
 import { lazyNamed } from '@/lib/lazy';
 
@@ -38,6 +39,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 export function UserMenu() {
   const { t } = useTranslation();
+  const { lang = 'en' } = useParams<{ lang: string }>();
   const { user, profile, isLoading, isProfileLoaded, signOut, setLoginDialogOpen } = useAuthStore();
   const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [isEditProfileOpen, setIsEditProfileOpen] = useState(false);
@@ -133,6 +135,12 @@ export function UserMenu() {
           >
             <UserCog size={18} />
             <span>{t('auth.edit_profile')}</span>
+          </DropdownMenuItem>
+          <DropdownMenuItem className="gap-3" asChild>
+            <Link to={`/${lang}/download`}>
+              <MonitorDown size={18} />
+              <span>{t('download.menu')}</span>
+            </Link>
           </DropdownMenuItem>
           <DropdownMenuItem
             className="gap-3"

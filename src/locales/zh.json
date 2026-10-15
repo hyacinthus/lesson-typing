@@ -101,5 +101,34 @@
       "error": "更新资料失败",
       "nickname_placeholder": "输入您的昵称"
     }
+  },
+  "download": {
+    "menu": "下载桌面版",
+    "title": "Lesson Typing 桌面版",
+    "subtitle": "macOS、Windows 和 Linux 上的原生应用。用网页版的账号登录，成绩互通。",
+    "button": "下载 {{platform}} 版",
+    "mobile_note": "桌面版需要安装在电脑上。在手机和平板上，请继续使用网页版练习。",
+    "feature_native": "原生应用",
+    "feature_native_desc": "不用打开浏览器，启动就是你的文集；换一篇、重新开始和切换文集都有快捷键。",
+    "feature_sync": "成绩互通",
+    "feature_sync_desc": "和网页版用同一个账号，成绩、个人记录和排行榜都是同一份。",
+    "feature_updates": "自动更新",
+    "feature_updates_desc": "有新版本时，应用会提示你，点一下就能更新。",
+    "all_platforms": "所有平台",
+    "mac_requirement": "macOS 12 或更高版本，支持 Apple 芯片和 Intel 芯片",
+    "windows_requirement": "Windows 10 或更高版本",
+    "linux_requirement": "x64，需要 GTK 3",
+    "mac_dmg": "磁盘映像（.dmg）",
+    "windows_installer": "安装程序（.exe）",
+    "linux_deb": "Debian 软件包（.deb）",
+    "linux_script": "其他发行版，在终端中运行：",
+    "copy": "复制",
+    "copied": "已复制",
+    "mac_first_open": "首次打开时，如果 macOS 提示无法验证此应用，请前往“系统设置 › 隐私与安全性”，点按“仍要打开”。",
+    "windows_first_open": "如果出现“Windows 已保护你的电脑”，请点“更多信息”，再点“仍要运行”。",
+    "version": "版本 {{version}}",
+    "release_notes": "更新日志",
+    "all_versions": "所有版本",
+    "home_link": "下载桌面版：支持 macOS、Windows 和 Linux"
   }
 }

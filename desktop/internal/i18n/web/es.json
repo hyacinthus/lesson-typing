@@ -101,5 +101,34 @@
       "error": "Error al actualizar perfil",
       "nickname_placeholder": "Ingresa tu apodo"
     }
+  },
+  "download": {
+    "menu": "App de escritorio",
+    "title": "Lesson Typing para escritorio",
+    "subtitle": "Una app nativa para macOS, Windows y Linux. Inicia sesión con tu cuenta de la web y tus resultados te acompañan.",
+    "button": "Descargar para {{platform}}",
+    "mobile_note": "La app de escritorio es para ordenadores. En móviles y tabletas, sigue practicando en la web.",
+    "feature_native": "Una app nativa",
+    "feature_native_desc": "Sin navegador: se abre en tu colección, con atajos para cambiar de texto, reiniciar y cambiar de colección.",
+    "feature_sync": "Tus resultados, en todas partes",
+    "feature_sync_desc": "La misma cuenta que en la web: los mismos resultados, récords y clasificaciones.",
+    "feature_updates": "Actualizaciones automáticas",
+    "feature_updates_desc": "Cuando sale una versión nueva, la app te la ofrece y se actualiza con un clic.",
+    "all_platforms": "Todas las plataformas",
+    "mac_requirement": "macOS 12 o posterior, para Apple silicon e Intel",
+    "windows_requirement": "Windows 10 o posterior",
+    "linux_requirement": "x64, con GTK 3",
+    "mac_dmg": "Imagen de disco (.dmg)",
+    "windows_installer": "Instalador (.exe)",
+    "linux_deb": "Paquete Debian (.deb)",
+    "linux_script": "En otras distribuciones, ejecuta en una terminal:",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "mac_first_open": "Si macOS dice que no puede verificar la app la primera vez que la abres, ve a Ajustes del Sistema › Privacidad y seguridad y haz clic en «Abrir igualmente».",
+    "windows_first_open": "Si aparece «Windows protegió su PC», haz clic en «Más información» y luego en «Ejecutar de todas formas».",
+    "version": "Versión {{version}}",
+    "release_notes": "Notas de la versión",
+    "all_versions": "Todas las versiones",
+    "home_link": "Descarga la app de escritorio para macOS, Windows y Linux"
   }
 }
