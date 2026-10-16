@@ -252,6 +252,15 @@ func (a *App) setTheme(theme string) {
 	a.changed()
 }
 
+// toggleKeyboard shows or hides the keyboard in the corner of the
+// practice.
+func (a *App) toggleKeyboard() {
+	a.prefs.HideKeyboard = !a.prefs.HideKeyboard
+	a.savePrefs()
+	a.updateMenu() // its check
+	a.changed()
+}
+
 // OpenURL handles a deep link of the app's scheme, whose host and path
 // are a page: the callback of a sign-in (config.AuthCallbackURL), or a
 // lesson, as lessontyping://lesson/<id>.

@@ -64,8 +64,12 @@ func (a *App) typingArea(c *ui.Context, p *practice, width, maxHeight float32) {
 		bubble = a.compositionBubble(c, p, caret, width)
 	}
 
+	p.keys.sync(area.Focused(), c.Modifiers(), c.Now())
 	if !s.Done {
-		area.HandleInput(func(ev ui.InputEvent) bool { return a.typingInput(p, ev) }).TextCaret(caret)
+		area.HandleInput(func(ev ui.InputEvent) bool {
+			shown := p.keys.observe(ev, time.Now()) && !a.prefs.HideKeyboard
+			return a.typingInput(p, ev) || shown
+		}).TextCaret(caret)
 		// The typing area keeps the focus, as the web's does, unless
 		// something covers the page.
 		if !a.modal() {

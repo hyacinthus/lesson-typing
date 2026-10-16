@@ -4,6 +4,7 @@ import type { Character, RealtimeStats, PracticeRecord } from '../../types';
 import { CharacterRenderer } from './CharacterRenderer';
 import { ConfettiBurst } from './ConfettiBurst';
 import { InputHandler } from './InputHandler';
+import { KeyboardOverlay } from './KeyboardOverlay';
 import { StatsPanel } from './StatsPanel';
 import { Leaderboard } from './Leaderboard';
 import { lazyNamed } from '@/lib/lazy';
@@ -13,6 +14,7 @@ import { lazyNamed } from '@/lib/lazy';
 const { Component: RecentActivityChart, preload: preloadChart } =
   lazyNamed(() => import('./RecentActivityChart'), 'RecentActivityChart');
 import { useAuthStore } from '../../stores/authStore';
+import { useKeyboardStore } from '../../stores/keyboardStore';
 import { shouldMaintainTypingFocus } from '../../hooks/useCompositionInput';
 import { formatTime, getScoreLevel } from '../../utils/statsCalculator';
 import { Button } from '@/components/ui/button';
@@ -51,6 +53,7 @@ export function TypingArea({
   const { t } = useTranslation();
   const user = useAuthStore((s) => s.user);
   const setLoginDialogOpen = useAuthStore((s) => s.setLoginDialogOpen);
+  const keyboardShown = useKeyboardStore((s) => s.shown);
   const score = getScoreLevel(stats.accuracy, stats.cpm);
   const inputId = 'typing-input-area';
   const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number; height: number } | null>(null);
@@ -176,15 +179,18 @@ export function TypingArea({
 
       {/* 输入处理器 */}
       {!isCompleted && (
-        <InputHandler
-          inputId={inputId}
-          onTextInput={onTextInput}
-          onDelete={onDelete}
-          onInputStart={onInputStart}
-          onInputCancel={onInputCancel}
-          disabled={disabled}
-          cursorPosition={cursorPosition}
-        />
+        <>
+          <InputHandler
+            inputId={inputId}
+            onTextInput={onTextInput}
+            onDelete={onDelete}
+            onInputStart={onInputStart}
+            onInputCancel={onInputCancel}
+            disabled={disabled}
+            cursorPosition={cursorPosition}
+          />
+          {keyboardShown && <KeyboardOverlay inputId={inputId} />}
+        </>
       )}
 
       {/* 完成提示 */}

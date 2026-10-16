@@ -18,6 +18,7 @@
   "time": "Temps",
   "back_home": "Retour à l'Accueil",
   "restart": "Recommencer",
+  "show_keyboard": "Afficher le clavier",
   "recent_activity": "Activité Récente",
   "practice": {
     "sync_failed": "Impossible d'enregistrer ce résultat sur le serveur ; il ne compte que sur cet appareil.",

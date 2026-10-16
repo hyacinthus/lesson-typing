@@ -1,7 +1,9 @@
 import { useMemo, useCallback, useRef, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, Shuffle } from 'lucide-react';
+import { ArrowLeft, Keyboard, Shuffle } from 'lucide-react';
+import { Toggle } from '@/components/ui/toggle';
 import { useHistoryStore } from '../../stores/historyStore';
+import { useKeyboardStore } from '../../stores/keyboardStore';
 import { useTypingEngine } from '../../hooks/useTypingEngine';
 import { TypingArea } from '../typing/TypingArea';
 import { lessonToCharacters } from '../../utils/lessonText';
@@ -19,6 +21,8 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     const addPractice = useHistoryStore((state) => state.addPractice);
     const getBestPracticeLog = useHistoryStore((state) => state.getBestPracticeLog);
     const [historyBest, setHistoryBest] = useState<PracticeRecord | null>(null);
+    const keyboardShown = useKeyboardStore((state) => state.shown);
+    const toggleKeyboard = useKeyboardStore((state) => state.toggle);
     // Holds the in-flight session creation so a fast completion can await it
     // instead of silently submitting without a session id.
     const sessionPromiseRef = useRef<Promise<string | null> | null>(null);
@@ -103,16 +107,29 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                     <span className="hidden md:inline">{t('back_home')}</span>
                 </button>
                 <h2 className="text-base md:text-xl font-bold max-w-[60vw] md:max-w-none truncate">{lesson.title}</h2>
-                {session.startTime === null && (
-                    <button
-                        onClick={onNext}
-                        data-typing-focus-ignore="true"
-                        className="absolute right-3 md:right-6 flex items-center gap-1 md:gap-2 text-header-foreground/80 hover:text-header-foreground transition-colors"
+                <div className="absolute right-3 md:right-6 flex items-center gap-4">
+                    {session.startTime === null && (
+                        <button
+                            onClick={onNext}
+                            data-typing-focus-ignore="true"
+                            className="flex items-center gap-1 md:gap-2 text-header-foreground/80 hover:text-header-foreground transition-colors"
+                        >
+                            <Shuffle size={16} className="md:w-[18px] md:h-[18px]" />
+                            <span className="hidden md:inline">{t('change_article')}</span>
+                        </button>
+                    )}
+                    {/* The keyboard shows on md screens and up only */}
+                    <Toggle
+                        size="sm"
+                        aria-label={t('show_keyboard')}
+                        title={t('show_keyboard')}
+                        pressed={keyboardShown}
+                        onPressedChange={toggleKeyboard}
+                        className="hidden md:inline-flex text-header-foreground/80 hover:bg-header-foreground/10 hover:text-header-foreground data-[state=on]:bg-transparent data-[state=on]:hover:bg-header-foreground/10 data-[state=on]:text-primary"
                     >
-                        <Shuffle size={16} className="md:w-[18px] md:h-[18px]" />
-                        <span className="hidden md:inline">{t('change_article')}</span>
-                    </button>
-                )}
+                        <Keyboard className="size-5" />
+                    </Toggle>
+                </div>
             </div>
 
             <div className="flex-1 w-full max-w-4xl mx-auto px-4">

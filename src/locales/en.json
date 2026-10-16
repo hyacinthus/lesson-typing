@@ -18,6 +18,7 @@
   "time": "Time",
   "back_home": "Back to Home",
   "restart": "Restart",
+  "show_keyboard": "Show keyboard",
   "recent_activity": "Recent Activity",
   "practice": {
     "sync_failed": "Could not save this result to the server, so it only counts on this device.",

@@ -18,6 +18,7 @@
   "time": "Tempo",
   "back_home": "Torna alla home",
   "restart": "Ricomincia",
+  "show_keyboard": "Mostra tastiera",
   "recent_activity": "Attività Recente",
   "practice": {
     "sync_failed": "Impossibile salvare questo risultato sul server; conta solo su questo dispositivo.",

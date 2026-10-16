@@ -18,6 +18,7 @@
   "time": "时间",
   "back_home": "返回首页",
   "restart": "重新开始",
+  "show_keyboard": "显示键盘",
   "recent_activity": "近期练习",
   "practice": {
     "sync_failed": "成绩未能同步到服务器，只保存在本设备上。",

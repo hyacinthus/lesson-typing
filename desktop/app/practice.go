@@ -31,6 +31,8 @@ type practice struct {
 	// signal within its key filtering), which no frame splits.
 	cancelPending bool
 	lastInput     time.Time
+	// keys are what the keyboard in the corner lights.
+	keys keyboard
 
 	// serverRun is the server's record of the run, open from its first
 	// character while signed in.
