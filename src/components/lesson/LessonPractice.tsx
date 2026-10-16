@@ -1,13 +1,21 @@
 import { useMemo, useCallback, useRef, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, Keyboard, Shuffle } from 'lucide-react';
-import { Toggle } from '@/components/ui/toggle';
+import { ArrowLeft, KeyboardOff, PanelBottom, PictureInPicture2, Shuffle, type LucideIcon } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 import { useHistoryStore } from '../../stores/historyStore';
-import { useKeyboardStore } from '../../stores/keyboardStore';
+import { useKeyboardStore, type KeyboardMode } from '../../stores/keyboardStore';
 import { useTypingEngine } from '../../hooks/useTypingEngine';
 import { TypingArea } from '../typing/TypingArea';
 import { lessonToCharacters } from '../../utils/lessonText';
 import type { Lesson, PracticeRecord, RealtimeStats } from '../../types';
+
+// The keyboard modes by where they show the keys
+const KEYBOARD_ICONS: Record<KeyboardMode, LucideIcon> = {
+    corner: PictureInPicture2,
+    large: PanelBottom,
+    off: KeyboardOff,
+};
 
 interface LessonPracticeProps {
     lesson: Lesson;
@@ -21,8 +29,10 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
     const addPractice = useHistoryStore((state) => state.addPractice);
     const getBestPracticeLog = useHistoryStore((state) => state.getBestPracticeLog);
     const [historyBest, setHistoryBest] = useState<PracticeRecord | null>(null);
-    const keyboardShown = useKeyboardStore((state) => state.shown);
-    const toggleKeyboard = useKeyboardStore((state) => state.toggle);
+    const keyboardMode = useKeyboardStore((state) => state.mode);
+    const cycleKeyboard = useKeyboardStore((state) => state.cycle);
+    const KeyboardIcon = KEYBOARD_ICONS[keyboardMode];
+    const keyboardLabel = t(`keyboard_mode.${keyboardMode}`);
     // Holds the in-flight session creation so a fast completion can await it
     // instead of silently submitting without a session id.
     const sessionPromiseRef = useRef<Promise<string | null> | null>(null);
@@ -118,17 +128,20 @@ export function LessonPractice({ lesson, onBack, onNext }: LessonPracticeProps) 
                             <span className="hidden md:inline">{t('change_article')}</span>
                         </button>
                     )}
-                    {/* The keyboard shows on md screens and up only */}
-                    <Toggle
-                        size="sm"
-                        aria-label={t('show_keyboard')}
-                        title={t('show_keyboard')}
-                        pressed={keyboardShown}
-                        onPressedChange={toggleKeyboard}
-                        className="hidden md:inline-flex text-header-foreground/80 hover:bg-header-foreground/10 hover:text-header-foreground data-[state=on]:bg-transparent data-[state=on]:hover:bg-header-foreground/10 data-[state=on]:text-primary"
+                    {/* The keyboards show on md screens and up only */}
+                    <Button
+                        variant="ghost"
+                        size="icon-sm"
+                        aria-label={keyboardLabel}
+                        title={keyboardLabel}
+                        onClick={cycleKeyboard}
+                        className={cn(
+                            'hidden md:inline-flex hover:bg-header-foreground/10 dark:hover:bg-header-foreground/10',
+                            keyboardMode === 'off' ? 'text-header-foreground/80 hover:text-header-foreground' : 'text-primary hover:text-primary',
+                        )}
                     >
-                        <Keyboard className="size-5" />
-                    </Toggle>
+                        <KeyboardIcon className="size-5" />
+                    </Button>
                 </div>
             </div>
 

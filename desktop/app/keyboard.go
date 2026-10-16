@@ -8,8 +8,10 @@ import (
 	"github.com/egoist/mygo/ui"
 )
 
-// The translucent keyboard in the practice's bottom right corner, which
-// lights the keys as they are pressed: the web's KeyboardOverlay
+// The keyboards of the practice, which show the keys as they are pressed:
+// a faint one in the bottom right corner, or a large unseen one over the
+// bottom half of the window, whose keys glow dimly as they are pressed.
+// They are the web's KeyboardOverlay
 // (src/components/typing/KeyboardOverlay.tsx), with its rows
 // (src/utils/keyboardLayout.ts). The web's keys go by position; MyGo's go
 // by what they type (KeyA types an a), so an AZERTY A lights where QWERTY
@@ -17,11 +19,55 @@ import (
 // as Korean's, do not light.
 
 const (
+	keyboardWidth = 15 // keys
+
 	keySize    = 18
 	keyGap     = 3
 	keyPadding = 8
-	keyFade    = 200 * time.Millisecond
+	cornerFade = 300 * time.Millisecond
+
+	// The large keyboard's room from the window's sides and bottom.
+	largePadding = 24
+	largeFade    = 500 * time.Millisecond
 )
+
+// The keyboard modes, as Prefs.Keyboard, which names its text, as
+// keyboard_mode.corner.
+const (
+	keyboardCorner = "corner"
+	keyboardLarge  = "large"
+	keyboardOff    = "off"
+)
+
+// keyboardModes are the keyboard modes, with their icons, in the order the
+// title bar's button goes through them; the first is the default.
+var keyboardModes = []struct {
+	mode string
+	icon *ui.SVG
+}{
+	{keyboardLarge, iconLargeKeyboard},
+	{keyboardCorner, iconCornerKeyboard},
+	{keyboardOff, iconKeyboardOff},
+}
+
+// keyboardIndex returns the index in keyboardModes of the mode chosen,
+// the default's when none is chosen or the mode is unknown.
+func (a *App) keyboardIndex() int {
+	for i, m := range keyboardModes {
+		if m.mode == a.prefs.Keyboard {
+			return i
+		}
+	}
+	return 0
+}
+
+// keyboardMode returns the mode chosen.
+func (a *App) keyboardMode() string { return keyboardModes[a.keyboardIndex()].mode }
+
+// nextKeyboard switches to the next keyboard mode.
+func (a *App) nextKeyboard() {
+	a.setKeyboard(keyboardModes[(a.keyboardIndex()+1)%len(keyboardModes)].mode)
+}
 
 // keyID is a key of the keyboard: a key, or a modifier, which lights both
 // of its keys, as the system does not tell them apart.
@@ -150,50 +196,104 @@ func (k *keyboard) sync(focused bool, mods ui.Modifiers, now time.Time) {
 	}
 }
 
-// lit returns how lit id is at now, from 0 to 1 while held.
-func (k *keyboard) lit(id keyID, now time.Time) float32 {
+// lit returns how lit id is at now: 1 while held, then dimming over fade
+// as a light going out does.
+func (k *keyboard) lit(id keyID, now time.Time, fade time.Duration) float32 {
 	if k.held[id] {
 		return 1
 	}
-	if d := now.Sub(k.released[id]); d >= 0 && d < keyFade {
-		return 1 - float32(d)/float32(keyFade)
+	if d := now.Sub(k.released[id]); d >= 0 && d < fade {
+		t := 1 - float32(d)/float32(fade)
+		return t * t
 	}
 	return 0
 }
 
-// keyboardView builds the keyboard in the bottom right corner of its
-// parent, under which the pointer reaches the page.
+// keyboardView builds the keyboard of the mode chosen over its parent,
+// under which the pointer reaches the page.
 func (a *App) keyboardView(c *ui.Context, k *keyboard) {
+	switch a.keyboardMode() {
+	case keyboardCorner:
+		a.cornerKeyboard(c, k)
+	case keyboardLarge:
+		a.largeKeyboard(c, k)
+	}
+}
+
+// cornerKeyboard builds the faint keyboard in the bottom right corner,
+// whose keys light as they are pressed.
+func (a *App) cornerKeyboard(c *ui.Context, k *keyboard) {
 	pal := a.pal
+	const pitch = keySize + keyGap
 	ui.Box(c).Absolute().Right(16).Bottom(16).PassThrough().
-		Width(15*keySize+14*keyGap+2*keyPadding).Height(5*keySize+4*keyGap+2*keyPadding).
-		Radius(12).Background(pal.background.Alpha(0.4)).Border(1, pal.border).
+		Width(keyboardWidth*pitch-keyGap+2*keyPadding).Height(float32(len(keyboardRows))*pitch-keyGap+2*keyPadding).
+		Radius(12).Background(pal.background.Alpha(0.15)).Border(1, pal.border.Alpha(0.4)).
 		Draw(func(pt *ui.Painter, r ui.Rect) {
-			now := pt.Now()
-			fading := false
-			y := r.Y + keyPadding
-			for _, row := range keyboardRows {
-				x := r.X + keyPadding
-				for _, kc := range row {
-					kr := ui.Rect{X: x, Y: y, W: kc.width*keySize + (kc.width-1)*keyGap, H: keySize}
-					x += kr.W + keyGap
-					lit := k.lit(kc.keyID, now)
-					// Let go of in this very frame, a key is still fully lit.
-					fading = fading || lit > 0 && !k.held[kc.keyID]
-					pt.Fill(kr, pal.foreground.Alpha(0.05).Mix(pal.primary, lit), 4)
-					pt.Stroke(kr, pal.foreground.Alpha(0.15).Mix(pal.primary, lit), 4, 1)
-					if kc.label != "" {
-						sp := ui.Span{Text: kc.label, Size: 10, Color: pal.foreground.Alpha(0.45).Mix(pal.primaryText, lit)}
-						w, h := pt.MeasureText(0, sp)
-						pt.RichText(kr.X+(kr.W-w)/2, kr.Y+(kr.H-h)/2, 0, sp)
-					}
-				}
-				y += keySize + keyGap
-			}
-			// The fade goes in steps, which the small keys hide, rather
-			// than painting the window at the display's rate.
-			if fading {
-				pt.After(time.Second / 30)
-			}
+			drawKeys(pt, k, r.X+keyPadding, r.Y+keyPadding, pitch, keyGap, cornerFade, func(kr ui.Rect, kc keyCap, lit float32) {
+				pt.Fill(kr, pal.primary.Alpha(0.8*lit), 4)
+				pt.Stroke(kr, pal.foreground.Alpha(0.1).Mix(pal.primary.Alpha(0.8), lit), 4, 1)
+				drawLabel(pt, kr, kc.label, 10, pal.foreground.Alpha(0.25).Mix(pal.primaryText, lit))
+			})
 		})
+}
+
+// largeKeyboard builds the large keyboard over the bottom half of its
+// parent, unseen but for the keys pressed, which glow dimly, then go out.
+func (a *App) largeKeyboard(c *ui.Context, k *keyboard) {
+	pal := a.pal
+	_, h := c.Size()
+	ui.Box(c).Absolute().Left(0).Right(0).Bottom(0).Height(h / 2).PassThrough().
+		Draw(func(pt *ui.Painter, r ui.Rect) {
+			// The key pitch, across the window and the rows in its bottom
+			// half; a tenth of it parts the keys.
+			rows := float32(len(keyboardRows))
+			u := max(0, min((r.W-2*largePadding)/keyboardWidth, (r.H-largePadding)/rows))
+			gap, radius := u/10, u/6
+			x := r.X + (r.W-(keyboardWidth*u-gap))/2
+			y := r.Y + r.H - largePadding - (rows*u - gap)
+			drawKeys(pt, k, x, y, u, gap, largeFade, func(kr ui.Rect, kc keyCap, lit float32) {
+				if lit == 0 {
+					return
+				}
+				pt.Shadow(kr, radius, 0, 0, u/2, 0, pal.primary.Alpha(0.3*lit))
+				pt.Fill(kr, pal.primary.Alpha(0.15*lit), radius)
+				pt.Stroke(kr, pal.primary.Alpha(0.4*lit), radius, 1)
+				drawLabel(pt, kr, kc.label, u/3, pal.primary.Alpha(0.7*lit))
+			})
+		})
+}
+
+// drawKeys lays keyboardRows out from x, y, pitch apart with gap between
+// the keys, and paints each with how lit it is as it fades over fade.
+func drawKeys(pt *ui.Painter, k *keyboard, x, y, pitch, gap float32, fade time.Duration, paint func(kr ui.Rect, kc keyCap, lit float32)) {
+	now := pt.Now()
+	fading := false
+	for _, row := range keyboardRows {
+		kx := x
+		for _, kc := range row {
+			lit := k.lit(kc.keyID, now, fade)
+			// Let go of in this very frame, a key is still fully lit.
+			fading = fading || lit > 0 && !k.held[kc.keyID]
+			paint(ui.Rect{X: kx, Y: y, W: kc.width*pitch - gap, H: pitch - gap}, kc, lit)
+			kx += kc.width * pitch
+		}
+		y += pitch
+	}
+	// The fade goes in steps, which the small keys and the faint glow
+	// hide, rather than painting the window at the display's rate.
+	if fading {
+		pt.After(time.Second / 30)
+	}
+}
+
+// drawLabel paints a key's label in the middle of kr. A color faded to no
+// alpha paints nothing: MyGo would take it for none given and paint the
+// theme's text color.
+func drawLabel(pt *ui.Painter, kr ui.Rect, label string, size float32, c ui.Color) {
+	if label == "" || c.A == 0 {
+		return
+	}
+	sp := ui.Span{Text: label, Size: size, Color: c}
+	w, h := pt.MeasureText(0, sp)
+	pt.RichText(kr.X+(kr.W-w)/2, kr.Y+(kr.H-h)/2, 0, sp)
 }

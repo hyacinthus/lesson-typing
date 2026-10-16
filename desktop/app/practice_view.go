@@ -59,7 +59,7 @@ func (a *App) practicePage(c *ui.Context, id string) {
 			Padding(0, pagePadding, headerHeight, pagePadding).Children(func() {
 			a.typingArea(c, p, typingWidth(w), h-3*headerHeight)
 		})
-		if !p.session.Done && !a.prefs.HideKeyboard {
+		if !p.session.Done {
 			a.keyboardView(c, &p.keys)
 		}
 	})

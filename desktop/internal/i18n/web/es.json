@@ -18,7 +18,11 @@
   "time": "Tiempo",
   "back_home": "Volver al inicio",
   "restart": "Reiniciar",
-  "show_keyboard": "Mostrar teclado",
+  "keyboard_mode": {
+    "corner": "Teclado en la esquina",
+    "large": "Teclado grande",
+    "off": "Sin teclado"
+  },
   "recent_activity": "Actividad Reciente",
   "practice": {
     "sync_failed": "No se pudo guardar este resultado en el servidor; solo cuenta en este dispositivo.",

@@ -74,21 +74,16 @@ func (a *App) capsuleButton(c *ui.Context, label string, content func()) ui.Elem
 }
 
 // toolButton is an icon button on a capsule, with a face only under the
-// pointer, as a toolbar's buttons; its tooltip names its shortcut. With
-// on, it is a toggle that stays pressed while *on, its icon in the theme's
-// color.
-func (a *App) toolButton(c *ui.Context, on *bool, ic *ui.SVG, label, shortcut string) ui.Element {
+// pointer, as a toolbar's buttons; its tooltip names its shortcut. An
+// active one's icon is in the theme's color.
+func (a *App) toolButton(c *ui.Context, ic *ui.SVG, label, shortcut string, active bool) ui.Element {
 	pal := a.pal
-	b := ui.ButtonBase(c)
-	if on != nil {
-		b = ui.ToggleBase(c, on)
-	}
-	b.Label(label).Tooltip(label+"  "+shortcutText(shortcut)).Size(38, 28).Radius(14).Center()
+	b := ui.ButtonBase(c).Label(label).Tooltip(label+"  "+shortcutText(shortcut)).Size(38, 28).Radius(14).Center()
 	if b.Hovered() {
 		b.Background(pal.foreground.Alpha(0.07))
 	}
 	iconColor := pal.foreground.Alpha(0.85)
-	if on != nil && *on {
+	if active {
 		iconColor = pal.primary
 	}
 	return b.Children(func() {
@@ -97,22 +92,23 @@ func (a *App) toolButton(c *ui.Context, on *bool, ic *ui.SVG, label, shortcut st
 }
 
 // practiceControls are the controls of the practice: the collection, a
-// change of lesson, a restart, the keyboard in the corner, and the
-// account.
+// change of lesson, a restart, the next keyboard mode, and the account.
 func (a *App) practiceControls(c *ui.Context, p *practice) {
 	a.collectionButton(c)
 	// A toolbar's capsule, which ui.Toolbar would widen by the room of its
 	// overflow menu.
 	a.capsule(ui.Row(c)).Padding(0, 3).Children(func() {
-		if a.toolButton(c, nil, iconShuffle, a.t("change_article"), "N").Clicked() {
+		if a.toolButton(c, iconShuffle, a.t("change_article"), "N", false).Clicked() {
 			a.nextLesson(p)
 		}
-		if a.toolButton(c, nil, iconRestart, a.t("restart"), "R").Clicked() {
+		if a.toolButton(c, iconRestart, a.t("restart"), "R", false).Clicked() {
 			a.restart(p)
 		}
-		shown := !a.prefs.HideKeyboard
-		if a.toolButton(c, &shown, iconKeyboard, a.t("show_keyboard"), "K").Changed() {
-			a.toggleKeyboard()
+		// Asked every frame, as MyGo takes the shortcut for the next one.
+		shortcut := c.Shortcut(ui.Cmd, ui.KeyK)
+		m := keyboardModes[a.keyboardIndex()]
+		if a.toolButton(c, m.icon, a.t("keyboard_mode."+m.mode), "K", m.mode != keyboardOff).Clicked() || shortcut {
+			a.nextKeyboard()
 		}
 	})
 	a.accountButton(c)

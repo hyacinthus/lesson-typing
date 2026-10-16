@@ -18,7 +18,11 @@
   "time": "Zeit",
   "back_home": "Zur Startseite",
   "restart": "Neu starten",
-  "show_keyboard": "Tastatur anzeigen",
+  "keyboard_mode": {
+    "corner": "Tastatur in der Ecke",
+    "large": "Große Tastatur",
+    "off": "Keine Tastatur"
+  },
   "recent_activity": "Letzte Aktivität",
   "practice": {
     "sync_failed": "Dieses Ergebnis konnte nicht auf dem Server gespeichert werden; es zählt nur auf diesem Gerät.",

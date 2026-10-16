@@ -18,7 +18,11 @@
   "time": "시간",
   "back_home": "홈으로 돌아가기",
   "restart": "다시 시작",
-  "show_keyboard": "키보드 표시",
+  "keyboard_mode": {
+    "corner": "모서리 키보드",
+    "large": "큰 키보드",
+    "off": "키보드 없음"
+  },
   "recent_activity": "최근 활동",
   "practice": {
     "sync_failed": "결과를 서버에 저장하지 못했습니다. 이 기기에만 저장됩니다.",

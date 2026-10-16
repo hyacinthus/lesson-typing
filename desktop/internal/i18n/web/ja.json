@@ -18,7 +18,11 @@
   "time": "時間",
   "back_home": "ホームに戻る",
   "restart": "やり直す",
-  "show_keyboard": "キーボードを表示",
+  "keyboard_mode": {
+    "corner": "隅のキーボード",
+    "large": "大きなキーボード",
+    "off": "キーボードなし"
+  },
   "recent_activity": "最近のアクティビティ",
   "practice": {
     "sync_failed": "結果をサーバーに保存できませんでした。この端末にのみ保存されます。",

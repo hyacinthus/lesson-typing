@@ -53,7 +53,7 @@ export function TypingArea({
   const { t } = useTranslation();
   const user = useAuthStore((s) => s.user);
   const setLoginDialogOpen = useAuthStore((s) => s.setLoginDialogOpen);
-  const keyboardShown = useKeyboardStore((s) => s.shown);
+  const keyboardMode = useKeyboardStore((s) => s.mode);
   const score = getScoreLevel(stats.accuracy, stats.cpm);
   const inputId = 'typing-input-area';
   const [cursorPosition, setCursorPosition] = useState<{ top: number; left: number; height: number } | null>(null);
@@ -189,7 +189,8 @@ export function TypingArea({
             disabled={disabled}
             cursorPosition={cursorPosition}
           />
-          {keyboardShown && <KeyboardOverlay inputId={inputId} />}
+          {/* Keyed, the keys of one mode do not fade into the other's */}
+          {keyboardMode !== 'off' && <KeyboardOverlay key={keyboardMode} inputId={inputId} mode={keyboardMode} />}
         </>
       )}
 

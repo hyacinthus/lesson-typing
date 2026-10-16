@@ -1,6 +1,7 @@
 package app
 
 import (
+	"image"
 	"slices"
 	"testing"
 	"time"
@@ -30,6 +31,7 @@ func TestKeyboardLightsTheKeys(t *testing.T) {
 	h := newHarness(t)
 	tt := h.tt
 	p := h.start()
+	h.app.setKeyboard(keyboardCorner)
 	q, shift := keyID{key: ui.KeyQ}, keyID{mod: ui.Shift}
 	down := func(k ui.Key) { p.keys.observe(ui.InputEvent{Kind: ui.InputKeyDown, Key: k}, time.Now()) }
 
@@ -40,10 +42,10 @@ func TestKeyboardLightsTheKeys(t *testing.T) {
 	if up.Before(before) || p.keys.held[q] {
 		t.Fatalf("Q let go of at %v, held %v", up, p.keys.held[q])
 	}
-	if l := p.keys.lit(q, up.Add(keyFade/2)); l <= 0 || l >= 1 {
+	if l := p.keys.lit(q, up.Add(cornerFade/2), cornerFade); l <= 0 || l >= 1 {
 		t.Fatalf("fading, Q is %v lit", l)
 	}
-	if p.keys.lit(q, up.Add(keyFade)) != 0 {
+	if p.keys.lit(q, up.Add(cornerFade), cornerFade) != 0 {
 		t.Fatal("Q stayed lit")
 	}
 
@@ -65,7 +67,7 @@ func TestKeyboardLightsTheKeys(t *testing.T) {
 	// as it does.
 	now := time.Now()
 	p.keys.observe(ui.InputEvent{Kind: ui.InputKeyUp, Key: ui.KeyN}, now)
-	if p.keys.lit(keyID{key: ui.KeyN}, now) != 1 {
+	if p.keys.lit(keyID{key: ui.KeyN}, now, cornerFade) != 1 {
 		t.Fatal("a key up alone did not light")
 	}
 
@@ -88,28 +90,77 @@ func TestKeyboardLightsTheKeys(t *testing.T) {
 	}
 }
 
-// The title bar's toggle and the Practice menu show and hide the keyboard,
-// which the app remembers.
-func TestKeyboardToggle(t *testing.T) {
+// The title bar's button, Cmd+K and the Practice menu switch between the
+// large keyboard, the default, the one in the corner and none, which the
+// app remembers.
+func TestKeyboardModes(t *testing.T) {
 	h := newHarness(t)
 	a := h.app
-	h.start()
-	label := a.t("show_keyboard")
-	item := menuItem(a, label)
-	if item == nil || !item.Checked || item.Accelerator != "CmdOrCtrl+K" {
-		t.Fatalf("%s: %+v", label, item)
+	tt := h.tt
+	p := h.start()
+	large, corner, off := a.t("keyboard_mode.large"), a.t("keyboard_mode.corner"), a.t("keyboard_mode.off")
+	checked := func(label string) bool {
+		it := menuItem(a, label)
+		if it == nil {
+			t.Fatalf("no %q in the menu", label)
+		}
+		return it.Checked
+	}
+	if !checked(large) || checked(corner) || checked(off) {
+		t.Fatalf("the menu checks %v %v %v", checked(large), checked(corner), checked(off))
+	}
+	p.keys.observe(ui.InputEvent{Kind: ui.InputKeyDown, Key: ui.KeyF}, time.Now())
+	p.keys.observe(ui.InputEvent{Kind: ui.InputKeyDown, Key: ui.KeyJ}, time.Now())
+	tt.HoldModifiers(ui.Shift)
+	tt.Frame()
+	h.snapshot("keyboard-large")
+	tt.HoldModifiers(0)
+
+	h.click(large) // the title bar's button, named after the mode
+	if a.prefs.Keyboard != keyboardCorner || !checked(corner) {
+		t.Fatalf("mode %q, corner checked %v", a.prefs.Keyboard, checked(corner))
 	}
 
-	h.click(label) // the title bar's toggle
-	if !a.prefs.HideKeyboard || menuItem(a, label).Checked {
-		t.Fatalf("hidden %v, checked %v", a.prefs.HideKeyboard, menuItem(a, label).Checked)
+	tt.Key(ui.Cmd, ui.KeyK)
+	tt.Frame()
+	if a.prefs.Keyboard != keyboardOff || !checked(off) {
+		t.Fatalf("after Cmd+K, mode %q", a.prefs.Keyboard)
 	}
-	h.snapshot("keyboard-hidden")
 
-	item = menuItem(a, label)
+	item := menuItem(a, large)
 	item.Click(item, nil)
-	h.settle("the keyboard", func() bool { return !a.prefs.HideKeyboard })
-	if !menuItem(a, label).Checked {
-		t.Fatal("the menu does not check the keyboard shown again")
+	h.settle("the large keyboard", func() bool { return a.prefs.Keyboard == keyboardLarge })
+	if !checked(large) {
+		t.Fatal("the menu does not check the large keyboard")
+	}
+}
+
+// A key at the very end of its fade on the large keyboard paints nothing.
+// Its label's alpha rounds to 0 there, and MyGo paints a span of no alpha
+// in the theme's text color, which flashed the letter at full strength.
+func TestLargeKeyboardFadesOut(t *testing.T) {
+	h := newHarness(t)
+	a, tt := h.app, h.tt
+	p := h.start()
+	a.setKeyboard(keyboardLarge)
+	tt.Frame()
+	unlit := image.NewRGBA(tt.Image().Bounds())
+	copy(unlit.Pix, tt.Image().Pix)
+
+	// 480ms into the 500ms fade, the label's alpha is 0.7*0.04² of 255.
+	p.keys.release(keyID{key: ui.KeyF}, time.Now().Add(-480*time.Millisecond))
+	tt.Frame()
+	img := tt.Image()
+	b := img.Bounds()
+	for y := b.Dy() / 2; y < b.Dy(); y++ {
+		for x := 0; x < b.Dx(); x++ {
+			i := img.PixOffset(x, y)
+			for c := range 3 {
+				if d := int(img.Pix[i+c]) - int(unlit.Pix[i+c]); d > 8 || d < -8 {
+					h.snapshot("keyboard-fade-end")
+					t.Fatalf("the faded key paints at (%d, %d): %v, not %v", x, y, img.Pix[i:i+3], unlit.Pix[i:i+3])
+				}
+			}
+		}
 	}
 }

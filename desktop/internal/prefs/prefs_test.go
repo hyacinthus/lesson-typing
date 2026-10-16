@@ -17,7 +17,7 @@ func TestPrefsRoundTrip(t *testing.T) {
 	if p := s.Load(); p != (Prefs{}) {
 		t.Fatalf("fresh prefs %+v", p)
 	}
-	want := Prefs{Language: "zh", Collection: "grade-2", Theme: "dark", HideKeyboard: true}
+	want := Prefs{Language: "zh", Collection: "grade-2", Theme: "dark", Keyboard: "large"}
 	if err := s.Save(want); err != nil {
 		t.Fatal(err)
 	}

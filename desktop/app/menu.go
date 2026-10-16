@@ -55,10 +55,14 @@ func (a *App) Menu() *mygo.Menu {
 				a.nextLesson(p)
 			}
 		})},
-		// Not one of the commands: it changes nothing a dialog covers.
-		{Label: a.t("show_keyboard"), Accelerator: "CmdOrCtrl+K", Type: mygo.MenuItemCheckbox, Checked: !a.prefs.HideKeyboard,
-			Click: func(*mygo.MenuItem, *mygo.Window) { a.post(a.toggleKeyboard) }},
 	}}
+	// Not commands: they change nothing a dialog covers.
+	practice.Submenu = append(practice.Submenu, mygo.Separator())
+	keyboard := a.keyboardIndex()
+	for i, m := range keyboardModes {
+		practice.Submenu = append(practice.Submenu, &mygo.MenuItem{Label: a.t("keyboard_mode." + m.mode), Type: mygo.MenuItemRadio, Checked: i == keyboard,
+			Click: func(*mygo.MenuItem, *mygo.Window) { a.post(func() { a.setKeyboard(m.mode) }) }})
+	}
 	if cols := a.catalog.collections; len(cols) > 0 {
 		practice.Submenu = append(practice.Submenu, mygo.Separator())
 		current := a.collection().ID

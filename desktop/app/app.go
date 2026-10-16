@@ -252,12 +252,15 @@ func (a *App) setTheme(theme string) {
 	a.changed()
 }
 
-// toggleKeyboard shows or hides the keyboard in the corner of the
-// practice.
-func (a *App) toggleKeyboard() {
-	a.prefs.HideKeyboard = !a.prefs.HideKeyboard
+// setKeyboard chooses how the practice shows the keys pressed: one of
+// keyboardModes.
+func (a *App) setKeyboard(mode string) {
+	if a.prefs.Keyboard == mode {
+		return
+	}
+	a.prefs.Keyboard = mode
 	a.savePrefs()
-	a.updateMenu() // its check
+	a.updateMenu() // its choice
 	a.changed()
 }
 

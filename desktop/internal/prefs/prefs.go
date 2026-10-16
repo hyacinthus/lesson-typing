@@ -21,8 +21,9 @@ type Prefs struct {
 	Collection string `json:"collection,omitempty"`
 	// Theme is "light" or "dark", "" to follow the system.
 	Theme string `json:"theme,omitempty"`
-	// HideKeyboard hides the keyboard in the corner of the practice.
-	HideKeyboard bool `json:"hide_keyboard,omitempty"`
+	// Keyboard is how the practice shows the keys pressed: "large", on a
+	// large keyboard, which "" is too, "corner" or "off".
+	Keyboard string `json:"keyboard,omitempty"`
 }
 
 // Store reads and writes the files of a directory. It is safe for
