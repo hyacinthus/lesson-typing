@@ -2,6 +2,7 @@ package app
 
 import (
 	"encoding/json"
+	"fmt"
 	"image/png"
 	"io"
 	"net/http"
@@ -617,5 +618,64 @@ func TestGoogleSignInComesBackThroughTheBrowser(t *testing.T) {
 			t.Fatal("the sign-in server still answers")
 		}
 		time.Sleep(20 * time.Millisecond)
+	}
+}
+
+// The title bar's EN switches the interface and the lessons to English and
+// back to the user's language, which the app remembers; without a language
+// to go back to, there is no switch.
+func TestEnglishSwitch(t *testing.T) {
+	h := newHarness(t)
+	a, tt := h.app, h.tt
+	h.start()
+	switchItem := func() *mygo.MenuItem { return menuItem(a, a.t("desktop.english_switch")) }
+	if it := switchItem(); it == nil || it.Checked {
+		t.Fatalf("the menu's English switch: %+v", it)
+	}
+
+	h.click("English")
+	h.settle("the English lessons", func() bool { return !a.catalog.loading })
+	if a.lang.Code != english || a.prefs.Language != english || a.prefs.LocalLanguage != "zh" || !tt.HasText(a.t("auth.login")) {
+		t.Fatalf("language %s, prefs %+v, texts %q", a.lang.Code, a.prefs, tt.Texts())
+	}
+	h.snapshot("english-on")
+
+	// The Practice menu's item switches back too.
+	it := switchItem()
+	if it == nil || !it.Checked {
+		t.Fatalf("the menu's English switch: %+v", it)
+	}
+	it.Click(it, nil)
+	h.settle("the Chinese lessons", func() bool { return a.lang.Code == "zh" && !a.catalog.loading })
+	if a.prefs.Language != "zh" || switchItem().Checked {
+		t.Fatalf("prefs %+v, menu %+v", a.prefs, switchItem())
+	}
+
+	a.prefs.LocalLanguage, a.locale = "", "en-US"
+	tt.Frame()
+	if _, ok := tt.Find("English"); ok || switchItem() != nil {
+		t.Fatal("an English switch with no language to go back to")
+	}
+}
+
+// The title bar's controls fit the window, at its narrowest and as wide as
+// it starts to hold the run's status, beside macOS's traffic lights or the
+// window buttons of Windows and Linux.
+func TestTitleBarFits(t *testing.T) {
+	h := newHarness(t)
+	tt := h.tt
+	h.start()
+	login := h.app.t("auth.login")
+	h.typeText("床") // the run's status is wider than the hint before it
+	for _, bar := range []ui.TitleBar{{Height: 28, Left: 78}, {Height: 32, Right: 138}} {
+		tt.SetTitleBar(bar)
+		for _, w := range []int{760, wideHeader, 1200} {
+			tt.SetSize(w, 840)
+			tt.Frame()
+			h.snapshot(fmt.Sprintf("title-bar-%d-%.0f-%.0f", w, bar.Left, bar.Right))
+			if r, ok := tt.Find(login); !ok || r.X+r.W > float32(w)-bar.Right {
+				t.Errorf("%d wide beside %+v, the sign-in button is at %+v", w, bar, r)
+			}
+		}
 	}
 }

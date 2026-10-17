@@ -17,6 +17,9 @@ import (
 type Prefs struct {
 	// Language is the interface's language code, "" until chosen.
 	Language string `json:"language,omitempty"`
+	// LocalLanguage is the language other than English chosen last, which
+	// the title bar's English switch goes back to.
+	LocalLanguage string `json:"local_language,omitempty"`
 	// Collection is the collection last practiced, as "grade-1".
 	Collection string `json:"collection,omitempty"`
 	// Theme is "light" or "dark", "" to follow the system.

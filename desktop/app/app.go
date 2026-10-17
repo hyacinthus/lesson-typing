@@ -39,6 +39,8 @@ type App struct {
 	// lessonID is the lesson the window shows, "" before one opens.
 	lessonID string
 	lang     i18n.Language
+	// locale is the system's language, as "zh-CN".
+	locale   string
 	catalog  *catalog
 	practice *practice
 	account  account
@@ -104,6 +106,7 @@ func New(o Options) *App {
 		setThemeSource:  o.SetThemeSource,
 		checkForUpdates: o.CheckForUpdates,
 		version:         o.Version,
+		locale:          o.Locale,
 		pal:             &lightPalette,
 	}
 	if o.Files != nil {
@@ -135,13 +138,45 @@ func (a *App) setLanguage(l i18n.Language) {
 	}
 	a.lang = l
 	a.tr = i18n.For(l.Code)
-	if a.prefs.Language != l.Code {
-		a.prefs.Language = l.Code
+	old := a.prefs
+	a.prefs.Language = l.Code
+	if l.Code != english {
+		a.prefs.LocalLanguage = l.Code
+	}
+	if a.prefs != old {
 		a.savePrefs()
 	}
 	a.catalog = a.loadCatalog(l)
 	a.lessonID = "" // a lesson of l opens once its lessons load
 	a.updateMenu()
+}
+
+// english is the code of English, which learners of the keyboard practice
+// whatever their language.
+const english = "en"
+
+var englishLanguage, _ = i18n.Find(english)
+
+// localLanguage returns the language the English switch goes back to: the
+// one other than English chosen last, else the system's; false when there
+// is none.
+func (a *App) localLanguage() (i18n.Language, bool) {
+	l := InitialLanguage(a.prefs.LocalLanguage, a.locale)
+	return l, l.Code != english
+}
+
+// toggleEnglish switches the interface and the lessons to English, or back
+// to the user's language.
+func (a *App) toggleEnglish() {
+	to, ok := a.localLanguage()
+	if !ok {
+		return
+	}
+	if a.lang.Code != english {
+		to = englishLanguage
+	}
+	a.setLanguage(to)
+	a.changed()
 }
 
 // updateMenu sets the application menu again, as the language, the

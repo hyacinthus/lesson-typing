@@ -56,6 +56,10 @@ func (a *App) Menu() *mygo.Menu {
 			}
 		})},
 	}}
+	if _, ok := a.localLanguage(); ok {
+		practice.Submenu = append(practice.Submenu, &mygo.MenuItem{Label: a.t("desktop.english_switch"), Type: mygo.MenuItemCheckbox,
+			Checked: a.lang.Code == english, Click: do(a.toggleEnglish)})
+	}
 	// Not commands: they change nothing a dialog covers.
 	practice.Submenu = append(practice.Submenu, mygo.Separator())
 	keyboard := a.keyboardIndex()

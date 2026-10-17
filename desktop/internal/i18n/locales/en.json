@@ -14,6 +14,7 @@
     "welcome_hint": "You can switch any time with the button at the top right, or from the Practice menu.",
     "lesson_count": "{{count}} lessons",
     "switch_collection": "Switch collection",
+    "english_switch": "Practice in English",
     "grade": "Rank"
   },
   "menu": {

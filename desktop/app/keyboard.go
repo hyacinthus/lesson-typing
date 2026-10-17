@@ -290,10 +290,11 @@ func drawKeys(pt *ui.Painter, k *keyboard, x, y, pitch, gap float32, fade time.D
 // alpha paints nothing: MyGo would take it for none given and paint the
 // theme's text color.
 func drawLabel(pt *ui.Painter, kr ui.Rect, label string, size float32, c ui.Color) {
-	if label == "" || c.A == 0 {
+	if label == "" || c.A == 0 || size <= 0 {
 		return
 	}
-	sp := ui.Span{Text: label, Size: size, Color: c}
-	w, h := pt.MeasureText(0, sp)
-	pt.RichText(kr.X+(kr.W-w)/2, kr.Y+(kr.H-h)/2, 0, sp)
+	// Measured without its color, which changes as it fades, the label
+	// stays in MyGo's cache of measured spans.
+	w, h := pt.MeasureText(0, ui.Span{Text: label, Size: size})
+	pt.RichText(kr.X+(kr.W-w)/2, kr.Y+(kr.H-h)/2, 0, ui.Span{Text: label, Size: size, Color: c})
 }

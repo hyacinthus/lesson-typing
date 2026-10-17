@@ -23,7 +23,11 @@ const (
 func (a *App) startPage(c *ui.Context) {
 	pal, cat := a.pal, a.catalog
 	ui.Column(c).Fill().Background(pal.background).Children(func() {
-		a.titleBar(c, "Lesson Typing", nil, func() { a.accountButton(c) })
+		// English stays at hand: its lessons may fail to load too.
+		a.titleBar(c, "Lesson Typing", nil, func() {
+			a.englishSwitch(c)
+			a.accountButton(c)
+		})
 		ui.Column(c).Grow(1).Center().Gap(12).Padding(0, 24, headerHeight, 24).Children(func() {
 			switch {
 			case cat.err != nil:

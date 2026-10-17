@@ -338,7 +338,7 @@ func (a *App) accountButton(c *ui.Context) {
 	if s == nil {
 		if a.capsuleButton(c, a.t("auth.login"), func() {
 			ui.Icon(c, iconUser).FontSize(16)
-			ui.Text(c, a.t("auth.login")).FontSize(13)
+			ui.Text(c, a.t("auth.login")).FontSize(13).NoWrap()
 		}).Clicked() {
 			a.openLogin()
 		}

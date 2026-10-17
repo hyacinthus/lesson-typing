@@ -42,6 +42,8 @@ func (a *App) titleBar(c *ui.Context, title string, center, right func()) {
 		if center != nil {
 			ui.Row(c).Shrink(0).Children(center)
 		}
+		// As wide as the title's side, the controls keep the center in the
+		// middle, but never narrower than their texts, which do not wrap.
 		ui.Row(c).Basis(0).Grow(1).Gap(10).Justify(ui.End).Children(right)
 	})
 }
@@ -64,9 +66,14 @@ func shortcutText(key string) string {
 // capsuleButton is a button of the title bar on a capsule, showing what
 // content builds.
 func (a *App) capsuleButton(c *ui.Context, label string, content func()) ui.Element {
+	return a.capsuleFace(ui.Button(c, ""), label, content)
+}
+
+// capsuleFace gives b, a button or a toggle, the look of the title bar's
+// capsules, showing what content builds.
+func (a *App) capsuleFace(b ui.Element, label string, content func()) ui.Element {
 	pal := a.pal
-	b := ui.Button(c, "").Label(label)
-	a.capsule(b).Padding(0, 12).Gap(6)
+	a.capsule(b).Label(label).Padding(0, 12).Gap(6)
 	if b.Hovered() {
 		b.Background(pal.capsule.Mix(pal.foreground, 0.05))
 	}
@@ -91,9 +98,11 @@ func (a *App) toolButton(c *ui.Context, ic *ui.SVG, label, shortcut string, acti
 	})
 }
 
-// practiceControls are the controls of the practice: the collection, a
-// change of lesson, a restart, the next keyboard mode, and the account.
+// practiceControls are the controls of the practice: English, the
+// collection, a change of lesson, a restart, the next keyboard mode, and
+// the account.
 func (a *App) practiceControls(c *ui.Context, p *practice) {
+	a.englishSwitch(c)
 	a.collectionButton(c)
 	// A toolbar's capsule, which ui.Toolbar would widen by the room of its
 	// overflow menu.
@@ -114,6 +123,28 @@ func (a *App) practiceControls(c *ui.Context, p *practice) {
 	a.accountButton(c)
 }
 
+// englishSwitch switches the interface and the lessons to English, and
+// back to the user's language, as the settings' language does: whatever
+// their language, learners of the keyboard practice English. There is
+// none without a language to go back to.
+func (a *App) englishSwitch(c *ui.Context) {
+	if _, ok := a.localLanguage(); !ok {
+		return
+	}
+	pal := a.pal
+	on := a.lang.Code == english
+	color := pal.mutedForeground
+	if on {
+		color = pal.primary
+	}
+	b := a.capsuleFace(ui.ToggleBase(c, &on), englishLanguage.Label, func() {
+		ui.Text(c, "EN").FontSize(13).FontWeight(600).TextColor(color)
+	}).Tooltip(a.t("desktop.english_switch"))
+	if b.Changed() {
+		a.toggleEnglish()
+	}
+}
+
 // collectionButton chooses the collection to practice from a menu, as the
 // menu bar's Practice menu does: a rare choice, which the title bar keeps
 // small.
@@ -126,7 +157,7 @@ func (a *App) collectionButton(c *ui.Context) {
 	current := a.collection()
 	b := a.capsuleButton(c, current.Name, func() {
 		ui.Icon(c, iconBook).FontSize(15).TextColor(pal.primary)
-		ui.Text(c, current.Name).FontSize(13).FontWeight(500).SingleLine()
+		ui.Text(c, current.Name).FontSize(13).FontWeight(500).NoWrap()
 		ui.Icon(c, iconChevronsUpDown).FontSize(11).TextColor(pal.mutedForeground)
 	}).Tooltip(a.t("desktop.switch_collection"))
 	b.Menu(func(m *ui.Menu) {
