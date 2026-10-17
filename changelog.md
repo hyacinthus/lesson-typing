@@ -1,13 +1,14 @@
-## v0.23.0 (2026-10-15)
+## v0.24.0 (2026-10-17)
 
 ### Features
-- **A download page for the desktop app** — `lessontyping.com/<language>/download`, or just `/download`, offers the installer for the visitor's system: the macOS disk image, the Windows installer or the Debian package. It shows the latest release's version and file sizes, every platform's download, the one-line Linux install command, and how to open the app the first time on macOS and Windows. The account menu (Desktop App) and a link under the home page's features lead to it.
-- The download page has its own title, description and language links for search engines and link previews, in every language, and is in the sitemap.
+- **The keys you press, shown on a keyboard while you type** — by default, a large keyboard over the bottom half of the practice, as wide as the window and unseen but for the keys pressed, which glow dimly where they are and fade out. Keys go by their position, so those an input method composes with show too, with the labels of the keyboard's layout where the browser tells them (Chromium).
+- **Three keyboard modes** — a button in the practice's toolbar switches between the large keyboard, a small faint one in the bottom right corner that lights the keys pressed, and none; the choice is remembered. On the desktop app, ⌘K (Ctrl+K) switches it too, and the Practice menu lists the three. On the web, the keyboards and their button show on screens of tablet width and up.
+- **Desktop: an English switch in the title bar** — the EN capsule, on the practice and the start page, switches the interface and the lessons to English, and back to your language: the last one chosen in Settings other than English, or the system's. It is blue while English is on, and the Practice menu has it too (Practice in English). There is none when the app has no language other than English to go back to.
 
 ### Fixes
-- **Pages that don't exist go to the home page** — `/en/nope` showed a blank page. Addresses without a language, such as `/download`, keep their page in the reader's language.
-- Switching the language on the home page changes the tab's title too, and a new page opens at its top.
+- **Desktop on Windows and Linux: the title bar's controls stay clear of the window's buttons** — in narrow windows, and during a run in windows wide enough to show its status in the title bar, the account button could slide under minimize, maximize and close.
 
-The desktop app itself has no changes in this version.
+### Maintenance
+- Dependencies with known vulnerabilities updated (`npm audit fix`, lockfile only).
 
-**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.22.0...v0.23.0
+**Full Changelog**: https://github.com/hyacinthus/lesson-typing/compare/v0.23.0...v0.24.0
