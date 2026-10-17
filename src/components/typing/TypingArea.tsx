@@ -18,6 +18,7 @@ import { useKeyboardStore } from '../../stores/keyboardStore';
 import { shouldMaintainTypingFocus } from '../../hooks/useCompositionInput';
 import { formatTime, getScoreLevel } from '../../utils/statsCalculator';
 import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 
 interface TypingAreaProps {
   characters: Character[];
@@ -137,7 +138,9 @@ export function TypingArea({
   }, [currentIndex]);
 
   return (
-    <div className="max-w-4xl mx-auto px-4">
+    // While typing, half a screen of room under the text lets the auto-scroll
+    // keep its last lines above the middle, clear of the large keyboard
+    <div className={cn('max-w-4xl mx-auto px-4', !isCompleted && 'pb-[50vh]')}>
       {/* 统计面板 */}
       <StatsPanel stats={stats} />
 
@@ -352,11 +355,6 @@ export function TypingArea({
           </Suspense>
           <Leaderboard lessonId={lessonId} />
         </div>
-      )}
-
-      {/* Leaderboard before completion */}
-      {!isCompleted && (
-        <Leaderboard lessonId={lessonId} />
       )}
     </div>
   );
